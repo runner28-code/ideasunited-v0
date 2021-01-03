@@ -1,0 +1,2 @@
+<template>
+  <transition name="fade">
