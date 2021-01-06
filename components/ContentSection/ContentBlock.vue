@@ -1,2 +1,1 @@
-<template>
   <transition name="fade">
