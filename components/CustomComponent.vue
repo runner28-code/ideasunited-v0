@@ -1,1 +1,1 @@
-  <div class="custom-sfc">
+<template>
