@@ -9,3 +9,5 @@
           ></div>
           <div class="root-lede__preview-media" ref="previewMedia"
             :class="{'iris-loaded': mounted}"
+          >
+            <div class="root-lede__preview-image"

@@ -5,3 +5,5 @@
       class="opportunity-page"
       :class="`opportunity-${currentProject.id}`"
     >
+      <transition name="fade">
+        <div

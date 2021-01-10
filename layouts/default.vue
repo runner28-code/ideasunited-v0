@@ -4,3 +4,4 @@
     class="evp-app"
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
   >
+    <client-only>
