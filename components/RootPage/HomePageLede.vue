@@ -11,3 +11,7 @@
             :class="{'iris-loaded': mounted}"
           >
             <div class="root-lede__preview-image"
+              ref="previewImage"
+              :style="{ backgroundImage: `url(${slides[currentSlideIndex]})` }"
+            ></div>
+            <div class="root-lede__preview-video" ref="previewVideo">

@@ -5,3 +5,5 @@
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
   >
     <client-only>
+      <div class="account-menu-toggle">
+        <v-btn @click.stop="accountMenuClick" icon>
