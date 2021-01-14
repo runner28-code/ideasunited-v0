@@ -118,7 +118,6 @@
     "@babel/helper-get-function-arity" "^7.16.0"
     "@babel/template" "^7.16.0"
     "@babel/types" "^7.16.0"
-
 "@babel/helper-get-function-arity@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-get-function-arity/-/helper-get-function-arity-7.16.0.tgz#0088c7486b29a9cb5d948b1a1de46db66e089cfa"

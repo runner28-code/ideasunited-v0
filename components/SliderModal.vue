@@ -1,5 +1,5 @@
 <template>
   <div>
-      max-width="1440"
+    <v-dialog
       content-class="slider-modal"
       :value="value"
