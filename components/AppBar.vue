@@ -9,5 +9,4 @@
             alt="Logo"
           />
         </nuxt-link>
-      </div>
     </v-toolbar-title>

@@ -8,6 +8,7 @@
             v-rellax="{speed: ['sm', 'xs'].includes($size) ? 0.5 : 3, center: true, percentage: 0.5}"
           ></div>
           <div class="root-lede__preview-media" ref="previewMedia"
+            :class="{'iris-loaded': mounted}"
           >
             <div class="root-lede__preview-image"
               ref="previewImage"
