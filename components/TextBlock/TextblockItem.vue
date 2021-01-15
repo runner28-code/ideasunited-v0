@@ -1,3 +1,3 @@
 <template>
-    :is="item.link ? 'a' : 'div'"
+  <component
     :href="item.link"

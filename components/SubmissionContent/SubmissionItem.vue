@@ -1,3 +1,3 @@
 <template>
   <div>
-      <div class="submission-item" :style="styles">
+    <v-responsive @click="dialog = true" :aspect-ratio="480 / 280">
