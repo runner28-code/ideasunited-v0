@@ -1,2 +1,1 @@
-<template>
   <div class="eligibles">
