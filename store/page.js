@@ -15,6 +15,7 @@ const store = {
       const payload = { posted: true };
       updateCollection({ collection, id, payload });
     },
+// Temp comment
     unpublishEvent(state, id) {
       const collection = state.current?.events;
       const payload = { posted: false };
@@ -30,7 +31,6 @@ const store = {
       const payload = { posted: true };
       updateCollection({ collection, id: blockId, payload });
     },
-// Temp comment
     unpublishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
