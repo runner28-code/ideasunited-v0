@@ -8,6 +8,7 @@ export async function buildZoomLink({
   const { data } = await $api.Service.zoomSignature({
     zoom_id,
   });
+  const { signature, api_key: apiKey } = data;
 
   let urlParams = "";
   const params = {
