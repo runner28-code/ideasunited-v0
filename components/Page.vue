@@ -10,3 +10,4 @@
           class="background-lede"
           :style="backgroundLedeStyles"
           :key="currentSlide"
+        >

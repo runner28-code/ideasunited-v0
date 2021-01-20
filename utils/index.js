@@ -2,7 +2,6 @@ export async function buildZoomLink({
   $api,
   zoom_id,
   zoom_password,
-  full_name,
   email,
 }) {
   const { data } = await $api.Service.zoomSignature({
@@ -15,6 +14,7 @@ export async function buildZoomLink({
     signature,
     apiKey,
     zoomId: zoom_id,
+  };
 
   if (zoom_password) {
     params.zoomPassword = zoom_password;

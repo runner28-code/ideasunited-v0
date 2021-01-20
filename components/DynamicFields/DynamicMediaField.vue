@@ -4,3 +4,4 @@
       <v-file-input
         class="file-input"
         :placeholder="label + (required && markRequired ? ' *' : '')"
+        :value="value"

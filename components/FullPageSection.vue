@@ -3,3 +3,4 @@
     <v-responsive
       class="mobile-bglede"
       :aspect-ratio="375 / 304"
+      :style="mobileBgLedeStyles"

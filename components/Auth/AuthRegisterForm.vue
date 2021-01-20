@@ -6,3 +6,4 @@
           <AuthForm
             :login-form-request="loginFormRequest"
             @loginFormResponse="loginFormResponse"
+          />

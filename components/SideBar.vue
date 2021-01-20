@@ -9,3 +9,5 @@
     absolute
     :width="drawerWidth"
     touchless
+  >
+    <v-btn icon class="rightsidebar__close" @click="$emit('input', false)">

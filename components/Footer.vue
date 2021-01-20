@@ -4,3 +4,5 @@
       <div class="footer__start">
         <a href="/" class="footer__logo">
           <img src="~/assets/images/logo.png" alt="iU Community ™" />
+        </a>
+
