@@ -11,3 +11,4 @@
           :style="backgroundLedeStyles"
           :key="currentSlide"
         >
+          <div

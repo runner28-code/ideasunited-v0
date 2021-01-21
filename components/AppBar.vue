@@ -6,6 +6,7 @@
           <img
             v-if="logo && !currentProject.hide_frontend_logo"
             :src="logo"
+            alt="Logo"
           />
         </nuxt-link>
       </div>

@@ -12,3 +12,4 @@
         v-if="contentSection.more_link_url && contentSection.more_link_text"
         :href="contentSection.more_link_url | url"
       >
+        <span>
