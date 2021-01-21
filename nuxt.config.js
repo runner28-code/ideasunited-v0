@@ -4,3 +4,7 @@
 // console.log({
 //   baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
 //   browserBaseURL: process.env.API_PUBLIC_PATH,
+// });
+export default {
+  server: {
+    port: 8000, // default: 3000

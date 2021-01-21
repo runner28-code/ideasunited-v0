@@ -1,4 +1,4 @@
 <template>
   <div class="message">
-      <Avatar
+    <div class="message-wrapper">
         :name="message.user.full_name"

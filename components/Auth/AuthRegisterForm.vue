@@ -7,3 +7,4 @@
             :login-form-request="loginFormRequest"
             @loginFormResponse="loginFormResponse"
           />
+          <div class="auth-register-form__not-registered">

@@ -18,3 +18,4 @@
               <v-btn class="close root-lede__close-reel" icon @click.prevent="closeReel">
                 <v-icon size="30" color="white">$close</v-icon>
               </v-btn>
+              <video

@@ -3,3 +3,4 @@
     <div class="root-lede-play__btn">
     </div>
     <div class="root-lede-play__ring">
+      <svg
