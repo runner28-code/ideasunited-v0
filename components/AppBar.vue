@@ -12,5 +12,4 @@
       </div>
     </v-toolbar-title>
     <a
-      href="/more"
       @click.prevent="dropdownClick"
