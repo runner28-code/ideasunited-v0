@@ -19,3 +19,5 @@
                 <v-icon size="30" color="white">$close</v-icon>
               </v-btn>
               <video
+                class="root-lede__video"
+                preload="true"

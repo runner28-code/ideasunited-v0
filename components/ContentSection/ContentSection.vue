@@ -13,3 +13,5 @@
         :href="contentSection.more_link_url | url"
       >
         <span>
+          {{ contentSection.more_link_text }}
+        </span>

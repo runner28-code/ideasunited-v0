@@ -17,3 +17,4 @@
     </v-main>
     <AuthModal />
     <Alert />
+    <Notification />

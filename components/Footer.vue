@@ -6,3 +6,4 @@
           <img src="~/assets/images/logo.png" alt="iU Community ™" />
         </a>
 
+        <div class="footer__separator"></div>

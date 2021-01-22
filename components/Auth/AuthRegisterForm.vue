@@ -8,3 +8,4 @@
             @loginFormResponse="loginFormResponse"
           />
           <div class="auth-register-form__not-registered">
+            <p class="auth-register-form__not-registered-cta">

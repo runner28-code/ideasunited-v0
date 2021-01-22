@@ -7,3 +7,4 @@
           <div class="countdown-timer__item" v-if="days">
             <div class="countdown-timer__item-value">{{ days }}</div>
             <div class="countdown-timer__item-label">days</div>
+          </div>
