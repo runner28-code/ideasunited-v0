@@ -7,3 +7,4 @@
             iU Creator Login
           </span>
         </div>
+        <v-form @submit.prevent="login" ref="form" :disabled="disabled">

@@ -4,3 +4,4 @@
     v-model="valid"
     ref="form"
     class="dynamic-form"
+    :disabled="disabled"

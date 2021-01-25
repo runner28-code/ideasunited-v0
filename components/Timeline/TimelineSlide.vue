@@ -4,5 +4,6 @@
       {{
         (value.display_time || value.start_at)
           | moment("timezone", currentTimezone, "dddd MMM Do")
+      }}
     </div>
     <v-responsive

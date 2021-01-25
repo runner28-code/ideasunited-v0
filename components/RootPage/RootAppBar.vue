@@ -8,3 +8,4 @@
       clipped-left
     >
       <v-toolbar-title class="toolbar-title">
+        <router-link to="/" class="logo-link">

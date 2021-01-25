@@ -8,3 +8,4 @@
             <div class="countdown-timer__item-value">{{ days }}</div>
             <div class="countdown-timer__item-label">days</div>
           </div>
+          <div class="countdown-timer__item">
