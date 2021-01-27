@@ -6,4 +6,3 @@
   >
     <client-only>
       <RootAppBar
-        @toggleSidebar="drawer = !drawer"

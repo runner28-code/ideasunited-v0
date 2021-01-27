@@ -1,1 +1,1 @@
-import Event from "./Event/Event";
+import ContentSection from "./ContentSection/ContentSection";

@@ -3,3 +3,4 @@
     v-if="alert"
     class="alert-container"
     v-model="alert"
+    top
