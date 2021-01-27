@@ -3,7 +3,6 @@ import list from "./stopwords.json";
 class Filter {
   constructor(options = {}) {
     Object.assign(this, {
-      list,
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
       placeHolder: options.placeHolder || "*",
@@ -23,7 +22,6 @@ class Filter {
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
       }).length > 0 || false
-// Temp comment
     );
   }
 

@@ -31,10 +31,8 @@ const store = {
       updateCollection({ collection, id: blockId, payload });
     },
     unpublishContentBlock(state, { sectionId, blockId }) {
-// Temp comment
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
-      updateCollection({ collection, id: blockId, payload });
     }
   },
   actions: {

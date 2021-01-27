@@ -7,3 +7,4 @@
       }}
     </div>
     <v-responsive
+      @click="setActive"

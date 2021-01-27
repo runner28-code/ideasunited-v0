@@ -16,3 +16,6 @@
       @click.prevent="dropdownClick"
       v-if="gridMenuPages.length"
       class="app-bar__dropdown"
+      :style="{ color: activeTheme.primary_color }"
+    >
+      <div class="app-bar__dropdown-title">

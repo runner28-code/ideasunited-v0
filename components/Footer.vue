@@ -6,3 +6,6 @@
           <img src="~/assets/images/logo.png" alt="iU Community ™" />
         </a>
 
+        <div class="footer__separator"></div>
+
+        <div class="copyright">© {{ year }} Ideas United</div>

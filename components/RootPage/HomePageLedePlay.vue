@@ -4,3 +4,4 @@
     </div>
     <div class="root-lede-play__ring">
       <svg
+        viewBox="0 0 200 200"

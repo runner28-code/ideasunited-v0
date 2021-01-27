@@ -6,3 +6,6 @@
   >
     <client-only>
       <RootAppBar
+        @toggleSidebar="drawer = !drawer"
+      />
+      <SideBar v-model="drawer" />
