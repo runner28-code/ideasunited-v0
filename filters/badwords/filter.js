@@ -3,6 +3,7 @@ import list from "./stopwords.json";
 class Filter {
   constructor(options = {}) {
     Object.assign(this, {
+      list,
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
       placeHolder: options.placeHolder || "*",
@@ -19,7 +20,6 @@ class Filter {
           "gi"
         );
         return (
-          !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
       }).length > 0 || false
     );
