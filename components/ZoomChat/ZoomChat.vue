@@ -1,2 +1,2 @@
 <template>
-    <iframe
+  <div class="zoom-chat">

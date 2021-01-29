@@ -1,2 +1,3 @@
+<template>
   <div class="chat-header">
     <div

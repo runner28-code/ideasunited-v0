@@ -1,6 +1,5 @@
 /* eslint-disable */
 
-// Temp comment
 const store = {
   namespaced: true,
   state: () => ({ current: null }),
