@@ -42,3 +42,4 @@
         @click="swiperInstance.slidePrev()"
       >
         <v-icon size="40">$chevron_left</v-icon>
+      </v-btn>

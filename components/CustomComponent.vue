@@ -3,3 +3,4 @@
     <component
       :key="key"
       v-if="loaded"
+      :is="customComponent.sfc_name"

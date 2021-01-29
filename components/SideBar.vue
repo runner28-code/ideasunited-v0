@@ -14,7 +14,10 @@
       <v-icon size="36">$close</v-icon>
     </v-btn>
     <v-list dense>
+      <v-list-item
         v-for="(menuItem, idx) in menuPages"
         :key="menuItem.id"
         class="rightsidebar__item rightsidebar__item-mobile"
         :to="`#${menuItem.url}`"
+        v-ripple="false"
+      >

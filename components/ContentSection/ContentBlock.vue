@@ -9,3 +9,4 @@
     >
       <v-responsive
         @click="openDialog"
+        class="content-section-item__wrapper"

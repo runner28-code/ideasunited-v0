@@ -6,3 +6,4 @@
     <div class="text-block__side">
       <TextblockItem :item="calcList[0]" />
       <TextblockItem
+        :item="calcList[1]"

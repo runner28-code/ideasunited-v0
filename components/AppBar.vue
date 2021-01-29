@@ -21,3 +21,7 @@
       <div class="app-bar__dropdown-title">
         {{ activeGridMenuTitle || activeTheme.header_dropdown_placeholder }}
       </div>
+      <div class="app-bar__dropdown-icon">
+        <v-icon>$menu_down</v-icon>
+      </div>
+    </a>

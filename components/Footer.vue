@@ -9,3 +9,6 @@
         <div class="footer__separator"></div>
 
         <div class="copyright">© {{ year }} Ideas United</div>
+      </div>
+      <div class="footer__menu">
+        <div class="footer__menu-item" v-if="supportForm">
