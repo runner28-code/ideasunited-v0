@@ -21,6 +21,7 @@
             <div class="countdown-timer__item-label">mins</div>
           </div>
           <div class="countdown-timer__item">
+            <div class="countdown-timer__item-value">
               {{ seconds }}
             </div>
             <div class="countdown-timer__item-label">secs</div>

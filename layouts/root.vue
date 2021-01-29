@@ -12,3 +12,4 @@
     </client-only>
     <v-main>
       <HomePageLede />
+      <Nuxt :key="key" ref="main-content" />

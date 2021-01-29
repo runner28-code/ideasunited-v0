@@ -1,3 +1,4 @@
+<template>
   <v-app
     v-if="currentProject"
     class="evp-app"
@@ -16,5 +17,4 @@
         </v-btn>
       </div>
       <SideBar v-model="drawer" :no-root="true" />
-    </client-only>
     <AppBar @changeKey="key = key + 1" />
