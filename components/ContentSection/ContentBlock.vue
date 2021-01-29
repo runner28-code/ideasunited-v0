@@ -7,3 +7,5 @@
           block.content_type == 'no_content'
       }"
     >
+      <v-responsive
+        @click="openDialog"

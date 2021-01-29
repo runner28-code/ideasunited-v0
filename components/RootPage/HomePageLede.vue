@@ -13,7 +13,6 @@
             <div class="root-lede__preview-image"
               ref="previewImage"
               :style="{ backgroundImage: `url(${slides[currentSlideIndex]})` }"
-            ></div>
             <div class="root-lede__preview-video" ref="previewVideo">
               <v-btn class="close root-lede__close-reel" icon @click.prevent="closeReel">
                 <v-icon size="30" color="white">$close</v-icon>
@@ -26,3 +25,6 @@
                 controls
                 :class="{fullscreen, playing}"
               >
+                <source type="video/mp4" src="https://player.vimeo.com/external/646664652.m3u8?s=3ef0be8be36a8a48d8744d7df3434739a739379f&amp;oauth2_token_id=1544629081">
+                <source type="video/mp4" src="https://player.vimeo.com/external/646664652.hd.mp4?s=316a6bab06d8b9ea48e50aaa38c7c9be5b67be27&amp;profile_id=175&amp;oauth_token_id=1544629081">
+                <source type="video/mp4" src="https://player.vimeo.com/external/646664652.hd.mp4?s=316a6bab06d8b9ea48e50aaa38c7c9be5b67be27&amp;profile_id=174&amp;oauth_token_id=1544629081">

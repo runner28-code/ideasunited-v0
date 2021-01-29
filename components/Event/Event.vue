@@ -9,7 +9,6 @@
         ? currentPage.chats[0].chat_type == 'text'
         : false,
       chat_is_zoom: currentPage.chats.length
-        ? currentPage.chats[0].chat_type == 'zoom'
         : false
     }"
   >
@@ -18,3 +17,5 @@
       class="event__video"
       v-if="currentPage.events.length"
     >
+      <div class="event__video-container" v-if="activeEvent">
+        <div class="event__video-player">

@@ -2,3 +2,4 @@
 ### Node template
 # Logs
 /logs
+*.log

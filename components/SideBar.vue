@@ -6,6 +6,7 @@
     @input="$emit('input', $event)"
     class="rightsidebar"
     hide-overlay
+    absolute
     :width="drawerWidth"
     touchless
   >
@@ -13,5 +14,7 @@
       <v-icon size="36">$close</v-icon>
     </v-btn>
     <v-list dense>
-      <v-list-item
         v-for="(menuItem, idx) in menuPages"
+        :key="menuItem.id"
+        class="rightsidebar__item rightsidebar__item-mobile"
+        :to="`#${menuItem.url}`"

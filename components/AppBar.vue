@@ -19,3 +19,5 @@
       :style="{ color: activeTheme.primary_color }"
     >
       <div class="app-bar__dropdown-title">
+        {{ activeGridMenuTitle || activeTheme.header_dropdown_placeholder }}
+      </div>

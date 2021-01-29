@@ -8,3 +8,4 @@
     </div>
     <v-responsive
       @click="setActive"
+      class="timeline-slide__wrapper"

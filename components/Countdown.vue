@@ -15,7 +15,6 @@
             <div class="countdown-timer__item-label">hrs</div>
           </div>
           <div class="countdown-timer__item">
-            <div class="countdown-timer__item-value">
               {{ minutes }}
             </div>
             <div class="countdown-timer__item-label">mins</div>

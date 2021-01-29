@@ -13,3 +13,6 @@
         </router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <transition name="fade">
+        <div
+          class="app-bar__new-opps"

@@ -5,3 +5,4 @@
     hide-details="auto"
     outlined
     class="text-field"
+    :placeholder="placeholder"

@@ -17,3 +17,5 @@
           >
             <img :src="opportunityLogo" alt="Logo" />
           </div>
+        </div>
+      </transition>

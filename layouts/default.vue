@@ -14,3 +14,5 @@
               class="opp-count"
             >{{ newOpps.length }}</div>
           </transition>
+        </v-btn>
+      </div>
