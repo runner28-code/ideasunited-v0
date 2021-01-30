@@ -21,3 +21,4 @@
         :to="`#${menuItem.url}`"
         v-ripple="false"
       >
+        <span @click="menuClick(menuItem, idx)">

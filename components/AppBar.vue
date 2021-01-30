@@ -25,3 +25,4 @@
         <v-icon>$menu_down</v-icon>
       </div>
     </a>
+    <div class="app-bar__nav">

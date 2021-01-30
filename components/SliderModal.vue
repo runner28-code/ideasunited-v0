@@ -7,3 +7,4 @@
       @input="$emit('input', $event)"
       v-if="value"
     >
+      <div class="slider-modal__wrapper" @click="close">

@@ -12,3 +12,4 @@
       </div>
       <div class="footer__menu">
         <div class="footer__menu-item" v-if="supportForm">
+          <a @click.prevent="supportDialog = true"

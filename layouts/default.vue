@@ -1,5 +1,4 @@
 <template>
-  <v-app
     v-if="currentProject"
     class="evp-app"
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
@@ -11,6 +10,7 @@
           <transition name="fade">
             <div
               v-if="newOpps.length"
+              class="opp-count"
             >{{ newOpps.length }}</div>
           </transition>
         </v-btn>

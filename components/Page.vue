@@ -1,5 +1,4 @@
 <template>
-  <div>
     <div
       v-if="fullpageReady"
       class="opportunity-page"
@@ -22,3 +21,4 @@
       <div class="fullpage-outer-container">
         <div class="fullpage-container">
           <no-ssr>
+            <full-page

@@ -10,3 +10,4 @@
       <component
         :is="`Dynamic${field.type}`"
         v-bind="field"
+        v-model="form.data[field.uuid]"

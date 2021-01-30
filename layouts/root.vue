@@ -13,3 +13,4 @@
     <v-main>
       <HomePageLede />
       <Nuxt :key="key" ref="main-content" />
+      <Footer :is-static="true"/>

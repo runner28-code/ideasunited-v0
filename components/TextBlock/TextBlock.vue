@@ -7,3 +7,7 @@
       <TextblockItem :item="calcList[0]" />
       <TextblockItem
         :item="calcList[1]"
+        v-if="textBlock.layout == 4"
+      />
+      <TextblockItem
+        :item="calcList[2]"
