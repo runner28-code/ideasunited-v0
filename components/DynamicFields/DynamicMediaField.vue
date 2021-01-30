@@ -7,6 +7,5 @@
         :value="value"
         @input="$emit('input', $event)"
         :rules="rules"
-        outlined
         prepend-icon=""
         @change="handleFileChange"

@@ -11,7 +11,6 @@
         class="content-section__more"
         v-if="contentSection.more_link_url && contentSection.more_link_text"
         :href="contentSection.more_link_url | url"
-      >
         <span>
           {{ contentSection.more_link_text }}
         </span>
