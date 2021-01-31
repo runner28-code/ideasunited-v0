@@ -22,6 +22,7 @@ class Filter {
         return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
+      }).length > 0 || false
     );
   }
 
@@ -35,7 +36,6 @@ class Filter {
     const join = this.splitRegex.exec(string);
     return string
       .split(this.splitRegex)
-      .map(word => {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })
       .join(join ? join[0] : "");

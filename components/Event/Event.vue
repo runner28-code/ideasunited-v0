@@ -30,7 +30,6 @@
           />
           <div v-else class="event__auth-form">
             <AuthForm />
-          </div>
         </div>
         <div class="event__video-info" v-show="!activeEvent.hidden_from_timeline">
           <Title class="event__video-title">{{ activeEvent.title }}</Title>

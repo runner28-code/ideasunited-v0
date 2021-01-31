@@ -20,7 +20,6 @@ export async function buildZoomLink({
   if (zoom_password) {
     params.zoomPassword = zoom_password;
   }
-// Temp comment
 
   if (full_name || email) {
     params.nickname = full_name;
@@ -30,6 +29,7 @@ export async function buildZoomLink({
   for (let key in params) {
     if (urlParams != "") {
       urlParams += "&";
+// Temp comment
     }
     urlParams += key + "=" + encodeURIComponent(params[key]);
   }

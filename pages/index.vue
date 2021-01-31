@@ -1,2 +1,2 @@
 <template>
-    <NotFound v-if="status == 404" />
+  <div class="page-wrapper">

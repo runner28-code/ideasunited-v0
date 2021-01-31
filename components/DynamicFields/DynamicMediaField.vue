@@ -10,4 +10,3 @@
         outlined
         prepend-icon=""
         @change="handleFileChange"
-        ref="fileInput"

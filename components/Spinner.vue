@@ -1,1 +1,2 @@
+<template>
   <client-only>
