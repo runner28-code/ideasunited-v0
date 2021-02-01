@@ -13,7 +13,6 @@
               v-if="newOpps.length"
               class="opp-count"
             >{{ newOpps.length }}</div>
-          </transition>
         </v-btn>
       </div>
       <SideBar v-model="drawer" :no-root="true" />

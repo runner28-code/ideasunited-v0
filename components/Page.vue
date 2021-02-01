@@ -4,6 +4,7 @@
       v-if="fullpageReady"
       class="opportunity-page"
       :class="`opportunity-${currentProject.id}`"
+    >
       <transition name="fade">
         <div
           class="background-lede"
@@ -16,7 +17,6 @@
           >
             <img :src="opportunityLogo" alt="Logo" />
           </div>
-        </div>
       </transition>
       <div class="fullpage-outer-container">
         <div class="fullpage-container">

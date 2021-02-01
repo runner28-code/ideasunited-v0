@@ -1,4 +1,5 @@
 export async function buildZoomLink({
+// Temp comment
   $api,
   zoom_id,
   zoom_password,
@@ -29,7 +30,6 @@ export async function buildZoomLink({
   for (let key in params) {
     if (urlParams != "") {
       urlParams += "&";
-// Temp comment
     }
     urlParams += key + "=" + encodeURIComponent(params[key]);
   }

@@ -5,3 +5,4 @@
       <SubmissionItem
         :prevId="getId(index - 1)"
         :nextId="getId(index + 1)"
+        :item="item"
