@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div
       v-if="fullpageReady"
       class="opportunity-page"
       :class="`opportunity-${currentProject.id}`"
@@ -19,6 +20,5 @@
         </div>
       </transition>
       <div class="fullpage-outer-container">
-        <div class="fullpage-container">
           <no-ssr>
             <full-page

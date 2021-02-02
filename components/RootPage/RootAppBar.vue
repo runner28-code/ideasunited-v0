@@ -19,5 +19,4 @@
           @click.stop="goToOpps()"
           v-if="newOpps.length && showNewOpps"
         >
-          New opportunities just dropped!
           <v-btn

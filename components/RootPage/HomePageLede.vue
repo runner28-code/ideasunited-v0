@@ -2,7 +2,6 @@
   <div class="root-lede" :class="{fullscreen, playing}">
     <div class="root-lede__preview">
       <div class="root-lede__preview-content">
-        <div class="root-lede__preview-media-wrapper">
           <div
             class="root-lede__preview-media-wrapper-doodle"
             v-rellax="{speed: ['sm', 'xs'].includes($size) ? 0.5 : 3, center: true, percentage: 0.5}"
@@ -15,6 +14,7 @@
               :style="{ backgroundImage: `url(${slides[currentSlideIndex]})` }"
             ></div>
             <div class="root-lede__preview-video" ref="previewVideo">
+              <v-btn class="close root-lede__close-reel" icon @click.prevent="closeReel">
                 <v-icon size="30" color="white">$close</v-icon>
               </v-btn>
               <video
