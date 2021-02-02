@@ -9,12 +9,12 @@
           ></div>
           <div class="root-lede__preview-media" ref="previewMedia"
             :class="{'iris-loaded': mounted}"
+          >
             <div class="root-lede__preview-image"
               ref="previewImage"
               :style="{ backgroundImage: `url(${slides[currentSlideIndex]})` }"
             ></div>
             <div class="root-lede__preview-video" ref="previewVideo">
-              <v-btn class="close root-lede__close-reel" icon @click.prevent="closeReel">
                 <v-icon size="30" color="white">$close</v-icon>
               </v-btn>
               <video
