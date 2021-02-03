@@ -8,3 +8,4 @@
     :placeholder="placeholder"
     :label="label"
     :type="localType"
+    :rules="rules"

@@ -5,3 +5,4 @@
         <v-btn class="close" icon @click="closeDialog">
           <v-icon size="30">$close</v-icon>
         </v-btn>
+        <Title>{{ data.title }}</Title>

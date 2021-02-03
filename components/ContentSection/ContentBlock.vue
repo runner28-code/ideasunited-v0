@@ -12,3 +12,4 @@
         class="content-section-item__wrapper"
         :class="{
           'content-section-item__wrapper--video':
+            block.content_type == 'video_player'

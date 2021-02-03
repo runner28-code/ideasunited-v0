@@ -1,4 +1,3 @@
-<template>
   <v-form
     @submit.prevent="submitCallback"
     v-model="valid"
@@ -13,3 +12,5 @@
         v-model="form.data[field.uuid]"
         :rules="rulesForField(field)"
         :mark-required="markRequired"
+        v-show="showField(field)"
+        :label="field.label"

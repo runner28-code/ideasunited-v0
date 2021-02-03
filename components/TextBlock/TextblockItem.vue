@@ -5,3 +5,5 @@
     target="_blank"
     class="text-block__item-wrapper"
     :style="styles"
+  >
+    <div

@@ -13,3 +13,5 @@
       :aspect-ratio="aspectRatio"
       role="button"
       tabindex="0"
+    >
+      <div :class="classList" :style="styles">

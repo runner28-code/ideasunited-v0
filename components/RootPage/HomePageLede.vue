@@ -1,6 +1,5 @@
 <template>
   <div class="root-lede" :class="{fullscreen, playing}">
-    <div class="root-lede__preview">
       <div class="root-lede__preview-content">
         <div class="root-lede__preview-media-wrapper">
           <div
@@ -38,3 +37,8 @@
         <div ref="playBtn">
           <HomePageLedePlay @input="playReel"/>
         </div>
+      </div>
+    </div>
+    <div class="root-lede__content" ref="content">
+      <v-responsive
+        :aspect-ratio="aspectRatio"

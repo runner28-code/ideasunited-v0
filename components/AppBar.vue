@@ -17,6 +17,7 @@
       v-if="gridMenuPages.length"
       class="app-bar__dropdown"
       :style="{ color: activeTheme.primary_color }"
+    >
       <div class="app-bar__dropdown-title">
         {{ activeGridMenuTitle || activeTheme.header_dropdown_placeholder }}
       </div>
@@ -27,3 +28,7 @@
     <div class="app-bar__nav">
       <div
         :key="menuItem.id"
+        v-for="(menuItem, idx) in menuPages"
+        class="app-bar__nav-item"
+        :class="[
+          `app-bar__nav-item--${menuItem.menu_style}`,

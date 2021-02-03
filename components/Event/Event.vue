@@ -41,3 +41,4 @@
               :datetime="activeEvent.start_at"
             ></timeago>
           </div>
+          <div

@@ -25,3 +25,7 @@
             class="app-bar__new-opps__close"
             @click.stop="showNewOpps = false"
             small
+          >
+            <v-icon size="20" color="white">$close</v-icon>
+          </v-btn>
+        </div>
