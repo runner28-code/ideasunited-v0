@@ -20,4 +20,4 @@
     </client-only>
     <AppBar @changeKey="key = key + 1" />
     <v-main>
-        class="mobile-scroll"
+      <div

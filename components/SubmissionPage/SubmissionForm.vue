@@ -5,6 +5,5 @@
         <div v-if="submissionForm.state != 'submitted'">
           <div v-html="submissionForm.submissionForm"></div>
         </div>
-        <div
           v-else-if="
             submissionForm.anon || (currentUser && currentUser.confirmed)

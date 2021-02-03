@@ -4,6 +4,5 @@
       Log in
     </v-btn>
 
-    <div v-else-if="chat.locked">
       Chat is temporarily locked
     </div>

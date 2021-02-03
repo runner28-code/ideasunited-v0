@@ -1,4 +1,5 @@
 <template>
   <div
-    :class="{
+    class="registration-form"
       'registration-form-hidden': currentUser && currentUser.confirmed
+    }"
