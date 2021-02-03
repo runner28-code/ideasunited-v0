@@ -607,3 +607,60 @@
   integrity sha512-5QKUw2kO+GVmKr2wMYSATCTTnHyscl6sxFRAY+rvN7h7WB0lcG0o4NoV6ZQU32OZGVsYUsfLGgPQpDFdkfjlJQ==
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-transform-function-name@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-function-name/-/plugin-transform-function-name-7.16.0.tgz#02e3699c284c6262236599f751065c5d5f1f400e"
+  integrity sha512-lBzMle9jcOXtSOXUpc7tvvTpENu/NuekNJVova5lCCWCV9/U1ho2HH2y0p6mBg8fPm/syEAbfaaemYGOHCY3mg==
+  dependencies:
+    "@babel/helper-function-name" "^7.16.0"
+    "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-transform-literals@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-literals/-/plugin-transform-literals-7.16.0.tgz#79711e670ffceb31bd298229d50f3621f7980cac"
+  integrity sha512-gQDlsSF1iv9RU04clgXqRjrPyyoJMTclFt3K1cjLmTKikc0s/6vE3hlDeEVC71wLTRu72Fq7650kABrdTc2wMQ==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-transform-member-expression-literals@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.16.0.tgz#5251b4cce01eaf8314403d21aedb269d79f5e64b"
+  integrity sha512-WRpw5HL4Jhnxw8QARzRvwojp9MIE7Tdk3ez6vRyUk1MwgjJN0aNpRoXainLR5SgxmoXx/vsXGZ6OthP6t/RbUg==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-transform-modules-amd@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.16.0.tgz#09abd41e18dcf4fd479c598c1cef7bd39eb1337e"
+  integrity sha512-rWFhWbCJ9Wdmzln1NmSCqn7P0RAD+ogXG/bd9Kg5c7PKWkJtkiXmYsMBeXjDlzHpVTJ4I/hnjs45zX4dEv81xw==
+  dependencies:
+    "@babel/helper-module-transforms" "^7.16.0"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    babel-plugin-dynamic-import-node "^2.3.3"
+
+"@babel/plugin-transform-modules-commonjs@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.16.0.tgz#add58e638c8ddc4875bd9a9ecb5c594613f6c922"
+  integrity sha512-Dzi+NWqyEotgzk/sb7kgQPJQf7AJkQBWsVp1N6JWc1lBVo0vkElUnGdr1PzUBmfsCCN5OOFya3RtpeHk15oLKQ==
+  dependencies:
+    "@babel/helper-module-transforms" "^7.16.0"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/helper-simple-access" "^7.16.0"
+    babel-plugin-dynamic-import-node "^2.3.3"
+
+"@babel/plugin-transform-modules-systemjs@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.16.0.tgz#a92cf240afeb605f4ca16670453024425e421ea4"
+  integrity sha512-yuGBaHS3lF1m/5R+6fjIke64ii5luRUg97N2wr+z1sF0V+sNSXPxXDdEEL/iYLszsN5VKxVB1IPfEqhzVpiqvg==
+  dependencies:
+    "@babel/helper-hoist-variables" "^7.16.0"
+    "@babel/helper-module-transforms" "^7.16.0"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/helper-validator-identifier" "^7.15.7"
+    babel-plugin-dynamic-import-node "^2.3.3"
+
+"@babel/plugin-transform-modules-umd@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-umd/-/plugin-transform-modules-umd-7.16.0.tgz#195f26c2ad6d6a391b70880effce18ce625e06a7"
+  integrity sha512-nx4f6no57himWiHhxDM5pjwhae5vLpTK2zCnDH8+wNLJy0TVER/LJRHl2bkt6w9Aad2sPD5iNNoUpY3X9sTGDg==

@@ -7,3 +7,4 @@
     class="text-field"
     :placeholder="placeholder"
     :label="label"
+    :type="localType"

@@ -13,3 +13,4 @@
             block
             :rules="[$rules.required]"
             label="Email"
+            type="email"

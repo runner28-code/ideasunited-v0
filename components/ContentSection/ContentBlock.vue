@@ -11,3 +11,4 @@
         @click="openDialog"
         class="content-section-item__wrapper"
         :class="{
+          'content-section-item__wrapper--video':

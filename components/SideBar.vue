@@ -9,6 +9,7 @@
     absolute
     :width="drawerWidth"
     touchless
+  >
     <v-btn icon class="rightsidebar__close" @click="$emit('input', false)">
       <v-icon size="36">$close</v-icon>
     </v-btn>
@@ -21,3 +22,6 @@
         v-ripple="false"
       >
         <span @click="menuClick(menuItem, idx)">
+          {{ menuItem.menu_title }}
+        </span>
+      </v-list-item>

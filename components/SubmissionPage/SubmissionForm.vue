@@ -7,3 +7,4 @@
         </div>
         <div
           v-else-if="
+            submissionForm.anon || (currentUser && currentUser.confirmed)

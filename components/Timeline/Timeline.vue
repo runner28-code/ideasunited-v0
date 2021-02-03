@@ -13,6 +13,9 @@
         class="timeline__swiper-slide"
         v-for="event in timelineEvents"
         :key="event.id"
+        :class="{ posted: event.posted }"
       >
         <TimelineSlide @setActive="setActive" :active="value" :value="event" />
       </swiper-slide>
+    </swiper>
+

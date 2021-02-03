@@ -7,3 +7,4 @@
         class="message__avatar"
       />
       <div>
+        <div

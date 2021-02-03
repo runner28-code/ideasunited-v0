@@ -26,3 +26,5 @@
       </div>
     </a>
     <div class="app-bar__nav">
+      <div
+        :key="menuItem.id"

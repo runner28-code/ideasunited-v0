@@ -19,3 +19,5 @@
       <SideBar v-model="drawer" :no-root="true" />
     </client-only>
     <AppBar @changeKey="key = key + 1" />
+    <v-main>
+        class="mobile-scroll"

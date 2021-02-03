@@ -11,3 +11,4 @@
         prepend-icon=""
         @change="handleFileChange"
         ref="fileInput"
+        append-icon="$upload"
