@@ -27,7 +27,6 @@
     <div class="content-section__blocks" v-if="contentSection.disable_scroll">
       <ContentBlock
         v-for="(block, index) in filteredBlocks"
-        :key="block.id"
         :nextId="getId(index + 1)"
         :prevId="getId(index - 1)"
         :block="block"
@@ -36,6 +35,7 @@
     </div>
     <div class="content-section__swiper-wrapper" v-else>
       <v-btn
+        :class="{ visible: visibleControls }"
         class="content-section__control content-section__control-prev"
         icon
         @click="swiperInstance.slidePrev()"
@@ -46,3 +46,4 @@
         ref="swiper"
         class="content-section__swiper"
         :options="swiperOption"
+      >

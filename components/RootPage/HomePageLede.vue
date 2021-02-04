@@ -46,3 +46,7 @@
       >
         <div class="root-lede__text-wrapper">
           <div class="root-lede__text">
+            <div class="root-lede__header">Let’s <span class="root-lede__header__create">Create<span class="root-lede__header__create-doodle"></span></span> Together
+              <div class="root-lede__header__underline" v-rellax="{speed: -1}"></div>
+            </div>
+            <div class="root-lede__intro">

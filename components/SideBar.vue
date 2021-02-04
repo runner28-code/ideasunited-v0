@@ -4,7 +4,6 @@
     right
     :value="value"
     @input="$emit('input', $event)"
-    class="rightsidebar"
     hide-overlay
     absolute
     :width="drawerWidth"
@@ -30,3 +29,5 @@
         :key="menuItem.id"
         class="rightsidebar__item-small rightsidebar__item-mobile"
         :to="`#${menuItem.url}`"
+        v-ripple="false"
+      >

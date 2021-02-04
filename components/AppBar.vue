@@ -14,7 +14,6 @@
     <a
       href="/more"
       @click.prevent="dropdownClick"
-      v-if="gridMenuPages.length"
       class="app-bar__dropdown"
       :style="{ color: activeTheme.primary_color }"
     >
@@ -35,3 +34,5 @@
           `app-bar__nav-item-${menuItem.id}`,
         ]"
         :style="
+          menuItem.menu_style == 'button'
+            ? {

@@ -5,3 +5,4 @@
     <div class="schedule__description" v-html="schedule.description"></div>
 
     <div class="schedule__items">
+      <div

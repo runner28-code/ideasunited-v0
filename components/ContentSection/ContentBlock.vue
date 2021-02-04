@@ -4,6 +4,7 @@
       v-if="!hiding"
       :class="{
         'content-section-item--no-content':
+          block.content_type == 'no_content'
       }"
     >
       <v-responsive
@@ -14,3 +15,4 @@
             block.content_type == 'video_player'
         }"
         :style="styles"
+        :aspect-ratio="285 / 160"

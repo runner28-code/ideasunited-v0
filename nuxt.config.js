@@ -1,4 +1,5 @@
 // console.log("====================++");
+// Temp comment
 // console.log(`${process.env.API_URL}${process.env.API_PUBLIC_PATH}`);
 // console.log("====================++");
 // console.log({
@@ -16,3 +17,4 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s",
+    htmlAttrs: {

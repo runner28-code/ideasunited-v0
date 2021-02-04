@@ -9,4 +9,4 @@
           v-else-if="
             submissionForm.anon || (currentUser && currentUser.confirmed)
           "
-        >
+          <div class="text-center" v-if="!eligible">

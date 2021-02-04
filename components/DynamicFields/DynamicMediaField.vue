@@ -7,7 +7,6 @@
         :value="value"
         @input="$emit('input', $event)"
         :rules="rules"
-        outlined
         prepend-icon=""
         @change="handleFileChange"
         ref="fileInput"
@@ -15,3 +14,4 @@
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
       >
       </v-file-input>
+    </div>

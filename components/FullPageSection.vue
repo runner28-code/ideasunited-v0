@@ -13,3 +13,5 @@
             <h2 v-if="page.content_subhead" v-html="page.content_subhead"></h2>
           </div>
         </div>
+        <div
+          class="component"

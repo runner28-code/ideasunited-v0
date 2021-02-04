@@ -1,7 +1,6 @@
 <template>
   <div
     class="text-block"
-    :class="`text-block-${textBlock.id} text-block__${textBlock.layout}`"
   >
     <div class="text-block__side">
       <TextblockItem :item="calcList[0]" />
@@ -13,3 +12,4 @@
         :item="calcList[2]"
         v-if="textBlock.layout == 4"
       />
+      <TextblockItem

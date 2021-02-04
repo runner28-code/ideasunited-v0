@@ -10,3 +10,5 @@
             ]"
             v-for="field in content"
             :key="field.id"
+          >
+            <span>{{

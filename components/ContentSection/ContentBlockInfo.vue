@@ -14,3 +14,4 @@
           :aspect-ratio="16 / 9"
         >
           <VimeoPlayer
+            v-if="block.video_player_type == 'vimeo'"
