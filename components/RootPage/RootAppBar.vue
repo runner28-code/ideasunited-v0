@@ -29,3 +29,6 @@
             <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
         </div>
+      </transition>
+
+      <v-btn icon @click="$emit('toggleSidebar')" class="app-bar__menu">

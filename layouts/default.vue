@@ -24,3 +24,22 @@
         class="mobile-scroll"
         ref="mobileScroll"
         v-scroll.self="mobileScroll"
+      >
+        <Nuxt :key="key" ref="main-content" />
+        <Footer />
+      </div>
+    </v-main>
+    <AuthModal />
+    <Alert />
+    <Notification />
+  </v-app>
+</template>
+
+<script>
+import _ from "lodash";
+
+export default {
+  data() {
+    return {
+      drawer: false,
+      timeouts: {},

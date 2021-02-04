@@ -3,3 +3,4 @@
     <PageLead v-if="currentPage.use_lead" />
     <div class="components">
       <div
+        class="component"

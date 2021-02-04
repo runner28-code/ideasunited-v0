@@ -1,7 +1,6 @@
 <template>
   <div class="auth-wrapper">
     <div class="auth">
-      <div>
         <div class="auth-admin-title">
           <span >
             iU Creator Login
@@ -16,3 +15,17 @@
             type="email"
             name="email"
           />
+          <TextField
+            :rules="[$rules.required]"
+            v-model="loginForm.password"
+            block
+            label="Password"
+            type="password"
+            name="password"
+          />
+          <div class="auth-footer">
+            <div><Button block :refs="$refs" type="submit">Log In</Button></div>
+            <nuxt-link to="/forgot-password" class="forgot-password-link">
+              Forgot password?
+            </nuxt-link>
+          </div>

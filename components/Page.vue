@@ -29,3 +29,5 @@
               :skip-init="true"
             >
               <FullPageSection
+                v-for="(page, idx) in currentProject.menu_pages"
+                :key="idx"

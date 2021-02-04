@@ -6,3 +6,4 @@
       :is="customComponent.sfc_name"
     ></component>
   </div>
+</template>

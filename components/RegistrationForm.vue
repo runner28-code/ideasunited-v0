@@ -7,3 +7,5 @@
   >
     <div class="registration-form__form" v-if="!currentUser">
       <div v-if="registrationForm.login_form && !chooseSignUp">
+        <AuthForm :disabled="disabled" />
+        <div class="registration-form__not-registered">

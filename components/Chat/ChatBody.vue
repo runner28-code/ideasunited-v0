@@ -6,3 +6,4 @@
         <div slot="no-results"></div>
       </infinite-loading>
     </client-only>
+    <ChatMessage

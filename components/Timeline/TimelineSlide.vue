@@ -15,3 +15,4 @@
       tabindex="0"
     >
       <div :class="classList" :style="styles">
+        <div class="timeline-slide--bg"></div>

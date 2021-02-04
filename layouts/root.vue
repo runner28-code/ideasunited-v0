@@ -7,6 +7,7 @@
     <client-only>
       <RootAppBar
         @toggleSidebar="drawer = !drawer"
+      />
       <SideBar v-model="drawer" />
     </client-only>
     <v-main>
@@ -17,3 +18,5 @@
     <AuthModal />
     <Alert />
     <Notification />
+    <div v-html="styles"></div>
+  </v-app>

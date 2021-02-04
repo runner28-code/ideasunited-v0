@@ -8,3 +8,4 @@
       Chat is temporarily locked
     </div>
 
+    <div v-else-if="currentUser.blocked && currentUser.blocked">

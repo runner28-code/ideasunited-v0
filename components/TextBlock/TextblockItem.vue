@@ -7,3 +7,4 @@
     :style="styles"
   >
     <div
+      :style="{ backgroundImage: `url(${item.preview.large.url})` }"

@@ -1,3 +1,4 @@
+<template>
   <v-form
     @submit.prevent="submitCallback"
     v-model="valid"
@@ -14,3 +15,5 @@
         :mark-required="markRequired"
         v-show="showField(field)"
         :label="field.label"
+        :show-label="showLabel"
+        :addon-data="addonData(field)"

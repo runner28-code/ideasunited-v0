@@ -14,3 +14,4 @@
         append-icon="$upload"
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
       >
+      </v-file-input>

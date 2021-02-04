@@ -13,3 +13,4 @@
           class="slider-modal-content__video"
           :aspect-ratio="16 / 9"
         >
+          <VimeoPlayer

@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 const store = {
   namespaced: true,
   state: () => ({ current: null }),
@@ -51,7 +50,6 @@ const store = {
     current(state) {
       return state.current;
     }
-// Temp comment
   }
 };
 

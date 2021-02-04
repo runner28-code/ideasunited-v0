@@ -8,3 +8,4 @@
         :item="item"
         v-for="(item, index) in list"
         :key="item.id"
+        :layout="submissionContent.layout"

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <v-dialog
       max-width="1440"
       content-class="slider-modal"
       :value="value"
@@ -12,3 +11,4 @@
           v-if="prevId"
           @click="openPrev"
           @keyup.enter="openPrev"
+          icon
