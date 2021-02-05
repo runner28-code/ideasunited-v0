@@ -8,6 +8,5 @@
           :key="index"
         >
           <div class="faq__section-header" v-if="item.header">
-            {{ item.header }}
           </div>
           <v-expansion-panel-header v-if="item.question">

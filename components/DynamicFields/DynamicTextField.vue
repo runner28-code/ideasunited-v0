@@ -1,2 +1,2 @@
 <template>
-    :placeholder="label + (required && markRequired ? ' *' : '')"
+  <v-text-field

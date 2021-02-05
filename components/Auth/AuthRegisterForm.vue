@@ -10,15 +10,3 @@
           <div class="auth-register-form__not-registered">
             <p class="auth-register-form__not-registered-cta">
               {{ registrationForm.not_registered_cta || "Not a member yet? It’s easy to join!" }}
-            </p>
-            <v-btn
-              class="signup-btn"
-              elevation="0"
-              @click="clickRegister()"
-              >{{ registrationForm.sign_up_btn_text || "Register" }}</v-btn
-            >
-          </div>
-        </div>
-        <div v-if="!registrationForm.login_form || chooseSignUp" class="register">
-          <Title
-            v-if="registrationForm.title"

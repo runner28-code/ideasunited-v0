@@ -27,6 +27,7 @@
     <div class="content-section__blocks" v-if="contentSection.disable_scroll">
       <ContentBlock
         v-for="(block, index) in filteredBlocks"
+        :key="block.id"
         :nextId="getId(index + 1)"
         :prevId="getId(index - 1)"
         :block="block"
