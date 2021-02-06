@@ -11,7 +11,6 @@
         <v-btn
           v-if="prevId"
           @click="openPrev"
-          @keyup.enter="openPrev"
           icon
           class="slider-modal__arrow slider-modal__prev"
           tabindex="0"

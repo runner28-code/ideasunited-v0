@@ -761,6 +761,7 @@
 
 "@babel/plugin-transform-typeof-symbol@^7.16.0":
   version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-typeof-symbol/-/plugin-transform-typeof-symbol-7.16.0.tgz#8b19a244c6f8c9d668dca6a6f754ad6ead1128f2"
   integrity sha512-++V2L8Bdf4vcaHi2raILnptTBjGEFxn5315YU+e8+EqXIucA+q349qWngCLpUYqqv233suJ6NOienIVUpS9cqg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
