@@ -4,6 +4,7 @@ class Filter {
   constructor(options = {}) {
     Object.assign(this, {
       list,
+      exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
       placeHolder: options.placeHolder || "*",
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,
@@ -18,7 +19,6 @@ class Filter {
           `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
           "gi"
         );
-        return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
       }).length > 0 || false

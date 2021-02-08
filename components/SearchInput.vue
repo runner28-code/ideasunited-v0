@@ -7,4 +7,5 @@
         <span v-if="!localValue">Search</span>
       </div>
     </div>
+  </div>
 </template>

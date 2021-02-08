@@ -25,12 +25,12 @@
         ref="mobileScroll"
         v-scroll.self="mobileScroll"
       >
+        <Nuxt :key="key" ref="main-content" />
         <Footer />
       </div>
     </v-main>
     <AuthModal />
     <Alert />
-    <Notification />
     <div v-html="styles"></div>
   </v-app>
 </template>

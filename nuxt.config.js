@@ -7,6 +7,7 @@
 // });
 export default {
   server: {
+    port: 8000, // default: 3000
   },
   messages: {
     server_error: "Page not found",
@@ -15,4 +16,3 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s",
-    htmlAttrs: {

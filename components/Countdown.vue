@@ -27,4 +27,3 @@
             <div class="countdown-timer__item-label">secs</div>
           </div>
         </div>
-        <div
