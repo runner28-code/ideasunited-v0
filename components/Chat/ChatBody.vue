@@ -7,4 +7,3 @@
       </infinite-loading>
     </client-only>
     <ChatMessage
-      :chat="chat"

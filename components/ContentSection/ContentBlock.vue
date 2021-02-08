@@ -1,4 +1,4 @@
-  <transition name="fade">
+<template>
     <div class="content-section-item"
       v-if="!hiding"
       :class="{

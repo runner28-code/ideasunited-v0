@@ -33,3 +33,4 @@
                 :key="idx"
                 :page="page"
                 :idx="idx"
+                @next="fullPageMoveNext(idx)"

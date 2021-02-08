@@ -14,3 +14,4 @@
         v-if="textBlock.layout == 4"
       />
       <TextblockItem
+        :item="calcList[3]"

@@ -37,3 +37,4 @@
         :style="
           menuItem.menu_style == 'button'
             ? {
+                backgroundColor: menuItem.menu_button_background,

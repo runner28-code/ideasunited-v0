@@ -12,3 +12,4 @@
       >
         <title id="root-lede-play__ring__title">
           Watch Video
+        </title>

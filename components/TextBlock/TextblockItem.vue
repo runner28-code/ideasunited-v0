@@ -8,3 +8,4 @@
   >
     <div
       :style="{ backgroundImage: `url(${item.preview.large.url})` }"
+      :class="{ 'with-preview': item.preview.large.url, dark: item.dark }"

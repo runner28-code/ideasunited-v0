@@ -9,6 +9,9 @@
         ? currentPage.chats[0].chat_type == 'text'
         : false,
       chat_is_zoom: currentPage.chats.length
+        ? currentPage.chats[0].chat_type == 'zoom'
         : false
     }"
   >
+    <div
+      :class="{ with_chat: currentPage.chats[0] }"

@@ -1,4 +1,3 @@
-<template>
   <v-snackbar
     v-if="alert"
     class="alert-container"
@@ -11,3 +10,4 @@
       dismissible
       class="alert"
       dense
+      :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"

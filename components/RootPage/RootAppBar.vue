@@ -35,3 +35,4 @@
         <v-icon size="34" color="white">$account_menu</v-icon>
         <transition name="fade">
           <div
+            v-if="newOpps.length"

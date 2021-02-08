@@ -7,3 +7,4 @@
         </v-btn>
         <Title>{{ data.title }}</Title>
         <p class="notification-content" v-html="data.description"></p>
+        <Button

@@ -50,3 +50,4 @@
               <div class="root-lede__header__underline" v-rellax="{speed: -1}"></div>
             </div>
             <div class="root-lede__intro">
+              We're changing the way stories are told by connecting creators to projects, gear, educational resources, and a global community of ambitious people that want to make cool stuff. 

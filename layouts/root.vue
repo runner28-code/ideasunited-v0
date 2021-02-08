@@ -21,3 +21,4 @@
     <div v-html="styles"></div>
   </v-app>
 </template>
+
