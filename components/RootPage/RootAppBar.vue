@@ -11,7 +11,6 @@
         <router-link to="/" class="logo-link">
           <img :src="isProduction() ? whiteLogo : redLogo" width="258" alt="Logo" />
         </router-link>
-      </v-toolbar-title>
       <v-spacer></v-spacer>
       <transition name="fade">
         <div
@@ -36,3 +35,4 @@
         <transition name="fade">
           <div
             v-if="newOpps.length"
+            class="app-bar__menu__opp-count"

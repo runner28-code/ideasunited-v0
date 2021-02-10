@@ -1,2 +1,1 @@
 const store = {
-  namespaced: true,

@@ -15,3 +15,5 @@
   >
     <div
       :class="{ with_chat: currentPage.chats[0] }"
+      class="event__video"
+      v-if="currentPage.events.length"

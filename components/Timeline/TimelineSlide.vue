@@ -6,3 +6,4 @@
           | moment("timezone", currentTimezone, "dddd MMM Do")
       }}
     </div>
+    <v-responsive
