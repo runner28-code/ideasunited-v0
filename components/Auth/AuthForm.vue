@@ -30,3 +30,4 @@
               Forgot password?
             </nuxt-link>
           </div>
+        </v-form>

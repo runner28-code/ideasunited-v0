@@ -1,7 +1,6 @@
 <template>
   <v-snackbar
     v-if="alert"
-    class="alert-container"
     v-model="alert"
     top
     :timeout="alert.timeout || 15000"
@@ -12,3 +11,4 @@
       class="alert"
       dense
       :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
+      :value="!!alert"

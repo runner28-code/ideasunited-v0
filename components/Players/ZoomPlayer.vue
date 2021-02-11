@@ -9,3 +9,4 @@
         :src="zoomUrl"
         v-if="zoomUrl"
       />
+    </div>

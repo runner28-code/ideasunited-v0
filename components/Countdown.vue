@@ -28,3 +28,5 @@
           </div>
         </div>
         <div
+          v-if="countdown.right_title"
+          v-html="countdown.right_title"

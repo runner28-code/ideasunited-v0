@@ -8,3 +8,4 @@
     </client-only>
     <ChatMessage
       :chat="chat"
+      :message="message"

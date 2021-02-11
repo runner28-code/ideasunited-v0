@@ -1,4 +1,4 @@
 import axios from "axios";
-  console.log("Date: ", new Date());
+export default async function (req, res, next) {
   console.log("URL: ", req.url);
   const { host } = req.headers;

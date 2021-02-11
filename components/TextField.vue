@@ -11,3 +11,4 @@
     :rules="rules"
     @change="$emit('change')"
     ref="input"
+    validate-on-blur

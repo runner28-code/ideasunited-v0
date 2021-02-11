@@ -22,3 +22,5 @@
   </v-app>
 </template>
 
+<script>
+import _ from "lodash";

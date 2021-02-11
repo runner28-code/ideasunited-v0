@@ -34,3 +34,5 @@
                 :page="page"
                 :idx="idx"
                 @next="fullPageMoveNext(idx)"
+                class="section fp-auto-height-responsive"
+                ref="sections"

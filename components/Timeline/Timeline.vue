@@ -26,3 +26,4 @@
       @click="swiperInstance.slideNext()"
     >
       <v-icon size="40">$chevron_right</v-icon>
+    </v-btn>

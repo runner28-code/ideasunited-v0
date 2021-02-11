@@ -1,4 +1,3 @@
-<template>
   <div>
     <v-app-bar
       class="elevation-0 app-bar"
@@ -18,6 +17,7 @@
           class="app-bar__new-opps"
           @click.stop="goToOpps()"
           v-if="newOpps.length && showNewOpps"
+        >
           New opportunities just dropped!
           <v-btn
             icon
@@ -36,3 +36,6 @@
           <div
             v-if="newOpps.length"
             class="app-bar__menu__opp-count"
+          >{{ newOpps.length }}</div>
+        </transition>
+      </v-btn>

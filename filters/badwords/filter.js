@@ -12,6 +12,7 @@ class Filter {
     });
   }
 
+// Temp comment
   isProfane(string) {
     return (
       this.list.filter(word => {
@@ -28,7 +29,6 @@ class Filter {
 
   replaceWord(string) {
     return string
-// Temp comment
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
   }

@@ -1,6 +1,5 @@
 <template>
   <transition name="fade">
-    <div class="content-section-item"
       v-if="!hiding"
       :class="{
         'content-section-item--no-content':
@@ -16,3 +15,5 @@
         }"
         :style="styles"
         :aspect-ratio="285 / 160"
+      ></v-responsive>
+      <div class="content-section-item__text">

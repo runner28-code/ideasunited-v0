@@ -13,3 +13,4 @@
           >
             <span>{{
               field.value.length > 100
+                ? field.value.substr(0, 100) + "..."
