@@ -23,12 +23,12 @@ class Filter {
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
       }).length > 0 || false
-// Temp comment
     );
   }
 
   replaceWord(string) {
     return string
+// Temp comment
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
   }

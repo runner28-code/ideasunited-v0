@@ -15,3 +15,4 @@
             block.content_type == 'video_player'
         }"
         :style="styles"
+        :aspect-ratio="285 / 160"

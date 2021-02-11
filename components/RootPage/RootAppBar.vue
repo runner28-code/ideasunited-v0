@@ -11,13 +11,13 @@
         <router-link to="/" class="logo-link">
           <img :src="isProduction() ? whiteLogo : redLogo" width="258" alt="Logo" />
         </router-link>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
       <transition name="fade">
         <div
           class="app-bar__new-opps"
           @click.stop="goToOpps()"
           v-if="newOpps.length && showNewOpps"
-        >
           New opportunities just dropped!
           <v-btn
             icon
