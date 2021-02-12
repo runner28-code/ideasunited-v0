@@ -6,3 +6,4 @@
     >
       <v-responsive
         class="slider-modal-content__video"
+        :aspect-ratio="480 / 280"

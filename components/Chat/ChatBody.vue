@@ -9,3 +9,4 @@
     <ChatMessage
       :chat="chat"
       :message="message"
+      v-for="message in messages"

@@ -7,3 +7,4 @@
         </div>
         <div class="timeline-list__text">
           {{ item.description }}
+        </div>

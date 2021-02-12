@@ -8,3 +8,4 @@
       />
       <div>
         <div
+          class="message__name"

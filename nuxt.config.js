@@ -7,6 +7,7 @@
 // });
 export default {
   server: {
+    port: 8000, // default: 3000
   },
   messages: {
     server_error: "Page not found",
@@ -18,3 +19,4 @@ export default {
     htmlAttrs: {
       lang: "en",
     },
+    meta: [

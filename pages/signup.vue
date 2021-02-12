@@ -6,3 +6,4 @@
       >
       <div>You are logged in.<br/><br/></div>
       <v-btn
+        @click.prevent="logout()"

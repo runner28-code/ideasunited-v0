@@ -39,7 +39,6 @@
           <HomePageLedePlay @input="playReel"/>
         </div>
       </div>
-    </div>
     <div class="root-lede__content" ref="content">
       <v-responsive
         :aspect-ratio="aspectRatio"
@@ -55,3 +54,6 @@
             <div class="root-lede__cta">
               <v-btn class="root-lede__cta-btn" @click="signUp" v-if="!currentUser"> Sign Up</v-btn>
             </div>
+          </div>
+        </div>
+      </v-responsive>

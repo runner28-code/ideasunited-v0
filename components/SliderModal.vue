@@ -4,6 +4,7 @@
       max-width="1440"
       content-class="slider-modal"
       :value="value"
+      @input="$emit('input', $event)"
       v-if="value"
     >
       <div class="slider-modal__wrapper" @click="close">
@@ -16,3 +17,4 @@
           tabindex="0"
           role="button"
         >
+          <v-icon color="#ffffff" size="50">$chevron_left</v-icon>

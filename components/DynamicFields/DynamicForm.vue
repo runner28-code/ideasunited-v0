@@ -13,7 +13,6 @@
         v-model="form.data[field.uuid]"
         :rules="rulesForField(field)"
         :mark-required="markRequired"
-        v-show="showField(field)"
         :label="field.label"
         :show-label="showLabel"
         :addon-data="addonData(field)"
@@ -21,3 +20,4 @@
       ></component>
     </div>
     <div
+      class="dynamic-form__description"

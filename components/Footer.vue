@@ -7,6 +7,7 @@
         </a>
 
         <div class="footer__separator"></div>
+
         <div class="copyright">© {{ year }} Ideas United</div>
       </div>
       <div class="footer__menu">
@@ -20,3 +21,4 @@
             >FAQ</a
           >
         </div>
+        <div class="footer__menu-item">

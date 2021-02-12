@@ -10,3 +10,4 @@
         v-if="zoomUrl"
       />
     </div>
+    <div class="zoom-player" v-else-if="event.zoom_player_type == 'desktop'">

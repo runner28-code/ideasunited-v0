@@ -12,7 +12,6 @@ class Filter {
     });
   }
 
-// Temp comment
   isProfane(string) {
     return (
       this.list.filter(word => {

@@ -1,3 +1,4 @@
+<template>
   <div>
     <v-app-bar
       class="elevation-0 app-bar"
@@ -39,3 +40,6 @@
           >{{ newOpps.length }}</div>
         </transition>
       </v-btn>
+
+    </v-app-bar>
+    <transition name="fade">

@@ -9,3 +9,4 @@
 import YouTubePlayer from "youtube-player";
 export default {
   props: {
+    slide: Object,

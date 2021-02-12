@@ -1,4 +1,5 @@
 import resources from "./resources.api";
+// Temp comment
 import Qs from "qs";
 
 export default ({ $axios, redirect, route, $cookies, req }) => {
@@ -7,6 +8,5 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
   $axios.interceptors.request.use(
     requestConfig => {
       if (requestConfig.jwt) {
-// Temp comment
         const authToken = $cookies.get("authToken");
         if (authToken) {

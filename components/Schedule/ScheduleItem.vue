@@ -1,5 +1,6 @@
 <template>
   <div
+    @click="onclick"
     class="schedule-item"
     :class="{ clickable: item.event, dark: item.dark }"
     :style="styles"
@@ -8,3 +9,4 @@
       {{
         item.start_at | moment("timezone", currentTimezone, "h:mm a zz")
       }}
+    </div>
