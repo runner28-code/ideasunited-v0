@@ -7,3 +7,4 @@
       {{ supportForm.description }}
     </div>
     <DynamicForm
+      :submit="submit"

@@ -263,6 +263,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
+"@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/-/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.16.0.tgz#358972eaab006f5eb0826183b0c93cbcaf13e1e2"
   integrity sha512-4tcFwwicpWTrpl9qjf7UsoosaArgImF85AxqCRZlgc3IQDvkUHjJpruXAL58Wmj+T6fypWTC/BakfEkwIL/pwA==
@@ -946,7 +947,6 @@
   resolved "https://registry.yarnpkg.com/@npmcli/fs/-/fs-1.0.0.tgz#589612cfad3a6ea0feafcb901d29c63fd52db09f"
   integrity sha512-8ltnOpRR/oJbOp8vaGUnipOi3bqkcW+sLHFlyXIr08OGHmVJLB1Hn7QtGXbYcpVtH1gAYZTlmDXtE4YV0+AMMQ==
   dependencies:
-    "@gar/promisify" "^1.0.1"
     semver "^7.3.5"
 
 "@npmcli/move-file@^1.0.1":
@@ -994,3 +994,50 @@
     fs-extra "^9.1.0"
     glob "^7.1.7"
     hash-sum "^2.0.0"
+    ignore "^5.1.8"
+    lodash "^4.17.21"
+    pify "^5.0.0"
+    serialize-javascript "^5.0.1"
+    upath "^2.0.1"
+
+"@nuxt/cli@2.15.8":
+  version "2.15.8"
+  resolved "https://registry.yarnpkg.com/@nuxt/cli/-/cli-2.15.8.tgz#3b946ee08c7b5b3223c8952873c65727e775ec30"
+  integrity sha512-KcGIILW/dAjBKea1DHsuLCG1sNzhzETShwT23DhXWO304qL8ljf4ndYKzn2RenzauGRGz7MREta80CbJCkLSHw==
+  dependencies:
+    "@nuxt/config" "2.15.8"
+    "@nuxt/utils" "2.15.8"
+    boxen "^5.0.1"
+    chalk "^4.1.1"
+    compression "^1.7.4"
+    connect "^3.7.0"
+    consola "^2.15.3"
+    crc "^3.8.0"
+    defu "^4.0.1"
+    destr "^1.1.0"
+    execa "^5.0.0"
+    exit "^0.1.2"
+    fs-extra "^9.1.0"
+    globby "^11.0.3"
+    hable "^3.0.0"
+    lodash "^4.17.21"
+    minimist "^1.2.5"
+    opener "1.5.2"
+    pretty-bytes "^5.6.0"
+    semver "^7.3.5"
+    serve-static "^1.14.1"
+    std-env "^2.3.0"
+    upath "^2.0.1"
+    wrap-ansi "^7.0.0"
+
+"@nuxt/components@^2.1.8":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/components/-/components-2.2.1.tgz#49c4442ac5a0ef49f49ef7d9960f4376fc3e7c78"
+  integrity sha512-r1LHUzifvheTnJtYrMuA+apgsrEJbxcgFKIimeXKb+jl8TnPWdV3egmrxBCaDJchrtY/wmHyP47tunsft7AWwg==
+  dependencies:
+    chalk "^4.1.2"
+    chokidar "^3.5.2"
+    glob "^7.1.7"
+    globby "^11.0.4"
+    scule "^0.2.1"
+    semver "^7.3.5"

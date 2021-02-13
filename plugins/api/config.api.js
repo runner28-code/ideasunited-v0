@@ -1,5 +1,4 @@
 import resources from "./resources.api";
-// Temp comment
 import Qs from "qs";
 
 export default ({ $axios, redirect, route, $cookies, req }) => {

@@ -30,3 +30,4 @@
         <div
           v-if="countdown.right_title"
           v-html="countdown.right_title"
+          class="countdown__text text-right"

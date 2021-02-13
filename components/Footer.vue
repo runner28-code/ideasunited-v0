@@ -22,3 +22,4 @@
           >
         </div>
         <div class="footer__menu-item">
+          <a target="_blank" href="mailto:community@ideasunited.com"

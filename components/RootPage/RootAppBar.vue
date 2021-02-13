@@ -43,3 +43,5 @@
 
     </v-app-bar>
     <transition name="fade">
+      <a class="app-bar__new-opps-details"
+        v-if="newOppDetail && showNewOppDetails"

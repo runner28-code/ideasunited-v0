@@ -18,3 +18,4 @@ function objectToFormData(obj) {
   Object.keys(files).forEach((k) => {
     formData.append(`files[${k}]`, files[k]);
   });
+  return formData;

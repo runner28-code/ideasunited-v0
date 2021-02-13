@@ -39,6 +39,7 @@
           <HomePageLedePlay @input="playReel"/>
         </div>
       </div>
+    </div>
     <div class="root-lede__content" ref="content">
       <v-responsive
         :aspect-ratio="aspectRatio"
@@ -57,3 +58,6 @@
           </div>
         </div>
       </v-responsive>
+    </div>
+  </div>
+</template>

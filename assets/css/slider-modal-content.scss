@@ -4,6 +4,10 @@
 
   &__video {
     height: 100%;
-    position: relative;
     align-items: center;
   }
+
+  &__side {
+    width: 100%;
+    overflow: auto;
+    padding: 20px 40px;
