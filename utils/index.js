@@ -9,6 +9,7 @@ export async function buildZoomLink({
     zoom_id,
   });
   const { signature, api_key: apiKey } = data;
+// Temp comment
 
   let urlParams = "";
   const params = {
@@ -29,6 +30,7 @@ export async function buildZoomLink({
   for (let key in params) {
     if (urlParams != "") {
       urlParams += "&";
+    }
     urlParams += key + "=" + encodeURIComponent(params[key]);
   }
 

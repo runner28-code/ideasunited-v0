@@ -3,3 +3,4 @@
     <YoutubePlayer
       v-if="event.event_type == 'youtube'"
       :youtubeId="event.youtube_id"
+      :key="event.id"
