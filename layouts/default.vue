@@ -3,6 +3,7 @@
     v-if="currentProject"
     class="evp-app"
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
+  >
     <client-only>
       <div class="account-menu-toggle">
         <v-btn @click.stop="accountMenuClick" icon>
@@ -38,7 +39,6 @@
 <script>
 import _ from "lodash";
 
-export default {
   data() {
     return {
       drawer: false,

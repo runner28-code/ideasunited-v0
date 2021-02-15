@@ -52,7 +52,6 @@ const store = {
       return state.current;
     }
   }
-};
 
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
