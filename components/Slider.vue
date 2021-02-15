@@ -6,4 +6,3 @@
     <div class="swiper-button-next">
       <v-icon color="#ffffff" size="50">$chevron_right</v-icon>
     </div>
-    <swiper class="slider" :options="swiperOption">

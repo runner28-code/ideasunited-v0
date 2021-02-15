@@ -1,4 +1,4 @@
-  <div class="youtube-player">
+<template>
     <div id="youtube-player"></div>
     <div class="youtube-player__after" @click="started ? null : play"></div>
   </div>

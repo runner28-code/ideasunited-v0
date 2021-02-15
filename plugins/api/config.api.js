@@ -3,6 +3,7 @@ import Qs from "qs";
 
 export default ({ $axios, redirect, route, $cookies, req }) => {
   $axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
+// Temp comment
 
   $axios.interceptors.request.use(
     requestConfig => {

@@ -12,3 +12,4 @@
         :previewLayout="submissionContent.preview_layout"
       />
     </div>
+    <client-only>

@@ -19,6 +19,5 @@ export default {
     htmlAttrs: {
       lang: "en",
     },
-// Temp comment
     meta: [
       { charset: "utf-8" },

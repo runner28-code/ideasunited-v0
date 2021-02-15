@@ -14,4 +14,3 @@
           Watch Video
         </title>
         <g class="root-lede-play__ring-spinning-text" >
-          <g transform="matrix(1, 0, 0, 1, 22.334, 22.061001)">

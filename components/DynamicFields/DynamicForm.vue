@@ -18,6 +18,7 @@
         :show-label="showLabel"
         :addon-data="addonData(field)"
         :file-input="field.file_input"
+      ></component>
     </div>
     <div
       class="dynamic-form__description"

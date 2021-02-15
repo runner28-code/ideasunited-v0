@@ -20,3 +20,4 @@
           </div>
         </div>
         <div v-if="!registrationForm.login_form || chooseSignUp" class="register">
+          <Title
