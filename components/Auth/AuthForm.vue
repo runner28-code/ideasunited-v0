@@ -9,6 +9,7 @@
         </div>
         <v-form @submit.prevent="login" ref="form" :disabled="disabled">
           <TextField
+            v-model="loginForm.email"
             block
             :rules="[$rules.required]"
             label="Email"

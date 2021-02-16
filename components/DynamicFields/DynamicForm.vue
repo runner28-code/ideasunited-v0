@@ -4,7 +4,6 @@
     v-model="valid"
     ref="form"
     class="dynamic-form"
-    :disabled="disabled"
   >
     <div :key="field.uuid" v-for="field in fields">
       <component

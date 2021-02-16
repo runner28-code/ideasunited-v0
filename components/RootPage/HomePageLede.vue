@@ -21,6 +21,7 @@
               <video
                 class="root-lede__video"
                 preload="true"
+                style="width: 100%; height: auto;"
                 ref="videoElem"
                 controls
                 :class="{fullscreen, playing}"
