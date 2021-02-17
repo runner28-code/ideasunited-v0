@@ -41,3 +41,6 @@
               />
             </full-page>
           </no-ssr>
+        </div>
+      </div>
+    </div>

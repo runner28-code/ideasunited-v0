@@ -12,7 +12,6 @@
         label="Password Confirmation"
         v-model="form.password_confirmation"
         type="password"
-      />
       <Button type="submit" :refs="$refs" block x-large>
         Submit
       </Button>

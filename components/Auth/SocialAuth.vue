@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div
       @click="oauth('cas')"
       class="social-auth__cas"
       v-if="currentProject.addons.includes('Addon::CasLogin')"
@@ -12,3 +11,4 @@
     </div>
     <div v-if="items.length" class="social-auth">
       <div
+        @click="oauth(item.provider)"

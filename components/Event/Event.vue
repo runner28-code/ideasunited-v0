@@ -1,5 +1,6 @@
 <template>
   <div
+    class="event"
     :class="{
       show_event: currentPage.events.length,
       with_events: currentPage.events.length > 1,
@@ -26,3 +27,4 @@
             "
             :event="activeEvent"
             :class="{ 'sticky-video': activeEvent.sticky_video && scrollPosition > 300 }"
+          />

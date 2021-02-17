@@ -10,7 +10,6 @@
 
         <div class="copyright">© {{ year }} Ideas United</div>
       </div>
-      <div class="footer__menu">
         <div class="footer__menu-item" v-if="supportForm">
           <a @click.prevent="supportDialog = true"
             >Support</a
@@ -23,3 +22,4 @@
         </div>
         <div class="footer__menu-item">
           <a target="_blank" href="mailto:community@ideasunited.com"
+            >Contact Us</a

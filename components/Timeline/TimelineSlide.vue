@@ -16,3 +16,4 @@
     >
       <div :class="classList" :style="styles">
         <div class="timeline-slide--bg"></div>
+        <div class="timeline-slide__text">

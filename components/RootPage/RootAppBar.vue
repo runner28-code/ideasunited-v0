@@ -4,6 +4,7 @@
       class="elevation-0 app-bar"
       :height="['sm', 'xs'].includes($size) ? 70 : 83"
       color="primary"
+      app
       clipped-left
     >
       <v-toolbar-title class="toolbar-title">
@@ -44,3 +45,4 @@
     <transition name="fade">
       <a class="app-bar__new-opps-details"
         v-if="newOppDetail && showNewOppDetails"
+        :key="newOppDetail.id"
