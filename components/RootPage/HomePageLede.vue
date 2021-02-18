@@ -9,7 +9,6 @@
           ></div>
           <div class="root-lede__preview-media" ref="previewMedia"
             :class="{'iris-loaded': mounted}"
-          >
             <div class="root-lede__preview-image"
               ref="previewImage"
               :style="{ backgroundImage: `url(${slides[currentSlideIndex]})` }"
@@ -36,6 +35,7 @@
           </div>
         </div>
         <div ref="playBtn">
+          <HomePageLedePlay @input="playReel"/>
         </div>
       </div>
     </div>
@@ -60,3 +60,7 @@
     </div>
   </div>
 </template>
+
+<script>
+import { TimelineLite, Power1 } from 'gsap/dist/gsap';
+import HomePageLedePlay from "@/components/RootPage/HomePageLedePlay";

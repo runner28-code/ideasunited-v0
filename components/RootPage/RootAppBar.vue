@@ -1,4 +1,3 @@
-<template>
   <div>
     <v-app-bar
       class="elevation-0 app-bar"
@@ -12,6 +11,7 @@
           <img :src="isProduction() ? whiteLogo : redLogo" width="258" alt="Logo" />
         </router-link>
       </v-toolbar-title>
+      <v-spacer></v-spacer>
       <transition name="fade">
         <div
           class="app-bar__new-opps"
@@ -45,3 +45,6 @@
       <a class="app-bar__new-opps-details"
         v-if="newOppDetail && showNewOppDetails"
         :key="newOppDetail.id"
+        :href="newOppDetail.site"
+        target="_blank"
+      >

@@ -13,3 +13,4 @@
       />
     </div>
     <client-only>
+      <infinite-loading :identifier="infiniteId" @infinite="fetchSubmissions">

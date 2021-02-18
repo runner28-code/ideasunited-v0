@@ -5,3 +5,4 @@
       :style="{ backgroundImage: `url(${entry.preview.thumb.url})` }"
       class="list-entry__preview"
     ></div>
+    <div class="list-entry__content">

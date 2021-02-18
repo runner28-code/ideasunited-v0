@@ -24,3 +24,5 @@
       class="dynamic-form__description"
       v-if="description"
       v-html="description"
+    ></div>
+    <div class="dynamic-form__buttons">

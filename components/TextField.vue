@@ -6,6 +6,7 @@
     outlined
     class="text-field"
     :placeholder="placeholder"
+    :label="label"
     :type="localType"
     :rules="rules"
     @change="$emit('change')"
@@ -13,3 +14,4 @@
     validate-on-blur
     :suffix="suffix"
     :min="min"
+    :max="max"

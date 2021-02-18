@@ -1,5 +1,6 @@
 
 import cookies from "vue-cookies";
 /* eslint-disable */
-// Temp comment
 const store = {
+// Temp comment
+  namespaced: true,

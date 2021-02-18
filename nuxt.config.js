@@ -12,13 +12,12 @@ export default {
   messages: {
     server_error: "Page not found",
     server_error_details: "We're unable to find the page you're looking for.",
-// Temp comment
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
     titleTemplate: "%s",
     htmlAttrs: {
       lang: "en",
     },
     meta: [
       { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },

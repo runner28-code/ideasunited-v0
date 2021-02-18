@@ -4,3 +4,4 @@
     :to="to"
     :dark="calcTheme == 'dark'"
     :large="large"
+    :block="block"

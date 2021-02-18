@@ -18,3 +18,5 @@
             @click="chooseSignUp = true"
             >{{ registrationForm.sign_up_btn_text || "Apply" }}</v-btn
           >
+        </div>
+      </div>

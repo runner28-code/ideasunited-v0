@@ -17,6 +17,7 @@
       <v-list-item
         v-for="(menuItem, idx) in menuPages"
         :key="menuItem.id"
+        class="rightsidebar__item rightsidebar__item-mobile"
         :to="`#${menuItem.url}`"
         v-ripple="false"
       >
@@ -39,3 +40,6 @@
       <v-list-item
         class="rightsidebar__item"
         :href="opportunitiesUrl"
+        v-ripple="false"
+      >
+        Opportunities

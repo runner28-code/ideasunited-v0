@@ -4,7 +4,6 @@
       <client-only>
         <div v-if="submissionForm.state != 'submitted'">
           <div v-html="submissionForm.submissionForm"></div>
-        </div>
         <div
           v-else-if="
             submissionForm.anon || (currentUser && currentUser.confirmed)
@@ -14,3 +13,4 @@
             <Eligibles :value="submissionForm.eligibilities" />
             <br />
             <div>
+              Looks like you don't meet an eligibility requirement for this

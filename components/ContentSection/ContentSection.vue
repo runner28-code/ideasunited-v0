@@ -33,3 +33,6 @@
         :block="block"
         :hiding="hideBlock(index)"
       />
+    </div>
+    <div class="content-section__swiper-wrapper" v-else>
+        :class="{ visible: visibleControls }"

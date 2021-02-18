@@ -20,3 +20,4 @@
           <v-icon color="#ffffff" size="50">$chevron_left</v-icon>
         </v-btn>
         <v-btn
+          v-if="nextId"

@@ -1049,3 +1049,66 @@
   version "2.15.8"
   resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.15.8.tgz#56cc1b052871072a26f76c6d3b69d9b53808ce52"
   integrity sha512-KMQbjmUf9RVHeTZEf7zcuFnh03XKZioYhok6GOCY+leu3g5n/UhyPvLnTsgTfsLWohqoRoOm94u4A+tNYwn9VQ==
+  dependencies:
+    "@nuxt/utils" "2.15.8"
+    consola "^2.15.3"
+    defu "^4.0.1"
+    destr "^1.1.0"
+    dotenv "^9.0.2"
+    lodash "^4.17.21"
+    rc9 "^1.2.0"
+    std-env "^2.3.0"
+    ufo "^0.7.4"
+
+"@nuxt/core@2.15.8":
+  version "2.15.8"
+  resolved "https://registry.yarnpkg.com/@nuxt/core/-/core-2.15.8.tgz#443d13da9edc5c4ae47d7902f1d6504a8cce27a2"
+  integrity sha512-31pipWRvwHiyB5VDqffgSO7JtmHxyzgshIzuZzSinxMbVmK3BKsOwacD/51oEyELgrPlUgLqcY9dg+RURgmHGQ==
+  dependencies:
+    "@nuxt/config" "2.15.8"
+    "@nuxt/server" "2.15.8"
+    "@nuxt/utils" "2.15.8"
+    consola "^2.15.3"
+    fs-extra "^9.1.0"
+    hable "^3.0.0"
+    hash-sum "^2.0.0"
+    lodash "^4.17.21"
+
+"@nuxt/devalue@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-1.2.5.tgz#8d95e3e74b3332d3eb713342c5c4d18096047d66"
+  integrity sha512-Tg86C7tqzvZtZli2BQVqgzZN136mZDTgauvJXagglKkP2xt5Kw3NUIiJyjX0Ww/IZy2xVmD0LN+CEPpij4dB2g==
+  dependencies:
+    consola "^2.9.0"
+
+"@nuxt/friendly-errors-webpack-plugin@^2.5.1":
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-2.5.2.tgz#982a43ee2da61611f7396439e57038392d3944d5"
+  integrity sha512-LLc+90lnxVbpKkMqk5z1EWpXoODhc6gRkqqXJCInJwF5xabHAE7biFvbULfvTRmtaTzAaP8IV4HQDLUgeAUTTw==
+  dependencies:
+    chalk "^2.3.2"
+    consola "^2.6.0"
+    error-stack-parser "^2.0.0"
+    string-width "^4.2.3"
+
+"@nuxt/generator@2.15.8":
+  version "2.15.8"
+  resolved "https://registry.yarnpkg.com/@nuxt/generator/-/generator-2.15.8.tgz#d6bd4a677edf14f34d516e13bcb70d62cdd4c5b4"
+  integrity sha512-hreLdYbBIe3SWcP8LsMG7OlDTx2ZVucX8+f8Vrjft3Q4r8iCwLMYC1s1N5etxeHAZfS2kZiLmF92iscOdfbgMQ==
+  dependencies:
+    "@nuxt/utils" "2.15.8"
+    chalk "^4.1.1"
+    consola "^2.15.3"
+    defu "^4.0.1"
+    devalue "^2.0.1"
+    fs-extra "^9.1.0"
+    html-minifier "^4.0.0"
+    node-html-parser "^3.2.0"
+    ufo "^0.7.4"
+
+"@nuxt/loading-screen@^2.0.3":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/loading-screen/-/loading-screen-2.0.4.tgz#756abd861f77c57001be4d21d47534723afb4f3a"
+  integrity sha512-xpEDAoRu75tLUYCkUJCIvJkWJSuwr8pqomvQ+fkXpSrkxZ/9OzlBFjAbVdOAWTMj4aV/LVQso4vcEdircKeFIQ==
+  dependencies:
+    connect "^3.7.0"
