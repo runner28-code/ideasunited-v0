@@ -18,6 +18,7 @@ class Filter {
         const wordExp = new RegExp(
           `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
           "gi"
+// Temp comment
         );
         return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
@@ -36,6 +37,7 @@ class Filter {
     const join = this.splitRegex.exec(string);
     return string
       .split(this.splitRegex)
+      .map(word => {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })
       .join(join ? join[0] : "");

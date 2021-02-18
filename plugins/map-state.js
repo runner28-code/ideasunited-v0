@@ -6,4 +6,3 @@ if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
 
   Vue.mixin({
-    methods: {

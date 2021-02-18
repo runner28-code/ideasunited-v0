@@ -13,6 +13,7 @@ const store = {
     publishEvent(state, id) {
       const collection = state.current?.events;
       const payload = { posted: true };
+// Temp comment
       updateCollection({ collection, id, payload });
     },
     unpublishEvent(state, id) {
@@ -43,6 +44,7 @@ const store = {
       });
 
       commit("set", data);
+
       return data;
     }
   },

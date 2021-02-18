@@ -9,7 +9,6 @@
         <v-btn @click.stop="accountMenuClick" icon>
           <v-icon size="38">{{ "$account_menu" }}</v-icon>
           <transition name="fade">
-            <div
               v-if="newOpps.length"
               class="opp-count"
             >{{ newOpps.length }}</div>

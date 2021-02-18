@@ -5,4 +5,3 @@
         {{ currentPage.lead_title }}
       </div>
       <div
-        v-if="currentPage.lead_description"
