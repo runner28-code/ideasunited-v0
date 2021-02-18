@@ -19,7 +19,6 @@
       </swiper-slide>
     </swiper>
 
-    <v-btn
       :class="{ visible: visibleControls }"
       class="timeline__control"
       icon
@@ -33,3 +32,4 @@
 <script>
 import _ from "lodash";
 
+export default {

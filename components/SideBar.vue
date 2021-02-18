@@ -43,3 +43,5 @@
         v-ripple="false"
       >
         Opportunities
+        <transition name="fade">
+          <div

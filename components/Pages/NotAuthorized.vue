@@ -3,3 +3,4 @@
     <AuthPage
       @disableAuth="disableAuth"
       v-show="!currentUser && !authDisabled"
+    />

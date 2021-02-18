@@ -7,6 +7,7 @@
     <client-only>
       <RootAppBar
         @toggleSidebar="drawer = !drawer"
+      />
       <SideBar v-model="drawer" />
     </client-only>
     <v-main>
@@ -28,3 +29,4 @@ import RootAppBar from "@/components/RootPage/RootAppBar";
 
 export default {
   components: { HomePageLede, RootAppBar },
+  data() {

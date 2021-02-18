@@ -46,3 +46,5 @@
     </div>
     <div v-else-if="currentPage" :class="`page-${currentPage.id}`">
       <PageLead v-if="currentPage.use_lead" />
+      <div class="components">
+        <div

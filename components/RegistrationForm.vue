@@ -7,7 +7,6 @@
   >
     <div class="registration-form__form" v-if="!currentUser">
       <div v-if="registrationForm.login_form && !chooseSignUp">
-        <AuthForm :disabled="disabled" />
         <div class="registration-form__not-registered">
           <p class="registration-form__not-registered-cta">
             {{ registrationForm.not_registered_cta || "Not registered?" }}
@@ -20,3 +19,4 @@
           >
         </div>
       </div>
+      <div v-if="!registrationForm.login_form || chooseSignUp">

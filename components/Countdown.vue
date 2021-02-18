@@ -32,3 +32,4 @@
           v-html="countdown.right_title"
           class="countdown__text text-right"
         ></div>
+      </div>

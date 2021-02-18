@@ -8,3 +8,4 @@
         class="slider-modal-content__video"
         :aspect-ratio="480 / 280"
         v-if="value.youtube_id || value.vimeo_id"
+      >

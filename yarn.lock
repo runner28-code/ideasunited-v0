@@ -1112,3 +1112,52 @@
   integrity sha512-xpEDAoRu75tLUYCkUJCIvJkWJSuwr8pqomvQ+fkXpSrkxZ/9OzlBFjAbVdOAWTMj4aV/LVQso4vcEdircKeFIQ==
   dependencies:
     connect "^3.7.0"
+    defu "^5.0.0"
+    get-port-please "^2.2.0"
+    node-res "^5.0.1"
+    serve-static "^1.14.1"
+
+"@nuxt/opencollective@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/opencollective/-/opencollective-0.3.2.tgz#83cb70cdb2bac5fad6f8c93529e7b11187d49c02"
+  integrity sha512-XG7rUdXG9fcafu9KTDIYjJSkRO38EwjlKYIb5TQ/0WDbiTUTtUtgncMscKOYzfsY86kGs05pAuMOR+3Fi0aN3A==
+  dependencies:
+    chalk "^4.1.0"
+    consola "^2.15.0"
+    node-fetch "^2.6.1"
+
+"@nuxt/server@2.15.8":
+  version "2.15.8"
+  resolved "https://registry.yarnpkg.com/@nuxt/server/-/server-2.15.8.tgz#ec733897de78f858ae0eebd174e8549f247c4e99"
+  integrity sha512-E4EtXudxtWQBUHMHOxFwm5DlPOkJbW+iF1+zc0dGmXLscep1KWPrlP+4nrpZj8/UKzpupamE8ZTS9I4IbnExVA==
+  dependencies:
+    "@nuxt/utils" "2.15.8"
+    "@nuxt/vue-renderer" "2.15.8"
+    "@nuxtjs/youch" "^4.2.3"
+    compression "^1.7.4"
+    connect "^3.7.0"
+    consola "^2.15.3"
+    etag "^1.8.1"
+    fresh "^0.5.2"
+    fs-extra "^9.1.0"
+    ip "^1.1.5"
+    launch-editor-middleware "^2.2.1"
+    on-headers "^1.0.2"
+    pify "^5.0.0"
+    serve-placeholder "^1.2.3"
+    serve-static "^1.14.1"
+    server-destroy "^1.0.1"
+    ufo "^0.7.4"
+
+"@nuxt/telemetry@^1.3.3":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@nuxt/telemetry/-/telemetry-1.3.6.tgz#a27a27b2f56a2ad4ef2c1bef82e12f0bc0dc40ac"
+  integrity sha512-sZpLf/rU3cvN8/alR1HpJIl3mHPA1GOg41GKdOOrtw7Gi/lCEVk4hK+lpXgYInZ2n6i1JyknpKhM9YzX2RU33w==
+  dependencies:
+    arg "^5.0.0"
+    chalk "^4.1.1"
+    ci-info "^3.1.1"
+    consola "^2.15.3"
+    create-require "^1.1.1"
+    defu "^5.0.0"
+    destr "^1.1.0"

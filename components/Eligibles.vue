@@ -4,4 +4,5 @@
       v-for="badge in value"
       :key="badge.id"
       class="eligible"
-      :href="badgeInfoUrl"
+      :class="[`eligible--${badge.slug}`]"
+      target="_blank"

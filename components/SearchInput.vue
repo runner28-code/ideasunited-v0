@@ -11,3 +11,4 @@
 </template>
 
 <script>
+import { getThemeByColor } from "@/utils";

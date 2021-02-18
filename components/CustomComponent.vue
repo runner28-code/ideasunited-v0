@@ -4,9 +4,9 @@
       :key="key"
       v-if="loaded"
       :is="customComponent.sfc_name"
-    ></component>
   </div>
 </template>
 
 <script>
 import Vue from "vue";
+import Spinner from "./Spinner";

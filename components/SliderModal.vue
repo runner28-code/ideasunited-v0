@@ -21,3 +21,4 @@
         </v-btn>
         <v-btn
           v-if="nextId"
+          @click="openNext"

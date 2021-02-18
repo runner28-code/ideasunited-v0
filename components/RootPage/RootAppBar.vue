@@ -1,3 +1,4 @@
+<template>
   <div>
     <v-app-bar
       class="elevation-0 app-bar"
@@ -48,3 +49,5 @@
         :href="newOppDetail.site"
         target="_blank"
       >
+        <div class="app-bar__new-opps-details__content">
+          <div class="app-bar__new-opps-details__content-top">

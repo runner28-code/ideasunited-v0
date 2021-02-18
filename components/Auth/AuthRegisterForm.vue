@@ -23,5 +23,5 @@
           <Title
             v-if="registrationForm.title"
             tag="h2"
-            class="register__title"
             >{{ registrationForm.title }}</Title
+          >

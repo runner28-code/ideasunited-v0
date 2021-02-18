@@ -12,3 +12,4 @@
     </div>
     <div class="zoom-player" v-else-if="event.zoom_player_type == 'desktop'">
       <div class="zoom-player__title">{{ event.title }}</div>
+      <div class="zoom-player__subtitle" v-if="event.start_at">

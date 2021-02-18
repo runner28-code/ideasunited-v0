@@ -9,6 +9,7 @@
           ></div>
           <div class="root-lede__preview-media" ref="previewMedia"
             :class="{'iris-loaded': mounted}"
+          >
             <div class="root-lede__preview-image"
               ref="previewImage"
               :style="{ backgroundImage: `url(${slides[currentSlideIndex]})` }"
@@ -64,3 +65,6 @@
 <script>
 import { TimelineLite, Power1 } from 'gsap/dist/gsap';
 import HomePageLedePlay from "@/components/RootPage/HomePageLedePlay";
+
+export default {
+  components: { HomePageLedePlay },

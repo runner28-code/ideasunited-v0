@@ -29,5 +29,6 @@
             :class="{ 'sticky-video': activeEvent.sticky_video && scrollPosition > 300 }"
           />
           <div v-else class="event__auth-form">
-            <AuthForm />
           </div>
+        </div>
+        <div class="event__video-info" v-show="!activeEvent.hidden_from_timeline">
