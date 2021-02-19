@@ -17,11 +17,13 @@
               @click="clickRegister()"
               >{{ registrationForm.sign_up_btn_text || "Register" }}</v-btn
             >
-          </div>
         </div>
         <div v-if="!registrationForm.login_form || chooseSignUp" class="register">
           <Title
             v-if="registrationForm.title"
             tag="h2"
+            class="register__title"
             >{{ registrationForm.title }}</Title
           >
+          <div
+            v-if="registrationForm.description"

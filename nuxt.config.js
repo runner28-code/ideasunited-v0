@@ -13,6 +13,7 @@ export default {
     server_error: "Page not found",
     server_error_details: "We're unable to find the page you're looking for.",
   },
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s",
     htmlAttrs: {
@@ -22,3 +23,4 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
+    ],

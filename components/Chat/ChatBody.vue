@@ -10,5 +10,4 @@
       :chat="chat"
       :message="message"
       v-for="message in messages"
-      :key="message.uuid"
     />

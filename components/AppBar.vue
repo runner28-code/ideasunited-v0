@@ -10,6 +10,7 @@
           />
         </nuxt-link>
       </div>
+    </v-toolbar-title>
     <a
       href="/more"
       @click.prevent="dropdownClick"
@@ -40,3 +41,6 @@
                 color: menuItem.menu_button_text_color,
               }
             : {}
+        "
+      >
+        <v-menu

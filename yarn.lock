@@ -1161,3 +1161,46 @@
     create-require "^1.1.1"
     defu "^5.0.0"
     destr "^1.1.0"
+    dotenv "^9.0.2"
+    fs-extra "^8.1.0"
+    git-url-parse "^11.4.4"
+    inquirer "^7.3.3"
+    is-docker "^2.2.1"
+    jiti "^1.9.2"
+    nanoid "^3.1.23"
+    node-fetch "^2.6.1"
+    parse-git-config "^3.0.0"
+    rc9 "^1.2.0"
+    std-env "^2.3.0"
+
+"@nuxt/utils@2.15.8":
+  version "2.15.8"
+  resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.15.8.tgz#0c3594f01be63ab521583904cafd32215b719d4c"
+  integrity sha512-e0VBarUbPiQ4ZO1T58puoFIuXme7L5gk1QfwyxOONlp2ryE7aRyZ8X/mryuOiIeyP64c4nwSUtN7q9EUWRb7Lg==
+  dependencies:
+    consola "^2.15.3"
+    create-require "^1.1.1"
+    fs-extra "^9.1.0"
+    hash-sum "^2.0.0"
+    jiti "^1.9.2"
+    lodash "^4.17.21"
+    proper-lockfile "^4.1.2"
+    semver "^7.3.5"
+    serialize-javascript "^5.0.1"
+    signal-exit "^3.0.3"
+    ua-parser-js "^0.7.28"
+    ufo "^0.7.4"
+
+"@nuxt/vue-app@2.15.8":
+  version "2.15.8"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.15.8.tgz#46b7ec8fc93f8d1f4cdf4f6b04134cb40ceb7c4a"
+  integrity sha512-FJf9FSMPsWT3BqkS37zEuPTxLKzSg2EIwp1sP8Eou25eE08qxRfe2PwTVA8HnXUPNdpz2uk/T9DlNw+JraiFRQ==
+  dependencies:
+    node-fetch "^2.6.1"
+    ufo "^0.7.4"
+    unfetch "^4.2.0"
+    vue "^2.6.12"
+    vue-client-only "^2.0.0"
+    vue-meta "^2.4.0"
+    vue-no-ssr "^1.1.1"
+    vue-router "^3.5.1"

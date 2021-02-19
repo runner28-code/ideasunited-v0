@@ -15,3 +15,4 @@
     :suffix="suffix"
     :min="min"
     :max="max"
+    :class="{ block }"

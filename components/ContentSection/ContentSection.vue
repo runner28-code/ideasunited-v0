@@ -8,7 +8,6 @@
       <div v-html="contentSection.title "></div>
       <a
         :style="{ color: activeTheme.primary_color }"
-        class="content-section__more"
         v-if="contentSection.more_link_url && contentSection.more_link_text"
         :href="contentSection.more_link_url | url"
       >
@@ -40,3 +39,6 @@
         class="content-section__control content-section__control-prev"
         icon
         @click="swiperInstance.slidePrev()"
+      >
+        <v-icon size="40">$chevron_left</v-icon>
+      </v-btn>

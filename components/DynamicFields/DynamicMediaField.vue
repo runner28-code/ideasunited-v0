@@ -21,5 +21,5 @@
         {{ label
         }}<span v-if="required && markRequired" class="radio-group__required"
           >*</span
-        >
       </div>
+      <v-btn

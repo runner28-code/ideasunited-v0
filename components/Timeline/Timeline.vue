@@ -1,6 +1,5 @@
 <template>
   <div class="timeline">
-    <v-btn
       :class="{ visible: visibleControls }"
       class="timeline__control"
       icon
@@ -19,6 +18,7 @@
       </swiper-slide>
     </swiper>
 
+    <v-btn
       :class="{ visible: visibleControls }"
       class="timeline__control"
       icon
@@ -33,3 +33,4 @@
 import _ from "lodash";
 
 export default {
+  props: {

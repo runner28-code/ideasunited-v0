@@ -18,3 +18,4 @@
         v-if="textBlock.layout == 4"
       />
     </div>
+    <div

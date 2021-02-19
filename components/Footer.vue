@@ -26,3 +26,4 @@
             >Contact Us</a
           >
         </div>
+        <div class="footer__menu-item">

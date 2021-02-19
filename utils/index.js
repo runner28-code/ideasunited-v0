@@ -16,12 +16,14 @@ export async function buildZoomLink({
     apiKey,
     zoomId: zoom_id,
   };
+// Temp comment
 
   if (zoom_password) {
     params.zoomPassword = zoom_password;
   }
 
   if (full_name || email) {
+    params.nickname = full_name;
     params.email = email;
   }
 

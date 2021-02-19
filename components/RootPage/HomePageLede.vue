@@ -68,3 +68,6 @@ import HomePageLedePlay from "@/components/RootPage/HomePageLedePlay";
 
 export default {
   components: { HomePageLedePlay },
+  data () {
+    const slides = [
+      require("@/assets/images/root/slides/1.jpg"),

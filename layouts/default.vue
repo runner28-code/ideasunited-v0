@@ -21,7 +21,6 @@
     <AppBar @changeKey="key = key + 1" />
     <v-main>
       <div
-        class="mobile-scroll"
         ref="mobileScroll"
         v-scroll.self="mobileScroll"
       >
@@ -48,3 +47,4 @@ export default {
       newOpps: []
     };
   },
+  created() {

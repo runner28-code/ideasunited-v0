@@ -5,4 +5,6 @@
       frameborder="0"
       allow="fullscreen"
       allowfullscreen
+      ref="vimeo"
     ></iframe>
+    <div class="vimeo-player-overlay" @click="started ? null : play()"></div>

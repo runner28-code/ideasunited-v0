@@ -13,3 +13,4 @@
         >
           {{ message.user.full_name
           }}<span
+            v-if="chat.moderator_ids.includes(message.user.id)"

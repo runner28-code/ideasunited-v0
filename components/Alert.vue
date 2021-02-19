@@ -16,3 +16,4 @@
       @input="alert = $event"
     >
       <div
+        :class="{ clickable: alert.onclick }"
