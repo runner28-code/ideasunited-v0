@@ -9,6 +9,7 @@
     <v-responsive
       @click="setActive"
       @keyup.enter="setActive"
+      class="timeline-slide__wrapper"
       :aspect-ratio="aspectRatio"
       role="button"
       tabindex="0"
@@ -16,8 +17,9 @@
       <div :class="classList" :style="styles">
         <div class="timeline-slide--bg"></div>
         <div class="timeline-slide__text">
-          <div class="timeline-slide__text-timestamp">
             {{
               (value.display_time || value.start_at)
                 | moment("timezone", currentTimezone, "h:mm A zz")
             }}
+          </div>
+          <div class="timeline-slide__text-name">

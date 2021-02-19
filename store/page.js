@@ -14,6 +14,7 @@ const store = {
       const collection = state.current?.events;
       const payload = { posted: true };
       updateCollection({ collection, id, payload });
+    },
     unpublishEvent(state, id) {
       const collection = state.current?.events;
       const payload = { posted: false };

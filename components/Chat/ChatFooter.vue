@@ -12,3 +12,4 @@
       You are blocked
     </div>
 
+    <div v-else class="chat-footer__actions">

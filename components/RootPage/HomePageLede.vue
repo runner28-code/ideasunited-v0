@@ -71,3 +71,6 @@ export default {
   data () {
     const slides = [
       require("@/assets/images/root/slides/1.jpg"),
+      require("@/assets/images/root/slides/2.jpg"),
+      require("@/assets/images/root/slides/3.jpg"),
+    ];

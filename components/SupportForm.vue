@@ -9,3 +9,4 @@
     <DynamicForm
       :submit="submit"
       :fields="supportForm.support_form"
+      v-model="form"

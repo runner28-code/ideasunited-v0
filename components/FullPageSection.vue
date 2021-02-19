@@ -21,3 +21,5 @@
           <component
             :value="component.resource_id"
             :page="page"
+            v-bind="component"
+            :is="convertComponent(component.type)"

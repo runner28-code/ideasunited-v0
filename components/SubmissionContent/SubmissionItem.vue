@@ -6,7 +6,6 @@
           <div
             :class="[
               's-' + field.class_name,
-              'submission-item__content--' + field.type
             ]"
             v-for="field in content"
             :key="field.id"
@@ -18,3 +17,4 @@
             }}</span>
           </div>
         </div>
+      </div>

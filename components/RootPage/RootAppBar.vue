@@ -53,3 +53,6 @@
           <div class="app-bar__new-opps-details__content-top">
             <div class="app-bar__new-opps-details__thumb"
               :style="{backgroundImage: `url(${newOppDetailPreview(newOppDetail) })`}"
+            ></div>
+            <div class="app-bar__new-opps-details__label">
+              <div class="app-bar__new-opps-details__new">New opportunity</div>

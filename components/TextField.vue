@@ -16,3 +16,4 @@
     :min="min"
     :max="max"
     :class="{ block }"
+    :name="name"

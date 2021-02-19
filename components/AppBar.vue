@@ -44,3 +44,6 @@
         "
       >
         <v-menu
+          offset-y
+          v-if="['relative', 'none'].includes(menuItem.url_type)"
+        >

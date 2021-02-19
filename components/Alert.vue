@@ -1,4 +1,3 @@
-<template>
   <v-snackbar
     v-if="alert"
     class="alert-container"
@@ -17,3 +16,4 @@
     >
       <div
         :class="{ clickable: alert.onclick }"
+        class="alert__message"
