@@ -7,7 +7,6 @@
     >
       <transition name="fade">
         <div
-          class="background-lede"
           :style="backgroundLedeStyles"
           :key="currentSlide"
         >

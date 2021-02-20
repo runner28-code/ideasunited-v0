@@ -12,4 +12,3 @@
 
 <script>
 import { getThemeByColor } from "@/utils";
-
