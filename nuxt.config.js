@@ -4,13 +4,13 @@
 // console.log({
 //   baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
 //   browserBaseURL: process.env.API_PUBLIC_PATH,
-// Temp comment
 // });
 export default {
   server: {
     port: 8000, // default: 3000
   },
   messages: {
+// Temp comment
     server_error: "Page not found",
     server_error_details: "We're unable to find the page you're looking for.",
   },

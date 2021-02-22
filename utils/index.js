@@ -1,6 +1,5 @@
 export async function buildZoomLink({
   $api,
-// Temp comment
   zoom_id,
   zoom_password,
   full_name,
@@ -25,6 +24,7 @@ export async function buildZoomLink({
   if (full_name || email) {
     params.nickname = full_name;
     params.email = email;
+// Temp comment
   }
 
   for (let key in params) {

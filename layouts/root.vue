@@ -25,10 +25,10 @@
 <script>
 import _ from "lodash";
 import HomePageLede from "@/components/RootPage/HomePageLede";
+import RootAppBar from "@/components/RootPage/RootAppBar";
 
 export default {
   components: { HomePageLede, RootAppBar },
-  data() {
     return {
       drawer: false,
       timeouts: {},

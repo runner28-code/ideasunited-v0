@@ -6,4 +6,3 @@
       class="list-entry__preview"
     ></div>
     <div class="list-entry__content">
-      <div
