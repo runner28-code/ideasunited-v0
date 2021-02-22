@@ -12,6 +12,7 @@
         class="content-section-item__wrapper"
         :class="{
           'content-section-item__wrapper--video':
+            block.content_type == 'video_player'
         }"
         :style="styles"
         :aspect-ratio="285 / 160"
@@ -23,3 +24,4 @@
 
       <div
         class="content-section-item__icon"
+        v-if="block.content_type == 'video_player'"

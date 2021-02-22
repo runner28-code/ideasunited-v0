@@ -5,8 +5,8 @@
     <div class="schedule__description" v-html="schedule.description"></div>
 
     <div class="schedule__items">
-      <div
         class="schedule__group"
         v-for="group in groupedItems"
         :key="group.date"
       >
+        <div class="schedule__date">

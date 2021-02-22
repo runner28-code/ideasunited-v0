@@ -25,3 +25,4 @@
       </div>
       <v-btn
         @click="remove"
+        color="red"

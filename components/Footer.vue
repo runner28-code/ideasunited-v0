@@ -11,7 +11,6 @@
         <div class="copyright">© {{ year }} Ideas United</div>
       </div>
       <div class="footer__menu">
-        <div class="footer__menu-item" v-if="supportForm">
           <a @click.prevent="supportDialog = true"
             >Support</a
           >
@@ -29,3 +28,4 @@
         <div class="footer__menu-item">
           <a target="_blank" href="https://ideasunited.com/terms"
             >Terms of Use</a
+          >

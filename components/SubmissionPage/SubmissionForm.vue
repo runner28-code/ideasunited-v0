@@ -23,3 +23,4 @@
               <Button @click="supportDialog = true">Contact Us</Button>
             </div>
           </div>
+          <div v-else>

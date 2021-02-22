@@ -26,11 +26,11 @@
       </div>
     </a>
     <div class="app-bar__nav">
-      <div
         :key="menuItem.id"
         v-for="(menuItem, idx) in menuPages"
         class="app-bar__nav-item"
         :class="[
+          `app-bar__nav-item--${menuItem.menu_style}`,
           `app-bar__nav-item-${menuItem.id}`,
         ]"
         :style="
@@ -46,3 +46,6 @@
           offset-y
           v-if="['relative', 'none'].includes(menuItem.url_type)"
         >
+          <template v-slot:activator="{ on, attrs }">
+            <component
+              v-bind="attrs"

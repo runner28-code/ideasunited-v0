@@ -1,7 +1,10 @@
 @import "./slider-modal-content.scss";
 
 html {
+  scroll-behavior: smooth;
 }
 
 .error {
   &-page {
+    position: absolute;
+    left: 0;

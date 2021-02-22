@@ -8,3 +8,4 @@
       v-if="!submitted"
     >
       <div class="forgot-password-page__title">Forgot Password?</div>
+      <TextField label="Email" v-model="form.email" type="email" />

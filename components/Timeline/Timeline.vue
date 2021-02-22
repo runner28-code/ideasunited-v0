@@ -37,3 +37,5 @@ export default {
   props: {
     value: Object
   },
+  data() {
+    return {

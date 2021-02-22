@@ -13,3 +13,4 @@
       :key="message.uuid"
     />
   </div>
+</template>

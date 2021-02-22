@@ -12,3 +12,4 @@
           @click="$emit('replyTo', message.user.full_name)"
         >
           {{ message.user.full_name
+          }}<span

@@ -1,4 +1,3 @@
-<template>
   <v-text-field
     :value="value"
     @input="$emit('input', $event)"
@@ -17,3 +16,4 @@
     :max="max"
     :class="{ block }"
     :name="name"
+    :dark="calcTheme == 'dark'"
