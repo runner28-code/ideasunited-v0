@@ -1,5 +1,5 @@
 <template>
-    <div class="submission-page__container">
+  <div class="submission-page">
       <SubmissionForm
         @close="formDialog = false"
         :id="submissionForm.id"

@@ -35,3 +35,4 @@ export default {
       timeouts: {},
       key: 0
     };
+  },

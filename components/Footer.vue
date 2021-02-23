@@ -30,3 +30,4 @@
           <a target="_blank" href="https://ideasunited.com/terms"
             >Terms of Use</a
           >
+        </div>

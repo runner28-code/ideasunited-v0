@@ -11,6 +11,7 @@
         <v-responsive
           v-if="block.content_type == 'video_player'"
           class="slider-modal-content__video"
+          :aspect-ratio="16 / 9"
         >
           <VimeoPlayer
             v-if="block.video_player_type == 'vimeo'"
@@ -23,3 +24,4 @@
           />
           <ZoomPlayer
             v-else-if="block.video_player_type == 'zoom'"
+            :zoomLink="block.zoom_url"

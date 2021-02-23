@@ -8,6 +8,7 @@
       v-if="value"
     >
       <div class="slider-modal__wrapper" @click="close">
+        <v-btn
           v-if="prevId"
           @click="openPrev"
           @keyup.enter="openPrev"
@@ -25,3 +26,4 @@
           icon
           class="slider-modal__arrow slider-modal__next"
           tabindex="0"
+          role="button"

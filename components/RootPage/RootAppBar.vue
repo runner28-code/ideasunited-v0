@@ -59,3 +59,4 @@
               <div class="app-bar__new-opps-details__title">{{ newOppDetail.title }}</div>
             </div>
           </div>
+          <div class="app-bar__new-opps-details__description">{{ newOppDetail.og_description }}</div>

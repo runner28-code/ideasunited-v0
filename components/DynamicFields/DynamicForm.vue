@@ -31,3 +31,4 @@
         :refs="$refs"
         v-if="showBackToLogin && !currentUser"
         @click="$emit('backToLogin')"
+      >

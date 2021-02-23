@@ -2,7 +2,6 @@
   <div class="message">
     <div class="message-wrapper">
       <Avatar
-        :name="message.user.full_name"
         :id="message.user.id"
         class="message__avatar"
       />
@@ -14,3 +13,4 @@
           {{ message.user.full_name
           }}<span
             v-if="chat.moderator_ids.includes(message.user.id)"
+            :style="{ color: activeTheme.primary_color }"

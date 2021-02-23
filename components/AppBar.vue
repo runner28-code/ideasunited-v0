@@ -52,3 +52,4 @@
               v-bind="attrs"
               v-on="on"
               :is="menuItem.url_type == 'relative' ? 'nuxt-link' : 'span'"
+              :to="`#${menuItem.url}`"

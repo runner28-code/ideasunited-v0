@@ -1,5 +1,4 @@
 import list from "./stopwords.json";
-
 class Filter {
   constructor(options = {}) {
     Object.assign(this, {
@@ -10,6 +9,7 @@ class Filter {
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,
       replaceRegex: options.replaceRegex || /\w/g
     });
+  }
 
   isProfane(string) {
     return (

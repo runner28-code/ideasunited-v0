@@ -32,3 +32,4 @@
           >
             {{ registrationForm.description }}
           </div>
+          <DynamicForm
