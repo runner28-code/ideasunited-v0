@@ -23,3 +23,4 @@
             :page="page"
             v-bind="component"
             :is="convertComponent(component.type)"
+            :disabled="formsDisabled"

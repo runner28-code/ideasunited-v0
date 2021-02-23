@@ -26,6 +26,7 @@
       </div>
     </a>
     <div class="app-bar__nav">
+      <div
         :key="menuItem.id"
         v-for="(menuItem, idx) in menuPages"
         class="app-bar__nav-item"
@@ -49,3 +50,5 @@
           <template v-slot:activator="{ on, attrs }">
             <component
               v-bind="attrs"
+              v-on="on"
+              :is="menuItem.url_type == 'relative' ? 'nuxt-link' : 'span'"

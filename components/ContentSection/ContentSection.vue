@@ -49,3 +49,5 @@
         :options="swiperOption"
       >
         <swiper-slide
+          class="content-section__swiper-slide"
+          v-for="(block, index) in filteredBlocks"

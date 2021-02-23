@@ -8,7 +8,6 @@
       v-if="value"
     >
       <div class="slider-modal__wrapper" @click="close">
-        <v-btn
           v-if="prevId"
           @click="openPrev"
           @keyup.enter="openPrev"

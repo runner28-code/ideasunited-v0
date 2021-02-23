@@ -14,7 +14,6 @@
       <div
         @click="oauth(item.provider)"
         class="social-auth__item"
-        :class="['social-auth__item--' + item.provider]"
         v-for="item in items"
         :key="item.id"
       >

@@ -58,3 +58,4 @@
               <div class="app-bar__new-opps-details__new">New opportunity</div>
               <div class="app-bar__new-opps-details__title">{{ newOppDetail.title }}</div>
             </div>
+          </div>

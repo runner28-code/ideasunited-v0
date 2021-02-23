@@ -13,6 +13,7 @@
         : false
     }"
   >
+    <div
       :class="{ with_chat: currentPage.chats[0] }"
       class="event__video"
       v-if="currentPage.events.length"
@@ -35,7 +36,7 @@
           <Title class="event__video-title">{{ activeEvent.title }}</Title>
 
           <div class="event__video-timestamp" v-if="activeEvent.start_at">
-            <timeago
               :auto-update="60"
               :datetime="activeEvent.start_at"
             ></timeago>
+          </div>

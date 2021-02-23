@@ -1,4 +1,4 @@
-  <div class="submission-page">
+<template>
     <div class="submission-page__container">
       <SubmissionForm
         @close="formDialog = false"

@@ -25,3 +25,4 @@
           v-if="registrationForm.title"
           tag="h2"
           class="registration-form__title"
+          >{{ registrationForm.title }}</Title

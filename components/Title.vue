@@ -4,3 +4,4 @@
   </component>
 </template>
 
+<script>

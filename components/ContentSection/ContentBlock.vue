@@ -25,3 +25,4 @@
       <div
         class="content-section-item__icon"
         v-if="block.content_type == 'video_player'"
+      >
