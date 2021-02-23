@@ -33,6 +33,5 @@ export default {
     return {
       drawer: false,
       timeouts: {},
-      key: 0
     };
   },

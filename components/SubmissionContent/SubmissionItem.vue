@@ -9,7 +9,6 @@
               'submission-item__content--' + field.type
             ]"
             v-for="field in content"
-            :key="field.id"
           >
             <span>{{
               field.value.length > 100

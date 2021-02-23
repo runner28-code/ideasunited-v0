@@ -4,7 +4,6 @@ const providers = {
   },
   facebook: {
     authorizationEndpoint: "/api/v1/public_side/auth/facebook"
-// Temp comment
   },
   twitter: {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"

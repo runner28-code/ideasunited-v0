@@ -5,3 +5,4 @@
       allow="autoplay; fullscreen"
       allowfullscreen
       class="zoom-player__embedded"
+      :src="zoomUrl"

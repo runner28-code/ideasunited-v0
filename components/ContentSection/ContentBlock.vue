@@ -13,6 +13,7 @@
         :class="{
           'content-section-item__wrapper--video':
             block.content_type == 'video_player'
+        }"
         :style="styles"
         :aspect-ratio="285 / 160"
       ></v-responsive>

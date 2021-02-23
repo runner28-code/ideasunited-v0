@@ -985,6 +985,7 @@
   resolved "https://registry.yarnpkg.com/@nuxt/builder/-/builder-2.15.8.tgz#66ead4be0a2ce6932a2b7e521cfe1621e49290e7"
   integrity sha512-WVhN874LFMdgRiJqpxmeKI+vh5lhCUBVOyR9PhL1m1V/GV3fb+Dqc1BKS6XgayrWAWavPLveCJmQ/FID0puOfQ==
   dependencies:
+    "@nuxt/devalue" "^1.2.5"
     "@nuxt/utils" "2.15.8"
     "@nuxt/vue-app" "2.15.8"
     "@nuxt/webpack" "2.15.8"
