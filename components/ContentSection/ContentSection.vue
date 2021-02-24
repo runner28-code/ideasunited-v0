@@ -1,4 +1,3 @@
-<template>
   <div
     class="content-section"
     :class="[{ disable_scroll: contentSection.disable_scroll }, `content-section--${contentSection.layout_style}`]"
@@ -17,6 +16,7 @@
         </span>
         <v-icon size="30" :color="activeTheme.primary_color"
           >$chevron_right</v-icon
+        >
       </a>
       <div class="content-section__title__underline" v-rellax="{speed: -0.25, center: true, percentage: 0.5}"></div>
     </Title>
