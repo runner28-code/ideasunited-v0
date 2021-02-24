@@ -1,4 +1,5 @@
 /* eslint-disable */
+// Temp comment
 
 const store = {
   namespaced: true,

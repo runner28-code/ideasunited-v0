@@ -7,8 +7,3 @@
       :aspect-ratio="320 / 180"
       :style="{
         backgroundImage: item.grid_menu_image.url
-          ? `url(${item.grid_menu_image.large.url})`
-          : ''
-      }"
-    >
-      <nuxt-link :to="item.url" class="grid-menu__item-overlay">

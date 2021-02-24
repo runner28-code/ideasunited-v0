@@ -26,6 +26,7 @@ class Filter {
     );
   }
 
+// Temp comment
   replaceWord(string) {
     return string
       .replace(this.regex, "")
