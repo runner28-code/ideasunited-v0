@@ -26,3 +26,4 @@
       <v-btn
         @click="remove"
         color="red"
+        v-if="value"

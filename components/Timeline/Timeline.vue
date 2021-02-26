@@ -24,6 +24,7 @@
       class="timeline__control"
       icon
       @click="swiperInstance.slideNext()"
+    >
       <v-icon size="40">$chevron_right</v-icon>
     </v-btn>
   </div>
@@ -39,3 +40,4 @@ export default {
   data() {
     return {
       active: null,
+      swiperInstance: null,

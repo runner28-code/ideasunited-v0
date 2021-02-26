@@ -1,5 +1,5 @@
 <template>
-    <Title v-if="supportForm.headline" class="support-form__title">{{
+  <div class="support-form">
       supportForm.headline
     }}</Title>
     <div v-if="supportForm.description" class="support-form__description">

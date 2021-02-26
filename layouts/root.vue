@@ -9,6 +9,7 @@
         @toggleSidebar="drawer = !drawer"
       />
       <SideBar v-model="drawer" />
+    </client-only>
     <v-main>
       <HomePageLede />
       <Nuxt :key="key" ref="main-content" />
@@ -35,3 +36,4 @@ export default {
       key: 0
     };
   },
+  created() {

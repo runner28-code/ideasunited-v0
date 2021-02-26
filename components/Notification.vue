@@ -12,3 +12,4 @@
           target="_blank"
           v-if="data.link_text && data.link_to"
           :href="data.link_to"
+          >{{ data.link_text }}</Button

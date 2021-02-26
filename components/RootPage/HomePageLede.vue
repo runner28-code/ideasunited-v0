@@ -90,3 +90,4 @@ export default {
   mounted() {
     this.preloadVideo();
     this.fullscreenExitEvents();
+    this.mounted = true;

@@ -32,3 +32,4 @@
         v-if="showBackToLogin && !currentUser"
         @click="$emit('backToLogin')"
       >
+        Already a member?

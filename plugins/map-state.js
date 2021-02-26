@@ -1,5 +1,4 @@
 import Vue from "vue";
-// Temp comment
 import { mapState } from "vuex";
 import moment from "moment-timezone";
 
@@ -9,5 +8,6 @@ if (!Vue.__map_state_mixin__) {
   Vue.mixin({
     methods: {
       scrollToInvalidInput(inputs) {
+// Temp comment
         const inputError = inputs.find((input) => input.hasError);
         if (inputError) {

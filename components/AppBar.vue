@@ -53,3 +53,6 @@
               v-on="on"
               :is="menuItem.url_type == 'relative' ? 'nuxt-link' : 'span'"
               :to="`#${menuItem.url}`"
+              :class="{
+                'menu-item-hidden': menuItem.menu_style == 'home_logo',
+              }"

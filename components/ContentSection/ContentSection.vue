@@ -1,3 +1,4 @@
+<template>
   <div
     class="content-section"
     :class="[{ disable_scroll: contentSection.disable_scroll }, `content-section--${contentSection.layout_style}`]"
@@ -38,3 +39,7 @@
         :class="{ visible: visibleControls }"
         class="content-section__control content-section__control-prev"
         icon
+        @click="swiperInstance.slidePrev()"
+      >
+        <v-icon size="40">$chevron_left</v-icon>
+      </v-btn>

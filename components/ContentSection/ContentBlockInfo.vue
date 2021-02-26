@@ -25,3 +25,4 @@
           <ZoomPlayer
             v-else-if="block.video_player_type == 'zoom'"
             :zoomLink="block.zoom_url"
+            :event="block"
