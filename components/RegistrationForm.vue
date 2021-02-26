@@ -9,7 +9,6 @@
       <div v-if="registrationForm.login_form && !chooseSignUp">
         <AuthForm :disabled="disabled" />
         <div class="registration-form__not-registered">
-          <p class="registration-form__not-registered-cta">
             {{ registrationForm.not_registered_cta || "Not registered?" }}
           </p>
           <v-btn
@@ -23,6 +22,8 @@
       <div v-if="!registrationForm.login_form || chooseSignUp">
         <Title
           v-if="registrationForm.title"
+          tag="h2"
           class="registration-form__title"
           >{{ registrationForm.title }}</Title
         >
+        <div

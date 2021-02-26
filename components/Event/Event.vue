@@ -44,3 +44,4 @@
           <div
             v-if="activeEvent.description"
             class="event__video-description"
+            v-html="activeEvent.description"

@@ -41,3 +41,4 @@ export default {
     return {
       active: null,
       swiperInstance: null,
+      swiperOption: {

@@ -27,3 +27,4 @@
         @click="remove"
         color="red"
         v-if="value"
+        fab

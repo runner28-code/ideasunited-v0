@@ -4,6 +4,7 @@
       {{
         (value.display_time || value.start_at)
           | moment("timezone", currentTimezone, "dddd MMM Do")
+      }}
     </div>
     <v-responsive
       @click="setActive"
@@ -27,3 +28,4 @@
           </div>
         </div>
 
+        <div class="timeline-slide__now-playing">

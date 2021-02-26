@@ -8,3 +8,4 @@
       :href="badgeInfoUrl"
       target="_blank"
     >
+      <div

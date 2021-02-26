@@ -1,4 +1,3 @@
-<template>
   <v-btn
     @click="click"
     :to="to"
@@ -8,3 +7,4 @@
     :xLarge="xLarge"
     :color="calcColor"
     :type="type"
+    :outlined="outlined"

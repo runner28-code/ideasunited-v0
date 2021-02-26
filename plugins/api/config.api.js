@@ -11,3 +11,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         if (authToken) {
           requestConfig.headers["Auth"] = authToken;
         }
+      }

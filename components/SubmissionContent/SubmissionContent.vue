@@ -2,11 +2,11 @@
   <div class="submission-content">
     <SearchInput v-model="search" />
     <div class="submission-content__grid">
-      <SubmissionItem
         :prevId="getId(index - 1)"
         :nextId="getId(index + 1)"
         :item="item"
         v-for="(item, index) in list"
+        :key="item.id"
         :layout="submissionContent.layout"
         :previewLayout="submissionContent.preview_layout"
       />
@@ -17,3 +17,4 @@
         <div slot="no-results" class="no-results">Nothing found</div>
         <div slot="spinner">
           <Spinner />
+        </div>

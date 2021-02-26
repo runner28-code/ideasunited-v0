@@ -35,3 +35,4 @@
     </div>
 
     <EmailValidationModal
+      :opened="areYouSureDialog"
