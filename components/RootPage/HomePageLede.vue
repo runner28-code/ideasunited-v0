@@ -36,6 +36,7 @@
           </div>
         </div>
         <div ref="playBtn">
+          <HomePageLedePlay @input="playReel"/>
         </div>
       </div>
     </div>

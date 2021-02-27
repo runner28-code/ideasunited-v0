@@ -1,2 +1,2 @@
-  data() {
+export default {
     return {

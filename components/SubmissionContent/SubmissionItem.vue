@@ -5,6 +5,7 @@
         <div class="submission-item__content">
           <div
             :class="[
+              's-' + field.class_name,
               'submission-item__content--' + field.type
             ]"
             v-for="field in content"
@@ -13,7 +14,6 @@
             <span>{{
               field.value.length > 100
                 ? field.value.substr(0, 100) + "..."
-                : field.value
             }}</span>
           </div>
         </div>
