@@ -5,7 +5,6 @@
         <div class="submission-item__content">
           <div
             :class="[
-              's-' + field.class_name,
               'submission-item__content--' + field.type
             ]"
             v-for="field in content"

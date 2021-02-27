@@ -1,4 +1,3 @@
-<template>
   <div class="chat">
     <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
@@ -11,3 +10,4 @@ export default {
   props: {
     chat: Object
   },
+  data() {

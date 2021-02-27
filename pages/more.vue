@@ -8,3 +8,4 @@
       :style="{
         backgroundImage: item.grid_menu_image.url
           ? `url(${item.grid_menu_image.large.url})`
+          : ''

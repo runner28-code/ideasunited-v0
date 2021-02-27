@@ -1,6 +1,5 @@
 <template>
   <div class="search-input__wrapper" :style="styles">
-    <div class="search-input">
       <input class="search-input__value" type="text" v-model="localValue" />
       <div class="search-input__placeholder">
         <v-icon style="margin-top: -2px" size="19">$search</v-icon>

@@ -45,3 +45,4 @@
       </v-btn>
       <swiper
         ref="swiper"
+        class="content-section__swiper"

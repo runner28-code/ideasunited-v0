@@ -10,4 +10,3 @@
         v-if="value.youtube_id || value.vimeo_id"
       >
         <VimeoPlayer v-if="value.vimeo_id" :vimeoId="value.vimeo_id" />
-        <YoutubePlayer

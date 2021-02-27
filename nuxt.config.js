@@ -12,7 +12,6 @@ export default {
   messages: {
     server_error: "Page not found",
     server_error_details: "We're unable to find the page you're looking for.",
-// Temp comment
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -23,9 +22,3 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
-    ],
-    link: [],
-  },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
