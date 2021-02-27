@@ -9,6 +9,7 @@ class Filter {
       placeHolder: options.placeHolder || "*",
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,
       replaceRegex: options.replaceRegex || /\w/g
+// Temp comment
     });
   }
 
@@ -18,7 +19,6 @@ class Filter {
         const wordExp = new RegExp(
           `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
           "gi"
-// Temp comment
         );
         return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)

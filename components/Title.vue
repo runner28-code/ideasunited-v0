@@ -3,5 +3,3 @@
     <slot></slot>
   </component>
 </template>
-
-<script>

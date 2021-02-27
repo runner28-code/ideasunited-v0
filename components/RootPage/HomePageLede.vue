@@ -57,7 +57,6 @@
             </div>
           </div>
         </div>
-      </v-responsive>
     </div>
   </div>
 </template>

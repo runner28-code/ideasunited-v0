@@ -9,6 +9,7 @@
     >
       <v-toolbar-title class="toolbar-title">
         <router-link to="/" class="logo-link">
+          <img :src="isProduction() ? whiteLogo : redLogo" width="258" alt="Logo" />
         </router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>

@@ -21,10 +21,10 @@
             {{
               (value.display_time || value.start_at)
                 | moment("timezone", currentTimezone, "h:mm A zz")
+            }}
           </div>
           <div class="timeline-slide__text-name">
             {{ value.short_title || value.title }}
           </div>
-        </div>
 
         <div class="timeline-slide__now-playing">

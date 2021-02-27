@@ -8,7 +8,7 @@
       />
       <div>
         <div
-          @click="$emit('replyTo', message.user.full_name)"
+          class="message__name"
         >
           {{ message.user.full_name
           }}<span
