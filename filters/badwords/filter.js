@@ -9,7 +9,6 @@ class Filter {
       placeHolder: options.placeHolder || "*",
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,
       replaceRegex: options.replaceRegex || /\w/g
-// Temp comment
     });
   }
 
@@ -26,6 +25,7 @@ class Filter {
       }).length > 0 || false
     );
   }
+// Temp comment
 
   replaceWord(string) {
     return string

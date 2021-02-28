@@ -2,3 +2,4 @@
   <div></div>
 </template>
 
+<script>

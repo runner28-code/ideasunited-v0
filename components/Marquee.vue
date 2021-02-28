@@ -4,8 +4,3 @@
       <slot></slot>
     </div>
   </div>
-</template>
-
-<script>
-export default {
-  data() {

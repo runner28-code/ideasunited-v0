@@ -2,6 +2,7 @@
 // console.log(`${process.env.API_URL}${process.env.API_PUBLIC_PATH}`);
 // console.log("====================++");
 // console.log({
+// Temp comment
 //   baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
 //   browserBaseURL: process.env.API_PUBLIC_PATH,
 // });
@@ -21,3 +22,4 @@ export default {
     },
     meta: [
       { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },

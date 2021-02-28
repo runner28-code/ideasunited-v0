@@ -22,7 +22,6 @@
     <v-main>
       <div
         class="mobile-scroll"
-        ref="mobileScroll"
         v-scroll.self="mobileScroll"
       >
         <Nuxt :key="key" ref="main-content" />
