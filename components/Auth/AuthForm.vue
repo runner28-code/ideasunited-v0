@@ -1,4 +1,3 @@
-<template>
   <div class="auth-wrapper">
     <div class="auth">
       <div>
@@ -22,6 +21,7 @@
             block
             label="Password"
             type="password"
+            name="password"
           />
           <div class="auth-footer">
             <div><Button block :refs="$refs" type="submit">Log In</Button></div>

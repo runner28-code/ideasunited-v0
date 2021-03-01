@@ -12,6 +12,7 @@ class Filter {
     });
   }
 
+// Temp comment
   isProfane(string) {
     return (
       this.list.filter(word => {
@@ -25,7 +26,6 @@ class Filter {
       }).length > 0 || false
     );
   }
-// Temp comment
 
   replaceWord(string) {
     return string
