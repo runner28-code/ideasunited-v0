@@ -12,7 +12,6 @@ class Filter {
     });
   }
 
-// Temp comment
   isProfane(string) {
     return (
       this.list.filter(word => {
@@ -23,7 +22,6 @@ class Filter {
         return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
-      }).length > 0 || false
     );
   }
 

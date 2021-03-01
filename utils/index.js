@@ -25,8 +25,6 @@ export async function buildZoomLink({
     params.nickname = full_name;
     params.email = email;
   }
-// Temp comment
-
   for (let key in params) {
     if (urlParams != "") {
       urlParams += "&";

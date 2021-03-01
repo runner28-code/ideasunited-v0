@@ -22,3 +22,4 @@
         <div class="event__video-player">
           <EventPlayer
             v-if="
+              !activeEvent.require_auth ||

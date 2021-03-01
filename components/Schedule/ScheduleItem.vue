@@ -5,3 +5,4 @@
     :class="{ clickable: item.event, dark: item.dark }"
     :style="styles"
   >
+    <div class="schedule-item__start-at">
