@@ -46,3 +46,5 @@
       <swiper
         ref="swiper"
         class="content-section__swiper"
+        :options="swiperOption"
+      >

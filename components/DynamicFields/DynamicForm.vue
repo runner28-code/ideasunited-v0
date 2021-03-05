@@ -33,3 +33,4 @@
         @click="$emit('backToLogin')"
       >
         Already a member?
+      </Button>

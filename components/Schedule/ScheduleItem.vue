@@ -6,3 +6,4 @@
     :style="styles"
   >
     <div class="schedule-item__start-at">
+      {{

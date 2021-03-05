@@ -25,10 +25,10 @@ export async function buildZoomLink({
     params.nickname = full_name;
     params.email = email;
   }
+
   for (let key in params) {
     if (urlParams != "") {
       urlParams += "&";
-    }
     urlParams += key + "=" + encodeURIComponent(params[key]);
   }
 

@@ -11,3 +11,4 @@
         :key="group.date"
       >
         <div class="schedule__date">
+          {{

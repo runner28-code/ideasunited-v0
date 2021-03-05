@@ -21,3 +21,4 @@
       </div>
     </v-responsive>
 
+    <SliderModal

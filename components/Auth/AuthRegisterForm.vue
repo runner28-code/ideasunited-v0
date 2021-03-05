@@ -35,3 +35,4 @@
           <DynamicForm
             :submit="submit"
             :fields="registrationForm.registration_form"
+            v-model="form"

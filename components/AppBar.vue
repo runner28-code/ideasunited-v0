@@ -57,3 +57,4 @@
                 'menu-item-hidden': menuItem.menu_style == 'home_logo',
               }"
             >
+              <span @click="menuClick(menuItem, idx)">{{

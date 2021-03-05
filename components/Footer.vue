@@ -29,6 +29,5 @@
         <div class="footer__menu-item">
           <a target="_blank" href="https://ideasunited.com/terms"
             >Terms of Use</a
-          >
         </div>
 

@@ -37,3 +37,4 @@ export default {
     };
   },
   created() {
+    this.$store.dispatch("application/init");
