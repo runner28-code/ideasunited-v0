@@ -19,6 +19,7 @@
           </div>
         </div>
       </transition>
+      <div class="fullpage-outer-container">
         <div class="fullpage-container">
           <no-ssr>
             <full-page

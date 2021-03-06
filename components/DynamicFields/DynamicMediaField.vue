@@ -9,6 +9,7 @@
         :rules="rules"
         outlined
         prepend-icon=""
+        @change="handleFileChange"
         ref="fileInput"
         append-icon="$upload"
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
@@ -16,7 +17,6 @@
       </v-file-input>
     </div>
     <div class="uploader-wrapper" v-else>
-      <div class="uploader__label" v-if="showLabel && label">
         {{ label
         }}<span v-if="required && markRequired" class="radio-group__required"
           >*</span

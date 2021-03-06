@@ -4,7 +4,6 @@
       :class="{ visible: visibleControls }"
       class="timeline__control"
       icon
-      @click="swiperInstance.slidePrev()"
     >
       <v-icon size="40">$chevron_left</v-icon>
     </v-btn>
@@ -22,6 +21,7 @@
     <v-btn
       :class="{ visible: visibleControls }"
       class="timeline__control"
+      icon
       @click="swiperInstance.slideNext()"
     >
       <v-icon size="40">$chevron_right</v-icon>

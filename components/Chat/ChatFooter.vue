@@ -9,8 +9,8 @@
     </div>
 
     <div v-else-if="currentUser.blocked && currentUser.blocked">
-      You are blocked
     </div>
+
     <div v-else class="chat-footer__actions">
       <v-textarea
         @keydown.enter="sendMessage"

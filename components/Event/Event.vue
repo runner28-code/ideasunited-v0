@@ -24,4 +24,5 @@
             v-if="
               !activeEvent.require_auth ||
                 (activeEvent.require_auth && currentUser)
+            "
             :event="activeEvent"
