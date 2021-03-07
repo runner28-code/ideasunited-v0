@@ -8,3 +8,4 @@
     </div>
     <DynamicForm
       :submit="submit"
+      :fields="supportForm.support_form"

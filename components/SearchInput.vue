@@ -14,3 +14,4 @@
 import { getThemeByColor } from "@/utils";
 
 export default {
+  name: "SearchInput",

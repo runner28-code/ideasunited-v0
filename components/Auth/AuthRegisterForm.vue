@@ -31,8 +31,8 @@
             class="register__description"
           >
             {{ registrationForm.description }}
-          </div>
           <DynamicForm
             :submit="submit"
             :fields="registrationForm.registration_form"
             v-model="form"
+            :mark-required="registrationForm.mark_required"

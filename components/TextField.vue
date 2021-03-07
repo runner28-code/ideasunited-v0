@@ -11,7 +11,6 @@
     :rules="rules"
     @change="$emit('change')"
     ref="input"
-    validate-on-blur
     :suffix="suffix"
     :min="min"
     :max="max"
@@ -19,3 +18,4 @@
     :name="name"
     :dark="calcTheme == 'dark'"
     :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
+    @focus.stop="onFocus($event)"

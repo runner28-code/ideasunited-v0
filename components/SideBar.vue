@@ -34,7 +34,6 @@
       >
         <span @click="menuClick(menuItem, idx)">
           {{ menuItem.footer_menu_title }}
-        </span>
       </v-list-item>
       <div class="rightsidebar__separator" v-if="showSeparator"></div>
       <v-list-item
@@ -55,3 +54,4 @@
           {{ currentProject.title }}
         </v-list-item>
       </v-list>
+      <v-list-item

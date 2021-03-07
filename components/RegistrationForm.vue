@@ -28,3 +28,4 @@
           >{{ registrationForm.title }}</Title
         >
         <div
+          v-if="registrationForm.description"

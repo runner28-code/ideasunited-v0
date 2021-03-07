@@ -91,3 +91,4 @@ export default {
     this.preloadVideo();
     this.fullscreenExitEvents();
     this.mounted = true;
+    

@@ -32,3 +32,4 @@
           >
         </div>
 
+        <div class="footer__separator"></div>

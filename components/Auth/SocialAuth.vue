@@ -9,7 +9,6 @@
         currentProject.projects_addons["Addon::CasLogin"].btn_text ||
           "Log in with CAS account"
       }}</Button>
-    </div>
     <div v-if="items.length" class="social-auth">
       <div
         @click="oauth(item.provider)"

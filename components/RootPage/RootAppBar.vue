@@ -27,6 +27,7 @@
             small
           >
             <v-icon size="20" color="white">$close</v-icon>
+          </v-btn>
         </div>
       </transition>
 
@@ -62,3 +63,5 @@
         </div>
         <div class="app-bar__new-opps-details__actions">
           <v-btn
+            icon
+            class="app-bar__new-opps-details__close"

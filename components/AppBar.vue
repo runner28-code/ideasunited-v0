@@ -58,3 +58,5 @@
               }"
             >
               <span @click="menuClick(menuItem, idx)">{{
+                menuItem.menu_title
+              }}</span>
