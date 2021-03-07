@@ -16,7 +16,6 @@ export default {
         hid: "og-title",
         property: "og:title",
         content: this.currentProject?.headline
-      },
       {
         hid: "og-description",
         property: "og:description",

@@ -15,7 +15,6 @@ export async function buildZoomLink({
     signature,
     apiKey,
     zoomId: zoom_id,
-  };
 
   if (zoom_password) {
     params.zoomPassword = zoom_password;
@@ -23,6 +22,7 @@ export async function buildZoomLink({
 
   if (full_name || email) {
     params.nickname = full_name;
+    params.email = email;
   }
 
   for (let key in params) {
