@@ -30,3 +30,4 @@
           />
           <div v-else class="event__auth-form">
             <AuthForm />
+          </div>

@@ -4,7 +4,6 @@
     @input="$emit('input', $event)"
     hide-details="auto"
     outlined
-    class="text-field"
     :placeholder="placeholder"
     :label="label"
     :type="localType"
@@ -18,4 +17,5 @@
     :class="{ block }"
     :name="name"
     :dark="calcTheme == 'dark'"
+    :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
     @focus.stop="onFocus($event)"

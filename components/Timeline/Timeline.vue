@@ -42,4 +42,3 @@ export default {
       active: null,
       swiperInstance: null,
       swiperOption: {
-        speed: 400,

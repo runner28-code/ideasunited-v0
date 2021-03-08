@@ -10,6 +10,7 @@
       >
         Logout
       </v-btn>
+    </div>
   </div>
 </template>
 
