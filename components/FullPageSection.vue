@@ -26,3 +26,4 @@
             :disabled="formsDisabled"
           ></component>
         </div>
+      </div>

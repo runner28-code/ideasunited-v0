@@ -6,3 +6,4 @@
       :key="event.id"
     />
     <VimeoPlayer
+      :key="event.id"

@@ -56,3 +56,4 @@
         </v-list-item>
       </v-list>
       <v-list-item
+        class="rightsidebar__item"

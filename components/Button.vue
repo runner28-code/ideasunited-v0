@@ -9,3 +9,4 @@
     :color="calcColor"
     :type="type"
     :outlined="outlined"
+    :text="text"

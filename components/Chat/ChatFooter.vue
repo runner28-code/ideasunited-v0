@@ -8,6 +8,7 @@
       Chat is temporarily locked
     </div>
 
+    <div v-else-if="currentUser.blocked && currentUser.blocked">
       You are blocked
     </div>
 
@@ -16,3 +17,4 @@
         @keydown.enter="sendMessage"
         auto-grow
         rows="1"
+        class="chat-footer__actions-input"

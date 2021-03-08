@@ -42,6 +42,7 @@
             </full-page>
           </no-ssr>
         </div>
+      </div>
     </div>
     <div v-else-if="currentPage" :class="`page-${currentPage.id}`">
       <PageLead v-if="currentPage.use_lead" />
@@ -58,3 +59,4 @@
           ></component>
         </div>
       </div>
+    </div>

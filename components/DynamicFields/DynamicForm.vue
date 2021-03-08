@@ -2,6 +2,7 @@
   <v-form
     @submit.prevent="submitCallback"
     v-model="valid"
+    ref="form"
     class="dynamic-form"
     :disabled="disabled"
   >
@@ -33,3 +34,4 @@
       >
         Already a member?
       </Button>
+      <Button :refs="$refs" type="submit" :disabled="!valid || loading">

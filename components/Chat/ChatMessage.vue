@@ -8,6 +8,9 @@
       />
       <div>
         <div
+          class="message__name"
           @click="$emit('replyTo', message.user.full_name)"
         >
           {{ message.user.full_name
+          }}<span
+            v-if="chat.moderator_ids.includes(message.user.id)"

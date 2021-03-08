@@ -65,3 +65,4 @@
           <v-btn
             icon
             class="app-bar__new-opps-details__close"
+            @click.prevent="showNewOppDetails = false"

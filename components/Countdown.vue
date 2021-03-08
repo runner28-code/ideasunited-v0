@@ -18,6 +18,7 @@
             <div class="countdown-timer__item-value">
               {{ minutes }}
             </div>
+            <div class="countdown-timer__item-label">mins</div>
           </div>
           <div class="countdown-timer__item">
             <div class="countdown-timer__item-value">
@@ -37,3 +38,4 @@
 </template>
 
 <script>
+import moment from "moment-timezone";

@@ -17,4 +17,6 @@
         <div slot="no-more"></div>
         <div slot="no-results" class="no-results">Nothing found</div>
         <div slot="spinner">
+          <Spinner />
         </div>
+      </infinite-loading>
