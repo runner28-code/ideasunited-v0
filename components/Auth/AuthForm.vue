@@ -29,7 +29,6 @@
             <nuxt-link to="/forgot-password" class="forgot-password-link">
               Forgot password?
             </nuxt-link>
-          </div>
         </v-form>
       </div>
     </div>

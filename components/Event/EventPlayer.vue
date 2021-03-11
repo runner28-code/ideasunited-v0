@@ -5,5 +5,4 @@
       :youtubeId="event.youtube_id"
       :key="event.id"
     />
-    <VimeoPlayer
       :key="event.id"

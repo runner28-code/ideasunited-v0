@@ -61,4 +61,3 @@
                 menuItem.menu_title
               }}</span>
               <span class="menu-caret" v-if="menuItem.menus.length">▾</span>
-            </component>
