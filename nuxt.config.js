@@ -17,6 +17,7 @@ export default {
   head: {
     titleTemplate: "%s",
     htmlAttrs: {
+      lang: "en",
     },
     meta: [
       { charset: "utf-8" },
