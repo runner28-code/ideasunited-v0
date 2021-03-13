@@ -9,7 +9,6 @@
         ? currentPage.chats[0].chat_type == 'text'
         : false,
       chat_is_zoom: currentPage.chats.length
-        ? currentPage.chats[0].chat_type == 'zoom'
         : false
     }"
   >
@@ -33,3 +32,4 @@
           </div>
         </div>
         <div class="event__video-info" v-show="!activeEvent.hidden_from_timeline">
+          <Title class="event__video-title">{{ activeEvent.title }}</Title>

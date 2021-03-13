@@ -51,13 +51,13 @@ const store = {
     current(state) {
       return state.current;
     }
-// Temp comment
   }
 };
 
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
   const item = collection.find(t => t.id == id);
+// Temp comment
   if (item) {
     Object.assign(item, payload);
   }

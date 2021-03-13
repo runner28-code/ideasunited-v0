@@ -15,6 +15,7 @@
       <Nuxt :key="key" ref="main-content" />
       <Footer :is-static="true"/>
     </v-main>
+    <AuthModal />
     <Alert />
     <Notification />
     <div v-html="styles"></div>
@@ -30,7 +31,6 @@ export default {
   components: { HomePageLede, RootAppBar },
   data() {
     return {
-      drawer: false,
       timeouts: {},
       key: 0
     };

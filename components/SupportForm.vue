@@ -6,5 +6,6 @@
     <div v-if="supportForm.description" class="support-form__description">
       {{ supportForm.description }}
     </div>
+    <DynamicForm
       :submit="submit"
       :fields="supportForm.support_form"
