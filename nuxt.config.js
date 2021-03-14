@@ -10,7 +10,6 @@ export default {
     port: 8000, // default: 3000
   },
   messages: {
-// Temp comment
     server_error: "Page not found",
     server_error_details: "We're unable to find the page you're looking for.",
   },

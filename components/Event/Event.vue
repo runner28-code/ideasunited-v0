@@ -35,3 +35,4 @@
         <div class="event__video-info" v-show="!activeEvent.hidden_from_timeline">
           <Title class="event__video-title">{{ activeEvent.title }}</Title>
 
+          <div class="event__video-timestamp" v-if="activeEvent.start_at">

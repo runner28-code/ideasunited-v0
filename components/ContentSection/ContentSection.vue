@@ -22,7 +22,6 @@
       <div class="content-section__title__underline" v-rellax="{speed: -0.25, center: true, percentage: 0.5}"></div>
     </Title>
     <div v-if="contentSection.subtitle" class="content-section__subtitle">
-      {{ contentSection.subtitle }}
     </div>
     <div class="content-section__blocks" v-if="contentSection.disable_scroll">
       <ContentBlock
@@ -53,3 +52,4 @@
           v-for="(block, index) in filteredBlocks"
           :key="block.id"
         >
+          <ContentBlock

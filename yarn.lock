@@ -1094,7 +1094,6 @@
 "@nuxt/generator@2.15.8":
   version "2.15.8"
   resolved "https://registry.yarnpkg.com/@nuxt/generator/-/generator-2.15.8.tgz#d6bd4a677edf14f34d516e13bcb70d62cdd4c5b4"
-  integrity sha512-hreLdYbBIe3SWcP8LsMG7OlDTx2ZVucX8+f8Vrjft3Q4r8iCwLMYC1s1N5etxeHAZfS2kZiLmF92iscOdfbgMQ==
   dependencies:
     "@nuxt/utils" "2.15.8"
     chalk "^4.1.1"

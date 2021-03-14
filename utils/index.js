@@ -21,7 +21,6 @@ export async function buildZoomLink({
     params.zoomPassword = zoom_password;
   }
 
-// Temp comment
   if (full_name || email) {
     params.nickname = full_name;
     params.email = email;

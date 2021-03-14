@@ -5,4 +5,5 @@
     <RootPage v-else-if="status == 200" />
   </div>
 </template>
+
 <script>

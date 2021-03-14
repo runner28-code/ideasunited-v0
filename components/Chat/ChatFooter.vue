@@ -1,7 +1,6 @@
 <template>
   <div class="chat-footer">
     <v-btn v-if="!currentUser" outlined @click="$root.$emit(`authModal/open`)">
-      Log in
     </v-btn>
 
     <div v-else-if="chat.locked">
@@ -15,5 +14,6 @@
     <div v-else class="chat-footer__actions">
       <v-textarea
         @keydown.enter="sendMessage"
+        auto-grow
         rows="1"
         class="chat-footer__actions-input"

@@ -31,6 +31,7 @@
         </div>
       </transition>
 
+      <v-btn icon @click="$emit('toggleSidebar')" class="app-bar__menu">
         <v-icon size="34" color="white">$account_menu</v-icon>
         <transition name="fade">
           <div

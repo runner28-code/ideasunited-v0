@@ -3,6 +3,7 @@
     <div class="auth">
       <div>
         <div class="auth-admin-title">
+          <span >
             iU Creator Login
           </span>
         </div>
@@ -20,7 +21,6 @@
             v-model="loginForm.password"
             block
             label="Password"
-            type="password"
             name="password"
           />
           <div class="auth-footer">

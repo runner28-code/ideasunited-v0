@@ -10,3 +10,4 @@
           ? `url(${item.grid_menu_image.large.url})`
           : ''
       }"
+    >
