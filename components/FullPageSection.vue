@@ -1,4 +1,3 @@
-<template>
   <div class="page" :data-anchor="page.url">
     <v-responsive
       class="mobile-bglede"
@@ -16,6 +15,7 @@
         <div
           class="component"
           v-for="component in page.components"
+          :key="component.resource_id"
         >
           <component
             :value="component.resource_id"
