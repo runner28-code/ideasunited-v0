@@ -17,3 +17,4 @@
             :style="{ color: activeTheme.primary_color }"
             >*</span
           >
+        </div>

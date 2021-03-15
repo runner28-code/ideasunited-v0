@@ -41,3 +41,4 @@
 import moment from "moment-timezone";
 
 export default {
+  name: "Countdown",

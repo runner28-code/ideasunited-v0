@@ -33,3 +33,4 @@
           <span>
             now playing
           </span>
+        </div>

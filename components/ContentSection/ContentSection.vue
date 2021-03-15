@@ -59,3 +59,4 @@
             :block="block"
           />
         </swiper-slide>
+      </swiper>

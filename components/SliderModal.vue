@@ -25,3 +25,4 @@
           @keyup.enter="openNext"
           icon
           class="slider-modal__arrow slider-modal__next"
+          tabindex="0"

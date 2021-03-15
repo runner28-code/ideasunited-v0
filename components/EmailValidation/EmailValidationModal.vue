@@ -10,4 +10,5 @@
         <div v-for="(suggestion, sidx) in suggestions" :key="sidx" v-show="!suggestion.accepted">
           Did you mean {{`${suggestion.local}@${suggestion.suggestion}`}}? <a @click="useSuggestion(suggestion)">Use this email.</a>
         </div>
-      <Button
+      </div>
+        large

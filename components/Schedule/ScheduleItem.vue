@@ -1,5 +1,5 @@
 <template>
-    @click="onclick"
+  <div
     class="schedule-item"
     :class="{ clickable: item.event, dark: item.dark }"
     :style="styles"
@@ -11,3 +11,4 @@
     </div>
     <div class="schedule-item__content">
       <Title class="schedule-item__title">{{ item.title }}</Title>
+      <div

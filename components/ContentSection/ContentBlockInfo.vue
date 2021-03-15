@@ -29,3 +29,4 @@
           />
         </v-responsive>
         <Slider
+          :slides="block.slides"
