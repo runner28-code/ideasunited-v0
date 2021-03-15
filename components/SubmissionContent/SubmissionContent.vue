@@ -20,3 +20,4 @@
           <Spinner />
         </div>
       </infinite-loading>
+    </client-only>

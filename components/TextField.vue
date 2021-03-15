@@ -17,6 +17,6 @@
     :max="max"
     :class="{ block }"
     :name="name"
-    :dark="calcTheme == 'dark'"
     :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
     @focus.stop="onFocus($event)"
+  >

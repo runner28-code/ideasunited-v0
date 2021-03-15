@@ -5,3 +5,4 @@
       v-show="!currentUser && !authDisabled"
     />
     <div class="error-page" v-show="currentUser || authDisabled">
+      <div class="error-content">

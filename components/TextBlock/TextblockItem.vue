@@ -18,3 +18,4 @@
           v-html="item.description"
         ></div>
       </div>
+  </component>

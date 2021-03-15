@@ -18,3 +18,4 @@
 <script>
 export default {
   props: {
+    value: [typeof window === "undefined" ? Object : window.File, Object],

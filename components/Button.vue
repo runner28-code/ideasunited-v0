@@ -1,3 +1,4 @@
+<template>
   <v-btn
     @click="click"
     :to="to"
@@ -9,3 +10,4 @@
     :type="type"
     :outlined="outlined"
     :text="text"
+    class="elevation-0 btn"

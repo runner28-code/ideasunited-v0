@@ -11,3 +11,4 @@
         <div
           @click="slideClick(slide)"
           class="slider__slide"
+          :class="{ clickable: slide.url }"

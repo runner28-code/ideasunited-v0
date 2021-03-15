@@ -11,3 +11,4 @@
           : ''
       }"
     >
+      <nuxt-link :to="item.url" class="grid-menu__item-overlay">

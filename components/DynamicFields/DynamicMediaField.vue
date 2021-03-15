@@ -9,10 +9,10 @@
         :rules="rules"
         outlined
         prepend-icon=""
-        @change="handleFileChange"
         ref="fileInput"
         append-icon="$upload"
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
+      >
       </v-file-input>
     </div>
     <div class="uploader-wrapper" v-else>
@@ -28,3 +28,5 @@
         v-if="value"
         fab
         small
+        class="uploader__delete"
+      >

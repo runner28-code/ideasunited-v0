@@ -1,6 +1,6 @@
 <template>
   <v-textarea
     :placeholder="label + (required && markRequired ? ' *' : '')"
-    @input="$emit('input', $event)"
+    :value="value"
     :rules="rules"
     auto-grow

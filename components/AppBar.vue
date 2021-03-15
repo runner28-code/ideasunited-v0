@@ -28,7 +28,6 @@
     <div class="app-bar__nav">
       <div
         :key="menuItem.id"
-        v-for="(menuItem, idx) in menuPages"
         class="app-bar__nav-item"
         :class="[
           `app-bar__nav-item--${menuItem.menu_style}`,
@@ -62,3 +61,8 @@
               }}</span>
               <span class="menu-caret" v-if="menuItem.menus.length">▾</span>
             </component>
+          </template>
+
+          <v-list>
+            <v-list-item
+              @click="menuClick(menuItem, idx)"

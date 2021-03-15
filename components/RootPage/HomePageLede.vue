@@ -93,3 +93,8 @@ export default {
     this.mounted = true;
     
     const timeline = new TimelineLite();
+    timeline.set(this.$refs.previewMedia, {
+      maskImage: `url(${this.irisAsset})`
+    });
+    setTimeout(() => {
+      this.slideChange();

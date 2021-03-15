@@ -6,6 +6,7 @@ const store = {
   mutations: {
     set(state, current) {
       state.current = current;
+    },
     updateChat(state, chat) {
       state.current.chats[chat.id] = chat;
     },

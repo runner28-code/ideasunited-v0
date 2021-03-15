@@ -27,3 +27,5 @@
             :zoomLink="block.zoom_url"
             :event="block"
           />
+        </v-responsive>
+        <Slider

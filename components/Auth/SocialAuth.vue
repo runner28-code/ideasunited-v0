@@ -2,7 +2,6 @@
   <div>
     <div
       @click="oauth('cas')"
-      class="social-auth__cas"
       v-if="currentProject.addons.includes('Addon::CasLogin')"
     >
       <Button block x-large>{{
@@ -16,3 +15,5 @@
         class="social-auth__item"
         :class="['social-auth__item--' + item.provider]"
         v-for="item in items"
+        :key="item.id"
+      >

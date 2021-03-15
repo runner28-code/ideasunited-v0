@@ -29,3 +29,5 @@
         <v-icon :color="activeTheme.primary_color" size="28">$play</v-icon>
       </div>
 
+      <SliderModal
+        :prevId="prevId"

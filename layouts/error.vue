@@ -5,3 +5,4 @@
     </h1>
     <h1 v-else>
       {{ otherError }}
+    </h1>

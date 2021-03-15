@@ -26,7 +26,6 @@
 import _ from "lodash";
 import HomePageLede from "@/components/RootPage/HomePageLede";
 import RootAppBar from "@/components/RootPage/RootAppBar";
-
 export default {
   components: { HomePageLede, RootAppBar },
   data() {
@@ -40,3 +39,5 @@ export default {
     this.$store.dispatch("application/init");
 
     if (process.client) {
+      this.$cable.subscribe({
+        channel: "ProjectChannel",

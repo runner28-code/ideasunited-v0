@@ -15,7 +15,6 @@
       <v-spacer></v-spacer>
       <transition name="fade">
         <div
-          class="app-bar__new-opps"
           @click.stop="goToOpps()"
           v-if="newOpps.length && showNewOpps"
         >
@@ -66,3 +65,8 @@
             icon
             class="app-bar__new-opps-details__close"
             @click.prevent="showNewOppDetails = false"
+            small
+          >
+            <v-icon size="20" color="white">$close</v-icon>
+          </v-btn>
+          <v-btn

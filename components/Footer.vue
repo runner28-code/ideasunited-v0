@@ -21,6 +21,7 @@
             >FAQ</a
           >
         </div>
+        <div class="footer__menu-item">
           <a target="_blank" href="mailto:community@ideasunited.com"
             >Contact Us</a
           >
@@ -33,3 +34,5 @@
 
         <div class="footer__separator"></div>
         <div class="footer__menu-item">
+          <a target="_blank" href="https://ideasunited.com/privacy">Privacy</a>
+        </div>

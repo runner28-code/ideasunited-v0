@@ -54,3 +54,5 @@ export default {
     if (process.client) {
       this.$cable.subscribe({
         channel: "ProjectChannel",
+        project_id: this.currentProject.id,
+        env: this.currentProject.env,

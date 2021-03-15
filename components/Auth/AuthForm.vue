@@ -21,6 +21,7 @@
             v-model="loginForm.password"
             block
             label="Password"
+            type="password"
             name="password"
           />
           <div class="auth-footer">
@@ -35,3 +36,23 @@
 
     <EmailValidationModal
       :opened="areYouSureDialog"
+      :suggestions="emailValidationSuggestions"
+      :form="registerForm"
+      @close="areYouSureDialog = false"
+      @submit="register"
+    />
+  </div>
+</template>
+
+<script>
+import _ from "lodash";
+import Title from "@/components/Title";
+import { frontendToProfile } from "@/utils";
+
+export default {
+  components: { Title },
+  props: {
+    disabled: Boolean,
+    startAtSignUp: Boolean,
+    loginFormRequest: Boolean,
+  },

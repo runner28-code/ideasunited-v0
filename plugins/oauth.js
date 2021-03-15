@@ -7,3 +7,4 @@ const providers = {
   },
   twitter: {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
+  },

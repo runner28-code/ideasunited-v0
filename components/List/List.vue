@@ -1,6 +1,7 @@
 <template>
   <div class="commons-list">
     <div class="commons-list__wrapper text-center">
+      <Title tag="h1">{{ list.headline }}</Title>
       <div class="commons-list__description" v-html="list.description"></div>
     </div>
     <SearchInput v-model="search" />
@@ -8,3 +9,4 @@
       <div class="commons-list__items">
         <ListEntry v-for="entry in entries" :key="entry.id" :entry="entry" />
       </div>
+    </div>

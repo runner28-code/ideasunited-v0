@@ -57,3 +57,7 @@
       </v-list>
       <v-list-item
         class="rightsidebar__item"
+        :href="creatorsUrl"
+        v-ripple="false"
+        v-if="currentUser && currentUser.confirmed"
+      >

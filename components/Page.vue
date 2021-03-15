@@ -11,6 +11,7 @@
           :style="backgroundLedeStyles"
           :key="currentSlide"
         >
+          <div
             class="background-lede__logo"
             v-if="opportunityLogo && !currentProject.hide_frontend_logo"
           >
@@ -37,7 +38,6 @@
                 class="section fp-auto-height-responsive"
                 ref="sections"
                 :forms-disabled="idx != currentSlide && idx - 1 != currentSlide"
-              />
             </full-page>
           </no-ssr>
         </div>
@@ -59,3 +59,6 @@
         </div>
       </div>
     </div>
+  </div>
+</template>
+

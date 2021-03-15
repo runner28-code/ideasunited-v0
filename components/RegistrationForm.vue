@@ -30,3 +30,5 @@
         <div
           v-if="registrationForm.description"
           class="registration-form__description"
+        >
+          {{ registrationForm.description }}
