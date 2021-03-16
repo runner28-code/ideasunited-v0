@@ -40,7 +40,6 @@
       :form="registerForm"
       @close="areYouSureDialog = false"
       @submit="register"
-    />
   </div>
 </template>
 

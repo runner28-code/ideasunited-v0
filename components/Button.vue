@@ -1,6 +1,5 @@
 <template>
   <v-btn
-    @click="click"
     :to="to"
     :dark="calcTheme == 'dark'"
     :large="large"
@@ -11,3 +10,4 @@
     :outlined="outlined"
     :text="text"
     class="elevation-0 btn"
+    :href="href"

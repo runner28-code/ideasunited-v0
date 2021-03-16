@@ -15,8 +15,8 @@
           <a @click.prevent="supportDialog = true"
             >Support</a
           >
-        </div>
         <div class="footer__menu-item">
+          <a @click="clickFAQ"
             >FAQ</a
           >
         </div>
@@ -35,3 +35,5 @@
         <div class="footer__menu-item">
           <a target="_blank" href="https://ideasunited.com/privacy">Privacy</a>
         </div>
+      </div>
+    </div>

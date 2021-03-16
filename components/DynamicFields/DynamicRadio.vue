@@ -7,3 +7,4 @@
       class="radio-group__control"
       row
       :value="value"
+      hide-details="auto"

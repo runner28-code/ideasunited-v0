@@ -47,3 +47,5 @@ export default {
           enabled: true
         },
         breakpoints: {
+          0: {
+            slidesPerView: 1.2,

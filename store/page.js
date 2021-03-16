@@ -56,7 +56,6 @@ const store = {
 
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
-// Temp comment
   const item = collection.find(t => t.id == id);
   if (item) {
     Object.assign(item, payload);

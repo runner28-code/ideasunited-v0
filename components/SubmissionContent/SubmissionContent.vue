@@ -21,3 +21,4 @@
         </div>
       </infinite-loading>
     </client-only>
+    <div v-html="css"></div>

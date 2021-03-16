@@ -4,3 +4,4 @@ const store = {
   namespaced: true,
   state: () => ({}),
   mutations: {
+    setToken(state, token) {

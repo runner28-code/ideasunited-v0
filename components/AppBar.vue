@@ -29,7 +29,6 @@
       <div
         :key="menuItem.id"
         v-for="(menuItem, idx) in menuPages"
-        class="app-bar__nav-item"
         :class="[
           `app-bar__nav-item--${menuItem.menu_style}`,
           `app-bar__nav-item-${menuItem.id}`,
@@ -67,3 +66,7 @@
           <v-list>
             <v-list-item
               @click="menuClick(menuItem, idx)"
+              :to="menu.url"
+              v-for="(menu, idx) in menuItem.menus"
+              :key="idx"
+              >{{ menu.menu_title }}</v-list-item

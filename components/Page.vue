@@ -64,3 +64,6 @@
 </template>
 
 <script>
+import mixin from "./convertComponent.mixin";
+import isMobileMixin from "./isMobile.mixin";
+import FullPageSection from "@/components/FullPageSection";

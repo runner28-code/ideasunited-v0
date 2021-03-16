@@ -5,3 +5,4 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, user) {
+      state.current = user;

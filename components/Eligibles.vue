@@ -10,3 +10,4 @@
     >
       <div
         class="eligible-preview"
+        :style="{ backgroundImage: `url(${badge.preview.url})` }"

@@ -8,3 +8,4 @@
     :rules="rules"
     @focus.stop="onFocus($event)"
   >
+    <template #label>

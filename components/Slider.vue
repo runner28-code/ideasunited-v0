@@ -12,3 +12,4 @@
           @click="slideClick(slide)"
           class="slider__slide"
           :class="{ clickable: slide.url }"
+          :style="{ backgroundImage: `url(${slide.preview.large.url})` }"

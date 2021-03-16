@@ -4,7 +4,6 @@
     v-model="valid"
     ref="form"
     class="dynamic-form"
-    :disabled="disabled"
   >
     <div :key="field.uuid" v-for="field in fields">
       <component
@@ -38,3 +37,5 @@
         <span v-if="loading">
           <v-progress-circular
             :size="16"
+            :width="2"
+            indeterminate

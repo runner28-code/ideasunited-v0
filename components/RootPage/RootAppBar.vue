@@ -16,6 +16,7 @@
       <transition name="fade">
         <div
           class="app-bar__new-opps"
+          @click.stop="goToOpps()"
           v-if="newOpps.length && showNewOpps"
         >
           New opportunities just dropped!
@@ -70,3 +71,6 @@
             <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
           <v-btn
+            icon
+            class="app-bar__new-opps-details__eye"
+            small

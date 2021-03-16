@@ -22,3 +22,4 @@
     @focus.stop="onFocus($event)"
   >
     <template #append>
+      <div v-if="type == 'password'">
