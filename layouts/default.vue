@@ -23,37 +23,3 @@
       <div
         class="mobile-scroll"
         ref="mobileScroll"
-        v-scroll.self="mobileScroll"
-      >
-        <Nuxt :key="key" ref="main-content" />
-        <Footer />
-      </div>
-    </v-main>
-    <AuthModal />
-    <Alert />
-    <Notification />
-    <div v-html="styles"></div>
-  </v-app>
-</template>
-
-<script>
-import _ from "lodash";
-
-export default {
-  data() {
-    return {
-      drawer: false,
-      timeouts: {},
-      key: 0,
-      newOpps: []
-    };
-  },
-  created() {
-    this.$store.dispatch("application/init");
-
-    if (process.client) {
-      this.$cable.subscribe({
-        channel: "ProjectChannel",
-        project_id: this.currentProject.id,
-        env: this.currentProject.env,
-      });

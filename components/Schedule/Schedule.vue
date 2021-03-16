@@ -12,4 +12,3 @@
       >
         <div class="schedule__date">
           {{
-            group.date

@@ -5,4 +5,5 @@
     </div>
     <v-radio-group
       class="radio-group__control"
+      row
       :value="value"
