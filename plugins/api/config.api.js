@@ -13,3 +13,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         }
       }
 
+      if (process.server) {

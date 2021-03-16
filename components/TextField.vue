@@ -23,3 +23,4 @@
   >
     <template #append>
       <div v-if="type == 'password'">
+        <v-icon @click="togglePassword" class="input-icon-toggle" @focus="onFocus">{{

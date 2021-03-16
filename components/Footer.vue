@@ -1,4 +1,3 @@
-<template>
   <v-footer app class="footer" :class="{ static: isStatic }">
     <div class="footer-container">
       <div class="footer__start">
@@ -15,6 +14,7 @@
           <a @click.prevent="supportDialog = true"
             >Support</a
           >
+        </div>
         <div class="footer__menu-item">
           <a @click="clickFAQ"
             >FAQ</a
@@ -37,3 +37,5 @@
         </div>
       </div>
     </div>
+    <v-dialog width="800" v-model="supportDialog">
+      <v-card class="support__dialog">

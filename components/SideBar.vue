@@ -64,3 +64,6 @@
         Creator Search
       </v-list-item>
       <v-list-item
+        class="rightsidebar__item"
+        :href="profileUrl"
+        v-if="currentUser && currentUser.confirmed"

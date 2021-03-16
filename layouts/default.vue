@@ -29,3 +29,8 @@
         <Footer />
       </div>
     </v-main>
+    <AuthModal />
+    <Alert />
+    <Notification />
+    <div v-html="styles"></div>
+  </v-app>

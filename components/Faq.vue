@@ -18,3 +18,4 @@
         </v-expansion-panel>
       </v-expansion-panels>
       <v-expansion-panels v-if="items2" class="faqs__column" accordion flat>
+        <v-expansion-panel

@@ -25,6 +25,7 @@
       <div
         class="content-section-item__icon"
         v-if="block.content_type == 'video_player'"
+      >
         <v-icon :color="activeTheme.primary_color" size="28">$play</v-icon>
       </div>
 
@@ -32,3 +33,4 @@
         :prevId="prevId"
         :nextId="nextId"
         :id="block.id"
+        name="content-section"

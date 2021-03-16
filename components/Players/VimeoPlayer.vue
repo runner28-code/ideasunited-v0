@@ -5,6 +5,7 @@
     allow="autoplay; fullscreen"
     allowfullscreen
     class="vimeo-player"
+    ref="vimeo"
   ></iframe>
 </template>
 
@@ -13,3 +14,4 @@ export default {
   name: "VimeoPlayer",
   props: {
     vimeoId: [String, Number],
+    vimeoH: [String, Number],

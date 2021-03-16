@@ -46,3 +46,7 @@
             class="event__video-description"
             v-html="activeEvent.description"
           ></div>
+        </div>
+      </div>
+      <div
+        v-else

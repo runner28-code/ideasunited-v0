@@ -14,4 +14,4 @@
         type="password"
       />
       <Button type="submit" :refs="$refs" block x-large>
-        Submit
+      </Button>

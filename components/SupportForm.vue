@@ -3,6 +3,7 @@
     <Title v-if="supportForm.headline" class="support-form__title">{{
       supportForm.headline
     }}</Title>
+    <div v-if="supportForm.description" class="support-form__description">
       {{ supportForm.description }}
     </div>
     <DynamicForm
@@ -11,3 +12,4 @@
       v-model="form"
       v-if="!submitted"
       :btn-text="supportForm.btn_text"
+    />

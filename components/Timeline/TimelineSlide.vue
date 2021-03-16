@@ -36,3 +36,4 @@
         </div>
       </div>
     </v-responsive>
+  </div>
