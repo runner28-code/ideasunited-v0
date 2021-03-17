@@ -78,3 +78,4 @@
             <v-icon size="20" color="white">$eye</v-icon>
           </v-btn>
         </div>
+      </a>

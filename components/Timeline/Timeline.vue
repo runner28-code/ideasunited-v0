@@ -26,6 +26,7 @@
       @click="swiperInstance.slideNext()"
     >
       <v-icon size="40">$chevron_right</v-icon>
+    </v-btn>
   </div>
 </template>
 
@@ -50,3 +51,4 @@ export default {
             slidesPerView: 1.2,
             spaceBetween: 20
           },
+

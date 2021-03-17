@@ -13,4 +13,3 @@
         <YoutubePlayer
           v-else-if="value.youtube_id"
           :youtubeId="value.youtube_id"
-        />

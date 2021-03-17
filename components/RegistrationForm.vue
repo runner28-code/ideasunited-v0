@@ -35,3 +35,4 @@
         </div>
         <DynamicForm
           :submit="submit"
+          :fields="registrationForm.registration_form"

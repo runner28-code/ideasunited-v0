@@ -8,12 +8,12 @@
         :item="item"
         v-for="(item, index) in list"
         :key="item.id"
-        :layout="submissionContent.layout"
         :previewLayout="submissionContent.preview_layout"
       />
     </div>
     <client-only>
       <infinite-loading :identifier="infiniteId" @infinite="fetchSubmissions">
+        <div slot="no-more"></div>
         <div slot="no-results" class="no-results">Nothing found</div>
         <div slot="spinner">
           <Spinner />
@@ -22,3 +22,4 @@
     </client-only>
     <div v-html="css"></div>
   </div>
+</template>

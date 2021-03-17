@@ -6,7 +6,6 @@ class Filter {
       list,
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
-      placeHolder: options.placeHolder || "*",
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,
       replaceRegex: options.replaceRegex || /\w/g
     });

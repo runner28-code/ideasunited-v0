@@ -6,7 +6,6 @@
         allow="autoplay; fullscreen"
         allowfullscreen
         class="zoom-player__embedded"
-        :src="zoomUrl"
         v-if="zoomUrl"
       />
     </div>
@@ -17,3 +16,4 @@
           event.start_at
             | moment("timezone", currentTimezone, "dddd M/D/YYYY")
         }}
+        at

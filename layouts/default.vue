@@ -21,7 +21,6 @@
     <AppBar @changeKey="key = key + 1" />
     <v-main>
       <div
-        class="mobile-scroll"
         ref="mobileScroll"
         v-scroll.self="mobileScroll"
       >
@@ -34,3 +33,6 @@
     <Notification />
     <div v-html="styles"></div>
   </v-app>
+</template>
+
+<script>

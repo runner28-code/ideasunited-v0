@@ -7,7 +7,6 @@ export async function buildZoomLink({
 }) {
   const { data } = await $api.Service.zoomSignature({
     zoom_id,
-  });
   const { signature, api_key: apiKey } = data;
 
   let urlParams = "";
@@ -30,6 +29,7 @@ export async function buildZoomLink({
     if (urlParams != "") {
       urlParams += "&";
     }
+    urlParams += key + "=" + encodeURIComponent(params[key]);
   }
 
   return "/zoom/iframe.zoom.html?" + urlParams;

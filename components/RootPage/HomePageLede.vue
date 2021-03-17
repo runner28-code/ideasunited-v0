@@ -106,3 +106,4 @@ export default {
     },
     preloadVideo() {
       const { videoElem } = this.$refs;
+      videoElem.play();

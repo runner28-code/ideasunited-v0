@@ -1,6 +1,7 @@
 <template>
   <div
     @click="onclick"
+    class="schedule-item"
     :class="{ clickable: item.event, dark: item.dark }"
     :style="styles"
   >
@@ -14,3 +15,4 @@
       <div
         v-if="item.description"
         class="schedule-item__description"
+        v-html="item.description"

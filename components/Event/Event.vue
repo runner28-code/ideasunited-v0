@@ -18,7 +18,6 @@
       class="event__video"
       v-if="currentPage.events.length"
     >
-      <div class="event__video-container" v-if="activeEvent">
         <div class="event__video-player">
           <EventPlayer
             v-if="
@@ -50,3 +49,4 @@
       </div>
       <div
         v-else
+        class="event__placeholder"

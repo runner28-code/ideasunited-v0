@@ -13,7 +13,6 @@
     </v-toolbar-title>
     <a
       href="/more"
-      @click.prevent="dropdownClick"
       v-if="gridMenuPages.length"
       class="app-bar__dropdown"
       :style="{ color: activeTheme.primary_color }"
@@ -75,3 +74,4 @@
           </v-list>
         </v-menu>
         <a
+          v-else-if="menuItem.url_type == 'absolute'"
