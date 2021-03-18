@@ -60,7 +60,6 @@
           />
         </swiper-slide>
       </swiper>
-      <v-btn
         :class="{ visible: visibleControls }"
         class="content-section__control content-section__control-next"
         icon

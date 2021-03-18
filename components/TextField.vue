@@ -3,6 +3,7 @@
     :value="value"
     @input="$emit('input', $event)"
     hide-details="auto"
+    outlined
     class="text-field"
     :placeholder="placeholder"
     :label="label"
@@ -12,7 +13,6 @@
     ref="input"
     validate-on-blur
     :suffix="suffix"
-    :min="min"
     :max="max"
     :class="{ block }"
     :name="name"

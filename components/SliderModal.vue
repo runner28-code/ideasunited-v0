@@ -22,3 +22,4 @@
         <v-btn
           v-if="nextId"
           @click="openNext"
+          @keyup.enter="openNext"

@@ -13,6 +13,7 @@
     </v-toolbar-title>
     <a
       href="/more"
+      @click.prevent="dropdownClick"
       v-if="gridMenuPages.length"
       class="app-bar__dropdown"
       :style="{ color: activeTheme.primary_color }"
@@ -49,7 +50,6 @@
           <template v-slot:activator="{ on, attrs }">
             <component
               v-bind="attrs"
-              v-on="on"
               :is="menuItem.url_type == 'relative' ? 'nuxt-link' : 'span'"
               :to="`#${menuItem.url}`"
               :class="{
