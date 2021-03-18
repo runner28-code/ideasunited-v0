@@ -1,9 +1,9 @@
 <template>
+  <transition name="fade">
     <div class="content-section-item"
       v-if="!hiding"
       :class="{
         'content-section-item--no-content':
-          block.content_type == 'no_content'
       }"
     >
       <v-responsive
@@ -33,3 +33,5 @@
         :nextId="nextId"
         :id="block.id"
         name="content-section"
+        v-model="dialog"
+      >

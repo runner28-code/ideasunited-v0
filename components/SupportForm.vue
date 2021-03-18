@@ -13,3 +13,4 @@
       v-if="!submitted"
       :btn-text="supportForm.btn_text"
     />
+    <div v-else class="support-form__submitted">

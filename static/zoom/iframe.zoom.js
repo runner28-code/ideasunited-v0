@@ -4,3 +4,4 @@ ZoomMtg.prepareJssdk();
 
 const params = new URLSearchParams(window.location.search);
 
+const meetingNumber = params.get("zoomId");

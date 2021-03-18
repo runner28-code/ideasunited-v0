@@ -1,3 +1,4 @@
+<template>
   <div class="avatar" :style="styles" v-bind="$attrs">
     {{ initals }}
   </div>
@@ -11,3 +12,4 @@ export default {
     name: String,
     id: String
   },
+  data() {

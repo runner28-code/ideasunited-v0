@@ -60,6 +60,7 @@
           />
         </swiper-slide>
       </swiper>
+      <v-btn
         :class="{ visible: visibleControls }"
         class="content-section__control content-section__control-next"
         icon
@@ -69,3 +70,6 @@
       </v-btn>
     </div>
     <div
+      class="content-section__view-more"
+      @click="toggleViewMore"
+      v-show="filteredBlocks.length > 4"

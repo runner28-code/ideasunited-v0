@@ -50,6 +50,7 @@
           <template v-slot:activator="{ on, attrs }">
             <component
               v-bind="attrs"
+              v-on="on"
               :is="menuItem.url_type == 'relative' ? 'nuxt-link' : 'span'"
               :to="`#${menuItem.url}`"
               :class="{
@@ -75,3 +76,5 @@
         </v-menu>
         <a
           v-else-if="menuItem.url_type == 'absolute'"
+          target="_blank"
+          :href="menuItem.absolute_url"

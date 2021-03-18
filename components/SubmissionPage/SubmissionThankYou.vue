@@ -12,3 +12,4 @@
       <Button :refs="$refs" large :href="profileUrl">
         {{ btnText || "Account" }}
       </Button>
+    </p>

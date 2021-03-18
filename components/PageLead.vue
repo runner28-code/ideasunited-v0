@@ -10,3 +10,5 @@
         v-html="currentPage.lead_description"
       ></div>
 
+      <Button
+        v-if="currentPage.lead_button_text"

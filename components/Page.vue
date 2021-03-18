@@ -3,6 +3,7 @@
     <div
       v-if="fullpageReady"
       class="opportunity-page"
+      :class="`opportunity-${currentProject.id}`"
     >
       <transition name="fade">
         <div
@@ -69,3 +70,6 @@ import FullPageSection from "@/components/FullPageSection";
 
 export default {
   mixins: [mixin, isMobileMixin],
+  components: { FullPageSection },
+  data() {
+    return {

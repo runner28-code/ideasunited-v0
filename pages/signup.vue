@@ -1,3 +1,4 @@
+<template>
   <div class="signup-page">
     <AuthRegisterForm v-if="!currentUser" />
     <div 
@@ -14,3 +15,4 @@
 </template>
 
 <script>
+import { frontendToProfile } from "@/utils";

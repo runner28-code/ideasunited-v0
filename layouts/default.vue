@@ -17,7 +17,6 @@
         </v-btn>
       </div>
       <SideBar v-model="drawer" :no-root="true" />
-    </client-only>
     <AppBar @changeKey="key = key + 1" />
     <v-main>
       <div
@@ -38,3 +37,8 @@
 
 <script>
 import _ from "lodash";
+
+export default {
+  data() {
+    return {
+      drawer: false,

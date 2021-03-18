@@ -21,7 +21,6 @@
         </div>
         <div v-if="!registrationForm.login_form || chooseSignUp" class="register">
           <Title
-            v-if="registrationForm.title"
             tag="h2"
             class="register__title"
             >{{ registrationForm.title }}</Title
@@ -37,3 +36,6 @@
             :fields="registrationForm.registration_form"
             v-model="form"
             :mark-required="registrationForm.mark_required"
+            show-label
+            :btn-text="registrationForm.btn_text"
+            :login-form="registrationForm.login_form"

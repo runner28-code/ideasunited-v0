@@ -21,8 +21,10 @@
             <div>
               <br />
               <Button @click="supportDialog = true">Contact Us</Button>
+            </div>
           </div>
           <div v-else>
             <DynamicForm
               :key="form.timestamp.toDateString()"
               :submit="submit"
+              :fields="fields"

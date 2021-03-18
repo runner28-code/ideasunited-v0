@@ -27,3 +27,4 @@
       :id="item.id"
       name="article"
       scrollToElement
+      v-model="dialog"

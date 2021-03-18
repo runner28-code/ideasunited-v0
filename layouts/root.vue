@@ -47,3 +47,5 @@ export default {
       });
 
       this.$cable.subscribe({
+        channel: "NotificationChannel",
+        project_id: this.currentProject.id,

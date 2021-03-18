@@ -1,4 +1,5 @@
 <template>
+  <v-checkbox
     class="checkbox"
     hide-details="auto"
     :value="value"
@@ -8,3 +9,4 @@
     @focus.stop="onFocus($event)"
   >
     <template #label>
+      <slot>

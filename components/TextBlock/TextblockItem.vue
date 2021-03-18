@@ -22,3 +22,4 @@
   </component>
 </template>
 
+<script>

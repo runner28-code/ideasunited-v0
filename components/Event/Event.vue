@@ -6,7 +6,6 @@
       with_events: currentPage.events.length > 1,
       with_chat: currentPage.chats.length,
       chat_is_text: currentPage.chats.length
-        ? currentPage.chats[0].chat_type == 'text'
         : false,
       chat_is_zoom: currentPage.chats.length
         ? currentPage.chats[0].chat_type == 'zoom'
@@ -51,3 +50,6 @@
       <div
         v-else
         class="event__placeholder"
+        :style="{
+          backgroundImage: `url(${activeTheme.event_background.large.url})`
+        }"

@@ -2,6 +2,7 @@
   <div class="chat">
     <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
+    <ChatFooter :chat="chat" />
   </div>
 </template>
 
@@ -14,3 +15,4 @@ export default {
     return {
       message: "",
       status: "Connected",
+      messages: []

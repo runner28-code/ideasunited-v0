@@ -52,3 +52,4 @@ export default {
             spaceBetween: 20
           },
 
+          960: {

@@ -27,3 +27,4 @@
 
 <script>
 export default {
+  name: "Alert",
