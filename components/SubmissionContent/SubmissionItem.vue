@@ -28,3 +28,4 @@
       name="article"
       scrollToElement
       v-model="dialog"
+    >

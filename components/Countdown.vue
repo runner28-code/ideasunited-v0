@@ -1,3 +1,4 @@
+<template>
   <div class="countdown" v-if="visible" :style="styles">
     <div>
       <div class="countdown-wrapper">
@@ -20,7 +21,6 @@
             <div class="countdown-timer__item-label">mins</div>
           </div>
           <div class="countdown-timer__item">
-            <div class="countdown-timer__item-value">
               {{ seconds }}
             </div>
             <div class="countdown-timer__item-label">secs</div>
@@ -46,3 +46,5 @@ export default {
     page: Object,
   },
   data() {
+    return {
+      days: 0,

@@ -23,3 +23,4 @@
           <timeago :auto-update="60" :datetime="message.created_at"></timeago>
         </div>
       </div>
+    </div>

@@ -23,3 +23,4 @@
         maxlength="200"
       ></v-textarea>
       <div class="chat-footer__actions-bottom">
+        <div>

@@ -73,3 +73,5 @@ export default {
   components: { FullPageSection },
   data() {
     return {
+      currentSlide: 0,
+      preloadedImgBase64s: {},

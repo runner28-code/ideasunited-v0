@@ -36,3 +36,4 @@
       <label class="uploader" @drop.prevent="drop" @dragover.prevent>
         <div class="uploader__placeholder">
           {{
+            (value && value.name) ||

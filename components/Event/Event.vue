@@ -6,6 +6,7 @@
       with_events: currentPage.events.length > 1,
       with_chat: currentPage.chats.length,
       chat_is_text: currentPage.chats.length
+        ? currentPage.chats[0].chat_type == 'text'
         : false,
       chat_is_zoom: currentPage.chats.length
         ? currentPage.chats[0].chat_type == 'zoom'
@@ -31,7 +32,6 @@
             <AuthForm />
           </div>
         </div>
-        <div class="event__video-info" v-show="!activeEvent.hidden_from_timeline">
           <Title class="event__video-title">{{ activeEvent.title }}</Title>
 
           <div class="event__video-timestamp" v-if="activeEvent.start_at">
@@ -53,3 +53,6 @@
         :style="{
           backgroundImage: `url(${activeTheme.event_background.large.url})`
         }"
+      ></div>
+      <!-- <Spinner v-else /> -->
+    </div>

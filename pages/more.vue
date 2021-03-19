@@ -1,3 +1,4 @@
+<template>
   <div class="grid-menu">
     <v-responsive
       v-for="item in gridMenuPages"
@@ -14,3 +15,4 @@
         {{ item.menu_title }}
       </nuxt-link>
     </v-responsive>
+  </div>

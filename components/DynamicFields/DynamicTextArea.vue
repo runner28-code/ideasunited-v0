@@ -6,3 +6,4 @@
     :rules="rules"
     auto-grow
     outlined
+    class="dynamic-textarea"

@@ -6,3 +6,4 @@
         :size="100"
         :color="activeTheme.primary_color"
       />
+    </div>

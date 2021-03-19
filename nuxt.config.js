@@ -34,3 +34,5 @@ export default {
   plugins: [
     { src: "~/plugins/map-state.js" },
     { src: "~/plugins/api.js" },
+    { src: "~/plugins/filters.js" },
+    { src: "~/plugins/rules.js" },

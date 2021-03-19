@@ -1,4 +1,3 @@
-// Temp comment
 export async function buildZoomLink({
   $api,
   zoom_id,
@@ -10,6 +9,7 @@ export async function buildZoomLink({
     zoom_id,
   });
   const { signature, api_key: apiKey } = data;
+// Temp comment
 
   let urlParams = "";
   const params = {

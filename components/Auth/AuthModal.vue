@@ -16,3 +16,4 @@
   </v-dialog>
 </template>
 
+<script>

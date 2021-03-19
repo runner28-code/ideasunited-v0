@@ -70,3 +70,5 @@
         v-ripple="false"
       >
         User Portal
+      </v-list-item>
+      <v-list-item

@@ -78,3 +78,6 @@
           v-else-if="menuItem.url_type == 'absolute'"
           target="_blank"
           :href="menuItem.absolute_url"
+          >{{ menuItem.menu_title }}</a
+        >
+        <a

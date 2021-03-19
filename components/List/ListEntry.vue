@@ -11,3 +11,4 @@
         class="list-entry__title"
       >
         {{ entry.title }}
+      </div>

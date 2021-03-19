@@ -21,10 +21,10 @@
         </div>
         <div v-if="!registrationForm.login_form || chooseSignUp" class="register">
           <Title
+            v-if="registrationForm.title"
             tag="h2"
             class="register__title"
             >{{ registrationForm.title }}</Title
-          >
           <div
             v-if="registrationForm.description"
             class="register__description"
@@ -39,3 +39,5 @@
             show-label
             :btn-text="registrationForm.btn_text"
             :login-form="registrationForm.login_form"
+            @backToLogin="backToLogin()"
+            :show-back-to-login="true"

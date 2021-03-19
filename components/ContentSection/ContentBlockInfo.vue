@@ -34,3 +34,4 @@
         />
       </v-responsive>
     </div>
+    <div class="slider-modal-content__side slider-modal-content__content">
