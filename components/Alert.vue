@@ -17,7 +17,6 @@
     >
       <div
         :class="{ clickable: alert.onclick }"
-        class="alert__message"
         v-html="alert.message"
         @click="onclick"
       ></div>
@@ -25,6 +24,7 @@
   </v-snackbar>
 </template>
 
+<script>
 export default {
   name: "Alert",
   data() {

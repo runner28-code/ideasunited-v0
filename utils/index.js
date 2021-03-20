@@ -27,6 +27,7 @@ export async function buildZoomLink({
   }
 
   for (let key in params) {
+    if (urlParams != "") {
       urlParams += "&";
     }
     urlParams += key + "=" + encodeURIComponent(params[key]);

@@ -5,7 +5,6 @@
   &__video {
     height: 100%;
     position: relative;
-    align-items: center;
   }
 
   &__side {
@@ -13,6 +12,7 @@
     overflow: auto;
     padding: 20px 40px;
     background-size: cover;
+    background-position: center;
     min-height: 200px;
     position: relative;
   }
