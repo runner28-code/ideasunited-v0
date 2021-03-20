@@ -22,7 +22,6 @@
         <div class="event__video-player">
           <EventPlayer
             v-if="
-              !activeEvent.require_auth ||
                 (activeEvent.require_auth && currentUser)
             "
             :event="activeEvent"
@@ -32,6 +31,7 @@
             <AuthForm />
           </div>
         </div>
+        <div class="event__video-info" v-show="!activeEvent.hidden_from_timeline">
           <Title class="event__video-title">{{ activeEvent.title }}</Title>
 
           <div class="event__video-timestamp" v-if="activeEvent.start_at">

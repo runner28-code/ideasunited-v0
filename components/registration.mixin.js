@@ -1,5 +1,5 @@
 export default {
-  data() {
 // Temp comment
+  data() {
     return {
       resending: false,

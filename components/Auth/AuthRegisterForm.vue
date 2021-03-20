@@ -25,6 +25,7 @@
             tag="h2"
             class="register__title"
             >{{ registrationForm.title }}</Title
+          >
           <div
             v-if="registrationForm.description"
             class="register__description"

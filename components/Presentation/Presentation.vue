@@ -6,4 +6,3 @@
   >
     <PresentationImage
       :presentation="presentation"
-      :slide="presentation.active_slide"

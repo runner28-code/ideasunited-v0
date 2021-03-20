@@ -10,3 +10,4 @@
         <component
           :value="component.resource_id"
           v-bind="component"
+          :is="convertComponent(component.type)"

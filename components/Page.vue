@@ -6,7 +6,6 @@
       :class="`opportunity-${currentProject.id}`"
     >
       <transition name="fade">
-        <div
           class="background-lede"
           :style="backgroundLedeStyles"
           :key="currentSlide"

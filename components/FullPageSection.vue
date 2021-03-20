@@ -33,4 +33,3 @@
         class="fullpage-next-arrow"
         @focus.stop="onFocus($event)"
       ></button>
-      <!-- <div

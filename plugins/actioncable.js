@@ -1,1 +1,1 @@
-import ActionCableVue from "actioncable-vue";
+import Vue from "vue";

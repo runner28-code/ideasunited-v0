@@ -46,3 +46,4 @@ export default {
       timeouts: {},
       key: 0,
       newOpps: []
+    };
