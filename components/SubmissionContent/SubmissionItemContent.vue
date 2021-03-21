@@ -1,5 +1,6 @@
 <template>
   <div class="slider-modal-content submission-item-content">
+    <div
       v-if="value && (value.preview.url || value.youtube_id || value.vimeo_id)"
       class="slider-modal-content__side slider-modal-content__preview"
     >
@@ -14,3 +15,4 @@
           :youtubeId="value.youtube_id"
         />
       </v-responsive>
+      <img v-else :src="value.preview.large.url" width="100%" />

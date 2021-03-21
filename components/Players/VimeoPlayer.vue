@@ -5,7 +5,6 @@
     allow="autoplay; fullscreen"
     allowfullscreen
     class="vimeo-player"
-    ref="vimeo"
   ></iframe>
 </template>
 
@@ -16,3 +15,4 @@ export default {
     vimeoId: [String, Number],
     vimeoH: [String, Number],
     vimeoChapter: [String, Number],
+    firstStartAt: {

@@ -1,3 +1,4 @@
+<template>
   <div class="message">
     <div class="message-wrapper">
       <Avatar
@@ -23,3 +24,4 @@
         </div>
       </div>
     </div>
+    <v-menu

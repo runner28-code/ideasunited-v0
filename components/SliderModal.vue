@@ -28,3 +28,5 @@
           tabindex="0"
           role="button"
         >
+          <v-icon color="#fff" size="50">$chevron_right</v-icon>
+        </v-btn>

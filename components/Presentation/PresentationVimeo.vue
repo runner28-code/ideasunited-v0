@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<script>
 import Player from "@vimeo/player";
 
 export default {
+  props: {

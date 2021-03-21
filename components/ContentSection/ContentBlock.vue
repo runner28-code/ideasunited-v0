@@ -37,3 +37,4 @@
         v-model="dialog"
       >
         <ContentBlockInfo :block="block" />
+      </SliderModal>

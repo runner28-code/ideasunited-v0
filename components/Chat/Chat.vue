@@ -8,7 +8,6 @@
 
 <script>
 export default {
-  props: {
     chat: Object
   },
   data() {
@@ -16,3 +15,4 @@ export default {
       message: "",
       status: "Connected",
       messages: []
+    };

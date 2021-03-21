@@ -47,3 +47,7 @@ export default {
       key: 0,
       newOpps: []
     };
+  },
+  created() {
+    this.$store.dispatch("application/init");
+

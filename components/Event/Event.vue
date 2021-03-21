@@ -57,3 +57,5 @@
       ></div>
       <!-- <Spinner v-else /> -->
     </div>
+    <div
+      :class="{ visible: showMobileChat }"

@@ -11,3 +11,4 @@ export default {
   data() {
     return {
       seconds: 25,
+      animating: false

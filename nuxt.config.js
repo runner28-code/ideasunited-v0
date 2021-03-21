@@ -7,7 +7,6 @@
 // });
 export default {
   server: {
-// Temp comment
     port: 8000, // default: 3000
   },
   messages: {
@@ -37,3 +36,4 @@ export default {
     { src: "~/plugins/api.js" },
     { src: "~/plugins/filters.js" },
     { src: "~/plugins/rules.js" },
+    { src: "~/plugins/swiper.js" },

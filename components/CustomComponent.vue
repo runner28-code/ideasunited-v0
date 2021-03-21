@@ -18,3 +18,4 @@ export default {
     value: String,
     page: Object,
   },
+  data() {

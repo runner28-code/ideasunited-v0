@@ -31,6 +31,7 @@
               <FullPageSection
                 v-for="(page, idx) in currentProject.menu_pages"
                 :key="idx"
+                :page="page"
                 :idx="idx"
                 @next="fullPageMoveNext(idx)"
                 @top="fullPageToTop()"
@@ -74,3 +75,5 @@ export default {
     return {
       currentSlide: 0,
       preloadedImgBase64s: {},
+      scrollDelayCounter: 0,
+      scrollDelay: 5,

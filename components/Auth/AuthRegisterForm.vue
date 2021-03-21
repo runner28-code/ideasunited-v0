@@ -42,3 +42,6 @@
             :login-form="registrationForm.login_form"
             @backToLogin="backToLogin()"
             :show-back-to-login="true"
+          />
+        </div>
+      </div> <!-- v-if="!currentUser" -->

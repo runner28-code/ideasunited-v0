@@ -7,3 +7,4 @@
     @change="$emit('input', $event)"
     off-icon="$checkbox_off"
     on-icon="$checkbox_on"
+    :rules="rules"

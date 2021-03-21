@@ -3,7 +3,6 @@
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
     @input="$emit('input', $event)"
-    :rules="rules"
     outlined
     prepend-icon=""
   >
@@ -14,6 +13,7 @@
     </template>
   </v-file-input>
 </template>
+
 <script>
 export default {
   props: {
@@ -21,3 +21,4 @@ export default {
     placeholder: String,
     ratio: {
       type: Number,
+      default: 580 / 320
