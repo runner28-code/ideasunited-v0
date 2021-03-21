@@ -59,3 +59,4 @@
     </div>
     <div
       :class="{ visible: showMobileChat }"
+      class="event__chat"

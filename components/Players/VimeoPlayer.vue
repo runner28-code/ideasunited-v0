@@ -5,6 +5,7 @@
     allow="autoplay; fullscreen"
     allowfullscreen
     class="vimeo-player"
+    ref="vimeo"
   ></iframe>
 </template>
 

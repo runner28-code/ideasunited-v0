@@ -4,6 +4,7 @@
       <div class="footer__start">
         <a href="/" class="footer__logo">
           <img src="~/assets/images/logo.png" alt="iU Community ™" />
+        </a>
 
         <div class="footer__separator"></div>
 
@@ -27,7 +28,6 @@
         </div>
         <div class="footer__menu-item">
           <a target="_blank" href="https://ideasunited.com/terms"
-            >Terms of Use</a
           >
         </div>
 

@@ -43,7 +43,6 @@ export default {
       this.$cable.subscribe({
         channel: "ProjectChannel",
         project_id: this.currentProject.id,
-        env: this.currentProject.env
       });
 
       this.$cable.subscribe({

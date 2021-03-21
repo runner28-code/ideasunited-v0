@@ -1050,6 +1050,7 @@
   resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.15.8.tgz#56cc1b052871072a26f76c6d3b69d9b53808ce52"
   integrity sha512-KMQbjmUf9RVHeTZEf7zcuFnh03XKZioYhok6GOCY+leu3g5n/UhyPvLnTsgTfsLWohqoRoOm94u4A+tNYwn9VQ==
   dependencies:
+    "@nuxt/utils" "2.15.8"
     consola "^2.15.3"
     defu "^4.0.1"
     destr "^1.1.0"

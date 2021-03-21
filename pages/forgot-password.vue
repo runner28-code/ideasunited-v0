@@ -11,4 +11,5 @@
       <TextField label="Email" v-model="form.email" type="email" />
       <Button :refs="$refs" block x-large type="submit">Reset Password</Button>
     </v-form>
+    <div v-else>
       Email instructions successfully sent

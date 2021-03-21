@@ -29,3 +29,4 @@
       scrollToElement
       v-model="dialog"
     >
+      <SubmissionItemContent :layout="layout" :item="item" />
