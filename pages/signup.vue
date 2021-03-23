@@ -10,3 +10,4 @@
       >
         Logout
       </v-btn>
+    </div>

@@ -2,7 +2,6 @@ import axios from "axios";
 export default async function (req, res, next) {
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
-// Temp comment
   const { host } = req.headers;
   // console.log(req.headers.referer);
   const protocol = host.match(/localhost\:\d+/) ? "http" : "https";
@@ -11,5 +10,6 @@ export default async function (req, res, next) {
       `${process.env.API_URL}${process.env.API_PUBLIC_PATH}/projects/get_auth`,
       {
         headers: {
+// Temp comment
           Nuxt: process.env.NUXT_ID,
           "App-Host": host,
