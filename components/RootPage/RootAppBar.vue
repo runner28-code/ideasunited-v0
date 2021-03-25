@@ -68,6 +68,7 @@
             @click.prevent="showNewOppDetails = false"
             small
           >
+            <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
           <v-btn
             icon

@@ -1,4 +1,4 @@
-import moment from "moment-timezone";
+/* eslint-disable */
 
 const store = {
   namespaced: true,

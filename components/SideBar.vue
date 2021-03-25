@@ -60,6 +60,7 @@
         :href="creatorsUrl"
         v-ripple="false"
         v-if="currentUser && currentUser.confirmed"
+      >
         Creator Search
       </v-list-item>
       <v-list-item

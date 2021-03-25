@@ -1,4 +1,5 @@
 <template>
+  <div>
     <v-dialog
       max-width="1440"
       content-class="slider-modal"
@@ -27,6 +28,6 @@
           tabindex="0"
           role="button"
         >
-          <v-icon color="#fff" size="50">$chevron_right</v-icon>
         </v-btn>
         <v-card class="slider-modal__content">
+          <div class="slider-modal__content-wrapper" @click.stop>
