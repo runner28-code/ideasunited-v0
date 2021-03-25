@@ -108,7 +108,6 @@ export default {
       const { videoElem } = this.$refs;
       videoElem.play();
       this.$nextTick(() => {
-        videoElem.pause()
       });
     },
     fullscreenExitEvents() {
