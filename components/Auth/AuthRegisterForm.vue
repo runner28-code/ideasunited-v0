@@ -15,7 +15,6 @@
               class="signup-btn"
               elevation="0"
               @click="clickRegister()"
-              >{{ registrationForm.sign_up_btn_text || "Register" }}</v-btn
             >
           </div>
         </div>
@@ -45,3 +44,4 @@
           />
         </div>
       </div> <!-- v-if="!currentUser" -->
+      <div v-else class="register__thank-you">

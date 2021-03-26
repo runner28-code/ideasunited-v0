@@ -11,6 +11,7 @@
           "
         >
           <div class="text-center" v-if="!eligible">
+            <Eligibles :value="submissionForm.eligibilities" />
             <br />
             <div>
               Looks like you don't meet an eligibility requirement for this

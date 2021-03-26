@@ -1058,6 +1058,7 @@
     lodash "^4.17.21"
     rc9 "^1.2.0"
     std-env "^2.3.0"
+    ufo "^0.7.4"
 
 "@nuxt/core@2.15.8":
   version "2.15.8"
@@ -1600,7 +1601,6 @@
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-buffer" "1.9.0"
-    "@webassemblyjs/helper-wasm-bytecode" "1.9.0"
     "@webassemblyjs/helper-wasm-section" "1.9.0"
     "@webassemblyjs/wasm-gen" "1.9.0"
     "@webassemblyjs/wasm-opt" "1.9.0"

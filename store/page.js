@@ -7,6 +7,7 @@ const store = {
     set(state, current) {
       state.current = current;
     },
+// Temp comment
     updateChat(state, chat) {
       state.current.chats[chat.id] = chat;
     },

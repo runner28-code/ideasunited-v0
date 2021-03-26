@@ -11,7 +11,6 @@
         <div class="registration-form__not-registered">
           <p class="registration-form__not-registered-cta">
             {{ registrationForm.not_registered_cta || "Not registered?" }}
-          </p>
           <v-btn
             class="signup-btn"
             elevation="0"

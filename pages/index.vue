@@ -7,4 +7,5 @@
 </template>
 
 <script>
+export default {
   layout: 'root',

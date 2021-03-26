@@ -26,9 +26,9 @@
         v-scroll.self="mobileScroll"
       >
         <Nuxt :key="key" ref="main-content" />
+        <Footer />
       </div>
     </v-main>
-    <AuthModal />
     <Alert />
     <Notification />
     <div v-html="styles"></div>
@@ -52,3 +52,4 @@ export default {
 
     if (process.client) {
       this.$cable.subscribe({
+        channel: "ProjectChannel",

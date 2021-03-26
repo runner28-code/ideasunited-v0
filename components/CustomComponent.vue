@@ -12,7 +12,6 @@
 import Vue from "vue";
 import Spinner from "./Spinner";
 import { v4 as uuidv4 } from "uuid";
-
 export default {
   props: {
     value: String,
