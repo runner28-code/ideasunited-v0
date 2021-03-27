@@ -11,3 +11,4 @@
         Logout
       </v-btn>
     </div>
+  </div>

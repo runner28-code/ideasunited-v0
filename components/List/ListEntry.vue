@@ -9,5 +9,6 @@
       <div
         :style="{ color: activeTheme.primary_color }"
         class="list-entry__title"
+      >
         {{ entry.title }}
       </div>

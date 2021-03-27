@@ -15,6 +15,7 @@
       <div
         v-if="item.description"
         class="schedule-item__description"
+        v-html="item.description"
       ></div>
     </div>
   </div>

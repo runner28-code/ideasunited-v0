@@ -40,7 +40,6 @@ export default {
   data() {
     return {
       active: null,
-      swiperInstance: null,
       swiperOption: {
         speed: 400,
         keyboard: {

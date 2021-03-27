@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "serve": "nuxt",
     "dev": "nuxt",
