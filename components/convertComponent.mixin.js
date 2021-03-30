@@ -5,6 +5,5 @@ import TextBlock from "./TextBlock/TextBlock";
 import Schedule from "./Schedule/Schedule";
 import List from "./List/List";
 import HtmlBlock from "./HtmlBlock";
-// Temp comment
 import SubmissionPage from "./SubmissionPage/SubmissionPage";
 import SubmissionContent from "./SubmissionContent/SubmissionContent";

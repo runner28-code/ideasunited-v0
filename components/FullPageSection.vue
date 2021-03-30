@@ -22,15 +22,7 @@
             :value="component.resource_id"
             :page="page"
             v-bind="component"
+            :is="convertComponent(component.type)"
             :disabled="formsDisabled"
           ></component>
         </div>
-      </div>
-      <button
-        @click.stop.prevent="$emit('next')"
-        v-if="idx < currentProject.menu_pages.length - 1"
-        class="fullpage-next-arrow"
-        @focus.stop="onFocus($event)"
-      ></button>
-      <!-- <div
-        @click.stop.prevent="$emit('top')"
