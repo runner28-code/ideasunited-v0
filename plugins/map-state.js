@@ -13,3 +13,4 @@ if (!Vue.__map_state_mixin__) {
           const el = inputError.$el;
           const y = el.getBoundingClientRect().top + window.scrollY - 100 - 20;
 
+          window.scroll({

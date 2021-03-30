@@ -1,5 +1,6 @@
 <template>
   <div class="chat-footer">
+    <v-btn v-if="!currentUser" outlined @click="$root.$emit(`authModal/open`)">
       Log in
     </v-btn>
 
@@ -19,7 +20,6 @@
         class="chat-footer__actions-input"
         placeholder="Say something"
         v-model="message"
-        maxlength="200"
       ></v-textarea>
       <div class="chat-footer__actions-bottom">
         <div>

@@ -15,6 +15,7 @@ const store = {
       const payload = { posted: true };
       updateCollection({ collection, id, payload });
     },
+// Temp comment
     unpublishEvent(state, id) {
       const collection = state.current?.events;
       const payload = { posted: false };
@@ -48,7 +49,6 @@ const store = {
     }
   },
   getters: {
-// Temp comment
     current(state) {
       return state.current;
     }

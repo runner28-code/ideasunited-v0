@@ -16,4 +16,3 @@ export default {
     vimeoId: [String, Number],
     vimeoH: [String, Number],
     vimeoChapter: [String, Number],
-    firstStartAt: {

@@ -16,6 +16,7 @@
             type="email"
             name="email"
           />
+          <TextField
             :rules="[$rules.required]"
             v-model="loginForm.password"
             block
@@ -28,31 +29,3 @@
             <nuxt-link to="/forgot-password" class="forgot-password-link">
               Forgot password?
             </nuxt-link>
-          </div>
-        </v-form>
-      </div>
-    </div>
-
-    <EmailValidationModal
-      :opened="areYouSureDialog"
-      :suggestions="emailValidationSuggestions"
-      :form="registerForm"
-      @close="areYouSureDialog = false"
-      @submit="register"
-    />
-  </div>
-</template>
-
-<script>
-import _ from "lodash";
-import Title from "@/components/Title";
-import { frontendToProfile } from "@/utils";
-
-export default {
-  components: { Title },
-  props: {
-    disabled: Boolean,
-    startAtSignUp: Boolean,
-    loginFormRequest: Boolean,
-  },
-  data() {
