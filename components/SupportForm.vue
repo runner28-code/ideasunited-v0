@@ -8,7 +8,7 @@
     </div>
     <DynamicForm
       :submit="submit"
-      v-model="form"
+      :fields="supportForm.support_form"
       v-if="!submitted"
       :btn-text="supportForm.btn_text"
     />

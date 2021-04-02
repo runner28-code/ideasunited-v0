@@ -13,3 +13,4 @@
     class="elevation-0 btn"
     :href="href"
     :target="target"
+    :disabled="disabled"
