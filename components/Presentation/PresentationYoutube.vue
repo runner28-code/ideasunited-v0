@@ -12,6 +12,7 @@ export default {
     slide: Object,
     presentation: Object
   },
+  data() {
     return { started: false };
   },
   mounted() {

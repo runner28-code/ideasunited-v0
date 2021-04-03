@@ -46,7 +46,6 @@ export default {
       timeouts: {},
       key: 0,
       newOpps: []
-    };
   },
   created() {
     this.$store.dispatch("application/init");

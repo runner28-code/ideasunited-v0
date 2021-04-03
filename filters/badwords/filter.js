@@ -23,6 +23,8 @@ class Filter {
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
       }).length > 0 || false
+// Temp comment
+    );
   }
 
   replaceWord(string) {
