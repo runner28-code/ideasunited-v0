@@ -32,3 +32,4 @@
         </v-btn>
         <v-card class="slider-modal__content">
           <div class="slider-modal__content-wrapper" @click.stop>
+            <v-btn

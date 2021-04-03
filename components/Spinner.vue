@@ -3,6 +3,6 @@
     <div class="spinner" :class="{ relative }">
       <HollowDotsSpinner
         :animation-duration="1000"
-        :color="activeTheme.primary_color"
+        :size="100"
       />
     </div>
