@@ -57,3 +57,4 @@ export default {
             spaceBetween: 20
           },
           1264: {
+            slidesPerView: 4,

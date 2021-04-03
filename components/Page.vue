@@ -26,7 +26,6 @@
               :options="fullpageOpts"
               ref="fullpage"
               id="fullpage"
-              :skip-init="true"
             >
               <FullPageSection
                 v-for="(page, idx) in currentProject.menu_pages"
@@ -77,3 +76,4 @@ export default {
       preloadedImgBase64s: {},
       scrollDelayCounter: 0,
       scrollDelay: 5,
+      clickingToSection: false,

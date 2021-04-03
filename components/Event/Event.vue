@@ -60,3 +60,5 @@
     <div
       :class="{ visible: showMobileChat }"
       class="event__chat"
+      v-if="currentPage.chats.length"
+    >

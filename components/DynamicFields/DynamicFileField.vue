@@ -7,6 +7,7 @@
     outlined
     prepend-icon=""
   >
+    <template #append>
       <div>
         <v-icon class="input-icon-toggle"> $upload </v-icon>
       </div>
@@ -17,7 +18,6 @@
 <script>
 export default {
   props: {
-    value: [typeof window === "undefined" ? Object : window.File, Object],
     placeholder: String,
     ratio: {
       type: Number,

@@ -84,3 +84,4 @@
           @click.prevent="menuItem.onclick"
           v-else-if="menuItem.url_type == 'click'"
         >
+          {{ menuItem.menu_title }}

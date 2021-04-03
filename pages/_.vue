@@ -25,3 +25,4 @@ export default {
       {
         name: "description",
         content: this.currentProject.description
+      }

@@ -2,6 +2,7 @@
   <v-app
     v-if="currentProject"
     class="root"
+    :class="{ authorized: currentUser, not_authorized: !currentUser }"
   >
     <client-only>
       <RootAppBar
@@ -51,3 +52,9 @@ export default {
         env: this.currentProject.env
       });
     }
+
+    if (process.client) {
+      const googleFonts = [
+        this.activeTheme.h1_font?.font,
+        this.activeTheme.h2_font?.font,
+        this.activeTheme.paragraph_font?.font,

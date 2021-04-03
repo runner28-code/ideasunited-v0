@@ -6,7 +6,6 @@
           <div v-html="submissionForm.submissionForm"></div>
         </div>
         <div
-          v-else-if="
             submissionForm.anon || (currentUser && currentUser.confirmed)
           "
         >
@@ -29,3 +28,4 @@
               :submit="submit"
               :fields="fields"
               v-model="form"
+              v-if="!submitted"

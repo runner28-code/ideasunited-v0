@@ -1,4 +1,3 @@
-# Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
 /logs
@@ -7,6 +6,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Runtime data
 pids
 *.pid
 *.seed

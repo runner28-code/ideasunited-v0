@@ -1,5 +1,6 @@
 import Vue from "vue";
 import { mapState } from "vuex";
+import moment from "moment-timezone";
 
 if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
@@ -13,3 +14,4 @@ if (!Vue.__map_state_mixin__) {
           const y = el.getBoundingClientRect().top + window.scrollY - 100 - 20;
 
           window.scroll({
+            top: y,

@@ -10,6 +10,7 @@
             ]"
             v-for="field in content"
             :key="field.id"
+          >
             <span>{{
               field.value.length > 100
                 ? field.value.substr(0, 100) + "..."

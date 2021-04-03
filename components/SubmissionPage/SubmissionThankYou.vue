@@ -13,3 +13,4 @@
         {{ btnText || "Account" }}
       </Button>
     </p>
+  </div>

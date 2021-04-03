@@ -1,4 +1,3 @@
-// console.log("====================++");
 // console.log(`${process.env.API_URL}${process.env.API_PUBLIC_PATH}`);
 // console.log("====================++");
 // console.log({
@@ -37,3 +36,4 @@ export default {
     { src: "~/plugins/filters.js" },
     { src: "~/plugins/rules.js" },
     { src: "~/plugins/swiper.js" },
+    { src: "~/plugins/emoji.js" },
