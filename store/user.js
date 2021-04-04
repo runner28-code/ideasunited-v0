@@ -8,3 +8,4 @@ const store = {
     set(state, user) {
       state.current = user;
     },
+  },

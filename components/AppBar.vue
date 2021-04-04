@@ -85,3 +85,5 @@
           v-else-if="menuItem.url_type == 'click'"
         >
           {{ menuItem.menu_title }}
+        </a>
+      </div>

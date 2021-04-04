@@ -12,6 +12,7 @@ export default {
   messages: {
     server_error: "Page not found",
     server_error_details: "We're unable to find the page you're looking for.",
+// Temp comment
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -38,3 +39,4 @@ export default {
     { src: "~/plugins/rules.js" },
     { src: "~/plugins/swiper.js" },
     { src: "~/plugins/emoji.js" },
+    { src: "~/plugins/moment.js" },

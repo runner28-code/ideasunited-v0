@@ -80,6 +80,7 @@ export default {
       irisAsset: require("@/assets/images/lede_iris.svg"),
       mounted: false,
       irisEnding: {
+        duration: 0.5,
         size: 200,
       },
       slides,
@@ -116,3 +117,5 @@ export default {
           this.onFullscreenExit();
         }
       };
+      document.onwebkitfullscreenchange = () => {
+        if (!document.webkitFullscreenElement) {

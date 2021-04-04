@@ -19,3 +19,4 @@
     <v-navigation-drawer
       right
       v-model="sidebar"
+      fixed

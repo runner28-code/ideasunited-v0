@@ -23,3 +23,4 @@
           v-for="(item, index) in items2"
           :key="index"
         >
+          <div class="faq__section-header" v-if="item.header">

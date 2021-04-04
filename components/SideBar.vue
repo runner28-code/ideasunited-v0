@@ -76,3 +76,4 @@
         class="rightsidebar__item"
         @click.prevent="clickLogin()"
         v-ripple="false"
+      >

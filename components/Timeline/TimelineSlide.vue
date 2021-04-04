@@ -43,3 +43,4 @@
 export default {
   name: "TimelineSlide",
   props: {
+    value: Object,

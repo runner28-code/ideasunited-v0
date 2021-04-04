@@ -46,6 +46,7 @@ export default {
       timeouts: {},
       key: 0,
       newOpps: []
+    };
   },
   created() {
     this.$store.dispatch("application/init");
@@ -56,3 +57,5 @@ export default {
         project_id: this.currentProject.id,
         env: this.currentProject.env,
       });
+
+      this.$cable.subscribe({

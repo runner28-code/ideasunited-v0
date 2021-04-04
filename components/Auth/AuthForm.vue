@@ -33,3 +33,5 @@
         </v-form>
       </div>
     </div>
+
+    <EmailValidationModal

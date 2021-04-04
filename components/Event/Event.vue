@@ -62,3 +62,4 @@
       class="event__chat"
       v-if="currentPage.chats.length"
     >
+      <Chat

@@ -25,3 +25,4 @@
       <div class="chat-footer__actions-bottom">
         <div>
           <v-menu left offset-x content-class="chat-footer__actions-emoji">
+            <template v-slot:activator="{ on }">
