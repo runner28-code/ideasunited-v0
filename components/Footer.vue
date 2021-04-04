@@ -46,3 +46,4 @@
   </v-footer>
 </template>
 
+<script>

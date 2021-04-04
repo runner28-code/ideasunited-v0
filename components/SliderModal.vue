@@ -35,3 +35,4 @@
             <v-btn
               @click="close"
               class="close elevation-0"
+              fab

@@ -77,3 +77,4 @@
         @click.prevent="clickLogin()"
         v-ripple="false"
       >
+        Login/Register

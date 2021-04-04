@@ -4,7 +4,6 @@
       <div>
         <div class="auth-admin-title">
           <span >
-            iU Creator Login
           </span>
         </div>
         <v-form @submit.prevent="login" ref="form" :disabled="disabled">
@@ -35,3 +34,5 @@
     </div>
 
     <EmailValidationModal
+      :opened="areYouSureDialog"
+      :suggestions="emailValidationSuggestions"

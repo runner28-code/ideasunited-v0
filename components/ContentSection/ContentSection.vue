@@ -76,8 +76,11 @@
     >
       <v-icon v-show="viewMore">$chevron_up</v-icon>
       <v-icon v-show="!viewMore">$chevron_down</v-icon>
+    </div>
   </div>
 </template>
 
 <script>
 import _ from "lodash";
+
+export default {

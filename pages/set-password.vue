@@ -1,4 +1,5 @@
 <template>
+  <div class="forgot-password-page">
     <v-form
       ref="form"
       v-model="formModel"
@@ -16,6 +17,6 @@
         Submit
       </Button>
     </v-form>
-  </div>
 </template>
 
+<script>

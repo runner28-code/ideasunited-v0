@@ -80,3 +80,4 @@ export default {
       clickingToSection: false,
       keyIsDown: false,
     };
+  },

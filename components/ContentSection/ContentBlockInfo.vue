@@ -6,7 +6,6 @@
     >
       <v-responsive
         :aspect-ratio="block.content_type == 'video_player' && ['sm', 'xs'].includes($size) ? undefined : 1"
-        class="slider-modal-content__preview-square"
       >
         <v-responsive
           v-if="block.content_type == 'video_player'"
@@ -37,3 +36,4 @@
     <div class="slider-modal-content__side slider-modal-content__content">
       <div>
         <Title
+          :style="{ color: activeTheme.primary_color }"

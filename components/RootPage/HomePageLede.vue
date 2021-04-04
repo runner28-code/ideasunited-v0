@@ -119,3 +119,4 @@ export default {
       };
       document.onwebkitfullscreenchange = () => {
         if (!document.webkitFullscreenElement) {
+          this.onFullscreenExit();

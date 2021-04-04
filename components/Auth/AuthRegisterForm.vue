@@ -49,3 +49,4 @@
         <Title class="register__thank-you_title">
           Thank you!
         </Title>
+        <div v-if="!currentUser.confirmed">

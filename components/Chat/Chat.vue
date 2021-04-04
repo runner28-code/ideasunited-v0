@@ -12,6 +12,6 @@ export default {
     chat: Object
   },
   data() {
-    return {
       message: "",
       status: "Connected",
+      messages: []

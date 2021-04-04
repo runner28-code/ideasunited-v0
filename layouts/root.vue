@@ -3,7 +3,6 @@
     v-if="currentProject"
     class="root"
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
-  >
     <client-only>
       <RootAppBar
         @toggleSidebar="drawer = !drawer"
@@ -58,3 +57,4 @@ export default {
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,
         this.activeTheme.paragraph_font?.font,
+        this.activeTheme.header_font?.font,

@@ -27,3 +27,4 @@
           localType == "password" ? "$eye" : "$eye_off"
         }}</v-icon>
       </div>
+    </template>
