@@ -9,3 +9,4 @@
 <script>
 export default {
   layout: 'root',
+  computed: {

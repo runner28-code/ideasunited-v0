@@ -28,7 +28,6 @@
     <div class="dynamic-form__buttons">
       <Button
         class="btn_back-to-login"
-        :refs="$refs"
         v-if="showBackToLogin && !currentUser"
         @click="$emit('backToLogin')"
       >
@@ -55,3 +54,4 @@
 import DynamicCheckbox from "./DynamicCheckbox";
 import DynamicEmailField from "./DynamicEmailField";
 import DynamicHtmlBlock from "./DynamicHtmlBlock";
+import DynamicNumberField from "./DynamicNumberField";

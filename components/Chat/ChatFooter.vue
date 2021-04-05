@@ -26,3 +26,5 @@
         <div>
           <v-menu left offset-x content-class="chat-footer__actions-emoji">
             <template v-slot:activator="{ on }">
+              <v-btn v-on="on" icon>
+                <v-icon>

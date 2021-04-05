@@ -9,6 +9,7 @@
   >
     <template #append>
       <div>
+        <v-icon class="input-icon-toggle"> $upload </v-icon>
       </div>
     </template>
   </v-file-input>
@@ -23,3 +24,4 @@ export default {
       type: Number,
       default: 580 / 320
     },
+    circle: Boolean,

@@ -9,7 +9,6 @@
     >
       <v-responsive
         @click="openDialog"
-        class="content-section-item__wrapper"
         :class="{
           'content-section-item__wrapper--video':
             block.content_type == 'video_player'
@@ -17,6 +16,7 @@
         :style="styles"
         :aspect-ratio="285 / 160"
       ></v-responsive>
+      <div class="content-section-item__text">
         <div class="content-section-item__title">{{ block.title }}</div>
         <div class="content-section-item__subtitle">{{ block.subtitle }}</div>
       </div>
@@ -39,3 +39,5 @@
       </SliderModal>
     </div>
   </transition>
+</template>
+

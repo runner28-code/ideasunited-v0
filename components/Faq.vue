@@ -20,6 +20,7 @@
       <v-expansion-panels v-if="items2" class="faqs__column" accordion flat>
         <v-expansion-panel
           elevation-0
-          :key="index"
+          v-for="(item, index) in items2"
         >
           <div class="faq__section-header" v-if="item.header">
+            {{ item.header }}

@@ -18,3 +18,4 @@ export default {
     vimeoChapter: [String, Number],
     firstStartAt: {
       type: Number,
+      default: 0

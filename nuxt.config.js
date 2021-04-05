@@ -4,7 +4,6 @@
 // console.log({
 //   baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
 //   browserBaseURL: process.env.API_PUBLIC_PATH,
-// Temp comment
 // });
 export default {
   server: {
@@ -40,3 +39,5 @@ export default {
     { src: "~/plugins/swiper.js" },
     { src: "~/plugins/emoji.js" },
     { src: "~/plugins/moment.js" },
+    { src: "~/plugins/timeago.js" },
+    { src: "~/plugins/vimeo.js", ssr: false },

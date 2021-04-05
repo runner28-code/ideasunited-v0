@@ -12,3 +12,4 @@ export default {
     name: String,
     id: String
   },
+  data() {

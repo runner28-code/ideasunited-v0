@@ -28,3 +28,4 @@
         }}</v-icon>
       </div>
     </template>
+  </v-text-field>

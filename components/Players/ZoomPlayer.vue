@@ -7,7 +7,6 @@
         allowfullscreen
         class="zoom-player__embedded"
         :src="zoomUrl"
-        v-if="zoomUrl"
       />
     </div>
     <div class="zoom-player" v-else-if="event.zoom_player_type == 'desktop'">
@@ -18,3 +17,5 @@
             | moment("timezone", currentTimezone, "dddd M/D/YYYY")
         }}
         at
+        {{
+          event.start_at

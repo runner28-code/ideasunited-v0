@@ -1,4 +1,3 @@
-<template>
   <div class="not-authorized">
     <AuthPage
       @disableAuth="disableAuth"
@@ -8,3 +7,4 @@
       <div class="error-content">
         <div class="error-title">
           Restrict access...
+        </div>

@@ -51,6 +51,7 @@ const store = {
     current(state) {
       return state.current;
     }
+  }
 };
 
 const updateCollection = ({ collection, id, payload }) => {

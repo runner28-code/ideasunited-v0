@@ -17,3 +17,4 @@ import Player from "@vimeo/player";
 export default {
   props: {
     slide: Object,
+    presentation: Object

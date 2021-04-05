@@ -88,3 +88,7 @@
         </a>
       </div>
       <div class="app-bar__nav-footer">
+        <div
+          :key="menuItem.id"
+          v-for="menuItem in menuFooterPages"
+          class="app-bar__nav-footer-item"

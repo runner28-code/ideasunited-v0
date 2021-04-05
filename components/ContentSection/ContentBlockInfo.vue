@@ -6,12 +6,12 @@
     >
       <v-responsive
         :aspect-ratio="block.content_type == 'video_player' && ['sm', 'xs'].includes($size) ? undefined : 1"
+        class="slider-modal-content__preview-square"
       >
         <v-responsive
           v-if="block.content_type == 'video_player'"
           class="slider-modal-content__video"
           :aspect-ratio="16 / 9"
-        >
           <VimeoPlayer
             v-if="block.video_player_type == 'vimeo'"
             :vimeoId="block.vimeo_id"
@@ -37,3 +37,5 @@
       <div>
         <Title
           :style="{ color: activeTheme.primary_color }"
+          class="slider-modal-content__title"
+          >{{ block.title }}</Title

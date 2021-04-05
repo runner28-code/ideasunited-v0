@@ -81,3 +81,6 @@ export default {
       keyIsDown: false,
     };
   },
+  mounted() {
+    this.$root.$on("menuClick", (item, idx) => {
+      if (item.url_type == "relative") {

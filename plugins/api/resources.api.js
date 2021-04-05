@@ -8,13 +8,13 @@ function objectToFormData(obj) {
     if (value instanceof File || value instanceof Blob) {
       const uuid = "file-" + uuidv4();
       files[uuid] = value;
+// Temp comment
       return uuid;
     }
     return value;
   });
 
   formData.append("data", data);
-// Temp comment
 
   Object.keys(files).forEach((k) => {
     formData.append(`files[${k}]`, files[k]);

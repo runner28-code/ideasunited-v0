@@ -41,3 +41,5 @@
           show-label
           :btn-text="registrationForm.btn_text"
           :login-form="registrationForm.login_form"
+          @backToLogin="backToLogin()"
+          :disabled="disabled"

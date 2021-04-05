@@ -8,6 +8,7 @@
         @input="$emit('input', $event)"
         :rules="rules"
         outlined
+        prepend-icon=""
         @change="handleFileChange"
         ref="fileInput"
         append-icon="$upload"
@@ -39,3 +40,5 @@
               label + (required && markRequired ? " *" : "")
           }}
         </div>
+        <input @change="handleChange" class="uploader__input" type="file" />
+      </label>

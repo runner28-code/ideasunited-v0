@@ -91,3 +91,6 @@ export default {
   props: {
     drawer: Boolean,
   },
+  data() {
+    return {
+      whiteLogo: require("@/assets/images/logo.png"),
