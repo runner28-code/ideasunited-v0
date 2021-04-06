@@ -25,6 +25,7 @@
         ref="mobileScroll"
         v-scroll.self="mobileScroll"
       >
+        <Nuxt :key="key" ref="main-content" />
         <Footer />
       </div>
     </v-main>
@@ -51,16 +52,3 @@ export default {
     this.$store.dispatch("application/init");
 
     if (process.client) {
-      this.$cable.subscribe({
-        channel: "ProjectChannel",
-        project_id: this.currentProject.id,
-        env: this.currentProject.env,
-      });
-
-      this.$cable.subscribe({
-        channel: "NotificationChannel",
-        project_id: this.currentProject.id,
-        env: this.currentProject.env,
-      });
-    }
-

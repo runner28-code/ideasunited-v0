@@ -26,20 +26,7 @@
           tag="h2"
           class="registration-form__title"
           >{{ registrationForm.title }}</Title
-        >
         <div
           v-if="registrationForm.description"
           class="registration-form__description"
         >
-          {{ registrationForm.description }}
-        </div>
-        <DynamicForm
-          :submit="submit"
-          :fields="registrationForm.registration_form"
-          v-model="form"
-          :mark-required="registrationForm.mark_required"
-          show-label
-          :btn-text="registrationForm.btn_text"
-          :login-form="registrationForm.login_form"
-          @backToLogin="backToLogin()"
-          :disabled="disabled"

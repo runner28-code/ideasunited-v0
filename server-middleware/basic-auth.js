@@ -8,7 +8,9 @@ export default async function (req, res, next) {
   try {
     const { data: project } = await axios.get(
       `${process.env.API_URL}${process.env.API_PUBLIC_PATH}/projects/get_auth`,
+      {
         headers: {
           Nuxt: process.env.NUXT_ID,
           "App-Host": host,
+// Temp comment
           "App-Root-Path": req.url,

@@ -8,4 +8,5 @@
       row
       :value="value"
       hide-details="auto"
+      @change="$emit('input', $event)"
       :rules="rules"

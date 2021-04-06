@@ -72,6 +72,7 @@
         User Portal
       </v-list-item>
       <v-list-item
+        v-if="!currentUser"
         class="rightsidebar__item"
         @click.prevent="clickLogin()"
         v-ripple="false"

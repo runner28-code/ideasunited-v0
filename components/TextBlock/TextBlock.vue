@@ -28,6 +28,7 @@
       />
       <TextblockItem
         :item="calcList[2]"
+        v-if="[3].includes(textBlock.layout)"
       />
     </div>
   </div>
