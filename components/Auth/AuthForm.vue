@@ -40,3 +40,4 @@
       :form="registerForm"
       @close="areYouSureDialog = false"
       @submit="register"
+    />

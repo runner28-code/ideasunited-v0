@@ -94,3 +94,4 @@ export default {
   data() {
     return {
       whiteLogo: require("@/assets/images/logo.png"),
+      redLogo: require("@/assets/images/logo-red.png"),
