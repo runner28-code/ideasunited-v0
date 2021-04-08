@@ -113,6 +113,7 @@ export default {
     },
     fullscreenExitEvents() {
       document.onfullscreenchange = () => {
+        if (!document.fullscreenElement) {
           this.onFullscreenExit();
         }
       };

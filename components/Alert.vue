@@ -29,5 +29,5 @@
 export default {
   name: "Alert",
   data() {
-      alert: null
+    return {
     };

@@ -42,6 +42,7 @@
         :href="opportunitiesUrl"
         v-ripple="false"
       >
+        Opportunities
         <transition name="fade">
           <div
             v-if="newOpps.length"

@@ -23,6 +23,5 @@ export default {
       localValue: ""
     };
   },
-  computed: {
     styles() {
       return {
