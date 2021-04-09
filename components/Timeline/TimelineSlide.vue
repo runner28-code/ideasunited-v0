@@ -33,7 +33,6 @@
           <span>
             now playing
           </span>
-        </div>
       </div>
     </v-responsive>
   </div>
@@ -46,3 +45,4 @@ export default {
     value: Object,
     active: Object
   },
+  methods: {

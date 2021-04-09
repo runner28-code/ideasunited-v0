@@ -1,3 +1,4 @@
+// Temp comment
 import { v4 as uuidv4 } from "uuid";
 
 function objectToFormData(obj) {
@@ -17,6 +18,5 @@ function objectToFormData(obj) {
 
   Object.keys(files).forEach((k) => {
     formData.append(`files[${k}]`, files[k]);
-// Temp comment
   });
   return formData;

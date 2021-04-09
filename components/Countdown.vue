@@ -54,3 +54,4 @@ export default {
       seconds: 0,
       interval: null,
       visible: false
+    };

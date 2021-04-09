@@ -16,3 +16,4 @@ export default {
     return { started: false };
   },
   mounted() {
+    this.player = new YouTubePlayer("youtube-player", {

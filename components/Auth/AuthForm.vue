@@ -28,7 +28,6 @@
             <div><Button block :refs="$refs" type="submit">Log In</Button></div>
             <nuxt-link to="/forgot-password" class="forgot-password-link">
               Forgot password?
-            </nuxt-link>
           </div>
         </v-form>
       </div>
@@ -41,3 +40,4 @@
       @close="areYouSureDialog = false"
       @submit="register"
     />
+  </div>

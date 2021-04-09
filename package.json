@@ -9,3 +9,4 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "deploy-staging": "MINA_CONFIG=deploy/staging.json mina deploy",
+    "restart-staging": "pm2 kill && pm2 start",

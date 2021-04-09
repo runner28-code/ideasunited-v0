@@ -41,3 +41,4 @@ export default {
     { src: "~/plugins/moment.js" },
     { src: "~/plugins/timeago.js" },
     { src: "~/plugins/vimeo.js", ssr: false },
+    { src: "~/plugins/ga.js", ssr: false },

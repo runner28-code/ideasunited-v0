@@ -125,3 +125,4 @@ export default {
       document.onmozfullscreenchange = () => {
         if (!document.mozFullScreenElement) {
           this.onFullscreenExit();
+        }

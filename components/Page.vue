@@ -84,3 +84,4 @@ export default {
   mounted() {
     this.$root.$on("menuClick", (item, idx) => {
       if (item.url_type == "relative") {
+        this.fullPageMoveTo(idx);

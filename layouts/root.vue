@@ -2,6 +2,7 @@
   <v-app
     v-if="currentProject"
     class="root"
+    :class="{ authorized: currentUser, not_authorized: !currentUser }"
   >
     <client-only>
       <RootAppBar
@@ -60,3 +61,5 @@ export default {
         this.activeTheme.header_font?.font,
         this.activeTheme.footer_font?.font
       ].filter(f => f && f.src_type == "google_fonts");
+
+      googleFonts.push({

@@ -13,3 +13,4 @@ export default {
       seconds: 25,
       animating: false
     }
+  },

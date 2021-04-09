@@ -45,6 +45,7 @@
             v-if="activeEvent.description"
             class="event__video-description"
             v-html="activeEvent.description"
+          ></div>
         </div>
       </div>
       <div
@@ -53,7 +54,6 @@
         :style="{
           backgroundImage: `url(${activeTheme.event_background.large.url})`
         }"
-      ></div>
       <!-- <Spinner v-else /> -->
     </div>
     <div
@@ -67,3 +67,4 @@
       />
 
       <ZoomChat
+        v-if="currentPage.chats[0].chat_type == 'zoom'"
