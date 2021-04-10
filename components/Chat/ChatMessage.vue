@@ -1,5 +1,6 @@
 <template>
   <div class="message">
+    <div class="message-wrapper">
       <Avatar
         :name="message.user.full_name"
         :id="message.user.id"
@@ -20,11 +21,3 @@
         <div class="message__body">{{ body }}</div>
         <div class="message__timestamp">
           <timeago :auto-update="60" :datetime="message.created_at"></timeago>
-        </div>
-      </div>
-    </div>
-    <v-menu
-      offset-y
-      v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"
-    >
-      <template v-slot:activator="{ on }">

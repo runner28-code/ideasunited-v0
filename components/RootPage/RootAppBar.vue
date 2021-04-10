@@ -68,31 +68,3 @@
             @click.prevent="showNewOppDetails = false"
             small
           >
-            <v-icon size="20" color="white">$close</v-icon>
-          </v-btn>
-          <v-btn
-            icon
-            class="app-bar__new-opps-details__eye"
-            small
-          >
-            <v-icon size="20" color="white">$eye</v-icon>
-          </v-btn>
-        </div>
-      </a>
-    </transition>
-  </div>
-</template>
-
-<script>
-import { frontendToProfile } from "@/utils";
-
-export default {
-  name: "AppBar",
-  props: {
-    drawer: Boolean,
-  },
-  data() {
-    return {
-      whiteLogo: require("@/assets/images/logo.png"),
-      redLogo: require("@/assets/images/logo-red.png"),
-      newOpps: [],
