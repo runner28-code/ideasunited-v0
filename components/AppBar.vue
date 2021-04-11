@@ -93,3 +93,5 @@
           v-for="menuItem in menuFooterPages"
           class="app-bar__nav-footer-item"
         >
+          <a
+            v-if="menuItem.url_type == 'absolute'"

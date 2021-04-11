@@ -55,3 +55,4 @@ export default {
       interval: null,
       visible: false
     };
+  },

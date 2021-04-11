@@ -17,3 +17,4 @@
       </v-responsive>
       <img v-else :src="value.preview.large.url" width="100%" />
     </div>
+    <div

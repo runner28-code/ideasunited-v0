@@ -20,4 +20,5 @@
         </div>
         <div class="message__body">{{ body }}</div>
         <div class="message__timestamp">
-          <timeago :auto-update="60" :datetime="message.created_at"></timeago>
+        </div>
+      </div>

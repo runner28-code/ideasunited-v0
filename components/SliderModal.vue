@@ -5,7 +5,6 @@
       content-class="slider-modal"
       :value="value"
       @input="$emit('input', $event)"
-      v-if="value"
     >
       <div class="slider-modal__wrapper" @click="close">
         <v-btn
@@ -40,3 +39,4 @@
             >
               <v-icon size="36" :color="currentColor"
                 >$close</v-icon
+              >

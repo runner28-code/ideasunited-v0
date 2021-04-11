@@ -23,3 +23,4 @@ export default {
   data() {
     return { messages: [] };
   },
+  channels: {

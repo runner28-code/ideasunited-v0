@@ -32,6 +32,7 @@
         v-if="showBackToLogin && !currentUser"
         @click="$emit('backToLogin')"
       >
+        Already a member?
       </Button>
       <Button :refs="$refs" type="submit" :disabled="!valid || loading">
         <span v-if="loading">
@@ -55,3 +56,4 @@ import DynamicCheckbox from "./DynamicCheckbox";
 import DynamicEmailField from "./DynamicEmailField";
 import DynamicHtmlBlock from "./DynamicHtmlBlock";
 import DynamicNumberField from "./DynamicNumberField";
+import DynamicRadio from "./DynamicRadio";

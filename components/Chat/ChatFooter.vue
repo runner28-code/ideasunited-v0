@@ -5,7 +5,6 @@
     </v-btn>
 
     <div v-else-if="chat.locked">
-      Chat is temporarily locked
     </div>
 
     <div v-else-if="currentUser.blocked && currentUser.blocked">
@@ -28,3 +27,4 @@
             <template v-slot:activator="{ on }">
               <v-btn v-on="on" icon>
                 <v-icon>
+                  $emoji

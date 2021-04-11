@@ -17,6 +17,7 @@ const store = {
     },
     unpublishEvent(state, id) {
       const collection = state.current?.events;
+      const payload = { posted: false };
       updateCollection({ collection, id, payload });
     },
     hideEvent(state, id) {
@@ -25,7 +26,6 @@ const store = {
       updateCollection({ collection, id, payload });
     },
     publishContentBlock(state, { sectionId, blockId }) {
-      const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: true };
       updateCollection({ collection, id: blockId, payload });
     },

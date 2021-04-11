@@ -12,6 +12,7 @@
     @change="$emit('change')"
     ref="input"
     validate-on-blur
+    :suffix="suffix"
     :min="min"
     :max="max"
     :class="{ block }"
@@ -28,3 +29,4 @@
       </div>
     </template>
   </v-text-field>
+</template>

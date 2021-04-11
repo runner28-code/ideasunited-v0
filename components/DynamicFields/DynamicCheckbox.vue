@@ -9,6 +9,5 @@
     @focus.stop="onFocus($event)"
   >
     <template #label>
-      <slot>
         <span
           @click.stop

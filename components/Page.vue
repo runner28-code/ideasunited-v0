@@ -85,3 +85,21 @@ export default {
     this.$root.$on("menuClick", (item, idx) => {
       if (item.url_type == "relative") {
         this.fullPageMoveTo(idx);
+      }
+    });
+
+    this.$root.$on("mobileScroll", (y) => {
+      const i = this.$refs.sections.findIndex((s) => s.$el.offsetTop > y);
+      this.currentSlide = i - 1;
+      const newAnchor = this.fullpageOpts.anchors[this.currentSlide];
+      location.hash = `#${newAnchor}`;
+    });
+
+    this.$root.$on("fullpageRebuild", (y) => {
+      if (this.$refs.fullpage && this.$refs.fullpage.api) {
+        this.$refs.fullpage.api.reBuild();
+        this.fullpageScrollReset();
+      }
+    });
+
+    this.$root.$on("fullpageScrollReset", () => {

@@ -126,3 +126,5 @@ export default {
         if (!document.mozFullScreenElement) {
           this.onFullscreenExit();
         }
+      };
+      document.onmsfullscreenchange = () => {

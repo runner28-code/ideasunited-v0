@@ -89,3 +89,6 @@ export default {
     resource_id: String,
     page: Object,
   },
+  data() {
+    return {
+      swiperOption: {

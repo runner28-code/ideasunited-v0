@@ -1,3 +1,4 @@
+<template>
   <client-only>
     <div class="spinner" :class="{ relative }">
       <HollowDotsSpinner
@@ -6,4 +7,3 @@
         :color="activeTheme.primary_color"
       />
     </div>
-  </client-only>

@@ -11,6 +11,7 @@
           <div class="fullpage-section__header">
             <h1 v-if="page.content_header" v-html="page.content_header"></h1>
             <h2 v-if="page.content_subhead" v-html="page.content_subhead"></h2>
+          </div>
         </div>
         <div
           class="component"
@@ -33,3 +34,5 @@
         @focus.stop="onFocus($event)"
       ></button>
       <!-- <div
+        @click.stop.prevent="$emit('top')"
+        class="fullpage-top-arrow__wrapper"

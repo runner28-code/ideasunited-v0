@@ -25,3 +25,4 @@ export default {
       default: 580 / 320
     },
     circle: Boolean,
+    position: {

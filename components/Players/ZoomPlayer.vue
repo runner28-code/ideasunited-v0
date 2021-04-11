@@ -21,3 +21,4 @@
         {{
           event.start_at
             | moment("timezone", currentTimezone, "h:mm A")
+        }}

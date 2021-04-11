@@ -27,3 +27,4 @@ export default {
         content: this.currentProject.description
       }
     ];
+
