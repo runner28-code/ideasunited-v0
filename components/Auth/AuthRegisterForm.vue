@@ -42,17 +42,3 @@
             :login-form="registrationForm.login_form"
             @backToLogin="backToLogin()"
             :show-back-to-login="true"
-          />
-        </div>
-      </div> <!-- v-if="!currentUser" -->
-      <div v-else class="register__thank-you">
-        <Title class="register__thank-you_title">
-          Thank you!
-        </Title>
-        <div v-if="!currentUser.confirmed">
-          <p class="register__thank-you_message">
-            Please check your email and click the verification link,
-            which will direct you to your first log in.
-          </p>
-          <div class="register__buttons">
-            <Button

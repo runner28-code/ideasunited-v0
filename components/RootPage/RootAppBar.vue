@@ -64,6 +64,7 @@
         <div class="app-bar__new-opps-details__actions">
           <v-btn
             icon
+            class="app-bar__new-opps-details__close"
             @click.prevent="showNewOppDetails = false"
             small
           >

@@ -3,6 +3,7 @@
     <Title v-if="supportForm.headline" class="support-form__title">{{
       supportForm.headline
     }}</Title>
+    <div v-if="supportForm.description" class="support-form__description">
       {{ supportForm.description }}
     </div>
     <DynamicForm
@@ -15,5 +16,4 @@
     <div v-else class="support-form__submitted">
       Thank you! We will process your request and reply to you shortly.
     </div>
-  </div>
 </template>

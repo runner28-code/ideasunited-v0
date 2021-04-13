@@ -15,7 +15,6 @@
         {{ item.menu_title }}
       </nuxt-link>
     </v-responsive>
-  </div>
 </template>
 
 <script>

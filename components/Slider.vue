@@ -10,7 +10,6 @@
       <swiper-slide v-for="slide in slides" :key="slide.id">
         <div
           @click="slideClick(slide)"
-          class="slider__slide"
           :class="{ clickable: slide.url }"
           :style="{ backgroundImage: `url(${slide.preview.large.url})` }"
         ></div>

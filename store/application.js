@@ -4,3 +4,4 @@ const store = {
   mutations: {
     setLoaded(state, val) {
       state.loaded = val;
+    },

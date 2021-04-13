@@ -7,3 +7,4 @@
         :color="activeTheme.primary_color"
       />
     </div>
+  </client-only>
