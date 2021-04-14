@@ -1,5 +1,4 @@
 <template>
-  <div class="youtube-player">
     <div id="youtube-player"></div>
     <div class="youtube-player__after" @click="started ? null : play"></div>
   </div>
@@ -18,3 +17,4 @@ export default {
   mounted() {
     this.player = new YouTubePlayer("youtube-player", {
       width: "100%",
+      height: "100%",

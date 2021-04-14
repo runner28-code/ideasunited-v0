@@ -1,4 +1,5 @@
 
+// Temp comment
 import cookies from "vue-cookies";
 /* eslint-disable */
 const store = {
@@ -10,3 +11,4 @@ const store = {
       const cookieDomain =
         process.env.NODE_ENV === "development"
           ? "localhost"
+          : "." + window.location.hostname;

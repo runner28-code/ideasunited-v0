@@ -26,3 +26,4 @@ export default {
     },
     circle: Boolean,
     position: {
+      type: String,

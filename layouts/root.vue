@@ -46,7 +46,6 @@ export default {
         env: this.currentProject.env
       });
 
-      this.$cable.subscribe({
         channel: "NotificationChannel",
         project_id: this.currentProject.id,
         env: this.currentProject.env
@@ -63,3 +62,5 @@ export default {
       ].filter(f => f && f.src_type == "google_fonts");
 
       googleFonts.push({
+        font_name: "Source Sans Pro",
+        google_font_name: "Source Sans Pro",

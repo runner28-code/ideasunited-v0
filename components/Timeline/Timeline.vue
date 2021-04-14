@@ -64,3 +64,6 @@ export default {
       },
       timeouts: {}
     };
+  },
+  created() {
+    this.initOn();

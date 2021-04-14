@@ -73,3 +73,9 @@
           <v-btn
             icon
             class="app-bar__new-opps-details__eye"
+            small
+          >
+            <v-icon size="20" color="white">$eye</v-icon>
+          </v-btn>
+        </div>
+      </a>

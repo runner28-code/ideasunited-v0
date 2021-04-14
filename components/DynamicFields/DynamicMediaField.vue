@@ -14,6 +14,7 @@
         append-icon="$upload"
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
       >
+      </v-file-input>
     </div>
     <div class="uploader-wrapper" v-else>
       <div class="uploader__label" v-if="showLabel && label">
@@ -42,3 +43,5 @@
         <input @change="handleChange" class="uploader__input" type="file" />
       </label>
       <v-text-field
+        ref="validation"
+        class="uploader__validation"

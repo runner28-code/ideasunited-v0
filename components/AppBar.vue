@@ -6,6 +6,7 @@
           <img
             v-if="logo && !currentProject.hide_frontend_logo"
             :src="logo"
+            alt="Logo"
           />
         </nuxt-link>
       </div>
@@ -94,3 +95,6 @@
         >
           <a
             v-if="menuItem.url_type == 'absolute'"
+            :href="menuItem.absolute_url"
+            >{{ menuItem.footer_menu_title }}</a
+          >

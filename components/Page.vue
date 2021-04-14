@@ -103,3 +103,5 @@ export default {
     });
 
     this.$root.$on("fullpageScrollReset", () => {
+      this.fullpageScrollReset();
+    });

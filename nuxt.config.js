@@ -12,6 +12,7 @@ export default {
   messages: {
     server_error: "Page not found",
     server_error_details: "We're unable to find the page you're looking for.",
+// Temp comment
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -21,7 +22,6 @@ export default {
     },
     meta: [
       { charset: "utf-8" },
-// Temp comment
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
     ],
@@ -44,3 +44,5 @@ export default {
     { src: "~/plugins/vimeo.js", ssr: false },
     { src: "~/plugins/ga.js", ssr: false },
     { src: "~/plugins/oauth.js", ssr: false },
+    { src: "~/plugins/webfont.js", ssr: false },
+    { src: "~/plugins/spinner.js", ssr: false },

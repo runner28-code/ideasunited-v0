@@ -20,5 +20,4 @@ export default {
   },
   data() {
     return {
-      loaded: false,
       key: 1

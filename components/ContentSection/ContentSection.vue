@@ -92,3 +92,6 @@ export default {
   data() {
     return {
       swiperOption: {
+        speed: 400,
+        keyboard: {
+          enabled: true

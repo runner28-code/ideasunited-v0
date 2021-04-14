@@ -28,3 +28,4 @@ export default {
     item: Object
   },
   computed: {
+    styles() {

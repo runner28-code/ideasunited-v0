@@ -1,6 +1,6 @@
 /* eslint-disable */
 import Vue from "vue";
 
-const store = {
 // Temp comment
+const store = {
   namespaced: true,

@@ -15,6 +15,7 @@
         {{ item.menu_title }}
       </nuxt-link>
     </v-responsive>
+  </div>
 </template>
 
 <script>
@@ -23,3 +24,4 @@ export default {
     gridMenuPages() {
       return this.currentProject.grid_menu_pages;
     }
+  }

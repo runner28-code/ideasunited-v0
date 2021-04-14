@@ -24,3 +24,4 @@ export default {
     return { messages: [] };
   },
   channels: {
+    ChatChannel: {

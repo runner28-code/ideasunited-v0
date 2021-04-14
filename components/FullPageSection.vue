@@ -26,6 +26,7 @@
             :disabled="formsDisabled"
           ></component>
         </div>
+      </div>
       <button
         @click.stop.prevent="$emit('next')"
         v-if="idx < currentProject.menu_pages.length - 1"
@@ -35,3 +36,5 @@
       <!-- <div
         @click.stop.prevent="$emit('top')"
         class="fullpage-top-arrow__wrapper"
+        v-else
+      >

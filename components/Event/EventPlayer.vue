@@ -1,6 +1,6 @@
 <template>
   <div class="event-player" :style="styles">
-      v-if="event.event_type == 'youtube'"
+    <YoutubePlayer
       :youtubeId="event.youtube_id"
       :key="event.id"
     />

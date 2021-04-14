@@ -50,3 +50,5 @@
 import { frontendToProfile } from "@/utils";
 export default {
   props: {
+    isStatic: Boolean,
+  },

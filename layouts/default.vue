@@ -10,7 +10,6 @@
           <v-icon size="38">{{ "$account_menu" }}</v-icon>
           <transition name="fade">
             <div
-              v-if="newOpps.length"
               class="opp-count"
             >{{ newOpps.length }}</div>
           </transition>
@@ -60,3 +59,7 @@ export default {
 
       this.$cable.subscribe({
         channel: "NotificationChannel",
+        project_id: this.currentProject.id,
+        env: this.currentProject.env,
+      });
+    }
