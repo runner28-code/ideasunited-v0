@@ -41,4 +41,5 @@
           class="slider-modal-content__title"
           >{{ block.title }}</Title
         >
+        <div v-if="block.creator">
           <div

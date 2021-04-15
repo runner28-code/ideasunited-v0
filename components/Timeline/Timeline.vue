@@ -35,7 +35,6 @@ import _ from "lodash";
 
 export default {
   props: {
-    value: Object
   },
   data() {
     return {

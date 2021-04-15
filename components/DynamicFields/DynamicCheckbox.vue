@@ -11,3 +11,4 @@
     <template #label>
       <slot>
         <span
+          @click.stop

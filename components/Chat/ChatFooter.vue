@@ -28,5 +28,4 @@
             <template v-slot:activator="{ on }">
               <v-btn v-on="on" icon>
                 <v-icon>
-                  $emoji
                 </v-icon>

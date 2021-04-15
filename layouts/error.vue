@@ -8,4 +8,3 @@
     </h1>
     <NuxtLink to="/">
       Home page
-    </NuxtLink>

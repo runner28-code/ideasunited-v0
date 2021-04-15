@@ -56,7 +56,6 @@
               <v-btn class="root-lede__cta-btn" @click="signUp" v-if="!currentUser"> Sign Up</v-btn>
             </div>
           </div>
-        </div>
       </v-responsive>
     </div>
   </div>
