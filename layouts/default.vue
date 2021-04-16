@@ -45,6 +45,7 @@ export default {
       drawer: false,
       timeouts: {},
       key: 0,
+      newOpps: []
     };
   },
   created() {

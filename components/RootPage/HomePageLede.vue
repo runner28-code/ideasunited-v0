@@ -41,7 +41,6 @@
       </div>
     </div>
     <div class="root-lede__content" ref="content">
-      <v-responsive
         :aspect-ratio="aspectRatio"
       >
         <div class="root-lede__text-wrapper">
@@ -56,6 +55,7 @@
               <v-btn class="root-lede__cta-btn" @click="signUp" v-if="!currentUser"> Sign Up</v-btn>
             </div>
           </div>
+        </div>
       </v-responsive>
     </div>
   </div>
@@ -83,52 +83,3 @@ export default {
         size: 200,
       },
       slides,
-      currentSlideIndex: 0,
-    }
-  },
-  mounted() {
-    this.preloadVideo();
-    this.fullscreenExitEvents();
-    this.mounted = true;
-    
-    const timeline = new TimelineLite();
-    timeline.set(this.$refs.previewMedia, {
-      maskImage: `url(${this.irisAsset})`
-    });
-    setTimeout(() => {
-      this.slideChange();
-    }, 3000);
-  },
-  methods: {
-    signUp() {
-      this.$root.$emit("authModal/open/register");
-    },
-    preloadVideo() {
-      const { videoElem } = this.$refs;
-      videoElem.play();
-      this.$nextTick(() => {
-        videoElem.pause()
-      });
-    },
-    fullscreenExitEvents() {
-      document.onfullscreenchange = () => {
-        if (!document.fullscreenElement) {
-          this.onFullscreenExit();
-        }
-      };
-      document.onwebkitfullscreenchange = () => {
-        if (!document.webkitFullscreenElement) {
-          this.onFullscreenExit();
-        }
-      };
-      document.onmozfullscreenchange = () => {
-        if (!document.mozFullScreenElement) {
-          this.onFullscreenExit();
-        }
-      };
-      document.onmsfullscreenchange = () => {
-        if (!document.msFullscreenElement) {
-          this.onFullscreenExit();
-        }
-      };
-    },

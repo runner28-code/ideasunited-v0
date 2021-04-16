@@ -7,7 +7,6 @@
     ></component>
   </div>
 </template>
-
 <script>
 import Vue from "vue";
 import Spinner from "./Spinner";

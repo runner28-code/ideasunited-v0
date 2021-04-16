@@ -43,6 +43,7 @@
         <SupportForm :support-form="supportForm"/>
       </v-card>
     </v-dialog>
+  </v-footer>
 </template>
 
 <script>
