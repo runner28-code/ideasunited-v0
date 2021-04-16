@@ -12,3 +12,4 @@
       <slot>
         <span
           @click.stop
+          v-html="label + (required && markRequired ? ' *' : '')"

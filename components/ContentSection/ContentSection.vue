@@ -95,3 +95,5 @@ export default {
         speed: 400,
         keyboard: {
           enabled: true
+        },
+        breakpoints: {

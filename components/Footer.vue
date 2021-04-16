@@ -52,3 +52,4 @@ export default {
   props: {
     isStatic: Boolean,
   },
+  data() {

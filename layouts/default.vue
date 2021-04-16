@@ -64,3 +64,6 @@ export default {
         env: this.currentProject.env,
       });
     }
+
+    if (process.client) {
+      const googleFonts = [

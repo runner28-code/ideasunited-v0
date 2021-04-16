@@ -46,7 +46,6 @@ export default {
     value: String,
     page: Object,
   },
-  data() {
     return {
       days: 0,
       hours: 0,
@@ -58,3 +57,4 @@ export default {
   },
   created() {
     this.startCountdown();
+  },

@@ -39,3 +39,4 @@
           v-model="form"
           :mark-required="registrationForm.mark_required"
           show-label
+          :btn-text="registrationForm.btn_text"

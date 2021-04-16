@@ -21,7 +21,6 @@ export default {
     chat: Object
   },
   data() {
-    return { messages: [] };
   },
   channels: {
     ChatChannel: {

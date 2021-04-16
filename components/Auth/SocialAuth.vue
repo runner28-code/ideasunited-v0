@@ -31,3 +31,4 @@ import cookies from "vue-cookies";
 export default {
   data() {
     return {
+      authParams: {

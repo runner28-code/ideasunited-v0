@@ -11,6 +11,7 @@
         prepend-icon=""
         @change="handleFileChange"
         ref="fileInput"
+        append-icon="$upload"
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
       >
       </v-file-input>
@@ -44,3 +45,4 @@
       <v-text-field
         ref="validation"
         class="uploader__validation"
+        :value="value"

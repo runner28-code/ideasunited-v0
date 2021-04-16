@@ -16,7 +16,6 @@
         v-show="showField(field)"
         :label="field.label"
         :show-label="showLabel"
-        :addon-data="addonData(field)"
         :file-input="field.file_input"
       ></component>
     </div>
@@ -58,3 +57,4 @@ import DynamicHtmlBlock from "./DynamicHtmlBlock";
 import DynamicNumberField from "./DynamicNumberField";
 import DynamicRadio from "./DynamicRadio";
 import DynamicTextArea from "./DynamicTextArea";
+import DynamicTextField from "./DynamicTextField";

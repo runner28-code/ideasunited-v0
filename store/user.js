@@ -9,4 +9,3 @@ const store = {
       state.current = user;
     },
   },
-  actions: {

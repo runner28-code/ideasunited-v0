@@ -5,6 +5,7 @@
         frameborder="0"
         allow="autoplay; fullscreen"
         allowfullscreen
+        class="zoom-player__embedded"
         :src="zoomUrl"
         v-if="zoomUrl"
       />
@@ -22,3 +23,4 @@
             | moment("timezone", currentTimezone, "h:mm A")
         }}
       </div>
+      <Button large @click="openZoomLink">Click to Connect</Button>

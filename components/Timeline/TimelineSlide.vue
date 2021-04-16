@@ -50,3 +50,4 @@ export default {
     setActive() {
       if (this.value.posted) {
         this.$emit("setActive", this.value.id);
+

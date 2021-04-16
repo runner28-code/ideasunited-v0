@@ -11,6 +11,7 @@
         </nuxt-link>
       </div>
     </v-toolbar-title>
+    <a
       href="/more"
       @click.prevent="dropdownClick"
       v-if="gridMenuPages.length"
@@ -98,3 +99,4 @@
             :href="menuItem.absolute_url"
             >{{ menuItem.footer_menu_title }}</a
           >
+          <a

@@ -7,6 +7,7 @@
     ></component>
   </div>
 </template>
+
 <script>
 import Vue from "vue";
 import Spinner from "./Spinner";
@@ -21,3 +22,4 @@ export default {
     return {
       loaded: false,
       key: 1
+    };

@@ -30,3 +30,5 @@
     </template>
   </v-text-field>
 </template>
+
+<script>

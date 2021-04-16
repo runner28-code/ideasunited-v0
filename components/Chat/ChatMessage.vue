@@ -25,3 +25,4 @@
       </div>
     </div>
     <v-menu
+      offset-y

@@ -41,6 +41,7 @@
       </div>
     </div>
     <div class="root-lede__content" ref="content">
+      <v-responsive
         :aspect-ratio="aspectRatio"
       >
         <div class="root-lede__text-wrapper">
@@ -83,3 +84,10 @@ export default {
         size: 200,
       },
       slides,
+      currentSlideIndex: 0,
+    }
+  },
+  mounted() {
+    this.preloadVideo();
+    this.fullscreenExitEvents();
+    this.mounted = true;

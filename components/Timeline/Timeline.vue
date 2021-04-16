@@ -54,7 +54,6 @@ export default {
 
           960: {
             slidesPerView: 3,
-            spaceBetween: 20
           },
           1264: {
             slidesPerView: 4,
@@ -67,3 +66,4 @@ export default {
   },
   created() {
     this.initOn();
+    this.initEvent();

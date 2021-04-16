@@ -87,3 +87,4 @@
       >
         Logout
       </v-list-item>
+    </v-list>
