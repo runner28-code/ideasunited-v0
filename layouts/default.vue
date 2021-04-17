@@ -67,3 +67,4 @@ export default {
 
     if (process.client) {
       const googleFonts = [
+        this.activeTheme.h1_font?.font,

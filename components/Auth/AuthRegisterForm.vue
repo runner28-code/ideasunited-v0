@@ -48,3 +48,4 @@
       <div v-else class="register__thank-you">
         <Title class="register__thank-you_title">
           Thank you!
+        </Title>

@@ -1,3 +1,4 @@
+<template>
   <div class="vimeo-player">
     <iframe
       :src="`https://player.vimeo.com/video/${slide.vimeo_id}?controls=0`"
@@ -18,3 +19,4 @@ export default {
     slide: Object,
     presentation: Object
   },
+  data() {

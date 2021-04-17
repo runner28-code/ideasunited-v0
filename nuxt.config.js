@@ -45,3 +45,4 @@ export default {
     { src: "~/plugins/oauth.js", ssr: false },
     { src: "~/plugins/webfont.js", ssr: false },
     { src: "~/plugins/spinner.js", ssr: false },
+    { src: "~/plugins/actioncable.js", ssr: false },

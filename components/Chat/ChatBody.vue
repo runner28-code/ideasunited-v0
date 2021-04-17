@@ -13,7 +13,6 @@
       :key="message.uuid"
     />
   </div>
-</template>
 
 <script>
 export default {
@@ -21,6 +20,7 @@ export default {
     chat: Object
   },
   data() {
+    return { messages: [] };
   },
   channels: {
     ChatChannel: {

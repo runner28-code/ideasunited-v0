@@ -44,3 +44,4 @@
             </v-btn>
             <slot></slot>
           </div>
+        </v-card>

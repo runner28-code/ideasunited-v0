@@ -1,5 +1,5 @@
 <template>
-    class="presentation-image"
+  <div
     :style="{
       backgroundImage: `url(${slide.preview ? slide.preview.url : ''})`
     }"
