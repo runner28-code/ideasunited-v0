@@ -1,4 +1,3 @@
-export async function buildZoomLink({
   $api,
   zoom_id,
   zoom_password,
@@ -32,4 +31,5 @@ export async function buildZoomLink({
     }
     urlParams += key + "=" + encodeURIComponent(params[key]);
   }
+
   return "/zoom/iframe.zoom.html?" + urlParams;

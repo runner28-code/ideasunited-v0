@@ -51,7 +51,6 @@ export default {
   created() {
     this.$store.dispatch("application/init");
 
-    if (process.client) {
       this.$cable.subscribe({
         channel: "ProjectChannel",
         project_id: this.currentProject.id,
@@ -68,3 +67,4 @@ export default {
     if (process.client) {
       const googleFonts = [
         this.activeTheme.h1_font?.font,
+        this.activeTheme.h2_font?.font,

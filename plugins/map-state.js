@@ -7,7 +7,6 @@ if (!Vue.__map_state_mixin__) {
 
   Vue.mixin({
     methods: {
-// Temp comment
       scrollToInvalidInput(inputs) {
         const inputError = inputs.find((input) => input.hasError);
         if (inputError) {

@@ -96,3 +96,6 @@ export default {
     timeline.set(this.$refs.previewMedia, {
       maskImage: `url(${this.irisAsset})`
     });
+    setTimeout(() => {
+      this.slideChange();
+    }, 3000);

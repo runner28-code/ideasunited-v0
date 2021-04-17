@@ -13,11 +13,11 @@
       :key="message.uuid"
     />
   </div>
+</template>
 
 <script>
 export default {
   props: {
-    chat: Object
   },
   data() {
     return { messages: [] };

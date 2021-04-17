@@ -48,6 +48,7 @@
             v-if="newOpps.length"
             class="rightsidebar__opp-count"
           >{{ newOpps.length }}</div>
+        </transition>
       </v-list-item>
       <v-list dense v-if="noRoot">
         <v-list-item class="rightsidebar__item__subitem">

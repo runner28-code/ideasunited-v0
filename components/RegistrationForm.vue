@@ -16,6 +16,7 @@
             class="signup-btn"
             elevation="0"
             @click="chooseSignUp = true"
+            >{{ registrationForm.sign_up_btn_text || "Apply" }}</v-btn
           >
         </div>
       </div>
@@ -40,3 +41,4 @@
           show-label
           :btn-text="registrationForm.btn_text"
           :login-form="registrationForm.login_form"
+          @backToLogin="backToLogin()"

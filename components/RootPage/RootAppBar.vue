@@ -45,7 +45,6 @@
     <transition name="fade">
       <a class="app-bar__new-opps-details"
         v-if="newOppDetail && showNewOppDetails"
-        :key="newOppDetail.id"
         :href="newOppDetail.site"
         target="_blank"
       >
@@ -85,3 +84,4 @@
 
 <script>
 import { frontendToProfile } from "@/utils";
+
