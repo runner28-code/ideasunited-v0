@@ -39,3 +39,4 @@
         v-else
       >
         <button class="fullpage-top-arrow"></button>
+        <div class="fullpage-top-arrow__text">

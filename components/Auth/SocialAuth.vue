@@ -6,6 +6,7 @@
       v-if="currentProject.addons.includes('Addon::CasLogin')"
     >
       <Button block x-large>{{
+        currentProject.projects_addons["Addon::CasLogin"].btn_text ||
           "Log in with CAS account"
       }}</Button>
     </div>

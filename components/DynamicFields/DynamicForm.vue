@@ -26,7 +26,6 @@
       v-html="description"
     ></div>
     <div class="dynamic-form__buttons">
-      <Button
         class="btn_back-to-login"
         :refs="$refs"
         v-if="showBackToLogin && !currentUser"
@@ -43,6 +42,7 @@
           ></v-progress-circular>
           <span style="margin-left: 10px"> Uploading... </span>
         </span>
+        <span v-else>
           {{ btnText || "Submit" }}
         </span>
       </Button>

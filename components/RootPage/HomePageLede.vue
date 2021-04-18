@@ -99,3 +99,7 @@ export default {
     setTimeout(() => {
       this.slideChange();
     }, 3000);
+  },
+  methods: {
+    signUp() {
+      this.$root.$emit("authModal/open/register");

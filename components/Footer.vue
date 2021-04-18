@@ -53,3 +53,4 @@ export default {
     isStatic: Boolean,
   },
   data() {
+    return {

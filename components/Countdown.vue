@@ -59,3 +59,4 @@ export default {
   created() {
     this.startCountdown();
   },
+  computed: {

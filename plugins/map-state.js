@@ -17,3 +17,4 @@ if (!Vue.__map_state_mixin__) {
             top: y,
             behavior: "smooth",
           });
+        }

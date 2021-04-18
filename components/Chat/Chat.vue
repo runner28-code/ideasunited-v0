@@ -19,3 +19,4 @@ export default {
     };
   },
   created() {
+    if (process.client) {

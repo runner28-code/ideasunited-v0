@@ -43,3 +43,4 @@
         >
         <div v-if="block.creator">
           <div
+            class="slider-modal-content__creator-info"

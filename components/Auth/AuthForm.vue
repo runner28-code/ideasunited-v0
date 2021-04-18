@@ -49,3 +49,4 @@ import _ from "lodash";
 import Title from "@/components/Title";
 import { frontendToProfile } from "@/utils";
 
+export default {

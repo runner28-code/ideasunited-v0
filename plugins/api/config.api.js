@@ -17,3 +17,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         requestConfig.headers["Nuxt"] = process.env.NUXT_ID;
       }
 
+      if (process.server) {

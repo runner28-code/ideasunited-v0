@@ -12,3 +12,4 @@
       :rules="rules"
       @focus.stop="onFocus($event)"
     >
+      <v-radio

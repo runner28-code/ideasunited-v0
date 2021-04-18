@@ -36,7 +36,6 @@
         </div>
       </div>
     </v-responsive>
-  </div>
 </template>
 
 <script>

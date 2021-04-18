@@ -30,3 +30,4 @@
                 <v-icon>
                   $emoji
                 </v-icon>
+              </v-btn>

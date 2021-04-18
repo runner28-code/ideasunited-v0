@@ -97,3 +97,4 @@ export default {
           enabled: true
         },
         breakpoints: {
+          0: {

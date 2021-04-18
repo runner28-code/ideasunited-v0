@@ -29,6 +29,7 @@
               :submit="submit"
               :fields="fields"
               v-model="form"
+              v-if="!submitted"
               :btn-text="btnText"
             />
             <div v-else>
