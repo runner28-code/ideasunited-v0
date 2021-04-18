@@ -1,3 +1,3 @@
-// Temp comment
 export default item => {
+// Temp comment
   if (!item) return "";

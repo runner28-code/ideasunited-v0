@@ -13,6 +13,7 @@
         >
           {{ message.user.full_name
           }}<span
+            v-if="chat.moderator_ids.includes(message.user.id)"
             :style="{ color: activeTheme.primary_color }"
             >*</span
           >

@@ -4,7 +4,6 @@
     <ChatBody :chat="chat" />
     <ChatFooter :chat="chat" />
   </div>
-</template>
 
 <script>
 export default {

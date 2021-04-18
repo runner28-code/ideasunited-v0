@@ -34,4 +34,5 @@
   </div>
 </template>
 
+<script>
 import { getHash } from "@/utils";
