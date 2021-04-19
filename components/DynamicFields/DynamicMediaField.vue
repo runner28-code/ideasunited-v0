@@ -1,4 +1,5 @@
 <template>
+  <div>
     <div class="file-input-wrapper" v-if="fileInput">
       <v-file-input
         class="file-input"
@@ -45,3 +46,5 @@
         ref="validation"
         class="uploader__validation"
         :value="value"
+        type="hidden"
+        hide-details="auto"

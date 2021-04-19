@@ -89,3 +89,8 @@ import { frontendToProfile } from "@/utils";
 export default {
   name: "AppBar",
   props: {
+    drawer: Boolean,
+  },
+  data() {
+    return {
+      whiteLogo: require("@/assets/images/logo.png"),

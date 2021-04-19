@@ -9,3 +9,4 @@
     <NuxtLink to="/">
       Home page
     </NuxtLink>
+  </v-app>

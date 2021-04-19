@@ -22,7 +22,6 @@ const store = {
     },
     hideEvent(state, id) {
       const collection = state.current?.events;
-      const payload = { hidden_from_timeline: true };
       updateCollection({ collection, id, payload });
     },
     publishContentBlock(state, { sectionId, blockId }) {
@@ -59,5 +58,4 @@ const updateCollection = ({ collection, id, payload }) => {
   const item = collection.find(t => t.id == id);
   if (item) {
     Object.assign(item, payload);
-// Temp comment
   }

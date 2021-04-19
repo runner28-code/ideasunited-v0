@@ -10,6 +10,7 @@ export async function buildZoomLink({
   });
   const { signature, api_key: apiKey } = data;
 
+  let urlParams = "";
   const params = {
     signature,
     apiKey,
@@ -25,7 +26,6 @@ export async function buildZoomLink({
     params.email = email;
   }
 
-  for (let key in params) {
     if (urlParams != "") {
       urlParams += "&";
     }

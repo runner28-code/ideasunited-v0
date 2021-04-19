@@ -7,6 +7,7 @@
       <v-responsive
         class="slider-modal-content__video"
         :aspect-ratio="480 / 280"
+        v-if="value.youtube_id || value.vimeo_id"
       >
         <VimeoPlayer v-if="value.vimeo_id" :vimeoId="value.vimeo_id" />
         <YoutubePlayer
@@ -18,3 +19,4 @@
     </div>
     <div
       class="slider-modal-content__side slider-modal-content__content"
+      v-if="content.length"

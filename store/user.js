@@ -9,4 +9,4 @@ const store = {
       state.current = user;
     },
   },
-  actions: {
+    async fetch({ commit }) {

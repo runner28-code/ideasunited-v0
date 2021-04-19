@@ -23,3 +23,4 @@ export default {
       loaded: false,
       key: 1
     };
+  },

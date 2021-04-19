@@ -68,3 +68,6 @@ export default {
   created() {
     this.initOn();
     this.initEvent();
+  },
+  mounted() {
+    this.swiperInstance = this.$refs.swiper.swiperInstance;

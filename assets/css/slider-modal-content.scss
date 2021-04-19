@@ -8,7 +8,6 @@
     align-items: center;
   }
 
-  &__side {
     width: 100%;
     overflow: auto;
     padding: 20px 40px;
@@ -20,3 +19,4 @@
 
   &__preview {
     padding: 0;
+    display: flex;

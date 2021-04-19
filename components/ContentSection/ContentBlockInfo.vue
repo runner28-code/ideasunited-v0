@@ -14,7 +14,6 @@
           :aspect-ratio="16 / 9"
         >
           <VimeoPlayer
-            v-if="block.video_player_type == 'vimeo'"
             :vimeoId="block.vimeo_id"
             :vimeoH="block.vimeo_h"
           />
@@ -44,3 +43,4 @@
         <div v-if="block.creator">
           <div
             class="slider-modal-content__creator-info"
+            v-if="block.creator.primary_working_location || block.creator.primary_role"

@@ -31,3 +31,4 @@
                   $emoji
                 </v-icon>
               </v-btn>
+            </template>

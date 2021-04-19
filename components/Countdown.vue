@@ -40,7 +40,6 @@
 <script>
 import moment from "moment-timezone";
 
-export default {
   name: "Countdown",
   props: {
     value: String,
@@ -52,6 +51,7 @@ export default {
       hours: 0,
       minutes: 0,
       seconds: 0,
+      interval: null,
       visible: false
     };
   },
@@ -59,3 +59,5 @@ export default {
     this.startCountdown();
   },
   computed: {
+    styles() {
+      const color = this.countdown.text_color;

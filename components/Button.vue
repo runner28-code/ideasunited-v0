@@ -17,3 +17,4 @@
     @focus.stop="onFocus($event)"
   >
     <slot></slot>
+  </v-btn>

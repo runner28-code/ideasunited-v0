@@ -46,3 +46,5 @@
 export default {
   props: {
     block: Object,
+    prevId: String,
+    nextId: String,

@@ -8,6 +8,7 @@
       chat_is_text: currentPage.chats.length
         ? currentPage.chats[0].chat_type == 'text'
         : false,
+      chat_is_zoom: currentPage.chats.length
         ? currentPage.chats[0].chat_type == 'zoom'
         : false
     }"
@@ -75,3 +76,6 @@
       <Timeline v-if="currentPage.events.length" v-model="activeEvent" />
     </client-only>
     <div
+      v-if="currentPage.chats.length"
+      class="show-chat"
+      @click="showMobileChat = !showMobileChat"

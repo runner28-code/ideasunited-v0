@@ -26,3 +26,4 @@ export default {
   computed: {
     styles() {
       return {
+        color: this.calcTheme == "dark" ? "white" : "#333"

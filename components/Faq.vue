@@ -28,3 +28,4 @@
           </div>
           <v-expansion-panel-header v-if="item.question">
             {{ item.question }}
+          </v-expansion-panel-header>

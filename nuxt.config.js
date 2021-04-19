@@ -23,7 +23,6 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
-    ],
     link: [],
   },
 
@@ -46,3 +45,5 @@ export default {
     { src: "~/plugins/webfont.js", ssr: false },
     { src: "~/plugins/spinner.js", ssr: false },
     { src: "~/plugins/actioncable.js", ssr: false },
+    { src: "~/plugins/infinite-loader.js", ssr: false },
+    { src: "~/plugins/fullpage", mode: "client" },

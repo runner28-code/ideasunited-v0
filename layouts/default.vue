@@ -56,6 +56,7 @@ export default {
         channel: "ProjectChannel",
         project_id: this.currentProject.id,
         env: this.currentProject.env,
+      });
 
       this.$cable.subscribe({
         channel: "NotificationChannel",
@@ -69,3 +70,6 @@ export default {
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,
         this.activeTheme.paragraph_font?.font,
+        this.activeTheme.header_font?.font,
+        this.activeTheme.footer_font?.font,
+      ].filter((f) => f && f.src_type == "google_fonts");

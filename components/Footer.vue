@@ -38,6 +38,7 @@
         </div>
       </div>
     </div>
+    <v-dialog width="800" v-model="supportDialog">
       <v-card class="support__dialog">
         <SupportForm :support-form="supportForm"/>
       </v-card>
@@ -53,3 +54,4 @@ export default {
   },
   data() {
     return {
+      year: new Date().getFullYear(),

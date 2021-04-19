@@ -1,7 +1,6 @@
 <template>
   <div class="auth-register-form">
     <div v-if="registrationForm">
-      <div v-if="!currentUser">
         <div v-show="registrationForm.login_form && !chooseSignUp" class="auth-register-form__login">
           <AuthForm
             :login-form-request="loginFormRequest"
@@ -52,3 +51,6 @@
         <div v-if="!currentUser.confirmed">
           <p class="register__thank-you_message">
             Please check your email and click the verification link,
+            which will direct you to your first log in.
+          </p>
+          <div class="register__buttons">

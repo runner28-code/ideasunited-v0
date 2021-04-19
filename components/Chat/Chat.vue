@@ -4,6 +4,7 @@
     <ChatBody :chat="chat" />
     <ChatFooter :chat="chat" />
   </div>
+</template>
 
 <script>
 export default {
@@ -19,3 +20,4 @@ export default {
   },
   created() {
     if (process.client) {
+      console.info('Chat created this', this);

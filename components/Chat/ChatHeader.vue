@@ -16,3 +16,4 @@ export default {
   data() {
     return { status: "Connecting" };
   },
+  channels: {
