@@ -55,3 +55,4 @@
             which will direct you to your first log in.
           </p>
           <div class="register__buttons">
+            <Button

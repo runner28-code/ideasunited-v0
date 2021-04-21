@@ -52,3 +52,4 @@ import { frontendToProfile } from "@/utils";
 export default {
   components: { Title },
   props: {
+    disabled: Boolean,

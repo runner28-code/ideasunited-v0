@@ -111,3 +111,6 @@ export default {
         videoElem.pause()
       });
     },
+    fullscreenExitEvents() {
+      document.onfullscreenchange = () => {
+        if (!document.fullscreenElement) {

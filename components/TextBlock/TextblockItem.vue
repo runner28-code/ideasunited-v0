@@ -7,7 +7,6 @@
     :style="styles"
   >
     <div
-      :style="{ backgroundImage: `url(${item.preview.large.url})` }"
       :class="{ 'with-preview': item.preview.large.url, dark: item.dark }"
       class="text-block__item"
     >
@@ -30,3 +29,4 @@ export default {
   computed: {
     styles() {
       return {
+        color: this.item.text_color

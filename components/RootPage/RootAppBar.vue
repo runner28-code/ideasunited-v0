@@ -34,7 +34,6 @@
       <v-btn icon @click="$emit('toggleSidebar')" class="app-bar__menu">
         <v-icon size="34" color="white">$account_menu</v-icon>
         <transition name="fade">
-          <div
             v-if="newOpps.length"
             class="app-bar__menu__opp-count"
           >{{ newOpps.length }}</div>
@@ -94,3 +93,5 @@ export default {
   data() {
     return {
       whiteLogo: require("@/assets/images/logo.png"),
+      redLogo: require("@/assets/images/logo-red.png"),
+      newOpps: [],

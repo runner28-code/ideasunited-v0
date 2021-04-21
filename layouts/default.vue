@@ -74,3 +74,4 @@ export default {
         this.activeTheme.footer_font?.font,
       ].filter((f) => f && f.src_type == "google_fonts");
 
+      googleFonts.push({

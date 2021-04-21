@@ -12,3 +12,4 @@
 </template>
 
 <script>
+import { buildZoomLink } from "@/utils";

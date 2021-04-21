@@ -1,1 +1,1 @@
-  <v-app>
+<template>

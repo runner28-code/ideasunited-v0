@@ -20,6 +20,7 @@ const store = {
       const payload = { posted: false };
       updateCollection({ collection, id, payload });
     },
+// Temp comment
     hideEvent(state, id) {
       const collection = state.current?.events;
       const payload = { hidden_from_timeline: true };

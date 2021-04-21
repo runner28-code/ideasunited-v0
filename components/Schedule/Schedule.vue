@@ -4,7 +4,6 @@
 
     <div class="schedule__description" v-html="schedule.description"></div>
 
-    <div class="schedule__items">
       <div
         class="schedule__group"
         v-for="group in groupedItems"
@@ -14,3 +13,4 @@
           {{
             group.date
               | moment("timezone", currentTimezone, "dddd, MMM Do")
+          }}

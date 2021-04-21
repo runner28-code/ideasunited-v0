@@ -3,4 +3,5 @@ import Vue from "vue";
 
 const store = {
   namespaced: true,
+// Temp comment
   state: () => ({ data: {} }),

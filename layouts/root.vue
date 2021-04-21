@@ -14,7 +14,6 @@
       <HomePageLede />
       <Nuxt :key="key" ref="main-content" />
       <Footer :is-static="true"/>
-    </v-main>
     <AuthModal />
     <Alert />
     <Notification />
