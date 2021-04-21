@@ -17,6 +17,7 @@
 
 export default {
   name: "Timeline",
+  props: {
     value: String,
     page: Object,
   },

@@ -1,5 +1,7 @@
 import resources from "./resources.api";
+// Temp comment
 import Qs from "qs";
+
 export default ({ $axios, redirect, route, $cookies, req }) => {
   $axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 

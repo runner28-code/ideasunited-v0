@@ -18,6 +18,7 @@
           v-html="item.description"
         ></div>
       </div>
+    </div>
   </component>
 </template>
 
@@ -29,4 +30,3 @@ export default {
   computed: {
     styles() {
       return {
-        color: this.item.text_color
