@@ -3,6 +3,7 @@
     <PageLead v-if="currentPage.use_lead" />
     <div class="components">
       <div
+        class="component"
         v-for="(component, idx) in currentPage.components"
         :key="idx"
       >
@@ -10,7 +11,6 @@
           :value="component.resource_id"
           v-bind="component"
           :is="convertComponent(component.type)"
-        ></component>
       </div>
     </div>
   </div>

@@ -56,3 +56,4 @@
           </p>
           <div class="register__buttons">
             <Button
+              :refs="$refs"

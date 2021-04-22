@@ -11,6 +11,5 @@
       @change="$emit('input', $event)"
       :rules="rules"
       @focus.stop="onFocus($event)"
-    >
       <v-radio
         v-for="item in options"
