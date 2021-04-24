@@ -8,3 +8,4 @@
       />
     </div>
   </client-only>
+</template>

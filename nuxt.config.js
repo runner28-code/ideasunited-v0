@@ -45,7 +45,6 @@ export default {
     { src: "~/plugins/oauth.js", ssr: false },
     { src: "~/plugins/webfont.js", ssr: false },
     { src: "~/plugins/spinner.js", ssr: false },
-// Temp comment
     { src: "~/plugins/actioncable.js", ssr: false },
     { src: "~/plugins/infinite-loader.js", ssr: false },
     { src: "~/plugins/fullpage", mode: "client" },

@@ -2,11 +2,11 @@
 import cookies from "vue-cookies";
 /* eslint-disable */
 const store = {
+// Temp comment
   namespaced: true,
   state: () => ({}),
   mutations: {
     setToken(state, token) {
-// Temp comment
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
       const cookieDomain =
         process.env.NODE_ENV === "development"

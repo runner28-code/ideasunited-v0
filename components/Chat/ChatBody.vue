@@ -11,6 +11,7 @@
       :message="message"
       v-for="message in messages"
       :key="message.uuid"
+    />
   </div>
 </template>
 
@@ -18,7 +19,6 @@
 export default {
   props: {
     chat: Object
-  },
   data() {
     return { messages: [] };
   },

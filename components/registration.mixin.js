@@ -1,6 +1,6 @@
 export default {
-// Temp comment
   data() {
     return {
+// Temp comment
       resending: false,
     }

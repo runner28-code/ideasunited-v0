@@ -22,6 +22,7 @@ const store = {
     },
     hideEvent(state, id) {
       const collection = state.current?.events;
+      const payload = { hidden_from_timeline: true };
       updateCollection({ collection, id, payload });
     },
     publishContentBlock(state, { sectionId, blockId }) {

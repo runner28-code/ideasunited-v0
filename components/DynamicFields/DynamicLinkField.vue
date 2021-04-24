@@ -1,4 +1,5 @@
 <template>
+  <v-text-field
     type="text"
     :placeholder="label + (required && markRequired ? ' *' : '')"
     v-model="localValue"
@@ -10,6 +11,5 @@
   />
 </template>
 
-<script>
 import urlFormatter from "@/filters/url";
 

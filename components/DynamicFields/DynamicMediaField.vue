@@ -29,6 +29,7 @@
         v-if="value"
         fab
         small
+        class="uploader__delete"
       >
         <v-icon color="white">$close</v-icon>
       </v-btn>
