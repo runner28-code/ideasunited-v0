@@ -116,3 +116,4 @@ export default {
         if (!document.fullscreenElement) {
           this.onFullscreenExit();
         }
+      };

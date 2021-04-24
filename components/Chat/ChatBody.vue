@@ -19,6 +19,7 @@
 export default {
   props: {
     chat: Object
+  },
   data() {
     return { messages: [] };
   },

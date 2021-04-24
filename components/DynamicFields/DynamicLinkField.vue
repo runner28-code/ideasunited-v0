@@ -11,5 +11,6 @@
   />
 </template>
 
+<script>
 import urlFormatter from "@/filters/url";
 

@@ -15,6 +15,5 @@
     :target="target"
     :disabled="disabled"
     @focus.stop="onFocus($event)"
-  >
     <slot></slot>
   </v-btn>

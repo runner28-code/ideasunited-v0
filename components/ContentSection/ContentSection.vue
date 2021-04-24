@@ -90,6 +90,7 @@ export default {
     page: Object,
   },
   data() {
+    return {
       swiperOption: {
         speed: 400,
         keyboard: {

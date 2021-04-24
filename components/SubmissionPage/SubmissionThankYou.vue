@@ -10,7 +10,6 @@
     ></p>
     <p class="submission-thank-you__buttons">
       <Button :refs="$refs" large :href="profileUrl">
-        {{ btnText || "Account" }}
       </Button>
     </p>
   </div>
