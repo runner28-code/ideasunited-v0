@@ -9,6 +9,7 @@
         v-for="(item, index) in list"
         :key="item.id"
         :layout="submissionContent.layout"
+        :previewLayout="submissionContent.preview_layout"
       />
     </div>
     <client-only>

@@ -54,7 +54,6 @@
         <v-list-item class="rightsidebar__item__subitem">
           {{ currentProject.title }}
         </v-list-item>
-      </v-list>
       <v-list-item
         class="rightsidebar__item"
         :href="creatorsUrl"
@@ -73,6 +72,7 @@
       </v-list-item>
       <v-list-item
         v-if="!currentUser"
+        class="rightsidebar__item"
         @click.prevent="clickLogin()"
         v-ripple="false"
       >

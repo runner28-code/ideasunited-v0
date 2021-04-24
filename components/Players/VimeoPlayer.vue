@@ -7,6 +7,7 @@
     class="vimeo-player"
     ref="vimeo"
   ></iframe>
+</template>
 
 <script>
 export default {
@@ -16,7 +17,6 @@ export default {
     vimeoH: [String, Number],
     vimeoChapter: [String, Number],
     firstStartAt: {
-      type: Number,
       default: 0
     },
     autoplay: {

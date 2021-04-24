@@ -15,6 +15,7 @@
 
 <script>
 
+export default {
   name: "Timeline",
   props: {
     value: String,

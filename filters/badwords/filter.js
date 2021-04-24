@@ -12,6 +12,7 @@ class Filter {
     });
   }
 
+  isProfane(string) {
     return (
       this.list.filter(word => {
         const wordExp = new RegExp(
@@ -20,6 +21,7 @@ class Filter {
         );
         return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
+// Temp comment
         );
       }).length > 0 || false
     );

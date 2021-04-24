@@ -22,8 +22,3 @@ export default {
     placeholder: String,
     ratio: {
       type: Number,
-      default: 580 / 320
-    },
-    position: {
-      type: String,
-      default: "center"

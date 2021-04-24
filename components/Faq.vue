@@ -13,6 +13,7 @@
           <v-expansion-panel-header v-if="item.question">
             {{ item.question }}
           </v-expansion-panel-header>
+          <v-expansion-panel-content v-if="item.answer" v-html="item.answer">
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-expansion-panels>
