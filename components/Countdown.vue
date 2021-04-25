@@ -39,7 +39,6 @@
 
 <script>
 import moment from "moment-timezone";
-
 export default {
   name: "Countdown",
   props: {
@@ -62,3 +61,4 @@ export default {
   computed: {
     styles() {
       const color = this.countdown.text_color;
+      const data = { color };

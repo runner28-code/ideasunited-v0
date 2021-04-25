@@ -10,4 +10,3 @@
 export default {
   layout: 'root',
   computed: {
-    status() {

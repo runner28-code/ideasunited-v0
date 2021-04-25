@@ -18,6 +18,7 @@
             }}</span>
           </div>
         </div>
+      </div>
     </v-responsive>
 
     <SliderModal
@@ -36,3 +37,4 @@
 <script>
 import { getHash } from "@/utils";
 
+export default {

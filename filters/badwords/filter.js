@@ -21,7 +21,6 @@ class Filter {
         );
         return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
-// Temp comment
         );
       }).length > 0 || false
     );

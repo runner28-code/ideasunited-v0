@@ -4,6 +4,7 @@
     hide-details="auto"
     :value="value"
     :input-value="value"
+    @change="$emit('input', $event)"
     :rules="rules"
     @focus.stop="onFocus($event)"
   >
@@ -12,3 +13,4 @@
         <span
           @click.stop
           v-html="label + (required && markRequired ? ' *' : '')"
+        ></span>

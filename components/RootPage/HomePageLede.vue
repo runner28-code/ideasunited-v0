@@ -117,3 +117,7 @@ export default {
           this.onFullscreenExit();
         }
       };
+      document.onwebkitfullscreenchange = () => {
+        if (!document.webkitFullscreenElement) {
+          this.onFullscreenExit();
+        }

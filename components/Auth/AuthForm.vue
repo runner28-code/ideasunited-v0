@@ -53,3 +53,4 @@ export default {
   components: { Title },
   props: {
     disabled: Boolean,
+    startAtSignUp: Boolean,

@@ -68,7 +68,6 @@
       />
 
       <ZoomChat
-        v-if="currentPage.chats[0].chat_type == 'zoom'"
         :chat="currentPage.chats[0]"
       />
     </div>
@@ -80,3 +79,4 @@
       class="show-chat"
       @click="showMobileChat = !showMobileChat"
     >
+      <span v-if="!showMobileChat">

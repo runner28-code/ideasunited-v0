@@ -1,7 +1,6 @@
 <template>
   <v-file-input
     :placeholder="label + (required && markRequired ? ' *' : '')"
-    :value="value"
     @input="$emit('input', $event)"
     :rules="rules"
     outlined
@@ -22,3 +21,4 @@ export default {
     placeholder: String,
     ratio: {
       type: Number,
+      default: 580 / 320

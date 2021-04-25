@@ -47,3 +47,4 @@
         </v-card>
       </div>
     </v-dialog>
+  </div>

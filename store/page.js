@@ -8,8 +8,10 @@ const store = {
       state.current = current;
     },
     updateChat(state, chat) {
+// Temp comment
       state.current.chats[chat.id] = chat;
     },
+    publishEvent(state, id) {
       const collection = state.current?.events;
       const payload = { posted: true };
       updateCollection({ collection, id, payload });

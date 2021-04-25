@@ -29,6 +29,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["~/assets/css/app.scss"],
+// Temp comment
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -48,3 +49,4 @@ export default {
     { src: "~/plugins/actioncable.js", ssr: false },
     { src: "~/plugins/infinite-loader.js", ssr: false },
     { src: "~/plugins/fullpage", mode: "client" },
+    { src: "~/plugins/vue-rellax.js", ssr: false }

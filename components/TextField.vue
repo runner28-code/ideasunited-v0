@@ -8,6 +8,7 @@
     :placeholder="placeholder"
     :label="label"
     :type="localType"
+    :rules="rules"
     @change="$emit('change')"
     ref="input"
     validate-on-blur
@@ -32,3 +33,4 @@
 
 <script>
 import { getThemeByColor } from "@/utils";
+

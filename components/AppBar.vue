@@ -105,3 +105,5 @@
           >
             {{ menuItem.footer_menu_title }}
           </a>
+        </div>
+      </div>

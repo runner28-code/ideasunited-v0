@@ -54,6 +54,7 @@
         <v-list-item class="rightsidebar__item__subitem">
           {{ currentProject.title }}
         </v-list-item>
+      </v-list>
       <v-list-item
         class="rightsidebar__item"
         :href="creatorsUrl"
@@ -91,3 +92,5 @@
       <div @click="logoClick()" class="rightsidebar__logo" role="img text" alt="iU Community ™" aria-label="iU Community ™"></div>
 
       <div class="rightsidebar__copyright">© {{ year }} Ideas United</div>
+    </div>
+  </v-navigation-drawer>

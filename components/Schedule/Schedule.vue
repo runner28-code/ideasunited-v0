@@ -10,9 +10,9 @@
         v-for="group in groupedItems"
         :key="group.date"
       >
-        <div class="schedule__date">
           {{
             group.date
               | moment("timezone", currentTimezone, "dddd, MMM Do")
           }}
         </div>
+        <ScheduleItem v-for="item in group.items" :item="item" :key="item.id" />

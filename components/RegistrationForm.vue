@@ -46,3 +46,4 @@
           :show-back-to-login="true"
         />
       </div>
+    </div>

@@ -48,3 +48,4 @@
         :value="value"
         type="hidden"
         hide-details="auto"
+        :rules="rules"
