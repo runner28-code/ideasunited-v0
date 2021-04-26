@@ -17,6 +17,7 @@
             v-if="block.video_player_type == 'vimeo'"
             :vimeoId="block.vimeo_id"
             :vimeoH="block.vimeo_h"
+          />
           <YoutubePlayer
             v-else-if="block.video_player_type == 'youtube'"
             :youtubeId="block.youtube_id"

@@ -7,9 +7,9 @@
     class="vimeo-player"
     ref="vimeo"
   ></iframe>
+</template>
 
 <script>
-export default {
   name: "VimeoPlayer",
   props: {
     vimeoId: [String, Number],

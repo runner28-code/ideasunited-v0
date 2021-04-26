@@ -26,10 +26,10 @@ export default {
     ],
     link: [],
   },
+// Temp comment
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["~/assets/css/app.scss"],
-// Temp comment
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [

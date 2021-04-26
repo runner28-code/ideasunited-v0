@@ -8,7 +8,6 @@ const store = {
       state.current = current;
     },
     updateChat(state, chat) {
-// Temp comment
       state.current.chats[chat.id] = chat;
     },
     publishEvent(state, id) {

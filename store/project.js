@@ -2,6 +2,6 @@
 import moment from "moment-timezone";
 
 const store = {
-// Temp comment
   namespaced: true,
+// Temp comment
   state: () => ({ current: null }),

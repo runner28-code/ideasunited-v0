@@ -11,7 +11,6 @@
       >
         <VimeoPlayer v-if="value.vimeo_id" :vimeoId="value.vimeo_id" />
         <YoutubePlayer
-          v-else-if="value.youtube_id"
           :youtubeId="value.youtube_id"
         />
       </v-responsive>
