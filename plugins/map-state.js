@@ -14,7 +14,6 @@ if (!Vue.__map_state_mixin__) {
           const y = el.getBoundingClientRect().top + window.scrollY - 100 - 20;
 
           window.scroll({
-// Temp comment
             top: y,
             behavior: "smooth",
           });

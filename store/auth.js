@@ -11,5 +11,4 @@ const store = {
         process.env.NODE_ENV === "development"
           ? "localhost"
           : "." + window.location.hostname;
-// Temp comment
       console.info('auth cookieDomain', cookieDomain);

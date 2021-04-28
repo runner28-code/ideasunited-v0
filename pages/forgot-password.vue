@@ -14,7 +14,6 @@
     <div v-else>
       Email instructions successfully sent
     </div>
-  </div>
 </template>
 
 <script>
