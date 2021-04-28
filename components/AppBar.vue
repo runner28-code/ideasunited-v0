@@ -41,6 +41,7 @@
                 color: menuItem.menu_button_text_color,
               }
             : {}
+        "
       >
         <v-menu
           offset-y
@@ -106,3 +107,4 @@
           </a>
         </div>
       </div>
+    </div>

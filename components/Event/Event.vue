@@ -81,3 +81,4 @@
       @click="showMobileChat = !showMobileChat"
     >
       <span v-if="!showMobileChat">
+        Show Chat

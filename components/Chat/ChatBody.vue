@@ -16,6 +16,7 @@
 </template>
 
 <script>
+export default {
   props: {
     chat: Object
   },

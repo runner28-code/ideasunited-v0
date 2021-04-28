@@ -9,6 +9,7 @@
     <v-responsive
       @click="setActive"
       @keyup.enter="setActive"
+      class="timeline-slide__wrapper"
       :aspect-ratio="aspectRatio"
       role="button"
       tabindex="0"
@@ -53,3 +54,4 @@ export default {
         if (this.value.url) {
           window.open(this.value.url, "_blank");
         }
+      }

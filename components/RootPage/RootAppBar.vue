@@ -99,3 +99,5 @@ export default {
       showNewOpps: true,
       showNewOppDetails: true,
       newOppDetail: null,
+      newOppDetailIndex: 0,
+    };

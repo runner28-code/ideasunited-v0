@@ -1,4 +1,3 @@
-<template>
   <div class="custom-sfc">
     <component
       :key="key"
@@ -24,3 +23,4 @@ export default {
       key: 1
     };
   },
+  created() {

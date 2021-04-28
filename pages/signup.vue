@@ -19,3 +19,4 @@ import { frontendToProfile } from "@/utils";
 export default {
   layout: 'simple',
   methods: {
+    logout() {

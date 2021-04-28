@@ -16,5 +16,4 @@
   </div>
 </template>
 
-<script>
 import { frontendToProfile } from "@/utils";

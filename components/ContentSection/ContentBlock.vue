@@ -48,3 +48,4 @@ export default {
     block: Object,
     prevId: String,
     nextId: String,
+    hiding: Boolean

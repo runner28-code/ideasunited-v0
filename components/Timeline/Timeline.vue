@@ -72,3 +72,4 @@ export default {
   mounted() {
     this.swiperInstance = this.$refs.swiper.swiperInstance;
   },
+  beforeDestroy() {

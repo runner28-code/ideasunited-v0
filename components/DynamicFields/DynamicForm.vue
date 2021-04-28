@@ -51,3 +51,5 @@
   </v-form>
 </template>
 
+<script>
+import DynamicCheckbox from "./DynamicCheckbox";

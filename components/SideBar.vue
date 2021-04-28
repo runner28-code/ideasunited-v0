@@ -94,3 +94,4 @@
       <div class="rightsidebar__copyright">© {{ year }} Ideas United</div>
     </div>
   </v-navigation-drawer>
+</template>

@@ -1,5 +1,6 @@
 <template>
   <div class="auth-wrapper">
+    <div class="auth">
       <div>
         <div class="auth-admin-title">
           <span >
@@ -13,7 +14,6 @@
             :rules="[$rules.required]"
             label="Email"
             type="email"
-            name="email"
           />
           <TextField
             :rules="[$rules.required]"
@@ -53,3 +53,4 @@ export default {
   props: {
     disabled: Boolean,
     startAtSignUp: Boolean,
+    loginFormRequest: Boolean,

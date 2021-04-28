@@ -17,11 +17,11 @@
         </v-btn>
       </div>
       <SideBar v-model="drawer" :no-root="true" />
-    </client-only>
     <AppBar @changeKey="key = key + 1" />
     <v-main>
       <div
         class="mobile-scroll"
+        ref="mobileScroll"
         v-scroll.self="mobileScroll"
       >
         <Nuxt :key="key" ref="main-content" />
@@ -76,3 +76,5 @@ export default {
       googleFonts.push({
         font_name: "Source Sans Pro",
         google_font_name: "Source Sans Pro",
+        src_type: "google_fonts",
+      });

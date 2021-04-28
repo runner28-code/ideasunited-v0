@@ -23,3 +23,4 @@ export default {
     ratio: {
       type: Number,
       default: 580 / 320
+    },
