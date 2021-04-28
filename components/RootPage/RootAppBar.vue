@@ -86,7 +86,6 @@
 <script>
 import { frontendToProfile } from "@/utils";
 
-export default {
   name: "AppBar",
   props: {
     drawer: Boolean,

@@ -22,5 +22,6 @@
       fixed
       class="notification__sidebar"
       width="400"
+    >
       <v-btn class="close" icon @click="closeSidebar">
         <v-icon size="30">$close</v-icon>
