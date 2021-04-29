@@ -13,3 +13,4 @@
     "deploy-production": "MINA_CONFIG=deploy/production.json mina deploy",
     "restart-production": "pm2 kill && pm2 start"
   },
+  "dependencies": {

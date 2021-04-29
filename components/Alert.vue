@@ -17,7 +17,6 @@
     >
       <div
         :class="{ clickable: alert.onclick }"
-        class="alert__message"
         v-html="alert.message"
         @click="onclick"
       ></div>
@@ -37,3 +36,4 @@ export default {
     this.$root.$on("alert", async alert => {
       this.alert = false;
       await this.$nextTick();
+      this.alert = alert;

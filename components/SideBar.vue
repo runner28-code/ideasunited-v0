@@ -95,3 +95,6 @@
     </div>
   </v-navigation-drawer>
 </template>
+
+<script>
+import isMobileMixin from "./isMobile.mixin";

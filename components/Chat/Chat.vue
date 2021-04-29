@@ -5,7 +5,6 @@
     <ChatFooter :chat="chat" />
   </div>
 </template>
-
 <script>
 export default {
   props: {
@@ -21,3 +20,4 @@ export default {
   created() {
     if (process.client) {
       console.info('Chat created this', this);
+      this.$cable.subscribe({

@@ -73,3 +73,5 @@ export default {
     this.swiperInstance = this.$refs.swiper.swiperInstance;
   },
   beforeDestroy() {
+    this.$root.$off("nextEvent");
+    this.$root.$off("setActiveEvent");

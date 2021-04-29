@@ -125,3 +125,9 @@ export default {
       document.onmozfullscreenchange = () => {
         if (!document.mozFullScreenElement) {
           this.onFullscreenExit();
+        }
+      };
+      document.onmsfullscreenchange = () => {
+        if (!document.msFullscreenElement) {
+          this.onFullscreenExit();
+        }

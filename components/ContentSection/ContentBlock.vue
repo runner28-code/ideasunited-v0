@@ -8,7 +8,6 @@
       }"
     >
       <v-responsive
-        @click="openDialog"
         class="content-section-item__wrapper"
         :class="{
           'content-section-item__wrapper--video':
@@ -33,6 +32,7 @@
         :prevId="prevId"
         :nextId="nextId"
         :id="block.id"
+        name="content-section"
         v-model="dialog"
       >
         <ContentBlockInfo :block="block" />
@@ -48,3 +48,5 @@ export default {
     prevId: String,
     nextId: String,
     hiding: Boolean
+  },
+  data() {

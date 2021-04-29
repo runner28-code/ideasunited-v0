@@ -5,6 +5,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -15,3 +16,4 @@ export default {
   },
   computed: {
     animStyle() {
+      if (!this.animating) return ''

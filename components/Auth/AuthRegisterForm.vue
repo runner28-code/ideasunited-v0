@@ -60,3 +60,6 @@
               :disabled="resending"
               @click="resendConfirmationEmail()"
             >
+              Resend Confirmation Email
+            </Button>
+          </div>

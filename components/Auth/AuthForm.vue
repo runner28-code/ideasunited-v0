@@ -55,3 +55,5 @@ export default {
     disabled: Boolean,
     startAtSignUp: Boolean,
     loginFormRequest: Boolean,
+  },
+  data() {

@@ -39,7 +39,6 @@ export default {
           provider: "google"
         },
         FacebookLogin: {
-          provider: "facebook"
         },
         LinkedinLogin: {
           provider: "linkedin"

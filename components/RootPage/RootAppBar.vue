@@ -86,6 +86,7 @@
 <script>
 import { frontendToProfile } from "@/utils";
 
+export default {
   name: "AppBar",
   props: {
     drawer: Boolean,
@@ -100,3 +101,7 @@ import { frontendToProfile } from "@/utils";
       newOppDetail: null,
       newOppDetailIndex: 0,
     };
+  },
+  mounted() {
+    setTimeout(() => {
+      this.getOpportunityNotifications();

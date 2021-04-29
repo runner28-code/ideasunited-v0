@@ -21,6 +21,7 @@
       </div>
     </v-responsive>
 
+    <SliderModal
       :prevId="prevId"
       :nextId="nextId"
       :id="item.id"
@@ -38,3 +39,4 @@ import { getHash } from "@/utils";
 
 export default {
   props: {
+    item: Object,

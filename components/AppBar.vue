@@ -76,7 +76,6 @@
         </v-menu>
         <a
           v-else-if="menuItem.url_type == 'absolute'"
-          target="_blank"
           :href="menuItem.absolute_url"
           >{{ menuItem.menu_title }}</a
         >
@@ -108,3 +107,7 @@
         </div>
       </div>
     </div>
+    <div class="menu-toggle" v-if="menuPages.length">
+      <v-btn @click="toggleDrawer()" icon>
+        <v-icon color="#E12D1B" size="32">{{
+          drawer ? "$close" : "$account_menu"

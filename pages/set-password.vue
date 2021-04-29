@@ -27,3 +27,4 @@ export default {
     return {
       formModel: null,
       form: {},
+      token: this.$route.query.token

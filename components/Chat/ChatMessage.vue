@@ -7,7 +7,6 @@
         class="message__avatar"
       />
       <div>
-        <div
           class="message__name"
           @click="$emit('replyTo', message.user.full_name)"
         >
@@ -32,3 +31,5 @@
         <v-btn v-on="on" icon class="message-actions">
           <v-icon size="18">$dots_vertical</v-icon>
         </v-btn>
+      </template>
+      <v-list>

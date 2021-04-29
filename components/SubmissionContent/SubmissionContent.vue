@@ -34,3 +34,4 @@ export default {
     page: Object,
   },
   data() {
+    return {

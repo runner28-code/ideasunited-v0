@@ -7,3 +7,4 @@
         : null
     }"
   >
+    <AuthForm @disableAuth="$emit('disableAuth', $event)" />

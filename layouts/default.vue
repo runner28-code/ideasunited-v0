@@ -73,3 +73,7 @@ export default {
         this.activeTheme.header_font?.font,
         this.activeTheme.footer_font?.font,
       ].filter((f) => f && f.src_type == "google_fonts");
+
+      googleFonts.push({
+        font_name: "Source Sans Pro",
+        google_font_name: "Source Sans Pro",

@@ -27,3 +27,4 @@ export default {
     ChatChannel: {
       received({ type, payload }) {
         switch (type) {
+          case "new_message":

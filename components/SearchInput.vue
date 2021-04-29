@@ -19,7 +19,6 @@ export default {
     value: String
   },
   data() {
-    return {
       localValue: ""
     };
   },
@@ -27,3 +26,4 @@ export default {
     styles() {
       return {
         color: this.calcTheme == "dark" ? "white" : "#333"
+      };
