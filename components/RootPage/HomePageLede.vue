@@ -131,3 +131,5 @@ export default {
         if (!document.msFullscreenElement) {
           this.onFullscreenExit();
         }
+      };
+    },

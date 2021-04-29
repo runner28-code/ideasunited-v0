@@ -11,6 +11,5 @@ export default async function (req, res, next) {
       {
         headers: {
           Nuxt: process.env.NUXT_ID,
-          "App-Host": host,
           "App-Root-Path": req.url,
         },

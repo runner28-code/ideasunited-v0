@@ -65,7 +65,6 @@ export default {
       timeouts: {}
     };
   },
-  created() {
     this.initOn();
     this.initEvent();
   },
@@ -75,3 +74,4 @@ export default {
   beforeDestroy() {
     this.$root.$off("nextEvent");
     this.$root.$off("setActiveEvent");
+    this.$root.$off("chapterChange");

@@ -20,3 +20,4 @@
 <script>
 export default {
   layout: 'simple',
+  data() {

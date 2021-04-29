@@ -57,3 +57,4 @@ export default {
     loginFormRequest: Boolean,
   },
   data() {
+    return {

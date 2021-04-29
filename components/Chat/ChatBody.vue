@@ -2,7 +2,6 @@
   <div class="chat-body" ref="messages">
     <client-only>
       <infinite-loading direction="top" @infinite="fetchMessages">
-        <div slot="no-more"></div>
         <div slot="no-results"></div>
       </infinite-loading>
     </client-only>
@@ -28,3 +27,4 @@ export default {
       received({ type, payload }) {
         switch (type) {
           case "new_message":
+            this.newMessage(payload);

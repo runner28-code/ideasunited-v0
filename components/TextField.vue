@@ -35,3 +35,4 @@
 import { getThemeByColor } from "@/utils";
 
 export default {
+  props: {

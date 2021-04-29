@@ -84,3 +84,4 @@
         Show Chat
         <v-icon>$menu_down</v-icon>
       </span>
+      <span v-else>

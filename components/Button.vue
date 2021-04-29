@@ -19,3 +19,4 @@
     <slot></slot>
   </v-btn>
 </template>
+

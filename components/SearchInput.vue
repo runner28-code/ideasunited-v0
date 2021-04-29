@@ -19,6 +19,7 @@ export default {
     value: String
   },
   data() {
+    return {
       localValue: ""
     };
   },

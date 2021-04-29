@@ -14,3 +14,4 @@
 <script>
 import urlFormatter from "@/filters/url";
 
+export default {

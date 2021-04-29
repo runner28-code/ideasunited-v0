@@ -98,3 +98,4 @@
 
 <script>
 import isMobileMixin from "./isMobile.mixin";
+export default {

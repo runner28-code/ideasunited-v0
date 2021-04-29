@@ -48,5 +48,6 @@
       </div>
     </v-dialog>
   </div>
+</template>
 
 <script>

@@ -2,7 +2,7 @@
 import Vue from "vue";
 
 const store = {
-// Temp comment
   namespaced: true,
+// Temp comment
   state: () => ({ data: {} }),
 

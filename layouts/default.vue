@@ -77,3 +77,4 @@ export default {
       googleFonts.push({
         font_name: "Source Sans Pro",
         google_font_name: "Source Sans Pro",
+        src_type: "google_fonts",
