@@ -48,3 +48,5 @@
           >
             <span v-if="block.creator.primary_working_location">{{ block.creator.primary_working_location }}</span>
             <span v-if="block.creator.primary_role">{{ block.creator.primary_role }}</span>
+          </div>
+          <div

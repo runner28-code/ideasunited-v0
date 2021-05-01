@@ -34,3 +34,5 @@
         </v-btn>
       </template>
       <v-list>
+        <v-list-item @click="deleteMessage">
+          <v-list-item-title>Delete message</v-list-item-title>

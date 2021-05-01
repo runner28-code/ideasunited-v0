@@ -11,3 +11,4 @@
     :disabled="disabled"
   >
     <template #label>
+      <slot>

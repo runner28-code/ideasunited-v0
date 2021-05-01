@@ -15,5 +15,4 @@
       <div class="list-entry__subtitle" v-html="entry.subtitle"></div>
     </div>
   </div>
-</template>
 

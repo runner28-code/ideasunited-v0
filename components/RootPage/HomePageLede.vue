@@ -134,3 +134,10 @@ export default {
       };
     },
     closeReel() {
+      const { previewMedia, playBtn, previewImage, previewVideo, videoElem } = this.$refs;
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'instant',
+      });      
+      const fixedStart = previewMedia.getBoundingClientRect();

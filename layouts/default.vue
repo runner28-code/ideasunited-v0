@@ -46,6 +46,7 @@ export default {
       timeouts: {},
       key: 0,
       newOpps: []
+    };
   },
   created() {
     this.$store.dispatch("application/init");
@@ -77,3 +78,7 @@ export default {
         font_name: "Source Sans Pro",
         google_font_name: "Source Sans Pro",
         src_type: "google_fonts",
+      });
+
+      const typekitFonts = [
+        this.activeTheme.h1_font?.font,

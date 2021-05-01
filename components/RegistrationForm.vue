@@ -42,7 +42,6 @@
           :btn-text="registrationForm.btn_text"
           :login-form="registrationForm.login_form"
           @backToLogin="backToLogin()"
-          :disabled="disabled"
           :show-back-to-login="true"
         />
       </div>
@@ -50,3 +49,6 @@
     <div
       v-else-if="!currentUser.confirmed"
       class="registration-form__not-confirmed"
+    >
+      <Title
+        v-if="registrationForm.title"

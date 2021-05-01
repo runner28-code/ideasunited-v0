@@ -26,7 +26,6 @@
 </template>
 
 <script>
-export default {
   name: "Alert",
   data() {
     return {
@@ -38,3 +37,5 @@ export default {
       this.alert = false;
       await this.$nextTick();
       this.alert = alert;
+    });
+  },

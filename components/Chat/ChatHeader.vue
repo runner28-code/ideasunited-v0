@@ -18,3 +18,4 @@ export default {
   },
   channels: {
     ChatChannel: {
+      connected() {

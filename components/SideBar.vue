@@ -43,6 +43,7 @@
         v-ripple="false"
       >
         Opportunities
+        <transition name="fade">
           <div
             v-if="newOpps.length"
             class="rightsidebar__opp-count"
@@ -98,3 +99,6 @@
 <script>
 import isMobileMixin from "./isMobile.mixin";
 export default {
+  extends: isMobileMixin,
+  props: {
+    value: Boolean,

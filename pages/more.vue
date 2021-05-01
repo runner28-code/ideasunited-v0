@@ -14,6 +14,7 @@
       <nuxt-link :to="item.url" class="grid-menu__item-overlay">
         {{ item.menu_title }}
       </nuxt-link>
+    </v-responsive>
   </div>
 </template>
 
@@ -25,3 +26,4 @@ export default {
     }
   }
 };
+</script>

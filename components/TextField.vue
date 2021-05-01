@@ -10,6 +10,7 @@
     :type="localType"
     :rules="rules"
     @change="$emit('change')"
+    ref="input"
     validate-on-blur
     :suffix="suffix"
     :min="min"
@@ -35,3 +36,4 @@ import { getThemeByColor } from "@/utils";
 
 export default {
   props: {
+    placeholder: String,

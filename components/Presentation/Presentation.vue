@@ -1,4 +1,3 @@
-<template>
   <div
     class="presentation"
     v-if="presentation.broadcasting"
@@ -10,3 +9,4 @@
       v-if="presentation.active_slide.slide_type == 'image'"
     />
     <PresentationVimeo
+      :presentation="presentation"

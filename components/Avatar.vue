@@ -1,4 +1,3 @@
-<template>
   <div class="avatar" :style="styles" v-bind="$attrs">
     {{ initals }}
   </div>
@@ -17,3 +16,4 @@ export default {
       colors: [
         "#d32f2f",
         "#7b1fa2",
+        "#303f9f",

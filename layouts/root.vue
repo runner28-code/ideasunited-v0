@@ -43,7 +43,6 @@ export default {
       this.$cable.subscribe({
         channel: "ProjectChannel",
         project_id: this.currentProject.id,
-        env: this.currentProject.env
       });
 
       this.$cable.subscribe({
@@ -71,3 +70,5 @@ export default {
       const typekitFonts = [
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,
+        this.activeTheme.paragraph_font?.font,
+        this.activeTheme.header_font?.font,

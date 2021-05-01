@@ -58,3 +58,5 @@ export default {
   },
   data() {
     return {
+      loginForm: {},
+      registerForm: {},

@@ -26,3 +26,4 @@ export default {
   },
   created() {
     Vue.component("Spinner", Spinner);
+  },

@@ -22,6 +22,7 @@
         <div v-if="!registrationForm.login_form || chooseSignUp" class="register">
           <Title
             v-if="registrationForm.title"
+            tag="h2"
             class="register__title"
             >{{ registrationForm.title }}</Title
           >
@@ -63,3 +64,6 @@
             </Button>
           </div>
         </div> <!-- v-if="!currentUser.confirmed" -->
+      </div> <!-- v-if="currentUser" -->
+    </div> <!-- v-if="registrationForm" -->
+  </div>

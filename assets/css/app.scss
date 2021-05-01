@@ -1,4 +1,5 @@
 @import "./slider-modal-content.scss";
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,7 +9,7 @@ html {
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
     bottom: 0;
     display: flex;
     align-items: center;
+    justify-content: center;

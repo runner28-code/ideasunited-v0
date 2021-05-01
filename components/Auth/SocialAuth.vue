@@ -32,10 +32,10 @@ export default {
   data() {
     return {
       authParams: {
-        TwitterLogin: {
           provider: "twitter"
         },
         GoogleLogin: {
+          provider: "google"
         },
         FacebookLogin: {
           provider: "facebook"

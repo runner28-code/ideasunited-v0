@@ -17,9 +17,11 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
       opened: false,
       dialogState: {
         chooseSignUp: false,
+      }
