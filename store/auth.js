@@ -4,7 +4,6 @@ import cookies from "vue-cookies";
 const store = {
   namespaced: true,
   state: () => ({}),
-// Temp comment
   mutations: {
     setToken(state, token) {
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
@@ -12,5 +11,6 @@ const store = {
         process.env.NODE_ENV === "development"
           ? "localhost"
           : "." + window.location.hostname;
+// Temp comment
       console.info('auth cookieDomain', cookieDomain);
       if (token) {

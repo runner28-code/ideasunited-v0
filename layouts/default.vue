@@ -82,3 +82,4 @@ export default {
 
       const typekitFonts = [
         this.activeTheme.h1_font?.font,
+        this.activeTheme.h2_font?.font,

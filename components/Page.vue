@@ -23,7 +23,6 @@
         <div class="fullpage-container">
           <no-ssr>
             <full-page
-              :options="fullpageOpts"
               ref="fullpage"
               id="fullpage"
               :skip-init="true"

@@ -21,4 +21,5 @@
 
 <script>
 export default {
+  props: {
     supportForm: Object,

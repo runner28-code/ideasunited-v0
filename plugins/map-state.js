@@ -24,3 +24,4 @@ if (!Vue.__map_state_mixin__) {
           this.$root.$emit("confirmDialog", {
             title,
             description,
+            callback: (value) => {

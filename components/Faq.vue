@@ -32,4 +32,3 @@
           <v-expansion-panel-content v-if="item.answer">
             {{ item.answer }}
           </v-expansion-panel-content>
-        </v-expansion-panel>
