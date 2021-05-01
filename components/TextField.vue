@@ -36,4 +36,3 @@ import { getThemeByColor } from "@/utils";
 
 export default {
   props: {
-    placeholder: String,

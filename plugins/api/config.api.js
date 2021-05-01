@@ -15,8 +15,10 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
 
       if (process.server) {
         requestConfig.headers["Nuxt"] = process.env.NUXT_ID;
+      }
 
       if (process.server) {
         requestConfig.headers["App-Host"] = req.headers.host;
+// Temp comment
         requestConfig.headers["App-Root-Path"] = req.url;
       } else {

@@ -85,7 +85,6 @@ export default {
       },
       slides,
       currentSlideIndex: 0,
-    }
   },
   mounted() {
     this.preloadVideo();

@@ -5,5 +5,4 @@ const store = {
   namespaced: true,
   state: () => ({ data: {} }),
 
-// Temp comment
   mutations: {

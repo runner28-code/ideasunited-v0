@@ -1,1 +1,1 @@
-  computed: {
+export default {

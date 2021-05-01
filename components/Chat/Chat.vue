@@ -1,5 +1,6 @@
 <template>
   <div class="chat">
+    <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
     <ChatFooter :chat="chat" />
   </div>
@@ -11,7 +12,6 @@ export default {
     chat: Object
   },
   data() {
-    return {
       message: "",
       status: "Connected",
       messages: []

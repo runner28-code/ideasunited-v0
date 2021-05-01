@@ -1,2 +1,2 @@
-  apps: [
+module.exports = {
     {
