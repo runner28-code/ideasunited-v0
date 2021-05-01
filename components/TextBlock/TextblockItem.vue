@@ -26,7 +26,6 @@
 export default {
   props: {
     item: Object
-  },
   computed: {
     styles() {
       return {

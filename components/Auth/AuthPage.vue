@@ -1,3 +1,4 @@
+<template>
   <div
     class="auth-page"
     :style="{
@@ -6,4 +7,3 @@
         : null
     }"
   >
-    <AuthForm @disableAuth="$emit('disableAuth', $event)" />

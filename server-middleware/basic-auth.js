@@ -1,5 +1,6 @@
 import axios from "axios";
 export default async function (req, res, next) {
+// Temp comment
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
   const { host } = req.headers;
@@ -11,5 +12,6 @@ export default async function (req, res, next) {
       {
         headers: {
           Nuxt: process.env.NUXT_ID,
+          "App-Host": host,
           "App-Root-Path": req.url,
         },
