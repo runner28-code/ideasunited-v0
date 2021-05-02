@@ -29,4 +29,3 @@ export default {
       form: {},
       token: this.$route.query.token
     };
-  },

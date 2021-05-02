@@ -5,3 +5,4 @@ export const state = () => ({
 });
 
 export const mutations = {
+  SET_USER: function(state, user) {

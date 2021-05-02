@@ -8,6 +8,5 @@
     </h1>
     <NuxtLink to="/">
       Home page
-    </NuxtLink>
   </v-app>
 </template>
