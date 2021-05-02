@@ -102,3 +102,6 @@ export default {
   extends: isMobileMixin,
   props: {
     value: Boolean,
+    noRoot: Boolean
+  },
+  data(){

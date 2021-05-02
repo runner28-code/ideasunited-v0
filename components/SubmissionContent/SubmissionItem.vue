@@ -42,3 +42,4 @@ export default {
     item: Object,
     prevId: String,
     nextId: String,
+    layout: Object,

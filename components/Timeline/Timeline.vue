@@ -78,3 +78,5 @@ export default {
     this.$root.$off("chapterChange");
     Object.values(this.timeouts).forEach(t => clearTimeout(t));
   },
+  methods: {
+    nextEvent() {

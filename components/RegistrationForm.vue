@@ -53,3 +53,4 @@
     >
       <Title
         v-if="registrationForm.title"
+        tag="h2"

@@ -16,3 +16,4 @@
       :zoomLink="event.zoom_url"
       :startAt="event.start_at"
       :event="event"
+      :title="event.title"

@@ -112,3 +112,7 @@ export default {
       await this.$store.dispatch("auth/logout");
     },
     isProduction() {
+      return (
+        this.currentProject &&
+        this.currentProject.production_domain == window.location.hostname
+      );

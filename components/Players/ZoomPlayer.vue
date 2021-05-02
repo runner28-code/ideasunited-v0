@@ -14,7 +14,6 @@
       <div class="zoom-player__title">{{ event.title }}</div>
       <div class="zoom-player__subtitle" v-if="event.start_at">
         {{
-          event.start_at
             | moment("timezone", currentTimezone, "dddd M/D/YYYY")
         }}
         at
@@ -30,3 +29,4 @@
 <script>
 import { buildZoomLink } from "@/utils";
 
+export default {

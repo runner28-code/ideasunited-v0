@@ -53,3 +53,5 @@
 <script>
 export default {
   name: "SliderModal",
+  props: {
+    name: String,

@@ -6,6 +6,7 @@
       >
       <div>You are logged in.<br/><br/></div>
       <v-btn
+        @click.prevent="logout()"
       >
         Logout
       </v-btn>
@@ -20,3 +21,4 @@ export default {
   methods: {
     logout() {
       this.$store.dispatch("auth/logout");
+      this.$emit('input', false)

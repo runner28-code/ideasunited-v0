@@ -44,3 +44,4 @@ export default {
         LinkedinLogin: {
           provider: "linkedin"
         }
+      }

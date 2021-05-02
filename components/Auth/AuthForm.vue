@@ -60,3 +60,5 @@ export default {
     return {
       loginForm: {},
       registerForm: {},
+      areYouSureDialog: false,
+      emailValidationSuggestions: {}

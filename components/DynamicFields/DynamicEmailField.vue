@@ -1,5 +1,4 @@
 <template>
-  <v-text-field
     type="email"
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
@@ -9,3 +8,6 @@
     @focus.stop="onFocus($event)"
   />
 </template>
+
+<script>
+export default {

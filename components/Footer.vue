@@ -61,3 +61,5 @@ export default {
   },
   created(){
     this.fetchSupportForm();
+  },
+  methods: {

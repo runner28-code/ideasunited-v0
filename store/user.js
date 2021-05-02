@@ -9,5 +9,7 @@ const store = {
       state.current = user;
     },
   },
+  actions: {
     async fetch({ commit }) {
       const token = this.$cookies.get("authToken");
+

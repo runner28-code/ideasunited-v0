@@ -7,6 +7,7 @@
     :disabled="disabled"
   >
     <div :key="field.uuid" v-for="field in fields">
+      <component
         :is="`Dynamic${field.type}`"
         v-bind="field"
         v-model="form.data[field.uuid]"
@@ -58,3 +59,6 @@ import DynamicNumberField from "./DynamicNumberField";
 import DynamicRadio from "./DynamicRadio";
 import DynamicTextArea from "./DynamicTextArea";
 import DynamicTextField from "./DynamicTextField";
+import DynamicMediaField from "./DynamicMediaField";
+import DynamicPasswordField from "./DynamicPasswordField";
+import DynamicLinkField from "./DynamicLinkField";

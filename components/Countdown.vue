@@ -68,3 +68,5 @@ export default {
       if (this.countdown.preview.large.url)
         data.backgroundImage = `url(${this.countdown.preview.large.url})`;
       return data;
+    },
+    countdown() {

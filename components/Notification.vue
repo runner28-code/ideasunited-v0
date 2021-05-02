@@ -9,6 +9,7 @@
         <p class="notification-content" v-html="data.description"></p>
         <Button
           large
+          target="_blank"
           v-if="data.link_text && data.link_to"
           :href="data.link_to"
           >{{ data.link_text }}</Button
@@ -26,3 +27,4 @@
         <v-icon size="30">$close</v-icon>
       </v-btn>
       <div class="notification__sidebar-content">
+        <Title>{{ data.title }}</Title>

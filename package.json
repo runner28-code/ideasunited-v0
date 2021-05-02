@@ -1,5 +1,4 @@
 {
-  "name": "frontend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -14,3 +13,4 @@
     "restart-production": "pm2 kill && pm2 start"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",

@@ -32,3 +32,5 @@
               v-if="!submitted"
               :btn-text="btnText"
             />
+            <div v-else>
+              <SubmissionThankYou

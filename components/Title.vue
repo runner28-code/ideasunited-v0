@@ -11,3 +11,4 @@ export default {
       type: String,
       default: "h2"
     }
+  },

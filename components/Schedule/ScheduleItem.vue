@@ -26,3 +26,4 @@ export default {
   props: {
     item: Object
   },
+  methods: {

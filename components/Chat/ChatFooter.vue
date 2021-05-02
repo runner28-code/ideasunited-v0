@@ -35,3 +35,4 @@
             <div>
               <VEmojiPicker @select="selectEmoji" />
             </div>
+          </v-menu>

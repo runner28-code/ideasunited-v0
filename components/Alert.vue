@@ -40,3 +40,4 @@ export default {
       this.alert = alert;
     });
   },
+  methods: {

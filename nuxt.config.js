@@ -53,3 +53,5 @@ export default {
   serverMiddleware: ["~/server-middleware/basic-auth"],
 
   polyfill: {
+    features: [
+      {

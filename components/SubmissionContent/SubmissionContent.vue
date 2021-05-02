@@ -36,3 +36,4 @@ export default {
   data() {
     return {
       list: [],
+      infiniteId: +new Date(),

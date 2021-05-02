@@ -85,6 +85,7 @@ export default {
       },
       slides,
       currentSlideIndex: 0,
+    }
   },
   mounted() {
     this.preloadVideo();
@@ -140,3 +141,9 @@ export default {
         behavior: 'instant',
       });      
       const fixedStart = previewMedia.getBoundingClientRect();
+      setTimeout(() => videoElem.pause(), 500);
+      this.updateIrisEndingFactor();
+      const timeline = new TimelineLite({
+        onComplete: () => { this.playing = false },
+      });
+      timeline

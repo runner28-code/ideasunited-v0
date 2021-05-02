@@ -50,7 +50,6 @@
       </div>
       <div
         v-else
-        class="event__placeholder"
         :style="{
           backgroundImage: `url(${activeTheme.event_background.large.url})`
         }"
@@ -88,3 +87,6 @@
         Hide Chat
         <v-icon>$menu_up</v-icon>
       </span>
+    </div>
+  </div>
+</template>
