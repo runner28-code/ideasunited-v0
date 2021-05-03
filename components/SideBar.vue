@@ -20,7 +20,6 @@
         class="rightsidebar__item rightsidebar__item-mobile"
         :to="`#${menuItem.url}`"
         v-ripple="false"
-      >
         <span @click="menuClick(menuItem, idx)">
           {{ menuItem.menu_title }}
         </span>
@@ -51,6 +50,7 @@
         </transition>
       </v-list-item>
       <v-list dense v-if="noRoot">
+        <v-list-item class="rightsidebar__item__subitem">
           {{ currentProject.title }}
         </v-list-item>
       </v-list>

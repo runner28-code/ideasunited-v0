@@ -29,3 +29,4 @@ export default {
       type: String,
       default: "center"
     },
+    rules: {

@@ -21,7 +21,6 @@ if (!Vue.__map_state_mixin__) {
       },
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
-          this.$root.$emit("confirmDialog", {
             title,
             description,
             callback: (value) => {

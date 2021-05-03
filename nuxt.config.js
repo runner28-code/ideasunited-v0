@@ -51,6 +51,7 @@ export default {
     { src: "~/plugins/vue-rellax.js", ssr: false }
   ],
   serverMiddleware: ["~/server-middleware/basic-auth"],
+
   polyfill: {
     features: [
       {

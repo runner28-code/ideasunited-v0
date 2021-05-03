@@ -6,11 +6,13 @@ const store = {
   mutations: {
     set(state, current) {
       state.current = current;
+    },
     updateChat(state, chat) {
       state.current.chats[chat.id] = chat;
     },
     publishEvent(state, id) {
       const collection = state.current?.events;
+// Temp comment
       const payload = { posted: true };
       updateCollection({ collection, id, payload });
     },

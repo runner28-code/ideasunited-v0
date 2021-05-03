@@ -7,7 +7,7 @@
     :rules="[...rules, $rules.email]"
     outlined
     @focus.stop="onFocus($event)"
+  />
 </template>
 
 <script>
-export default {

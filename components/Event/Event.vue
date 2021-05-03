@@ -20,7 +20,6 @@
     >
       <div class="event__video-container" v-if="activeEvent">
         <div class="event__video-player">
-          <EventPlayer
             v-if="
               !activeEvent.require_auth ||
                 (activeEvent.require_auth && currentUser)

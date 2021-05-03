@@ -147,3 +147,4 @@ export default {
         onComplete: () => { this.playing = false },
       });
       timeline
+        .set(previewMedia, {
