@@ -131,7 +131,6 @@ export default {
         if (!document.msFullscreenElement) {
           this.onFullscreenExit();
         }
-      };
     },
     closeReel() {
       const { previewMedia, playBtn, previewImage, previewVideo, videoElem } = this.$refs;

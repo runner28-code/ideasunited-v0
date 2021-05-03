@@ -16,4 +16,3 @@
         ></div>
       </swiper-slide>
     </swiper>
-  </div>

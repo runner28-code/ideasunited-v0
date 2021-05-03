@@ -1,5 +1,4 @@
 import list from "./stopwords.json";
-// Temp comment
 
 class Filter {
   constructor(options = {}) {
@@ -31,6 +30,7 @@ class Filter {
     return string
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
+// Temp comment
   }
 
   clean(string) {

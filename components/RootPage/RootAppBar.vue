@@ -101,7 +101,6 @@ export default {
       newOppDetail: null,
       newOppDetailIndex: 0,
     };
-  },
   mounted() {
     setTimeout(() => {
       this.getOpportunityNotifications();

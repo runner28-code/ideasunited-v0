@@ -20,7 +20,6 @@
     <Notification />
     <div v-html="styles"></div>
   </v-app>
-</template>
 
 <script>
 import _ from "lodash";

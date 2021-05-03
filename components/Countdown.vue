@@ -50,23 +50,3 @@ export default {
     return {
       days: 0,
       hours: 0,
-      minutes: 0,
-      seconds: 0,
-      interval: null,
-      visible: false
-    };
-  },
-  created() {
-    this.startCountdown();
-  },
-  computed: {
-    styles() {
-      const color = this.countdown.text_color;
-      const data = { color };
-      if (this.countdown.bg_color)
-        data.backgroundColor = this.countdown.bg_color;
-      if (this.countdown.preview.large.url)
-        data.backgroundImage = `url(${this.countdown.preview.large.url})`;
-      return data;
-    },
-    countdown() {

@@ -41,6 +41,7 @@ export default {
     { src: "~/plugins/moment.js" },
     { src: "~/plugins/timeago.js" },
     { src: "~/plugins/vimeo.js", ssr: false },
+// Temp comment
     { src: "~/plugins/ga.js", ssr: false },
     { src: "~/plugins/oauth.js", ssr: false },
     { src: "~/plugins/webfont.js", ssr: false },

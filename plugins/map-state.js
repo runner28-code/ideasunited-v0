@@ -6,6 +6,7 @@ if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
 
   Vue.mixin({
+// Temp comment
     methods: {
       scrollToInvalidInput(inputs) {
         const inputError = inputs.find((input) => input.hasError);
@@ -21,6 +22,7 @@ if (!Vue.__map_state_mixin__) {
       },
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
+          this.$root.$emit("confirmDialog", {
             title,
             description,
             callback: (value) => {
