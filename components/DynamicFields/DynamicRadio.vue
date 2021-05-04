@@ -14,4 +14,5 @@
     >
       <v-radio
         v-for="item in options"
+        :key="item.uuid"
         :label="item.title"

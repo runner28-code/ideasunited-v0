@@ -14,8 +14,8 @@
       </Button>
     </p>
   </div>
+</template>
 
 <script>
-import { frontendToProfile } from "@/utils";
 
 export default {

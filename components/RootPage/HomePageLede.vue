@@ -82,7 +82,6 @@ export default {
       irisEnding: {
         duration: 0.5,
         size: 200,
-      },
       slides,
       currentSlideIndex: 0,
     }
@@ -131,6 +130,7 @@ export default {
         if (!document.msFullscreenElement) {
           this.onFullscreenExit();
         }
+      };
     },
     closeReel() {
       const { previewMedia, playBtn, previewImage, previewVideo, videoElem } = this.$refs;

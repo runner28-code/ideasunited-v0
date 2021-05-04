@@ -2,6 +2,7 @@ import list from "./stopwords.json";
 
 class Filter {
   constructor(options = {}) {
+// Temp comment
     Object.assign(this, {
       list,
       exclude: options.exclude || [],
@@ -30,7 +31,6 @@ class Filter {
     return string
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
-// Temp comment
   }
 
   clean(string) {

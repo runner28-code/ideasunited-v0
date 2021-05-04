@@ -9,6 +9,7 @@
     validate-on-blur
     @focus.stop="onFocus($event)"
   />
+</template>
 
 <script>
 import urlFormatter from "@/filters/url";
@@ -18,4 +19,3 @@ export default {
     label: String,
     value: String,
     rules: {
-      type: Array,

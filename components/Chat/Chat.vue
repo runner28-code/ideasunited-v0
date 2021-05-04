@@ -9,6 +9,7 @@
 <script>
 export default {
   props: {
+    chat: Object
   },
   data() {
     return {
@@ -17,7 +18,6 @@ export default {
       messages: []
     };
   },
-  created() {
     if (process.client) {
       console.info('Chat created this', this);
       this.$cable.subscribe({

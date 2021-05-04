@@ -46,7 +46,6 @@
       <swiper
         ref="swiper"
         class="content-section__swiper"
-        :options="swiperOption"
       >
         <swiper-slide
           class="content-section__swiper-slide"
