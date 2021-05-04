@@ -1,5 +1,4 @@
 <template>
-  <v-text-field
     :value="value"
     @input="$emit('input', $event)"
     hide-details="auto"
@@ -38,3 +37,4 @@ export default {
   props: {
     placeholder: String,
     label: String,
+    value: [String, Number],

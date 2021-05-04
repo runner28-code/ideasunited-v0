@@ -6,7 +6,6 @@ const store = {
   mutations: {
     set(state, current) {
       state.current = current;
-// Temp comment
     },
     updateChat(state, chat) {
       state.current.chats[chat.id] = chat;
@@ -44,7 +43,6 @@ const store = {
       });
 
       commit("set", data);
-
       return data;
     }
   },

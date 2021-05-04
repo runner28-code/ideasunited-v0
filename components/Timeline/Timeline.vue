@@ -80,3 +80,5 @@ export default {
   },
   methods: {
     nextEvent() {
+      console.info("nextEvent");
+      const idx = this.events.findIndex(t => t.id == this.value?.id);

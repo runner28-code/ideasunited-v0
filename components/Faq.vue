@@ -33,3 +33,4 @@
             {{ item.answer }}
           </v-expansion-panel-content>
         </v-expansion-panel>
+      </v-expansion-panels>

@@ -20,3 +20,4 @@ export default {
     presentation: Object
   },
   data() {
+    return {

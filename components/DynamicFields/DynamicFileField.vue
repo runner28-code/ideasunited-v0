@@ -5,7 +5,6 @@
     @input="$emit('input', $event)"
     :rules="rules"
     outlined
-    prepend-icon=""
   >
     <template #append>
       <div>
@@ -30,3 +29,4 @@ export default {
       default: "center"
     },
     rules: {
+      type: Array,

@@ -34,3 +34,4 @@ export default {
 
     return {
       title: this.currentPage?.headline || this.currentProject?.headline,
+      meta,

@@ -21,3 +21,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         requestConfig.headers["App-Host"] = req.headers.host;
         requestConfig.headers["App-Root-Path"] = req.url;
       } else {
+        requestConfig.headers["App-Host"] = window.location.host;

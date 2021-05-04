@@ -31,7 +31,6 @@ export default {
   components: { HomePageLede, RootAppBar },
   data() {
     return {
-      drawer: false,
       timeouts: {},
       key: 0
     };
@@ -75,3 +74,4 @@ export default {
         this.activeTheme.header_font?.font,
         this.activeTheme.footer_font?.font
       ].filter(f => f && f.src_type == "typekit");
+

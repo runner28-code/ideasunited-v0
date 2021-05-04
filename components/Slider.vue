@@ -17,3 +17,4 @@
       </swiper-slide>
     </swiper>
   </div>
+</template>

@@ -5,6 +5,7 @@
       :youtubeId="event.youtube_id"
       :key="event.id"
     />
+    <VimeoPlayer
       :key="event.id"
       v-else-if="event.event_type == 'vimeo'"
       :vimeoChapter="event.vimeo_chapter"

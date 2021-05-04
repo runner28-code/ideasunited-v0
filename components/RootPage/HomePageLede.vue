@@ -82,6 +82,7 @@ export default {
       irisEnding: {
         duration: 0.5,
         size: 200,
+      },
       slides,
       currentSlideIndex: 0,
     }
@@ -147,3 +148,8 @@ export default {
       });
       timeline
         .set(previewMedia, {
+          position: "fixed",
+          top: 0,
+          left: 0,
+          y: fixedStart.top,
+          x: fixedStart.left,

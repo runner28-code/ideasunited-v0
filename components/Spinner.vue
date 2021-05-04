@@ -9,4 +9,3 @@
     </div>
   </client-only>
 </template>
-

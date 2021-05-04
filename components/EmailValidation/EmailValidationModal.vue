@@ -23,3 +23,4 @@
 <script>
 export default {
   props: {
+    opened: Boolean,

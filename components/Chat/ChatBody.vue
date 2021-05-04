@@ -30,3 +30,4 @@ export default {
           case "new_message":
             this.newMessage(payload);
             break;
+          case "delete_message":

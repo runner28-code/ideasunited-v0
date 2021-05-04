@@ -8,3 +8,4 @@
     }"
   >
     <AuthForm @disableAuth="$emit('disableAuth', $event)" />
+  </div>

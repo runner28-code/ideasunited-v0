@@ -62,3 +62,5 @@ import DynamicTextField from "./DynamicTextField";
 import DynamicMediaField from "./DynamicMediaField";
 import DynamicPasswordField from "./DynamicPasswordField";
 import DynamicLinkField from "./DynamicLinkField";
+import DynamicFileField from "./DynamicFileField";
+

@@ -8,7 +8,6 @@
               's-' + field.class_name,
               'submission-item__content--' + field.type
             ]"
-            v-for="field in content"
             :key="field.id"
           >
             <span>{{
@@ -40,5 +39,7 @@ import { getHash } from "@/utils";
 export default {
   props: {
     item: Object,
+    prevId: String,
     nextId: String,
     layout: Object,
+    previewLayout: Object

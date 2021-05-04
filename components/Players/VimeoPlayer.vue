@@ -21,7 +21,6 @@ export default {
       default: 0
     },
     autoplay: {
-      type: Boolean,
       default: true,
     },
   },

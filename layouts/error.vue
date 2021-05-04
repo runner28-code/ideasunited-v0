@@ -11,3 +11,4 @@
     </NuxtLink>
   </v-app>
 </template>
+

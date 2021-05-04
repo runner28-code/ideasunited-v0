@@ -15,3 +15,4 @@
           v-html="label + (required && markRequired ? ' *' : '')"
         ></span>
       </slot>
+    </template>

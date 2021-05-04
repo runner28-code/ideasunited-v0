@@ -40,7 +40,6 @@
       </SliderModal>
     </div>
   </transition>
-</template>
 
 <script>
 export default {
@@ -54,3 +53,5 @@ export default {
     return {
       dialog: false
     };
+  },
+  mounted() {

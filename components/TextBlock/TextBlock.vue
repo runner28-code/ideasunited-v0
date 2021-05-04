@@ -43,3 +43,4 @@ export default {
   computed: {
     textBlock() {
       return (this.page || this.currentPage).text_blocks[this.value];
+    },

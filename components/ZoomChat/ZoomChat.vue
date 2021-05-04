@@ -4,7 +4,7 @@
       frameborder="0"
       allow="autoplay; fullscreen"
       allowfullscreen
-      :src="zoomUrl"
+      class="zoom-player__embedded"
       v-if="zoomUrl"
     />
   </div>

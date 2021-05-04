@@ -69,3 +69,6 @@
   </div>
 </template>
 
+<script>
+import registrationMixin from "../registration.mixin";
+

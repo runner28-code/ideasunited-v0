@@ -114,3 +114,5 @@ export default {
       const ledeBackground = page.lead_background;
       if (ledeBackground) this.preloadSlide(ledeBackground.large.url || ledeBackground.url);
     });
+    setTimeout(() => {
+      if (this.$refs.fullpage) {

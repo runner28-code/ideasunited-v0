@@ -40,6 +40,7 @@
 import _ from "lodash";
 
 export default {
+  data() {
     return {
       drawer: false,
       timeouts: {},
@@ -86,3 +87,6 @@ export default {
         this.activeTheme.header_font?.font,
         this.activeTheme.footer_font?.font,
       ].filter((f) => f && f.src_type == "typekit");
+
+      if (googleFonts.length) {
+        this.$WebFont.load({
