@@ -31,6 +31,7 @@ export default {
   components: { HomePageLede, RootAppBar },
   data() {
     return {
+      drawer: false,
       timeouts: {},
       key: 0
     };
@@ -66,7 +67,6 @@ export default {
         google_font_name: "Source Sans Pro",
         src_type: "google_fonts",
       });
-
       const typekitFonts = [
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,

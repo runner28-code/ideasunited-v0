@@ -1,6 +1,7 @@
 <template>
   <div class="youtube-player">
     <div id="youtube-player"></div>
+    <div class="youtube-player__after" @click="started ? null : play"></div>
   </div>
 </template>
 
@@ -20,5 +21,4 @@ export default {
       height: "100%",
       videoId: this.slide.youtube_id,
       playerVars: { rel: 0, controls: 0 }
-    });
 

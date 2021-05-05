@@ -25,10 +25,10 @@
           </div>
           <div v-else>
             <DynamicForm
-              :key="form.timestamp.toDateString()"
               :submit="submit"
               :fields="fields"
               v-model="form"
+              v-if="!submitted"
               :btn-text="btnText"
             />
             <div v-else>

@@ -20,5 +20,4 @@
   </v-btn>
 </template>
 
-<script>
 import { getThemeByColor } from "@/utils";

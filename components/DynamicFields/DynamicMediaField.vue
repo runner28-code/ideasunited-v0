@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="file-input-wrapper" v-if="fileInput">
       <v-file-input
         class="file-input"
         :placeholder="label + (required && markRequired ? ' *' : '')"
@@ -38,7 +39,6 @@
             (value && value.name) ||
               label + (required && markRequired ? " *" : "")
           }}
-        </div>
         <input @change="handleChange" class="uploader__input" type="file" />
       </label>
       <v-text-field
