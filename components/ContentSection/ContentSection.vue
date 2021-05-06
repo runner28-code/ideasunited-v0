@@ -58,7 +58,6 @@
             :prevId="getId(index - 1)"
             :block="block"
           />
-        </swiper-slide>
       </swiper>
       <v-btn
         :class="{ visible: visibleControls }"

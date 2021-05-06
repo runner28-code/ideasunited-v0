@@ -44,7 +44,6 @@ export default {
   name: "Countdown",
   props: {
     value: String,
-    page: Object,
   },
   data() {
     return {
@@ -54,3 +53,5 @@ export default {
       seconds: 0,
       interval: null,
       visible: false
+    };
+  },

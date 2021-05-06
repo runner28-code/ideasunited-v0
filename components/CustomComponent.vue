@@ -24,7 +24,6 @@ export default {
       key: 1
     };
   },
-  created() {
     Vue.component("Spinner", Spinner);
   },
   computed: {

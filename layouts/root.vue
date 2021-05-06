@@ -38,7 +38,6 @@ export default {
   },
   created() {
     this.$store.dispatch("application/init");
-
     if (process.client) {
       this.$cable.subscribe({
         channel: "ProjectChannel",
@@ -67,6 +66,7 @@ export default {
         google_font_name: "Source Sans Pro",
         src_type: "google_fonts",
       });
+
       const typekitFonts = [
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,

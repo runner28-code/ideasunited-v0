@@ -13,7 +13,6 @@
     ref="input"
     validate-on-blur
     :suffix="suffix"
-    :min="min"
     :max="max"
     :class="{ block }"
     :name="name"

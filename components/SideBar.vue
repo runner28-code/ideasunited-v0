@@ -40,7 +40,6 @@
       <v-list-item
         class="rightsidebar__item"
         :href="opportunitiesUrl"
-        v-ripple="false"
       >
         Opportunities
         <transition name="fade">

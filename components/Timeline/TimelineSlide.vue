@@ -56,24 +56,3 @@ export default {
         }
       }
     }
-  },
-  computed: {
-    classList() {
-      const { id, status } = this.value;
-      return {
-        active: this.isActive,
-        earlier: status == "earlier",
-        just_posted: status == "just_posted",
-        soon: status == "coming_soon",
-        "timeline-slide": true
-      };
-    },
-    isActive() {
-      return this.value.id == this.active?.id;
-    },
-    styles() {
-      const preview =
-        this.value.preview?.thumb?.url ||
-        this.activeTheme.event_preview?.thumb?.url;
-
-      return {

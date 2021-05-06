@@ -10,7 +10,6 @@
           <div class="faq__section-header" v-if="item.header">
             {{ item.header }}
           </div>
-          <v-expansion-panel-header v-if="item.question">
             {{ item.question }}
           </v-expansion-panel-header>
           <v-expansion-panel-content v-if="item.answer" v-html="item.answer">
