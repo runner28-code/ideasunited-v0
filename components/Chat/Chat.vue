@@ -3,7 +3,7 @@
     <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
     <ChatFooter :chat="chat" />
-</template>
+  </div>
 
 <script>
 export default {
@@ -24,3 +24,4 @@ export default {
         channel: "ChatChannel",
         chat_id: this.chat.id,
         env: this.currentProject.env
+      });

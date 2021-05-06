@@ -120,3 +120,8 @@ export default {
     async getOpportunityNotifications() {
       const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
+      setTimeout(() => {
+        this.updateNewOppDetail();
+      }, 5000);
+    },
+    goToOpps() {

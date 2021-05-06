@@ -1,3 +1,4 @@
+<template>
   <div class="chat-footer">
     <v-btn v-if="!currentUser" outlined @click="$root.$emit(`authModal/open`)">
       Log in
@@ -17,7 +18,6 @@
         auto-grow
         rows="1"
         class="chat-footer__actions-input"
-        placeholder="Say something"
         v-model="message"
         maxlength="200"
       ></v-textarea>
@@ -36,3 +36,5 @@
             </div>
           </v-menu>
         </div>
+        <div>
+          <span>{{ message.length }}/200</span>

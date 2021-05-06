@@ -57,3 +57,4 @@ export default {
     name: String,
     value: Boolean,
     id: String,
+    prevId: String,

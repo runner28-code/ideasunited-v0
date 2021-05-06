@@ -10,3 +10,4 @@
   </client-only>
 </template>
 
+<script>

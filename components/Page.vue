@@ -116,3 +116,6 @@ export default {
     });
     setTimeout(() => {
       if (this.$refs.fullpage) {
+        this.$refs.fullpage.init();
+      }
+    }, 0);

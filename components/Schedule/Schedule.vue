@@ -7,7 +7,6 @@
     <div class="schedule__items">
       <div
         class="schedule__group"
-        v-for="group in groupedItems"
         :key="group.date"
       >
         <div class="schedule__date">
@@ -18,7 +17,9 @@
         </div>
         <ScheduleItem v-for="item in group.items" :item="item" :key="item.id" />
       </div>
+    </div>
   </div>
 </template>
 
 <script>
+import _ from "lodash";

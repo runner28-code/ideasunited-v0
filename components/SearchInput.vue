@@ -30,3 +30,4 @@ export default {
       };
     },
     calcTheme() {
+      return getThemeByColor(this.activeTheme.primary_color);

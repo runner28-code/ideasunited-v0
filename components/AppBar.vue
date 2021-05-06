@@ -123,3 +123,7 @@ import _ from "lodash";
 
 export default {
   data() {
+    return {
+      mounted: false,
+      drawer: false,
+    };

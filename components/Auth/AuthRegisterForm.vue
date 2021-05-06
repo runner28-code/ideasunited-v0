@@ -34,7 +34,6 @@
           </div>
           <DynamicForm
             :submit="submit"
-            :fields="registrationForm.registration_form"
             v-model="form"
             :mark-required="registrationForm.mark_required"
             show-label
@@ -72,3 +71,5 @@
 <script>
 import registrationMixin from "../registration.mixin";
 
+export default {
+  extends: registrationMixin,

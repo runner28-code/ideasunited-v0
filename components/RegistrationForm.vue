@@ -56,3 +56,5 @@
         tag="h2"
         class="registration-form__title"
         >{{ registrationForm.title }}</Title
+      >
+      <p class="registration-form__thank-you">

@@ -38,6 +38,7 @@ export default {
   },
   created() {
     this.$store.dispatch("application/init");
+
     if (process.client) {
       this.$cable.subscribe({
         channel: "ProjectChannel",
@@ -75,3 +76,6 @@ export default {
         this.activeTheme.footer_font?.font
       ].filter(f => f && f.src_type == "typekit");
 
+      if (googleFonts.length) {
+        this.$WebFont.load({
+          google: {

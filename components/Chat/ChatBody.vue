@@ -31,3 +31,4 @@ export default {
             this.newMessage(payload);
             break;
           case "delete_message":
+            this.deleteMessage(payload.id);

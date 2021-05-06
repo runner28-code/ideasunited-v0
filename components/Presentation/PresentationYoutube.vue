@@ -15,7 +15,6 @@ export default {
   data() {
     return { started: false };
   },
-  mounted() {
     this.player = new YouTubePlayer("youtube-player", {
       width: "100%",
       height: "100%",
@@ -23,3 +22,4 @@ export default {
       playerVars: { rel: 0, controls: 0 }
     });
 
+    if (this.newSlideSettings.started) this.play();

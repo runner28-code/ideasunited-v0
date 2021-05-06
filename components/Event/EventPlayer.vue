@@ -17,3 +17,4 @@
       :startAt="event.start_at"
       :event="event"
       :title="event.title"
+      :key="event.id"

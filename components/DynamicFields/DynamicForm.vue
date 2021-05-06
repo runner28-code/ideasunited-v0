@@ -64,3 +64,27 @@ import DynamicPasswordField from "./DynamicPasswordField";
 import DynamicLinkField from "./DynamicLinkField";
 import DynamicFileField from "./DynamicFileField";
 
+export default {
+  props: {
+    fields: Array,
+    value: Object,
+    submit: Function,
+    markRequired: Boolean,
+    showLabel: Boolean,
+    description: String,
+    btnText: String,
+    disabled: Boolean,
+    showBackToLogin: Boolean,
+  },
+  data() {
+    return {
+      valid: true,
+      loading: false,
+      form: { ...this.value },
+      pdfOrDocTypes: [
+        "application/pdf",
+        "application/msword",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
+        "application/vnd.ms-word.document.macroEnabled.12",
+        "application/vnd.ms-word.template.macroEnabled.12",

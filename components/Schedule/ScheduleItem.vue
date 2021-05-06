@@ -28,3 +28,4 @@ export default {
   },
   methods: {
     onclick() {
+      if (this.item.event) {

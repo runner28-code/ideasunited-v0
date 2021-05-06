@@ -1,6 +1,7 @@
 <template>
   <div
     class="event"
+    :class="{
       show_event: currentPage.events.length,
       with_events: currentPage.events.length > 1,
       with_chat: currentPage.chats.length,
@@ -56,7 +57,6 @@
       ></div>
       <!-- <Spinner v-else /> -->
     </div>
-    <div
       :class="{ visible: showMobileChat }"
       class="event__chat"
       v-if="currentPage.chats.length"
@@ -92,3 +92,6 @@
 </template>
 
 <script>
+export default {
+  data() {
+    return {

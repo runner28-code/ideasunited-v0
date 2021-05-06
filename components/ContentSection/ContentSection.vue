@@ -58,6 +58,7 @@
             :prevId="getId(index - 1)"
             :block="block"
           />
+        </swiper-slide>
       </swiper>
       <v-btn
         :class="{ visible: visibleControls }"
@@ -118,3 +119,7 @@ export default {
       viewMore: false
     };
   },
+  mounted() {
+    const { swiper } = this.$refs;
+    if (swiper) {
+      this.swiperInstance = this.$refs.swiper.swiperInstance;

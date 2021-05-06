@@ -64,3 +64,5 @@ export default {
       emailValidationSuggestions: {}
     };
   },
+  methods: {
+    async login() {

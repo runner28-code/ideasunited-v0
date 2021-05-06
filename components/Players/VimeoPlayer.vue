@@ -25,3 +25,4 @@ export default {
       default: true,
     },
   },
+  mounted() {

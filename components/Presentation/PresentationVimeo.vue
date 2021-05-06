@@ -21,3 +21,4 @@ export default {
   },
   data() {
     return {
+      started: false

@@ -1,5 +1,4 @@
 <template>
-  <transition name="fade">
     <div class="content-section-item"
       v-if="!hiding"
       :class="{
@@ -56,3 +55,4 @@ export default {
     };
   },
   mounted() {
+    const { block_id } = this.$route.query;

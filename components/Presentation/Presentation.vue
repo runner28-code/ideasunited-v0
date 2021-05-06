@@ -11,3 +11,4 @@
     />
     <PresentationVimeo
       :presentation="presentation"
+      :slide="presentation.active_slide"

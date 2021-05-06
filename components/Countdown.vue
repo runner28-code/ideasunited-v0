@@ -44,14 +44,17 @@ export default {
   name: "Countdown",
   props: {
     value: String,
+    page: Object,
   },
   data() {
     return {
       days: 0,
-      hours: 0,
       minutes: 0,
       seconds: 0,
       interval: null,
       visible: false
     };
+  },
+  created() {
+    this.startCountdown();
   },

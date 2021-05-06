@@ -1,3 +1,4 @@
+<template>
   <div class="avatar" :style="styles" v-bind="$attrs">
     {{ initals }}
   </div>
@@ -18,3 +19,4 @@ export default {
         "#7b1fa2",
         "#303f9f",
         "#0288d1",
+        "#0097a7",

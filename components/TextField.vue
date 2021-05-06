@@ -13,6 +13,7 @@
     ref="input"
     validate-on-blur
     :suffix="suffix"
+    :min="min"
     :max="max"
     :class="{ block }"
     :name="name"
@@ -34,7 +35,7 @@
 import { getThemeByColor } from "@/utils";
 
 export default {
-  props: {
     placeholder: String,
     label: String,
     value: [String, Number],
+    type: {

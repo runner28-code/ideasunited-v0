@@ -40,6 +40,7 @@
       <v-list-item
         class="rightsidebar__item"
         :href="opportunitiesUrl"
+        v-ripple="false"
       >
         Opportunities
         <transition name="fade">
@@ -107,3 +108,6 @@ export default {
     return {
       year: new Date().getFullYear(),
       newOpps: [],
+    }
+  },
+  mounted(){

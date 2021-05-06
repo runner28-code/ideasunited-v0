@@ -31,7 +31,6 @@
         v-if="[3].includes(textBlock.layout)"
       />
     </div>
-  </div>
 </template>
 
 <script>
@@ -44,3 +43,4 @@ export default {
     textBlock() {
       return (this.page || this.currentPage).text_blocks[this.value];
     },
+    calcList() {

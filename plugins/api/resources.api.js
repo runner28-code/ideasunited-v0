@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 function objectToFormData(obj) {
+  const formData = new FormData();
 
   const files = {};
   const data = JSON.stringify(obj, function (key, value) {
