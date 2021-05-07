@@ -32,3 +32,4 @@ export default {
             break;
           case "delete_message":
             this.deleteMessage(payload.id);
+            break;

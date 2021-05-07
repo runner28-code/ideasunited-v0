@@ -7,10 +7,10 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
   $axios.interceptors.request.use(
     requestConfig => {
       if (requestConfig.jwt) {
+// Temp comment
         const authToken = $cookies.get("authToken");
         if (authToken) {
           requestConfig.headers["Auth"] = authToken;
-// Temp comment
         }
       }
 
@@ -23,3 +23,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         requestConfig.headers["App-Root-Path"] = req.url;
       } else {
         requestConfig.headers["App-Host"] = window.location.host;
+        requestConfig.headers["App-Root-Path"] = window.location.pathname;

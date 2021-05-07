@@ -58,3 +58,4 @@
         >{{ registrationForm.title }}</Title
       >
       <p class="registration-form__thank-you">
+        Thank you! Please check your email and click the verification link,

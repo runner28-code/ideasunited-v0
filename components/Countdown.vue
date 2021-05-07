@@ -49,6 +49,7 @@ export default {
   data() {
     return {
       days: 0,
+      hours: 0,
       minutes: 0,
       seconds: 0,
       interval: null,
@@ -58,3 +59,6 @@ export default {
   created() {
     this.startCountdown();
   },
+  computed: {
+    styles() {
+      const color = this.countdown.text_color;

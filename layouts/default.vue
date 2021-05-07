@@ -56,7 +56,6 @@ export default {
         channel: "ProjectChannel",
         project_id: this.currentProject.id,
         env: this.currentProject.env,
-      });
 
       this.$cable.subscribe({
         channel: "NotificationChannel",
@@ -93,3 +92,5 @@ export default {
           google: {
             families: _.uniq(
               googleFonts.map((font) => font.font_name + ":300,400,500,700,900")
+            ),
+          },

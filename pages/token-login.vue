@@ -9,3 +9,4 @@ export default {
     if (process.client) {
       const { token } = this.$route.query;
       if (token) {
+        this.login(token);

@@ -24,3 +24,4 @@
 export default {
   props: {
     opened: Boolean,
+    suggestions: [Array, Object],

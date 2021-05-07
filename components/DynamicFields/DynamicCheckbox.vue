@@ -16,3 +16,4 @@
         ></span>
       </slot>
     </template>
+  </v-checkbox>

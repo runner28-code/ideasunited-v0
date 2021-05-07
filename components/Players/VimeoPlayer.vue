@@ -18,7 +18,6 @@ export default {
     vimeoChapter: [String, Number],
     firstStartAt: {
       type: Number,
-      default: 0
     },
     autoplay: {
       type: Boolean,
@@ -26,3 +25,4 @@ export default {
     },
   },
   mounted() {
+    this.player = new this.$Vimeo(this.$refs.vimeo);

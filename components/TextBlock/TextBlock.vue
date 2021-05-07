@@ -1,5 +1,4 @@
 <template>
-  <div
     class="text-block"
     :class="`text-block-${textBlock.id} text-block__${textBlock.layout}`"
   >
@@ -31,6 +30,7 @@
         v-if="[3].includes(textBlock.layout)"
       />
     </div>
+  </div>
 </template>
 
 <script>

@@ -36,3 +36,4 @@ export default {
       title: this.currentPage?.headline || this.currentProject?.headline,
       meta,
       link: [
+        { rel: "icon", href: this.currentProject?.favicon.url || this.activeTheme.favicon.url || "/favicon.ico" }

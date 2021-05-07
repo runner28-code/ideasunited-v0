@@ -58,3 +58,4 @@ export default {
     value: Boolean,
     id: String,
     prevId: String,
+    nextId: String,

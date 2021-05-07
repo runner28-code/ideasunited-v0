@@ -123,3 +123,4 @@ export default {
     const { swiper } = this.$refs;
     if (swiper) {
       this.swiperInstance = this.$refs.swiper.swiperInstance;
+    }

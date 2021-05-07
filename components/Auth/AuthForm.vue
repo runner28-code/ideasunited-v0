@@ -53,7 +53,6 @@ export default {
   components: { Title },
   props: {
     disabled: Boolean,
-    startAtSignUp: Boolean,
     loginFormRequest: Boolean,
   },
   data() {
@@ -66,3 +65,4 @@ export default {
   },
   methods: {
     async login() {
+      if (this.$refs.form.validate()) {

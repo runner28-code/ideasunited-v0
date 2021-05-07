@@ -111,3 +111,4 @@ export default {
     }
   },
   mounted(){
+    this.$root.$on('updateAccountSideBar', (isOpen) => {

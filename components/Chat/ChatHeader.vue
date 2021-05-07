@@ -13,9 +13,11 @@ export default {
   props: {
     chat: Object
   },
+  data() {
     return { status: "Connecting" };
   },
   channels: {
     ChatChannel: {
       connected() {
         this.status = "Connected";
+      },

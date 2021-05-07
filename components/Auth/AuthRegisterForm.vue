@@ -34,6 +34,7 @@
           </div>
           <DynamicForm
             :submit="submit"
+            :fields="registrationForm.registration_form"
             v-model="form"
             :mark-required="registrationForm.mark_required"
             show-label
@@ -64,7 +65,6 @@
           </div>
         </div> <!-- v-if="!currentUser.confirmed" -->
       </div> <!-- v-if="currentUser" -->
-    </div> <!-- v-if="registrationForm" -->
   </div>
 </template>
 
@@ -73,3 +73,5 @@ import registrationMixin from "../registration.mixin";
 
 export default {
   extends: registrationMixin,
+  props: {
+    dialogState: Object,

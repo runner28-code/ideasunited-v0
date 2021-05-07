@@ -11,7 +11,6 @@
           :style="backgroundLedeStyles"
           :key="currentSlide"
         >
-          <div
             class="background-lede__logo"
             v-if="opportunityLogo && !currentProject.hide_frontend_logo"
           >
@@ -119,3 +118,4 @@ export default {
         this.$refs.fullpage.init();
       }
     }, 0);
+    window.addEventListener('keydown', this.keyDownHandler);

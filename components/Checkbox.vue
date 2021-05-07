@@ -11,4 +11,5 @@
     :disabled="disabled"
   >
     <template #label>
+      <slot>
         <span v-html="label"></span>

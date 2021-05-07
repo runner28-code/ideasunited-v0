@@ -28,7 +28,6 @@
           </div>
         </div>
 
-        <div class="timeline-slide__now-playing">
           <div class="timeline-slide__now-playing__dot"></div>
           <span>
             now playing
@@ -45,6 +44,7 @@ export default {
   props: {
     value: Object,
     active: Object
+  },
   methods: {
     setActive() {
       if (this.value.posted) {
@@ -57,3 +57,5 @@ export default {
     }
   },
   computed: {
+    classList() {
+      const { id, status } = this.value;

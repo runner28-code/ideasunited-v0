@@ -11,7 +11,6 @@
 <script>
 import Vue from "vue";
 import Spinner from "./Spinner";
-import { v4 as uuidv4 } from "uuid";
 
 export default {
   props: {
@@ -22,6 +21,7 @@ export default {
     return {
       loaded: false,
       key: 1
+    };
   },
   created() {
     Vue.component("Spinner", Spinner);

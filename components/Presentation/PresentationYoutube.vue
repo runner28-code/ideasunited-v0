@@ -15,6 +15,7 @@ export default {
   data() {
     return { started: false };
   },
+  mounted() {
     this.player = new YouTubePlayer("youtube-player", {
       width: "100%",
       height: "100%",

@@ -6,3 +6,4 @@ const store = {
   state: () => ({ data: {} }),
 
   mutations: {
+    set(state, data) {

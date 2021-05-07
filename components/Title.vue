@@ -12,3 +12,4 @@ export default {
       default: "h2"
     }
   },
+  computed: {

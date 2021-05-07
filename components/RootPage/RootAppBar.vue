@@ -125,3 +125,5 @@ export default {
       }, 5000);
     },
     goToOpps() {
+      window.location.href = frontendToProfile()[window.location.origin] + "/opportunities";
+    },

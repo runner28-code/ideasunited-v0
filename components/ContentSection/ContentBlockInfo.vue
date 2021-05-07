@@ -54,3 +54,4 @@
             v-if="block.creator.instagram || block.creator.linkedin"
           >
             <div class="slider-modal-content__creator-socials__item" v-if="block.creator.instagram">
+              <a :href="instagram(block.creator.instagram)" target="_blank">

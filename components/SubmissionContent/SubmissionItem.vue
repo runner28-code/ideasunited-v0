@@ -45,3 +45,4 @@ export default {
     layout: Object,
     previewLayout: Object
   },
+  data() {
