@@ -13,10 +13,10 @@
     class="elevation-0 btn"
     :href="href"
     :target="target"
-    :disabled="disabled"
     @focus.stop="onFocus($event)"
   >
     <slot></slot>
+  </v-btn>
 </template>
 
 <script>

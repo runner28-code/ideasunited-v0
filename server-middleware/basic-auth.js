@@ -1,5 +1,4 @@
 import axios from "axios";
-export default async function (req, res, next) {
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
   const { host } = req.headers;
@@ -10,6 +9,7 @@ export default async function (req, res, next) {
       `${process.env.API_URL}${process.env.API_PUBLIC_PATH}/projects/get_auth`,
       {
         headers: {
+          Nuxt: process.env.NUXT_ID,
           "App-Host": host,
           "App-Root-Path": req.url,
         },

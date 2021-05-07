@@ -11,5 +11,3 @@
   />
 </template>
 
-<script>
-export default {

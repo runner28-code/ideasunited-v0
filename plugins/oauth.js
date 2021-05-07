@@ -16,5 +16,3 @@ const providers = {
   }
 };
 
-// Temp comment
-export default function(ctx, inject) {

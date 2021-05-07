@@ -62,3 +62,4 @@ export default {
   computed: {
     styles() {
       const color = this.countdown.text_color;
+      const data = { color };

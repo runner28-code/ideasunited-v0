@@ -16,7 +16,6 @@
           {{ contentSection.more_link_text }}
         </span>
         <v-icon size="30" :color="activeTheme.primary_color"
-          >$chevron_right</v-icon
         >
       </a>
       <div class="content-section__title__underline" v-rellax="{speed: -0.25, center: true, percentage: 0.5}"></div>

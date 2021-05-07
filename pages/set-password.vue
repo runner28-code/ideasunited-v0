@@ -30,6 +30,5 @@ export default {
       token: this.$route.query.token
     };
   },
-  created() {
     if (process.client) {
       this.checkPasswordToken();
