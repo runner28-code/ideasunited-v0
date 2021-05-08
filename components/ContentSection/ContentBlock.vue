@@ -53,6 +53,7 @@ export default {
   data() {
     return {
       dialog: false
+    };
   },
   mounted() {
     const { block_id } = this.$route.query;

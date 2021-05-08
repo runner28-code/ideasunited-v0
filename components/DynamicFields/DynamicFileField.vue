@@ -5,7 +5,6 @@
     @input="$emit('input', $event)"
     :rules="rules"
     outlined
-    prepend-icon=""
   >
     <template #append>
       <div>

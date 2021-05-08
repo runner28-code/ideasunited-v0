@@ -71,7 +71,6 @@
     </div>
     <div
       class="content-section__view-more"
-      @click="toggleViewMore"
       v-show="filteredBlocks.length > 4"
     >
       <v-icon v-show="viewMore">$chevron_up</v-icon>

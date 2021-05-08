@@ -8,7 +8,6 @@
       Chat is temporarily locked
     </div>
 
-    <div v-else-if="currentUser.blocked && currentUser.blocked">
       You are blocked
     </div>
 
@@ -19,6 +18,7 @@
         rows="1"
         class="chat-footer__actions-input"
         placeholder="Say something"
+        v-model="message"
         maxlength="200"
       ></v-textarea>
       <div class="chat-footer__actions-bottom">

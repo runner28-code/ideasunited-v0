@@ -8,7 +8,6 @@
       <RootAppBar
         @toggleSidebar="drawer = !drawer"
       />
-      <SideBar v-model="drawer" />
     </client-only>
     <v-main>
       <HomePageLede />
