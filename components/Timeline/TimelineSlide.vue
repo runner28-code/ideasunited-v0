@@ -63,3 +63,5 @@ export default {
       return {
         active: this.isActive,
         earlier: status == "earlier",
+        just_posted: status == "just_posted",
+        soon: status == "coming_soon",

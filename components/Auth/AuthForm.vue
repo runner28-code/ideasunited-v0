@@ -5,7 +5,6 @@
         <div class="auth-admin-title">
           <span >
             iU Creator Login
-          </span>
         </div>
         <v-form @submit.prevent="login" ref="form" :disabled="disabled">
           <TextField
@@ -69,3 +68,5 @@ export default {
       if (this.$refs.form.validate()) {
         try {
           await this.$store.dispatch("auth/login", this.loginForm);
+          this.$root.$emit('fullpageRebuild');
+          this.$root.$emit("authModal/close");

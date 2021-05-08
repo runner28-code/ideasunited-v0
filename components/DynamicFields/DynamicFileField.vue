@@ -34,3 +34,4 @@ export default {
       default: () => []
     },
     size: {
+      type: String,

@@ -111,6 +111,7 @@ export default {
         videoElem.pause()
       });
     },
+    fullscreenExitEvents() {
       document.onfullscreenchange = () => {
         if (!document.fullscreenElement) {
           this.onFullscreenExit();
@@ -167,3 +168,7 @@ export default {
           maskSize: "100% 100%",
           duration: this.irisEnding.duration,
           ease: Power1.easeIn,
+        })
+        .add("irisrestored")
+        .to(previewMedia, {
+          y: document.documentElement.clientWidth * .0556 + 100,

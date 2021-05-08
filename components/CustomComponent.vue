@@ -30,3 +30,4 @@ export default {
   computed: {
     customComponent() {
       return (this.page || this.currentPage).custom_components[this.value];
+    }

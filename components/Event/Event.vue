@@ -101,3 +101,4 @@ export default {
       scrollPosition: null
     };
   },
+  methods: {

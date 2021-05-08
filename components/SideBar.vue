@@ -115,3 +115,6 @@ export default {
       this.accountSideBar = isOpen;
     });
     setTimeout(() => {
+      this.getOpportunityNotifications();
+    }, 1000);
+  },

@@ -1,9 +1,9 @@
 <template>
-  <div>
     <div class="file-input-wrapper" v-if="fileInput">
       <v-file-input
         class="file-input"
         :placeholder="label + (required && markRequired ? ' *' : '')"
+        :value="value"
         @input="$emit('input', $event)"
         :rules="rules"
         outlined
@@ -59,3 +59,4 @@ import { v4 as uuidv4 } from "uuid";
 export default {
   props: {
     value: [typeof window === "undefined" ? Object : window.File, Object],
+    placeholder: String,

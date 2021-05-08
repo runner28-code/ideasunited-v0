@@ -35,3 +35,4 @@ export default {
   props: {
     event: Object
   },
+  data() {

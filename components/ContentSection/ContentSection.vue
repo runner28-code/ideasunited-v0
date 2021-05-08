@@ -81,6 +81,7 @@
 </template>
 
 <script>
+import _ from "lodash";
 
 export default {
   name: "ContentSection",
@@ -127,3 +128,5 @@ export default {
     setTimeout(() => {
       window.dispatchEvent(new Event('resize')); // get rellax to refresh after content loaded.
     }, 1000);
+  },
+  computed: {

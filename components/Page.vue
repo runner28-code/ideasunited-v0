@@ -123,3 +123,5 @@ export default {
     window.addEventListener('keyup', this.keyUpHandler);
   },
   beforeDestroy() {
+    window.removeEventListener("keydown", this.keyDownHandler);
+    window.removeEventListener("keyup", this.keyUpHandler);

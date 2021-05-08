@@ -10,6 +10,7 @@
       :submit="submit"
       :fields="supportForm.support_form"
       v-model="form"
+      v-if="!submitted"
       :btn-text="supportForm.btn_text"
     />
     <div v-else class="support-form__submitted">
@@ -25,3 +26,4 @@ export default {
     page: Object,
   },
   data() {
+    return {

@@ -54,11 +54,11 @@
               :is="menuItem.url_type == 'relative' ? 'nuxt-link' : 'span'"
               :to="`#${menuItem.url}`"
               :class="{
-                'menu-item-hidden': menuItem.menu_style == 'home_logo',
               }"
             >
               <span @click="menuClick(menuItem, idx)">{{
                 menuItem.menu_title
+              }}</span>
               <span class="menu-caret" v-if="menuItem.menus.length">▾</span>
             </component>
           </template>
@@ -131,3 +131,5 @@ export default {
     this.mounted = true;
     this.$root.$on("drawerUpdate", (isOpen) => {
       this.drawer = isOpen;
+    });
+  },

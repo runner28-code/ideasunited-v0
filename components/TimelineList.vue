@@ -16,7 +16,6 @@
 <script>
 
 export default {
-  name: "Timeline",
   props: {
     value: String,
     page: Object,
@@ -24,3 +23,4 @@ export default {
   computed: {
     timelineList() {
       return (this.page || this.currentPage).timeline_lists[this.value];
+    },

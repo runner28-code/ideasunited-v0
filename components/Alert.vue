@@ -2,6 +2,7 @@
   <v-snackbar
     v-if="alert"
     class="alert-container"
+    v-model="alert"
     top
     :timeout="alert.timeout || 15000"
   >
@@ -40,7 +41,7 @@ export default {
     });
   },
   methods: {
-    onclick() {
       if (this.alert.onclick) {
         this.alert.onclick();
         this.alert = false;
+      }

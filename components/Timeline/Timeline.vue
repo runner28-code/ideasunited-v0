@@ -85,6 +85,8 @@ export default {
       console.info("nextEvent idx", idx);
       const nextSlide = this.events[idx + 1];
       console.info("nextEvent nextSlide", nextSlide);
+      if (nextSlide) {
         this.setActive(nextSlide.id);
       }
     },
+    setActive(id) {

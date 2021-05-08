@@ -23,7 +23,7 @@ export default {
       console.info('Chat created this', this);
       this.$cable.subscribe({
         channel: "ChatChannel",
-        chat_id: this.chat.id,
         env: this.currentProject.env
       });
     }
+  },

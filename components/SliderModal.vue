@@ -61,3 +61,4 @@ export default {
     nextId: String,
     scrollToElement: {
       type: Boolean,
+      default: false
