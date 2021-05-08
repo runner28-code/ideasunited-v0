@@ -111,7 +111,6 @@ export default {
         videoElem.pause()
       });
     },
-    fullscreenExitEvents() {
       document.onfullscreenchange = () => {
         if (!document.fullscreenElement) {
           this.onFullscreenExit();
@@ -164,3 +163,7 @@ export default {
           clearProps: "pointerEvents",
         })
         .add("start")
+        .to(previewMedia, {
+          maskSize: "100% 100%",
+          duration: this.irisEnding.duration,
+          ease: Power1.easeIn,

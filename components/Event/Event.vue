@@ -99,3 +99,5 @@ export default {
       activeEvent: null,
       showMobileChat: false,
       scrollPosition: null
+    };
+  },

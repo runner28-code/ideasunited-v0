@@ -6,7 +6,6 @@
   </div>
 </template>
 
-<script>
 import _ from "lodash";
 export default {
   head() {
@@ -37,3 +36,4 @@ export default {
       meta,
       link: [
         { rel: "icon", href: this.currentProject?.favicon.url || this.activeTheme.favicon.url || "/favicon.ico" }
+      ]

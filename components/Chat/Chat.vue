@@ -26,3 +26,4 @@ export default {
         chat_id: this.chat.id,
         env: this.currentProject.env
       });
+    }

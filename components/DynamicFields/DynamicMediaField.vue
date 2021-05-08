@@ -4,7 +4,6 @@
       <v-file-input
         class="file-input"
         :placeholder="label + (required && markRequired ? ' *' : '')"
-        :value="value"
         @input="$emit('input', $event)"
         :rules="rules"
         outlined
@@ -18,6 +17,7 @@
     </div>
     <div class="uploader-wrapper" v-else>
       <div class="uploader__label" v-if="showLabel && label">
+        {{ label
         }}<span v-if="required && markRequired" class="radio-group__required"
           >*</span
         >
@@ -58,3 +58,4 @@ import { v4 as uuidv4 } from "uuid";
 
 export default {
   props: {
+    value: [typeof window === "undefined" ? Object : window.File, Object],

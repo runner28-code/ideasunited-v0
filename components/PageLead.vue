@@ -21,3 +21,7 @@
 </template>
 
 <script>
+export default {
+  computed: {
+    styles() {
+      const styles = {};

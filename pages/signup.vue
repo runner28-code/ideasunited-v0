@@ -23,4 +23,4 @@ export default {
       this.$store.dispatch("auth/logout");
       this.$emit('input', false)
     }
-  },
+  mounted() {

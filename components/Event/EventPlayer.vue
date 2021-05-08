@@ -18,3 +18,4 @@
       :event="event"
       :title="event.title"
       :key="event.id"
+    />

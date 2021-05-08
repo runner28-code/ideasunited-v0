@@ -61,3 +61,5 @@ export default {
     classList() {
       const { id, status } = this.value;
       return {
+        active: this.isActive,
+        earlier: status == "earlier",

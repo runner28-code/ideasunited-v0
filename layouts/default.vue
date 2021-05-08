@@ -11,7 +11,6 @@
           <transition name="fade">
             <div
               v-if="newOpps.length"
-              class="opp-count"
             >{{ newOpps.length }}</div>
           </transition>
         </v-btn>
@@ -96,3 +95,6 @@ export default {
             ),
           },
         });
+      }
+
+      const fontkitIds = _.uniq(typekitFonts.map((font) => font.typekit_id));

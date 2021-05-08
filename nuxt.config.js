@@ -47,6 +47,7 @@ export default {
     { src: "~/plugins/spinner.js", ssr: false },
     { src: "~/plugins/actioncable.js", ssr: false },
     { src: "~/plugins/infinite-loader.js", ssr: false },
+// Temp comment
     { src: "~/plugins/fullpage", mode: "client" },
     { src: "~/plugins/vue-rellax.js", ssr: false }
   ],
@@ -59,3 +60,5 @@ export default {
         detect: () =>
           "scrollBehavior" in document.documentElement.style &&
           window.__forceSmoothScrollPolyfill__ !== true,
+        install: (smoothscroll) => {
+          smoothscroll.polyfill();

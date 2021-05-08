@@ -1,5 +1,4 @@
 import resources from "./resources.api";
-// Temp comment
 import Qs from "qs";
 
 export default ({ $axios, redirect, route, $cookies, req }) => {
@@ -13,7 +12,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
           requestConfig.headers["Auth"] = authToken;
         }
       }
-
       if (process.server) {
         requestConfig.headers["Nuxt"] = process.env.NUXT_ID;
       }

@@ -46,3 +46,4 @@ export default {
     previewLayout: Object
   },
   data() {
+    return {

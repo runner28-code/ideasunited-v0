@@ -77,3 +77,5 @@ export default {
   props: {
     dialogState: Object,
   },
+  data() {
+    return {

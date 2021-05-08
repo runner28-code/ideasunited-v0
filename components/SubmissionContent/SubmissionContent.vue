@@ -40,3 +40,4 @@ export default {
       page: 1,
       search: ""
     };
+  },

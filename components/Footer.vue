@@ -17,6 +17,7 @@
           >
         </div>
         <div class="footer__menu-item">
+          <a @click="clickFAQ"
             >FAQ</a
           >
         </div>
@@ -67,3 +68,17 @@ export default {
       this.supportForm = data;
     },
     clickFAQ() {
+      if(process.client) {
+        window.location.href = frontendToProfile()[window.location.origin] + "/faq";
+      }
+    }
+  },
+  watch:{
+    supportDialog:function(newValue, old){
+      if(!newValue){
+        this.$root.$emit('resetSupportForm');
+      }
+    }
+  }
+};
+</script>

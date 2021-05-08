@@ -39,3 +39,4 @@
         </div>
         <div>
           <span>{{ message.length }}/200</span>
+          <v-btn icon @click="sendMessage">

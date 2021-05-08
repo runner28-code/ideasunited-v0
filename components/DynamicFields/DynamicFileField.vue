@@ -33,3 +33,4 @@ export default {
       type: Array,
       default: () => []
     },
+    size: {

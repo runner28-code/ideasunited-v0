@@ -60,3 +60,4 @@ export default {
     prevId: String,
     nextId: String,
     scrollToElement: {
+      type: Boolean,

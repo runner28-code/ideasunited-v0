@@ -10,6 +10,7 @@
     >
       <div
         class="eligible-preview"
+        :style="{ backgroundImage: `url(${badge.preview.url})` }"
       ></div>
       <div class="eligible-label">{{ badge.title }}</div>
     </a>
@@ -19,3 +20,4 @@
 <script>
 import { frontendToProfile } from "@/utils";
 export default {
+  props: {

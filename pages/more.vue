@@ -25,6 +25,7 @@ export default {
       return this.currentProject.grid_menu_pages;
     }
   }
+};
 </script>
 
 <style scoped lang="scss">

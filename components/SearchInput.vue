@@ -14,7 +14,6 @@
 import { getThemeByColor } from "@/utils";
 
 export default {
-  name: "SearchInput",
   props: {
     value: String
   },
@@ -31,3 +30,4 @@ export default {
     },
     calcTheme() {
       return getThemeByColor(this.activeTheme.primary_color);
+    }

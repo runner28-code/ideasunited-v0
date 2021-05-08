@@ -38,3 +38,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+a.text-block__item-wrapper:hover {

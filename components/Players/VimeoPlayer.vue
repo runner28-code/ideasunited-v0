@@ -27,3 +27,4 @@ export default {
   },
   mounted() {
     this.player = new this.$Vimeo(this.$refs.vimeo);
+    this.player.on("ended", () => {
