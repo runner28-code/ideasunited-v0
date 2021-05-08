@@ -79,3 +79,4 @@ export default {
       if (googleFonts.length) {
         this.$WebFont.load({
           google: {
+            families: _.uniq(

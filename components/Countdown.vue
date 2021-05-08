@@ -63,3 +63,5 @@ export default {
     styles() {
       const color = this.countdown.text_color;
       const data = { color };
+      if (this.countdown.bg_color)
+        data.backgroundColor = this.countdown.bg_color;

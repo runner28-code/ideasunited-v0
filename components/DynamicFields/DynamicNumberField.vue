@@ -8,3 +8,4 @@
     outlined
     @focus.stop="onFocus($event)"
   />
+</template>

@@ -7,13 +7,13 @@
     ></component>
   </div>
 </template>
+
 <script>
 import Vue from "vue";
 import Spinner from "./Spinner";
 import { v4 as uuidv4 } from "uuid";
 
 export default {
-  props: {
     value: String,
     page: Object,
   },
@@ -28,3 +28,4 @@ export default {
   },
   computed: {
     customComponent() {
+      return (this.page || this.currentPage).custom_components[this.value];

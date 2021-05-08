@@ -161,3 +161,6 @@ export default {
           maskSize: this.irisEnding.size + "% " + this.irisEnding.size + "%",
         })
         .set(previewVideo, {
+          clearProps: "pointerEvents",
+        })
+        .add("start")

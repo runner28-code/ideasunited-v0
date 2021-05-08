@@ -104,7 +104,6 @@ export default {
     value: Boolean,
     noRoot: Boolean
   },
-  data(){
     return {
       year: new Date().getFullYear(),
       newOpps: [],
@@ -112,3 +111,4 @@ export default {
   },
   mounted(){
     this.$root.$on('updateAccountSideBar', (isOpen) => {
+      this.accountSideBar = isOpen;

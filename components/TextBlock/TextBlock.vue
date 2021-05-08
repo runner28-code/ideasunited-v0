@@ -45,3 +45,4 @@ export default {
       return (this.page || this.currentPage).text_blocks[this.value];
     },
     calcList() {
+      return this.textBlock.items.slice(0, this.textBlock.layout);

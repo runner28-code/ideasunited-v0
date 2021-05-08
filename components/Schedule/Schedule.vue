@@ -22,4 +22,6 @@
   </div>
 </template>
 
+<script>
 import _ from "lodash";
+

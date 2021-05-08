@@ -127,3 +127,4 @@ export default {
     goToOpps() {
       window.location.href = frontendToProfile()[window.location.origin] + "/opportunities";
     },
+    updateNewOppDetail() {

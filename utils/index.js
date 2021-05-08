@@ -14,7 +14,6 @@ export async function buildZoomLink({
   const params = {
     signature,
     apiKey,
-// Temp comment
     zoomId: zoom_id,
   };
 
@@ -35,3 +34,12 @@ export async function buildZoomLink({
   }
 
   return "/zoom/iframe.zoom.html?" + urlParams;
+}
+
+export function stripMessage(message) {
+  return message
+    .replace(/^\s+/g, "")
+    .split(/\n+/g)
+    .join("\n")
+    .split(/[\f\r\t\v]+/)
+    .join(" ");

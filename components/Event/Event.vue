@@ -81,6 +81,7 @@
       @click="showMobileChat = !showMobileChat"
     >
       <span v-if="!showMobileChat">
+        Show Chat
         <v-icon>$menu_down</v-icon>
       </span>
       <span v-else>
@@ -97,3 +98,4 @@ export default {
     return {
       activeEvent: null,
       showMobileChat: false,
+      scrollPosition: null

@@ -25,3 +25,4 @@ export default {
     supportForm: Object,
     page: Object,
   },
+  data() {

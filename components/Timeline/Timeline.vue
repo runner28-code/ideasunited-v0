@@ -65,7 +65,6 @@ export default {
       timeouts: {}
     };
   },
-  created() {
     this.initOn();
     this.initEvent();
   },
@@ -86,3 +85,4 @@ export default {
       const nextSlide = this.events[idx + 1];
       console.info("nextEvent nextSlide", nextSlide);
       if (nextSlide) {
+        this.setActive(nextSlide.id);

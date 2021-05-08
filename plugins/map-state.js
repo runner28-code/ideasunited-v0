@@ -16,7 +16,6 @@ if (!Vue.__map_state_mixin__) {
           window.scroll({
             top: y,
             behavior: "smooth",
-          });
         }
       },
       async $confirm({ title, description }) {

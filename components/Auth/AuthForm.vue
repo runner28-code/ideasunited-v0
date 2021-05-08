@@ -67,3 +67,4 @@ export default {
   methods: {
     async login() {
       if (this.$refs.form.validate()) {
+        try {

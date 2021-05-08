@@ -18,7 +18,6 @@
     </div>
     <div class="uploader-wrapper" v-else>
       <div class="uploader__label" v-if="showLabel && label">
-        {{ label
         }}<span v-if="required && markRequired" class="radio-group__required"
           >*</span
         >
@@ -37,6 +36,7 @@
         <div class="uploader__placeholder">
           {{
             (value && value.name) ||
+              label + (required && markRequired ? " *" : "")
           }}
         </div>
         <input @change="handleChange" class="uploader__input" type="file" />
@@ -57,3 +57,4 @@
 import { v4 as uuidv4 } from "uuid";
 
 export default {
+  props: {

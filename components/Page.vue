@@ -120,3 +120,4 @@ export default {
       }
     }, 0);
     window.addEventListener('keydown', this.keyDownHandler);
+    window.addEventListener('keyup', this.keyUpHandler);

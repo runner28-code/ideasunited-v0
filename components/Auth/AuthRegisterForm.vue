@@ -15,6 +15,7 @@
               class="signup-btn"
               elevation="0"
               @click="clickRegister()"
+              >{{ registrationForm.sign_up_btn_text || "Register" }}</v-btn
             >
           </div>
         </div>
@@ -75,3 +76,4 @@ export default {
   extends: registrationMixin,
   props: {
     dialogState: Object,
+  },

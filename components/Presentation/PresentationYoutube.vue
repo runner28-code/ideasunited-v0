@@ -24,3 +24,4 @@ export default {
     });
 
     if (this.newSlideSettings.started) this.play();
+
