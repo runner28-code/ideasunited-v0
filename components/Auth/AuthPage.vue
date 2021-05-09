@@ -6,3 +6,4 @@
         ? `url(${activeTheme.splash_screen.url})`
         : null
     }"
+  >

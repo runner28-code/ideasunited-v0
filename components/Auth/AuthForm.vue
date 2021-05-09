@@ -10,6 +10,7 @@
         <v-form @submit.prevent="login" ref="form" :disabled="disabled">
           <TextField
             v-model="loginForm.email"
+            block
             :rules="[$rules.required]"
             label="Email"
             type="email"
@@ -70,3 +71,4 @@ export default {
           await this.$store.dispatch("auth/login", this.loginForm);
           this.$root.$emit('fullpageRebuild');
           this.$root.$emit("authModal/close");
+          this.$root.$emit('leaveSignup');

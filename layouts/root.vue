@@ -83,3 +83,4 @@ export default {
               googleFonts.map(font => font.font_name + ":300,400,500,700,900")
             )
           }
+        });

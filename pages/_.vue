@@ -32,8 +32,8 @@ export default {
 
     meta = _.uniqBy(meta, function(tag) { return (tag.name || "") + "_" + (tag.property || "") });
 
+    return {
       title: this.currentPage?.headline || this.currentProject?.headline,
-      meta,
       link: [
         { rel: "icon", href: this.currentProject?.favicon.url || this.activeTheme.favicon.url || "/favicon.ico" }
       ]

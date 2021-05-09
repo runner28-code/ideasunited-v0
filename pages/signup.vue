@@ -25,3 +25,4 @@ export default {
     }
   },
   mounted() {
+    this.$root.$on('leaveSignup', () => {

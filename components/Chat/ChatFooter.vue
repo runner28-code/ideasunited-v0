@@ -30,7 +30,6 @@
                 <v-icon>
                   $emoji
                 </v-icon>
-              </v-btn>
             </template>
             <div>
               <VEmojiPicker @select="selectEmoji" />
@@ -41,3 +40,4 @@
           <span>{{ message.length }}/200</span>
           <v-btn icon @click="sendMessage">
             <v-icon>$send</v-icon>
+          </v-btn>

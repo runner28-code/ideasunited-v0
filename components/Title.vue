@@ -13,3 +13,4 @@ export default {
     }
   },
   computed: {
+    styles() {

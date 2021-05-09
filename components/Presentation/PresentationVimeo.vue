@@ -25,3 +25,4 @@ export default {
     };
   },
   mounted() {
+    this.player = new Player(this.$refs.vimeo);

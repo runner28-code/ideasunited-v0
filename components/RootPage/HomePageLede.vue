@@ -48,7 +48,6 @@
           <div class="root-lede__text">
             <div class="root-lede__header">Let’s <span class="root-lede__header__create">Create<span class="root-lede__header__create-doodle"></span></span> Together
               <div class="root-lede__header__underline" v-rellax="{speed: -1}"></div>
-            </div>
             <div class="root-lede__intro">
               We're changing the way stories are told by connecting creators to projects, gear, educational resources, and a global community of ambitious people that want to make cool stuff. 
             </div>
@@ -172,3 +171,7 @@ export default {
         .add("irisrestored")
         .to(previewMedia, {
           y: document.documentElement.clientWidth * .0556 + 100,
+          x: document.documentElement.clientWidth * 0.5,
+          width: document.documentElement.clientWidth * this.$size == 'xl' ? 0.38 : 0.41667,
+          height: document.documentElement.clientWidth * 0.3472,
+          ease: Power1.easeOut,

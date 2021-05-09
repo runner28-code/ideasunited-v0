@@ -42,3 +42,4 @@ export default {
     };
   },
   methods: {
+    getId(index) {

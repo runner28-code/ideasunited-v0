@@ -17,7 +17,6 @@
         :class="['social-auth__item--' + item.provider]"
         v-for="item in items"
         :key="item.id"
-      >
         <v-icon color="white" size="24">${{ item.provider }}</v-icon>
       </div>
     </div>

@@ -46,3 +46,4 @@ export default {
         this.alert.onclick();
         this.alert = false;
       }
+    }

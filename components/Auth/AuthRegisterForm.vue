@@ -80,3 +80,5 @@ export default {
   data() {
     return {
       form: {
+        registration_form_id: null,
+        register_url: null,

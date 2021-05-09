@@ -77,6 +77,7 @@
       <v-icon v-show="viewMore">$chevron_up</v-icon>
       <v-icon v-show="!viewMore">$chevron_down</v-icon>
     </div>
+  </div>
 </template>
 
 <script>
@@ -129,3 +130,6 @@ export default {
     }, 1000);
   },
   computed: {
+    contentSection() {
+      return (this.page || this.currentPage).content_sections[this.resource_id];
+    },

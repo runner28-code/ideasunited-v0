@@ -28,3 +28,4 @@ export default {
     };
   },
   mounted() {
+    this.$root.$on(`authModal/open`, () => {

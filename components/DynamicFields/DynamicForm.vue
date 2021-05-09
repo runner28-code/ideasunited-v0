@@ -52,6 +52,7 @@
 </template>
 
 <script>
+import DynamicCheckbox from "./DynamicCheckbox";
 import DynamicEmailField from "./DynamicEmailField";
 import DynamicHtmlBlock from "./DynamicHtmlBlock";
 import DynamicNumberField from "./DynamicNumberField";
@@ -68,7 +69,6 @@ export default {
     fields: Array,
     value: Object,
     submit: Function,
-    markRequired: Boolean,
     showLabel: Boolean,
     description: String,
     btnText: String,

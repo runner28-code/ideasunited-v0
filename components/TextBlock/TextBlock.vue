@@ -19,6 +19,7 @@
       />
     </div>
     <div
+      class="text-block__side text-block__side-double"
       v-if="[2, 3].includes(textBlock.layout)"
     >
       <TextblockItem
@@ -46,3 +47,4 @@ export default {
     calcList() {
       return this.textBlock.items.slice(0, this.textBlock.layout);
     }
+  }

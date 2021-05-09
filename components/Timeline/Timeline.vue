@@ -10,7 +10,6 @@
     </v-btn>
     <swiper ref="swiper" class="timeline__swiper" :options="swiperOption">
       <swiper-slide
-        class="timeline__swiper-slide"
         v-for="event in timelineEvents"
         :key="event.id"
         :class="{ posted: event.posted }"
@@ -90,3 +89,5 @@ export default {
       }
     },
     setActive(id) {
+      const active = this.events.find(t => t.id == id);
+      if (active?.posted) {

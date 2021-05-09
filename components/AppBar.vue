@@ -134,3 +134,6 @@ export default {
       this.drawer = isOpen;
     });
   },
+  methods: {
+    async menuClick(item, idx) {
+      this.$root.$emit("menuClick", item, idx);

@@ -16,6 +16,7 @@
         @click="yesImSure()"
         >Yes, I'm Sure</Button
       >
+    </v-card>
   </v-dialog>
 </template>
 

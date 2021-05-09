@@ -70,3 +70,5 @@ export default {
       return data;
     },
     countdown() {
+      return (this.page || this.currentPage).countdowns[this.value];
+    }

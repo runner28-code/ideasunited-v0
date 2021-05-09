@@ -23,3 +23,4 @@ export default {
   props: {
     value: Object,
     successMessage: String,
+  },

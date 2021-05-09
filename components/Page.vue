@@ -105,6 +105,7 @@ export default {
     this.$root.$on("fullpageScrollReset", () => {
       this.fullpageScrollReset();
     });
+
     this.$root.$on("fullpageScrollFocus", (elem) => {
       this.fullpageScrollFocus(elem);
     });
@@ -124,3 +125,5 @@ export default {
   beforeDestroy() {
     window.removeEventListener("keydown", this.keyDownHandler);
     window.removeEventListener("keyup", this.keyUpHandler);
+  },
+  methods: {
