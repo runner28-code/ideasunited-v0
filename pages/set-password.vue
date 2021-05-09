@@ -15,6 +15,7 @@
       />
       <Button type="submit" :refs="$refs" block x-large>
         Submit
+      </Button>
     </v-form>
   </div>
 </template>

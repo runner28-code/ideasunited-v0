@@ -42,4 +42,3 @@ export function stripMessage(message) {
     .split(/\n+/g)
     .join("\n")
     .split(/[\f\r\t\v]+/)
-    .join(" ");

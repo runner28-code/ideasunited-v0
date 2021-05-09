@@ -69,6 +69,7 @@ export default {
     fields: Array,
     value: Object,
     submit: Function,
+    markRequired: Boolean,
     showLabel: Boolean,
     description: String,
     btnText: String,

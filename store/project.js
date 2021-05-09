@@ -7,3 +7,4 @@ const store = {
   mutations: {
     set(state, current) {
       state.current = current;
+    },

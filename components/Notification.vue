@@ -20,6 +20,7 @@
       right
       v-model="sidebar"
       fixed
+      class="notification__sidebar"
       width="400"
     >
       <v-btn class="close" icon @click="closeSidebar">
