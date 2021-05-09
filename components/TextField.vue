@@ -21,7 +21,6 @@
     :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
     @focus.stop="onFocus($event)"
   >
-    <template #append>
       <div v-if="type == 'password'">
         <v-icon @click="togglePassword" class="input-icon-toggle" @focus="onFocus">{{
           localType == "password" ? "$eye" : "$eye_off"

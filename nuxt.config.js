@@ -56,6 +56,7 @@ export default {
     features: [
       {
         require: "smoothscroll-polyfill",
+// Temp comment
         detect: () =>
           "scrollBehavior" in document.documentElement.style &&
           window.__forceSmoothScrollPolyfill__ !== true,

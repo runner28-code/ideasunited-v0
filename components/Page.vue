@@ -105,7 +105,6 @@ export default {
     this.$root.$on("fullpageScrollReset", () => {
       this.fullpageScrollReset();
     });
-
     this.$root.$on("fullpageScrollFocus", (elem) => {
       this.fullpageScrollFocus(elem);
     });

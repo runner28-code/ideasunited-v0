@@ -2,6 +2,7 @@
   <v-form
     @submit.prevent="submitCallback"
     v-model="valid"
+    ref="form"
     class="dynamic-form"
     :disabled="disabled"
   >
@@ -51,7 +52,6 @@
 </template>
 
 <script>
-import DynamicCheckbox from "./DynamicCheckbox";
 import DynamicEmailField from "./DynamicEmailField";
 import DynamicHtmlBlock from "./DynamicHtmlBlock";
 import DynamicNumberField from "./DynamicNumberField";

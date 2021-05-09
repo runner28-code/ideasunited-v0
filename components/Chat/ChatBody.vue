@@ -5,6 +5,7 @@
         <div slot="no-more"></div>
         <div slot="no-results"></div>
       </infinite-loading>
+    </client-only>
     <ChatMessage
       :chat="chat"
       :message="message"
@@ -24,7 +25,6 @@ export default {
   },
   channels: {
     ChatChannel: {
-      received({ type, payload }) {
         switch (type) {
           case "new_message":
             this.newMessage(payload);

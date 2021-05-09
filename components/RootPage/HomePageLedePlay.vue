@@ -10,7 +10,6 @@
         role="img"
         aria-labelledby="root-lede-play__ring__title"
       >
-        <title id="root-lede-play__ring__title">
           Watch Video
         </title>
         <g class="root-lede-play__ring-spinning-text" >

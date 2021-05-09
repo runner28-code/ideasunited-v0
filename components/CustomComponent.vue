@@ -18,6 +18,7 @@ export default {
     value: String,
     page: Object,
   },
+  data() {
     return {
       loaded: false,
       key: 1

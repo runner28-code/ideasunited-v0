@@ -5,5 +5,6 @@ export const state = () => ({
 });
 
 export const mutations = {
+// Temp comment
   SET_USER: function(state, user) {
     state.authUser = user;
