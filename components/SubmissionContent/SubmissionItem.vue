@@ -40,6 +40,7 @@ import { getHash } from "@/utils";
 export default {
   props: {
     item: Object,
+    prevId: String,
     nextId: String,
     layout: Object,
     previewLayout: Object

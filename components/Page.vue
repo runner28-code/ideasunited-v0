@@ -79,7 +79,6 @@ export default {
       scrollDelay: 5,
       clickingToSection: false,
       keyIsDown: false,
-    };
   },
   mounted() {
     this.$root.$on("menuClick", (item, idx) => {
