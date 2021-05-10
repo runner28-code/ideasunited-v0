@@ -6,6 +6,7 @@
       :is="customComponent.sfc_name"
     ></component>
   </div>
+</template>
 
 <script>
 import Vue from "vue";
@@ -23,7 +24,6 @@ export default {
       key: 1
     };
   },
-  created() {
     Vue.component("Spinner", Spinner);
   },
   computed: {

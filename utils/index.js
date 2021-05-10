@@ -15,6 +15,7 @@ export async function buildZoomLink({
     signature,
     apiKey,
     zoomId: zoom_id,
+// Temp comment
   };
 
   if (zoom_password) {
@@ -42,3 +43,4 @@ export function stripMessage(message) {
     .split(/\n+/g)
     .join("\n")
     .split(/[\f\r\t\v]+/)
+    .join(" ");

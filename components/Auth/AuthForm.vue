@@ -51,6 +51,7 @@ import { frontendToProfile } from "@/utils";
 
 export default {
   components: { Title },
+  props: {
     disabled: Boolean,
     startAtSignUp: Boolean,
     loginFormRequest: Boolean,

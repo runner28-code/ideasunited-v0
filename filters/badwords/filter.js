@@ -33,6 +33,7 @@ class Filter {
   }
 
   clean(string) {
+    const join = this.splitRegex.exec(string);
     return string
       .split(this.splitRegex)
       .map(word => {

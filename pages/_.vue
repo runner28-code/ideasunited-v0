@@ -22,6 +22,7 @@ export default {
         property: "og:description",
         content: this.currentProject?.og_description || this.currentProject?.description
       },
+      {
         name: "description",
         content: this.currentProject.description
       }

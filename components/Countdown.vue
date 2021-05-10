@@ -32,7 +32,6 @@
           v-html="countdown.right_title"
           class="countdown__text text-right"
         ></div>
-      </div>
     </div>
   </div>
 </template>
@@ -72,3 +71,4 @@ export default {
     countdown() {
       return (this.page || this.currentPage).countdowns[this.value];
     }
+  },

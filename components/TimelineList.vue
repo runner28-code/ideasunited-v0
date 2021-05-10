@@ -23,6 +23,5 @@ export default {
   },
   computed: {
     timelineList() {
-      return (this.page || this.currentPage).timeline_lists[this.value];
     },
     items() {

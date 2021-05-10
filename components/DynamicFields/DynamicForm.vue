@@ -35,7 +35,6 @@
         Already a member?
       </Button>
       <Button :refs="$refs" type="submit" :disabled="!valid || loading">
-        <span v-if="loading">
           <v-progress-circular
             :size="16"
             :width="2"
