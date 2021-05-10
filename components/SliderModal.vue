@@ -21,6 +21,7 @@
         </v-btn>
         <v-btn
           v-if="nextId"
+          @click="openNext"
           @keyup.enter="openNext"
           icon
           class="slider-modal__arrow slider-modal__next"
@@ -63,3 +64,4 @@ export default {
       default: false
     }
   },
+  data() {

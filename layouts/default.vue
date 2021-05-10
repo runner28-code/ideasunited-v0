@@ -23,7 +23,6 @@
       <div
         class="mobile-scroll"
         ref="mobileScroll"
-        v-scroll.self="mobileScroll"
       >
         <Nuxt :key="key" ref="main-content" />
         <Footer />
@@ -103,3 +102,6 @@ export default {
       fontkitIds.forEach((fontkitId) => {
         this.$WebFont.load({
           typekit: {
+            id: fontkitId,
+          },
+        });

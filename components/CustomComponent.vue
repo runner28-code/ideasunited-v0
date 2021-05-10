@@ -31,3 +31,4 @@ export default {
     customComponent() {
       return (this.page || this.currentPage).custom_components[this.value];
     }
+  },

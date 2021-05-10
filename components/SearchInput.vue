@@ -7,7 +7,6 @@
         <span v-if="!localValue">Search</span>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -33,3 +32,4 @@ export default {
       return getThemeByColor(this.activeTheme.primary_color);
     }
   },
+  watch: {

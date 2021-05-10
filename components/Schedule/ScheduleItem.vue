@@ -33,3 +33,4 @@ export default {
         this.$router.push(page_url + "?event_id=" + id);
         this.$root.$emit("setActiveEvent", id);
       }
+    }

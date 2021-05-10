@@ -35,3 +35,4 @@ export default {
             break;
           case "update_message":
             this.updateMessage(payload);
+            break;

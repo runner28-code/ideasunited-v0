@@ -1,4 +1,5 @@
 <template>
+  <div class="timeline-list" :style="timelineCssVars">
     <ul class="timeline-list__ul">
       <li v-for="item in items" :key="item.uuid">
         <div class="timeline-list__date">
@@ -6,7 +7,6 @@
         </div>
         <div class="timeline-list__text">
           {{ item.description }}
-        </div>
       </li>
     </ul>
   </div>
@@ -25,3 +25,4 @@ export default {
       return (this.page || this.currentPage).timeline_lists[this.value];
     },
     items() {
+      return this.timelineList?.settings?.items;

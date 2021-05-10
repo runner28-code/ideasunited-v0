@@ -27,7 +27,6 @@
             small
           >
             <v-icon size="20" color="white">$close</v-icon>
-          </v-btn>
         </div>
       </transition>
 
@@ -137,3 +136,6 @@ export default {
         this.newOppDetail = this.newOpps[this.newOppDetailIndex];
       } else {
         this.newOppDetailIndex = (this.newOppDetailIndex + 1) % this.newOpps.length;
+        this.newOppDetail = this.newOpps[this.newOppDetailIndex];
+      }
+      this.nextNewOppDetail();

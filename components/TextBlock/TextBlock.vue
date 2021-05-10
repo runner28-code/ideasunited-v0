@@ -34,7 +34,6 @@
   </div>
 </template>
 
-<script>
 export default {
   props: {
     value: String,
@@ -48,3 +47,4 @@ export default {
       return this.textBlock.items.slice(0, this.textBlock.layout);
     }
   }
+};

@@ -26,3 +26,4 @@ export default {
     opened: Boolean,
     suggestions: [Array, Object],
     form: Object
+  },

@@ -66,3 +66,5 @@ export default {
         just_posted: status == "just_posted",
         soon: status == "coming_soon",
         "timeline-slide": true
+      };
+    },

@@ -133,3 +133,6 @@ export default {
     contentSection() {
       return (this.page || this.currentPage).content_sections[this.resource_id];
     },
+    filteredBlocks() {
+      return this.contentSection.blocks.filter(
+        b =>

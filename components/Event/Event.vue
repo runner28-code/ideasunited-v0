@@ -104,3 +104,6 @@ export default {
   methods: {
     onScroll() {
       this.scrollPosition = window.top.scrollY;
+    }
+  },
+  mounted() {

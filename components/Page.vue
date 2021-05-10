@@ -79,6 +79,7 @@ export default {
       scrollDelay: 5,
       clickingToSection: false,
       keyIsDown: false,
+    };
   },
   mounted() {
     this.$root.$on("menuClick", (item, idx) => {
@@ -126,3 +127,5 @@ export default {
     window.removeEventListener("keyup", this.keyUpHandler);
   },
   methods: {
+    async fullPageMoveTo(idx) {
+      this.clickingToSection = true;

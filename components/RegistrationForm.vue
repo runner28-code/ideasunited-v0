@@ -51,7 +51,6 @@
       v-else-if="!currentUser.confirmed"
       class="registration-form__not-confirmed"
     >
-      <Title
         v-if="registrationForm.title"
         tag="h2"
         class="registration-form__title"

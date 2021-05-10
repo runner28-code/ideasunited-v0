@@ -42,3 +42,4 @@
           <v-btn icon @click="sendMessage">
             <v-icon>$send</v-icon>
           </v-btn>
+        </div>

@@ -66,7 +66,6 @@
 import { TimelineLite, Power1 } from 'gsap/dist/gsap';
 import HomePageLedePlay from "@/components/RootPage/HomePageLedePlay";
 
-export default {
   components: { HomePageLedePlay },
   data () {
     const slides = [
@@ -176,3 +175,7 @@ export default {
           width: document.documentElement.clientWidth * this.$size == 'xl' ? 0.38 : 0.41667,
           height: document.documentElement.clientWidth * 0.3472,
           ease: Power1.easeOut,
+          duration: 0.5,
+        }, "irisrestored")
+        .to(previewImage, {
+          duration: 0.5,

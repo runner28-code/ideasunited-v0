@@ -44,3 +44,4 @@
           <AuthRegisterForm />
         </div>
         <v-dialog width="800" v-model="supportDialog">
+          <v-card class="support__dialog">

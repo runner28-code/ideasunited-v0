@@ -82,3 +82,5 @@ export default {
       form: {
         registration_form_id: null,
         register_url: null,
+        data: {}
+      },

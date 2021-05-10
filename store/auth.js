@@ -1,3 +1,4 @@
+
 import cookies from "vue-cookies";
 /* eslint-disable */
 const store = {
@@ -11,3 +12,4 @@ const store = {
           ? "localhost"
           : "." + window.location.hostname;
       console.info('auth cookieDomain', cookieDomain);
+      if (token) {

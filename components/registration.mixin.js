@@ -4,4 +4,3 @@ export default {
       resending: false,
     }
   },
-  methods: {

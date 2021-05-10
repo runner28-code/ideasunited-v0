@@ -61,6 +61,7 @@ export default {
             spaceBetween: 20
           }
         }
+      },
       timeouts: {}
     };
   },
@@ -91,3 +92,5 @@ export default {
     setActive(id) {
       const active = this.events.find(t => t.id == id);
       if (active?.posted) {
+        this.$emit("input", active);
+      }

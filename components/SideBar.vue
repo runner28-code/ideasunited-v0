@@ -120,3 +120,5 @@ export default {
   },
   methods: {
     bindProps(menuItem) {
+      if (menuItem.url_type == "absolute") {
+        return {

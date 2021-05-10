@@ -8,6 +8,7 @@
       <div class="error-content">
         <div class="error-title">
           Restrict access...
+        </div>
         <div class="error-description">
           You don't have access to view this page.
         </div>

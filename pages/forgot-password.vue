@@ -25,3 +25,4 @@ export default {
       formModel: null,
       form: {},
       submitted: false
+    };

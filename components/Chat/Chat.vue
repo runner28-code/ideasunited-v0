@@ -28,3 +28,9 @@ export default {
       });
     }
   },
+  channels: {
+    ChatChannel: {
+      received({ type, payload }) {
+        switch (type) {
+          case "update_chat_params":
+            this.$store.commit("page/updateChat", payload);
