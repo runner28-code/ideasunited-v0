@@ -86,7 +86,6 @@
         >
           {{ menuItem.menu_title }}
         </a>
-      </div>
       <div class="app-bar__nav-footer">
         <div
           :key="menuItem.id"

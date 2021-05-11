@@ -19,6 +19,7 @@
     <v-navigation-drawer
       right
       v-model="sidebar"
+      fixed
       class="notification__sidebar"
       width="400"
     >

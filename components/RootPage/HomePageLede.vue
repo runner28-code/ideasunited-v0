@@ -66,6 +66,7 @@
 import { TimelineLite, Power1 } from 'gsap/dist/gsap';
 import HomePageLedePlay from "@/components/RootPage/HomePageLedePlay";
 
+export default {
   components: { HomePageLedePlay },
   data () {
     const slides = [
@@ -96,7 +97,6 @@ import HomePageLedePlay from "@/components/RootPage/HomePageLedePlay";
       maskImage: `url(${this.irisAsset})`
     });
     setTimeout(() => {
-      this.slideChange();
     }, 3000);
   },
   methods: {

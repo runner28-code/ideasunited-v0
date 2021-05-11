@@ -10,10 +10,10 @@
   >
     <template #label>
       <slot>
+        <span
           @click.stop
           v-html="label + (required && markRequired ? ' *' : '')"
         ></span>
       </slot>
     </template>
-  </v-checkbox>
 </template>
