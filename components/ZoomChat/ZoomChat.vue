@@ -18,4 +18,3 @@ export default {
     chat: Object
   },
   data() {
-    return {

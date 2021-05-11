@@ -13,7 +13,6 @@
         {{ btnText || "Account" }}
       </Button>
     </p>
-  </div>
 </template>
 
 <script>

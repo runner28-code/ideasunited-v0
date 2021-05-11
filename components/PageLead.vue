@@ -16,7 +16,6 @@
         :href="currentPage.lead_button_link"
         >{{ currentPage.lead_button_text }}</Button
       >
-    </div>
   </div>
 </template>
 
@@ -24,3 +23,4 @@
 export default {
   computed: {
     styles() {
+      const styles = {};

@@ -18,6 +18,7 @@
   </div>
 </template>
 
+<script>
 export default {
   computed: {
     gridMenuPages() {
@@ -29,4 +30,3 @@ export default {
 
 <style scoped lang="scss">
 .grid-menu {
-  display: flex;

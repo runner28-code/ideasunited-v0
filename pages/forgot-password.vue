@@ -15,6 +15,7 @@
       Email instructions successfully sent
     </div>
   </div>
+</template>
 
 <script>
 export default {
