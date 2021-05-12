@@ -3,6 +3,7 @@ import { mapState } from "vuex";
 import moment from "moment-timezone";
 
 if (!Vue.__map_state_mixin__) {
+  Vue.__map_state_mixin__ = true;
 
   Vue.mixin({
     methods: {
@@ -23,6 +24,7 @@ if (!Vue.__map_state_mixin__) {
           this.$root.$emit("confirmDialog", {
             title,
             description,
+// Temp comment
             callback: (value) => {
               resolve(value);
             },

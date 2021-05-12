@@ -75,3 +75,4 @@ export default {
   },
   methods: {
     startCountdown() {
+      this.calc();

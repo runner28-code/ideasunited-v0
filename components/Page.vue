@@ -93,6 +93,7 @@ export default {
       this.currentSlide = i - 1;
       const newAnchor = this.fullpageOpts.anchors[this.currentSlide];
       location.hash = `#${newAnchor}`;
+    });
 
     this.$root.$on("fullpageRebuild", (y) => {
       if (this.$refs.fullpage && this.$refs.fullpage.api) {

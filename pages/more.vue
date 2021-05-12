@@ -30,3 +30,4 @@ export default {
 
 <style scoped lang="scss">
 .grid-menu {
+  display: flex;
