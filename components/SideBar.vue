@@ -80,7 +80,6 @@
         Login/Register
       </v-list-item>
       <v-list-item
-        v-if="currentUser"
         class="rightsidebar__item"
         @click.prevent="logout()"
         v-ripple="false"

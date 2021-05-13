@@ -17,7 +17,6 @@ export default {
       status: "Connected",
       messages: []
     };
-  },
   created() {
     if (process.client) {
       console.info('Chat created this', this);

@@ -77,6 +77,7 @@
       <v-icon v-show="viewMore">$chevron_up</v-icon>
       <v-icon v-show="!viewMore">$chevron_down</v-icon>
     </div>
+  </div>
 </template>
 
 <script>
@@ -121,7 +122,6 @@ export default {
   mounted() {
     const { swiper } = this.$refs;
     if (swiper) {
-      this.swiperInstance = this.$refs.swiper.swiperInstance;
     }
     this.checkPosted();
     setTimeout(() => {

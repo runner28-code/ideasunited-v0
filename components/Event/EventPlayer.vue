@@ -13,7 +13,6 @@
     />
     <ZoomPlayer
       v-else-if="event.event_type == 'zoom'"
-      :zoomLink="event.zoom_url"
       :startAt="event.start_at"
       :event="event"
       :title="event.title"

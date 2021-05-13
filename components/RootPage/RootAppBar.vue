@@ -97,6 +97,7 @@ export default {
       redLogo: require("@/assets/images/logo-red.png"),
       newOpps: [],
       showNewOpps: true,
+      showNewOppDetails: true,
       newOppDetail: null,
       newOppDetailIndex: 0,
     };

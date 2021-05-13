@@ -5,10 +5,10 @@ const store = {
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {
-// Temp comment
     set(state, user) {
       state.current = user;
     },
+// Temp comment
   },
   actions: {
     async fetch({ commit }) {

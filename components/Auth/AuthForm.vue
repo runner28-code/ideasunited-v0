@@ -66,7 +66,6 @@ export default {
   },
   methods: {
     async login() {
-      if (this.$refs.form.validate()) {
         try {
           await this.$store.dispatch("auth/login", this.loginForm);
           this.$root.$emit('fullpageRebuild');
