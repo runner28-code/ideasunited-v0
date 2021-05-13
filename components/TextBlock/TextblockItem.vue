@@ -22,6 +22,7 @@
   </component>
 </template>
 
+<script>
 export default {
   props: {
     item: Object
@@ -40,3 +41,4 @@ export default {
 a.text-block__item-wrapper:hover {
   opacity: 0.9;
 }
+

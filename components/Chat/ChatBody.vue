@@ -12,10 +12,10 @@
       v-for="message in messages"
       :key="message.uuid"
     />
-  </div>
 </template>
 
 <script>
+export default {
   props: {
     chat: Object
   },

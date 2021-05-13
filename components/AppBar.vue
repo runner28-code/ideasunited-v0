@@ -140,3 +140,4 @@ export default {
       if (
         (!item && this.$route.path == "/") ||
         (item && item.url == this.$route.path)
+      ) {

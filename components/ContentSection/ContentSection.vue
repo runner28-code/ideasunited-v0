@@ -122,6 +122,7 @@ export default {
   mounted() {
     const { swiper } = this.$refs;
     if (swiper) {
+      this.swiperInstance = this.$refs.swiper.swiperInstance;
     }
     this.checkPosted();
     setTimeout(() => {
@@ -135,3 +136,4 @@ export default {
     filteredBlocks() {
       return this.contentSection.blocks.filter(
         b =>
+          b.posted &&

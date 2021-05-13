@@ -3,3 +3,5 @@ export default {
     return {
       resending: false,
     }
+  },
+  methods: {

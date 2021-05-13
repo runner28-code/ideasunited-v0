@@ -12,7 +12,6 @@
       >
         <div class="schedule__date">
           {{
-            group.date
               | moment("timezone", currentTimezone, "dddd, MMM Do")
           }}
         </div>
@@ -27,3 +26,4 @@ import _ from "lodash";
 
 export default {
   props: {
+    value: String,

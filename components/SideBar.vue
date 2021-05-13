@@ -80,6 +80,7 @@
         Login/Register
       </v-list-item>
       <v-list-item
+        v-if="currentUser"
         class="rightsidebar__item"
         @click.prevent="logout()"
         v-ripple="false"
@@ -121,3 +122,4 @@ export default {
     bindProps(menuItem) {
       if (menuItem.url_type == "absolute") {
         return {
+          href: menuItem.absolute_url,

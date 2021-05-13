@@ -26,6 +26,7 @@
             class="register__title"
             >{{ registrationForm.title }}</Title
           >
+          <div
             v-if="registrationForm.description"
             class="register__description"
           >
@@ -83,3 +84,4 @@ export default {
         register_url: null,
         data: {}
       },
+      areYouSureDialog: false,

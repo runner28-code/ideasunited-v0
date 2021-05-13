@@ -1,6 +1,7 @@
 <template>
   <div class="signup-page">
     <AuthRegisterForm v-if="!currentUser" />
+    <div 
       v-if="currentUser"
       >
       <div>You are logged in.<br/><br/></div>
@@ -25,3 +26,4 @@ export default {
   },
   mounted() {
     this.$root.$on('leaveSignup', () => {
+      window.location.href = frontendToProfile()[window.location.origin];

@@ -9,5 +9,7 @@
     class="dynamic-textarea"
     @focus.stop="onFocus($event)"
   />
+</template>
 
 <script>
+export default {

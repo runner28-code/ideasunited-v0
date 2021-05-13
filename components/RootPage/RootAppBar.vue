@@ -140,3 +140,4 @@ export default {
         this.newOppDetail = this.newOpps[this.newOppDetailIndex];
       }
       this.nextNewOppDetail();
+    },

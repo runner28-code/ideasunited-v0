@@ -180,3 +180,5 @@ export default {
         }, "irisrestored")
         .to(previewImage, {
           duration: 0.5,
+          opacity: 1,
+        }, "irisrestored")

@@ -28,6 +28,7 @@
   </div>
 </template>
 <script>
+import { buildZoomLink } from "@/utils";
 
 export default {
   name: "ZoomPlayer",
@@ -36,4 +37,3 @@ export default {
   },
   data() {
     return {
-      zoomUrl: null

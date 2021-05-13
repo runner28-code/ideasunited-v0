@@ -8,3 +8,4 @@ export default {
   created() {
     if (process.client) this.confirm();
   },
+  methods: {

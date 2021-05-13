@@ -14,14 +14,15 @@
 <script>
 import Player from "@vimeo/player";
 
+export default {
   props: {
     slide: Object,
     presentation: Object
   },
-  data() {
     return {
       started: false
     };
   },
   mounted() {
     this.player = new Player(this.$refs.vimeo);
+

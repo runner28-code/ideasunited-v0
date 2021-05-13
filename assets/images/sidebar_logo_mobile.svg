@@ -4,6 +4,7 @@
 	 viewBox="0 0 631.8 117.8" style="enable-background:new 0 0 631.8 117.8;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
+	.st1{enable-background:new    ;}
 </style>
 <g id="Layer_2_00000144320951523197578700000012706675608106242969_">
 	<g id="Layer_1-2">
@@ -26,3 +27,5 @@
 					</g>
 				</g>
 				<g>
+					<path class="st0" d="M84.7,87.6h-0.9v-0.5h2.4v0.5h-0.9v2.7h-0.6L84.7,87.6z"/>
+					<path class="st0" d="M86.7,87.2h0.6l0.6,1.6l0.2,0.6l0,0l0.2-0.6l0.6-1.6h0.6v3.2H89v-1.5c0-0.1,0-0.2,0-0.2c0-0.1,0-0.2,0-0.3
