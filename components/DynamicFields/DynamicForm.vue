@@ -58,3 +58,4 @@ import DynamicHtmlBlock from "./DynamicHtmlBlock";
 import DynamicNumberField from "./DynamicNumberField";
 import DynamicRadio from "./DynamicRadio";
 import DynamicTextArea from "./DynamicTextArea";
+import DynamicTextField from "./DynamicTextField";

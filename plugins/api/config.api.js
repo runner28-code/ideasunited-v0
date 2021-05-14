@@ -20,8 +20,8 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       if (process.server) {
         requestConfig.headers["App-Host"] = req.headers.host;
         requestConfig.headers["App-Root-Path"] = req.url;
-// Temp comment
       } else {
+// Temp comment
         requestConfig.headers["App-Host"] = window.location.host;
         requestConfig.headers["App-Root-Path"] = window.location.pathname;
       }

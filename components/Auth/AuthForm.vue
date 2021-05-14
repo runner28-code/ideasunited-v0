@@ -6,7 +6,6 @@
           <span >
             iU Creator Login
           </span>
-        </div>
         <v-form @submit.prevent="login" ref="form" :disabled="disabled">
           <TextField
             v-model="loginForm.email"
@@ -29,6 +28,7 @@
             <nuxt-link to="/forgot-password" class="forgot-password-link">
               Forgot password?
             </nuxt-link>
+          </div>
         </v-form>
       </div>
     </div>

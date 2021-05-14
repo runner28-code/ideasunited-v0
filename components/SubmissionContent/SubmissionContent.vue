@@ -14,6 +14,7 @@
     </div>
     <client-only>
       <infinite-loading :identifier="infiniteId" @infinite="fetchSubmissions">
+        <div slot="no-more"></div>
         <div slot="no-results" class="no-results">Nothing found</div>
         <div slot="spinner">
           <Spinner />

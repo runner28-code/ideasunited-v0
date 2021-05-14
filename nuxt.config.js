@@ -25,6 +25,7 @@ export default {
       { hid: "description", name: "description", content: "" },
     ],
     link: [],
+// Temp comment
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

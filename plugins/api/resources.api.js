@@ -12,7 +12,6 @@ function objectToFormData(obj) {
     }
     return value;
   });
-// Temp comment
 
   formData.append("data", data);
 

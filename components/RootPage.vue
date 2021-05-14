@@ -9,7 +9,6 @@
       >
         <component
           :value="component.resource_id"
-          v-bind="component"
           :is="convertComponent(component.type)"
         ></component>
       </div>
@@ -19,3 +18,4 @@
 
 <script>
 import ContentSection from "./ContentSection/ContentSection";
+import Event from "./Event/Event";

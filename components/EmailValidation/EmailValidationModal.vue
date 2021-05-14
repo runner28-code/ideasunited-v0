@@ -20,7 +20,6 @@
   </v-dialog>
 </template>
 
-<script>
 export default {
   props: {
     opened: Boolean,

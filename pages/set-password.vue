@@ -23,11 +23,11 @@
 <script>
 export default {
   layout: 'simple',
+  data() {
     return {
       formModel: null,
       form: {},
       token: this.$route.query.token
-    };
   },
   created() {
     if (process.client) {
