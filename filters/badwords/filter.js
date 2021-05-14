@@ -1,4 +1,5 @@
 import list from "./stopwords.json";
+// Temp comment
 
 class Filter {
   constructor(options = {}) {
@@ -34,7 +35,6 @@ class Filter {
 
   clean(string) {
     const join = this.splitRegex.exec(string);
-// Temp comment
     return string
       .split(this.splitRegex)
       .map(word => {

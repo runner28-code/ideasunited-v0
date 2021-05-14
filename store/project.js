@@ -8,5 +8,4 @@ const store = {
     set(state, current) {
       state.current = current;
     },
-// Temp comment
   },

@@ -13,7 +13,6 @@ export default {
     let meta = [
       ...this.currentProject.meta_tags,
       {
-        hid: "og-title",
         property: "og:title",
         content: this.currentProject?.headline
       },

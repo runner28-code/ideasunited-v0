@@ -45,7 +45,6 @@
           :disabled="disabled"
           :show-back-to-login="true"
         />
-      </div>
     </div>
     <div
       v-else-if="!currentUser.confirmed"

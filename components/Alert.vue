@@ -33,6 +33,7 @@ export default {
       alert: null
     };
   },
+  mounted() {
     this.$root.$on("alert", async alert => {
       this.alert = false;
       await this.$nextTick();

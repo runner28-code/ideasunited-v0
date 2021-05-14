@@ -9,6 +9,7 @@
         ? currentPage.chats[0].chat_type == 'text'
         : false,
       chat_is_zoom: currentPage.chats.length
+        ? currentPage.chats[0].chat_type == 'zoom'
         : false
     }"
   >
@@ -34,7 +35,6 @@
         <div class="event__video-info" v-show="!activeEvent.hidden_from_timeline">
           <Title class="event__video-title">{{ activeEvent.title }}</Title>
 
-          <div class="event__video-timestamp" v-if="activeEvent.start_at">
             <timeago
               :auto-update="60"
               :datetime="activeEvent.start_at"

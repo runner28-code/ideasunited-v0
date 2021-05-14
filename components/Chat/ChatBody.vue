@@ -12,6 +12,7 @@
       v-for="message in messages"
       :key="message.uuid"
     />
+  </div>
 </template>
 
 <script>

@@ -16,7 +16,6 @@
             >Support</a
           >
         </div>
-        <div class="footer__menu-item">
           <a @click="clickFAQ"
             >FAQ</a
           >
