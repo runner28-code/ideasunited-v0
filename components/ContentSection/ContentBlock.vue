@@ -64,3 +64,4 @@ export default {
   },
   methods: {
     openDialog() {
+      if (this.block.content_type == "no_content") return;

@@ -33,4 +33,3 @@ export default {
       return getThemeByColor(this.activeTheme.primary_color);
     }
   },
-  watch: {

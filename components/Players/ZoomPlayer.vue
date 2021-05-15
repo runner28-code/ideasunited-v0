@@ -7,7 +7,6 @@
         allowfullscreen
         class="zoom-player__embedded"
         :src="zoomUrl"
-        v-if="zoomUrl"
       />
     </div>
     <div class="zoom-player" v-else-if="event.zoom_player_type == 'desktop'">
@@ -38,3 +37,4 @@ export default {
   data() {
     return {
       zoomUrl: null
+    };

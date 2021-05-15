@@ -49,6 +49,7 @@
             <span v-if="block.creator.primary_working_location">{{ block.creator.primary_working_location }}</span>
             <span v-if="block.creator.primary_role">{{ block.creator.primary_role }}</span>
           </div>
+          <div
             class="slider-modal-content__creator-socials"
             v-if="block.creator.instagram || block.creator.linkedin"
           >
@@ -63,8 +64,8 @@
               </a>
             </div>
           </div>
-        </div>
         <div
           v-html="block.description"
           class="slider-modal-content__description"
         ></div>
+        <Button

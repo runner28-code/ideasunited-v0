@@ -77,3 +77,5 @@ export default {
     startCountdown() {
       this.calc();
       if (this.interval) clearInterval(this.interval);
+
+      this.interval = setInterval(() => {

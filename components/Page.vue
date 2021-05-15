@@ -10,6 +10,7 @@
           class="background-lede"
           :style="backgroundLedeStyles"
           :key="currentSlide"
+        >
           <div
             class="background-lede__logo"
             v-if="opportunityLogo && !currentProject.hide_frontend_logo"
@@ -128,3 +129,20 @@ export default {
   methods: {
     async fullPageMoveTo(idx) {
       this.clickingToSection = true;
+      const newAnchor = this.fullpageOpts.anchors[idx + 1];
+      location.hash = `#${newAnchor}`;
+      this.$refs.fullpage.api.moveTo(idx + 1, true, { force: true });
+      document.querySelectorAll(".page").forEach((el) => (el.scrollTop = 0)); // official fullpage breaks this. It can be fixed with the scrollOverflowReset extension, but it's pretty costly.
+      if (this.isMobile) {
+        this.$root.$emit(
+          "mobileScrollTo",
+          this.$refs.sections[idx].$el.offsetTop
+        );
+      }
+
+      if (this.isProduction()) {
+        this.$gtag.event("section_move_to", {
+          opportunity: this.currentProject.title,
+          section: this.$refs.sections[idx].page.title,
+        });
+      }

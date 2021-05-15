@@ -24,3 +24,4 @@ export default {
     value: Object,
     successMessage: String,
   },
+  data() {

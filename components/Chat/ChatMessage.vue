@@ -46,6 +46,5 @@
       </v-list>
     </v-menu>
   </div>
-</template>
 
 <script>

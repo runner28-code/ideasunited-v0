@@ -1,4 +1,3 @@
-<template>
   <component
     :is="item.link ? 'a' : 'div'"
     :href="item.link"
@@ -39,5 +38,6 @@ export default {
 
 <style scoped lang="scss">
 a.text-block__item-wrapper:hover {
+  opacity: 0.9;
 }
 

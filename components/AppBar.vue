@@ -141,3 +141,5 @@ export default {
         (!item && this.$route.path == "/") ||
         (item && item.url == this.$route.path)
       ) {
+        this.$emit("changeKey");
+      }

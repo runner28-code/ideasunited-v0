@@ -107,3 +107,5 @@ export default {
     }
   },
   mounted() {
+    window.addEventListener("scroll", this.onScroll);
+  },

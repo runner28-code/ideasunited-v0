@@ -43,3 +43,4 @@
             <v-icon>$send</v-icon>
           </v-btn>
         </div>
+      </div>

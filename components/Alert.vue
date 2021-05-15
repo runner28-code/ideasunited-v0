@@ -5,7 +5,6 @@
     v-model="alert"
     top
     :timeout="alert.timeout || 15000"
-  >
     <v-alert
       :icon="false"
       dismissible
@@ -22,6 +21,7 @@
         @click="onclick"
       ></div>
     </v-alert>
+  </v-snackbar>
 </template>
 
 <script>
@@ -42,3 +42,4 @@ export default {
   methods: {
     onclick() {
       if (this.alert.onclick) {
+        this.alert.onclick();

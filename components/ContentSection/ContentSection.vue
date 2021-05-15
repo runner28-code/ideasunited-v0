@@ -137,3 +137,5 @@ export default {
       return this.contentSection.blocks.filter(
         b =>
           b.posted &&
+          (!b.role_ids.length ||
+            _.intersection(b.role_ids, this.currentUser?.role_ids).length)

@@ -50,6 +50,7 @@
               <div class="root-lede__header__underline" v-rellax="{speed: -1}"></div>
             </div>
             <div class="root-lede__intro">
+              We're changing the way stories are told by connecting creators to projects, gear, educational resources, and a global community of ambitious people that want to make cool stuff. 
             </div>
             <div class="root-lede__cta">
               <v-btn class="root-lede__cta-btn" @click="signUp" v-if="!currentUser"> Sign Up</v-btn>
@@ -138,7 +139,6 @@ export default {
         top: 0,
         left: 0,
         behavior: 'instant',
-      });      
       const fixedStart = previewMedia.getBoundingClientRect();
       setTimeout(() => videoElem.pause(), 500);
       this.updateIrisEndingFactor();
@@ -181,3 +181,6 @@ export default {
           duration: 0.5,
           opacity: 1,
         }, "irisrestored")
+        .to(playBtn, {
+          duration: 0.5,
+          opacity: 1,

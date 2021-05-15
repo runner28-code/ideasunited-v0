@@ -31,6 +31,7 @@
 </template>
 
 <script>
+import _ from "lodash";
 
 export default {
   props: {
@@ -93,3 +94,5 @@ export default {
       if (active?.posted) {
         this.$emit("input", active);
       }
+    },
+    initOn() {

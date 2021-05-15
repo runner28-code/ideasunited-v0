@@ -48,6 +48,7 @@
             v-if="newOpps.length"
             class="rightsidebar__opp-count"
           >{{ newOpps.length }}</div>
+        </transition>
       </v-list-item>
       <v-list dense v-if="noRoot">
         <v-list-item class="rightsidebar__item__subitem">
@@ -122,3 +123,5 @@ export default {
       if (menuItem.url_type == "absolute") {
         return {
           href: menuItem.absolute_url,
+          target: "_blank"
+        };

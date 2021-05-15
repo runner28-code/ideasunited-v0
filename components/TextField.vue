@@ -33,7 +33,6 @@
 
 <script>
 import { getThemeByColor } from "@/utils";
-
 export default {
   props: {
     placeholder: String,
@@ -45,3 +44,4 @@ export default {
     },
     rules: Array,
     suffix: String,
+    min: [String, Number],

@@ -54,9 +54,13 @@
 <script>
 import DynamicCheckbox from "./DynamicCheckbox";
 import DynamicEmailField from "./DynamicEmailField";
+import DynamicHtmlBlock from "./DynamicHtmlBlock";
 import DynamicNumberField from "./DynamicNumberField";
 import DynamicRadio from "./DynamicRadio";
 import DynamicTextArea from "./DynamicTextArea";
 import DynamicTextField from "./DynamicTextField";
 import DynamicMediaField from "./DynamicMediaField";
 import DynamicPasswordField from "./DynamicPasswordField";
+import DynamicLinkField from "./DynamicLinkField";
+import DynamicFileField from "./DynamicFileField";
+

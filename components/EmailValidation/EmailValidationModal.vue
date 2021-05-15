@@ -27,3 +27,4 @@ export default {
     suggestions: [Array, Object],
     form: Object
   },
+  methods: {

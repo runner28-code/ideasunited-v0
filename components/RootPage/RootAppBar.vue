@@ -141,3 +141,6 @@ export default {
       }
       this.nextNewOppDetail();
     },
+    nextNewOppDetail() {
+      setTimeout(() => {
+        this.updateNewOppDetail();

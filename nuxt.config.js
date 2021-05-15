@@ -5,6 +5,7 @@
 //   baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
 //   browserBaseURL: process.env.API_PUBLIC_PATH,
 // });
+// Temp comment
 export default {
   server: {
     port: 8000, // default: 3000
@@ -65,3 +66,4 @@ export default {
       },
     ],
   },
+

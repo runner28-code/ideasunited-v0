@@ -74,3 +74,5 @@ export default {
           this.$root.$emit('leaveSignup');
           if(this.$route.name == 'index') window.location.href = frontendToProfile()[window.location.origin];
         } catch {}
+      }
+    },

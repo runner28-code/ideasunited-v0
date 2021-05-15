@@ -33,6 +33,7 @@
       >
         <v-icon color="white">$close</v-icon>
       </v-btn>
+      <label class="uploader" @drop.prevent="drop" @dragover.prevent>
         <div class="uploader__placeholder">
           {{
             (value && value.name) ||
@@ -63,3 +64,4 @@ export default {
     ratio: {
       type: Number,
       default: 580 / 320
+    },
