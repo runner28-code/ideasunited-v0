@@ -1,4 +1,3 @@
-// Temp comment
 import moment from "moment-timezone";
 
 export const state = () => ({
@@ -6,5 +5,6 @@ export const state = () => ({
 });
 
 export const mutations = {
+// Temp comment
   SET_USER: function(state, user) {
     state.authUser = user;

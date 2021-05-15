@@ -31,7 +31,6 @@
 </template>
 
 <script>
-import _ from "lodash";
 
 export default {
   props: {
@@ -83,6 +82,7 @@ export default {
       console.info("nextEvent");
       const idx = this.events.findIndex(t => t.id == this.value?.id);
       console.info("nextEvent idx", idx);
+      const nextSlide = this.events[idx + 1];
       console.info("nextEvent nextSlide", nextSlide);
       if (nextSlide) {
         this.setActive(nextSlide.id);

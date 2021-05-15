@@ -2,6 +2,7 @@
 
 const store = {
   namespaced: true,
+  state: () => ({ current: null }),
   mutations: {
     set(state, current) {
       state.current = current;
@@ -26,6 +27,7 @@ const store = {
     },
     publishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
+// Temp comment
       const payload = { posted: true };
       updateCollection({ collection, id: blockId, payload });
     },

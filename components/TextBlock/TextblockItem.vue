@@ -27,6 +27,7 @@ export default {
   props: {
     item: Object
   },
+  computed: {
     styles() {
       return {
         color: this.item.text_color
@@ -38,6 +39,5 @@ export default {
 
 <style scoped lang="scss">
 a.text-block__item-wrapper:hover {
-  opacity: 0.9;
 }
 

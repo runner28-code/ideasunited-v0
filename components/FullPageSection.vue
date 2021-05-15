@@ -35,6 +35,7 @@
       ></button>
       <!-- <div
         @click.stop.prevent="$emit('top')"
+        class="fullpage-top-arrow__wrapper"
         v-else
       >
         <button class="fullpage-top-arrow"></button>

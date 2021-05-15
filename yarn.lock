@@ -1470,7 +1470,6 @@
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@vue/babel-sugar-functional-vue/-/babel-sugar-functional-vue-1.2.2.tgz#267a9ac8d787c96edbf03ce3f392c49da9bd2658"
   integrity sha512-JvbgGn1bjCLByIAU1VOoepHQ1vFsroSA/QkzdiSs657V79q6OwEWLCQtQnEXD/rLTA8rRit4rMOhFpbjRFm82w==
-  dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
 
 "@vue/babel-sugar-inject-h@^1.2.2":
@@ -2998,3 +2997,8 @@ d@1, d@^1.0.1:
 
 d@~0.1.1:
   version "0.1.1"
+  resolved "https://registry.yarnpkg.com/d/-/d-0.1.1.tgz#da184c535d18d8ee7ba2aa229b914009fae11309"
+  integrity sha1-2hhMU10Y2O57oqoim5FACfrhEwk=
+  dependencies:
+    es5-ext "~0.10.2"
+

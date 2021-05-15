@@ -19,7 +19,6 @@ export default {
   name: "Timeline",
   props: {
     value: String,
-    page: Object,
   },
   computed: {
     timelineList() {
@@ -27,3 +26,4 @@ export default {
     },
     items() {
       return this.timelineList?.settings?.items;
+    },
