@@ -4,7 +4,6 @@
     hide-details="auto"
     :value="value"
     :input-value="value"
-    @change="$emit('input', $event)"
     :rules="rules"
     @focus.stop="onFocus($event)"
   >
@@ -18,3 +17,4 @@
     </template>
   </v-checkbox>
 </template>
+

@@ -30,7 +30,6 @@
         </v-responsive>
         <Slider
           :slides="block.slides"
-          v-else-if="block.content_type == 'popup' && sliderInited"
         />
       </v-responsive>
     </div>
@@ -64,6 +63,7 @@
               </a>
             </div>
           </div>
+        </div>
         <div
           v-html="block.description"
           class="slider-modal-content__description"

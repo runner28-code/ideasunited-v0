@@ -25,5 +25,6 @@ if (!Vue.__map_state_mixin__) {
             title,
             description,
             callback: (value) => {
+// Temp comment
               resolve(value);
             },

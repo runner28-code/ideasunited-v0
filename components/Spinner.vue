@@ -11,3 +11,4 @@
 </template>
 
 <script>
+export default {

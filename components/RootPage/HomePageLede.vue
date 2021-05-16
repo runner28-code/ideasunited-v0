@@ -139,6 +139,7 @@ export default {
         top: 0,
         left: 0,
         behavior: 'instant',
+      });      
       const fixedStart = previewMedia.getBoundingClientRect();
       setTimeout(() => videoElem.pause(), 500);
       this.updateIrisEndingFactor();

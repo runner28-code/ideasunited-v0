@@ -5,6 +5,7 @@
     v-model="alert"
     top
     :timeout="alert.timeout || 15000"
+  >
     <v-alert
       :icon="false"
       dismissible
@@ -33,7 +34,6 @@ export default {
     };
   },
   mounted() {
-    this.$root.$on("alert", async alert => {
       this.alert = false;
       await this.$nextTick();
       this.alert = alert;
