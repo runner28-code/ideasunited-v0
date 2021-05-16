@@ -24,7 +24,6 @@
 
       <div
         class="content-section-item__icon"
-        v-if="block.content_type == 'video_player'"
       >
         <v-icon :color="activeTheme.primary_color" size="28">$play</v-icon>
       </div>
@@ -61,6 +60,7 @@ export default {
     if (block_id == this.block.id && this.block.content_type != "new_tab") {
       this.openDialog();
     }
+  },
   methods: {
     openDialog() {
       if (this.block.content_type == "no_content") return;

@@ -45,20 +45,3 @@
       </div> -->
     </div>
   </div>
-</template>
-
-<script>
-import mixin from "./convertComponent.mixin";
-export default {
-  extends: mixin,
-  props: {
-    page: Object,
-    idx: Number,
-    formsDisabled: Boolean,
-  },
-  methods: {
-    onFocus($event) {
-      this.$root.$emit("fullpageScrollFocus", $event.srcElement);
-    }
-  },
-  computed: {

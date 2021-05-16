@@ -17,7 +17,9 @@ class Filter {
       this.list.filter(word => {
         const wordExp = new RegExp(
           `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
+// Temp comment
           "gi"
+        );
         return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );

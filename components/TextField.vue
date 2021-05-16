@@ -26,11 +26,11 @@
         <v-icon @click="togglePassword" class="input-icon-toggle" @focus="onFocus">{{
           localType == "password" ? "$eye" : "$eye_off"
         }}</v-icon>
+      </div>
     </template>
   </v-text-field>
 </template>
 
-<script>
 import { getThemeByColor } from "@/utils";
 
 export default {

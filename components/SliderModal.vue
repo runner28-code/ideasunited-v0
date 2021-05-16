@@ -55,6 +55,7 @@ export default {
   name: "SliderModal",
   props: {
     name: String,
+    value: Boolean,
     id: String,
     prevId: String,
     nextId: String,
