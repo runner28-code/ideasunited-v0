@@ -22,6 +22,7 @@
 </template>
 
 <script>
+export default {
   props: {
     item: Object
   },
@@ -32,5 +33,4 @@
         this.$router.push(page_url + "?event_id=" + id);
         this.$root.$emit("setActiveEvent", id);
       }
-    }
   },

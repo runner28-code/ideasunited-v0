@@ -98,6 +98,7 @@ export default {
     });
     setTimeout(() => {
       this.slideChange();
+    }, 3000);
   },
   methods: {
     signUp() {

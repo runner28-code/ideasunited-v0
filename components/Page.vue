@@ -109,7 +109,6 @@ export default {
     this.$root.$on("fullpageScrollFocus", (elem) => {
       this.fullpageScrollFocus(elem);
     });
-
     this.currentProject.menu_pages.forEach((page) => {
       const ledeBackground = page.lead_background;
       if (ledeBackground) this.preloadSlide(ledeBackground.large.url || ledeBackground.url);

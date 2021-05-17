@@ -4,7 +4,6 @@
     <div 
       v-if="currentUser"
       >
-      <div>You are logged in.<br/><br/></div>
       <v-btn
         @click.prevent="logout()"
       >
@@ -17,6 +16,7 @@
 <script>
 import { frontendToProfile } from "@/utils";
 export default {
+  layout: 'simple',
   methods: {
     logout() {
       this.$store.dispatch("auth/logout");

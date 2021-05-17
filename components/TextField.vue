@@ -31,6 +31,7 @@
   </v-text-field>
 </template>
 
+<script>
 import { getThemeByColor } from "@/utils";
 
 export default {

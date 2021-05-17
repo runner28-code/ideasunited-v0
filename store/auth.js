@@ -5,7 +5,6 @@ const store = {
   namespaced: true,
   state: () => ({}),
   mutations: {
-// Temp comment
     setToken(state, token) {
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
       const cookieDomain =

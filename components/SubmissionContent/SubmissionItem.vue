@@ -44,6 +44,7 @@ export default {
     nextId: String,
     layout: Object,
     previewLayout: Object
+  },
   data() {
     return {
       colors: ["#1E1818", "#171313", "#140808", "#8F7878", "#8F7E7E"],

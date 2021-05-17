@@ -43,6 +43,7 @@ export default {
     { src: "~/plugins/vimeo.js", ssr: false },
     { src: "~/plugins/ga.js", ssr: false },
     { src: "~/plugins/oauth.js", ssr: false },
+// Temp comment
     { src: "~/plugins/webfont.js", ssr: false },
     { src: "~/plugins/spinner.js", ssr: false },
     { src: "~/plugins/actioncable.js", ssr: false },
@@ -59,7 +60,6 @@ export default {
         detect: () =>
           "scrollBehavior" in document.documentElement.style &&
           window.__forceSmoothScrollPolyfill__ !== true,
-// Temp comment
         install: (smoothscroll) => {
           smoothscroll.polyfill();
         },

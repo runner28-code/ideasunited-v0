@@ -16,7 +16,6 @@
       </nuxt-link>
     </v-responsive>
   </div>
-</template>
 
 <script>
 export default {
@@ -28,7 +27,3 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-.grid-menu {
-  display: flex;
-  flex-wrap: wrap;
