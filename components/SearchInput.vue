@@ -9,7 +9,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import { getThemeByColor } from "@/utils";
 

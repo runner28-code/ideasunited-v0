@@ -11,10 +11,12 @@ const providers = {
   linkedin: {
     authorizationEndpoint: "/api/v1/public_side/auth/linkedin"
   },
+  cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
 };
 
 export default function(ctx, inject) {
   inject("oauth", provider => {
+// Temp comment
     return new Promise((resolve, reject) => {

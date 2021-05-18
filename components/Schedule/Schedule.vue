@@ -7,6 +7,7 @@
     <div class="schedule__items">
       <div
         class="schedule__group"
+        v-for="group in groupedItems"
         :key="group.date"
       >
         <div class="schedule__date">
@@ -29,6 +30,5 @@ export default {
     value: String,
     page: Object,
   },
-  computed: {
     schedule() {
       return (this.page || this.currentPage).schedules[this.value];

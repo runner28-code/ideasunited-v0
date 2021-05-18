@@ -34,7 +34,6 @@ export default {
     page: Object,
   },
   data() {
-    return {
       list: [],
       infiniteId: +new Date(),
       page: 1,

@@ -22,3 +22,4 @@
       v-if="content.length"
     >
       <div>
+        <div

@@ -5,7 +5,6 @@
       :key="badge.id"
       class="eligible"
       :class="[`eligible--${badge.slug}`]"
-      :href="badgeInfoUrl"
       target="_blank"
     >
       <div
@@ -14,6 +13,7 @@
       ></div>
       <div class="eligible-label">{{ badge.title }}</div>
     </a>
+  </div>
 </template>
 
 <script>

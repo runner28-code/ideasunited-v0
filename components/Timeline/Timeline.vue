@@ -1,3 +1,4 @@
+<template>
   <div class="timeline">
     <v-btn
       :class="{ visible: visibleControls }"

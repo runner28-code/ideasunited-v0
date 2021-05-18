@@ -46,12 +46,12 @@
         <span v-else>
           {{ btnText || "Submit" }}
         </span>
-      </Button>
     </div>
   </v-form>
 </template>
 
 <script>
+import DynamicCheckbox from "./DynamicCheckbox";
 import DynamicEmailField from "./DynamicEmailField";
 import DynamicHtmlBlock from "./DynamicHtmlBlock";
 import DynamicNumberField from "./DynamicNumberField";
@@ -63,3 +63,5 @@ import DynamicPasswordField from "./DynamicPasswordField";
 import DynamicLinkField from "./DynamicLinkField";
 import DynamicFileField from "./DynamicFileField";
 
+export default {
+  props: {

@@ -185,3 +185,4 @@ export default {
         .to(playBtn, {
           duration: 0.5,
           opacity: 1,
+        }, "irisrestored")

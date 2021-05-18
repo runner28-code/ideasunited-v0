@@ -32,6 +32,7 @@
           :slides="block.slides"
           v-else-if="block.content_type == 'popup' && sliderInited"
         />
+      </v-responsive>
     </div>
     <div class="slider-modal-content__side slider-modal-content__content">
       <div>
