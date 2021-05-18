@@ -87,7 +87,6 @@ export default {
         this.fullPageMoveTo(idx);
       }
     });
-
     this.$root.$on("mobileScroll", (y) => {
       const i = this.$refs.sections.findIndex((s) => s.$el.offsetTop > y);
       this.currentSlide = i - 1;
@@ -146,3 +145,5 @@ export default {
           section: this.$refs.sections[idx].page.title,
         });
       }
+    },
+    isProduction() {

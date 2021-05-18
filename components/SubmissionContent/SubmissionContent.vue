@@ -34,6 +34,7 @@ export default {
     page: Object,
   },
   data() {
+    return {
       list: [],
       infiniteId: +new Date(),
       page: 1,
@@ -44,3 +45,4 @@ export default {
     getId(index) {
       const item = this.list[index];
       return item?.published ? item.id : null;
+    },

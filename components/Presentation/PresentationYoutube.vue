@@ -30,3 +30,4 @@ export default {
         this.started = true;
       }
     });
+  },

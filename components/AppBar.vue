@@ -143,3 +143,7 @@ export default {
       ) {
         this.$emit("changeKey");
       }
+    },
+    dropdownClick() {
+      this.$route.path == "/more"
+        ? this.$router.back()

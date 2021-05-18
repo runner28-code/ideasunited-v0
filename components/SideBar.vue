@@ -12,6 +12,7 @@
   >
     <v-btn icon class="rightsidebar__close" @click="$emit('input', false)">
       <v-icon size="36">$close</v-icon>
+    </v-btn>
     <v-list dense>
       <v-list-item
         v-for="(menuItem, idx) in menuPages"
@@ -79,7 +80,6 @@
         Login/Register
       </v-list-item>
       <v-list-item
-        v-if="currentUser"
         class="rightsidebar__item"
         @click.prevent="logout()"
         v-ripple="false"
@@ -124,3 +124,6 @@ export default {
           href: menuItem.absolute_url,
           target: "_blank"
         };
+      }
+      return {
+        to: menuItem.url

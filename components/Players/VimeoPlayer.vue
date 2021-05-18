@@ -14,6 +14,7 @@ export default {
   name: "VimeoPlayer",
   props: {
     vimeoId: [String, Number],
+    vimeoH: [String, Number],
     vimeoChapter: [String, Number],
     firstStartAt: {
       type: Number,
@@ -29,3 +30,4 @@ export default {
     this.player.on("ended", () => {
       this.$root.$emit("nextEvent");
     });
+    this.player.getChapters().then(chapters => {

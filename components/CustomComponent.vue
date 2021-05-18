@@ -4,7 +4,6 @@
       :key="key"
       v-if="loaded"
       :is="customComponent.sfc_name"
-    ></component>
   </div>
 </template>
 
@@ -33,3 +32,4 @@ export default {
     }
   },
   methods: {
+    compile(component, callback) {

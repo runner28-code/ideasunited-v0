@@ -80,3 +80,5 @@ export default {
 
       this.interval = setInterval(() => {
         this.calc();
+      }, 1000);
+    },

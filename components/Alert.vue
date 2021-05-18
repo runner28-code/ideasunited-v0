@@ -45,3 +45,5 @@ export default {
       if (this.alert.onclick) {
         this.alert.onclick();
         this.alert = false;
+      }
+    }

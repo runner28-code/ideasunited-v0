@@ -1,3 +1,4 @@
+// Temp comment
 /* eslint-disable */
 import Vue from "vue";
 
@@ -15,3 +16,4 @@ const store = {
 
       if (token && process.client) {
         const { data } = await this.$api.User.current();
+        commit("set", data);

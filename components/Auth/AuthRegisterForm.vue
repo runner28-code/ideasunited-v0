@@ -22,7 +22,6 @@
         <div v-if="!registrationForm.login_form || chooseSignUp" class="register">
           <Title
             v-if="registrationForm.title"
-            tag="h2"
             class="register__title"
             >{{ registrationForm.title }}</Title
           >
@@ -70,6 +69,7 @@
 </template>
 
 <script>
+import registrationMixin from "../registration.mixin";
 
 export default {
   extends: registrationMixin,
@@ -85,3 +85,6 @@ export default {
       },
       areYouSureDialog: false,
       emailValidationSuggestions: [],
+      chooseSignUp: false,
+      registrationForm: null,
+      loginFormRequest: false,

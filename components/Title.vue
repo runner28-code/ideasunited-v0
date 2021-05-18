@@ -14,3 +14,4 @@ export default {
   },
   computed: {
     styles() {
+      if(!this.activeTheme) return {};

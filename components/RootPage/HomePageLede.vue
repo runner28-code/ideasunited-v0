@@ -186,3 +186,8 @@ export default {
           duration: 0.5,
           opacity: 1,
         }, "irisrestored")
+        .add("sizerestored")
+        .set(playBtn, {
+          clearProps: "opacity"
+        })
+        .set(previewImage, {

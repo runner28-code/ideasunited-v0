@@ -2,7 +2,6 @@
   <v-form
     @submit.prevent="submitCallback"
     v-model="valid"
-    ref="form"
     class="dynamic-form"
     :disabled="disabled"
   >
@@ -46,6 +45,7 @@
         <span v-else>
           {{ btnText || "Submit" }}
         </span>
+      </Button>
     </div>
   </v-form>
 </template>
@@ -65,3 +65,6 @@ import DynamicFileField from "./DynamicFileField";
 
 export default {
   props: {
+    fields: Array,
+    value: Object,
+    submit: Function,

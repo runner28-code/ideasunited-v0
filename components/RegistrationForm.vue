@@ -50,7 +50,6 @@
     <div
       v-else-if="!currentUser.confirmed"
       class="registration-form__not-confirmed"
-    >
       <Title
         v-if="registrationForm.title"
         tag="h2"
@@ -75,3 +74,4 @@
       :opened="areYouSureDialog"
       :suggestions="emailValidationSuggestions"
       :form="form"
+      @close="areYouSureDialog = false"

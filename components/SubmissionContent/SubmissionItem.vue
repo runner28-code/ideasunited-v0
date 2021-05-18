@@ -51,3 +51,5 @@ export default {
       dialog: false
     };
   },
+  computed: {
+    content() {

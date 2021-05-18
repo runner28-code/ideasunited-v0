@@ -43,8 +43,9 @@ export default {
         },
         LinkedinLogin: {
           provider: "linkedin"
-        }
       }
     };
   },
   methods: {
+    async oauth(provider) {
+      // try {

@@ -30,5 +30,6 @@ export default {
     value: String,
     page: Object,
   },
+  computed: {
     schedule() {
       return (this.page || this.currentPage).schedules[this.value];

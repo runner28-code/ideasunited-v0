@@ -65,3 +65,4 @@ export default {
       type: Number,
       default: 580 / 320
     },
+    position: {

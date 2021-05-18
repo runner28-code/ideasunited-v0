@@ -10,6 +10,7 @@
     :type="localType"
     :rules="rules"
     @change="$emit('change')"
+    ref="input"
     validate-on-blur
     :suffix="suffix"
     :min="min"
@@ -45,3 +46,4 @@ export default {
     rules: Array,
     suffix: String,
     min: [String, Number],
+    max: [String, Number],

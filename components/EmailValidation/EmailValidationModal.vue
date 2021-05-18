@@ -28,3 +28,4 @@ export default {
     form: Object
   },
   methods: {
+    useSuggestion(suggestion) {

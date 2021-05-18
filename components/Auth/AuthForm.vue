@@ -76,3 +76,5 @@ export default {
         } catch {}
       }
     },
+    async registerFetch() {
+      const res = await this.$store.dispatch("auth/register", this.registerForm);

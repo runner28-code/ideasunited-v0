@@ -27,3 +27,4 @@ export default {
   mounted() {
     this.$root.$on('leaveSignup', () => {
       window.location.href = frontendToProfile()[window.location.origin];
+    });

@@ -1,1 +1,1 @@
-import { HollowDotsSpinner } from "epic-spinners";
+import Vue from "vue";

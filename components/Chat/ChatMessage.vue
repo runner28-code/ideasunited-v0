@@ -25,7 +25,6 @@
       </div>
     </div>
     <v-menu
-      offset-y
       v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"
     >
       <template v-slot:activator="{ on }">
@@ -44,7 +43,9 @@
           <v-list-item-title class="red--text">Block user</v-list-item-title>
         </v-list-item>
       </v-list>
+    </v-menu>
   </div>
 </template>
 
 <script>
+import stripMessage from "@/filters/stripMessage";

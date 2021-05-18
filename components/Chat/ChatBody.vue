@@ -9,6 +9,7 @@
     <ChatMessage
       :chat="chat"
       :message="message"
+      v-for="message in messages"
       :key="message.uuid"
     />
   </div>
@@ -36,3 +37,4 @@ export default {
             this.updateMessage(payload);
             break;
         }
+      }

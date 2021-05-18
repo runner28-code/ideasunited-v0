@@ -144,3 +144,7 @@ export default {
     nextNewOppDetail() {
       setTimeout(() => {
         this.updateNewOppDetail();
+      }, 15000);
+    },
+    newOppDetailPreview(opp) {
+      if(!opp.preview) return;

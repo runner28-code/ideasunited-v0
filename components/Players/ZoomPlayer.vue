@@ -24,7 +24,6 @@
         }}
       </div>
       <Button large @click="openZoomLink">Click to Connect</Button>
-    </div>
   </div>
 </template>
 <script>
@@ -39,3 +38,4 @@ export default {
     return {
       zoomUrl: null
     };
+  },

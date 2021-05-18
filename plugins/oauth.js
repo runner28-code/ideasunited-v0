@@ -18,5 +18,4 @@ const providers = {
 
 export default function(ctx, inject) {
   inject("oauth", provider => {
-// Temp comment
     return new Promise((resolve, reject) => {

@@ -8,6 +8,8 @@
       />
     </div>
   </client-only>
+</template>
 
 <script>
 export default {
+  props: {
