@@ -77,7 +77,6 @@ export default {
     this.$root.$off("setActiveEvent");
     this.$root.$off("chapterChange");
     Object.values(this.timeouts).forEach(t => clearTimeout(t));
-  },
   methods: {
     nextEvent() {
       console.info("nextEvent");
@@ -99,3 +98,5 @@ export default {
       this.$root.$on("setActiveEvent", active => {
         switch (typeof active) {
           case "string":
+            this.setActive(active);
+            break;

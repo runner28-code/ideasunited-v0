@@ -1,3 +1,4 @@
+<template>
   <div class="forgot-password-page">
     <v-form
       ref="form"
@@ -36,3 +37,4 @@ export default {
   },
   methods: {
     async checkPasswordToken() {
+      try {

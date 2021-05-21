@@ -12,6 +12,7 @@
         <VimeoPlayer v-if="value.vimeo_id" :vimeoId="value.vimeo_id" />
         <YoutubePlayer
           v-else-if="value.youtube_id"
+          :youtubeId="value.youtube_id"
         />
       </v-responsive>
       <img v-else :src="value.preview.large.url" width="100%" />
@@ -23,3 +24,4 @@
       <div>
         <div
           :class="'s-' + section.class_name"
+          v-for="(section, idx) in content"

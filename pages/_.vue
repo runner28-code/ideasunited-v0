@@ -3,6 +3,7 @@
     <NotFound v-if="status == 404" />
     <NotAuthorized v-else-if="status == 403" />
     <Page v-else-if="status == 200" />
+  </div>
 </template>
 
 <script>
@@ -41,3 +42,4 @@ export default {
   },
   created() {
     if (process.client) {
+      this.$cable.subscribe({

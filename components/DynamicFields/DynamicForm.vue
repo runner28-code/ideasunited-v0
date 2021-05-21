@@ -1,7 +1,7 @@
 <template>
   <v-form
     @submit.prevent="submitCallback"
-    v-model="valid"
+    ref="form"
     class="dynamic-form"
     :disabled="disabled"
   >
@@ -68,3 +68,6 @@ export default {
     fields: Array,
     value: Object,
     submit: Function,
+    markRequired: Boolean,
+    showLabel: Boolean,
+    description: String,

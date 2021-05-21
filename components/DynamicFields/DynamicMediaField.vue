@@ -65,4 +65,7 @@ export default {
       type: Number,
       default: 580 / 320
     },
+    circle: Boolean,
     position: {
+      type: String,
+      default: "center"

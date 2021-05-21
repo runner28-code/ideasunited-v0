@@ -147,3 +147,6 @@ export default {
     dropdownClick() {
       this.$route.path == "/more"
         ? this.$router.back()
+        : this.$router.push("/more");
+    },
+    toggleDrawer() {

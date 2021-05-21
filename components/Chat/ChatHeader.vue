@@ -24,3 +24,4 @@ export default {
       disconnected() {
         this.status = "Disconnected";
       }
+    }

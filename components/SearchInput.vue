@@ -35,3 +35,4 @@ export default {
   },
   watch: {
     value: {
+      immediate: true,

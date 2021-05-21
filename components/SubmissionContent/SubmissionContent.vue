@@ -46,3 +46,4 @@ export default {
       const item = this.list[index];
       return item?.published ? item.id : null;
     },
+    async fetchSubmissions($state) {

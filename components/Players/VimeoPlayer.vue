@@ -31,3 +31,4 @@ export default {
       this.$root.$emit("nextEvent");
     });
     this.player.getChapters().then(chapters => {
+      this.chapters = chapters;

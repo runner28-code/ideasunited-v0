@@ -14,7 +14,6 @@
       :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
       :value="!!alert"
       @input="alert = $event"
-    >
       <div
         :class="{ clickable: alert.onclick }"
         class="alert__message"
@@ -47,3 +46,4 @@ export default {
         this.alert = false;
       }
     }
+  }

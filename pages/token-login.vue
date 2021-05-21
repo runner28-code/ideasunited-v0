@@ -11,3 +11,4 @@ export default {
       if (token) {
         this.login(token);
       } else {
+        this.$router.push("/");

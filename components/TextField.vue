@@ -28,7 +28,6 @@
         }}</v-icon>
       </div>
     </template>
-  </v-text-field>
 </template>
 
 <script>
@@ -47,3 +46,4 @@ export default {
     suffix: String,
     min: [String, Number],
     max: [String, Number],
+    block: Boolean,

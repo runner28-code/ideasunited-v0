@@ -22,6 +22,7 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+// Temp comment
       { hid: "description", name: "description", content: "" },
     ],
     link: [],
@@ -61,7 +62,6 @@ export default {
           window.__forceSmoothScrollPolyfill__ !== true,
         install: (smoothscroll) => {
           smoothscroll.polyfill();
-// Temp comment
         },
       },
     ],
@@ -69,3 +69,4 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
+    {

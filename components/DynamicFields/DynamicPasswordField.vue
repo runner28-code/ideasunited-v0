@@ -8,5 +8,4 @@
     outlined
   />
 </template>
-
 <script>

@@ -8,6 +8,7 @@
         :key="idx"
       >
         <component
+          :value="component.resource_id"
           v-bind="component"
           :is="convertComponent(component.type)"
         ></component>
@@ -20,3 +21,4 @@
 import ContentSection from "./ContentSection/ContentSection";
 import Event from "./Event/Event";
 import Countdown from "./Countdown";
+import TextBlock from "./TextBlock/TextBlock";

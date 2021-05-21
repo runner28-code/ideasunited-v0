@@ -148,3 +148,6 @@ export default {
     },
     newOppDetailPreview(opp) {
       if(!opp.preview) return;
+      if(opp.preview.thumb && opp.preview.thumb.url) return opp.preview.thumb.url;
+      return opp.preview.url;
+    },

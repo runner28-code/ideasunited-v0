@@ -68,3 +68,5 @@ export default {
     return {
       triggerName: `open-${this.name}`
     };
+  },
+  mounted() {

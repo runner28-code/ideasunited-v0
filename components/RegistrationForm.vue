@@ -38,7 +38,6 @@
           :fields="registrationForm.registration_form"
           v-model="form"
           :mark-required="registrationForm.mark_required"
-          show-label
           :btn-text="registrationForm.btn_text"
           :login-form="registrationForm.login_form"
           @backToLogin="backToLogin()"
@@ -50,6 +49,7 @@
     <div
       v-else-if="!currentUser.confirmed"
       class="registration-form__not-confirmed"
+    >
       <Title
         v-if="registrationForm.title"
         tag="h2"
@@ -75,3 +75,4 @@
       :suggestions="emailValidationSuggestions"
       :form="form"
       @close="areYouSureDialog = false"
+      @submit="submit"

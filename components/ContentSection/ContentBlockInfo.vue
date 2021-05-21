@@ -70,3 +70,4 @@
           class="slider-modal-content__description"
         ></div>
         <Button
+          v-if="block.link_text"

@@ -1,4 +1,3 @@
-// Temp comment
 /* eslint-disable */
 import Vue from "vue";
 
@@ -15,5 +14,6 @@ const store = {
       const token = this.$cookies.get("authToken");
 
       if (token && process.client) {
+// Temp comment
         const { data } = await this.$api.User.current();
         commit("set", data);

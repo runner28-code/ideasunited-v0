@@ -73,3 +73,5 @@ export default {
     },
     styles() {
       const preview =
+        this.value.preview?.thumb?.url ||
+        this.activeTheme.event_preview?.thumb?.url;

@@ -50,3 +50,6 @@
 <script>
 import mixin from "./convertComponent.mixin";
 export default {
+  extends: mixin,
+  props: {
+    page: Object,

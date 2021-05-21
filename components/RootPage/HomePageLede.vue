@@ -191,3 +191,7 @@ export default {
           clearProps: "opacity"
         })
         .set(previewImage, {
+          clearProps: "opacity"
+        })
+        .set(previewMedia, {
+          clearProps: "all",

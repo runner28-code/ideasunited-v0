@@ -44,7 +44,6 @@
   </div>
 </template>
 
-<script>
 import _ from "lodash";
 import Title from "@/components/Title";
 import { frontendToProfile } from "@/utils";
@@ -78,3 +77,5 @@ export default {
     },
     async registerFetch() {
       const res = await this.$store.dispatch("auth/register", this.registerForm);
+      return res;
+    },

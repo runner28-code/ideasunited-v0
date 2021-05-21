@@ -53,3 +53,4 @@ export default {
   },
   computed: {
     content() {
+      return this.previewLayout.content

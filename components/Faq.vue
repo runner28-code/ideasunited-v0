@@ -42,3 +42,4 @@
 
 export default {
   name: "Faq",
+  props: {

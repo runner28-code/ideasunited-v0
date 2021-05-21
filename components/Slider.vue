@@ -25,3 +25,4 @@ export default {
     slides: Array
   },
   data() {
+    return {
