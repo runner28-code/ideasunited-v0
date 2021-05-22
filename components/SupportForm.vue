@@ -25,6 +25,7 @@ export default {
     supportForm: Object,
     page: Object,
   },
+  data() {
     return {
       form: {
         support_form_id: null,

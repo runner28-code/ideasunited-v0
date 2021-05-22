@@ -94,6 +94,7 @@
       <div class="rightsidebar__copyright">© {{ year }} Ideas United</div>
     </div>
   </v-navigation-drawer>
+</template>
 
 <script>
 import isMobileMixin from "./isMobile.mixin";
@@ -130,3 +131,5 @@ export default {
       };
     },
     logout() {
+      this.$store.dispatch("auth/logout");
+      this.$emit('input', false);

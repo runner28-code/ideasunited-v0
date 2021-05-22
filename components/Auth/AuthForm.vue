@@ -28,7 +28,6 @@
             <div><Button block :refs="$refs" type="submit">Log In</Button></div>
             <nuxt-link to="/forgot-password" class="forgot-password-link">
               Forgot password?
-            </nuxt-link>
           </div>
         </v-form>
       </div>
@@ -44,6 +43,7 @@
   </div>
 </template>
 
+<script>
 import _ from "lodash";
 import Title from "@/components/Title";
 import { frontendToProfile } from "@/utils";

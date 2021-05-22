@@ -21,7 +21,6 @@
         <v-icon color="white" size="24">${{ item.provider }}</v-icon>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -50,3 +49,4 @@ export default {
   methods: {
     async oauth(provider) {
       // try {
+      const { token } = await this.$oauth(provider);

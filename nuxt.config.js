@@ -22,7 +22,6 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-// Temp comment
       { hid: "description", name: "description", content: "" },
     ],
     link: [],
@@ -70,3 +69,4 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
     {
+      path: "~/components",

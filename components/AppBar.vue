@@ -150,3 +150,4 @@ export default {
         : this.$router.push("/more");
     },
     toggleDrawer() {
+      this.$root.$emit("toggleDrawer");

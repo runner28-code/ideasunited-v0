@@ -5,7 +5,6 @@
       content-class="slider-modal"
       :value="value"
       @input="$emit('input', $event)"
-      v-if="value"
     >
       <div class="slider-modal__wrapper" @click="close">
         <v-btn
@@ -70,3 +69,4 @@ export default {
     };
   },
   mounted() {
+    this.$root.$on(this.triggerName, id => {

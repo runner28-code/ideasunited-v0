@@ -38,6 +38,7 @@
           :fields="registrationForm.registration_form"
           v-model="form"
           :mark-required="registrationForm.mark_required"
+          show-label
           :btn-text="registrationForm.btn_text"
           :login-form="registrationForm.login_form"
           @backToLogin="backToLogin()"

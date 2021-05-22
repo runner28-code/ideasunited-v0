@@ -11,7 +11,6 @@
           <div class="countdown-timer__item">
             <div class="countdown-timer__item-value">
               {{ hours }}
-            </div>
             <div class="countdown-timer__item-label">hrs</div>
           </div>
           <div class="countdown-timer__item">
@@ -84,3 +83,5 @@ export default {
     },
     daysWithoutMonths(ms) {
       return Math.floor(ms / 1000 / 60 / 60 / 24);
+    },
+    calc() {

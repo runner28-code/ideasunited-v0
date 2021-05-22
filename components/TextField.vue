@@ -28,6 +28,7 @@
         }}</v-icon>
       </div>
     </template>
+  </v-text-field>
 </template>
 
 <script>
@@ -42,8 +43,8 @@ export default {
       type: String,
       default: "text"
     },
-    rules: Array,
     suffix: String,
     min: [String, Number],
     max: [String, Number],
     block: Boolean,
+    name: String

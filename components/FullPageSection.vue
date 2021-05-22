@@ -53,3 +53,4 @@ export default {
   extends: mixin,
   props: {
     page: Object,
+    idx: Number,

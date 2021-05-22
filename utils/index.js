@@ -40,7 +40,6 @@ export function stripMessage(message) {
   return message
     .replace(/^\s+/g, "")
     .split(/\n+/g)
-// Temp comment
     .join("\n")
     .split(/[\f\r\t\v]+/)
     .join(" ");

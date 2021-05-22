@@ -25,3 +25,4 @@
         <div
           :class="'s-' + section.class_name"
           v-for="(section, idx) in content"
+          :key="idx"

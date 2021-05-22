@@ -8,6 +8,7 @@
       :href="badgeInfoUrl"
       target="_blank"
     >
+      <div
         class="eligible-preview"
         :style="{ backgroundImage: `url(${badge.preview.url})` }"
       ></div>

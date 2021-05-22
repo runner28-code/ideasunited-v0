@@ -50,3 +50,4 @@
         </v-dialog>
       </client-only>
     </div>
+  </div>

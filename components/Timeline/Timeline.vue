@@ -64,7 +64,6 @@ export default {
       },
       timeouts: {}
     };
-  },
   created() {
     this.initOn();
     this.initEvent();
@@ -77,6 +76,7 @@ export default {
     this.$root.$off("setActiveEvent");
     this.$root.$off("chapterChange");
     Object.values(this.timeouts).forEach(t => clearTimeout(t));
+  },
   methods: {
     nextEvent() {
       console.info("nextEvent");
@@ -100,3 +100,4 @@ export default {
           case "string":
             this.setActive(active);
             break;
+

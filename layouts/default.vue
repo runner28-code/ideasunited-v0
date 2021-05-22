@@ -115,3 +115,4 @@ export default {
     });
     this.$root.$on("mobileScrollTo", (y) => {
       this.$refs.mobileScroll.scroll({
+        top: y,

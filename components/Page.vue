@@ -76,7 +76,6 @@ export default {
       currentSlide: 0,
       preloadedImgBase64s: {},
       scrollDelayCounter: 0,
-      scrollDelay: 5,
       clickingToSection: false,
       keyIsDown: false,
     };

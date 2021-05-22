@@ -24,3 +24,4 @@ export default {
         "#689f38",
         "#afb42b",
         "#fbc02d",
+        "#f57c00",

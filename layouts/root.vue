@@ -73,6 +73,7 @@ export default {
         this.activeTheme.h2_font?.font,
         this.activeTheme.paragraph_font?.font,
         this.activeTheme.header_font?.font,
+        this.activeTheme.footer_font?.font
       ].filter(f => f && f.src_type == "typekit");
 
       if (googleFonts.length) {
@@ -91,3 +92,4 @@ export default {
         this.$WebFont.load({
           typekit: {
             id: fontkitId
+          }

@@ -21,6 +21,7 @@
     </div>
   </component>
 </template>
+
 <script>
 export default {
   props: {
@@ -43,3 +44,4 @@ a.text-block__item-wrapper:hover {
 
 .text-block {
   &__item {
+    position: relative;

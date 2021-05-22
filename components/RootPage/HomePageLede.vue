@@ -195,3 +195,6 @@ export default {
         })
         .set(previewMedia, {
           clearProps: "all",
+        })
+        .set(previewMedia, {
+          maskImage: `url(${this.irisAsset})`,

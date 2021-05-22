@@ -75,6 +75,7 @@ import registrationMixin from "../registration.mixin";
 export default {
   extends: registrationMixin,
   props: {
+    dialogState: Object,
   },
   data() {
     return {
@@ -90,3 +91,4 @@ export default {
       loginFormRequest: false,
     };
   },
+  mounted() {
