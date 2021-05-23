@@ -63,6 +63,7 @@ export default {
       areYouSureDialog: false,
       emailValidationSuggestions: {}
     };
+  },
   methods: {
     async login() {
       if (this.$refs.form.validate()) {

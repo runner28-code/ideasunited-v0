@@ -5,7 +5,6 @@
       'registration-form-hidden': currentUser && currentUser.confirmed
     }"
   >
-    <div class="registration-form__form" v-if="!currentUser">
       <div v-if="registrationForm.login_form && !chooseSignUp">
         <AuthForm :disabled="disabled" />
         <div class="registration-form__not-registered">
@@ -55,26 +54,3 @@
         v-if="registrationForm.title"
         tag="h2"
         class="registration-form__title"
-        >{{ registrationForm.title }}</Title
-      >
-      <p class="registration-form__thank-you">
-        Thank you! Please check your email and click the verification link,
-        which will direct you to your first log in.
-      </p>
-      <div class="registration-form__buttons">
-        <Button
-          :refs="$refs"
-          :disabled="resending"
-          @click="resendConfirmationEmail()"
-        >
-          Resend Confirmation Email
-        </Button>
-      </div>
-    </div>
-    <EmailValidationModal
-      :opened="areYouSureDialog"
-      :suggestions="emailValidationSuggestions"
-      :form="form"
-      @close="areYouSureDialog = false"
-      @submit="submit"
-    />

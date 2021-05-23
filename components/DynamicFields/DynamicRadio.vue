@@ -17,7 +17,6 @@
         :key="item.uuid"
         :label="item.title"
         :value="item.uuid"
-        @focus.stop="onFocus($event)"
       ></v-radio>
     </v-radio-group>
   </div>

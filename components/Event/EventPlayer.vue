@@ -11,6 +11,7 @@
       :vimeoChapter="event.vimeo_chapter"
       :vimeoId="event.vimeo_id"
     />
+    <ZoomPlayer
       v-else-if="event.event_type == 'zoom'"
       :zoomLink="event.zoom_url"
       :startAt="event.start_at"

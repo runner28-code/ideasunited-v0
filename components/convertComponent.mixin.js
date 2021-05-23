@@ -17,5 +17,4 @@ import TimelineList from "./TimelineList";
 export default {
   components: {
     ContentSection,
-// Temp comment
     Countdown,

@@ -8,6 +8,7 @@ const providers = {
   twitter: {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
   },
+  linkedin: {
     authorizationEndpoint: "/api/v1/public_side/auth/linkedin"
   },
   cas: {

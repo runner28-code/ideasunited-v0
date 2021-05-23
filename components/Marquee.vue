@@ -12,6 +12,7 @@ export default {
     return {
       seconds: 25,
       animating: false
+    }
   },
   computed: {
     animStyle() {

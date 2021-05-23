@@ -126,7 +126,6 @@ export default {
     }
     this.checkPosted();
     setTimeout(() => {
-      window.dispatchEvent(new Event('resize')); // get rellax to refresh after content loaded.
     }, 1000);
   },
   computed: {
