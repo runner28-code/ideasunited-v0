@@ -17,6 +17,7 @@
       :class="{ with_chat: currentPage.chats[0] }"
       class="event__video"
       v-if="currentPage.events.length"
+    >
       <div class="event__video-container" v-if="activeEvent">
         <div class="event__video-player">
           <EventPlayer
@@ -116,5 +117,5 @@ export default {
 
 <style scoped lang="scss">
 .show-chat {
-  padding: 20px;
   font-weight: bold;
+  font-size: 16px;

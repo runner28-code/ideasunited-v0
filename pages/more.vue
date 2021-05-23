@@ -32,3 +32,4 @@ export default {
 .grid-menu {
   display: flex;
   flex-wrap: wrap;
+

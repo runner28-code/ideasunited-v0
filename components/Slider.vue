@@ -27,3 +27,4 @@ export default {
   data() {
     return {
       swiperOption: {
+        slidesPerView: 1,

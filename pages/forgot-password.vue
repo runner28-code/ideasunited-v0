@@ -1,5 +1,6 @@
 <template>
   <div class="forgot-password-page">
+    <v-form
       ref="form"
       v-model="formModel"
       @submit.prevent="submit"
@@ -15,7 +16,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   layout: 'simple',

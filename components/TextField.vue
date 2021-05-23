@@ -50,3 +50,4 @@ export default {
     block: Boolean,
     name: String
   },
+  data() {

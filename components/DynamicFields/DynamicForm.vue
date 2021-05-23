@@ -78,3 +78,5 @@ export default {
   },
   data() {
     return {
+      valid: true,
+      loading: false,

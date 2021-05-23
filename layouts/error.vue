@@ -13,4 +13,5 @@
 </template>
 
 <script>
+export default {
   layout: 'empty',

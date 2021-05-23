@@ -136,3 +136,5 @@ export default {
       window.location.href = "/";
     },
     clickLogin(){
+      this.$root.$emit(`authModal/open`);
+    },

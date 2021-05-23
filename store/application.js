@@ -4,6 +4,7 @@ const store = {
   mutations: {
     setLoaded(state, val) {
       state.loaded = val;
+    },
     setTimelineAspectRatio(state, val) {
       state.timelineAspectRatio = val;
     }

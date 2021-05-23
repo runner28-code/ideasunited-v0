@@ -89,3 +89,4 @@ export default {
       const release = this.$moment(this.countdown.countdown_to);
       const today = this.$moment(new Date());
       const diff = release.diff(today);
+      const duration = this.$moment.duration(diff, "milliseconds");

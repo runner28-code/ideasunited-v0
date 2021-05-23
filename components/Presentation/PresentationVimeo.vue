@@ -23,7 +23,6 @@ export default {
     return {
       started: false
     };
-  },
   mounted() {
     this.player = new Player(this.$refs.vimeo);
 

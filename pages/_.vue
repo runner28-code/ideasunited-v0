@@ -41,6 +41,7 @@ export default {
     };
   },
   created() {
+    if (process.client) {
       this.$cable.subscribe({
         channel: "PageChannel",
         page_id: this.page?.id,

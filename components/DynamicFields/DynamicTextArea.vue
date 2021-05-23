@@ -5,7 +5,7 @@
     @input="$emit('input', $event)"
     :rules="rules"
     auto-grow
-    class="dynamic-textarea"
+    outlined
     @focus.stop="onFocus($event)"
   />
 </template>

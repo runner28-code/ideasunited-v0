@@ -26,3 +26,4 @@ export default {
     styles() {
       const styles = {};
       const { lead_text_color, lead_background } = this.currentPage;
+

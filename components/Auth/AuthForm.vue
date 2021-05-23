@@ -63,7 +63,6 @@ export default {
       areYouSureDialog: false,
       emailValidationSuggestions: {}
     };
-  },
   methods: {
     async login() {
       if (this.$refs.form.validate()) {
@@ -83,3 +82,4 @@ export default {
     async register() {
       if (this.$refs.registerForm.validate()) {
         try {
+          const { data } = await this.registerFetch();

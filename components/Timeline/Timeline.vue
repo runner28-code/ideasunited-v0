@@ -104,3 +104,5 @@ export default {
 
           case "object":
             this.$emit("input", active);
+            break;
+        }

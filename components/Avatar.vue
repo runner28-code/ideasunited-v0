@@ -17,7 +17,6 @@ export default {
       colors: [
         "#d32f2f",
         "#7b1fa2",
-        "#303f9f",
         "#0288d1",
         "#0097a7",
         "#00796b",
@@ -25,3 +24,4 @@ export default {
         "#afb42b",
         "#fbc02d",
         "#f57c00",
+        "#5d4037",

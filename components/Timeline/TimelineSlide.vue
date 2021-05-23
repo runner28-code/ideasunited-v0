@@ -78,3 +78,4 @@ export default {
 
       return {
         backgroundImage: `url(${preview})`,
+        borderColor: this.isActive
