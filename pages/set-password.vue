@@ -38,3 +38,4 @@ export default {
   methods: {
     async checkPasswordToken() {
       try {
+        const { data } = await this.$api.Auth.checkPasswordToken({

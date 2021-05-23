@@ -16,6 +16,7 @@
   </v-dialog>
 </template>
 
+<script>
 
 export default {
   data() {
@@ -31,3 +32,4 @@ export default {
       this.backToLogin();
       this.opened = true;
     });
+

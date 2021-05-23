@@ -91,6 +91,7 @@ export default {
   },
   data() {
     return {
+      swiperOption: {
         speed: 400,
         keyboard: {
           enabled: true
@@ -146,3 +147,4 @@ export default {
         (["lg", "xl"].includes(this.$size) && this.filteredBlocks.length > 4) ||
         (["sm", "xs"].includes(this.$size) && this.filteredBlocks.length > 1)
       );
+    }

@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 const store = {
+// Temp comment
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {

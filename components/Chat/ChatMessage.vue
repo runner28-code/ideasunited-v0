@@ -40,7 +40,6 @@
         <v-list-item @click="deleteAllMessagesAndBlock">
           <v-list-item-title>Delete all messages from user</v-list-item-title>
         </v-list-item>
-        <v-list-item @click="blockUser">
           <v-list-item-title class="red--text">Block user</v-list-item-title>
         </v-list-item>
       </v-list>

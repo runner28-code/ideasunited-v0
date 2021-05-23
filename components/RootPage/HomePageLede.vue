@@ -198,3 +198,4 @@ export default {
         })
         .set(previewMedia, {
           maskImage: `url(${this.irisAsset})`,
+        }); 

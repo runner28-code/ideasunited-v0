@@ -1,10 +1,10 @@
 <template>
-  <div class="radio-group">
     <div class="radio-group__label">
       {{ title }}<span v-if="required && markRequired" class="radio-group__required">*</span>
     </div>
     <v-radio-group
       class="radio-group__control"
+      row
       :value="value"
       hide-details="auto"
       @change="$emit('input', $event)"
@@ -20,3 +20,4 @@
       ></v-radio>
     </v-radio-group>
   </div>
+</template>

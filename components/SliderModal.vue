@@ -5,6 +5,7 @@
       content-class="slider-modal"
       :value="value"
       @input="$emit('input', $event)"
+      v-if="value"
     >
       <div class="slider-modal__wrapper" @click="close">
         <v-btn
@@ -56,7 +57,6 @@ export default {
     name: String,
     value: Boolean,
     id: String,
-    prevId: String,
     nextId: String,
     scrollToElement: {
       type: Boolean,

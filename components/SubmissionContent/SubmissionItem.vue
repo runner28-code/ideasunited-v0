@@ -15,6 +15,7 @@
               field.value.length > 100
                 ? field.value.substr(0, 100) + "..."
                 : field.value
+            }}</span>
           </div>
         </div>
       </div>
@@ -53,3 +54,4 @@ export default {
   computed: {
     content() {
       return this.previewLayout.content
+        .map(t => ({

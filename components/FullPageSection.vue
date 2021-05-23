@@ -54,3 +54,5 @@ export default {
   props: {
     page: Object,
     idx: Number,
+    formsDisabled: Boolean,
+  },

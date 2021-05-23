@@ -47,7 +47,6 @@
           {{ btnText || "Submit" }}
         </span>
       </Button>
-    </div>
   </v-form>
 </template>
 
@@ -74,3 +73,4 @@ export default {
     description: String,
     btnText: String,
     disabled: Boolean,
+    showBackToLogin: Boolean,

@@ -8,3 +8,4 @@ const store = {
   mutations: {
     set(state, data) {
       state.data = data;
+    }

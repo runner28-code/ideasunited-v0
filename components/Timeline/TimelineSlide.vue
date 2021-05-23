@@ -26,7 +26,6 @@
           <div class="timeline-slide__text-name">
             {{ value.short_title || value.title }}
           </div>
-        </div>
 
         <div class="timeline-slide__now-playing">
           <div class="timeline-slide__now-playing__dot"></div>
@@ -75,3 +74,4 @@ export default {
       const preview =
         this.value.preview?.thumb?.url ||
         this.activeTheme.event_preview?.thumb?.url;
+

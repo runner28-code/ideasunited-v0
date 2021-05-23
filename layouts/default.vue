@@ -34,7 +34,6 @@
     <Notification />
     <div v-html="styles"></div>
   </v-app>
-</template>
 
 <script>
 import _ from "lodash";
@@ -116,3 +115,4 @@ export default {
     this.$root.$on("mobileScrollTo", (y) => {
       this.$refs.mobileScroll.scroll({
         top: y,
+        left: 0,

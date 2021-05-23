@@ -11,6 +11,7 @@
           <div class="countdown-timer__item">
             <div class="countdown-timer__item-value">
               {{ hours }}
+            </div>
             <div class="countdown-timer__item-label">hrs</div>
           </div>
           <div class="countdown-timer__item">

@@ -6,6 +6,7 @@
     :rules="rules"
     type="password"
     outlined
+  />
 </template>
 
 <script>
