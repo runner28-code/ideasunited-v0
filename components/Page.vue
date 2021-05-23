@@ -149,3 +149,5 @@ export default {
     },
     isProduction() {
       return (
+        this.currentProject &&
+        this.currentProject.production_domain == window.location.hostname

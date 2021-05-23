@@ -92,3 +92,5 @@ export default {
     };
   },
   mounted() {
+    this.fetchForm();
+    if (this.dialogState) {

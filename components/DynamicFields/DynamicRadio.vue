@@ -1,4 +1,5 @@
 <template>
+  <div class="radio-group">
     <div class="radio-group__label">
       {{ title }}<span v-if="required && markRequired" class="radio-group__required">*</span>
     </div>
@@ -12,7 +13,6 @@
       @focus.stop="onFocus($event)"
     >
       <v-radio
-        v-for="item in options"
         :key="item.uuid"
         :label="item.title"
         :value="item.uuid"

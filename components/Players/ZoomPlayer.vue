@@ -41,3 +41,4 @@ export default {
     };
   },
   created() {
+    this.fetchSignature();

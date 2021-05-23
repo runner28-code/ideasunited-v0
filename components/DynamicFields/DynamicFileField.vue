@@ -22,7 +22,6 @@ export default {
     placeholder: String,
     ratio: {
       type: Number,
-      default: 580 / 320
     },
     circle: Boolean,
     position: {
@@ -40,3 +39,13 @@ export default {
     required: Boolean,
     markRequired: Boolean,
     label: String,
+    showLabel: Boolean
+  },
+};
+</script>
+
+<style scoped lang="scss">
+.uploader {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;

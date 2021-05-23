@@ -148,3 +148,6 @@ export default {
         (["sm", "xs"].includes(this.$size) && this.filteredBlocks.length > 1)
       );
     }
+  },
+  methods: {
+    getId(index) {

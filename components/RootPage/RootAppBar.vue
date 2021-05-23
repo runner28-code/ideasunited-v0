@@ -154,3 +154,6 @@ export default {
     goToOpp(opp) {
       
     },
+  }
+};
+</script>

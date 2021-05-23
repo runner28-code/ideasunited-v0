@@ -37,7 +37,6 @@
             </div>
           </v-menu>
         </div>
-        <div>
           <span>{{ message.length }}/200</span>
           <v-btn icon @click="sendMessage">
             <v-icon>$send</v-icon>
@@ -47,3 +46,4 @@
     </div>
   </div>
 </template>
+

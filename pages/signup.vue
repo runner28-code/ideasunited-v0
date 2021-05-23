@@ -29,3 +29,4 @@ export default {
       window.location.href = frontendToProfile()[window.location.origin];
     });
   },
+};

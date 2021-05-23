@@ -6,7 +6,6 @@
       </v-btn>
       <Title>Are you sure?</Title>
       <p class="email-validation__message" >An email in this form appears to have a typo in it.</p>
-      <div v-if="suggestions && suggestions.length" class="email-validation__suggestions">
         <div v-for="(suggestion, sidx) in suggestions" :key="sidx" v-show="!suggestion.accepted">
           Did you mean {{`${suggestion.local}@${suggestion.suggestion}`}}? <a @click="useSuggestion(suggestion)">Use this email.</a>
         </div>
@@ -23,6 +22,7 @@
 <script>
 export default {
   props: {
+    opened: Boolean,
     suggestions: [Array, Object],
     form: Object
   },

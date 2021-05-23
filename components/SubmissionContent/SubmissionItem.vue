@@ -55,3 +55,4 @@ export default {
     content() {
       return this.previewLayout.content
         .map(t => ({
+          ...this.formattedData[t.field_id],

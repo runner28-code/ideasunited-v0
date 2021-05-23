@@ -4,7 +4,7 @@
     :value="value"
     @input="$emit('input', $event)"
     :rules="rules"
-    outlined
+    auto-grow
     class="dynamic-textarea"
     @focus.stop="onFocus($event)"
   />

@@ -47,7 +47,6 @@
         />
       </div>
     </div>
-    <div
       v-else-if="!currentUser.confirmed"
       class="registration-form__not-confirmed"
     >
@@ -77,3 +76,4 @@
       :form="form"
       @close="areYouSureDialog = false"
       @submit="submit"
+    />

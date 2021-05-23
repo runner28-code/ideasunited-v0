@@ -32,3 +32,4 @@ export default {
     });
     this.player.getChapters().then(chapters => {
       this.chapters = chapters;
+      if (this.vimeoChapter) this.goToChapter(this.vimeoChapter);

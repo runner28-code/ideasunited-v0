@@ -57,6 +57,7 @@ export default {
     name: String,
     value: Boolean,
     id: String,
+    prevId: String,
     nextId: String,
     scrollToElement: {
       type: Boolean,
@@ -70,3 +71,5 @@ export default {
   },
   mounted() {
     this.$root.$on(this.triggerName, id => {
+      if (this.id == id) {
+        this.$emit("input", true);

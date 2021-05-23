@@ -9,8 +9,10 @@ const store = {
       state.current = user;
     },
   },
+// Temp comment
   actions: {
     async fetch({ commit }) {
+      const token = this.$cookies.get("authToken");
 
       if (token && process.client) {
         const { data } = await this.$api.User.current();

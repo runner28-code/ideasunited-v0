@@ -28,6 +28,7 @@
 <script>
 import _ from "lodash";
 
+export default {
   props: {
     value: String,
     page: Object,
@@ -51,3 +52,4 @@ import _ from "lodash";
           .widget_submission_form_id,
         query: this.search,
         page: this.page
+      };

@@ -199,3 +199,7 @@ export default {
         .set(previewMedia, {
           maskImage: `url(${this.irisAsset})`,
         }); 
+    },
+    playReel() {
+      this.playing = true;
+      if(['sm', 'xs'].includes(this.$size)) {

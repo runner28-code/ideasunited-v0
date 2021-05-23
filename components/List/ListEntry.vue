@@ -2,6 +2,7 @@
   <div class="list-entry">
     <div
       v-if="entry.preview.thumb.url"
+      :style="{ backgroundImage: `url(${entry.preview.thumb.url})` }"
       class="list-entry__preview"
     ></div>
     <div class="list-entry__content">
@@ -22,3 +23,4 @@ export default {
     entry: Object
   }
 };
+</script>

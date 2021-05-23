@@ -56,3 +56,5 @@ export default {
     idx: Number,
     formsDisabled: Boolean,
   },
+  methods: {
+    onFocus($event) {

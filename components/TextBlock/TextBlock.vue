@@ -55,3 +55,4 @@ export default {
 .text-block {
   margin: -10px;
   display: flex;
+  flex-wrap: wrap;

@@ -86,3 +86,6 @@ export default {
       return Math.floor(ms / 1000 / 60 / 60 / 24);
     },
     calc() {
+      const release = this.$moment(this.countdown.countdown_to);
+      const today = this.$moment(new Date());
+      const diff = release.diff(today);

@@ -81,3 +81,5 @@ export default {
       return res;
     },
     async register() {
+      if (this.$refs.registerForm.validate()) {
+        try {

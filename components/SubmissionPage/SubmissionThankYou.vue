@@ -26,3 +26,4 @@ export default {
   },
   data() {
     return {
+      profileUrl: frontendToProfile()[window.location.origin],

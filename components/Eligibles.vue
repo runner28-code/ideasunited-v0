@@ -24,3 +24,4 @@ export default {
     value: Array,
   },
   data() {
+    return {

@@ -152,3 +152,6 @@ export default {
     toggleDrawer() {
       this.$root.$emit("toggleDrawer");
     },
+  },
+  computed: {
+    activeGridMenuTitle() {

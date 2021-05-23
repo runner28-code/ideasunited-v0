@@ -49,3 +49,4 @@ export default {
     max: [String, Number],
     block: Boolean,
     name: String
+  },
