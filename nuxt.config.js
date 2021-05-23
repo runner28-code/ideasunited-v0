@@ -19,7 +19,6 @@ export default {
     htmlAttrs: {
       lang: "en",
     },
-    meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
@@ -61,7 +60,6 @@ export default {
           window.__forceSmoothScrollPolyfill__ !== true,
         install: (smoothscroll) => {
           smoothscroll.polyfill();
-// Temp comment
         },
       },
     ],

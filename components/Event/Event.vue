@@ -78,7 +78,6 @@
     <div
       v-if="currentPage.chats.length"
       class="show-chat"
-      @click="showMobileChat = !showMobileChat"
     >
       <span v-if="!showMobileChat">
         Show Chat

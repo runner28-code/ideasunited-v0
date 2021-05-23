@@ -38,7 +38,6 @@
     </v-responsive>
   </div>
 </template>
-
 <script>
 export default {
   name: "TimelineSlide",

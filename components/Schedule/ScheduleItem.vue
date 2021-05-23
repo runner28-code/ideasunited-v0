@@ -24,7 +24,6 @@
 <script>
 export default {
   props: {
-    item: Object
   },
   methods: {
     onclick() {

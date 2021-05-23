@@ -9,7 +9,6 @@
     >
       <v-responsive
         @click="openDialog"
-        class="content-section-item__wrapper"
         :class="{
           'content-section-item__wrapper--video':
             block.content_type == 'video_player'
@@ -81,3 +80,4 @@ export default {
             });
             window.scroll({ top: 0, left: 0, behavior: "smooth" });
           } else {
+            this.dialog = true;

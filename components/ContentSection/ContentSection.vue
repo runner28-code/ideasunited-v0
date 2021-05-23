@@ -106,7 +106,6 @@ export default {
             spaceBetween: 40
           },
           960: {
-            slidesPerView: 3,
             spaceBetween: 40
           },
           1264: {
@@ -126,6 +125,7 @@ export default {
     }
     this.checkPosted();
     setTimeout(() => {
+      window.dispatchEvent(new Event('resize')); // get rellax to refresh after content loaded.
     }, 1000);
   },
   computed: {

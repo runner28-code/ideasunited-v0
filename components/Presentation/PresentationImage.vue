@@ -1,6 +1,6 @@
 <template>
   <div
-    :style="{
+    class="presentation-image"
       backgroundImage: `url(${slide.preview ? slide.preview.url : ''})`
     }"
   ></div>

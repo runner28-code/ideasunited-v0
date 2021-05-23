@@ -35,19 +35,3 @@
 import { getThemeByColor } from "@/utils";
 
 export default {
-  props: {
-    placeholder: String,
-    label: String,
-    value: [String, Number],
-    type: {
-      type: String,
-      default: "text"
-    },
-    rules: Array,
-    suffix: String,
-    min: [String, Number],
-    max: [String, Number],
-    block: Boolean,
-    name: String
-  },
-  data() {

@@ -71,3 +71,4 @@ export default {
       default: "center"
     },
     rules: {
+      type: Array,

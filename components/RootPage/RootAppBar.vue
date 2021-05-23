@@ -31,6 +31,7 @@
         </div>
       </transition>
 
+      <v-btn icon @click="$emit('toggleSidebar')" class="app-bar__menu">
         <v-icon size="34" color="white">$account_menu</v-icon>
         <transition name="fade">
           <div
@@ -139,7 +140,6 @@ export default {
         this.newOppDetail = this.newOpps[this.newOppDetailIndex];
       }
       this.nextNewOppDetail();
-    },
     nextNewOppDetail() {
       setTimeout(() => {
         this.updateNewOppDetail();

@@ -17,7 +17,6 @@ export default {
   name: "SearchInput",
   props: {
     value: String
-  },
   data() {
     return {
       localValue: ""
