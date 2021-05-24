@@ -74,3 +74,4 @@ export default {
       if (this.id == id) {
         this.$emit("input", true);
 
+        if (this.scrollToElement) {

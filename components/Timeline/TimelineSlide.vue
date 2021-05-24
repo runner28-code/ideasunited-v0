@@ -38,6 +38,7 @@
     </v-responsive>
   </div>
 </template>
+
 <script>
 export default {
   name: "TimelineSlide",
@@ -78,3 +79,4 @@ export default {
       return {
         backgroundImage: `url(${preview})`,
         borderColor: this.isActive
+          ? this.activeTheme.primary_color

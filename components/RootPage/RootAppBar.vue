@@ -140,6 +140,7 @@ export default {
         this.newOppDetail = this.newOpps[this.newOppDetailIndex];
       }
       this.nextNewOppDetail();
+    },
     nextNewOppDetail() {
       setTimeout(() => {
         this.updateNewOppDetail();
@@ -158,3 +159,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.toolbar-title {
+  padding: 0 25px;
+  @media screen and (max-width: 960px) {

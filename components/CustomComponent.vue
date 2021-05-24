@@ -36,3 +36,4 @@ export default {
     compile(component, callback) {
       return new Promise(resolve => {
         const { sfc_name } = component;
+

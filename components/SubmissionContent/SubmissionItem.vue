@@ -56,3 +56,4 @@ export default {
       return this.previewLayout.content
         .map(t => ({
           ...this.formattedData[t.field_id],
+          class_name: t.uuid

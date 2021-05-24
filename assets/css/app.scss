@@ -1,7 +1,6 @@
 @import "./slider-modal-content.scss";
 
 html {
-  scroll-behavior: smooth;
 }
 
 .error {
@@ -13,6 +12,7 @@ html {
     bottom: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   &-title {
     font-weight: bold;

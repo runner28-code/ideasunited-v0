@@ -24,6 +24,7 @@
         </div>
       </div>
     </div>
+    <v-menu
       offset-y
       v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"
     >
@@ -52,3 +53,4 @@ import stripMessage from "@/filters/stripMessage";
 import badwords from "@/filters/badwords";
 
 export default {
+  name: "ChatMessage",

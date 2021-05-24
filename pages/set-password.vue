@@ -18,7 +18,6 @@
       </Button>
     </v-form>
   </div>
-</template>
 
 <script>
 export default {
@@ -40,3 +39,4 @@ export default {
       try {
         const { data } = await this.$api.Auth.checkPasswordToken({
           token: this.token
+        });

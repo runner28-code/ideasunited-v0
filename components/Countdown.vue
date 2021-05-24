@@ -40,6 +40,7 @@
 <script>
 import moment from "moment-timezone";
 
+export default {
   name: "Countdown",
   props: {
     value: String,
@@ -89,3 +90,5 @@ import moment from "moment-timezone";
       const today = this.$moment(new Date());
       const diff = release.diff(today);
       const duration = this.$moment.duration(diff, "milliseconds");
+
+      const days = this.daysWithoutMonths(diff);

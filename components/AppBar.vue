@@ -157,3 +157,6 @@ export default {
     activeGridMenuTitle() {
       const page = this.gridMenuPages.find((t) => t.id == this.currentPage?.id);
       return page?.menu_title;
+    },
+    gridMenuPages() {
+      return this.currentProject.grid_menu_pages;

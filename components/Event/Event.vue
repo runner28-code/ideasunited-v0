@@ -78,6 +78,7 @@
     <div
       v-if="currentPage.chats.length"
       class="show-chat"
+      @click="showMobileChat = !showMobileChat"
     >
       <span v-if="!showMobileChat">
         Show Chat
@@ -119,3 +120,5 @@ export default {
   padding: 20px;
   font-weight: bold;
   font-size: 16px;
+  line-height: 16px;
+  border-top: 1px solid #e5e5e5;

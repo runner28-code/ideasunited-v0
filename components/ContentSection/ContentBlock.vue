@@ -9,6 +9,7 @@
     >
       <v-responsive
         @click="openDialog"
+        class="content-section-item__wrapper"
         :class="{
           'content-section-item__wrapper--video':
             block.content_type == 'video_player'
@@ -72,7 +73,6 @@ export default {
             t => t.type == "Event"
           );
           if (hasEventBlock) {
-            const event_type = this.block.video_player_type;
             this.$root.$emit("setActiveEvent", {
               ...this.block,
               event_type,

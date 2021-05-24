@@ -106,6 +106,7 @@ export default {
             spaceBetween: 40
           },
           960: {
+            slidesPerView: 3,
             spaceBetween: 40
           },
           1264: {
@@ -152,3 +153,5 @@ export default {
     getId(index) {
       const block = this.filteredBlocks[index];
       return block?.posted ? block.id : null;
+    },
+    checkPosted() {

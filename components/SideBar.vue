@@ -123,7 +123,6 @@ export default {
       if (menuItem.url_type == "absolute") {
         return {
           href: menuItem.absolute_url,
-          target: "_blank"
         };
       }
       return {
@@ -138,3 +137,5 @@ export default {
     clickLogin(){
       this.$root.$emit(`authModal/open`);
     },
+    async menuClick(item, idx) {
+      this.$root.$emit("menuClick", item, idx);

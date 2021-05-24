@@ -55,3 +55,7 @@
         v-if="registrationForm.title"
         tag="h2"
         class="registration-form__title"
+        >{{ registrationForm.title }}</Title
+      >
+      <p class="registration-form__thank-you">
+        Thank you! Please check your email and click the verification link,

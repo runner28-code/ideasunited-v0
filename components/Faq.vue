@@ -34,7 +34,6 @@
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-expansion-panels>
-    </div>
   </div>
 </template>
 
@@ -45,3 +44,4 @@ export default {
   props: {
     value: String,
     page: Object,
+  },
