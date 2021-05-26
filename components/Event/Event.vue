@@ -65,7 +65,6 @@
       <Chat
         v-if="currentPage.chats[0].chat_type == 'text'"
         :chat="currentPage.chats[0]"
-      />
 
       <ZoomChat
         v-if="currentPage.chats[0].chat_type == 'zoom'"

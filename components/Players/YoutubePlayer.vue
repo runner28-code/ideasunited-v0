@@ -8,5 +8,3 @@
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
   ></iframe>
-</template>
-

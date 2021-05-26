@@ -7,7 +7,6 @@
       {{ supportForm.description }}
     </div>
     <DynamicForm
-      :submit="submit"
       :fields="supportForm.support_form"
       v-model="form"
       v-if="!submitted"

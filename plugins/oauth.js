@@ -13,6 +13,7 @@ const providers = {
   },
   cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
+  }
 };
 
 export default function(ctx, inject) {

@@ -23,7 +23,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import _ from "lodash";
 import cookies from "vue-cookies";
@@ -35,6 +34,7 @@ export default {
         TwitterLogin: {
           provider: "twitter"
         },
+        GoogleLogin: {
           provider: "google"
         },
         FacebookLogin: {

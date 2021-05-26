@@ -51,7 +51,6 @@ export default {
       dialog: false
     };
   },
-  computed: {
     content() {
       return this.previewLayout.content
         .map(t => ({

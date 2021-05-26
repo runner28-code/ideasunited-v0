@@ -15,7 +15,6 @@
     </v-card>
   </v-dialog>
 </template>
-
 <script>
 
 export default {

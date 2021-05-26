@@ -51,7 +51,6 @@ import { frontendToProfile } from "@/utils";
 export default {
   props: {
     isStatic: Boolean,
-  },
   data() {
     return {
       year: new Date().getFullYear(),
