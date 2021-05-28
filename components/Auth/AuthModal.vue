@@ -15,6 +15,7 @@
     </v-card>
   </v-dialog>
 </template>
+
 <script>
 
 export default {
@@ -27,7 +28,6 @@ export default {
     };
   },
   mounted() {
-    this.$root.$on(`authModal/open`, () => {
       this.backToLogin();
       this.opened = true;
     });

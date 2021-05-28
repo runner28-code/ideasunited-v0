@@ -59,6 +59,7 @@ export default {
         this.activeTheme.h2_font?.font,
         this.activeTheme.paragraph_font?.font,
         this.activeTheme.header_font?.font,
+        this.activeTheme.footer_font?.font
       ].filter(f => f && f.src_type == "google_fonts");
 
       googleFonts.push({

@@ -1,6 +1,6 @@
 <template>
   <v-text-field
-    :value="value"
+    :placeholder="label + (required && markRequired ? ' *' : '')"
     @input="$emit('input', $event)"
     :rules="rules"
     outlined

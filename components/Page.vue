@@ -98,8 +98,8 @@ export default {
     this.$root.$on("fullpageRebuild", (y) => {
       if (this.$refs.fullpage && this.$refs.fullpage.api) {
         this.$refs.fullpage.api.reBuild();
+        this.fullpageScrollReset();
       }
-    });
 
     this.$root.$on("fullpageScrollReset", () => {
       this.fullpageScrollReset();

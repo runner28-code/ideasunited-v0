@@ -11,7 +11,6 @@ const store = {
       state.current.chats[chat.id] = chat;
     },
     publishEvent(state, id) {
-// Temp comment
       const collection = state.current?.events;
       const payload = { posted: true };
       updateCollection({ collection, id, payload });
@@ -56,6 +55,7 @@ const store = {
 };
 
 const updateCollection = ({ collection, id, payload }) => {
+// Temp comment
   if (!collection) return;
   const item = collection.find(t => t.id == id);
   if (item) {

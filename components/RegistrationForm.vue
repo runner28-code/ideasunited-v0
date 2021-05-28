@@ -15,7 +15,6 @@
           <v-btn
             class="signup-btn"
             elevation="0"
-            @click="chooseSignUp = true"
             >{{ registrationForm.sign_up_btn_text || "Apply" }}</v-btn
           >
         </div>

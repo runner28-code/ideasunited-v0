@@ -40,7 +40,6 @@ import { getHash } from "@/utils";
 export default {
   props: {
     item: Object,
-    prevId: String,
     nextId: String,
     layout: Object,
     previewLayout: Object
@@ -51,6 +50,7 @@ export default {
       dialog: false
     };
   },
+  computed: {
     content() {
       return this.previewLayout.content
         .map(t => ({

@@ -6,6 +6,7 @@
     allowfullscreen
     class="vimeo-player"
     ref="vimeo"
+  ></iframe>
 </template>
 
 <script>

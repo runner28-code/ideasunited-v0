@@ -6,7 +6,6 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, user) {
-      state.current = user;
     },
   },
   actions: {
@@ -14,7 +13,6 @@ const store = {
       const token = this.$cookies.get("authToken");
 
       if (token && process.client) {
-// Temp comment
         const { data } = await this.$api.User.current();
         commit("set", data);
         const cookieDomain =

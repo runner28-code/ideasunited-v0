@@ -1,5 +1,4 @@
 <template>
-  <div class="custom-sfc">
     <component
       :key="key"
       v-if="loaded"
@@ -14,6 +13,7 @@ import Spinner from "./Spinner";
 import { v4 as uuidv4 } from "uuid";
 
 export default {
+  props: {
     value: String,
     page: Object,
   },

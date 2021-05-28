@@ -18,7 +18,6 @@
         <div slot="no-results" class="no-results">Nothing found</div>
         <div slot="spinner">
           <Spinner />
-        </div>
       </infinite-loading>
     </client-only>
     <div v-html="css"></div>
@@ -28,6 +27,7 @@
 <script>
 import _ from "lodash";
 
+export default {
   props: {
     value: String,
     page: Object,
