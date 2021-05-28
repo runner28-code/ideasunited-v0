@@ -100,6 +100,7 @@ export default {
         this.$refs.fullpage.api.reBuild();
         this.fullpageScrollReset();
       }
+    });
 
     this.$root.$on("fullpageScrollReset", () => {
       this.fullpageScrollReset();
@@ -157,3 +158,4 @@ export default {
         this.fullPageMoveTo(idx + 1);
       }
     },
+    fullPageToTop() {

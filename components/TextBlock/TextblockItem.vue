@@ -16,6 +16,7 @@
         <div
           class="text-block__item-description"
           v-html="item.description"
+        ></div>
       </div>
     </div>
   </component>
@@ -46,3 +47,4 @@ a.text-block__item-wrapper:hover {
     position: relative;
     overflow: hidden;
     background-position: center;
+    background-size: cover;

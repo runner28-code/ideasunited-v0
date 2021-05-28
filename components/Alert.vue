@@ -18,11 +18,11 @@
       <div
         :class="{ clickable: alert.onclick }"
         class="alert__message"
+        v-html="alert.message"
         @click="onclick"
       ></div>
     </v-alert>
   </v-snackbar>
-</template>
 
 <script>
 export default {
@@ -52,3 +52,4 @@ export default {
 
 <style scoped lang="scss">
 .alert {
+  white-space: pre-line;

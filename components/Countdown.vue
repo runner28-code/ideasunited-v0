@@ -92,3 +92,5 @@ export default {
       const duration = this.$moment.duration(diff, "milliseconds");
 
       const days = this.daysWithoutMonths(diff);
+      const hours = duration.hours();
+      const minutes = duration.minutes();

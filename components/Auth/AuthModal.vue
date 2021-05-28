@@ -19,7 +19,6 @@
 <script>
 
 export default {
-  data() {
     return {
       opened: false,
       dialogState: {
@@ -28,8 +27,10 @@ export default {
     };
   },
   mounted() {
+    this.$root.$on(`authModal/open`, () => {
       this.backToLogin();
       this.opened = true;
     });
 
     this.$root.$on(`authModal/open/register`, () => {
+      this.dialogState.chooseSignUp = true;

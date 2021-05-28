@@ -49,3 +49,4 @@
 </template>
 
 <script>
+import { stripMessage } from "@/utils";

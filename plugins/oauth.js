@@ -6,7 +6,6 @@ const providers = {
     authorizationEndpoint: "/api/v1/public_side/auth/facebook"
   },
   twitter: {
-// Temp comment
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
   },
   linkedin: {
@@ -22,3 +21,4 @@ export default function(ctx, inject) {
     return new Promise((resolve, reject) => {
       console.log(process.env["ROOT_DOMAIN"]);
 
+      let { authorizationEndpoint } = providers[provider];

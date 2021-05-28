@@ -50,6 +50,7 @@
 import { frontendToProfile } from "@/utils";
 export default {
   props: {
+    isStatic: Boolean,
   },
   data() {
     return {
@@ -87,3 +88,4 @@ export default {
   position: fixed;
   z-index: 7;
   padding: 10px 19px 10px 14px;
+  background-color: #56565a;

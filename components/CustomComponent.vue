@@ -1,4 +1,5 @@
 <template>
+  <div class="custom-sfc">
     <component
       :key="key"
       v-if="loaded"
@@ -36,3 +37,4 @@ export default {
       return new Promise(resolve => {
         const { sfc_name } = component;
 
+        if (process.client) {

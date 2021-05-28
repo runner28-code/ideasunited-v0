@@ -25,6 +25,7 @@
             class="app-bar__new-opps__close"
             @click.stop="showNewOpps = false"
             small
+          >
             <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
         </div>
@@ -161,3 +162,6 @@ export default {
 .toolbar-title {
   padding: 0 25px;
   @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
+}

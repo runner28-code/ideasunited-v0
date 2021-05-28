@@ -97,3 +97,5 @@ export default {
       this.chooseSignUp = this.dialogState.chooseSignUp;
     }
   },
+  methods: {
+    async fetchForm() {

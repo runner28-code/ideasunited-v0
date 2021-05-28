@@ -13,7 +13,6 @@
       :key="message.uuid"
     />
   </div>
-</template>
 
 <script>
 export default {
@@ -22,6 +21,7 @@ export default {
   },
   data() {
     return { messages: [] };
+  },
   channels: {
     ChatChannel: {
       received({ type, payload }) {
@@ -40,3 +40,4 @@ export default {
     }
   },
   methods: {
+    newMessage(payload) {

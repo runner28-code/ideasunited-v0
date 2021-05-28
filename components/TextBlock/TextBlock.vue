@@ -57,3 +57,4 @@ export default {
   display: flex;
   flex-wrap: wrap;
 
+  &__side {

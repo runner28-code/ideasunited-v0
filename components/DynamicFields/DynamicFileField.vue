@@ -38,7 +38,6 @@ export default {
       default: "cover"
     },
     required: Boolean,
-    markRequired: Boolean,
     label: String,
     showLabel: Boolean
   },

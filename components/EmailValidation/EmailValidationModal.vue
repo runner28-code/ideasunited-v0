@@ -16,7 +16,6 @@
         @click="yesImSure()"
         >Yes, I'm Sure</Button
       >
-    </v-card>
   </v-dialog>
 </template>
 
@@ -31,3 +30,4 @@ export default {
     useSuggestion(suggestion) {
       const suggested_email = `${suggestion.local}@${suggestion.suggestion}`
       for (var key in this.form.data){
+        if (this.form.data[key] == suggestion.email) {

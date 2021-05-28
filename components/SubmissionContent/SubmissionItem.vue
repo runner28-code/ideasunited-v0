@@ -40,6 +40,7 @@ import { getHash } from "@/utils";
 export default {
   props: {
     item: Object,
+    prevId: String,
     nextId: String,
     layout: Object,
     previewLayout: Object
@@ -56,3 +57,5 @@ export default {
         .map(t => ({
           ...this.formattedData[t.field_id],
           class_name: t.uuid
+        }))
+        .filter(t => t);

@@ -22,3 +22,4 @@ export default {
       type: Array,
       default: () => []
     },
+    required: Boolean,

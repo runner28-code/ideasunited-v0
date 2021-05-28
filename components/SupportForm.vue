@@ -29,6 +29,6 @@ export default {
     return {
       form: {
         support_form_id: null,
-        data: {}
       },
       submitted: false
+    };

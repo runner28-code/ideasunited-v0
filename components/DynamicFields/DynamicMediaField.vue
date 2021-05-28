@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="file-input-wrapper" v-if="fileInput">
+      <v-file-input
         class="file-input"
         :placeholder="label + (required && markRequired ? ' *' : '')"
         :value="value"
@@ -72,3 +73,5 @@ export default {
     rules: {
       type: Array,
       default: () => []
+    },
+    size: {

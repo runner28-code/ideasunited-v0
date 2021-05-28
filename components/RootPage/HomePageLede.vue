@@ -169,6 +169,7 @@ export default {
           duration: this.irisEnding.duration,
           ease: Power1.easeIn,
         })
+        .add("irisrestored")
         .to(previewMedia, {
           y: document.documentElement.clientWidth * .0556 + 100,
           x: document.documentElement.clientWidth * 0.5,
@@ -208,3 +209,7 @@ export default {
         // enter full screen
         this.fullscreen = true;
         this.fullscreenToggle();
+      } else {
+        const { previewMedia, playBtn, previewImage, previewVideo, videoElem } = this.$refs;
+        videoElem.play();
+        const fixedStart = previewMedia.getBoundingClientRect();

@@ -1,5 +1,5 @@
 import Vue from "vue";
 import ActionCableVue from "actioncable-vue";
-// Temp comment
 
+// Temp comment
 if (process.client) {

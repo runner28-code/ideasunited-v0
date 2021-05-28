@@ -140,3 +140,5 @@ export default {
     },
     async menuClick(item, idx) {
       this.$root.$emit("menuClick", item, idx);
+      if (
+        (!item && this.$route.path == "/") ||

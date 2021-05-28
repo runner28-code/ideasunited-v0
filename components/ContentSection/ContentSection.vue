@@ -155,3 +155,6 @@ export default {
       return block?.posted ? block.id : null;
     },
     checkPosted() {
+      this.contentSection.blocks.forEach(t => {
+        if (!t.start_at) {
+          this.$store.commit("page/publishContentBlock", {

@@ -11,3 +11,4 @@ const store = {
     }
   },
   actions: {
+    async init({ dispatch, commit }) {

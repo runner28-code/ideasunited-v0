@@ -15,6 +15,7 @@ import { getThemeByColor } from "@/utils";
 
 export default {
   name: "SearchInput",
+  props: {
     value: String
   },
   data() {
@@ -37,3 +38,4 @@ export default {
       immediate: true,
       handler(value) {
         this.localValue = value;
+      }

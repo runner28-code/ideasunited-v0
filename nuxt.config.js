@@ -54,7 +54,6 @@ export default {
 
   polyfill: {
     features: [
-      {
         require: "smoothscroll-polyfill",
         detect: () =>
           "scrollBehavior" in document.documentElement.style &&
@@ -74,3 +73,4 @@ export default {
     },
   ],
 
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules

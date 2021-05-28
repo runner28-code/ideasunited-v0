@@ -160,3 +160,6 @@ export default {
     },
     gridMenuPages() {
       return this.currentProject.grid_menu_pages;
+    },
+    homeHash() {
+      if (!this.currentProject || this.currentProject.menu_pages == 0)

@@ -26,7 +26,6 @@ export default {
   props: {
     item: Object
   },
-  methods: {
     onclick() {
       if (this.item.event) {
         const { page_url, id } = this.item.event;
@@ -41,3 +40,4 @@ export default {
       const url =
         this.item.preview.large.url ||
         this.activeTheme.schedule_preview.large.url;
+

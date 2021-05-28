@@ -82,3 +82,5 @@ export default {
       loading: false,
       form: { ...this.value },
       pdfOrDocTypes: [
+        "application/pdf",
+        "application/msword",

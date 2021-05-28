@@ -14,14 +14,15 @@
 </template>
 
 <script>
-export default {
   props: {
     value: String,
     page: Object,
   },
   data() {
+    return {
       search: ""
     };
   },
   computed: {
     list() {
+      return (this.page || this.currentPage).lists[this.value];

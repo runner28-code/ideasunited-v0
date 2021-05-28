@@ -18,6 +18,7 @@
         <div slot="no-results" class="no-results">Nothing found</div>
         <div slot="spinner">
           <Spinner />
+        </div>
       </infinite-loading>
     </client-only>
     <div v-html="css"></div>
@@ -52,3 +53,4 @@ export default {
         query: this.search,
         page: this.page
       };
+      const { data } = await this.$api.Submission.get(params);

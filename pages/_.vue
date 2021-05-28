@@ -46,3 +46,4 @@ export default {
         channel: "PageChannel",
         page_id: this.page?.id,
         env: this.currentProject.env
+      });

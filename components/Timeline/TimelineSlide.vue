@@ -39,6 +39,7 @@
   </div>
 </template>
 
+<script>
 export default {
   name: "TimelineSlide",
   props: {
@@ -79,3 +80,5 @@ export default {
         backgroundImage: `url(${preview})`,
         borderColor: this.isActive
           ? this.activeTheme.primary_color
+          : "rgba(16, 24, 32, 0.6)"
+      };

@@ -13,6 +13,7 @@
         class="timeline__swiper-slide"
         v-for="event in timelineEvents"
         :key="event.id"
+        :class="{ posted: event.posted }"
       >
         <TimelineSlide @setActive="setActive" :active="value" :value="event" />
       </swiper-slide>
@@ -106,3 +107,5 @@ export default {
             break;
         }
 
+        window.scroll({ top: 0, left: 0, behavior: "smooth" });
+      });

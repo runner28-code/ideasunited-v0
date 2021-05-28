@@ -15,6 +15,7 @@
           <v-btn
             class="signup-btn"
             elevation="0"
+            @click="chooseSignUp = true"
             >{{ registrationForm.sign_up_btn_text || "Apply" }}</v-btn
           >
         </div>
@@ -58,3 +59,6 @@
       >
       <p class="registration-form__thank-you">
         Thank you! Please check your email and click the verification link,
+        which will direct you to your first log in.
+      </p>
+      <div class="registration-form__buttons">

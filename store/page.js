@@ -17,7 +17,6 @@ const store = {
     },
     unpublishEvent(state, id) {
       const collection = state.current?.events;
-      const payload = { posted: false };
       updateCollection({ collection, id, payload });
     },
     hideEvent(state, id) {
@@ -55,7 +54,6 @@ const store = {
 };
 
 const updateCollection = ({ collection, id, payload }) => {
-// Temp comment
   if (!collection) return;
   const item = collection.find(t => t.id == id);
   if (item) {

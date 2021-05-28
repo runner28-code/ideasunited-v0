@@ -31,7 +31,6 @@
           </v-expansion-panel-header>
           <v-expansion-panel-content v-if="item.answer">
             {{ item.answer }}
-          </v-expansion-panel-content>
         </v-expansion-panel>
       </v-expansion-panels>
     </div>
@@ -46,3 +45,4 @@ export default {
     value: String,
     page: Object,
   },
+  computed: {
