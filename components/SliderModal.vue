@@ -43,7 +43,6 @@
               >
             </v-btn>
             <slot></slot>
-          </div>
         </v-card>
       </div>
     </v-dialog>

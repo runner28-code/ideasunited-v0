@@ -19,6 +19,7 @@
         rows="1"
         class="chat-footer__actions-input"
         placeholder="Say something"
+        v-model="message"
         maxlength="200"
       ></v-textarea>
       <div class="chat-footer__actions-bottom">
@@ -37,7 +38,6 @@
           </v-menu>
         </div>
         <div>
-          <span>{{ message.length }}/200</span>
           <v-btn icon @click="sendMessage">
             <v-icon>$send</v-icon>
           </v-btn>

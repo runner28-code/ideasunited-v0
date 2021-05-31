@@ -64,3 +64,4 @@
       <div class="registration-form__buttons">
         <Button
           :refs="$refs"
+          :disabled="resending"

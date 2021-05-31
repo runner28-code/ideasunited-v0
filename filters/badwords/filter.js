@@ -11,6 +11,7 @@ class Filter {
       replaceRegex: options.replaceRegex || /\w/g
     });
   }
+
   isProfane(string) {
     return (
       this.list.filter(word => {

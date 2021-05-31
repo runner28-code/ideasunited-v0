@@ -32,7 +32,6 @@ export default {
       return {
         color: this.item.text_color
       };
-    }
   }
 };
 </script>

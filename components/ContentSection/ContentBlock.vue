@@ -39,7 +39,6 @@
         <ContentBlockInfo :block="block" />
       </SliderModal>
     </div>
-  </transition>
 </template>
 
 <script>
@@ -67,19 +66,3 @@ export default {
       if (this.block.content_type == "no_content") return;
       if (this.block.content_type == "video_player") {
         if (this.block.video_player_type == "event") {
-          this.$root.$emit("setActiveEvent", this.block.event_id);
-        } else {
-          const hasEventBlock = this.currentPage.components.find(
-            t => t.type == "Event"
-          );
-          if (hasEventBlock) {
-            const event_type = this.block.video_player_type;
-            this.$root.$emit("setActiveEvent", {
-              ...this.block,
-              event_type,
-              type: "content_block"
-            });
-            window.scroll({ top: 0, left: 0, behavior: "smooth" });
-          } else {
-            this.dialog = true;
-          }

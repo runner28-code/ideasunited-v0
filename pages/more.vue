@@ -17,6 +17,7 @@
     </v-responsive>
   </div>
 </template>
+
 <script>
 export default {
   computed: {
