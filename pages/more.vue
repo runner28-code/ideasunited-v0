@@ -17,7 +17,6 @@
     </v-responsive>
   </div>
 </template>
-
 <script>
 export default {
   computed: {
@@ -26,6 +25,7 @@ export default {
     }
   }
 };
+</script>
 
 <style scoped lang="scss">
 .grid-menu {
@@ -33,3 +33,4 @@ export default {
   flex-wrap: wrap;
 
   &__item {
+    background-size: cover;

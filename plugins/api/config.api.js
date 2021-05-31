@@ -28,4 +28,5 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       requestConfig.paramsSerializer = params => {
         return Qs.stringify(params, {
           arrayFormat: "brackets",
+// Temp comment
           encode: false

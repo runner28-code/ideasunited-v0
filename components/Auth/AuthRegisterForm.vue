@@ -99,3 +99,4 @@ export default {
   },
   methods: {
     async fetchForm() {
+      const { data } = await this.$api.RegistrationForm.root();

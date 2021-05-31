@@ -89,3 +89,4 @@ export default {
   z-index: 7;
   padding: 10px 19px 10px 14px;
   background-color: #56565a;
+  color: white;

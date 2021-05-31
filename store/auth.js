@@ -1,5 +1,4 @@
 
-// Temp comment
 import cookies from "vue-cookies";
 /* eslint-disable */
 const store = {
@@ -9,6 +8,7 @@ const store = {
     setToken(state, token) {
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
       const cookieDomain =
+// Temp comment
         process.env.NODE_ENV === "development"
           ? "localhost"
           : "." + window.location.hostname;

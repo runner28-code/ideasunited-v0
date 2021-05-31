@@ -213,3 +213,5 @@ export default {
         const { previewMedia, playBtn, previewImage, previewVideo, videoElem } = this.$refs;
         videoElem.play();
         const fixedStart = previewMedia.getBoundingClientRect();
+        const timeline = new TimelineLite();
+        this.updateIrisEndingFactor();

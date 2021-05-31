@@ -29,3 +29,4 @@
         >
           {{ section.value }}
         </div>
+      </div>

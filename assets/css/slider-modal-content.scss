@@ -9,7 +9,6 @@
   }
 
   &__side {
-    width: 100%;
     overflow: auto;
     padding: 20px 40px;
     background-size: cover;
@@ -32,3 +31,4 @@
   }
 
   &__title {
+    margin: 0 0 20px 0;

@@ -12,7 +12,6 @@
       <Button :refs="$refs" large :href="profileUrl">
         {{ btnText || "Account" }}
       </Button>
-    </p>
   </div>
 </template>
 
@@ -28,3 +27,4 @@ export default {
     return {
       profileUrl: frontendToProfile()[window.location.origin],
     };
+  },

@@ -48,3 +48,4 @@ a.text-block__item-wrapper:hover {
     overflow: hidden;
     background-position: center;
     background-size: cover;
+    height: 100%;

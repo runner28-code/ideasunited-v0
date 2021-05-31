@@ -41,3 +41,4 @@ export default {
         const { data } = await this.$api.Auth.checkPasswordToken({
           token: this.token
         });
+        if (!data) {

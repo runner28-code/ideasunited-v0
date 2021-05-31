@@ -34,3 +34,4 @@ export default {
       this.chapters = chapters;
       if (this.vimeoChapter) this.goToChapter(this.vimeoChapter);
     });
+    this.player.on("timeupdate", data => {

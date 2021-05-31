@@ -13,3 +13,5 @@
 <script>
 export default {
   props: {
+    relative: Boolean
+  },

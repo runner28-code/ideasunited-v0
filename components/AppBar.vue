@@ -163,3 +163,4 @@ export default {
     },
     homeHash() {
       if (!this.currentProject || this.currentProject.menu_pages == 0)
+        return "";

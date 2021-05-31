@@ -165,3 +165,15 @@ export default {
     margin-left: 20px;
   }
 }
+
+.app-bar {
+  background-color: #E12D1B !important;
+  &::v-deep {
+    .v-toolbar__content {
+      padding: 0 30px 0 0 !important;
+    }
+  }
+  &__menu {
+    margin-right: -7px;
+    position: relative;
+    &__opp-count {

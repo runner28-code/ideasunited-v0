@@ -76,3 +76,4 @@ export default {
 
         if (this.scrollToElement) {
           const y = this.$el.getBoundingClientRect().top + window.scrollY;
+          window.scroll({

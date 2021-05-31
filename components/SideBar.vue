@@ -142,3 +142,4 @@ export default {
       this.$root.$emit("menuClick", item, idx);
       if (
         (!item && this.$route.path == "/") ||
+        (item && item.url == this.$route.path)

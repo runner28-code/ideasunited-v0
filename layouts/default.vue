@@ -125,3 +125,4 @@ export default {
     }, 1000);
   },
   beforeDestroy() {
+    this.$cable.unsubscribe({

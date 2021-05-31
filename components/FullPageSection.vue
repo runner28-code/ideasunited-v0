@@ -42,6 +42,7 @@
         <div class="fullpage-top-arrow__text">
           BACK TO TOP
         </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -57,8 +58,8 @@ export default {
   },
   methods: {
     onFocus($event) {
-      this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
   computed: {
     mobileBgLedeStyles() {
+      if (!this.page) return {};

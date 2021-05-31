@@ -23,6 +23,7 @@
       ></div>
     </v-alert>
   </v-snackbar>
+</template>
 
 <script>
 export default {
@@ -53,3 +54,4 @@ export default {
 <style scoped lang="scss">
 .alert {
   white-space: pre-line;
+  line-height: 1.3;

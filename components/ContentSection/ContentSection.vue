@@ -158,3 +158,4 @@ export default {
       this.contentSection.blocks.forEach(t => {
         if (!t.start_at) {
           this.$store.commit("page/publishContentBlock", {
+            blockId: t.id,
