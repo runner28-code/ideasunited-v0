@@ -16,6 +16,7 @@
     <div
       :class="{ with_chat: currentPage.chats[0] }"
       class="event__video"
+      v-if="currentPage.events.length"
     >
       <div class="event__video-container" v-if="activeEvent">
         <div class="event__video-player">
@@ -124,3 +125,4 @@ export default {
   border-bottom: 1px solid #e5e5e5;
   width: 100%;
   cursor: pointer;
+  display: none;

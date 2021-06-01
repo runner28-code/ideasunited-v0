@@ -126,6 +126,7 @@ export default {
     return {
       mounted: false,
       drawer: false,
+    };
   },
   mounted() {
     this.mounted = true;

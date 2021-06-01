@@ -215,3 +215,4 @@ export default {
         const fixedStart = previewMedia.getBoundingClientRect();
         const timeline = new TimelineLite();
         this.updateIrisEndingFactor();
+        timeline

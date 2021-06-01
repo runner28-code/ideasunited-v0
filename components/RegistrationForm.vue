@@ -65,3 +65,4 @@
         <Button
           :refs="$refs"
           :disabled="resending"
+          @click="resendConfirmationEmail()"

@@ -36,13 +36,13 @@
               @click="close"
               class="close elevation-0"
               fab
-              small
             >
               <v-icon size="36" :color="currentColor"
                 >$close</v-icon
               >
             </v-btn>
             <slot></slot>
+          </div>
         </v-card>
       </div>
     </v-dialog>

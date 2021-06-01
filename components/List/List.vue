@@ -1,4 +1,3 @@
-<template>
   <div class="commons-list">
     <div class="commons-list__wrapper text-center">
       <Title tag="h1">{{ list.headline }}</Title>
@@ -15,6 +14,7 @@
 
 <script>
 export default {
+  props: {
     value: String,
     page: Object,
   },

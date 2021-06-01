@@ -94,3 +94,4 @@ export default {
       const days = this.daysWithoutMonths(diff);
       const hours = duration.hours();
       const minutes = duration.minutes();
+      const seconds = duration.seconds();

@@ -31,10 +31,10 @@ export default {
     };
   },
   created() {
-    if (process.client) {
       this.checkPasswordToken();
     }
   },
   methods: {
     async checkPasswordToken() {
       try {
+        const { data } = await this.$api.Auth.checkPasswordToken({

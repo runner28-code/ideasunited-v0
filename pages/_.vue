@@ -34,7 +34,6 @@ export default {
 
     return {
       title: this.currentPage?.headline || this.currentProject?.headline,
-      meta,
       link: [
         { rel: "icon", href: this.currentProject?.favicon.url || this.activeTheme.favicon.url || "/favicon.ico" }
       ]
@@ -47,3 +46,4 @@ export default {
         page_id: this.page?.id,
         env: this.currentProject.env
       });
+    }

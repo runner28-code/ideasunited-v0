@@ -44,6 +44,7 @@
           <span style="margin-left: 10px"> Uploading... </span>
         </span>
         <span v-else>
+          {{ btnText || "Submit" }}
         </span>
       </Button>
     </div>
@@ -84,3 +85,4 @@ export default {
         "application/pdf",
         "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
