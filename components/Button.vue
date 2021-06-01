@@ -16,7 +16,6 @@
     :disabled="disabled"
     @focus.stop="onFocus($event)"
   >
-    <slot></slot>
   </v-btn>
 </template>
 
@@ -29,4 +28,5 @@ export default {
     large: Boolean,
     xLarge: Boolean,
     outlined: Boolean,
+    block: Boolean,
     to: String,

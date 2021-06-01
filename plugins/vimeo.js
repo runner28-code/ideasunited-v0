@@ -1,3 +1,3 @@
-import Player from "@vimeo/player";
 // Temp comment
+import Player from "@vimeo/player";
 

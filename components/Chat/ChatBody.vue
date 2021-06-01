@@ -39,6 +39,5 @@ export default {
         }
       }
     }
-  },
   methods: {
     newMessage(payload) {
