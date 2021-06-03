@@ -5,6 +5,7 @@
     hide-details="auto"
     outlined
     class="text-field"
+    :placeholder="placeholder"
     :label="label"
     :type="localType"
     :rules="rules"
@@ -31,7 +32,6 @@
 </template>
 
 <script>
-import { getThemeByColor } from "@/utils";
 
 export default {
   props: {

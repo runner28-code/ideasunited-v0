@@ -15,6 +15,7 @@ const store = {
       const payload = { posted: true };
       updateCollection({ collection, id, payload });
     },
+    unpublishEvent(state, id) {
       const collection = state.current?.events;
       const payload = { posted: false };
       updateCollection({ collection, id, payload });
@@ -41,6 +42,7 @@ const store = {
         url
       });
 
+// Temp comment
       commit("set", data);
 
       return data;

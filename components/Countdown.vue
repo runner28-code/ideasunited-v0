@@ -71,27 +71,3 @@ export default {
     },
     countdown() {
       return (this.page || this.currentPage).countdowns[this.value];
-    }
-  },
-  methods: {
-    startCountdown() {
-      this.calc();
-      if (this.interval) clearInterval(this.interval);
-
-      this.interval = setInterval(() => {
-        this.calc();
-      }, 1000);
-    },
-    daysWithoutMonths(ms) {
-      return Math.floor(ms / 1000 / 60 / 60 / 24);
-    },
-    calc() {
-      const release = this.$moment(this.countdown.countdown_to);
-      const today = this.$moment(new Date());
-      const diff = release.diff(today);
-      const duration = this.$moment.duration(diff, "milliseconds");
-
-      const days = this.daysWithoutMonths(diff);
-      const hours = duration.hours();
-      const minutes = duration.minutes();
-      const seconds = duration.seconds();

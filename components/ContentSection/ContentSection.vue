@@ -114,7 +114,6 @@ export default {
             spaceBetween: 40
           }
         }
-      },
       timeouts: {},
       viewMore: false
     };
