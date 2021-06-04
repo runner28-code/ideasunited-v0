@@ -31,7 +31,6 @@ import cookies from "vue-cookies";
 export default {
   data() {
     return {
-      authParams: {
         TwitterLogin: {
           provider: "twitter"
         },
@@ -54,3 +53,4 @@ export default {
 
       if (token) {
         console.info('oauth process.env.NODE_ENV', process.env.NODE_ENV);
+        const cookieDomain =

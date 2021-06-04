@@ -160,3 +160,5 @@ export default {
           this.$store.commit("page/publishContentBlock", {
             blockId: t.id,
             sectionId: this.contentSection.id
+          });
+        }

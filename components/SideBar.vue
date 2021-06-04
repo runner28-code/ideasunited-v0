@@ -22,6 +22,7 @@
         v-ripple="false"
       >
         <span @click="menuClick(menuItem, idx)">
+          {{ menuItem.menu_title }}
         </span>
       </v-list-item>
       <v-list-item
@@ -113,7 +114,6 @@ export default {
     this.$root.$on('updateAccountSideBar', (isOpen) => {
       this.accountSideBar = isOpen;
     });
-    setTimeout(() => {
       this.getOpportunityNotifications();
     }, 1000);
   },
@@ -143,3 +143,5 @@ export default {
         (!item && this.$route.path == "/") ||
         (item && item.url == this.$route.path)
       ) {
+        this.$emit("changeKey");
+      } else {

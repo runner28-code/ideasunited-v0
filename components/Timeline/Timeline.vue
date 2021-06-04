@@ -23,6 +23,7 @@
       :class="{ visible: visibleControls }"
       class="timeline__control"
       icon
+      @click="swiperInstance.slideNext()"
     >
       <v-icon size="40">$chevron_right</v-icon>
     </v-btn>
@@ -110,3 +111,20 @@ export default {
       });
 
       this.$root.$on("nextEvent", () => this.nextEvent());
+      this.$root.$on("nextEventIfPlaying", id => {
+        console.info("nextEventIfPlaying id", id);
+        this.$root.$emit("checkPosted");
+        if (this.value.id == id) this.nextEvent();
+      });
+
+      this.$root.$on("chapterChange", data => {
+        const event = this.events.find(
+          t =>
+            t.vimeo_id == data.vimeo_id && t.vimeo_chapter == data.vimeo_chapter
+        );
+
+        this.setActive(event?.id);
+      });
+    },
+    initEvent() {
+      let { event_id, block_id } = this.$route.query;

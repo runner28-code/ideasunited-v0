@@ -31,3 +31,4 @@ export default {
     outlined: Boolean,
     block: Boolean,
     to: String,
+    type: String,

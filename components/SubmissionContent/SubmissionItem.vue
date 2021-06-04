@@ -4,6 +4,7 @@
       <div class="submission-item" :style="styles">
         <div class="submission-item__content">
           <div
+            :class="[
               's-' + field.class_name,
               'submission-item__content--' + field.type
             ]"
@@ -58,3 +59,4 @@ export default {
           class_name: t.uuid
         }))
         .filter(t => t);
+    },

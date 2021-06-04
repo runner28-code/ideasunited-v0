@@ -27,12 +27,12 @@ export default {
     ChatChannel: {
       received({ type, payload }) {
         switch (type) {
+          case "new_message":
             this.newMessage(payload);
             break;
           case "delete_message":
             this.deleteMessage(payload.id);
             break;
-          case "update_message":
             this.updateMessage(payload);
             break;
         }

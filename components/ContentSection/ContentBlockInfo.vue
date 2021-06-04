@@ -21,7 +21,6 @@
           <YoutubePlayer
             v-else-if="block.video_player_type == 'youtube'"
             :youtubeId="block.youtube_id"
-          />
           <ZoomPlayer
             v-else-if="block.video_player_type == 'zoom'"
             :zoomLink="block.zoom_url"
@@ -74,3 +73,4 @@
           class="slider-modal-content__link"
           :href="block.link_url | url"
           target="_blank"
+          large

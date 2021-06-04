@@ -58,3 +58,4 @@ export default {
   flex-wrap: wrap;
 
   &__side {
+    width: 50%;

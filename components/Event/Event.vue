@@ -126,3 +126,5 @@ export default {
   width: 100%;
   cursor: pointer;
   display: none;
+
+  span {

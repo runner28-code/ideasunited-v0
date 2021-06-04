@@ -15,7 +15,6 @@
       <Nuxt :key="key" ref="main-content" />
       <Footer :is-static="true"/>
     </v-main>
-    <AuthModal />
     <Alert />
     <Notification />
     <div v-html="styles"></div>
@@ -101,3 +100,5 @@ export default {
     this.$root.$on("toggleDrawer", () => {
       this.drawer = !this.drawer;
     });
+    this.$root.$on("mobileScrollTo", y => {
+      this.$refs.mobileScroll.scroll({

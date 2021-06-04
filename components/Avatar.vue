@@ -12,7 +12,6 @@ export default {
     name: String,
     id: String
   },
-  data() {
     return {
       colors: [
         "#d32f2f",
@@ -27,3 +26,4 @@ export default {
         "#f57c00",
         "#5d4037",
         "#455a64",
+        "#1b5e20",

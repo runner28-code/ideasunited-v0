@@ -74,3 +74,7 @@ export default {
     }
   },
   methods: {
+    startCountdown() {
+      this.calc();
+      if (this.interval) clearInterval(this.interval);
+

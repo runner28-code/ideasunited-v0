@@ -76,3 +76,4 @@ export default {
     },
     size: {
       type: String,
+      default: "cover"

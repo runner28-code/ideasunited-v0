@@ -45,3 +45,4 @@ export default {
   },
   methods: {
     openZoomLink() {
+      window.open(this.event.zoom_url, "_blank");

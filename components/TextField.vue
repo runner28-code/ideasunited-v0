@@ -39,6 +39,7 @@ export default {
     placeholder: String,
     label: String,
     value: [String, Number],
+    type: {
       type: String,
       default: "text"
     },

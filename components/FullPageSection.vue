@@ -46,7 +46,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import mixin from "./convertComponent.mixin";
 export default {
@@ -65,3 +64,5 @@ export default {
     mobileBgLedeStyles() {
       if (!this.page) return {};
       const styles = {};
+      const ledeBackground = this.page.lead_background;
+      if (ledeBackground)

@@ -177,3 +177,5 @@ export default {
     margin-right: -7px;
     position: relative;
     &__opp-count {
+      position: absolute;
+      top: -11px;

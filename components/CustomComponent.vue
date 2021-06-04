@@ -6,7 +6,6 @@
       :is="customComponent.sfc_name"
     ></component>
   </div>
-</template>
 
 <script>
 import Vue from "vue";
@@ -38,3 +37,4 @@ export default {
         const { sfc_name } = component;
 
         if (process.client) {
+          const {

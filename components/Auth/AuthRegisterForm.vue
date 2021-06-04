@@ -42,10 +42,10 @@
             :login-form="registrationForm.login_form"
             @backToLogin="backToLogin()"
             :show-back-to-login="true"
+          />
         </div>
       </div> <!-- v-if="!currentUser" -->
       <div v-else class="register__thank-you">
-        <Title class="register__thank-you_title">
           Thank you!
         </Title>
         <div v-if="!currentUser.confirmed">
@@ -100,3 +100,4 @@ export default {
     async fetchForm() {
       const { data } = await this.$api.RegistrationForm.root();
       this.registrationForm = data;
+      this.form.registration_form_id = data.id;

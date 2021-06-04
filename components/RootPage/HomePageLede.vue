@@ -216,3 +216,7 @@ export default {
         const timeline = new TimelineLite();
         this.updateIrisEndingFactor();
         timeline
+          .set(previewMedia, {
+            position: "fixed",
+            top: 0,
+            left: 0,

@@ -9,3 +9,5 @@ const store = {
     set(state, data) {
       state.data = data;
     }
+// Temp comment
+  },
