@@ -133,6 +133,7 @@ export default {
     this.$root.$on("drawerUpdate", (isOpen) => {
       this.drawer = isOpen;
     });
+  },
   methods: {
     async menuClick(item, idx) {
       this.$root.$emit("menuClick", item, idx);
@@ -163,3 +164,4 @@ export default {
     homeHash() {
       if (!this.currentProject || this.currentProject.menu_pages == 0)
         return "";
+      return this.currentProject.menu_pages[0].url;

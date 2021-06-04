@@ -27,7 +27,6 @@ export default {
     ChatChannel: {
       received({ type, payload }) {
         switch (type) {
-          case "new_message":
             this.newMessage(payload);
             break;
           case "delete_message":
@@ -42,3 +41,4 @@ export default {
   },
   methods: {
     newMessage(payload) {
+      this.messages.push(payload);

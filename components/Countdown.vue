@@ -71,3 +71,6 @@ export default {
     },
     countdown() {
       return (this.page || this.currentPage).countdowns[this.value];
+    }
+  },
+  methods: {

@@ -32,6 +32,5 @@ export default {
   },
   computed: {
     schedule() {
-      return (this.page || this.currentPage).schedules[this.value];
     },
     groupedItems() {

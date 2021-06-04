@@ -23,7 +23,6 @@
       :class="{ visible: visibleControls }"
       class="timeline__control"
       icon
-      @click="swiperInstance.slideNext()"
     >
       <v-icon size="40">$chevron_right</v-icon>
     </v-btn>
@@ -110,3 +109,4 @@ export default {
         window.scroll({ top: 0, left: 0, behavior: "smooth" });
       });
 
+      this.$root.$on("nextEvent", () => this.nextEvent());

@@ -66,3 +66,5 @@
           :refs="$refs"
           :disabled="resending"
           @click="resendConfirmationEmail()"
+        >
+          Resend Confirmation Email

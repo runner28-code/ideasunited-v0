@@ -114,6 +114,7 @@ export default {
             spaceBetween: 40
           }
         }
+      },
       timeouts: {},
       viewMore: false
     };
@@ -158,3 +159,4 @@ export default {
         if (!t.start_at) {
           this.$store.commit("page/publishContentBlock", {
             blockId: t.id,
+            sectionId: this.contentSection.id

@@ -51,6 +51,7 @@
   </v-form>
 </template>
 
+<script>
 import DynamicCheckbox from "./DynamicCheckbox";
 import DynamicEmailField from "./DynamicEmailField";
 import DynamicHtmlBlock from "./DynamicHtmlBlock";
@@ -85,3 +86,4 @@ export default {
         "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
+        "application/vnd.ms-word.document.macroEnabled.12",

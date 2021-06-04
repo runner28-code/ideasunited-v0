@@ -1,4 +1,5 @@
 <template>
+  <div class="chat-header">
     <div
       class="chat-header__status"
       :class="`chat-header__status--${status}`"
@@ -20,7 +21,6 @@ export default {
       connected() {
         this.status = "Connected";
       },
-      disconnected() {
         this.status = "Disconnected";
       }
     }

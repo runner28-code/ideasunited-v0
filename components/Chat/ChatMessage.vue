@@ -1,7 +1,6 @@
 <template>
   <div class="message">
     <div class="message-wrapper">
-      <Avatar
         :name="message.user.full_name"
         :id="message.user.id"
         class="message__avatar"
@@ -32,6 +31,7 @@
         <v-btn v-on="on" icon class="message-actions">
           <v-icon size="18">$dots_vertical</v-icon>
         </v-btn>
+      </template>
       <v-list>
         <v-list-item @click="deleteMessage">
           <v-list-item-title>Delete message</v-list-item-title>
