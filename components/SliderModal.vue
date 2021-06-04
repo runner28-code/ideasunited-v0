@@ -34,7 +34,6 @@
           <div class="slider-modal__content-wrapper" @click.stop>
             <v-btn
               @click="close"
-              class="close elevation-0"
               fab
               small
             >
@@ -78,3 +77,4 @@ export default {
           const y = this.$el.getBoundingClientRect().top + window.scrollY;
           window.scroll({
             top: y - 70,
+            behavior: "smooth"

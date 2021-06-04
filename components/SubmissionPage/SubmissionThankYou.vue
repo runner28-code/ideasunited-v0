@@ -29,3 +29,4 @@ export default {
       profileUrl: frontendToProfile()[window.location.origin],
     };
   },
+  methods: {

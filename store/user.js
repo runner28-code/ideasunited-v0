@@ -2,7 +2,6 @@
 import Vue from "vue";
 
 const store = {
-  namespaced: true,
   state: () => ({ current: null }),
   mutations: {
     set(state, user) {
@@ -18,3 +17,4 @@ const store = {
         commit("set", data);
         const cookieDomain =
           process.env.NODE_ENV === "development"
+            ? "localhost"

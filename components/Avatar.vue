@@ -12,6 +12,7 @@ export default {
     name: String,
     id: String
   },
+  data() {
     return {
       colors: [
         "#d32f2f",

@@ -35,3 +35,4 @@ export default {
       return (this.page || this.currentPage).schedules[this.value];
     },
     groupedItems() {
+      const groups = _.groupBy(this.schedule.items, t =>

@@ -179,3 +179,4 @@ export default {
     &__opp-count {
       position: absolute;
       top: -11px;
+      right: -2px;

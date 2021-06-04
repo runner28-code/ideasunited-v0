@@ -78,3 +78,6 @@ export default {
       this.calc();
       if (this.interval) clearInterval(this.interval);
 
+      this.interval = setInterval(() => {
+        this.calc();
+      }, 1000);

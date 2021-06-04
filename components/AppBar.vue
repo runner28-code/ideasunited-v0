@@ -53,7 +53,6 @@
               v-on="on"
               :is="menuItem.url_type == 'relative' ? 'nuxt-link' : 'span'"
               :to="`#${menuItem.url}`"
-              :class="{
                 'menu-item-hidden': menuItem.menu_style == 'home_logo',
               }"
             >
@@ -167,3 +166,5 @@ export default {
       return this.currentProject.menu_pages[0].url;
     },
     menuPages() {
+      let menuPages;
+      if (this.currentUser) {

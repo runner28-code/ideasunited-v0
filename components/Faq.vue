@@ -22,6 +22,7 @@
           elevation-0
           v-for="(item, index) in items2"
           :key="index"
+        >
           <div class="faq__section-header" v-if="item.header">
             {{ item.header }}
           </div>
@@ -47,3 +48,4 @@ export default {
   },
   computed: {
     faq() {
+      return (this.page || this.currentPage).faqs[this.value];

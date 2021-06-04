@@ -15,6 +15,7 @@
       <Nuxt :key="key" ref="main-content" />
       <Footer :is-static="true"/>
     </v-main>
+    <AuthModal />
     <Alert />
     <Notification />
     <div v-html="styles"></div>
@@ -24,7 +25,6 @@
 <script>
 import _ from "lodash";
 import HomePageLede from "@/components/RootPage/HomePageLede";
-import RootAppBar from "@/components/RootPage/RootAppBar";
 
 export default {
   components: { HomePageLede, RootAppBar },
@@ -102,3 +102,4 @@ export default {
     });
     this.$root.$on("mobileScrollTo", y => {
       this.$refs.mobileScroll.scroll({
+        top: y,

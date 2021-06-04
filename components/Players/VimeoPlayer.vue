@@ -9,7 +9,6 @@
   ></iframe>
 </template>
 
-<script>
 export default {
   name: "VimeoPlayer",
   props: {
@@ -35,3 +34,4 @@ export default {
       if (this.vimeoChapter) this.goToChapter(this.vimeoChapter);
     });
     this.player.on("timeupdate", data => {
+      const live_seconds = (Date.now() - this.releaseTime) / 1000;

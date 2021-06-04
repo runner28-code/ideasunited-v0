@@ -60,3 +60,4 @@ export default {
         }))
         .filter(t => t);
     },
+    formattedData() {

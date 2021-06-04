@@ -32,7 +32,6 @@
         v-if="idx < currentProject.menu_pages.length - 1"
         class="fullpage-next-arrow"
         @focus.stop="onFocus($event)"
-      ></button>
       <!-- <div
         @click.stop.prevent="$emit('top')"
         class="fullpage-top-arrow__wrapper"
@@ -46,6 +45,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import mixin from "./convertComponent.mixin";
 export default {
@@ -66,3 +66,4 @@ export default {
       const styles = {};
       const ledeBackground = this.page.lead_background;
       if (ledeBackground)
+        styles.backgroundImage = `url(${ledeBackground.large.url})`;

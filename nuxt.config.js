@@ -78,3 +78,4 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
+  modules: [

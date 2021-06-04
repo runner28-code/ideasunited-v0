@@ -56,3 +56,4 @@ export default {
   white-space: pre-line;
   line-height: 1.3;
   margin: 0 !important;
+  width: 100%;

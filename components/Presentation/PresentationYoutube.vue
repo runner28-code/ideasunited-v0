@@ -33,3 +33,4 @@ export default {
   },
   methods: {
     async play() {
+      this.player.seekTo(this.newSlideSettings.time || 0);

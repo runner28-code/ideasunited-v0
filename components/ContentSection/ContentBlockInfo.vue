@@ -7,7 +7,6 @@
       <v-responsive
         :aspect-ratio="block.content_type == 'video_player' && ['sm', 'xs'].includes($size) ? undefined : 1"
         class="slider-modal-content__preview-square"
-      >
         <v-responsive
           v-if="block.content_type == 'video_player'"
           class="slider-modal-content__video"
@@ -21,6 +20,7 @@
           <YoutubePlayer
             v-else-if="block.video_player_type == 'youtube'"
             :youtubeId="block.youtube_id"
+          />
           <ZoomPlayer
             v-else-if="block.video_player_type == 'zoom'"
             :zoomLink="block.zoom_url"
@@ -74,3 +74,4 @@
           :href="block.link_url | url"
           target="_blank"
           large
+          >{{ block.link_text }}</Button

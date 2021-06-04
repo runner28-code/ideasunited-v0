@@ -66,7 +66,9 @@ export default {
     openDialog() {
       if (this.block.content_type == "no_content") return;
       if (this.block.content_type == "video_player") {
+        if (this.block.video_player_type == "event") {
           this.$root.$emit("setActiveEvent", this.block.event_id);
         } else {
           const hasEventBlock = this.currentPage.components.find(
             t => t.type == "Event"
+          );

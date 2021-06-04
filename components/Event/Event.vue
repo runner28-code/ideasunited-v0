@@ -128,3 +128,5 @@ export default {
   display: none;
 
   span {
+    display: flex;
+    align-items: center;

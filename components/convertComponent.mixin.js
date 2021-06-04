@@ -18,3 +18,4 @@ export default {
   components: {
     ContentSection,
     Countdown,
+    Event,

@@ -161,3 +161,4 @@ export default {
     fullPageToTop() {
       this.fullPageMoveTo(0);
     },
+    srcExt(src) {

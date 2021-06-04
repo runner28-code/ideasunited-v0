@@ -59,3 +59,4 @@ export default {
 
   &__side {
     width: 50%;
+

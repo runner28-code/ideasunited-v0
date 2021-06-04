@@ -4,4 +4,3 @@
 
 <script>
 export default {
-  props: {

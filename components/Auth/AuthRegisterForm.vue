@@ -46,6 +46,7 @@
         </div>
       </div> <!-- v-if="!currentUser" -->
       <div v-else class="register__thank-you">
+        <Title class="register__thank-you_title">
           Thank you!
         </Title>
         <div v-if="!currentUser.confirmed">
@@ -101,3 +102,4 @@ export default {
       const { data } = await this.$api.RegistrationForm.root();
       this.registrationForm = data;
       this.form.registration_form_id = data.id;
+      this.form.register_url = window.location.href;

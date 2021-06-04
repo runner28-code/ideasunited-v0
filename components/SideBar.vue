@@ -1,6 +1,5 @@
 <template>
   <v-navigation-drawer
-    close-on-click
     right
     :value="value"
     @input="$emit('input', $event)"
@@ -114,6 +113,7 @@ export default {
     this.$root.$on('updateAccountSideBar', (isOpen) => {
       this.accountSideBar = isOpen;
     });
+    setTimeout(() => {
       this.getOpportunityNotifications();
     }, 1000);
   },
@@ -145,3 +145,5 @@ export default {
       ) {
         this.$emit("changeKey");
       } else {
+        this.$emit('input', false);
+      }

@@ -40,3 +40,4 @@ export default {
         this.localValue = value;
       }
     },
+    localValue(value) {

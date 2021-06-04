@@ -4,7 +4,6 @@
       Log in
     </v-btn>
 
-    <div v-else-if="chat.locked">
       Chat is temporarily locked
     </div>
 
@@ -51,3 +50,4 @@
 <script>
 import { stripMessage } from "@/utils";
 import cookies from "vue-cookies";
+

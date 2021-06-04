@@ -162,3 +162,24 @@ export default {
             sectionId: this.contentSection.id
           });
         }
+        if (t.start_at && !t.posted) {
+          if (this.timeouts[`start_${t.id}`])
+            clearTimeout(this.timeouts[`start_${t.id}`]);
+          let untilStart = Date.parse(t.start_at) - Date.now();
+          if (untilStart > 0) {
+            this.timeouts[`start_${t.id}`] = setTimeout(() => {
+              this.$store.commit("page/publishContentBlock", {
+                blockId: t.id,
+                sectionId: this.contentSection.id
+              });
+            }, untilStart);
+          }
+        }
+
+        if (t.end_at && t.posted) {
+          if (this.timeouts[`end_${t.id}`])
+            clearTimeout(this.timeouts[`end_${t.id}`]);
+          let untilEnd = Date.now() - Date.parse(t.end_at);
+          if (untilEnd > 0) {
+            this.timeouts[`end_${t.id}`] = setTimeout(() => {
+              this.$store.commit("page/unpublishContentBlock", {

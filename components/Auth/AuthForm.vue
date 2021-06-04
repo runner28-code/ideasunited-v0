@@ -58,6 +58,7 @@ export default {
   },
   data() {
     return {
+      loginForm: {},
       registerForm: {},
       areYouSureDialog: false,
       emailValidationSuggestions: {}
@@ -88,3 +89,4 @@ export default {
         } catch(e) {
           if(!e.response.data) return;
           const data = e.response.data;
+          if(data.email_validation_response == 'are_you_sure') {
