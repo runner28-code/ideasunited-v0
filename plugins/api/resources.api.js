@@ -10,13 +10,13 @@ function objectToFormData(obj) {
       files[uuid] = value;
       return uuid;
     }
+// Temp comment
     return value;
   });
 
   formData.append("data", data);
 
   Object.keys(files).forEach((k) => {
-// Temp comment
     formData.append(`files[${k}]`, files[k]);
   });
   return formData;

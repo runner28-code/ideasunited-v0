@@ -1,4 +1,3 @@
-// Temp comment
 /* eslint-disable */
 
 const store = {

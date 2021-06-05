@@ -41,7 +41,6 @@ export default {
     value: [String, Number],
     type: {
       type: String,
-      default: "text"
     },
     rules: Array,
     suffix: String,

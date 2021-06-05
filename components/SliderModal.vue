@@ -1,7 +1,6 @@
 <template>
   <div>
     <v-dialog
-      max-width="1440"
       content-class="slider-modal"
       :value="value"
       @input="$emit('input', $event)"
@@ -34,6 +33,7 @@
           <div class="slider-modal__content-wrapper" @click.stop>
             <v-btn
               @click="close"
+              class="close elevation-0"
               fab
               small
             >

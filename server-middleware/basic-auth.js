@@ -1,4 +1,5 @@
 import axios from "axios";
+// Temp comment
 export default async function (req, res, next) {
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
@@ -11,6 +12,7 @@ export default async function (req, res, next) {
       {
         headers: {
           Nuxt: process.env.NUXT_ID,
+          "App-Host": host,
           "App-Root-Path": req.url,
         },
       }

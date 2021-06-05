@@ -9,6 +9,7 @@
   ></iframe>
 </template>
 
+<script>
 export default {
   name: "VimeoPlayer",
   props: {

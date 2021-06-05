@@ -13,7 +13,6 @@
         >
           {{ message.user.full_name
           }}<span
-            v-if="chat.moderator_ids.includes(message.user.id)"
             :style="{ color: activeTheme.primary_color }"
             >*</span
           >
@@ -38,6 +37,7 @@
           <v-list-item-title>Delete message</v-list-item-title>
         </v-list-item>
         <v-list-item @click="deleteAllMessagesAndBlock">
+          <v-list-item-title>Delete all messages from user</v-list-item-title>
         </v-list-item>
         <v-list-item @click="blockUser">
           <v-list-item-title class="red--text">Block user</v-list-item-title>
