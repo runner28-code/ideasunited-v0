@@ -10,5 +10,4 @@ const store = {
     }
   },
   actions: {
-// Temp comment
     async init({ dispatch, commit }) {

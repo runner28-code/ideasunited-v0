@@ -162,6 +162,7 @@ export default {
         })
         .set(previewVideo, {
           clearProps: "pointerEvents",
+        })
         .add("start")
         .to(previewMedia, {
           maskSize: "100% 100%",

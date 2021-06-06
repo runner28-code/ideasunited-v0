@@ -25,9 +25,9 @@ import { getThemeByColor } from "@/utils";
 
 export default {
   props: {
+    color: String,
     large: Boolean,
     xLarge: Boolean,
     outlined: Boolean,
     block: Boolean,
-    to: String,
     type: String,

@@ -1,4 +1,3 @@
-<template>
   <div class="slider-modal-content content-block-info">
     <div
       v-if="block.content_type != 'new_tab'"
@@ -40,6 +39,7 @@
           :style="{ color: activeTheme.primary_color }"
           class="slider-modal-content__title"
           >{{ block.title }}</Title
+        >
         <div v-if="block.creator">
           <div
             class="slider-modal-content__creator-info"

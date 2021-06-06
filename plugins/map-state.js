@@ -28,5 +28,6 @@ if (!Vue.__map_state_mixin__) {
               resolve(value);
             },
           });
+        });
       },
       $alert(message) {
