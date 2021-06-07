@@ -2,7 +2,6 @@
   <v-btn
     @click="click"
     :to="to"
-    :dark="calcTheme == 'dark'"
     :large="large"
     :block="block"
     :xLarge="xLarge"
@@ -30,4 +29,5 @@ export default {
     xLarge: Boolean,
     outlined: Boolean,
     block: Boolean,
+    to: String,
     type: String,

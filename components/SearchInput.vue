@@ -6,7 +6,6 @@
         <v-icon style="margin-top: -2px" size="19">$search</v-icon>
         <span v-if="!localValue">Search</span>
       </div>
-    </div>
   </div>
 </template>
 
@@ -33,6 +32,7 @@ export default {
       return getThemeByColor(this.activeTheme.primary_color);
     }
   },
+  watch: {
     value: {
       immediate: true,
       handler(value) {

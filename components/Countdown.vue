@@ -24,6 +24,7 @@
             <div class="countdown-timer__item-value">
               {{ seconds }}
             </div>
+            <div class="countdown-timer__item-label">secs</div>
           </div>
         </div>
         <div
@@ -81,3 +82,4 @@ export default {
         this.calc();
       }, 1000);
     },
+    daysWithoutMonths(ms) {

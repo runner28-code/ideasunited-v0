@@ -35,6 +35,7 @@
             <div>
               <VEmojiPicker @select="selectEmoji" />
             </div>
+          </v-menu>
         </div>
         <div>
           <span>{{ message.length }}/200</span>
