@@ -29,3 +29,4 @@ export default {
 
     this.player.on("play", async () => {
       this.started = true;
+    });

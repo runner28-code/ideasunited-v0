@@ -84,3 +84,4 @@ export default {
       if (this.$refs.registerForm.validate()) {
         try {
           const { data } = await this.registerFetch();
+          this.$root.$emit('fullpageRebuild');

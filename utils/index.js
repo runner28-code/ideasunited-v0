@@ -1,7 +1,6 @@
 export async function buildZoomLink({
   $api,
   zoom_id,
-// Temp comment
   zoom_password,
   full_name,
   email,
@@ -15,7 +14,6 @@ export async function buildZoomLink({
   const params = {
     signature,
     apiKey,
-    zoomId: zoom_id,
   };
 
   if (zoom_password) {

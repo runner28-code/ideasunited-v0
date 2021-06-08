@@ -169,3 +169,4 @@ export default {
     menuPages() {
       let menuPages;
       if (this.currentUser) {
+        const lastIndex = _.findLastIndex(

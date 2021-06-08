@@ -28,7 +28,6 @@
         }}</v-icon>
       </div>
     </template>
-  </v-text-field>
 </template>
 
 <script>
@@ -36,6 +35,7 @@ import { getThemeByColor } from "@/utils";
 
 export default {
   props: {
+    placeholder: String,
     label: String,
     value: [String, Number],
     type: {

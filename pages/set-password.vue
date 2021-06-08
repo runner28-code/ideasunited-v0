@@ -6,6 +6,7 @@
       @submit.prevent="submit"
       class="forgot-password-page__form"
     >
+      <div class="forgot-password-page__title">New Password</div>
       <TextField label="Password" v-model="form.password" type="password" />
       <TextField
         label="Password Confirmation"
@@ -40,3 +41,4 @@ export default {
         const { data } = await this.$api.Auth.checkPasswordToken({
           token: this.token
         });
+        if (!data) {

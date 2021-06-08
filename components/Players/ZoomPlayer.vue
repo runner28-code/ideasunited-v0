@@ -35,7 +35,6 @@ export default {
   props: {
     event: Object
   },
-  data() {
     return {
       zoomUrl: null
     };

@@ -48,7 +48,6 @@ export default {
     };
   },
   methods: {
-    async oauth(provider) {
       // try {
       const { token } = await this.$oauth(provider);
 

@@ -40,6 +40,7 @@
     </div>
     <v-dialog width="800" v-model="supportDialog">
       <v-card class="support__dialog">
+        <SupportForm :support-form="supportForm"/>
       </v-card>
     </v-dialog>
   </v-footer>
@@ -83,3 +84,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.footer {

@@ -6,6 +6,7 @@
         <v-icon style="margin-top: -2px" size="19">$search</v-icon>
         <span v-if="!localValue">Search</span>
       </div>
+    </div>
   </div>
 </template>
 
@@ -25,7 +26,6 @@ export default {
   computed: {
     styles() {
       return {
-        color: this.calcTheme == "dark" ? "white" : "#333"
       };
     },
     calcTheme() {

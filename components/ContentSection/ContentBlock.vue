@@ -69,3 +69,4 @@ export default {
         if (this.block.video_player_type == "event") {
           this.$root.$emit("setActiveEvent", this.block.event_id);
         } else {
+          const hasEventBlock = this.currentPage.components.find(
