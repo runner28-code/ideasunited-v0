@@ -73,6 +73,7 @@ export default {
     this.swiperInstance = this.$refs.swiper.swiperInstance;
   },
   beforeDestroy() {
+    this.$root.$off("nextEvent");
     this.$root.$off("setActiveEvent");
     this.$root.$off("chapterChange");
     Object.values(this.timeouts).forEach(t => clearTimeout(t));

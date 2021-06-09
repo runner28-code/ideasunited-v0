@@ -1,8 +1,6 @@
 import moment from "moment-timezone";
-
 export const state = () => ({
   authUser: null
-// Temp comment
 });
 
 export const mutations = {
@@ -10,3 +8,4 @@ export const mutations = {
     state.authUser = user;
   }
 };
+

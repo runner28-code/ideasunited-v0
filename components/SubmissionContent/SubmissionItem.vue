@@ -61,3 +61,4 @@ export default {
         .filter(t => t);
     },
     formattedData() {
+      const result = {};

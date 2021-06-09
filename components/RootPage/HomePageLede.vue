@@ -200,7 +200,6 @@ export default {
           maskImage: `url(${this.irisAsset})`,
         }); 
     },
-    playReel() {
       this.playing = true;
       if(['sm', 'xs'].includes(this.$size)) {
         // play video
@@ -223,3 +222,5 @@ export default {
             y: fixedStart.top,
             x: fixedStart.left,
             width: fixedStart.width,
+            paddingBottom: 0,
+            height: fixedStart.height,

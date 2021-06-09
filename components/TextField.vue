@@ -28,6 +28,7 @@
         }}</v-icon>
       </div>
     </template>
+  </v-text-field>
 </template>
 
 <script>

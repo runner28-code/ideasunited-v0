@@ -162,3 +162,5 @@ export default {
       this.fullPageMoveTo(0);
     },
     srcExt(src) {
+      const parts = src.split(".");
+      return parts[parts.length - 1];

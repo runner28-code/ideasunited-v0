@@ -170,3 +170,4 @@ export default {
       let menuPages;
       if (this.currentUser) {
         const lastIndex = _.findLastIndex(
+          this.currentProject.menu_pages,

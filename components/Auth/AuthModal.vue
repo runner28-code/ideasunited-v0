@@ -10,7 +10,6 @@
       <v-card-text>
         <AuthRegisterForm
           :dialog-state="dialogState"
-        />
       </v-card-text>
     </v-card>
   </v-dialog>
@@ -24,6 +23,7 @@ export default {
       opened: false,
       dialogState: {
         chooseSignUp: false,
+      }
     };
   },
   mounted() {

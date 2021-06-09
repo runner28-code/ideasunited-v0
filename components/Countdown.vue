@@ -84,3 +84,6 @@ export default {
     },
     daysWithoutMonths(ms) {
       return Math.floor(ms / 1000 / 60 / 60 / 24);
+    },
+    calc() {
+      const release = this.$moment(this.countdown.countdown_to);

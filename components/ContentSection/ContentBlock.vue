@@ -70,3 +70,4 @@ export default {
           this.$root.$emit("setActiveEvent", this.block.event_id);
         } else {
           const hasEventBlock = this.currentPage.components.find(
+            t => t.type == "Event"

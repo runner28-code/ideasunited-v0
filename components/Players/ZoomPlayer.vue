@@ -35,6 +35,7 @@ export default {
   props: {
     event: Object
   },
+  data() {
     return {
       zoomUrl: null
     };
@@ -45,3 +46,4 @@ export default {
   methods: {
     openZoomLink() {
       window.open(this.event.zoom_url, "_blank");
+    },

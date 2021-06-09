@@ -138,6 +138,7 @@ export default {
         b =>
           b.posted &&
           (!b.role_ids.length ||
+            _.intersection(b.role_ids, this.currentUser?.role_ids).length)
       );
     },
     visibleControls() {

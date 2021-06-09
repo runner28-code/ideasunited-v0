@@ -18,6 +18,7 @@ const store = {
         cookies.remove("authToken", null, cookieDomain);
       }
     }
+  },
   actions: {
     async login({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.login(params);

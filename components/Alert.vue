@@ -57,3 +57,4 @@ export default {
   line-height: 1.3;
   margin: 0 !important;
   width: 100%;
+  padding: 0;

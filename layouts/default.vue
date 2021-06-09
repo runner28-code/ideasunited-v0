@@ -114,7 +114,6 @@ export default {
       this.drawer = !this.drawer;
     });
     this.$root.$on("mobileScrollTo", (y) => {
-      this.$refs.mobileScroll.scroll({
         top: y,
         left: 0,
         behavior: "smooth",
@@ -131,3 +130,4 @@ export default {
       env: this.currentProject.env,
     });
 
+    this.$cable.unsubscribe({

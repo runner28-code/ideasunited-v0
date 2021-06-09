@@ -24,4 +24,5 @@
       :slides="event.slides"
     />
   </div>
+</template>
 

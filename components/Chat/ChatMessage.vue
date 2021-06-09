@@ -44,7 +44,6 @@
           <v-list-item-title class="red--text">Block user</v-list-item-title>
         </v-list-item>
       </v-list>
-    </v-menu>
   </div>
 </template>
 

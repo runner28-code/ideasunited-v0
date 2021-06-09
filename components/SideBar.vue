@@ -149,3 +149,4 @@ export default {
         this.$emit('input', false);
       }
     },
+    logoClick() {

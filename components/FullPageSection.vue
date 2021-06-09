@@ -68,3 +68,4 @@ export default {
       const ledeBackground = this.page.lead_background;
       if (ledeBackground)
         styles.backgroundImage = `url(${ledeBackground.large.url})`;
+      const posX = this.page.lead_background_styles.backgroundPositionX;

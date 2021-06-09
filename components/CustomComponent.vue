@@ -39,3 +39,4 @@ export default {
 
         if (process.client) {
           const {
+            loadModule
