@@ -78,3 +78,5 @@ export default {
       type: String,
       default: "cover"
     },
+    required: Boolean,
+    markRequired: Boolean,

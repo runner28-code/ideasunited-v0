@@ -3,6 +3,7 @@
     :is="item.link ? 'a' : 'div'"
     :href="item.link"
     target="_blank"
+    class="text-block__item-wrapper"
     :style="styles"
   >
     <div
@@ -50,3 +51,4 @@ a.text-block__item-wrapper:hover {
     height: 100%;
 
     &.dark {
+      color: white;

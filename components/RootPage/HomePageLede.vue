@@ -56,7 +56,6 @@
               <v-btn class="root-lede__cta-btn" @click="signUp" v-if="!currentUser"> Sign Up</v-btn>
             </div>
           </div>
-        </div>
       </v-responsive>
     </div>
   </div>
@@ -200,6 +199,7 @@ export default {
           maskImage: `url(${this.irisAsset})`,
         }); 
     },
+    playReel() {
       this.playing = true;
       if(['sm', 'xs'].includes(this.$size)) {
         // play video
@@ -224,3 +224,6 @@ export default {
             width: fixedStart.width,
             paddingBottom: 0,
             height: fixedStart.height,
+            marginTop: 0,
+            maskSize: "100% 100%",
+          })

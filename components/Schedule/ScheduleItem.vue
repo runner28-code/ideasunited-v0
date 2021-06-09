@@ -14,6 +14,7 @@
       <Title class="schedule-item__title">{{ item.title }}</Title>
       <div
         v-if="item.description"
+        class="schedule-item__description"
         v-html="item.description"
       ></div>
     </div>
@@ -32,7 +33,6 @@ export default {
         this.$router.push(page_url + "?event_id=" + id);
         this.$root.$emit("setActiveEvent", id);
       }
-    }
   },
   computed: {
     styles() {
@@ -42,3 +42,4 @@ export default {
         this.activeTheme.schedule_preview.large.url;
 
       if (url) {
+        result.backgroundImage = `url(${url})`;

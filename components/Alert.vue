@@ -38,7 +38,6 @@ export default {
       this.alert = false;
       await this.$nextTick();
       this.alert = alert;
-    });
   },
   methods: {
     onclick() {
@@ -58,3 +57,4 @@ export default {
   margin: 0 !important;
   width: 100%;
   padding: 0;
+  height: 100%;

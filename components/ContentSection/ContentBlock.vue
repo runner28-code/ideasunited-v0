@@ -71,3 +71,5 @@ export default {
         } else {
           const hasEventBlock = this.currentPage.components.find(
             t => t.type == "Event"
+          );
+          if (hasEventBlock) {

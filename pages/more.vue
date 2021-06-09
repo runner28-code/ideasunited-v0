@@ -10,7 +10,6 @@
           ? `url(${item.grid_menu_image.large.url})`
           : ''
       }"
-    >
       <nuxt-link :to="item.url" class="grid-menu__item-overlay">
         {{ item.menu_title }}
       </nuxt-link>
@@ -37,3 +36,4 @@ export default {
     background-size: cover;
     background-position: center;
     max-width: 25%;
+    position: relative;

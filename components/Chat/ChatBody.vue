@@ -44,3 +44,4 @@ export default {
     newMessage(payload) {
       this.messages.push(payload);
       this.scrollBottom();
+    },

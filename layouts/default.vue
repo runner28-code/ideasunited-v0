@@ -99,7 +99,6 @@ export default {
       }
 
       const fontkitIds = _.uniq(typekitFonts.map((font) => font.typekit_id));
-
       fontkitIds.forEach((fontkitId) => {
         this.$WebFont.load({
           typekit: {
@@ -114,6 +113,7 @@ export default {
       this.drawer = !this.drawer;
     });
     this.$root.$on("mobileScrollTo", (y) => {
+      this.$refs.mobileScroll.scroll({
         top: y,
         left: 0,
         behavior: "smooth",
@@ -131,3 +131,5 @@ export default {
     });
 
     this.$cable.unsubscribe({
+      channel: "NotificationChannel",
+      project_id: this.currentProject.id,

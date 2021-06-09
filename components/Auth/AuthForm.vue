@@ -86,3 +86,5 @@ export default {
           const { data } = await this.registerFetch();
           this.$root.$emit('fullpageRebuild');
           this.$emit("close");
+        } catch(e) {
+          if(!e.response.data) return;

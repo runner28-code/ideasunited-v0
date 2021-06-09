@@ -104,3 +104,5 @@ export default {
       this.form.registration_form_id = data.id;
       this.form.register_url = window.location.href;
     },
+    async submit() {
+      try {

@@ -49,3 +49,4 @@ export default {
   computed: {
     faq() {
       return (this.page || this.currentPage).faqs[this.value];
+    },

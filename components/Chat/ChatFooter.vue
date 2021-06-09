@@ -9,6 +9,7 @@
     </div>
 
     <div v-else-if="currentUser.blocked && currentUser.blocked">
+      You are blocked
     </div>
 
     <div v-else class="chat-footer__actions">
@@ -17,7 +18,6 @@
         auto-grow
         rows="1"
         class="chat-footer__actions-input"
-        placeholder="Say something"
         v-model="message"
         maxlength="200"
       ></v-textarea>

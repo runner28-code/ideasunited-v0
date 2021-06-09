@@ -42,3 +42,4 @@ export default {
           token: this.token
         });
         if (!data) {
+          this.$alert("Token not found", "error");

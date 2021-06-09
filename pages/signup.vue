@@ -21,6 +21,7 @@ export default {
   methods: {
     logout() {
       this.$store.dispatch("auth/logout");
+      this.$emit('input', false)
     }
   },
   mounted() {
@@ -32,3 +33,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.signup-page {

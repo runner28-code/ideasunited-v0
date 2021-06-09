@@ -86,3 +86,5 @@ export default {
 <style scoped lang="scss">
 .footer {
   position: fixed;
+  z-index: 7;
+  padding: 10px 19px 10px 14px;

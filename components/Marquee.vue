@@ -30,3 +30,4 @@ export default {
           if (this.$refs.marqueetext) {
             this.seconds = this.$refs.marqueetext
               ? this.$refs.marqueetext.offsetWidth / 50
+              : 25

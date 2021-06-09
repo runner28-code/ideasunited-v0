@@ -29,6 +29,7 @@
       <TextblockItem
         :item="calcList[2]"
         v-if="[3].includes(textBlock.layout)"
+      />
     </div>
   </div>
 </template>
@@ -55,7 +56,7 @@ export default {
   margin: -10px;
   display: flex;
   flex-wrap: wrap;
-
   &__side {
     width: 50%;
 
+    .text-block__item-wrapper {

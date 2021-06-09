@@ -31,7 +31,6 @@
           v-if="countdown.right_title"
           v-html="countdown.right_title"
           class="countdown__text text-right"
-        ></div>
       </div>
     </div>
   </div>
@@ -87,3 +86,6 @@ export default {
     },
     calc() {
       const release = this.$moment(this.countdown.countdown_to);
+      const today = this.$moment(new Date());
+      const diff = release.diff(today);
+      const duration = this.$moment.duration(diff, "milliseconds");

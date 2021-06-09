@@ -171,3 +171,5 @@ export default {
       if (this.currentUser) {
         const lastIndex = _.findLastIndex(
           this.currentProject.menu_pages,
+          (menuItem) => menuItem.menu_style != "button"
+        );

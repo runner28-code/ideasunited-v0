@@ -13,7 +13,6 @@ export async function buildZoomLink({
   let urlParams = "";
   const params = {
     signature,
-// Temp comment
     apiKey,
     zoomId: zoom_id,
   };
@@ -43,4 +42,5 @@ export function stripMessage(message) {
     .split(/\n+/g)
     .join("\n")
     .split(/[\f\r\t\v]+/)
+// Temp comment
     .join(" ");

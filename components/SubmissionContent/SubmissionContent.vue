@@ -29,6 +29,7 @@
 import _ from "lodash";
 
 export default {
+  props: {
     value: String,
     page: Object,
   },
@@ -43,7 +44,6 @@ export default {
   methods: {
     getId(index) {
       const item = this.list[index];
-      return item?.published ? item.id : null;
     },
     async fetchSubmissions($state) {
       const params = {
@@ -54,3 +54,4 @@ export default {
       };
       const { data } = await this.$api.Submission.get(params);
       this.page += 1;
+

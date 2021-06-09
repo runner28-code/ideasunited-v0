@@ -83,7 +83,6 @@
 <script>
 import _ from "lodash";
 
-export default {
   name: "ContentSection",
   props: {
     resource_id: String,
@@ -183,3 +182,4 @@ export default {
           if (untilEnd > 0) {
             this.timeouts[`end_${t.id}`] = setTimeout(() => {
               this.$store.commit("page/unpublishContentBlock", {
+                blockId: t.id,

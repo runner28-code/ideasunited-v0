@@ -44,6 +44,7 @@
           <v-list-item-title class="red--text">Block user</v-list-item-title>
         </v-list-item>
       </v-list>
+    </v-menu>
   </div>
 </template>
 
@@ -56,3 +57,4 @@ export default {
   props: {
     message: Object,
     chat: Object
+  },

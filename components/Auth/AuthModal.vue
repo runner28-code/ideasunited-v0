@@ -10,6 +10,7 @@
       <v-card-text>
         <AuthRegisterForm
           :dialog-state="dialogState"
+        />
       </v-card-text>
     </v-card>
   </v-dialog>
@@ -36,3 +37,4 @@ export default {
       this.dialogState.chooseSignUp = true;
       this.opened = true;
     });
+

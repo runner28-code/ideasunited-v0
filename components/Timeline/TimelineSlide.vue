@@ -87,3 +87,4 @@ export default {
       const aspectRatio = {
         sm: 16 / 8,
         xs: 16 / 8
+      };
