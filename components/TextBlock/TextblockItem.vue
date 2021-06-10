@@ -52,3 +52,6 @@ a.text-block__item-wrapper:hover {
 
     &.dark {
       color: white;
+    }
+
+    &.with-preview {

@@ -31,7 +31,6 @@ export default {
   data() {
     return {
       alert: null
-    };
   },
   mounted() {
     this.$root.$on("alert", async alert => {
@@ -54,7 +53,9 @@ export default {
 <style scoped lang="scss">
 .alert {
   white-space: pre-line;
+  line-height: 1.3;
   margin: 0 !important;
   width: 100%;
   padding: 0;
   height: 100%;
+  font-size: 1em;

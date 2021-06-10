@@ -97,6 +97,7 @@ export default {
       });
     }
   },
+  mounted() {
     this.$root.$on("toggleDrawer", () => {
       this.drawer = !this.drawer;
     });
@@ -106,3 +107,4 @@ export default {
         left: 0,
         behavior: "smooth"
       });
+    });

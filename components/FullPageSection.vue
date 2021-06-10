@@ -49,6 +49,7 @@
 
 <script>
 import mixin from "./convertComponent.mixin";
+export default {
   extends: mixin,
   props: {
     page: Object,
@@ -70,3 +71,4 @@ import mixin from "./convertComponent.mixin";
       const posX = this.page.lead_background_styles.backgroundPositionX;
       if (posX) styles.backgroundPositionX = `${posX}%`;
       const posY = this.page.lead_background_styles.backgroundPositionY;
+      if (posY) styles.backgroundPositionY = `${posY}%`;

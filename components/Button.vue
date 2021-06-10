@@ -32,3 +32,4 @@ export default {
     block: Boolean,
     to: String,
     type: String,
+    refs: Object,

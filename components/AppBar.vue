@@ -175,3 +175,4 @@ export default {
         );
         menuPages = [...this.currentProject.menu_pages];
       } else {
+        menuPages = this.currentProject.menu_pages;

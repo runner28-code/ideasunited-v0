@@ -43,3 +43,5 @@ export default {
         this.activeTheme.schedule_preview.large.url;
 
       if (url) {
+        result.backgroundImage = `url(${url})`;
+      } else {

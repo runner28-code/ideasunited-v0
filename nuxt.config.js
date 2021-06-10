@@ -81,3 +81,4 @@ export default {
   modules: [
     "@nuxtjs/dotenv",
     "@nuxtjs/vuetify",
+    "@nuxtjs/axios",

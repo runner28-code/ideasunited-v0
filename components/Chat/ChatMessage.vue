@@ -58,3 +58,4 @@ export default {
     message: Object,
     chat: Object
   },
+  methods: {

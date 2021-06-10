@@ -61,3 +61,4 @@ export default {
     width: 50%;
 
     .text-block__item-wrapper {
+      height: 100%;

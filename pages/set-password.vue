@@ -18,7 +18,6 @@
       </Button>
     </v-form>
   </div>
-</template>
 
 <script>
 export default {

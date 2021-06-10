@@ -15,6 +15,7 @@
           :style="{ backgroundImage: `url(${slide.preview.large.url})` }"
         ></div>
       </swiper-slide>
+    </swiper>
   </div>
 </template>
 
@@ -30,3 +31,4 @@ export default {
         spaceBetween: 0,
         // autoplay: {
         //   delay: 5000
+        // },

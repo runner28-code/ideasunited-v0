@@ -109,6 +109,7 @@ export default {
       year: new Date().getFullYear(),
       newOpps: [],
     }
+  },
   mounted(){
     this.$root.$on('updateAccountSideBar', (isOpen) => {
       this.accountSideBar = isOpen;
@@ -152,3 +153,4 @@ export default {
       window.location.href = "/";
       this.$emit('input', false);
     },
+    async getOpportunityNotifications() {

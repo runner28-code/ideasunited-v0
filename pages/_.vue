@@ -23,7 +23,6 @@ export default {
         content: this.currentProject?.og_description || this.currentProject?.description
       },
       {
-        name: "description",
         content: this.currentProject.description
       }
     ];

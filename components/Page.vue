@@ -165,3 +165,4 @@ export default {
       const parts = src.split(".");
       return parts[parts.length - 1];
     },
+    preloadSlide(src) {

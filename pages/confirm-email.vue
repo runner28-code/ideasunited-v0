@@ -10,3 +10,4 @@ export default {
   },
   methods: {
     async confirm() {
+      const { confirmation_token } = this.$route.query;
