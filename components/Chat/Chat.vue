@@ -36,3 +36,4 @@ export default {
             this.$store.commit("page/updateChat", payload);
             break;
         }
+      }

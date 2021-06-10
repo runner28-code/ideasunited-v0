@@ -11,6 +11,7 @@ const providers = {
   linkedin: {
     authorizationEndpoint: "/api/v1/public_side/auth/linkedin"
   },
+// Temp comment
   cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
@@ -22,5 +23,4 @@ export default function(ctx, inject) {
       console.log(process.env["ROOT_DOMAIN"]);
 
       let { authorizationEndpoint } = providers[provider];
-// Temp comment
       localStorage.removeItem("token");
