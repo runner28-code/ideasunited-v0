@@ -49,6 +49,7 @@
         :href="newOppDetail.site"
         target="_blank"
       >
+        <div class="app-bar__new-opps-details__content">
           <div class="app-bar__new-opps-details__content-top">
             <div class="app-bar__new-opps-details__thumb"
               :style="{backgroundImage: `url(${newOppDetailPreview(newOppDetail) })`}"
@@ -181,3 +182,4 @@ export default {
       right: -2px;
       color: white;
       background: #E12D1B;
+      font-size: 12px;

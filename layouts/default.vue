@@ -54,7 +54,6 @@ export default {
     if (process.client) {
       this.$cable.subscribe({
         channel: "ProjectChannel",
-        project_id: this.currentProject.id,
         env: this.currentProject.env,
       });
 
@@ -99,6 +98,7 @@ export default {
       }
 
       const fontkitIds = _.uniq(typekitFonts.map((font) => font.typekit_id));
+
       fontkitIds.forEach((fontkitId) => {
         this.$WebFont.load({
           typekit: {
@@ -133,3 +133,4 @@ export default {
     this.$cable.unsubscribe({
       channel: "NotificationChannel",
       project_id: this.currentProject.id,
+      env: this.currentProject.env,

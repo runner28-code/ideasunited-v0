@@ -106,3 +106,4 @@ export default {
     },
     async submit() {
       try {
+        const { data } = await this.$api.RegistrationForm.submit(this.form);

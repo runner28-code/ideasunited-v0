@@ -78,5 +78,7 @@ export default {
           const y = this.$el.getBoundingClientRect().top + window.scrollY;
           window.scroll({
             top: y - 70,
+            behavior: "smooth"
           });
         }
+      }

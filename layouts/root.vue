@@ -106,3 +106,4 @@ export default {
         top: y,
         left: 0,
         behavior: "smooth"
+      });

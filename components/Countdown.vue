@@ -31,6 +31,7 @@
           v-if="countdown.right_title"
           v-html="countdown.right_title"
           class="countdown__text text-right"
+        ></div>
       </div>
     </div>
   </div>
@@ -67,7 +68,6 @@ export default {
       if (this.countdown.preview.large.url)
         data.backgroundImage = `url(${this.countdown.preview.large.url})`;
       return data;
-    },
     countdown() {
       return (this.page || this.currentPage).countdowns[this.value];
     }
@@ -89,3 +89,5 @@ export default {
       const today = this.$moment(new Date());
       const diff = release.diff(today);
       const duration = this.$moment.duration(diff, "milliseconds");
+
+      const days = this.daysWithoutMonths(diff);

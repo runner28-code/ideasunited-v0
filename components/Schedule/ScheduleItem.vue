@@ -8,7 +8,6 @@
     <div class="schedule-item__start-at">
       {{
         item.start_at | moment("timezone", currentTimezone, "h:mm a zz")
-      }}
     </div>
     <div class="schedule-item__content">
       <Title class="schedule-item__title">{{ item.title }}</Title>
@@ -33,6 +32,7 @@ export default {
         this.$router.push(page_url + "?event_id=" + id);
         this.$root.$emit("setActiveEvent", id);
       }
+    }
   },
   computed: {
     styles() {

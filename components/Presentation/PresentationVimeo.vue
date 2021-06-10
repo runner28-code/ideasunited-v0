@@ -17,7 +17,6 @@ import Player from "@vimeo/player";
 export default {
   props: {
     slide: Object,
-    presentation: Object
   },
   data() {
     return {
@@ -31,3 +30,4 @@ export default {
       this.started = true;
     });
 
+    this.play();

@@ -7,6 +7,7 @@
     class="text-field"
     :placeholder="placeholder"
     :label="label"
+    :type="localType"
     :rules="rules"
     @change="$emit('change')"
     ref="input"
@@ -56,3 +57,4 @@ export default {
   },
   computed: {
     calcTheme() {
+      if(!this.activeTheme) return "light";

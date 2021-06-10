@@ -57,6 +57,7 @@ export default {
     formsDisabled: Boolean,
   },
   methods: {
+    onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
@@ -69,3 +70,4 @@ export default {
         styles.backgroundImage = `url(${ledeBackground.large.url})`;
       const posX = this.page.lead_background_styles.backgroundPositionX;
       if (posX) styles.backgroundPositionX = `${posX}%`;
+      const posY = this.page.lead_background_styles.backgroundPositionY;

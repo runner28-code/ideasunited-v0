@@ -47,3 +47,4 @@ export default {
     openZoomLink() {
       window.open(this.event.zoom_url, "_blank");
     },
+    async fetchSignature() {

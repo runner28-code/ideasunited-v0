@@ -24,6 +24,7 @@
     <SliderModal
       :prevId="prevId"
       :nextId="nextId"
+      :id="item.id"
       name="article"
       scrollToElement
       v-model="dialog"
@@ -61,3 +62,4 @@ export default {
     },
     formattedData() {
       const result = {};
+      this.item.formatted_data.forEach(t => (result[t.uuid] = t));

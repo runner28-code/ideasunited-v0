@@ -63,3 +63,4 @@
 </template>
 
 <style lang="scss" scoped>
+.root-lede-play {

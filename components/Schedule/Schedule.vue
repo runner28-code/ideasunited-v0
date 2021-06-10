@@ -36,3 +36,4 @@ export default {
     },
     groupedItems() {
       const groups = _.groupBy(this.schedule.items, t =>
+        this.$moment

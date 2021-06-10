@@ -51,6 +51,7 @@ export default {
     async oauth(provider) {
       // try {
       const { token } = await this.$oauth(provider);
+
       if (token) {
         console.info('oauth process.env.NODE_ENV', process.env.NODE_ENV);
         const cookieDomain =
