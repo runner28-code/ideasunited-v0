@@ -56,4 +56,3 @@ export default {
         console.info('oauth process.env.NODE_ENV', process.env.NODE_ENV);
         const cookieDomain =
           process.env.NODE_ENV === "development"
-            ? "localhost"

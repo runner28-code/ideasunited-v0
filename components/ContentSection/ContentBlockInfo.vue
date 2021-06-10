@@ -69,6 +69,7 @@
           v-html="block.description"
           class="slider-modal-content__description"
         ></div>
+        <Button
           v-if="block.link_text"
           class="slider-modal-content__link"
           :href="block.link_url | url"

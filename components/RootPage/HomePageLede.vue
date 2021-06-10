@@ -229,3 +229,4 @@ export default {
             maskSize: "100% 100%",
           })
           .set(previewVideo, {
+            pointerEvents: "all",

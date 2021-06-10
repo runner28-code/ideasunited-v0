@@ -77,3 +77,4 @@
       :form="form"
       @close="areYouSureDialog = false"
       @submit="submit"
+    />

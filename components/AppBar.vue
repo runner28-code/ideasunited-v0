@@ -174,3 +174,4 @@ export default {
           (menuItem) => menuItem.menu_style != "button"
         );
         menuPages = [...this.currentProject.menu_pages];
+      } else {

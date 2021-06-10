@@ -18,7 +18,6 @@
         auto-grow
         rows="1"
         class="chat-footer__actions-input"
-        placeholder="Say something"
         v-model="message"
         maxlength="200"
       ></v-textarea>

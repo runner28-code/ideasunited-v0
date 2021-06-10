@@ -6,6 +6,7 @@
     :style="styles"
   >
     <div class="schedule-item__start-at">
+      {{
         item.start_at | moment("timezone", currentTimezone, "h:mm a zz")
       }}
     </div>
@@ -42,4 +43,3 @@ export default {
         this.activeTheme.schedule_preview.large.url;
 
       if (url) {
-        result.backgroundImage = `url(${url})`;

@@ -1,5 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-### Node template
 # Logs
 /logs
 *.log
@@ -36,3 +35,4 @@ build/Release
 
 # Dependency directories
 node_modules/
+jspm_packages/

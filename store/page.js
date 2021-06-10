@@ -25,6 +25,7 @@ const store = {
       const payload = { hidden_from_timeline: true };
       updateCollection({ collection, id, payload });
     },
+// Temp comment
     publishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: true };
@@ -53,6 +54,7 @@ const store = {
     }
   }
 };
+
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
   const item = collection.find(t => t.id == id);
