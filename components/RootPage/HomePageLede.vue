@@ -230,3 +230,4 @@ export default {
           })
           .set(previewVideo, {
             pointerEvents: "all",
+          })

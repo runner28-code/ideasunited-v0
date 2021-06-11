@@ -75,7 +75,6 @@
       v-show="filteredBlocks.length > 4"
     >
       <v-icon v-show="viewMore">$chevron_up</v-icon>
-      <v-icon v-show="!viewMore">$chevron_down</v-icon>
     </div>
   </div>
 </template>
@@ -132,6 +131,7 @@ export default {
   computed: {
     contentSection() {
       return (this.page || this.currentPage).content_sections[this.resource_id];
+    },
     filteredBlocks() {
       return this.contentSection.blocks.filter(
         b =>

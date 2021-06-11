@@ -31,6 +31,7 @@ export default {
   data() {
     return {
       alert: null
+    };
   },
   mounted() {
     this.$root.$on("alert", async alert => {

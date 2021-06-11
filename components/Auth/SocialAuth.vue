@@ -35,7 +35,6 @@ export default {
         TwitterLogin: {
           provider: "twitter"
         },
-        GoogleLogin: {
           provider: "google"
         },
         FacebookLogin: {

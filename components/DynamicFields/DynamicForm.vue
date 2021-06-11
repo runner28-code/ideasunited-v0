@@ -20,6 +20,7 @@
         :file-input="field.file_input"
       ></component>
     </div>
+    <div
       class="dynamic-form__description"
       v-if="description"
       v-html="description"

@@ -33,7 +33,6 @@ export default {
         color: this.item.text_color
       };
     }
-  }
 };
 </script>
 
