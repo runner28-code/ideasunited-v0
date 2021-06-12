@@ -57,6 +57,5 @@
 import _ from "lodash";
 
 export default {
-  props: {
     id: String,
     title: String,

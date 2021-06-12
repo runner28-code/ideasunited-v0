@@ -23,6 +23,7 @@ export default {
       loaded: false,
       key: 1
     };
+  },
   created() {
     Vue.component("Spinner", Spinner);
   },

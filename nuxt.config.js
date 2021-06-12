@@ -36,7 +36,6 @@ export default {
     { src: "~/plugins/api.js" },
     { src: "~/plugins/filters.js" },
     { src: "~/plugins/rules.js" },
-// Temp comment
     { src: "~/plugins/swiper.js" },
     { src: "~/plugins/emoji.js" },
     { src: "~/plugins/moment.js" },

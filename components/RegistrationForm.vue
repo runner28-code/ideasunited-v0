@@ -19,6 +19,7 @@
             >{{ registrationForm.sign_up_btn_text || "Apply" }}</v-btn
           >
         </div>
+      </div>
       <div v-if="!registrationForm.login_form || chooseSignUp">
         <Title
           v-if="registrationForm.title"
@@ -67,7 +68,6 @@
           @click="resendConfirmationEmail()"
         >
           Resend Confirmation Email
-        </Button>
       </div>
     </div>
     <EmailValidationModal

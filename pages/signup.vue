@@ -33,3 +33,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.signup-page {

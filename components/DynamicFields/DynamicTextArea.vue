@@ -2,7 +2,7 @@
   <v-textarea
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
-    :rules="rules"
+    @input="$emit('input', $event)"
     auto-grow
     outlined
     class="dynamic-textarea"

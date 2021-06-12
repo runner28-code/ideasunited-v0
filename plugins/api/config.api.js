@@ -8,7 +8,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
     requestConfig => {
       if (requestConfig.jwt) {
         const authToken = $cookies.get("authToken");
-        if (authToken) {
           requestConfig.headers["Auth"] = authToken;
         }
       }
@@ -19,7 +18,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
 
       if (process.server) {
         requestConfig.headers["App-Host"] = req.headers.host;
-// Temp comment
         requestConfig.headers["App-Root-Path"] = req.url;
       } else {
         requestConfig.headers["App-Host"] = window.location.host;

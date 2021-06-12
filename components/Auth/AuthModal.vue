@@ -16,7 +16,6 @@
   </v-dialog>
 </template>
 
-<script>
 
 export default {
   data() {
@@ -29,13 +28,3 @@ export default {
   },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
-      this.backToLogin();
-      this.opened = true;
-    });
-
-    this.$root.$on(`authModal/open/register`, () => {
-      this.dialogState.chooseSignUp = true;
-      this.opened = true;
-    });
-
-    this.$root.$on(`authModal/close`, () => {

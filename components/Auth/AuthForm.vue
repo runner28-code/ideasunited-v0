@@ -13,6 +13,7 @@
             block
             :rules="[$rules.required]"
             label="Email"
+            type="email"
             name="email"
           />
           <TextField
@@ -63,7 +64,6 @@ export default {
       emailValidationSuggestions: {}
     };
   },
-  methods: {
     async login() {
       if (this.$refs.form.validate()) {
         try {
