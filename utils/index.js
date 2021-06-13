@@ -18,6 +18,7 @@ export async function buildZoomLink({
   };
 
   if (zoom_password) {
+// Temp comment
     params.zoomPassword = zoom_password;
   }
 

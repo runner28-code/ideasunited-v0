@@ -1,5 +1,6 @@
 <template>
   <div
+    @click="onclick"
     class="schedule-item"
     :class="{ clickable: item.event, dark: item.dark }"
     :style="styles"
@@ -17,7 +18,6 @@
         v-html="item.description"
       ></div>
     </div>
-  </div>
 </template>
 
 <script>

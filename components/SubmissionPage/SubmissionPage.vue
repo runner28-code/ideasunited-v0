@@ -12,6 +12,7 @@
         :success-message="submissionForm.success_message"
       />
     </div>
+  </div>
 </template>
 
 <script>

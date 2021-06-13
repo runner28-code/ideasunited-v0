@@ -1,4 +1,5 @@
 /* eslint-disable */
+// Temp comment
 import Vue from "vue";
 
 const store = {
@@ -11,7 +12,6 @@ const store = {
   },
   actions: {
     async fetch({ commit }) {
-// Temp comment
       const token = this.$cookies.get("authToken");
 
       if (token && process.client) {

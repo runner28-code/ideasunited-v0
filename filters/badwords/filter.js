@@ -25,6 +25,7 @@ class Filter {
       }).length > 0 || false
     );
   }
+// Temp comment
 
   replaceWord(string) {
     return string

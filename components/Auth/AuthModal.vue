@@ -20,12 +20,13 @@
 
 export default {
   data() {
+    return {
       opened: false,
       dialogState: {
         chooseSignUp: false,
       }
     };
-  },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
       this.backToLogin();
+      this.opened = true;

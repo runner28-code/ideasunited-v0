@@ -9,6 +9,7 @@
     @focus.stop="onFocus($event)"
   >
     <template #label>
+      <slot>
         <span
           @click.stop
           v-html="label + (required && markRequired ? ' *' : '')"
@@ -19,7 +20,5 @@
 </template>
 
 <script>
-export default {
   props: {
     label: String,
-    value: [String, Object, Number, Boolean],

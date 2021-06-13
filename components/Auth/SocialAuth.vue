@@ -29,7 +29,6 @@ import _ from "lodash";
 import cookies from "vue-cookies";
 
 export default {
-  data() {
     return {
       authParams: {
         TwitterLogin: {

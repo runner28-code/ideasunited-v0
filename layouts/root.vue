@@ -11,6 +11,7 @@
       <SideBar v-model="drawer" />
     </client-only>
     <v-main>
+      <HomePageLede />
       <Nuxt :key="key" ref="main-content" />
       <Footer :is-static="true"/>
     </v-main>
