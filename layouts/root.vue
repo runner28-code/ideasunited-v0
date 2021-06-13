@@ -11,7 +11,6 @@
       <SideBar v-model="drawer" />
     </client-only>
     <v-main>
-      <HomePageLede />
       <Nuxt :key="key" ref="main-content" />
       <Footer :is-static="true"/>
     </v-main>
@@ -108,3 +107,12 @@ export default {
         behavior: "smooth"
       });
     });
+  },
+  beforeDestroy() {
+    this.$cable.unsubscribe({
+      channel: "ProjectChannel",
+      project_id: this.currentProject.id,
+      env: this.currentProject.env
+    });
+
+    this.$cable.unsubscribe({

@@ -36,7 +36,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import moment from "moment-timezone";
 
@@ -95,3 +94,5 @@ export default {
       const hours = duration.hours();
       const minutes = duration.minutes();
       const seconds = duration.seconds();
+
+      if (days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {

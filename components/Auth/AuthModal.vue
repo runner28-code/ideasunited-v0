@@ -16,10 +16,10 @@
   </v-dialog>
 </template>
 
+<script>
 
 export default {
   data() {
-    return {
       opened: false,
       dialogState: {
         chooseSignUp: false,
@@ -28,3 +28,4 @@ export default {
   },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
+      this.backToLogin();

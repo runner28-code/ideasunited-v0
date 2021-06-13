@@ -154,3 +154,4 @@ export default {
       this.$emit('input', false);
     },
     async getOpportunityNotifications() {
+      const { data } = await this.$api.SubmissionForm.get();

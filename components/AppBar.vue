@@ -152,7 +152,6 @@ export default {
     toggleDrawer() {
       this.$root.$emit("toggleDrawer");
     },
-  },
   computed: {
     activeGridMenuTitle() {
       const page = this.gridMenuPages.find((t) => t.id == this.currentPage?.id);
@@ -176,3 +175,4 @@ export default {
         menuPages = [...this.currentProject.menu_pages];
       } else {
         menuPages = this.currentProject.menu_pages;
+      }

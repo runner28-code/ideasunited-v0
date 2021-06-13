@@ -50,3 +50,4 @@ export default {
     faq() {
       return (this.page || this.currentPage).faqs[this.value];
     },
+    items1() {

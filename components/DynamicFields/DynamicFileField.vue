@@ -32,7 +32,6 @@ export default {
     rules: {
       type: Array,
       default: () => []
-    },
     size: {
       type: String,
       default: "cover"
@@ -50,3 +49,4 @@ export default {
   border-radius: 10px;
   cursor: pointer;
   transition: 0.2s;
+  border: 2px dashed rgba(0, 0, 0, 0.38);

@@ -15,7 +15,6 @@
               class="signup-btn"
               elevation="0"
               @click="clickRegister()"
-              >{{ registrationForm.sign_up_btn_text || "Register" }}</v-btn
             >
           </div>
         </div>
@@ -107,3 +106,4 @@ export default {
     async submit() {
       try {
         const { data } = await this.$api.RegistrationForm.submit(this.form);
+        this.emailValidationSuggestions = [];

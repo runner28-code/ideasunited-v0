@@ -14,7 +14,6 @@
         <div class="footer__menu-item" v-if="supportForm">
           <a @click.prevent="supportDialog = true"
             >Support</a
-          >
         </div>
         <div class="footer__menu-item">
           <a @click="clickFAQ"
@@ -81,6 +80,7 @@ export default {
     }
   }
 };
+</script>
 
 <style scoped lang="scss">
 .footer {
@@ -89,3 +89,4 @@ export default {
   padding: 10px 19px 10px 14px;
   background-color: #56565a;
   color: white;
+  font-size: 14px;

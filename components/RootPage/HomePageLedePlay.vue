@@ -64,3 +64,4 @@
 
 <style lang="scss" scoped>
 .root-lede-play {
+  width: 10.83%;

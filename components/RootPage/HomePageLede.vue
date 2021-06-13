@@ -231,3 +231,6 @@ export default {
           .set(previewVideo, {
             pointerEvents: "all",
           })
+          .add("start")
+          .to(previewMedia, {
+            y: 0,

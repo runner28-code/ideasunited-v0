@@ -49,7 +49,6 @@
         :href="newOppDetail.site"
         target="_blank"
       >
-        <div class="app-bar__new-opps-details__content">
           <div class="app-bar__new-opps-details__content-top">
             <div class="app-bar__new-opps-details__thumb"
               :style="{backgroundImage: `url(${newOppDetailPreview(newOppDetail) })`}"
@@ -66,6 +65,7 @@
             icon
             class="app-bar__new-opps-details__close"
             @click.prevent="showNewOppDetails = false"
+            small
           >
             <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
@@ -182,3 +182,4 @@ export default {
       color: white;
       background: #E12D1B;
       font-size: 12px;
+      padding-top: 0.2em;

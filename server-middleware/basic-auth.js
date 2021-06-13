@@ -1,5 +1,4 @@
 import axios from "axios";
-// Temp comment
 export default async function (req, res, next) {
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
@@ -23,3 +22,5 @@ export default async function (req, res, next) {
       project.production_redirect_enabled &&
       project.production_redirect_url
     ) {
+      console.log("Redirect");
+      res.writeHead(302, { Location: project.production_redirect_url });

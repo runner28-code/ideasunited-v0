@@ -25,3 +25,4 @@
 
 <script>
 export default {
+  props: {

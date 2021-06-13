@@ -11,10 +11,13 @@ const store = {
   },
   actions: {
     async fetch({ commit }) {
+// Temp comment
       const token = this.$cookies.get("authToken");
 
       if (token && process.client) {
+        const { data } = await this.$api.User.current();
         commit("set", data);
         const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"
+            : "." + window.location.hostname;

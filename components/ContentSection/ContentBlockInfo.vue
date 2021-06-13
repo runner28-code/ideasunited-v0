@@ -44,7 +44,6 @@
         <div v-if="block.creator">
           <div
             class="slider-modal-content__creator-info"
-            v-if="block.creator.primary_working_location || block.creator.primary_role"
           >
             <span v-if="block.creator.primary_working_location">{{ block.creator.primary_working_location }}</span>
             <span v-if="block.creator.primary_role">{{ block.creator.primary_role }}</span>
@@ -60,6 +59,7 @@
             </div>
             <div class="slider-modal-content__creator-socials__item" v-if="block.creator.linkedin">
               <a :href="block.creator.linkedin" target="_blank">
+                <v-icon color="currentColor" size="24">$linkedin_profile</v-icon>
               </a>
             </div>
           </div>
@@ -76,3 +76,4 @@
           large
           >{{ block.link_text }}</Button
         >
+      </div>

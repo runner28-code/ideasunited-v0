@@ -10,6 +10,6 @@ export default {
       const { token } = this.$route.query;
       if (token) {
         this.login(token);
-        this.$router.push("/");
+      } else {
       }
     }

@@ -76,3 +76,4 @@ export default {
             const event_type = this.block.video_player_type;
             this.$root.$emit("setActiveEvent", {
               ...this.block,
+              event_type,

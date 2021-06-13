@@ -68,6 +68,7 @@
           @click="resendConfirmationEmail()"
         >
           Resend Confirmation Email
+        </Button>
       </div>
     </div>
     <EmailValidationModal
@@ -78,3 +79,4 @@
       @submit="submit"
     />
   </div>
+</template>

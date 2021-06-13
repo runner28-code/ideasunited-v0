@@ -18,7 +18,6 @@ export default {
     vimeoChapter: [String, Number],
     firstStartAt: {
       type: Number,
-      default: 0
     },
     autoplay: {
       type: Boolean,
@@ -31,8 +30,10 @@ export default {
       this.$root.$emit("nextEvent");
     });
     this.player.getChapters().then(chapters => {
+      this.chapters = chapters;
       if (this.vimeoChapter) this.goToChapter(this.vimeoChapter);
     });
     this.player.on("timeupdate", data => {
       const live_seconds = (Date.now() - this.releaseTime) / 1000;
       if (data.seconds > live_seconds) {
+        this.player.setCurrentTime(live_seconds - 1);

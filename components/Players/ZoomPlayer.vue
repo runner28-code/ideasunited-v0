@@ -48,3 +48,4 @@ export default {
       window.open(this.event.zoom_url, "_blank");
     },
     async fetchSignature() {
+      const { zoom_id, zoom_password } = this.event;

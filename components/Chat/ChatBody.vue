@@ -38,7 +38,6 @@ export default {
             break;
         }
       }
-    }
   },
   methods: {
     newMessage(payload) {
@@ -47,3 +46,4 @@ export default {
     },
     deleteMessage(messageId) {
       this.messages = this.messages.filter(m => m.id != messageId);
+      this.scrollBottom();

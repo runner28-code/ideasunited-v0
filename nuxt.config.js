@@ -17,6 +17,7 @@ export default {
   head: {
     titleTemplate: "%s",
     htmlAttrs: {
+// Temp comment
       lang: "en",
     },
     meta: [

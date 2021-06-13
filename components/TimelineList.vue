@@ -39,3 +39,4 @@ export default {
 
 <style lang="scss" scoped>
 .timeline-list {
+  &__ul {

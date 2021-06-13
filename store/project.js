@@ -1,4 +1,3 @@
-/* eslint-disable */
 import moment from "moment-timezone";
 
 const store = {
@@ -10,4 +9,5 @@ const store = {
     },
   },
   actions: {
+    async fetch({ commit }) {
       const { data } = await this.$api.Project.current({

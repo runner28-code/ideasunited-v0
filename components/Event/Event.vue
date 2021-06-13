@@ -135,3 +135,4 @@ export default {
 
 .event {
   border-radius: 10px;
+  display: flex;

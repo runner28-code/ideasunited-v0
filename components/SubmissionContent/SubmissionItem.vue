@@ -44,7 +44,6 @@ export default {
     nextId: String,
     layout: Object,
     previewLayout: Object
-  },
   data() {
     return {
       colors: ["#1E1818", "#171313", "#140808", "#8F7878", "#8F7E7E"],
@@ -63,3 +62,4 @@ export default {
     formattedData() {
       const result = {};
       this.item.formatted_data.forEach(t => (result[t.uuid] = t));
+      return result;

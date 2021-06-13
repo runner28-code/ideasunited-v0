@@ -41,7 +41,6 @@
         <button class="fullpage-top-arrow"></button>
         <div class="fullpage-top-arrow__text">
           BACK TO TOP
-        </div>
       </div> -->
     </div>
   </div>
@@ -72,3 +71,4 @@ export default {
       if (posX) styles.backgroundPositionX = `${posX}%`;
       const posY = this.page.lead_background_styles.backgroundPositionY;
       if (posY) styles.backgroundPositionY = `${posY}%`;
+      return styles;

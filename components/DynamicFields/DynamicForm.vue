@@ -95,3 +95,4 @@ export default {
     async submitCallback() {
       this.loading = true;
       try {
+        await this.submit();

@@ -30,4 +30,5 @@ export default {
         slidesPerView: 1,
         spaceBetween: 0,
         // autoplay: {
+        //   delay: 5000
         // },

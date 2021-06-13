@@ -59,3 +59,7 @@ export default {
     chat: Object
   },
   methods: {
+    deleteMessage() {
+      this.$api.Message.destroy(this.message.id);
+    },
+    blockUser() {

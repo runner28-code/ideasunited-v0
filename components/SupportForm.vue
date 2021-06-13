@@ -35,3 +35,4 @@ export default {
     };
   },
   mounted(){
+    this.$root.$on('resetSupportForm', () => {

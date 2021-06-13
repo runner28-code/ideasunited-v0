@@ -56,3 +56,4 @@ export default {
       const { data } = await this.$api.Submission.get(params);
       this.page += 1;
 
+      const ids = this.list.map(t => t.id);
