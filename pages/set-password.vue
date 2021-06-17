@@ -16,7 +16,6 @@
       <Button type="submit" :refs="$refs" block x-large>
         Submit
       </Button>
-    </v-form>
   </div>
 </template>
 
@@ -28,6 +27,7 @@ export default {
       formModel: null,
       form: {},
       token: this.$route.query.token
+    };
   },
   created() {
     if (process.client) {

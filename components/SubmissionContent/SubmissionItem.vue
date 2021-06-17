@@ -16,6 +16,7 @@
                 ? field.value.substr(0, 100) + "..."
                 : field.value
             }}</span>
+          </div>
         </div>
       </div>
     </v-responsive>

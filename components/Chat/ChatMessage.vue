@@ -1,4 +1,3 @@
-<template>
   <div class="message">
     <div class="message-wrapper">
       <Avatar
@@ -62,3 +61,4 @@ export default {
     deleteMessage() {
       this.$api.Message.destroy(this.message.id);
     },
+    blockUser() {

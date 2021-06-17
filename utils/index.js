@@ -12,7 +12,6 @@ export async function buildZoomLink({
 
   let urlParams = "";
   const params = {
-    signature,
     apiKey,
     zoomId: zoom_id,
   };
@@ -22,6 +21,7 @@ export async function buildZoomLink({
   }
 
   if (full_name || email) {
+    params.nickname = full_name;
     params.email = email;
   }
 

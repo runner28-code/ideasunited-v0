@@ -59,6 +59,7 @@ import { v4 as uuidv4 } from "uuid";
 
 export default {
   props: {
+    value: [typeof window === "undefined" ? Object : window.File, Object],
     placeholder: String,
     ratio: {
       type: Number,
@@ -72,7 +73,6 @@ export default {
     rules: {
       type: Array,
       default: () => []
-    },
     size: {
       type: String,
       default: "cover"

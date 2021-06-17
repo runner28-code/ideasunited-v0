@@ -94,5 +94,4 @@ export default {
   methods: {
     async submitCallback() {
       this.loading = true;
-      try {
         await this.submit();

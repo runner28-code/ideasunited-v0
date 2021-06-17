@@ -13,3 +13,4 @@
     <template #label>
       <slot>
         <span v-html="label"></span>
+      </slot>
