@@ -18,6 +18,7 @@
         v-html="item.description"
       ></div>
     </div>
+  </div>
 </template>
 
 <script>

@@ -7,7 +7,6 @@
 <script>
 import { getHash } from "@/utils";
 
-export default {
   props: {
     name: String,
     id: String

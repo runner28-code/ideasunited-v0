@@ -25,9 +25,9 @@ class Filter {
       }).length > 0 || false
     );
   }
-// Temp comment
 
   replaceWord(string) {
+// Temp comment
     return string
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);

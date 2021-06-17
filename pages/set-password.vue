@@ -28,7 +28,6 @@ export default {
       formModel: null,
       form: {},
       token: this.$route.query.token
-    };
   },
   created() {
     if (process.client) {

@@ -62,7 +62,6 @@
               <a :href="block.creator.linkedin" target="_blank">
                 <v-icon color="currentColor" size="24">$linkedin_profile</v-icon>
               </a>
-            </div>
           </div>
         </div>
         <div

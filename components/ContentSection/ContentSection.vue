@@ -1,7 +1,6 @@
 <template>
   <div
     class="content-section"
-    :class="[{ disable_scroll: contentSection.disable_scroll }, `content-section--${contentSection.layout_style}`]"
     v-show="filteredBlocks.length"
   >
     <Title class="content-section__title">
@@ -111,6 +110,7 @@ export default {
           },
           1264: {
             slidesPerView: 4,
+            spaceBetween: 40
           }
         }
       },

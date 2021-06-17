@@ -25,7 +25,7 @@ export default {
       dialogState: {
         chooseSignUp: false,
       }
-    };
+  },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
       this.backToLogin();

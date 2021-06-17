@@ -34,6 +34,7 @@ export default {
     }
   },
   watch: {
+    value: {
       immediate: true,
       handler(value) {
         this.localValue = value;

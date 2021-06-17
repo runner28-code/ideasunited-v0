@@ -62,4 +62,3 @@ export default {
     deleteMessage() {
       this.$api.Message.destroy(this.message.id);
     },
-    blockUser() {

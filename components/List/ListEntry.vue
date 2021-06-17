@@ -1,4 +1,3 @@
-<template>
   <div class="list-entry">
     <div
       v-if="entry.preview.thumb.url"
@@ -14,6 +13,7 @@
       </div>
       <div class="list-entry__subtitle" v-html="entry.subtitle"></div>
     </div>
+  </div>
 </template>
 
 <script>

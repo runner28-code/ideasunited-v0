@@ -11,6 +11,7 @@
       @keyup.enter="setActive"
       class="timeline-slide__wrapper"
       :aspect-ratio="aspectRatio"
+      role="button"
       tabindex="0"
     >
       <div :class="classList" :style="styles">
@@ -49,7 +50,6 @@ export default {
     setActive() {
       if (this.value.posted) {
         this.$emit("setActive", this.value.id);
-
         if (this.value.url) {
           window.open(this.value.url, "_blank");
         }

@@ -4,7 +4,7 @@
     :value="value"
     @input="$emit('input', $event)"
     :rules="rules"
-    @focus.stop="onFocus($event)"
+    outlined
   />
 </template>
 

@@ -32,6 +32,7 @@
           </div>
         </v-form>
       </div>
+    </div>
 
     <EmailValidationModal
       :opened="areYouSureDialog"
