@@ -234,3 +234,4 @@ export default {
           .add("start")
           .to(previewMedia, {
             y: 0,
+            x: 0,

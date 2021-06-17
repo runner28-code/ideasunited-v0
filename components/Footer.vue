@@ -45,6 +45,7 @@
     </v-dialog>
   </v-footer>
 </template>
+
 <script>
 import { frontendToProfile } from "@/utils";
 export default {
@@ -90,3 +91,4 @@ export default {
   background-color: #56565a;
   color: white;
   font-size: 14px;
+  font-family: Source Sans Pro, sans-serif;

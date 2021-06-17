@@ -151,6 +151,7 @@ export default {
       if(opp.preview.thumb && opp.preview.thumb.url) return opp.preview.thumb.url;
       return opp.preview.url;
     },
+    goToOpp(opp) {
       
     },
   }
@@ -183,3 +184,4 @@ export default {
       background: #E12D1B;
       font-size: 12px;
       padding-top: 0.2em;
+      min-width: 21px;

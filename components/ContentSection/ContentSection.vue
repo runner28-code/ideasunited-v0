@@ -73,7 +73,6 @@
       class="content-section__view-more"
       @click="toggleViewMore"
       v-show="filteredBlocks.length > 4"
-    >
       <v-icon v-show="viewMore">$chevron_up</v-icon>
       <v-icon v-show="!viewMore">$chevron_down</v-icon>
     </div>
@@ -103,6 +102,7 @@ export default {
           },
           600: {
             slidesPerView: 2,
+            spaceBetween: 40
           },
           960: {
             slidesPerView: 3,

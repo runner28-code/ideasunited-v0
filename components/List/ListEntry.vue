@@ -20,9 +20,10 @@
 <script>
 export default {
   props: {
+    entry: Object
   }
 };
 </script>
 
 <style scoped lang="scss">
-.list-entry {
+  width: 25%;

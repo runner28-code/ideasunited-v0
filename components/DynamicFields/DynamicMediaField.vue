@@ -73,10 +73,11 @@ export default {
     rules: {
       type: Array,
       default: () => []
+    },
     size: {
       type: String,
       default: "cover"
     },
-    required: Boolean,
     markRequired: Boolean,
     label: String,
+    showLabel: Boolean,

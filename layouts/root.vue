@@ -34,7 +34,6 @@ export default {
       drawer: false,
       timeouts: {},
       key: 0
-    };
   },
   created() {
     this.$store.dispatch("application/init");

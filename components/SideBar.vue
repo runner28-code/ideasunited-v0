@@ -155,3 +155,4 @@ export default {
     },
     async getOpportunityNotifications() {
       const { data } = await this.$api.SubmissionForm.get();
+      this.newOpps = data;

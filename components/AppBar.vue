@@ -177,3 +177,4 @@ export default {
       } else {
         menuPages = this.currentProject.menu_pages;
       }
+      return menuPages.filter((t) => !t.parent_menu_id);

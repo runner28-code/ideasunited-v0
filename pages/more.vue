@@ -38,4 +38,3 @@ export default {
     background-position: center;
     max-width: 25%;
     position: relative;
-

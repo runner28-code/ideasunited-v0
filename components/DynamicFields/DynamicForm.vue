@@ -41,7 +41,6 @@
             :width="2"
             indeterminate
           ></v-progress-circular>
-          <span style="margin-left: 10px"> Uploading... </span>
         </span>
         <span v-else>
           {{ btnText || "Submit" }}
@@ -94,4 +93,6 @@ export default {
   methods: {
     async submitCallback() {
       this.loading = true;
+      try {
         await this.submit();
+      } finally {

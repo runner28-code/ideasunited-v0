@@ -131,6 +131,7 @@ export default {
     display: flex;
     align-items: center;
   }
+}
 
 .event {
   border-radius: 10px;

@@ -113,6 +113,7 @@ export default {
     this.currentProject.menu_pages.forEach((page) => {
       const ledeBackground = page.lead_background;
       if (ledeBackground) this.preloadSlide(ledeBackground.large.url || ledeBackground.url);
+    });
     setTimeout(() => {
       if (this.$refs.fullpage) {
         this.$refs.fullpage.init();

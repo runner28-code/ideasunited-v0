@@ -1,4 +1,4 @@
-// Temp comment
 export default {
+// Temp comment
   computed: {
     isMobile() {

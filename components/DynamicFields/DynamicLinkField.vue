@@ -24,3 +24,4 @@ export default {
     },
     required: Boolean,
     markRequired: Boolean,
+    addonData: {
