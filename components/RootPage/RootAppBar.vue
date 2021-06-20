@@ -4,7 +4,6 @@
       class="elevation-0 app-bar"
       :height="['sm', 'xs'].includes($size) ? 70 : 83"
       color="primary"
-      app
       clipped-left
     >
       <v-toolbar-title class="toolbar-title">
@@ -136,6 +135,7 @@ export default {
         this.newOppDetailIndex = 0;
         this.newOppDetail = this.newOpps[this.newOppDetailIndex];
       } else {
+        this.newOppDetailIndex = (this.newOppDetailIndex + 1) % this.newOpps.length;
         this.newOppDetail = this.newOpps[this.newOppDetailIndex];
       }
       this.nextNewOppDetail();

@@ -165,7 +165,6 @@ export default {
       if (!this.currentProject || this.currentProject.menu_pages == 0)
         return "";
       return this.currentProject.menu_pages[0].url;
-    },
     menuPages() {
       let menuPages;
       if (this.currentUser) {

@@ -40,5 +40,6 @@ export default {
         this.localValue = value;
       }
     },
+    localValue(value) {
       this.$emit("input", value);
     }

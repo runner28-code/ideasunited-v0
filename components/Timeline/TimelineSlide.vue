@@ -25,7 +25,6 @@
           </div>
           <div class="timeline-slide__text-name">
             {{ value.short_title || value.title }}
-          </div>
         </div>
 
         <div class="timeline-slide__now-playing">

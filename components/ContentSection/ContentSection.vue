@@ -9,6 +9,7 @@
       <a
         :style="{ color: activeTheme.primary_color }"
         class="content-section__more"
+        v-if="contentSection.more_link_url && contentSection.more_link_text"
         :href="contentSection.more_link_url | url"
       >
         <span>
@@ -142,7 +143,6 @@ export default {
     },
     visibleControls() {
       return (
-        (this.$size == "md" && this.filteredBlocks.length > 3) ||
         (["lg", "xl"].includes(this.$size) && this.filteredBlocks.length > 4) ||
         (["sm", "xs"].includes(this.$size) && this.filteredBlocks.length > 1)
       );

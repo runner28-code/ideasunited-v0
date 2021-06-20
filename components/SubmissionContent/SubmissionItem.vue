@@ -32,6 +32,7 @@
       <SubmissionItemContent :layout="layout" :item="item" />
     </SliderModal>
   </div>
+</template>
 
 <script>
 import { getHash } from "@/utils";

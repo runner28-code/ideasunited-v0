@@ -22,5 +22,4 @@ export default function(ctx, inject) {
       console.log(process.env["ROOT_DOMAIN"]);
 
       let { authorizationEndpoint } = providers[provider];
-      localStorage.removeItem("token");
 

@@ -31,7 +31,6 @@ export default {
     customComponent() {
       return (this.page || this.currentPage).custom_components[this.value];
     }
-  },
   methods: {
     compile(component, callback) {
       return new Promise(resolve => {
