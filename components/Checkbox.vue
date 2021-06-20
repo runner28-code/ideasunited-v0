@@ -9,8 +9,8 @@
     on-icon="$checkbox_on"
     :rules="rules"
     :disabled="disabled"
-  >
     <template #label>
       <slot>
         <span v-html="label"></span>
       </slot>
+    </template>

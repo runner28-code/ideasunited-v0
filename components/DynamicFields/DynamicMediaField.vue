@@ -12,7 +12,6 @@
         @change="handleFileChange"
         ref="fileInput"
         append-icon="$upload"
-        @click:append="$refs.fileInput.$el.querySelector('input').click()"
       >
       </v-file-input>
     </div>
@@ -78,6 +77,7 @@ export default {
       type: String,
       default: "cover"
     },
+    required: Boolean,
     markRequired: Boolean,
     label: String,
     showLabel: Boolean,

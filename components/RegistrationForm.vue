@@ -79,5 +79,4 @@
       @submit="submit"
     />
   </div>
-</template>
 

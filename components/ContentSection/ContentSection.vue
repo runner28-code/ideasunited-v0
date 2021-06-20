@@ -9,7 +9,6 @@
       <a
         :style="{ color: activeTheme.primary_color }"
         class="content-section__more"
-        v-if="contentSection.more_link_url && contentSection.more_link_text"
         :href="contentSection.more_link_url | url"
       >
         <span>
@@ -73,6 +72,7 @@
       class="content-section__view-more"
       @click="toggleViewMore"
       v-show="filteredBlocks.length > 4"
+    >
       <v-icon v-show="viewMore">$chevron_up</v-icon>
       <v-icon v-show="!viewMore">$chevron_down</v-icon>
     </div>

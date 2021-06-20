@@ -32,7 +32,6 @@ export default {
     rules: {
       type: Array,
       default: () => []
-    },
     size: {
       type: String,
       default: "cover"

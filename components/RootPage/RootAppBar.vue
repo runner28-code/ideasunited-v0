@@ -136,7 +136,6 @@ export default {
         this.newOppDetailIndex = 0;
         this.newOppDetail = this.newOpps[this.newOppDetailIndex];
       } else {
-        this.newOppDetailIndex = (this.newOppDetailIndex + 1) % this.newOpps.length;
         this.newOppDetail = this.newOpps[this.newOppDetailIndex];
       }
       this.nextNewOppDetail();

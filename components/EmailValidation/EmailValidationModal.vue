@@ -29,6 +29,7 @@ export default {
   },
   methods: {
     useSuggestion(suggestion) {
+      const suggested_email = `${suggestion.local}@${suggestion.suggestion}`
       for (var key in this.form.data){
         if (this.form.data[key] == suggestion.email) {
           this.form.data[key] = suggested_email;

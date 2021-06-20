@@ -40,4 +40,5 @@
     </v-navigation-drawer>
   </div>
 </template>
+
 <script>
