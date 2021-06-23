@@ -35,6 +35,7 @@ class Filter {
   clean(string) {
     const join = this.splitRegex.exec(string);
     return string
+      .split(this.splitRegex)
       .map(word => {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })

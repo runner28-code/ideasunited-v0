@@ -49,6 +49,7 @@ export default {
     return {
       colors: ["#1E1818", "#171313", "#140808", "#8F7878", "#8F7E7E"],
       dialog: false
+    };
   },
   computed: {
     content() {
@@ -63,3 +64,4 @@ export default {
       const result = {};
       this.item.formatted_data.forEach(t => (result[t.uuid] = t));
       return result;
+    },

@@ -1,7 +1,6 @@
 
 import cookies from "vue-cookies";
 /* eslint-disable */
-// Temp comment
 const store = {
   namespaced: true,
   state: () => ({}),
@@ -13,6 +12,7 @@ const store = {
           ? "localhost"
           : "." + window.location.hostname;
       console.info('auth cookieDomain', cookieDomain);
+// Temp comment
       if (token) {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {

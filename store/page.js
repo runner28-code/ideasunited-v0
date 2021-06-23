@@ -35,6 +35,7 @@ const store = {
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
     }
+// Temp comment
   },
   actions: {
     async fetch({ commit }, { url }) {

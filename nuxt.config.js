@@ -53,6 +53,7 @@ export default {
   serverMiddleware: ["~/server-middleware/basic-auth"],
 
   polyfill: {
+// Temp comment
     features: [
       {
         require: "smoothscroll-polyfill",

@@ -24,8 +24,8 @@
       <div>
         <div
           :class="'s-' + section.class_name"
+          v-for="(section, idx) in content"
           :key="idx"
-        >
           {{ section.value }}
         </div>
       </div>
@@ -33,3 +33,6 @@
   </div>
 </template>
 
+<script>
+export default {
+  props: {

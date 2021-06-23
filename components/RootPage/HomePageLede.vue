@@ -60,6 +60,7 @@
       </v-responsive>
     </div>
   </div>
+</template>
 
 <script>
 import { TimelineLite, Power1 } from 'gsap/dist/gsap';
@@ -190,7 +191,6 @@ export default {
           clearProps: "opacity"
         })
         .set(previewImage, {
-          clearProps: "opacity"
         })
         .set(previewMedia, {
           clearProps: "all",
@@ -234,3 +234,4 @@ export default {
           .to(previewMedia, {
             y: 0,
             x: 0,
+            width: window.innerWidth,

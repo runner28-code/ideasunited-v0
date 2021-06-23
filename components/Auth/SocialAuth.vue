@@ -22,6 +22,7 @@
       </div>
     </div>
   </div>
+</template>
 
 <script>
 import _ from "lodash";
@@ -57,3 +58,4 @@ export default {
           process.env.NODE_ENV === "development"
             ? "localhost"
             : "." + window.location.hostname;
+

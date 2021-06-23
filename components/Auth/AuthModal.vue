@@ -18,6 +18,7 @@
 
 <script>
 
+export default {
   data() {
     return {
       opened: false,
@@ -32,3 +33,4 @@
       this.opened = true;
     });
 
+    this.$root.$on(`authModal/open/register`, () => {

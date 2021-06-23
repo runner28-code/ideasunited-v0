@@ -6,6 +6,7 @@ html {
 
 .error {
   &-page {
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -21,3 +22,4 @@ html {
   &-description {
     font-weight: normal;
     font-size: 24px;
+    margin: 10px 0 25px 0;

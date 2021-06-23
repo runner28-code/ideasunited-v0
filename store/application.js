@@ -1,6 +1,7 @@
 const store = {
   namespaced: true,
   state: () => ({ loaded: false, timelineAspectRatio: null }),
+  mutations: {
     setLoaded(state, val) {
       state.loaded = val;
     },
@@ -8,3 +9,4 @@ const store = {
       state.timelineAspectRatio = val;
     }
   },
+  actions: {

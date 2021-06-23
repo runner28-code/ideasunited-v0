@@ -57,7 +57,6 @@
                 'menu-item-hidden': menuItem.menu_style == 'home_logo',
               }"
             >
-              <span @click="menuClick(menuItem, idx)">{{
                 menuItem.menu_title
               }}</span>
               <span class="menu-caret" v-if="menuItem.menus.length">▾</span>
@@ -178,3 +177,4 @@ export default {
         menuPages = this.currentProject.menu_pages;
       }
       return menuPages.filter((t) => !t.parent_menu_id);
+    },

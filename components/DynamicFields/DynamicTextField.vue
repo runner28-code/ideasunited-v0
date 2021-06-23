@@ -10,3 +10,4 @@
 </template>
 
 <script>
+export default {

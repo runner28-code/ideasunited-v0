@@ -42,3 +42,4 @@
 </template>
 
 <script>
+export default {

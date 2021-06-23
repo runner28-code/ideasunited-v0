@@ -99,3 +99,4 @@ export default {
       if (days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
         this.visible = false;
         clearInterval(this.interval);
+      } else {

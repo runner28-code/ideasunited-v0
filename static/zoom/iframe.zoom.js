@@ -1,4 +1,3 @@
-// Temp comment
 ZoomMtg.setZoomJSLib("https://source.zoom.us/1.9.1/lib", "/av");
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareJssdk();
@@ -14,3 +13,4 @@ const apiKey = params.get("apiKey") || "";
 
 ZoomMtg.init({
   debug: true,
+  leaveUrl: "https://zoom.us"

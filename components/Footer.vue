@@ -46,6 +46,7 @@
   </v-footer>
 </template>
 
+<script>
 import { frontendToProfile } from "@/utils";
 export default {
   props: {
@@ -91,3 +92,4 @@ export default {
   color: white;
   font-size: 14px;
   font-family: Source Sans Pro, sans-serif;
+  &::v-deep {

@@ -67,6 +67,7 @@
         class="rightsidebar__item"
         :href="profileUrl"
         v-if="currentUser && currentUser.confirmed"
+        v-ripple="false"
       >
         User Portal
       </v-list-item>
@@ -155,3 +156,4 @@ export default {
     async getOpportunityNotifications() {
       const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
+    },

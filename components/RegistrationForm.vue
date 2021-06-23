@@ -31,6 +31,7 @@
           v-if="registrationForm.description"
           class="registration-form__description"
         >
+          {{ registrationForm.description }}
         </div>
         <DynamicForm
           :submit="submit"
@@ -80,3 +81,4 @@
   </div>
 </template>
 
+<script>

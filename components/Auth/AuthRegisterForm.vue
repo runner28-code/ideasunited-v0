@@ -9,7 +9,6 @@
           />
           <div class="auth-register-form__not-registered">
             <p class="auth-register-form__not-registered-cta">
-              {{ registrationForm.not_registered_cta || "Not a member yet? It’s easy to join!" }}
             </p>
             <v-btn
               class="signup-btn"
@@ -45,6 +44,7 @@
           />
         </div>
       </div> <!-- v-if="!currentUser" -->
+      <div v-else class="register__thank-you">
         <Title class="register__thank-you_title">
           Thank you!
         </Title>
@@ -108,3 +108,4 @@ export default {
         const { data } = await this.$api.RegistrationForm.submit(this.form);
         this.emailValidationSuggestions = [];
         this.$store.commit("auth/setToken", data.token);
+        this.$store.dispatch("user/fetch");

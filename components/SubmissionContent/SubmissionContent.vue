@@ -7,7 +7,6 @@
         :nextId="getId(index + 1)"
         :item="item"
         v-for="(item, index) in list"
-        :key="item.id"
         :layout="submissionContent.layout"
         :previewLayout="submissionContent.preview_layout"
       />
@@ -47,6 +46,7 @@ export default {
       return item?.published ? item.id : null;
     },
     async fetchSubmissions($state) {
+      const params = {
         widget_submission_form_id: this.submissionContent
           .widget_submission_form_id,
         query: this.search,

@@ -30,6 +30,7 @@ export default {
   computed: {
     customComponent() {
       return (this.page || this.currentPage).custom_components[this.value];
+    }
   },
   methods: {
     compile(component, callback) {
@@ -40,3 +41,4 @@ export default {
           const {
             loadModule
           } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
+          const options = {

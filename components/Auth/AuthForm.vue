@@ -93,3 +93,4 @@ export default {
             if(data.email_suggestion) this.emailValidationSuggestions = [data.email_suggestion];
             this.areYouSureDialog = true;
           }
+        }

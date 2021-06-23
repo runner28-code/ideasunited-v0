@@ -36,6 +36,7 @@ export default {
     }
   },
   computed: {
+    styles() {
       const result = {};
       const url =
         this.item.preview.large.url ||
