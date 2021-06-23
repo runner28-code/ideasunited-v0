@@ -82,4 +82,3 @@ export default {
     "@nuxtjs/dotenv",
     "@nuxtjs/vuetify",
     "@nuxtjs/axios",
-    "cookie-universal-nuxt",

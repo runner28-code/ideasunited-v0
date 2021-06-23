@@ -10,7 +10,6 @@
     "generate": "nuxt generate",
     "deploy-staging": "MINA_CONFIG=deploy/staging.json mina deploy",
     "restart-staging": "pm2 kill && pm2 start",
-    "deploy-production": "MINA_CONFIG=deploy/production.json mina deploy",
     "restart-production": "pm2 kill && pm2 start"
   },
   "dependencies": {

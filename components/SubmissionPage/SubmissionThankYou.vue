@@ -1,4 +1,3 @@
-<template>
   <div class="submission-thank-you">
     <p
       class="submission-thank-you__text"
@@ -15,6 +14,7 @@
     </p>
   </div>
 </template>
+
 <script>
 import { frontendToProfile } from "@/utils";
 

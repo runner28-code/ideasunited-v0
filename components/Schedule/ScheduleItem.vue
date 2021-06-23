@@ -44,3 +44,4 @@ export default {
 
       if (url) {
         result.backgroundImage = `url(${url})`;
+      } else {

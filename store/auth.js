@@ -16,10 +16,3 @@ const store = {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
-      }
-    }
-  },
-  actions: {
-    async login({ commit, dispatch }, params) {
-      const { data } = await this.$api.Auth.login(params);
-      commit("setToken", data.token);

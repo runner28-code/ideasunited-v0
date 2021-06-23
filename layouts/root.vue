@@ -88,6 +88,7 @@ export default {
 
       const fontkitIds = _.uniq(typekitFonts.map(font => font.typekit_id));
 
+      fontkitIds.forEach(fontkitId => {
         this.$WebFont.load({
           typekit: {
             id: fontkitId

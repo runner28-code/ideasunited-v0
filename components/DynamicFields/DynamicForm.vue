@@ -67,7 +67,6 @@ import DynamicFileField from "./DynamicFileField";
 export default {
   props: {
     fields: Array,
-    value: Object,
     submit: Function,
     markRequired: Boolean,
     showLabel: Boolean,

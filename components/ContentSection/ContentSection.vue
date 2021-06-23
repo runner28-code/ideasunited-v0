@@ -106,7 +106,6 @@ export default {
             spaceBetween: 40
           },
           960: {
-            slidesPerView: 3,
             spaceBetween: 40
           },
           1264: {
@@ -143,6 +142,7 @@ export default {
     },
     visibleControls() {
       return (
+        (this.$size == "md" && this.filteredBlocks.length > 3) ||
         (["lg", "xl"].includes(this.$size) && this.filteredBlocks.length > 4) ||
         (["sm", "xs"].includes(this.$size) && this.filteredBlocks.length > 1)
       );

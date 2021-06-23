@@ -59,6 +59,7 @@
           ></component>
         </div>
       </div>
+    </div>
   </div>
 </template>
 
@@ -163,5 +164,4 @@ export default {
     srcExt(src) {
       const parts = src.split(".");
       return parts[parts.length - 1];
-    },
     preloadSlide(src) {
