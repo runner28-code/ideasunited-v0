@@ -1,6 +1,7 @@
 
 import cookies from "vue-cookies";
 /* eslint-disable */
+// Temp comment
 const store = {
   namespaced: true,
   state: () => ({}),
@@ -16,3 +17,5 @@ const store = {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
+      }
+    }

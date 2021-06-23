@@ -24,7 +24,6 @@
 
       <div
         class="content-section-item__icon"
-        v-if="block.content_type == 'video_player'"
       >
         <v-icon :color="activeTheme.primary_color" size="28">$play</v-icon>
       </div>
@@ -77,3 +76,4 @@ export default {
             this.$root.$emit("setActiveEvent", {
               ...this.block,
               event_type,
+              type: "content_block"

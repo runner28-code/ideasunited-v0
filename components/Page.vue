@@ -68,7 +68,6 @@ import mixin from "./convertComponent.mixin";
 import isMobileMixin from "./isMobile.mixin";
 import FullPageSection from "@/components/FullPageSection";
 
-export default {
   mixins: [mixin, isMobileMixin],
   components: { FullPageSection },
   data() {
@@ -164,4 +163,5 @@ export default {
     srcExt(src) {
       const parts = src.split(".");
       return parts[parts.length - 1];
+    },
     preloadSlide(src) {

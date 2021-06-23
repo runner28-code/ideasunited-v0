@@ -74,7 +74,6 @@ export default {
         this.activeTheme.paragraph_font?.font,
         this.activeTheme.header_font?.font,
         this.activeTheme.footer_font?.font
-      ].filter(f => f && f.src_type == "typekit");
 
       if (googleFonts.length) {
         this.$WebFont.load({

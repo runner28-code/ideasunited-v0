@@ -46,5 +46,4 @@ export default {
       this.scrollBottom();
     },
     deleteMessage(messageId) {
-      this.messages = this.messages.filter(m => m.id != messageId);
       this.scrollBottom();

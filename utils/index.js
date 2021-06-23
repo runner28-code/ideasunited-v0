@@ -13,6 +13,7 @@ export async function buildZoomLink({
   let urlParams = "";
   const params = {
     signature,
+    apiKey,
     zoomId: zoom_id,
   };
 

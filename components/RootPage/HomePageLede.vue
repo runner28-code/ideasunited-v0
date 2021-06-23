@@ -60,7 +60,6 @@
       </v-responsive>
     </div>
   </div>
-</template>
 
 <script>
 import { TimelineLite, Power1 } from 'gsap/dist/gsap';

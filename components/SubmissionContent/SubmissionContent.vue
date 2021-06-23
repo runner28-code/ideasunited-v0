@@ -47,7 +47,6 @@ export default {
       return item?.published ? item.id : null;
     },
     async fetchSubmissions($state) {
-      const params = {
         widget_submission_form_id: this.submissionContent
           .widget_submission_form_id,
         query: this.search,

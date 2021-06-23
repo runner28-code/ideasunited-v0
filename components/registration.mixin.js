@@ -5,5 +5,6 @@ export default {
     }
   },
   methods: {
+// Temp comment
     async resendConfirmationEmail() {
       this.resending = true;

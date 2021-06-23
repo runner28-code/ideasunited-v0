@@ -35,6 +35,7 @@
           </span>
         </div>
       </div>
+    </v-responsive>
   </div>
 </template>
 
@@ -52,7 +53,6 @@ export default {
 
         if (this.value.url) {
           window.open(this.value.url, "_blank");
-        }
       }
     }
   },

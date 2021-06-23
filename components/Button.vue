@@ -18,12 +18,12 @@
   >
     <slot></slot>
   </v-btn>
+</template>
 
 <script>
 import { getThemeByColor } from "@/utils";
 
 export default {
-  props: {
     color: String,
     large: Boolean,
     xLarge: Boolean,

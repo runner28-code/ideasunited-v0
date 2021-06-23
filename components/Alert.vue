@@ -60,3 +60,4 @@ export default {
   padding: 0;
   height: 100%;
   font-size: 1em;
+  flex: 1;

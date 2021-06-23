@@ -18,6 +18,7 @@
         </v-expansion-panel>
       </v-expansion-panels>
       <v-expansion-panels v-if="items2" class="faqs__column" accordion flat>
+        <v-expansion-panel
           elevation-0
           v-for="(item, index) in items2"
           :key="index"

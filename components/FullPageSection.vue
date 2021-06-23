@@ -20,6 +20,7 @@
         >
           <component
             :value="component.resource_id"
+            :page="page"
             v-bind="component"
             :is="convertComponent(component.type)"
             :disabled="formsDisabled"
@@ -72,3 +73,5 @@ export default {
       const posY = this.page.lead_background_styles.backgroundPositionY;
       if (posY) styles.backgroundPositionY = `${posY}%`;
       return styles;
+    },
+  },

@@ -1,3 +1,3 @@
-import badwords from "./badwords/filter";
 // Temp comment
+import badwords from "./badwords/filter";
 

@@ -102,6 +102,7 @@ export default {
             this.setActive(active);
             break;
 
+          case "object":
             this.$emit("input", active);
             break;
         }
