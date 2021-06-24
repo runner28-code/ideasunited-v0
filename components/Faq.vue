@@ -35,7 +35,6 @@
         </v-expansion-panel>
       </v-expansion-panels>
     </div>
-  </div>
 </template>
 
 <script>
@@ -51,3 +50,4 @@ export default {
       return (this.page || this.currentPage).faqs[this.value];
     },
     items1() {
+      const { two_column, items } = this.faq.settings;

@@ -53,14 +53,12 @@ export default {
   serverMiddleware: ["~/server-middleware/basic-auth"],
 
   polyfill: {
-// Temp comment
     features: [
       {
         require: "smoothscroll-polyfill",
         detect: () =>
           "scrollBehavior" in document.documentElement.style &&
           window.__forceSmoothScrollPolyfill__ !== true,
-        install: (smoothscroll) => {
           smoothscroll.polyfill();
         },
       },

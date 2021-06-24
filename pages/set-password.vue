@@ -25,6 +25,7 @@ export default {
   layout: 'simple',
   data() {
     return {
+      formModel: null,
       form: {},
       token: this.$route.query.token
     };
@@ -44,3 +45,4 @@ export default {
           this.$alert("Token not found", "error");
           this.$router.push("/");
         }
+      } catch (e) {

@@ -47,6 +47,7 @@
         v-if="newOppDetail && showNewOppDetails"
         :key="newOppDetail.id"
         :href="newOppDetail.site"
+        target="_blank"
       >
         <div class="app-bar__new-opps-details__content">
           <div class="app-bar__new-opps-details__content-top">
@@ -184,3 +185,4 @@ export default {
       font-size: 12px;
       padding-top: 0.2em;
       min-width: 21px;
+      height: 21px;

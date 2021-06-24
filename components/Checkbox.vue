@@ -1,4 +1,5 @@
 <template>
+  <v-checkbox
     class="checkbox"
     hide-details="auto"
     :value="value"
@@ -14,3 +15,4 @@
         <span v-html="label"></span>
       </slot>
     </template>
+  </v-checkbox>

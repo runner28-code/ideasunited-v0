@@ -1,7 +1,6 @@
 export async function buildZoomLink({
   $api,
   zoom_id,
-  zoom_password,
   full_name,
   email,
 }) {
@@ -18,6 +17,7 @@ export async function buildZoomLink({
   };
 
   if (zoom_password) {
+    params.zoomPassword = zoom_password;
   }
 
   if (full_name || email) {

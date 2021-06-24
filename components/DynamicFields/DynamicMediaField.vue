@@ -82,3 +82,4 @@ export default {
     markRequired: Boolean,
     label: String,
     showLabel: Boolean,
+    fileInput: Boolean

@@ -37,6 +37,7 @@
                 v-model="form"
                 :success-message="successMessage"
               />
+            </div>
           </div>
         </div>
         <div v-else>

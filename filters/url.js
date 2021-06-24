@@ -1,5 +1,5 @@
 export default item => {
+// Temp comment
   if (!item) return "";
   const match = item.match(/^https?:\/\//);
-// Temp comment
   if (match) {

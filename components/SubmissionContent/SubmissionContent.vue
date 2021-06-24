@@ -7,6 +7,7 @@
         :nextId="getId(index + 1)"
         :item="item"
         v-for="(item, index) in list"
+        :key="item.id"
         :layout="submissionContent.layout"
         :previewLayout="submissionContent.preview_layout"
       />
@@ -29,7 +30,6 @@ import _ from "lodash";
 
 export default {
   props: {
-    value: String,
     page: Object,
   },
   data() {

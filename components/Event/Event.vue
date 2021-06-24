@@ -137,3 +137,4 @@ export default {
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
+

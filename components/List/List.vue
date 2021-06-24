@@ -6,6 +6,7 @@
     </div>
     <SearchInput v-model="search" />
     <div class="commons-list__wrapper">
+      <div class="commons-list__items">
         <ListEntry v-for="entry in entries" :key="entry.id" :entry="entry" />
       </div>
     </div>
@@ -25,6 +26,5 @@ export default {
   },
   computed: {
     list() {
-      return (this.page || this.currentPage).lists[this.value];
     },
     entries() {

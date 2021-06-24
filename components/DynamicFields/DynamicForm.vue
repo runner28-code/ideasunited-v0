@@ -72,6 +72,7 @@ export default {
     markRequired: Boolean,
     showLabel: Boolean,
     description: String,
+    btnText: String,
     disabled: Boolean,
     showBackToLogin: Boolean,
   },
@@ -96,3 +97,4 @@ export default {
       try {
         await this.submit();
       } finally {
+        this.loading = false;

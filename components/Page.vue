@@ -133,6 +133,7 @@ export default {
       location.hash = `#${newAnchor}`;
       this.$refs.fullpage.api.moveTo(idx + 1, true, { force: true });
       document.querySelectorAll(".page").forEach((el) => (el.scrollTop = 0)); // official fullpage breaks this. It can be fixed with the scrollOverflowReset extension, but it's pretty costly.
+      if (this.isMobile) {
         this.$root.$emit(
           "mobileScrollTo",
           this.$refs.sections[idx].$el.offsetTop
