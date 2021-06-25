@@ -30,6 +30,7 @@ import _ from "lodash";
 
 export default {
   props: {
+    value: String,
     page: Object,
   },
   data() {
@@ -56,3 +57,4 @@ export default {
       this.page += 1;
 
       const ids = this.list.map(t => t.id);
+      const newData = data.filter(t => !ids.includes(t.id));

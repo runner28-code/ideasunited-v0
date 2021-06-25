@@ -98,3 +98,4 @@ export default {
         await this.submit();
       } finally {
         this.loading = false;
+      }

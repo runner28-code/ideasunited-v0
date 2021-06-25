@@ -61,3 +61,4 @@ export default {
   height: 100%;
   font-size: 1em;
   flex: 1;
+  display: flex;

@@ -34,3 +34,4 @@ export default {
 
 <style scoped lang="scss">
 .signup-page {
+  display: flex;

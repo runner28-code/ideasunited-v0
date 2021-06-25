@@ -16,6 +16,7 @@
         {{
           event.start_at
             | moment("timezone", currentTimezone, "dddd M/D/YYYY")
+        }}
         at
         {{
           event.start_at
@@ -48,3 +49,4 @@ export default {
     },
     async fetchSignature() {
       const { zoom_id, zoom_password } = this.event;
+      const { full_name, email } = this.currentUser || {};

@@ -59,9 +59,11 @@ export default {
         detect: () =>
           "scrollBehavior" in document.documentElement.style &&
           window.__forceSmoothScrollPolyfill__ !== true,
+        install: (smoothscroll) => {
           smoothscroll.polyfill();
         },
       },
+// Temp comment
     ],
   },
 
@@ -82,3 +84,4 @@ export default {
     "@nuxtjs/vuetify",
     "@nuxtjs/axios",
     "cookie-universal-nuxt",
+    "@nuxtjs/device",

@@ -91,3 +91,4 @@ export default {
 
       return (
         this.$store.state.application.timelineAspectRatio ||
+        aspectRatio[this.$size] ||

@@ -58,6 +58,7 @@
               }"
             >
               <span @click="menuClick(menuItem, idx)">{{
+                menuItem.menu_title
               }}</span>
               <span class="menu-caret" v-if="menuItem.menus.length">▾</span>
             </component>
@@ -179,3 +180,5 @@ export default {
       return menuPages.filter((t) => !t.parent_menu_id);
     },
     menuFooterPages() {
+      return this.currentProject.menu_footer_pages;
+    },

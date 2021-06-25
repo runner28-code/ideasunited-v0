@@ -28,6 +28,7 @@ export default {
     item: Object
   },
   computed: {
+    styles() {
       return {
         color: this.item.text_color
       };

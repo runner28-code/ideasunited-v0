@@ -60,6 +60,7 @@
               :disabled="resending"
               @click="resendConfirmationEmail()"
             >
+              Resend Confirmation Email
             </Button>
           </div>
         </div> <!-- v-if="!currentUser.confirmed" -->
@@ -109,3 +110,4 @@ export default {
         this.emailValidationSuggestions = [];
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
+        if (this.registrationForm.destination_page_id)

@@ -101,3 +101,4 @@ export default {
         clearInterval(this.interval);
       } else {
         this.visible = true;
+      }

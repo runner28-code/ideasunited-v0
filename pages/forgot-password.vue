@@ -33,3 +33,4 @@ export default {
         await this.$store.dispatch("auth/resetPassword", this.form);
         this.submitted = true;
       } catch {}
+    }

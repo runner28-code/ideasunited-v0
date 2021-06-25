@@ -88,7 +88,6 @@
         Hide Chat
         <v-icon>$menu_up</v-icon>
       </span>
-    </div>
   </div>
 </template>
 
@@ -138,3 +137,4 @@ export default {
   display: flex;
   flex-wrap: wrap;
 
+  &__placeholder {

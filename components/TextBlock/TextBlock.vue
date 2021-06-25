@@ -63,3 +63,4 @@ export default {
     .text-block__item-wrapper {
       height: 100%;
     }
+  }

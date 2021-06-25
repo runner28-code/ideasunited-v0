@@ -167,3 +167,4 @@ export default {
     },
     preloadSlide(src) {
       if (!this.preloadedImgBase64s[src]) {
+        const img = new Image();

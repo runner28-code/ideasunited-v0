@@ -45,7 +45,6 @@
       </v-btn>
       <swiper
         ref="swiper"
-        class="content-section__swiper"
         :options="swiperOption"
       >
         <swiper-slide
@@ -78,6 +77,7 @@
       <v-icon v-show="!viewMore">$chevron_down</v-icon>
     </div>
   </div>
+</template>
 
 <script>
 import _ from "lodash";
@@ -183,3 +183,4 @@ export default {
             this.timeouts[`end_${t.id}`] = setTimeout(() => {
               this.$store.commit("page/unpublishContentBlock", {
                 blockId: t.id,
+                sectionId: this.contentSection.id

@@ -25,7 +25,6 @@
       </div>
     </div>
     <v-menu
-      offset-y
       v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"
     >
       <template v-slot:activator="{ on }">
@@ -63,3 +62,4 @@ export default {
       this.$api.Message.destroy(this.message.id);
     },
     blockUser() {
+      if (confirm("Are you sure?")) {

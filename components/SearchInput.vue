@@ -25,6 +25,7 @@ export default {
   },
   computed: {
     styles() {
+      return {
         color: this.calcTheme == "dark" ? "white" : "#333"
       };
     },
@@ -34,7 +35,6 @@ export default {
   },
   watch: {
     value: {
-      immediate: true,
       handler(value) {
         this.localValue = value;
       }
@@ -42,3 +42,4 @@ export default {
     localValue(value) {
       this.$emit("input", value);
     }
+  }

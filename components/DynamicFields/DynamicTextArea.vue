@@ -17,3 +17,4 @@ export default {
     label: String,
     value: String,
     rules: {
+      type: Array,

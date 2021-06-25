@@ -11,6 +11,7 @@ class Filter {
       replaceRegex: options.replaceRegex || /\w/g
     });
   }
+// Temp comment
 
   isProfane(string) {
     return (

@@ -35,6 +35,7 @@
         </v-expansion-panel>
       </v-expansion-panels>
     </div>
+  </div>
 </template>
 
 <script>

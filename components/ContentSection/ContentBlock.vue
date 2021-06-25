@@ -29,7 +29,6 @@
         <v-icon :color="activeTheme.primary_color" size="28">$play</v-icon>
       </div>
 
-      <SliderModal
         :prevId="prevId"
         :nextId="nextId"
         :id="block.id"
@@ -79,3 +78,4 @@ export default {
               event_type,
               type: "content_block"
             });
+            window.scroll({ top: 0, left: 0, behavior: "smooth" });

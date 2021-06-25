@@ -14,7 +14,6 @@
         ></component>
       </div>
     </div>
-  </div>
 </template>
 
 <script>

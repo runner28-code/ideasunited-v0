@@ -35,3 +35,4 @@ export default {
           this.form.data[key] = suggested_email;
           this.$set(suggestion, 'accepted', true);
         }
+      }

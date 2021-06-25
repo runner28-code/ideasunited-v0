@@ -32,3 +32,4 @@ export default {
         // autoplay: {
         //   delay: 5000
         // },
+        navigation: {

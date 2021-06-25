@@ -61,3 +61,4 @@ export default {
     id: String,
     title: String,
     description: String,
+    btnText: String,
