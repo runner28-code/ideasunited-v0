@@ -182,3 +182,4 @@ export default {
     menuFooterPages() {
       return this.currentProject.menu_footer_pages;
     },
+    headerStyles() {

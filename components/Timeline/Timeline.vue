@@ -128,3 +128,4 @@ export default {
     },
     initEvent() {
       let { event_id, block_id } = this.$route.query;
+      if (block_id) return;

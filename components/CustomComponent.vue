@@ -42,3 +42,4 @@ export default {
             loadModule
           } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
           const options = {
+            moduleCache: {

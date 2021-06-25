@@ -19,7 +19,6 @@
         >
           <v-icon color="#ffffff" size="50">$chevron_left</v-icon>
         </v-btn>
-        <v-btn
           v-if="nextId"
           @click="openNext"
           @keyup.enter="openNext"
@@ -71,6 +70,7 @@ export default {
   },
   mounted() {
     this.$root.$on(this.triggerName, id => {
+      if (this.id == id) {
         this.$emit("input", true);
 
         if (this.scrollToElement) {
@@ -84,3 +84,4 @@ export default {
     });
   },
   methods: {
+    inViewport() {

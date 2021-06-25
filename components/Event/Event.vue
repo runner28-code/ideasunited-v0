@@ -88,6 +88,7 @@
         Hide Chat
         <v-icon>$menu_up</v-icon>
       </span>
+    </div>
   </div>
 </template>
 
@@ -138,3 +139,4 @@ export default {
   flex-wrap: wrap;
 
   &__placeholder {
+    position: absolute;

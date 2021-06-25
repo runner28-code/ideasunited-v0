@@ -111,3 +111,4 @@ export default {
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
         if (this.registrationForm.destination_page_id)
+          this.$router.push("/" + this.registrationForm.destination_url);

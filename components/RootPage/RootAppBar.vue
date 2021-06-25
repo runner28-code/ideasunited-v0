@@ -72,7 +72,6 @@
           </v-btn>
           <v-btn
             icon
-            class="app-bar__new-opps-details__eye"
             small
           >
             <v-icon size="20" color="white">$eye</v-icon>
@@ -109,6 +108,7 @@ export default {
   },
   methods: {
     async logout() {
+      await this.$store.dispatch("auth/logout");
     },
     isProduction() {
       return (
@@ -186,3 +186,4 @@ export default {
       min-width: 21px;
       height: 21px;
       border-radius: 50%;
+    }

@@ -33,3 +33,4 @@ export default {
     to: String,
     type: String,
     refs: Object,
+    text: Boolean,

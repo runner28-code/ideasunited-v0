@@ -57,6 +57,7 @@ export default {
     formsDisabled: Boolean,
   },
   methods: {
+    onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
@@ -75,3 +76,4 @@ export default {
     },
   },
 };
+</script>

@@ -4,7 +4,6 @@ const providers = {
   },
   facebook: {
     authorizationEndpoint: "/api/v1/public_side/auth/facebook"
-// Temp comment
   },
   twitter: {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
@@ -16,7 +15,6 @@ const providers = {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
 };
-
 export default function(ctx, inject) {
   inject("oauth", provider => {
     return new Promise((resolve, reject) => {
@@ -25,3 +23,4 @@ export default function(ctx, inject) {
       let { authorizationEndpoint } = providers[provider];
       localStorage.removeItem("token");
 
+      if (process.env.NODE_ENV !== "development") {

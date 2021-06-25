@@ -65,3 +65,4 @@ export default {
       this.item.formatted_data.forEach(t => (result[t.uuid] = t));
       return result;
     },
+    preview() {

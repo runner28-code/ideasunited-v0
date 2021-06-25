@@ -1,3 +1,4 @@
+// Temp comment
 // console.log("====================++");
 // console.log(`${process.env.API_URL}${process.env.API_PUBLIC_PATH}`);
 // console.log("====================++");
@@ -63,7 +64,6 @@ export default {
           smoothscroll.polyfill();
         },
       },
-// Temp comment
     ],
   },
 
@@ -85,3 +85,4 @@ export default {
     "@nuxtjs/axios",
     "cookie-universal-nuxt",
     "@nuxtjs/device",
+    "nuxt-user-agent",

@@ -11,7 +11,6 @@ class Filter {
       replaceRegex: options.replaceRegex || /\w/g
     });
   }
-// Temp comment
 
   isProfane(string) {
     return (
@@ -41,4 +40,5 @@ class Filter {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })
       .join(join ? join[0] : "");
+// Temp comment
   }

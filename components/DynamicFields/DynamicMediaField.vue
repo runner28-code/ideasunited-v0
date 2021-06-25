@@ -58,6 +58,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 export default {
+  props: {
     value: [typeof window === "undefined" ? Object : window.File, Object],
     placeholder: String,
     ratio: {
@@ -82,3 +83,4 @@ export default {
     label: String,
     showLabel: Boolean,
     fileInput: Boolean
+  },

@@ -15,7 +15,6 @@
             >{{ newOpps.length }}</div>
           </transition>
         </v-btn>
-      </div>
       <SideBar v-model="drawer" :no-root="true" />
     </client-only>
     <AppBar @changeKey="key = key + 1" />
@@ -141,3 +140,4 @@ export default {
     ProjectChannel: {
       received({ payload, type }) {
         switch (type) {
+          case "update_project_params":

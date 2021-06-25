@@ -15,7 +15,6 @@
           </v-expansion-panel-header>
           <v-expansion-panel-content v-if="item.answer" v-html="item.answer">
           </v-expansion-panel-content>
-        </v-expansion-panel>
       </v-expansion-panels>
       <v-expansion-panels v-if="items2" class="faqs__column" accordion flat>
         <v-expansion-panel
@@ -52,3 +51,4 @@ export default {
     },
     items1() {
       const { two_column, items } = this.faq.settings;
+      if(two_column){

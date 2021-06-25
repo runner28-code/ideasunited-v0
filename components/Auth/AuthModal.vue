@@ -35,3 +35,4 @@ export default {
 
     this.$root.$on(`authModal/open/register`, () => {
       this.dialogState.chooseSignUp = true;
+      this.opened = true;

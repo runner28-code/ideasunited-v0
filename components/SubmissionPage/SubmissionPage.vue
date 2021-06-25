@@ -6,6 +6,7 @@
         :id="submissionForm.id"
         :submissionForm="submissionForm"
         :fields="submissionForm.submission_form"
+        :title="submissionForm.title"
         :description="submissionForm.description"
         :btn-text="submissionForm.btn_text"
         :success-message="submissionForm.success_message"

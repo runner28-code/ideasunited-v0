@@ -46,3 +46,4 @@ export default {
           this.$router.push("/");
         }
       } catch (e) {
+        console.error(e);

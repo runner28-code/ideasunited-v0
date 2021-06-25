@@ -59,3 +59,4 @@ export default {
             ? "localhost"
             : "." + window.location.hostname;
 
+        console.info('oauth cookieDomain', cookieDomain);

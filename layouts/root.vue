@@ -117,3 +117,4 @@ export default {
     });
 
     this.$cable.unsubscribe({
+      channel: "NotificationChannel",

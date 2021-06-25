@@ -77,6 +77,7 @@ export default {
       }
     },
     async registerFetch() {
+      const res = await this.$store.dispatch("auth/register", this.registerForm);
       return res;
     },
     async register() {
@@ -94,3 +95,4 @@ export default {
           }
         }
       }
+    }

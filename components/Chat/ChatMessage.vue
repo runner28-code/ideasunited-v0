@@ -25,6 +25,7 @@
       </div>
     </div>
     <v-menu
+      offset-y
       v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"
     >
       <template v-slot:activator="{ on }">
@@ -50,7 +51,6 @@
 <script>
 import stripMessage from "@/filters/stripMessage";
 import badwords from "@/filters/badwords";
-
 export default {
   name: "ChatMessage",
   props: {

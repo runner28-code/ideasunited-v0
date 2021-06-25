@@ -29,7 +29,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.grid-menu {
   display: flex;
   flex-wrap: wrap;
 

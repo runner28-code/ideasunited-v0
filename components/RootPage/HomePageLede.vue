@@ -85,6 +85,7 @@ export default {
       },
       slides,
       currentSlideIndex: 0,
+    }
   },
   mounted() {
     this.preloadVideo();
@@ -238,3 +239,5 @@ export default {
             height: window.innerHeight,
             ease: Power1.easeIn,
             duration: 0.5,
+          })
+          .to(playBtn, {
