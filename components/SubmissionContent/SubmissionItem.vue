@@ -66,3 +66,4 @@ export default {
       return result;
     },
     preview() {
+      const t = this.item.formatted_data.find(

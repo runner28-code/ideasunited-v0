@@ -72,6 +72,7 @@
           </v-btn>
           <v-btn
             icon
+            class="app-bar__new-opps-details__eye"
             small
           >
             <v-icon size="20" color="white">$eye</v-icon>
@@ -187,3 +188,25 @@ export default {
       height: 21px;
       border-radius: 50%;
     }
+  }
+  &__new-opps {
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 7px 5px 4px 14px;
+    margin-right: 23px;
+    cursor: pointer;
+    background: #262729;
+    filter: drop-shadow(5px 5px #000000);
+    @media screen and (max-width: 944px) {
+      display: none;
+    }
+    &__close {
+      margin-top: -3px;
+    }
+  }
+  &__new-opps-details {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;

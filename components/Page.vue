@@ -71,7 +71,6 @@ import FullPageSection from "@/components/FullPageSection";
 export default {
   mixins: [mixin, isMobileMixin],
   components: { FullPageSection },
-  data() {
     return {
       currentSlide: 0,
       preloadedImgBase64s: {},
@@ -169,3 +168,4 @@ export default {
       if (!this.preloadedImgBase64s[src]) {
         const img = new Image();
         img.crossOrigin = "anonymous";
+

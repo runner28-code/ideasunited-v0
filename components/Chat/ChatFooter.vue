@@ -3,6 +3,7 @@
     <v-btn v-if="!currentUser" outlined @click="$root.$emit(`authModal/open`)">
       Log in
     </v-btn>
+
     <div v-else-if="chat.locked">
       Chat is temporarily locked
     </div>
@@ -15,7 +16,6 @@
       <v-textarea
         @keydown.enter="sendMessage"
         auto-grow
-        rows="1"
         class="chat-footer__actions-input"
         placeholder="Say something"
         v-model="message"

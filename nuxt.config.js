@@ -1,4 +1,3 @@
-// Temp comment
 // console.log("====================++");
 // console.log(`${process.env.API_URL}${process.env.API_PUBLIC_PATH}`);
 // console.log("====================++");
@@ -33,6 +32,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+// Temp comment
     { src: "~/plugins/map-state.js" },
     { src: "~/plugins/api.js" },
     { src: "~/plugins/filters.js" },
@@ -86,3 +86,4 @@ export default {
     "cookie-universal-nuxt",
     "@nuxtjs/device",
     "nuxt-user-agent",
+    "nuxt-polyfill",

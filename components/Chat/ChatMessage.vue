@@ -1,5 +1,4 @@
 <template>
-  <div class="message">
     <div class="message-wrapper">
       <Avatar
         :name="message.user.full_name"
@@ -51,6 +50,7 @@
 <script>
 import stripMessage from "@/filters/stripMessage";
 import badwords from "@/filters/badwords";
+
 export default {
   name: "ChatMessage",
   props: {

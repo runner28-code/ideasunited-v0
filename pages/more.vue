@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  display: flex;
+.grid-menu {
   flex-wrap: wrap;
 
   &__item {
@@ -39,3 +39,4 @@ export default {
     position: relative;
 
     &-overlay {
+      position: absolute;

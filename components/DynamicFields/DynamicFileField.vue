@@ -1,6 +1,5 @@
 <template>
   <v-file-input
-    :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
     @input="$emit('input', $event)"
     :rules="rules"
@@ -51,3 +50,4 @@ export default {
   cursor: pointer;
   transition: 0.2s;
   border: 2px dashed rgba(0, 0, 0, 0.38);
+  background-size: cover;

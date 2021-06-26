@@ -12,6 +12,7 @@
           <p class="registration-form__not-registered-cta">
             {{ registrationForm.not_registered_cta || "Not registered?" }}
           </p>
+          <v-btn
             class="signup-btn"
             elevation="0"
             @click="chooseSignUp = true"
@@ -84,3 +85,4 @@
 import registrationMixin from "./registration.mixin";
 
 export default {
+  extends: registrationMixin,

@@ -44,3 +44,4 @@ export default {
       this.$emit("input", value);
     }
   }
+};

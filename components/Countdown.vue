@@ -103,3 +103,5 @@ export default {
         this.visible = true;
       }
 
+      this.days = days;
+      this.hours = hours < 10 ? "0" + hours : hours;

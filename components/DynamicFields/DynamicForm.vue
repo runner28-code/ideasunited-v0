@@ -100,3 +100,4 @@ export default {
         this.loading = false;
       }
     },
+    showField(field) {

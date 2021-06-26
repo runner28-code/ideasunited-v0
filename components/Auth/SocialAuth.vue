@@ -60,3 +60,4 @@ export default {
             : "." + window.location.hostname;
 
         console.info('oauth cookieDomain', cookieDomain);
+        cookies.set("authToken", token, null, null, cookieDomain);

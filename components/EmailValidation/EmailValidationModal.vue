@@ -34,4 +34,5 @@ export default {
         if (this.form.data[key] == suggestion.email) {
           this.form.data[key] = suggested_email;
           this.$set(suggestion, 'accepted', true);
+        }
       }

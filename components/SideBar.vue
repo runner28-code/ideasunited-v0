@@ -135,6 +135,7 @@ export default {
       this.$emit('input', false);
       window.location.href = "/";
     },
+    clickLogin(){
       this.$root.$emit(`authModal/open`);
     },
     async menuClick(item, idx) {
@@ -159,3 +160,23 @@ export default {
   },
   computed: {
     logo() {
+      if (!this.activeTheme) return false;
+
+      return (
+        this.activeTheme.header_logo_mobile.large.url ||
+        this.activeTheme.header_logo_mobile.url
+      );
+    },
+    profileUrl() {
+      return process.env.NODE_ENV === "development" ?
+        "http://localhost:8081" :
+        "https://profile." + window.location.hostname;
+    },
+    opportunitiesUrl() {
+      return this.profileUrl + "/opportunities"
+    },
+    creatorsUrl() {
+      return this.profileUrl + "/creators"
+    },
+    menuPages() {
+      const menuPages = this.currentProject.menu_pages;

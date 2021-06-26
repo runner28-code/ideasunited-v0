@@ -73,7 +73,6 @@ export default {
             t => t.type == "Event"
           );
           if (hasEventBlock) {
-            const event_type = this.block.video_player_type;
             this.$root.$emit("setActiveEvent", {
               ...this.block,
               event_type,
@@ -81,3 +80,4 @@ export default {
             });
             window.scroll({ top: 0, left: 0, behavior: "smooth" });
           } else {
+            this.dialog = true;

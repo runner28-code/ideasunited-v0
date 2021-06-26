@@ -24,7 +24,6 @@
         }}
       </div>
       <Button large @click="openZoomLink">Click to Connect</Button>
-    </div>
   </div>
 </template>
 <script>
@@ -50,3 +49,4 @@ export default {
     async fetchSignature() {
       const { zoom_id, zoom_password } = this.event;
       const { full_name, email } = this.currentUser || {};
+

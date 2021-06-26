@@ -31,6 +31,7 @@ export default {
       this.$root.$emit("nextEvent");
     });
     this.player.getChapters().then(chapters => {
+      this.chapters = chapters;
       if (this.vimeoChapter) this.goToChapter(this.vimeoChapter);
     });
     this.player.on("timeupdate", data => {

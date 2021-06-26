@@ -11,6 +11,7 @@
 <script>
 export default {
   props: {
+    chat: Object
   },
   data() {
     return { status: "Connecting" };
@@ -19,7 +20,6 @@ export default {
     ChatChannel: {
       connected() {
         this.status = "Connected";
-      },
       disconnected() {
         this.status = "Disconnected";
       }
@@ -29,3 +29,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.chat-header {

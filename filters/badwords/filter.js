@@ -22,6 +22,7 @@ class Filter {
         return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
+// Temp comment
       }).length > 0 || false
     );
   }
@@ -40,5 +41,4 @@ class Filter {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })
       .join(join ? join[0] : "");
-// Temp comment
   }

@@ -20,9 +20,9 @@
 import { frontendToProfile } from "@/utils";
 
 export default {
+  props: {
     value: Object,
     successMessage: String,
-  },
   data() {
     return {
       profileUrl: frontendToProfile()[window.location.origin],
@@ -31,3 +31,4 @@ export default {
   methods: {
     evalInContext(string) {
       try {
+        return eval("this." + string);

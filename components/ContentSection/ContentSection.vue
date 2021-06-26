@@ -185,3 +185,5 @@ export default {
               this.$store.commit("page/unpublishContentBlock", {
                 blockId: t.id,
                 sectionId: this.contentSection.id
+              });
+            }, untilEnd);

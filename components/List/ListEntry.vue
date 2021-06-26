@@ -8,7 +8,6 @@
     <div class="list-entry__content">
       <div
         :style="{ color: activeTheme.primary_color }"
-        class="list-entry__title"
       >
         {{ entry.title }}
       </div>
@@ -28,3 +27,4 @@ export default {
 <style scoped lang="scss">
 .list-entry {
   width: 25%;
+  padding: 15px;

@@ -7,7 +7,6 @@
         </a>
 
         <div class="footer__separator"></div>
-
         <div class="copyright">© {{ year }} Ideas United</div>
       </div>
       <div class="footer__menu">
@@ -95,3 +94,5 @@ export default {
   &::v-deep {
     &.v-sheet.v-footer:not(.v-sheet--outlined) {
       box-shadow: none;
+    }
+  }

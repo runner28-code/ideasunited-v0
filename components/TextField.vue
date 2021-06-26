@@ -17,6 +17,7 @@
     :max="max"
     :class="{ block }"
     :name="name"
+    :dark="calcTheme == 'dark'"
     :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
     @focus.stop="onFocus($event)"
   >
@@ -58,3 +59,4 @@ export default {
     calcTheme() {
       if(!this.activeTheme) return "light";
       else return getThemeByColor(this.activeTheme.body_background);
+    }

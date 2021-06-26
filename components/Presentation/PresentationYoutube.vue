@@ -36,3 +36,4 @@ export default {
       this.player.seekTo(this.newSlideSettings.time || 0);
       if (this.newSlideSettings.state == "play") {
         this.player.playVideo();
+      }

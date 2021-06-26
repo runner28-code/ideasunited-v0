@@ -25,7 +25,7 @@
   </v-snackbar>
 </template>
 
-export default {
+<script>
   name: "Alert",
   data() {
     return {
@@ -61,3 +61,4 @@ export default {
   font-size: 1em;
   flex: 1;
   display: flex;
+  width: 100%;

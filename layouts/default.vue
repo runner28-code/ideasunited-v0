@@ -15,6 +15,7 @@
             >{{ newOpps.length }}</div>
           </transition>
         </v-btn>
+      </div>
       <SideBar v-model="drawer" :no-root="true" />
     </client-only>
     <AppBar @changeKey="key = key + 1" />
@@ -52,7 +53,6 @@ export default {
 
     if (process.client) {
       this.$cable.subscribe({
-        channel: "ProjectChannel",
         project_id: this.currentProject.id,
         env: this.currentProject.env,
       });
@@ -141,3 +141,5 @@ export default {
       received({ payload, type }) {
         switch (type) {
           case "update_project_params":
+            this.$store.commit("project/set", payload);
+            break;

@@ -183,3 +183,5 @@ export default {
       return this.currentProject.menu_footer_pages;
     },
     headerStyles() {
+      const { header_font, header_color, header_background } = this.activeTheme;
+      return {

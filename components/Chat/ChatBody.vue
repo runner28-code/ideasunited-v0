@@ -1,3 +1,4 @@
+<template>
   <div class="chat-body" ref="messages">
     <client-only>
       <infinite-loading direction="top" @infinite="fetchMessages">
@@ -19,7 +20,6 @@ export default {
   props: {
     chat: Object
   },
-  data() {
     return { messages: [] };
   },
   channels: {
@@ -47,3 +47,4 @@ export default {
     deleteMessage(messageId) {
       this.messages = this.messages.filter(m => m.id != messageId);
       this.scrollBottom();
+    },
