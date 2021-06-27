@@ -16,6 +16,5 @@ import TimelineList from "./TimelineList";
 
 export default {
   components: {
-    ContentSection,
     Countdown,
     Event,

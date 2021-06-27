@@ -188,7 +188,6 @@ export default {
       height: 21px;
       border-radius: 50%;
     }
-  }
   &__new-opps {
     color: white;
     border: 1px solid #FFFFFF;

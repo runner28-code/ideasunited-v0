@@ -7,6 +7,7 @@
     :disabled="disabled"
   >
     <div :key="field.uuid" v-for="field in fields">
+      <component
         :is="`Dynamic${field.type}`"
         v-bind="field"
         v-model="form.data[field.uuid]"
@@ -38,7 +39,6 @@
           <v-progress-circular
             :size="16"
             :width="2"
-            indeterminate
           ></v-progress-circular>
           <span style="margin-left: 10px"> Uploading... </span>
         </span>

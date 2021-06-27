@@ -20,5 +20,4 @@ const store = {
     }
   },
   actions: {
-// Temp comment
     async login({ commit, dispatch }, params) {

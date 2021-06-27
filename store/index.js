@@ -9,4 +9,3 @@ export const mutations = {
     state.authUser = user;
   }
 };
-

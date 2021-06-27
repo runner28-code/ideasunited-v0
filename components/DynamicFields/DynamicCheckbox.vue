@@ -11,6 +11,7 @@
     <template #label>
       <slot>
         <span
+          @click.stop
           v-html="label + (required && markRequired ? ' *' : '')"
         ></span>
       </slot>
@@ -23,3 +24,4 @@ export default {
   props: {
     label: String,
     value: [String, Object, Number, Boolean],
+    rules: {

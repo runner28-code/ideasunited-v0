@@ -14,7 +14,6 @@
           'content-section-item__wrapper--video':
             block.content_type == 'video_player'
         }"
-        :style="styles"
         :aspect-ratio="285 / 160"
       ></v-responsive>
       <div class="content-section-item__text">
@@ -73,3 +72,4 @@ export default {
             t => t.type == "Event"
           );
           if (hasEventBlock) {
+            const event_type = this.block.video_player_type;

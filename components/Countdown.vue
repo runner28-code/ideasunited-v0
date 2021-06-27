@@ -105,3 +105,4 @@ export default {
 
       this.days = days;
       this.hours = hours < 10 ? "0" + hours : hours;
+      this.minutes = minutes < 10 ? "0" + minutes : minutes;
