@@ -30,6 +30,7 @@ export default {
 
 <style scoped lang="scss">
 .grid-menu {
+  display: flex;
   flex-wrap: wrap;
 
   &__item {

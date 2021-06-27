@@ -39,7 +39,6 @@
                 ref="sections"
                 :forms-disabled="idx != currentSlide && idx - 1 != currentSlide"
               />
-            </full-page>
           </no-ssr>
         </div>
       </div>
@@ -71,6 +70,7 @@ import FullPageSection from "@/components/FullPageSection";
 export default {
   mixins: [mixin, isMobileMixin],
   components: { FullPageSection },
+  data() {
     return {
       currentSlide: 0,
       preloadedImgBase64s: {},

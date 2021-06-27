@@ -7,7 +7,6 @@
     :disabled="disabled"
   >
     <div :key="field.uuid" v-for="field in fields">
-      <component
         :is="`Dynamic${field.type}`"
         v-bind="field"
         v-model="form.data[field.uuid]"

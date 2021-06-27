@@ -17,7 +17,6 @@
             v-if="block.video_player_type == 'vimeo'"
             :vimeoId="block.vimeo_id"
             :vimeoH="block.vimeo_h"
-          />
           <YoutubePlayer
             v-else-if="block.video_player_type == 'youtube'"
             :youtubeId="block.youtube_id"
@@ -40,6 +39,7 @@
           :style="{ color: activeTheme.primary_color }"
           class="slider-modal-content__title"
           >{{ block.title }}</Title
+        >
         <div v-if="block.creator">
           <div
             class="slider-modal-content__creator-info"

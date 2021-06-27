@@ -51,6 +51,5 @@ export default {
   },
   beforeDestroy() {
     this.$cable.unsubscribe({
-      channel: "PageChannel",
       page_id: this.page?.id,
       env: this.currentProject.env

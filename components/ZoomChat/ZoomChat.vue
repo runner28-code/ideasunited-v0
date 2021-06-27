@@ -14,7 +14,7 @@
 <script>
 import { buildZoomLink } from "@/utils";
 export default {
-    chat: Object
+  props: {
   },
   data() {
     return {

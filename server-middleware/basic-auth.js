@@ -14,7 +14,6 @@ export default async function (req, res, next) {
           "App-Host": host,
           "App-Root-Path": req.url,
         },
-      }
     );
 
     if (

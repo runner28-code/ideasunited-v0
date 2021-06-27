@@ -16,7 +16,9 @@ const store = {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
+      }
     }
   },
   actions: {
+// Temp comment
     async login({ commit, dispatch }, params) {

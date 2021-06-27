@@ -73,11 +73,3 @@ export default {
             t => t.type == "Event"
           );
           if (hasEventBlock) {
-            this.$root.$emit("setActiveEvent", {
-              ...this.block,
-              event_type,
-              type: "content_block"
-            });
-            window.scroll({ top: 0, left: 0, behavior: "smooth" });
-          } else {
-            this.dialog = true;
