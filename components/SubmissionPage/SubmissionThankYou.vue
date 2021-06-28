@@ -16,7 +16,6 @@
   </div>
 </template>
 
-<script>
 import { frontendToProfile } from "@/utils";
 
 export default {
@@ -27,8 +26,10 @@ export default {
   data() {
     return {
       profileUrl: frontendToProfile()[window.location.origin],
+    };
   },
   methods: {
     evalInContext(string) {
       try {
         return eval("this." + string);
+      } catch (error) {

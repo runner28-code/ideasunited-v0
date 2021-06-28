@@ -29,3 +29,4 @@ export default {
 .list-entry {
   width: 25%;
   padding: 15px;
+  display: flex;

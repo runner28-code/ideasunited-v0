@@ -1,7 +1,6 @@
 import Vue from "vue";
 import { mapState } from "vuex";
 import moment from "moment-timezone";
-
 if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
 
@@ -16,6 +15,7 @@ if (!Vue.__map_state_mixin__) {
           window.scroll({
             top: y,
             behavior: "smooth",
+          });
         }
       },
       async $confirm({ title, description }) {
@@ -33,3 +33,4 @@ if (!Vue.__map_state_mixin__) {
         let payload;
         if (typeof message == "string") {
           payload = { message };
+        } else if (typeof message == "object") {

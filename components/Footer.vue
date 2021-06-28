@@ -17,6 +17,7 @@
           >
         </div>
         <div class="footer__menu-item">
+          <a @click="clickFAQ"
             >FAQ</a
           >
         </div>
@@ -98,3 +99,4 @@ export default {
   }
   
   &.static {
+    position: relative;

@@ -21,6 +21,7 @@
 
     <v-btn
       :class="{ visible: visibleControls }"
+      class="timeline__control"
       icon
       @click="swiperInstance.slideNext()"
     >
@@ -130,3 +131,4 @@ export default {
       if (block_id) return;
       let activeId = _.find(this.events, t => t.id == event_id && t.posted)?.id;
 
+      if (!activeId) {

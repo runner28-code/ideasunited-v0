@@ -61,3 +61,4 @@ export default {
       else return getThemeByColor(this.activeTheme.body_background);
     }
   },
+  methods: {

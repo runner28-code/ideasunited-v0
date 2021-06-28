@@ -41,3 +41,4 @@ export default {
 
     &-overlay {
       position: absolute;
+      left: 0;

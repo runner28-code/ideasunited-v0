@@ -4,6 +4,7 @@
     <NotAuthorized v-else-if="status == 403" />
     <Page v-else-if="status == 200" />
   </div>
+</template>
 
 <script>
 import _ from "lodash";

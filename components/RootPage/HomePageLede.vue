@@ -166,7 +166,6 @@ export default {
         .add("start")
         .to(previewMedia, {
           maskSize: "100% 100%",
-          duration: this.irisEnding.duration,
           ease: Power1.easeIn,
         })
         .add("irisrestored")
@@ -248,3 +247,5 @@ export default {
             duration: 0.5,
             opacity: 0,
           }, "start")
+          .add("fullwindow")
+          .set(previewMedia, {

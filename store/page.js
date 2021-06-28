@@ -19,7 +19,6 @@ const store = {
       const collection = state.current?.events;
       const payload = { posted: false };
       updateCollection({ collection, id, payload });
-    },
     hideEvent(state, id) {
       const collection = state.current?.events;
       const payload = { hidden_from_timeline: true };

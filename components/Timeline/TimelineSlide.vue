@@ -83,3 +83,5 @@ export default {
           : "rgba(16, 24, 32, 0.6)"
       };
     },
+    aspectRatio() {
+      const aspectRatio = {

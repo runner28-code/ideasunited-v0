@@ -1,6 +1,5 @@
 /* eslint-disable */
 import Vue from "vue";
-
 const store = {
   namespaced: true,
   state: () => ({ current: null }),
@@ -16,5 +15,7 @@ const store = {
       if (token && process.client) {
         const { data } = await this.$api.User.current();
         commit("set", data);
+        const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"
+            : "." + window.location.hostname;

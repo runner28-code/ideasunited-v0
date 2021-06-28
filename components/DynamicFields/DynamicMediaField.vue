@@ -86,3 +86,4 @@ export default {
   },
   methods: {
     handleChange(event) {
+      if(event.target.files.length == 0) return;

@@ -188,3 +188,5 @@ export default {
         backgroundColor: header_background,
         color: header_color,
         fontSize: header_font.size + "px",
+        textTransform: header_font.case,
+        fontWeight: header_font.weight,

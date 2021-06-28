@@ -1,3 +1,4 @@
+const providers = {
   google: {
     authorizationEndpoint: "/api/v1/public_side/auth/google_oauth2"
   },
@@ -24,3 +25,4 @@ export default function(ctx, inject) {
       localStorage.removeItem("token");
 
       if (process.env.NODE_ENV !== "development") {
+        authorizationEndpoint =

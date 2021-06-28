@@ -17,8 +17,8 @@
 <script>
 import { frontendToProfile } from "@/utils";
 export default {
+  layout: 'simple',
   methods: {
-    logout() {
       this.$store.dispatch("auth/logout");
       this.$emit('input', false)
     }
@@ -35,3 +35,4 @@ export default {
 .signup-page {
   display: flex;
   flex-direction: column;
+  margin: auto;

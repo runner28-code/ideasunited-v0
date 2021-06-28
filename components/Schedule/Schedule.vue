@@ -39,3 +39,4 @@ export default {
         this.$moment
           .tz(t.start_at, this.currentTimezone)
           .format("YYYY/MM/DD")
+      );

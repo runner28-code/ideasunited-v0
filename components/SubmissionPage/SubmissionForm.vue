@@ -64,3 +64,4 @@ export default {
     btnText: String,
     successMessage: String,
     fields: Array,
+    submissionForm: Object,

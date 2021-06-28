@@ -60,6 +60,7 @@ export default {
     return {
       loginForm: {},
       registerForm: {},
+      areYouSureDialog: false,
       emailValidationSuggestions: {}
     };
   },
@@ -98,3 +99,4 @@ export default {
   },
   watch: {
     loginFormRequest: {
+      handler() {

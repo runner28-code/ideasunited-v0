@@ -35,7 +35,6 @@ export async function buildZoomLink({
 
   return "/zoom/iframe.zoom.html?" + urlParams;
 }
-// Temp comment
 
 export function stripMessage(message) {
   return message

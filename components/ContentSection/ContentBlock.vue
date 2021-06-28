@@ -77,3 +77,4 @@ export default {
             this.$root.$emit("setActiveEvent", {
               ...this.block,
               event_type,
+              type: "content_block"
