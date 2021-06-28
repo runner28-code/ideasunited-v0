@@ -80,3 +80,4 @@ export default {
 
 <style lang="scss" scoped>
 .page {
+  background-color: #56565a;

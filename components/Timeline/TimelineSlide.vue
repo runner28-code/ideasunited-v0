@@ -72,7 +72,6 @@ export default {
       return this.value.id == this.active?.id;
     },
     styles() {
-      const preview =
         this.value.preview?.thumb?.url ||
         this.activeTheme.event_preview?.thumb?.url;
 
@@ -85,3 +84,6 @@ export default {
     },
     aspectRatio() {
       const aspectRatio = {
+        sm: 16 / 8,
+        xs: 16 / 8
+      };

@@ -40,7 +40,6 @@ export default {
       try {
         const { data } = await this.$api.Auth.checkPasswordToken({
           token: this.token
-        });
         if (!data) {
           this.$alert("Token not found", "error");
           this.$router.push("/");
@@ -49,3 +48,4 @@ export default {
         console.error(e);
       }
     },
+    async submit() {

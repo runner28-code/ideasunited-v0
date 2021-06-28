@@ -25,3 +25,4 @@ export default {
     label: String,
     value: [String, Object, Number, Boolean],
     rules: {
+      type: Array,

@@ -60,3 +60,4 @@ export default {
       const newData = data.filter(t => !ids.includes(t.id));
 
       this.list.push(...newData);
+

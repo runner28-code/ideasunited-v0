@@ -26,7 +26,6 @@
           :class="'s-' + section.class_name"
           v-for="(section, idx) in content"
           :key="idx"
-        >
           {{ section.value }}
         </div>
       </div>
@@ -38,3 +37,4 @@
 export default {
   props: {
     item: Object,
+    layout: Object

@@ -38,3 +38,4 @@ export default {
     this.$root.$on('resetSupportForm', () => {
       if(this.submitted) {
         setTimeout(() => {
+          this.form.data = {};

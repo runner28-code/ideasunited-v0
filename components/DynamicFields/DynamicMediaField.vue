@@ -87,3 +87,5 @@ export default {
   methods: {
     handleChange(event) {
       if(event.target.files.length == 0) return;
+      const file = event.target.files[0];
+      file.uuid = uuidv4();

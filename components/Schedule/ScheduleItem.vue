@@ -48,3 +48,4 @@ export default {
         result.border = "1px solid";
       }
 
+      return result;

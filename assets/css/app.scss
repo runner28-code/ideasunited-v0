@@ -1,6 +1,7 @@
 @import "./slider-modal-content.scss";
 
 html {
+  scroll-behavior: smooth;
 }
 
 .error {
@@ -23,3 +24,4 @@ html {
     font-size: 24px;
     margin: 10px 0 25px 0;
   }
+}

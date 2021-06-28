@@ -50,3 +50,4 @@ export default {
       this.scrollBottom();
     },
     updateMessage(payload) {
+      this.messages = this.messages.map(m => {

@@ -30,6 +30,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["~/assets/css/app.scss"],
 
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: "~/plugins/map-state.js" },
     { src: "~/plugins/api.js" },
@@ -68,7 +69,6 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
     {
-      path: "~/components",
       pathPrefix: false,
     },
   ],
@@ -87,3 +87,4 @@ export default {
     "nuxt-polyfill",
   ],
   axios: {
+    baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,

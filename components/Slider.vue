@@ -24,6 +24,7 @@ export default {
   props: {
     slides: Array
   },
+  data() {
     return {
       swiperOption: {
         slidesPerView: 1,
@@ -33,3 +34,4 @@ export default {
         // },
         navigation: {
           nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"

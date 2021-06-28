@@ -123,7 +123,6 @@ export default {
       setTimeout(() => {
         this.updateNewOppDetail();
       }, 5000);
-    },
     goToOpps() {
       window.location.href = frontendToProfile()[window.location.origin] + "/opportunities";
     },
@@ -211,3 +210,4 @@ export default {
     bottom: 1em;
     right: 1em;
     width: 240px;
+    background-color: #262729;

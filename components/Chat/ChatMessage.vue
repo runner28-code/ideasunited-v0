@@ -12,7 +12,6 @@
           @click="$emit('replyTo', message.user.full_name)"
         >
           {{ message.user.full_name
-          }}<span
             v-if="chat.moderator_ids.includes(message.user.id)"
             :style="{ color: activeTheme.primary_color }"
             >*</span
@@ -65,3 +64,4 @@ export default {
     blockUser() {
       if (confirm("Are you sure?")) {
         this.$api.Message.blockUser({ message_id: this.message.id });
+      }

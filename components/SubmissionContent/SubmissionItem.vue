@@ -16,6 +16,7 @@
                 ? field.value.substr(0, 100) + "..."
                 : field.value
             }}</span>
+          </div>
         </div>
       </div>
     </v-responsive>
@@ -28,7 +29,6 @@
       scrollToElement
       v-model="dialog"
     >
-      <SubmissionItemContent :layout="layout" :item="item" />
     </SliderModal>
   </div>
 </template>
@@ -68,3 +68,4 @@ export default {
       const t = this.item.formatted_data.find(
         t => t.uuid == this.previewLayout.preview
       );
+

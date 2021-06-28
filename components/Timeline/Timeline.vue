@@ -132,3 +132,5 @@ export default {
       let activeId = _.find(this.events, t => t.id == event_id && t.posted)?.id;
 
       if (!activeId) {
+        activeId = _.findLast(this.events, t => t.posted)?.id;
+      }

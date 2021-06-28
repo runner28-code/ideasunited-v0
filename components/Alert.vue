@@ -65,3 +65,4 @@ export default {
   width: 100%;
   flex-direction: column;
   align-items: stretch;
+  justify-content: stretch;

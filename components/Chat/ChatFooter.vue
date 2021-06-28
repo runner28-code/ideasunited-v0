@@ -61,3 +61,4 @@ export default {
     selectEmoji({ data }) {
       this.message += data;
     },
+    sendMessage(event) {

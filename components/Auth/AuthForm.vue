@@ -12,7 +12,6 @@
             v-model="loginForm.email"
             block
             :rules="[$rules.required]"
-            label="Email"
             type="email"
             name="email"
           />
@@ -100,3 +99,5 @@ export default {
   watch: {
     loginFormRequest: {
       handler() {
+        if(this.loginFormRequest) {
+          if(!this.loginForm.email) this.$emit('loginFormResponse', false);

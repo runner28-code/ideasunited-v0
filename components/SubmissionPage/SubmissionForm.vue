@@ -53,7 +53,6 @@
   </div>
 </template>
 
-<script>
 import _ from "lodash";
 
 export default {
@@ -65,3 +64,4 @@ export default {
     successMessage: String,
     fields: Array,
     submissionForm: Object,
+  },

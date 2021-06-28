@@ -145,3 +145,6 @@ export default {
     top: 0;
     bottom: 0;
     background-size: contain;
+    background-position: center;
+  }
+

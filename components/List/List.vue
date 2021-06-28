@@ -31,3 +31,4 @@ export default {
     entries() {
       return this.list.entries.filter(
         t =>
+          !this.search ||

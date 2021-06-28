@@ -40,3 +40,4 @@ export default {
         this.player.setCurrentTime(live_seconds - 1);
       }
     });
+    this.player.on("seeking", data => {

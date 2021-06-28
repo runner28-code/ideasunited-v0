@@ -174,3 +174,6 @@ export default {
           const canvas = document.createElement("canvas");
           canvas.width = img.naturalWidth;
           canvas.height = img.naturalHeight;
+          canvas.getContext("2d").drawImage(img, 0, 0);
+          const ext = this.srcExt(src);
+          switch (ext) {

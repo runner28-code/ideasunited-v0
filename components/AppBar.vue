@@ -190,3 +190,6 @@ export default {
         fontSize: header_font.size + "px",
         textTransform: header_font.case,
         fontWeight: header_font.weight,
+        letterSpacing: header_font.letter_spacing + "px",
+        fontFamily:
+          (header_font.font ? header_font.font.font_name : "Roboto") +

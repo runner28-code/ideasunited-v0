@@ -1,3 +1,4 @@
+<template>
   <div class="not-authorized">
     <AuthPage
       @disableAuth="disableAuth"
@@ -19,3 +20,4 @@
 </template>
 
 <script>
+export default {
