@@ -16,7 +16,6 @@
             ></div>
             <div class="root-lede__preview-video" ref="previewVideo">
               <v-btn class="close root-lede__close-reel" icon @click.prevent="closeReel">
-                <v-icon size="30" color="white">$close</v-icon>
               </v-btn>
               <video
                 class="root-lede__video"

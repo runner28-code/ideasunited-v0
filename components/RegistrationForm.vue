@@ -54,6 +54,7 @@
       <Title
         v-if="registrationForm.title"
         tag="h2"
+        class="registration-form__title"
         >{{ registrationForm.title }}</Title
       >
       <p class="registration-form__thank-you">
@@ -74,16 +75,3 @@
       :opened="areYouSureDialog"
       :suggestions="emailValidationSuggestions"
       :form="form"
-      @close="areYouSureDialog = false"
-      @submit="submit"
-    />
-  </div>
-</template>
-
-<script>
-import registrationMixin from "./registration.mixin";
-
-export default {
-  extends: registrationMixin,
-  props: {
-    value: String,

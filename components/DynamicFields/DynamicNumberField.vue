@@ -7,7 +7,6 @@
     :rules="rules"
     outlined
     @focus.stop="onFocus($event)"
-  />
 </template>
 
 <script>

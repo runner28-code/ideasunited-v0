@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Vue from "vue";
 
 const store = {
@@ -6,6 +7,7 @@ const store = {
   mutations: {
     set(state, user) {
       state.current = user;
+// Temp comment
     },
   },
   actions: {

@@ -22,6 +22,7 @@ export default {
   props: {
     entry: Object
   }
+};
 </script>
 
 <style scoped lang="scss">

@@ -45,7 +45,6 @@
     <transition name="fade">
       <a class="app-bar__new-opps-details"
         v-if="newOppDetail && showNewOppDetails"
-        :key="newOppDetail.id"
         :href="newOppDetail.site"
         target="_blank"
       >
@@ -188,6 +187,7 @@ export default {
       height: 21px;
       border-radius: 50%;
     }
+  }
   &__new-opps {
     color: white;
     border: 1px solid #FFFFFF;

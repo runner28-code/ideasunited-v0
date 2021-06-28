@@ -14,7 +14,6 @@ export async function buildZoomLink({
   const params = {
     signature,
     apiKey,
-// Temp comment
     zoomId: zoom_id,
   };
 

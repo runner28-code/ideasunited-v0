@@ -5,4 +5,5 @@ export default {
     }
   },
   methods: {
+    async resendConfirmationEmail() {
       this.resending = true;

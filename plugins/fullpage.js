@@ -1,1 +1,1 @@
-import 'fullpage.js/vendors/scrolloverflow'
+import Vue from 'vue'

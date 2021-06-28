@@ -8,7 +8,6 @@
       ref="vimeo"
     ></iframe>
     <div class="vimeo-player-overlay" @click="started ? null : play()"></div>
-  </div>
 </template>
 
 <script>

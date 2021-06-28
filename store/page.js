@@ -34,8 +34,10 @@ const store = {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
+    }
   },
   actions: {
+// Temp comment
     async fetch({ commit }, { url }) {
       const { data } = await this.$api.Page.get({
         url

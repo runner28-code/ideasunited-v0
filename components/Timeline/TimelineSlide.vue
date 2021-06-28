@@ -80,17 +80,3 @@ export default {
         backgroundImage: `url(${preview})`,
         borderColor: this.isActive
           ? this.activeTheme.primary_color
-          : "rgba(16, 24, 32, 0.6)"
-      };
-    },
-    aspectRatio() {
-      const aspectRatio = {
-        sm: 16 / 8,
-        xs: 16 / 8
-      };
-
-      return (
-        this.$store.state.application.timelineAspectRatio ||
-        aspectRatio[this.$size] ||
-        16 / 8
-      );

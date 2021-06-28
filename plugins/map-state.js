@@ -5,6 +5,7 @@ import moment from "moment-timezone";
 if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
 
+// Temp comment
   Vue.mixin({
     methods: {
       scrollToInvalidInput(inputs) {

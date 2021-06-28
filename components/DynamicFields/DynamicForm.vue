@@ -39,6 +39,7 @@
           <v-progress-circular
             :size="16"
             :width="2"
+            indeterminate
           ></v-progress-circular>
           <span style="margin-left: 10px"> Uploading... </span>
         </span>

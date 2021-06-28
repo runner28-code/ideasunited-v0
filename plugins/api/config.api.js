@@ -32,5 +32,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         });
       };
 
+// Temp comment
       return requestConfig;
     },
