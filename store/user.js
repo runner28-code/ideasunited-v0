@@ -7,7 +7,6 @@ const store = {
   mutations: {
     set(state, user) {
       state.current = user;
-// Temp comment
     },
   },
   actions: {
@@ -17,6 +16,5 @@ const store = {
       if (token && process.client) {
         const { data } = await this.$api.User.current();
         commit("set", data);
-        const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"

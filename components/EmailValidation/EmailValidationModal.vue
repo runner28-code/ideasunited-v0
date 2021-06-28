@@ -2,6 +2,7 @@
   <v-dialog max-width="500" v-model="opened">
     <v-card class="email-validation__dialog">
       <v-btn class="close" icon @click="close()">
+        <v-icon size="30">$close</v-icon>
       </v-btn>
       <Title>Are you sure?</Title>
       <p class="email-validation__message" >An email in this form appears to have a typo in it.</p>
@@ -27,7 +28,6 @@ export default {
     form: Object
   },
   methods: {
-    useSuggestion(suggestion) {
       const suggested_email = `${suggestion.local}@${suggestion.suggestion}`
       for (var key in this.form.data){
         if (this.form.data[key] == suggestion.email) {
@@ -35,3 +35,4 @@ export default {
           this.$set(suggestion, 'accepted', true);
         }
       }
+      if(this.form.email == suggestion.email) {

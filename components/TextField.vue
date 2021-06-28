@@ -25,6 +25,7 @@
       <div v-if="type == 'password'">
         <v-icon @click="togglePassword" class="input-icon-toggle" @focus="onFocus">{{
           localType == "password" ? "$eye" : "$eye_off"
+        }}</v-icon>
       </div>
     </template>
   </v-text-field>
@@ -59,3 +60,4 @@ export default {
       if(!this.activeTheme) return "light";
       else return getThemeByColor(this.activeTheme.body_background);
     }
+  },

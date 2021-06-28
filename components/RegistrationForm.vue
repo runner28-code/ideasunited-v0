@@ -75,3 +75,6 @@
       :opened="areYouSureDialog"
       :suggestions="emailValidationSuggestions"
       :form="form"
+      @close="areYouSureDialog = false"
+      @submit="submit"
+    />

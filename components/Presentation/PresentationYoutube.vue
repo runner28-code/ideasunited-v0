@@ -23,6 +23,7 @@ export default {
       playerVars: { rel: 0, controls: 0 }
     });
 
+    if (this.newSlideSettings.started) this.play();
 
     this.player.on("stateChange", async event => {
       if (!this.started && event.data == 1) {

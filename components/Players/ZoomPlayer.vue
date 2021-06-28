@@ -11,6 +11,7 @@
       />
     </div>
     <div class="zoom-player" v-else-if="event.zoom_player_type == 'desktop'">
+      <div class="zoom-player__title">{{ event.title }}</div>
       <div class="zoom-player__subtitle" v-if="event.start_at">
         {{
           event.start_at
@@ -50,3 +51,4 @@ export default {
       const { zoom_id, zoom_password } = this.event;
       const { full_name, email } = this.currentUser || {};
 
+      this.zoomUrl = await buildZoomLink({

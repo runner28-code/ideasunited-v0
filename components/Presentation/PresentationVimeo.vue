@@ -6,8 +6,8 @@
       allow="fullscreen"
       allowfullscreen
       ref="vimeo"
-    ></iframe>
     <div class="vimeo-player-overlay" @click="started ? null : play()"></div>
+  </div>
 </template>
 
 <script>
@@ -35,3 +35,4 @@ export default {
   methods: {
     async play() {
       this.player.setCurrentTime(this.newSlideSettings.time || 0);
+      this.player.setVolume(0.6);

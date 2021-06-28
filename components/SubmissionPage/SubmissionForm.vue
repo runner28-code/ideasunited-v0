@@ -63,3 +63,4 @@ export default {
     description: String,
     btnText: String,
     successMessage: String,
+    fields: Array,

@@ -101,3 +101,5 @@ export default {
       }
     },
     showField(field) {
+      if (!field.conditional) return true;
+

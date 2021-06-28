@@ -5,7 +5,6 @@
       <SubmissionItem
         :prevId="getId(index - 1)"
         :nextId="getId(index + 1)"
-        :item="item"
         v-for="(item, index) in list"
         :key="item.id"
         :layout="submissionContent.layout"
@@ -59,3 +58,4 @@ export default {
       const ids = this.list.map(t => t.id);
       const newData = data.filter(t => !ids.includes(t.id));
 
+      this.list.push(...newData);

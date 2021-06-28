@@ -17,7 +17,6 @@
           >
         </div>
         <div class="footer__menu-item">
-          <a @click="clickFAQ"
             >FAQ</a
           >
         </div>
@@ -61,6 +60,7 @@ export default {
   },
   created(){
     this.fetchSupportForm();
+  },
   methods: {
     async fetchSupportForm() {
       const { data } = await this.$api.Support.getForm();
@@ -96,3 +96,5 @@ export default {
       box-shadow: none;
     }
   }
+  
+  &.static {

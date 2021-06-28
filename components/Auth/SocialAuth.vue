@@ -26,6 +26,7 @@
 
 <script>
 import _ from "lodash";
+import cookies from "vue-cookies";
 
 export default {
   data() {
@@ -60,3 +61,4 @@ export default {
 
         console.info('oauth cookieDomain', cookieDomain);
         cookies.set("authToken", token, null, null, cookieDomain);
+        localStorage.removeItem("token");

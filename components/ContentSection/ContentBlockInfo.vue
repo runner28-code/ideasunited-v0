@@ -63,7 +63,6 @@
                 <v-icon color="currentColor" size="24">$linkedin_profile</v-icon>
               </a>
             </div>
-          </div>
         </div>
         <div
           v-html="block.description"
@@ -81,3 +80,4 @@
     </div>
   </div>
 </template>
+

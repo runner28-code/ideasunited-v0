@@ -63,3 +63,4 @@ export default {
   flex: 1;
   display: flex;
   width: 100%;
+  flex-direction: column;

@@ -37,9 +37,11 @@
           >{{ data.link_text }}</Button
         >
       </div>
+    </v-navigation-drawer>
   </div>
 </template>
 
 <script>
 export default {
   data() {
+    return {

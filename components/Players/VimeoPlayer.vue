@@ -39,3 +39,4 @@ export default {
       if (data.seconds > live_seconds) {
         this.player.setCurrentTime(live_seconds - 1);
       }
+    });

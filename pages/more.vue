@@ -33,6 +33,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
 
+  &__item {
     background-size: cover;
     background-position: center;
     max-width: 25%;

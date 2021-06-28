@@ -185,3 +185,6 @@ export default {
     headerStyles() {
       const { header_font, header_color, header_background } = this.activeTheme;
       return {
+        backgroundColor: header_background,
+        color: header_color,
+        fontSize: header_font.size + "px",

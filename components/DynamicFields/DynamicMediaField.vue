@@ -85,3 +85,4 @@ export default {
     fileInput: Boolean
   },
   methods: {
+    handleChange(event) {

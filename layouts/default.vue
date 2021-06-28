@@ -144,3 +144,5 @@ export default {
           case "update_project_params":
             this.$store.commit("project/set", payload);
             break;
+        }
+      },

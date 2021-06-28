@@ -2,6 +2,6 @@
   <div v-html="htmlBlock.html"></div>
 </template>
 
-export default {
+<script>
   props: {
     value: String,

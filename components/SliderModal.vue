@@ -47,6 +47,7 @@
         </v-card>
       </div>
     </v-dialog>
+  </div>
 </template>
 
 <script>
@@ -86,3 +87,4 @@ export default {
   methods: {
     inViewport() {
       var bounding = this.$el.getBoundingClientRect();
+      return (

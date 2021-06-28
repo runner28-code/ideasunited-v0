@@ -86,3 +86,4 @@ export default {
     "@nuxtjs/device",
     "nuxt-user-agent",
     "nuxt-polyfill",
+  ],

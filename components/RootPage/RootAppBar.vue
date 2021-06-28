@@ -45,6 +45,7 @@
     <transition name="fade">
       <a class="app-bar__new-opps-details"
         v-if="newOppDetail && showNewOppDetails"
+        :key="newOppDetail.id"
         :href="newOppDetail.site"
         target="_blank"
       >
@@ -209,3 +210,4 @@ export default {
     position: fixed;
     bottom: 1em;
     right: 1em;
+    width: 240px;

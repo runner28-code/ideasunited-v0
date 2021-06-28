@@ -25,3 +25,4 @@ export default {
     required: Boolean,
     markRequired: Boolean,
     addonData: {
+      type: [Object, Boolean],

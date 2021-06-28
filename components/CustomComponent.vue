@@ -43,3 +43,4 @@ export default {
           } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
           const options = {
             moduleCache: {
+              vue: Vue
