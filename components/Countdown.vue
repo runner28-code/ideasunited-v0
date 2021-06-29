@@ -108,7 +108,6 @@ export default {
       this.minutes = minutes < 10 ? "0" + minutes : minutes;
       this.seconds = seconds < 10 ? "0" + seconds : seconds;
     }
-  },
   beforeDestroy() {
     if (this.interval) clearInterval(this.interval);
   },

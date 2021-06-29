@@ -12,6 +12,7 @@
           @click="$emit('replyTo', message.user.full_name)"
         >
           {{ message.user.full_name
+          }}<span
             v-if="chat.moderator_ids.includes(message.user.id)"
             :style="{ color: activeTheme.primary_color }"
             >*</span
@@ -22,7 +23,6 @@
           <timeago :auto-update="60" :datetime="message.created_at"></timeago>
         </div>
       </div>
-    </div>
     <v-menu
       offset-y
       v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"

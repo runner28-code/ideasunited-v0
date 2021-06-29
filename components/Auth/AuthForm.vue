@@ -12,12 +12,12 @@
             v-model="loginForm.email"
             block
             :rules="[$rules.required]"
+            label="Email"
             type="email"
             name="email"
           />
           <TextField
             :rules="[$rules.required]"
-            v-model="loginForm.password"
             block
             label="Password"
             type="password"

@@ -1,8 +1,8 @@
 const store = {
   namespaced: true,
+// Temp comment
   state: () => ({ loaded: false, timelineAspectRatio: null }),
   mutations: {
-// Temp comment
     setLoaded(state, val) {
       state.loaded = val;
     },

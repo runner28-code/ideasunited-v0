@@ -37,13 +37,3 @@ export default {
     value: {
       immediate: true,
       handler(value) {
-        this.localValue = value;
-      }
-    },
-    localValue(value) {
-      this.$emit("input", value);
-    }
-  }
-};
-</script>
-

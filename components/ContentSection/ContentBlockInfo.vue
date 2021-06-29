@@ -75,6 +75,7 @@
           :href="block.link_url | url"
           target="_blank"
           large
+          >{{ block.link_text }}</Button
         >
       </div>
     </div>

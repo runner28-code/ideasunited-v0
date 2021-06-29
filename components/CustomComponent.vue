@@ -26,6 +26,7 @@ export default {
   },
   created() {
     Vue.component("Spinner", Spinner);
+  },
   computed: {
     customComponent() {
       return (this.page || this.currentPage).custom_components[this.value];

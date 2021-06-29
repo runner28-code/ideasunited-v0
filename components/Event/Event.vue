@@ -94,7 +94,6 @@
 
 <script>
 export default {
-  data() {
     return {
       activeEvent: null,
       showMobileChat: false,

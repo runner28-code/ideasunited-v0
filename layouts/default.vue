@@ -1,4 +1,5 @@
 <template>
+  <v-app
     v-if="currentProject"
     class="evp-app"
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
@@ -117,7 +118,6 @@ export default {
         top: y,
         left: 0,
         behavior: "smooth",
-      });
     });
     setTimeout(() => {
       this.getOpportunityNotifications();
