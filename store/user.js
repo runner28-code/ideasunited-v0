@@ -1,6 +1,5 @@
 /* eslint-disable */
 import Vue from "vue";
-// Temp comment
 
 const store = {
   namespaced: true,
@@ -21,3 +20,4 @@ const store = {
           process.env.NODE_ENV === "development"
             ? "localhost"
             : "." + window.location.hostname;
+        var d = new Date();

@@ -94,6 +94,7 @@
 
 <script>
 export default {
+  data() {
     return {
       activeEvent: null,
       showMobileChat: false,
@@ -147,3 +148,5 @@ export default {
     background-position: center;
   }
 
+  &__auth-form {
+    background: #e5e5e5;

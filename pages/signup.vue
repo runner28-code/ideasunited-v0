@@ -37,3 +37,4 @@ export default {
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;

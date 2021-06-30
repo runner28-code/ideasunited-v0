@@ -23,7 +23,6 @@
             :page="page"
             v-bind="component"
             :is="convertComponent(component.type)"
-            :disabled="formsDisabled"
           ></component>
         </div>
       </div>
@@ -81,3 +80,4 @@ export default {
 <style lang="scss" scoped>
 .page {
   background-color: #56565a;
+  overflow-y: scroll;

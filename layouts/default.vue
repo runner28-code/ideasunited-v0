@@ -118,6 +118,7 @@ export default {
         top: y,
         left: 0,
         behavior: "smooth",
+      });
     });
     setTimeout(() => {
       this.getOpportunityNotifications();
@@ -149,3 +150,5 @@ export default {
     NotificationChannel: {
       received({ payload, type }) {
         switch (type) {
+          case "send_notification":
+            this.sendNotification(payload);

@@ -38,3 +38,4 @@ export default {
         this.player.playVideo();
       }
       if (this.newSlideSettings.state == "pause") {
+        this.player.pauseVideo();

@@ -4,6 +4,7 @@
     frameborder="0"
     allow="autoplay; fullscreen"
     allowfullscreen
+    class="vimeo-player"
     ref="vimeo"
   ></iframe>
 </template>
@@ -40,3 +41,4 @@ export default {
       }
     });
     this.player.on("seeking", data => {
+      const live_seconds = (Date.now() - this.firstStartAt) / 1000;

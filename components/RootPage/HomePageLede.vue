@@ -254,3 +254,6 @@ export default {
             height: "100%",
             maskSize: "100% 100%"
           }, "fullwindow")
+          .to(previewMedia, {
+            maskSize: this.irisEnding.size + "% " + this.irisEnding.size + "%",
+            duration: this.irisEnding.duration,

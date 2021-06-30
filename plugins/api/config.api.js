@@ -1,5 +1,6 @@
 import resources from "./resources.api";
 import Qs from "qs";
+// Temp comment
 
 export default ({ $axios, redirect, route, $cookies, req }) => {
   $axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
@@ -21,6 +22,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         requestConfig.headers["App-Host"] = req.headers.host;
         requestConfig.headers["App-Root-Path"] = req.url;
       } else {
+        requestConfig.headers["App-Host"] = window.location.host;
         requestConfig.headers["App-Root-Path"] = window.location.pathname;
       }
 

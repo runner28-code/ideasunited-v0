@@ -5,7 +5,6 @@
       v-if="loaded"
       :is="customComponent.sfc_name"
     ></component>
-  </div>
 </template>
 
 <script>
@@ -45,3 +44,4 @@ export default {
             moduleCache: {
               vue: Vue
             },
+            getFile: () => {

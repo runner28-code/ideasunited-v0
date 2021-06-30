@@ -34,3 +34,4 @@ export default {
       try {
         return eval("this." + string);
       } catch (error) {
+        try {

@@ -6,7 +6,6 @@
   </div>
 </template>
 
-<script>
 import _ from "lodash";
 export default {
   head() {
@@ -56,3 +55,4 @@ export default {
       env: this.currentProject.env
     });
   },
+  channels: {

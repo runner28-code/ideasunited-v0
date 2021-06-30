@@ -192,3 +192,5 @@ export default {
       });
     },
     toggleViewMore() {
+      this.viewMore = !this.viewMore;
+    },

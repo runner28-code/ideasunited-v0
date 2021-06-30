@@ -53,3 +53,4 @@ export default {
 
       this.zoomUrl = await buildZoomLink({
         $api: this.$api,
+        zoom_id,

@@ -62,7 +62,6 @@ export default {
           }
         }
       },
-      timeouts: {}
     };
   },
   created() {
@@ -134,3 +133,4 @@ export default {
       if (!activeId) {
         activeId = _.findLast(this.events, t => t.posted)?.id;
       }
+

@@ -1,4 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
+### Node template
 # Logs
 /logs
 *.log
@@ -41,3 +42,4 @@ jspm_packages/
 typings/
 
 # Optional npm cache directory
+.npm

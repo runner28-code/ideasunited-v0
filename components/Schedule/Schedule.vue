@@ -40,3 +40,4 @@ export default {
           .tz(t.start_at, this.currentTimezone)
           .format("YYYY/MM/DD")
       );
+

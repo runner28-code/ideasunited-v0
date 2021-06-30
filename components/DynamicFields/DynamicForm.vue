@@ -106,3 +106,4 @@ export default {
       const conditionalField = this.fields.find(
         (f) => f.uuid == field.conditional_uuid
       );
+      if (conditionalField.type == "Radio") {

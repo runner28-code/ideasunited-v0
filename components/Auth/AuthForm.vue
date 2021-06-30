@@ -18,6 +18,7 @@
           />
           <TextField
             :rules="[$rules.required]"
+            v-model="loginForm.password"
             block
             label="Password"
             type="password"
@@ -101,3 +102,5 @@ export default {
       handler() {
         if(this.loginFormRequest) {
           if(!this.loginForm.email) this.$emit('loginFormResponse', false);
+          const res = { email: this.loginForm.email };
+          if(this.loginForm.password) res.password = this.loginForm.password;

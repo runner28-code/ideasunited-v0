@@ -101,3 +101,5 @@ export default {
   &.static {
     position: relative;
   }
+
+  @media screen and (max-width: 944px) {

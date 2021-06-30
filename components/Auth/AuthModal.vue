@@ -1,4 +1,5 @@
 <template>
+  <v-dialog
     :width="dialogWidth"
     v-model="opened"
   >
@@ -39,3 +40,4 @@ export default {
 
     this.$root.$on(`authModal/close`, () => {
       this.cancel();
+    });

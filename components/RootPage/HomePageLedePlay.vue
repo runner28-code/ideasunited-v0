@@ -68,3 +68,4 @@
   padding-bottom: 10.83%;
   height: 0;
   position: absolute;
+  right: 12.17%;

@@ -1,5 +1,4 @@
 <template>
-  <client-only>
     <div class="spinner" :class="{ relative }">
       <HollowDotsSpinner
         :animation-duration="1000"

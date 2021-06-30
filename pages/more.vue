@@ -16,7 +16,6 @@
       </nuxt-link>
     </v-responsive>
   </div>
-</template>
 
 <script>
 export default {
@@ -35,9 +34,11 @@ export default {
 
   &__item {
     background-size: cover;
+    background-position: center;
     max-width: 25%;
     position: relative;
 
     &-overlay {
       position: absolute;
       left: 0;
+      right: 0;

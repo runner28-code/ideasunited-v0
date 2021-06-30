@@ -58,7 +58,6 @@
               }"
             >
               <span @click="menuClick(menuItem, idx)">{{
-                menuItem.menu_title
               }}</span>
               <span class="menu-caret" v-if="menuItem.menus.length">▾</span>
             </component>
@@ -191,4 +190,7 @@ export default {
         textTransform: header_font.case,
         fontWeight: header_font.weight,
         letterSpacing: header_font.letter_spacing + "px",
+        fontFamily:
           (header_font.font ? header_font.font.font_name : "Roboto") +
+          ", sans-serif",
+      };

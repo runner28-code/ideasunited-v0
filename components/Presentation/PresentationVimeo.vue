@@ -17,6 +17,7 @@ import Player from "@vimeo/player";
 export default {
   props: {
     slide: Object,
+    presentation: Object
   },
   data() {
     return {
@@ -37,3 +38,4 @@ export default {
       this.player.setCurrentTime(this.newSlideSettings.time || 0);
       this.player.setVolume(0.6);
       this.player.play();
+    }

@@ -212,3 +212,4 @@ export default {
     right: 1em;
     width: 240px;
     background-color: #262729;
+    color: white;

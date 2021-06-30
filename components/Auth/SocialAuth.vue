@@ -63,3 +63,4 @@ export default {
         cookies.set("authToken", token, null, null, cookieDomain);
         localStorage.removeItem("token");
         await this.$store.dispatch("user/fetch");
+

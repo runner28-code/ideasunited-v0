@@ -22,3 +22,4 @@ export default {
           !_.intersection(this.page.role_ids, this.currentUser.role_ids).length)
       ) {
         return 403;
+      } else {

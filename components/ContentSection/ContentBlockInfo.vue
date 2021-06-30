@@ -84,3 +84,4 @@
 
 <script>
 export default {
+  props: {
