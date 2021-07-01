@@ -69,6 +69,7 @@ export default {
       });
 
       const typekitFonts = [
+        this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,
         this.activeTheme.paragraph_font?.font,
         this.activeTheme.header_font?.font,

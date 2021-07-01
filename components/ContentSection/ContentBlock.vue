@@ -61,7 +61,6 @@ export default {
     if (block_id == this.block.id && this.block.content_type != "new_tab") {
       this.openDialog();
     }
-  },
   methods: {
     openDialog() {
       if (this.block.content_type == "no_content") return;
@@ -82,3 +81,4 @@ export default {
             window.scroll({ top: 0, left: 0, behavior: "smooth" });
           } else {
             this.dialog = true;
+          }

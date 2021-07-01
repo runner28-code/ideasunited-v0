@@ -24,5 +24,4 @@ export default {
   },
   created() {
     this.fetchSignature();
-  },
   methods: {

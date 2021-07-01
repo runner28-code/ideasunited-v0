@@ -25,6 +25,7 @@
           </div>
           <div v-else>
             <DynamicForm
+              :key="form.timestamp.toDateString()"
               :submit="submit"
               :fields="fields"
               v-model="form"

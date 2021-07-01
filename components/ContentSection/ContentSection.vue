@@ -174,7 +174,6 @@ export default {
               });
             }, untilStart);
           }
-        }
 
         if (t.end_at && t.posted) {
           if (this.timeouts[`end_${t.id}`])

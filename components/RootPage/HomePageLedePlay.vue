@@ -69,3 +69,4 @@
   height: 0;
   position: absolute;
   right: 12.17%;
+  top: 0;
