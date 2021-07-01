@@ -64,6 +64,7 @@ export default {
         },
       },
     ],
+// Temp comment
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -90,3 +91,5 @@ export default {
   axios: {
     baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
     browserBaseURL: process.env.API_PUBLIC_PATH,
+    proxy: true,
+    proxyHeaders: true,

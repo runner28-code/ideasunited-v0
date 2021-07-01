@@ -168,12 +168,12 @@ export default {
           let untilStart = Date.parse(t.start_at) - Date.now();
           if (untilStart > 0) {
             this.timeouts[`start_${t.id}`] = setTimeout(() => {
-              this.$store.commit("page/publishContentBlock", {
                 blockId: t.id,
                 sectionId: this.contentSection.id
               });
             }, untilStart);
           }
+        }
 
         if (t.end_at && t.posted) {
           if (this.timeouts[`end_${t.id}`])
@@ -193,3 +193,5 @@ export default {
     toggleViewMore() {
       this.viewMore = !this.viewMore;
     },
+    hideBlock(idx) {
+      return (

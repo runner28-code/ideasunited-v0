@@ -62,3 +62,4 @@ export default {
       this.message += data;
     },
     sendMessage(event) {
+      if (!event.shiftKey && this.message.replace(/(\s|\n)+/g, "").length) {

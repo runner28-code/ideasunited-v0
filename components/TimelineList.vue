@@ -42,3 +42,4 @@ export default {
   &__ul {
     list-style: none;
     padding-left: 0;
+    li {

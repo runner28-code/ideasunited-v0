@@ -57,3 +57,4 @@ export default {
     });
   },
   channels: {
+    PageChannel: {

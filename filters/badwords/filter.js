@@ -13,6 +13,7 @@ class Filter {
   }
 
   isProfane(string) {
+// Temp comment
     return (
       this.list.filter(word => {
         const wordExp = new RegExp(

@@ -24,6 +24,7 @@ export default {
       this.$cable.subscribe({
         channel: "ChatChannel",
         chat_id: this.chat.id,
+        env: this.currentProject.env
       });
     }
   },
@@ -40,3 +41,4 @@ export default {
   },
   beforeDestroy() {
     this.$cable.unsubscribe({
+      channel: "ChatChannel",

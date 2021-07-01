@@ -39,3 +39,5 @@ export default {
       handler(value) {
         this.localValue = value;
       }
+    },
+    localValue(value) {

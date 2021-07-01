@@ -60,7 +60,6 @@ import DynamicRadio from "./DynamicRadio";
 import DynamicTextArea from "./DynamicTextArea";
 import DynamicTextField from "./DynamicTextField";
 import DynamicMediaField from "./DynamicMediaField";
-import DynamicPasswordField from "./DynamicPasswordField";
 import DynamicLinkField from "./DynamicLinkField";
 import DynamicFileField from "./DynamicFileField";
 
@@ -107,3 +106,5 @@ export default {
         (f) => f.uuid == field.conditional_uuid
       );
       if (conditionalField.type == "Radio") {
+        const conditionalFormOption = conditionalField.options.find((o) => {
+          return o.uuid == this.form.data[field.conditional_uuid];

@@ -179,3 +179,25 @@ export default {
           switch (ext) {
             case "png":
               this.preloadedImgBase64s[src] = canvas.toDataURL("image/png");
+              break;
+            case "gif":
+              this.preloadedImgBase64s[src] = src;
+              break;
+            default:
+              this.preloadedImgBase64s[src] = canvas.toDataURL("image/jpg");
+          }
+        };
+        img.src = src;
+      } else {
+        console.info("image already preloaed");
+      }
+    },
+    goToHash(hash) {
+      const url = hash.substring(1);
+      const idx = this.currentProject.menu_pages.findIndex((p) => p.url == url);
+      if (idx != -1) this.$nextTick(() => { this.fullPageMoveTo(idx); });
+    },
+    fullpageScrollReset() {
+      const fpScrollable = document.querySelector('.fp-scrollable');
+      if(fpScrollable) fpScrollable.scrollTo(0, 0);
+    },

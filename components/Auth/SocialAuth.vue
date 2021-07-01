@@ -64,3 +64,4 @@ export default {
         localStorage.removeItem("token");
         await this.$store.dispatch("user/fetch");
 
+        this.$root.$emit("authModal/close");

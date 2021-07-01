@@ -257,3 +257,7 @@ export default {
           .to(previewMedia, {
             maskSize: this.irisEnding.size + "% " + this.irisEnding.size + "%",
             duration: this.irisEnding.duration,
+          }, "fullwindow")
+          .set(previewMedia, {
+            maskImage: 'none',
+          });

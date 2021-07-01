@@ -82,3 +82,4 @@ export default {
 .page {
   background-color: #56565a;
   overflow-y: scroll;
+  overflow-anchor: none;

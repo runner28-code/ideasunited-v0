@@ -213,3 +213,4 @@ export default {
     width: 240px;
     background-color: #262729;
     color: white;
+    font-size: 14px;

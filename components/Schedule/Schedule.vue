@@ -14,6 +14,7 @@
           {{
             group.date
               | moment("timezone", currentTimezone, "dddd, MMM Do")
+          }}
         </div>
         <ScheduleItem v-for="item in group.items" :item="item" :key="item.id" />
       </div>
@@ -26,7 +27,6 @@ import _ from "lodash";
 
 export default {
   props: {
-    value: String,
     page: Object,
   },
   computed: {

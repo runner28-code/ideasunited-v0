@@ -26,3 +26,4 @@ export default {
     value: [String, Object, Number, Boolean],
     rules: {
       type: Array,
+      default: () => []

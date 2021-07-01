@@ -34,7 +34,6 @@ export default {
   flex-wrap: wrap;
 
   &__item {
-    background-size: cover;
     background-position: center;
     max-width: 25%;
     position: relative;
@@ -43,3 +42,4 @@ export default {
       position: absolute;
       left: 0;
       right: 0;
+      top: 0;

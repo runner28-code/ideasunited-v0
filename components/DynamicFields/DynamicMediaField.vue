@@ -81,7 +81,6 @@ export default {
     required: Boolean,
     markRequired: Boolean,
     label: String,
-    showLabel: Boolean,
     fileInput: Boolean
   },
   methods: {
@@ -90,3 +89,4 @@ export default {
       const file = event.target.files[0];
       file.uuid = uuidv4();
 
+      if (file) this.$emit("input", file);

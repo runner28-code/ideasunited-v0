@@ -54,3 +54,4 @@ export default {
   background-size: cover;
   background-position: center;
   display: flex;
+  align-items: center;

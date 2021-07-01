@@ -2,7 +2,6 @@
 import moment from "moment-timezone";
 
 const store = {
-// Temp comment
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {
@@ -15,4 +14,3 @@ const store = {
       const { data } = await this.$api.Project.current({
         host: window.location.host,
         root_path: window.location.pathname,
-      });

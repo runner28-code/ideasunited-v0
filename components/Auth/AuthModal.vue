@@ -41,3 +41,4 @@ export default {
     this.$root.$on(`authModal/close`, () => {
       this.cancel();
     });
+  },

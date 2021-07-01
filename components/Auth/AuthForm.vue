@@ -92,7 +92,6 @@ export default {
           if(data.email_validation_response == 'are_you_sure') {
             if(data.email_suggestion) this.emailValidationSuggestions = [data.email_suggestion];
             this.areYouSureDialog = true;
-          }
         }
       }
     }
@@ -104,3 +103,4 @@ export default {
           if(!this.loginForm.email) this.$emit('loginFormResponse', false);
           const res = { email: this.loginForm.email };
           if(this.loginForm.password) res.password = this.loginForm.password;
+          this.$emit('loginFormResponse', res);

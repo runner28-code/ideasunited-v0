@@ -1,7 +1,6 @@
 <template>
   <div class="auth-register-form">
     <div v-if="registrationForm">
-      <div v-if="!currentUser">
         <div v-show="registrationForm.login_form && !chooseSignUp" class="auth-register-form__login">
           <AuthForm
             :login-form-request="loginFormRequest"
@@ -120,3 +119,4 @@ export default {
             this.emailValidationSuggestions = data.email_suggestions;
           else this.emailValidationSuggestions = [];
           this.areYouSureDialog = true;
+        }

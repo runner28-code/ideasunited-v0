@@ -67,3 +67,4 @@ export default {
   align-items: stretch;
   justify-content: stretch;
 
+  &__message {

@@ -7,6 +7,7 @@ const store = {
   mutations: {
     setToken(state, token) {
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
+// Temp comment
       const cookieDomain =
         process.env.NODE_ENV === "development"
           ? "localhost"
@@ -23,3 +24,4 @@ const store = {
     async login({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.login(params);
       commit("setToken", data.token);
+      return await dispatch("user/fetch", null, { root: true });

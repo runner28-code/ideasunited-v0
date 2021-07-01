@@ -45,6 +45,7 @@ export default {
   props: {
     value: Object,
     active: Object
+  },
   methods: {
     setActive() {
       if (this.value.posted) {
@@ -90,3 +91,5 @@ export default {
 
       return (
         this.$store.state.application.timelineAspectRatio ||
+        aspectRatio[this.$size] ||
+        16 / 8

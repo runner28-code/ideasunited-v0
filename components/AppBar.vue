@@ -172,6 +172,7 @@ export default {
         const lastIndex = _.findLastIndex(
           this.currentProject.menu_pages,
           (menuItem) => menuItem.menu_style != "button"
+        );
         menuPages = [...this.currentProject.menu_pages];
       } else {
         menuPages = this.currentProject.menu_pages;
@@ -194,3 +195,6 @@ export default {
           (header_font.font ? header_font.font.font_name : "Roboto") +
           ", sans-serif",
       };
+    },
+    logo() {
+      if (!this.mounted) return "";

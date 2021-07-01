@@ -150,3 +150,5 @@ export default {
 
   &__auth-form {
     background: #e5e5e5;
+    height: 100%;
+    display: flex;

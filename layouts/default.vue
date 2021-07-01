@@ -152,3 +152,5 @@ export default {
         switch (type) {
           case "send_notification":
             this.sendNotification(payload);
+            break;
+        }

@@ -92,3 +92,4 @@ export default {
         bounding.left >= 0 &&
         bounding.bottom <=
           (window.innerHeight || document.documentElement.clientHeight) &&
+        bounding.right <=

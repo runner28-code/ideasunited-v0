@@ -135,3 +135,4 @@ export default {
         activeId = _.findLast(this.events, t => t.posted)?.id;
       }
 
+      this.setActive(activeId);

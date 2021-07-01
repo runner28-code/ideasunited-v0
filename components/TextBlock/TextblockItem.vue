@@ -59,3 +59,4 @@ a.text-block__item-wrapper:hover {
         content: "";
         position: absolute;
         left: 0;
+        right: 0;

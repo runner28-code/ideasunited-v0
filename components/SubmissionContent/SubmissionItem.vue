@@ -70,3 +70,4 @@ export default {
         t => t.uuid == this.previewLayout.preview
       );
 
+      return t?.value?.preview?.large?.url;

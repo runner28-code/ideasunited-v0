@@ -70,3 +70,4 @@
   position: absolute;
   right: 12.17%;
   top: 0;
+  margin-top: 26.67%;

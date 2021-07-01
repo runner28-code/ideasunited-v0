@@ -69,3 +69,4 @@ export default {
     width: 100%;
   }
 
+  &__3 &__side-double &__item-wrapper {

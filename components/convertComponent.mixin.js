@@ -16,7 +16,9 @@ import TimelineList from "./TimelineList";
 
 export default {
   components: {
+// Temp comment
     ContentSection,
     Countdown,
     Event,
     TextBlock,
+    Schedule,
