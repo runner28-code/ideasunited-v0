@@ -9,6 +9,7 @@
 </template>
 
 <script>
+export default {
   props: {
     chat: Object
   },
@@ -17,7 +18,6 @@
   },
   channels: {
     ChatChannel: {
-      connected() {
         this.status = "Connected";
       },
       disconnected() {

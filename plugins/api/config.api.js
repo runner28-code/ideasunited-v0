@@ -22,13 +22,11 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         requestConfig.headers["App-Root-Path"] = req.url;
       } else {
         requestConfig.headers["App-Host"] = window.location.host;
-// Temp comment
         requestConfig.headers["App-Root-Path"] = window.location.pathname;
       }
 
       requestConfig.paramsSerializer = params => {
         return Qs.stringify(params, {
-          arrayFormat: "brackets",
           encode: false
         });
       };

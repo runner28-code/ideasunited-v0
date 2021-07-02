@@ -6,7 +6,6 @@
   >
     <Title class="content-section__title">
       <div v-html="contentSection.title "></div>
-      <a
         :style="{ color: activeTheme.primary_color }"
         class="content-section__more"
         v-if="contentSection.more_link_url && contentSection.more_link_text"
@@ -168,6 +167,7 @@ export default {
           let untilStart = Date.parse(t.start_at) - Date.now();
           if (untilStart > 0) {
             this.timeouts[`start_${t.id}`] = setTimeout(() => {
+              this.$store.commit("page/publishContentBlock", {
                 blockId: t.id,
                 sectionId: this.contentSection.id
               });

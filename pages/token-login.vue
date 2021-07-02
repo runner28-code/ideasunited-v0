@@ -1,6 +1,7 @@
 <template>
   <div></div>
 </template>
+
 <script>
 export default {
   layout: 'simple',
@@ -12,6 +13,5 @@ export default {
       } else {
         this.$router.push("/");
       }
-    }
   },
   methods: {

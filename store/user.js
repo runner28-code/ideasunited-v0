@@ -1,6 +1,7 @@
 /* eslint-disable */
 import Vue from "vue";
 
+// Temp comment
 const store = {
   namespaced: true,
   state: () => ({ current: null }),
@@ -18,7 +19,6 @@ const store = {
         commit("set", data);
         const cookieDomain =
           process.env.NODE_ENV === "development"
-// Temp comment
             ? "localhost"
             : "." + window.location.hostname;
         var d = new Date();

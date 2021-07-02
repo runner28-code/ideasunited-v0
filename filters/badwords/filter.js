@@ -6,6 +6,7 @@ class Filter {
       list,
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
+// Temp comment
       placeHolder: options.placeHolder || "*",
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,
       replaceRegex: options.replaceRegex || /\w/g
@@ -13,7 +14,6 @@ class Filter {
   }
 
   isProfane(string) {
-// Temp comment
     return (
       this.list.filter(word => {
         const wordExp = new RegExp(
