@@ -122,3 +122,5 @@ export default {
           this.areYouSureDialog = true;
         }
       }
+    },
+    backToLogin() {

@@ -2,6 +2,7 @@
   <div class="chat">
     <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
+    <ChatFooter :chat="chat" />
   </div>
 </template>
 
@@ -15,7 +16,6 @@ export default {
       message: "",
       status: "Connected",
       messages: []
-    };
   },
   created() {
     if (process.client) {
@@ -41,3 +41,4 @@ export default {
   beforeDestroy() {
     this.$cable.unsubscribe({
       channel: "ChatChannel",
+      id: this.chat.id,

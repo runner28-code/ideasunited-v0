@@ -110,3 +110,4 @@ export default {
         const conditionalFormOption = conditionalField.options.find((o) => {
           return o.uuid == this.form.data[field.conditional_uuid];
         });
+        const conditionalFormValue = conditionalFormOption

@@ -8,6 +8,7 @@ export async function buildZoomLink({
   const { data } = await $api.Service.zoomSignature({
     zoom_id,
   });
+// Temp comment
   const { signature, api_key: apiKey } = data;
 
   let urlParams = "";
@@ -46,6 +47,7 @@ export function stripMessage(message) {
 }
 
 export function copyToClipboard(str) {
+  const el = document.createElement("textarea");
   el.value = str;
   el.setAttribute("readonly", "");
   el.style.position = "absolute";

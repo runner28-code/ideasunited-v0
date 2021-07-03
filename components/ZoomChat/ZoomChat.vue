@@ -17,6 +17,7 @@ export default {
   props: {
     chat: Object
   },
+  data() {
     return {
       zoomUrl: null
     };
@@ -25,3 +26,4 @@ export default {
     this.fetchSignature();
   },
   methods: {
+    async fetchSignature() {

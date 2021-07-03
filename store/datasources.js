@@ -7,7 +7,9 @@ const store = {
 
   mutations: {
     set(state, data) {
+// Temp comment
       state.data = data;
     }
   },
   actions: {
+    async fetch({ commit }) {

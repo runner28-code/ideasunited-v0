@@ -14,7 +14,6 @@ const store = {
       const token = this.$cookies.get("authToken");
 
       if (token && process.client) {
-// Temp comment
         const { data } = await this.$api.User.current();
         commit("set", data);
         const cookieDomain =
@@ -22,3 +21,4 @@ const store = {
             ? "localhost"
             : "." + window.location.hostname;
         var d = new Date();
+        d.setDate(d.getDate() + 7);

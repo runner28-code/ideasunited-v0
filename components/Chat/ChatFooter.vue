@@ -49,7 +49,6 @@
 </template>
 
 <script>
-import { stripMessage } from "@/utils";
 import cookies from "vue-cookies";
 
 export default {
@@ -63,3 +62,4 @@ export default {
     },
     sendMessage(event) {
       if (!event.shiftKey && this.message.replace(/(\s|\n)+/g, "").length) {
+        event.preventDefault();

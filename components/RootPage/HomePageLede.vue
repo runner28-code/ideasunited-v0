@@ -258,8 +258,10 @@ export default {
             maskSize: this.irisEnding.size + "% " + this.irisEnding.size + "%",
             duration: this.irisEnding.duration,
           }, "fullwindow")
-          .set(previewMedia, {
             maskImage: 'none',
           });
       }
     },
+    updateIrisEndingFactor() {
+      const windowAspectRatio = window.innerWidth / window.innerHeight;
+      const irisEndingFactor = windowAspectRatio > 1.2 ?

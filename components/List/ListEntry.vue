@@ -31,3 +31,4 @@ export default {
   padding: 15px;
   display: flex;
 
+  &__preview {

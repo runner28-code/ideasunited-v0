@@ -106,3 +106,5 @@ export default {
           if(this.loginForm.password) res.password = this.loginForm.password;
           this.$emit('loginFormResponse', res);
         }
+      }
+    }

@@ -41,6 +41,7 @@ export default {
     }
   },
   methods: {
+    newMessage(payload) {
       this.messages.push(payload);
       this.scrollBottom();
     },
@@ -51,3 +52,4 @@ export default {
     updateMessage(payload) {
       this.messages = this.messages.map(m => {
         if (m.id == payload.id) {
+          m.body = payload.body;

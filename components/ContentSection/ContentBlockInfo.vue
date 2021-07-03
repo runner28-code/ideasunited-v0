@@ -87,3 +87,4 @@ export default {
   props: {
     block: Object
   },
+  data() {

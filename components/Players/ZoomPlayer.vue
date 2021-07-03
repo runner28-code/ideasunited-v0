@@ -31,6 +31,7 @@
 import { buildZoomLink } from "@/utils";
 
 export default {
+  name: "ZoomPlayer",
   props: {
     event: Object
   },
@@ -54,3 +55,4 @@ export default {
         $api: this.$api,
         zoom_id,
         zoom_password,
+        full_name,

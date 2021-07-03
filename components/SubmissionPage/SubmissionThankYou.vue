@@ -15,7 +15,6 @@
     </p>
   </div>
 </template>
-
 <script>
 import { frontendToProfile } from "@/utils";
 
@@ -35,3 +34,4 @@ export default {
         return eval("this." + string);
       } catch (error) {
         try {
+          return eval(string);

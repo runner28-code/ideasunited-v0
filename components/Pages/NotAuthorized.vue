@@ -21,3 +21,4 @@
 
 <script>
 export default {
+  data() {

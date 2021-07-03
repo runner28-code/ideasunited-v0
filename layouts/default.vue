@@ -1,4 +1,3 @@
-<template>
   <v-app
     v-if="currentProject"
     class="evp-app"
@@ -50,6 +49,7 @@ export default {
   },
   created() {
     this.$store.dispatch("application/init");
+
     if (process.client) {
       this.$cable.subscribe({
         channel: "ProjectChannel",
@@ -154,3 +154,5 @@ export default {
             break;
         }
       },
+    },
+  },

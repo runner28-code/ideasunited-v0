@@ -12,6 +12,7 @@
           @click="slideClick(slide)"
           class="slider__slide"
           :class="{ clickable: slide.url }"
+          :style="{ backgroundImage: `url(${slide.preview.large.url})` }"
         ></div>
       </swiper-slide>
     </swiper>
@@ -35,3 +36,4 @@ export default {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
         }
+      }

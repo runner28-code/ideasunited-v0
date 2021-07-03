@@ -60,7 +60,6 @@
       <p class="registration-form__thank-you">
         Thank you! Please check your email and click the verification link,
         which will direct you to your first log in.
-      </p>
       <div class="registration-form__buttons">
         <Button
           :refs="$refs"
@@ -89,3 +88,4 @@ export default {
   props: {
     value: String,
     page: Object,
+    disabled: Boolean

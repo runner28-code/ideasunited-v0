@@ -34,7 +34,6 @@ export default {
       authParams: {
         TwitterLogin: {
           provider: "twitter"
-        },
         GoogleLogin: {
           provider: "google"
         },
@@ -65,3 +64,4 @@ export default {
         await this.$store.dispatch("user/fetch");
 
         this.$root.$emit("authModal/close");
+      }

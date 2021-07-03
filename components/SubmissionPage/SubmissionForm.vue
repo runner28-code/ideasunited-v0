@@ -68,3 +68,4 @@ export default {
   },
   data() {
     return {
+      form: null,

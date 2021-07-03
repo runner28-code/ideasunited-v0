@@ -12,6 +12,7 @@ export default {
     slide: Object,
     presentation: Object
   },
+  data() {
     return { started: false };
   },
   mounted() {
@@ -20,7 +21,6 @@ export default {
       height: "100%",
       videoId: this.slide.youtube_id,
       playerVars: { rel: 0, controls: 0 }
-    });
 
     if (this.newSlideSettings.started) this.play();
 
@@ -38,3 +38,4 @@ export default {
       }
       if (this.newSlideSettings.state == "pause") {
         this.player.pauseVideo();
+      }

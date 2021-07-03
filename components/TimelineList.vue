@@ -24,7 +24,6 @@ export default {
   computed: {
     timelineList() {
       return (this.page || this.currentPage).timeline_lists[this.value];
-    },
     items() {
       return this.timelineList?.settings?.items;
     },
@@ -43,3 +42,4 @@ export default {
     list-style: none;
     padding-left: 0;
     li {
+      display: flex;

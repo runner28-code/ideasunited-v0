@@ -105,3 +105,5 @@ export default {
   @media screen and (max-width: 944px) {
     position: relative;
   }
+
+  &-container {

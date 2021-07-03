@@ -42,3 +42,4 @@ export default {
       this.cancel();
     });
   },
+  methods: {
