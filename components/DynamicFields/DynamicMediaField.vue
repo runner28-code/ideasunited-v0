@@ -65,7 +65,6 @@ export default {
       type: Number,
       default: 580 / 320
     },
-    circle: Boolean,
     position: {
       type: String,
       default: "center"
@@ -91,3 +90,4 @@ export default {
       file.uuid = uuidv4();
 
       if (file) this.$emit("input", file);
+    },

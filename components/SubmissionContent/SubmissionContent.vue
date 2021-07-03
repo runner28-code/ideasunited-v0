@@ -62,3 +62,4 @@ export default {
       this.list.push(...newData);
 
       if (data.length) {
+        $state.loaded();

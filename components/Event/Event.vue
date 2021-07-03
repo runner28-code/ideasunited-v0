@@ -152,3 +152,4 @@ export default {
     background: #e5e5e5;
     height: 100%;
     display: flex;
+    align-items: center;

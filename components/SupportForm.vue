@@ -29,6 +29,7 @@ export default {
     return {
       form: {
         support_form_id: null,
+        data: {}
       },
       submitted: false
     };
@@ -39,3 +40,4 @@ export default {
         setTimeout(() => {
           this.form.data = {};
           this.submitted = false;
+        }, 500);

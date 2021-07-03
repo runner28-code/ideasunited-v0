@@ -57,3 +57,4 @@ export default {
         return items.slice(0, lastItem1);
       } else {
         return items;
+      }

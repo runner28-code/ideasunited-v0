@@ -214,3 +214,4 @@ export default {
     background-color: #262729;
     color: white;
     font-size: 14px;
+    border: 1px solid #FFFFFF;

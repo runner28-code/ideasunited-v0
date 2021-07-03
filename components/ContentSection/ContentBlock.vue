@@ -32,7 +32,6 @@
       <SliderModal
         :prevId="prevId"
         :nextId="nextId"
-        :id="block.id"
         name="content-section"
         v-model="dialog"
       >
@@ -85,3 +84,4 @@ export default {
           }
         }
       } else if (this.block.content_type == "new_tab") {
+        if (this.block.link_url) window.open(this.block.link_url, "_blank");

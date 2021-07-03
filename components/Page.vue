@@ -193,6 +193,7 @@ export default {
       }
     },
     goToHash(hash) {
+      const url = hash.substring(1);
       const idx = this.currentProject.menu_pages.findIndex((p) => p.url == url);
       if (idx != -1) this.$nextTick(() => { this.fullPageMoveTo(idx); });
     },

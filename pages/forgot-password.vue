@@ -8,7 +8,6 @@
       v-if="!submitted"
     >
       <div class="forgot-password-page__title">Forgot Password?</div>
-      <TextField label="Email" v-model="form.email" type="email" />
       <Button :refs="$refs" block x-large type="submit">Reset Password</Button>
     </v-form>
     <div v-else>
@@ -37,3 +36,7 @@ export default {
   }
 };
 </script>
+
+<style scoped lang="scss">
+.forgot-password-page {
+  position: absolute;

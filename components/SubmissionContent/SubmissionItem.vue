@@ -36,7 +36,6 @@
 
 <script>
 import { getHash } from "@/utils";
-
 export default {
   props: {
     item: Object,
@@ -71,3 +70,4 @@ export default {
       );
 
       return t?.value?.preview?.large?.url;
+    },

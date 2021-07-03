@@ -60,3 +60,4 @@ a.text-block__item-wrapper:hover {
         position: absolute;
         left: 0;
         right: 0;
+        top: 0;

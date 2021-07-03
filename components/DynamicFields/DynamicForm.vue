@@ -109,3 +109,4 @@ export default {
       if (conditionalField.type == "Radio") {
         const conditionalFormOption = conditionalField.options.find((o) => {
           return o.uuid == this.form.data[field.conditional_uuid];
+        });

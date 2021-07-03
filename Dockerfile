@@ -3,5 +3,5 @@ ENV NODE_ENV production
 
 WORKDIR /
 
-COPY . ./
 RUN yarn
+

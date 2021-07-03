@@ -50,7 +50,6 @@ export default {
   },
   created() {
     this.$store.dispatch("application/init");
-
     if (process.client) {
       this.$cable.subscribe({
         channel: "ProjectChannel",
@@ -154,3 +153,4 @@ export default {
             this.sendNotification(payload);
             break;
         }
+      },

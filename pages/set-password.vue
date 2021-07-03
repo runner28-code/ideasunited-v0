@@ -51,3 +51,4 @@ export default {
     },
     async submit() {
       try {
+        const { data } = await this.$api.Auth.setPassword({

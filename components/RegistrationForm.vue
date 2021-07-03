@@ -47,6 +47,7 @@
         />
       </div>
     </div>
+    <div
       v-else-if="!currentUser.confirmed"
       class="registration-form__not-confirmed"
     >
@@ -86,3 +87,5 @@ import registrationMixin from "./registration.mixin";
 export default {
   extends: registrationMixin,
   props: {
+    value: String,
+    page: Object,

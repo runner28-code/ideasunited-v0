@@ -15,6 +15,7 @@ export default async function (req, res, next) {
           "App-Root-Path": req.url,
         },
       }
+// Temp comment
     );
 
     if (
@@ -25,3 +26,4 @@ export default async function (req, res, next) {
       console.log("Redirect");
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();
+    }

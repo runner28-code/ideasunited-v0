@@ -68,7 +68,6 @@ export default {
         src_type: "google_fonts",
       });
 
-      const typekitFonts = [
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,
         this.activeTheme.paragraph_font?.font,
@@ -124,3 +123,4 @@ export default {
   },
   channels: {
     ProjectChannel: {
+      received({ payload, type }) {

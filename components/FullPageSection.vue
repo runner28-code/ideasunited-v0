@@ -83,3 +83,4 @@ export default {
   background-color: #56565a;
   overflow-y: scroll;
   overflow-anchor: none;
+  scrollbar-width: none;

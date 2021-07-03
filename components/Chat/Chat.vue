@@ -1,7 +1,7 @@
 <template>
   <div class="chat">
     <ChatHeader :chat="chat" :status="status" />
-    <ChatFooter :chat="chat" />
+    <ChatBody :chat="chat" />
   </div>
 </template>
 

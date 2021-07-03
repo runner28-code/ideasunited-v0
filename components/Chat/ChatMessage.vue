@@ -54,6 +54,7 @@ import badwords from "@/filters/badwords";
 
 export default {
   name: "ChatMessage",
+  props: {
     message: Object,
     chat: Object
   },
@@ -66,3 +67,4 @@ export default {
         this.$api.Message.blockUser({ message_id: this.message.id });
       }
     },
+    deleteAllMessagesAndBlock() {

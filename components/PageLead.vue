@@ -32,3 +32,4 @@ export default {
       }
 
       if (lead_text_color) {
+        styles.color = lead_text_color;

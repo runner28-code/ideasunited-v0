@@ -198,3 +198,5 @@ export default {
     },
     logo() {
       if (!this.mounted) return "";
+      return this.opportunityLogo;
+    },

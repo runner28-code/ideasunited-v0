@@ -202,6 +202,7 @@ export default {
     },
     playReel() {
       this.playing = true;
+      if(['sm', 'xs'].includes(this.$size)) {
         // play video
         const { videoElem } = this.$refs;
         videoElem.play();
@@ -260,3 +261,5 @@ export default {
           .set(previewMedia, {
             maskImage: 'none',
           });
+      }
+    },

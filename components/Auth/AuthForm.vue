@@ -105,3 +105,4 @@ export default {
           const res = { email: this.loginForm.email };
           if(this.loginForm.password) res.password = this.loginForm.password;
           this.$emit('loginFormResponse', res);
+        }

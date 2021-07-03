@@ -1,4 +1,3 @@
-import ContentSection from "./ContentSection/ContentSection";
 import Event from "./Event/Event";
 import Countdown from "./Countdown";
 import TextBlock from "./TextBlock/TextBlock";
@@ -20,5 +19,4 @@ export default {
     Countdown,
     Event,
     TextBlock,
-// Temp comment
     Schedule,

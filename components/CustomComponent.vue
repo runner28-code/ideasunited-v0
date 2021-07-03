@@ -46,3 +46,4 @@ export default {
               vue: Vue
             },
             getFile: () => {
+              return component.code;
