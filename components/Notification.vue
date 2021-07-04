@@ -2,7 +2,6 @@
   <div v-if="data" class="notification">
     <v-dialog max-width="500" v-model="dialog">
       <v-card class="notification__dialog">
-        <v-btn class="close" icon @click="closeDialog">
           <v-icon size="30">$close</v-icon>
         </v-btn>
         <Title>{{ data.title }}</Title>
@@ -23,6 +22,7 @@
       class="notification__sidebar"
       width="400"
     >
+      <v-btn class="close" icon @click="closeSidebar">
         <v-icon size="30">$close</v-icon>
       </v-btn>
       <div class="notification__sidebar-content">

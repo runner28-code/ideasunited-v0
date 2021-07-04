@@ -70,7 +70,6 @@
         v-ripple="false"
       >
         User Portal
-      </v-list-item>
       <v-list-item
         v-if="!currentUser"
         class="rightsidebar__item"

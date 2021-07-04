@@ -16,6 +16,7 @@ export default {
       message: "",
       status: "Connected",
       messages: []
+    };
   },
   created() {
     if (process.client) {

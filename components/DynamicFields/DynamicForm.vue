@@ -46,7 +46,6 @@
         <span v-else>
           {{ btnText || "Submit" }}
         </span>
-      </Button>
     </div>
   </v-form>
 </template>
@@ -92,22 +91,3 @@ export default {
     };
   },
   methods: {
-    async submitCallback() {
-      this.loading = true;
-      try {
-        await this.submit();
-      } finally {
-        this.loading = false;
-      }
-    },
-    showField(field) {
-      if (!field.conditional) return true;
-
-      const conditionalField = this.fields.find(
-        (f) => f.uuid == field.conditional_uuid
-      );
-      if (conditionalField.type == "Radio") {
-        const conditionalFormOption = conditionalField.options.find((o) => {
-          return o.uuid == this.form.data[field.conditional_uuid];
-        });
-        const conditionalFormValue = conditionalFormOption
