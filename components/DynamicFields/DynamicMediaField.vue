@@ -51,7 +51,6 @@
         :rules="rules"
       />
     </div>
-  </div>
 </template>
 
 <script>

@@ -26,22 +26,7 @@
 import _ from "lodash";
 
 export default {
-  props: {
     value: String,
     page: Object,
   },
   computed: {
-    schedule() {
-      return (this.page || this.currentPage).schedules[this.value];
-    },
-    groupedItems() {
-      const groups = _.groupBy(this.schedule.items, t =>
-        this.$moment
-          .format("YYYY/MM/DD")
-      );
-
-      return _.sortBy(
-        Object.keys(groups).map(k => {
-          return {
-            items: _.sortBy(groups[k], t => t.start_at),
-            date: groups[k][0].start_at

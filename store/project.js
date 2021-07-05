@@ -6,6 +6,7 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, current) {
+      state.current = current;
     },
   },
   actions: {

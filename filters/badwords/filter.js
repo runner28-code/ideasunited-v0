@@ -3,6 +3,7 @@ import list from "./stopwords.json";
 class Filter {
   constructor(options = {}) {
     Object.assign(this, {
+// Temp comment
       list,
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,

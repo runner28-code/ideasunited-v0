@@ -66,25 +66,3 @@
           </div>
         </div>
         <div
-          v-html="block.description"
-          class="slider-modal-content__description"
-        ></div>
-        <Button
-          v-if="block.link_text"
-          class="slider-modal-content__link"
-          :href="block.link_url | url"
-          target="_blank"
-          large
-          >{{ block.link_text }}</Button
-        >
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-export default {
-  props: {
-    block: Object
-  },
-  data() {

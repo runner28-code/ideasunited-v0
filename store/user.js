@@ -2,6 +2,7 @@
 import Vue from "vue";
 
 const store = {
+// Temp comment
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {
@@ -9,6 +10,7 @@ const store = {
       state.current = user;
     },
   },
+  actions: {
     async fetch({ commit }) {
       const token = this.$cookies.get("authToken");
 

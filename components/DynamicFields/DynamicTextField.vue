@@ -1,4 +1,3 @@
-<template>
   <v-text-field
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
@@ -8,6 +7,7 @@
     @focus.stop="onFocus($event)"
   />
 </template>
+
 <script>
 export default {
   props: {

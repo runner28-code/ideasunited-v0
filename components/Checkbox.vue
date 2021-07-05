@@ -19,4 +19,3 @@
 </template>
 
 <script>
-export default {

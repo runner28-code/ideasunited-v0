@@ -22,6 +22,7 @@
         @click="onclick"
       ></div>
     </v-alert>
+  </v-snackbar>
 </template>
 
 <script>

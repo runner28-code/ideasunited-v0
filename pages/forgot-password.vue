@@ -22,6 +22,7 @@ export default {
   layout: 'simple',
   data() {
     return {
+      formModel: null,
       form: {},
       submitted: false
     };

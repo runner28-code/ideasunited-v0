@@ -17,7 +17,6 @@
             name="email"
           />
           <TextField
-            :rules="[$rules.required]"
             v-model="loginForm.password"
             block
             label="Password"

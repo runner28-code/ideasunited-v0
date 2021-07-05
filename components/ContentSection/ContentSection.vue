@@ -193,7 +193,6 @@ export default {
     },
     toggleViewMore() {
       this.viewMore = !this.viewMore;
-    },
     hideBlock(idx) {
       return (
         this.contentSection.disable_scroll &&

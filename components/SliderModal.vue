@@ -65,6 +65,7 @@ export default {
     }
   },
   data() {
+    return {
       triggerName: `open-${this.name}`
     };
   },
