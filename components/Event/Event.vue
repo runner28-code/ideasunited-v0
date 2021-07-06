@@ -72,7 +72,6 @@
         :chat="currentPage.chats[0]"
       />
     </div>
-    <client-only>
       <Timeline v-if="currentPage.events.length" v-model="activeEvent" />
     </client-only>
     <div
@@ -155,3 +154,4 @@ export default {
     align-items: center;
     justify-content: center;
   }
+

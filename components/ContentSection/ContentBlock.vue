@@ -12,7 +12,6 @@
         class="content-section-item__wrapper"
         :class="{
           'content-section-item__wrapper--video':
-            block.content_type == 'video_player'
         }"
         :style="styles"
         :aspect-ratio="285 / 160"
@@ -88,3 +87,4 @@ export default {
         if (this.block.link_url) window.open(this.block.link_url, "_blank");
       } else {
         this.dialog = true;
+      }

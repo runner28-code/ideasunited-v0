@@ -73,3 +73,4 @@ export default {
       return t?.value?.preview?.large?.url;
     },
     styles() {
+      const styles = {

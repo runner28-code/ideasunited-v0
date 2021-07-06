@@ -65,3 +65,4 @@ export default {
     togglePassword() {
       if (this.localType == "password") {
         this.localType = "text";
+      } else {

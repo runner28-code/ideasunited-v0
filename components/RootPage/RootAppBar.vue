@@ -216,3 +216,4 @@ export default {
     font-size: 14px;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
+    z-index: 2;

@@ -85,3 +85,4 @@ export default {
   overflow-anchor: none;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  &::-webkit-scrollbar {

@@ -90,3 +90,5 @@ export default {
     value: String,
     page: Object,
     disabled: Boolean
+  },
+  data() {

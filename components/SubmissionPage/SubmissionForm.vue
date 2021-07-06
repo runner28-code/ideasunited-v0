@@ -69,3 +69,4 @@ export default {
   data() {
     return {
       form: null,
+      submitted: false,

@@ -1,6 +1,7 @@
 <template>
   <div></div>
 </template>
+
 <script>
 export default {
   layout: 'simple',
@@ -15,3 +16,4 @@ export default {
     }
   },
   methods: {
+    async login(token) {

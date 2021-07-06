@@ -31,7 +31,6 @@
                 <source type="video/mp4" src="https://player.vimeo.com/external/646664652.hd.mp4?s=316a6bab06d8b9ea48e50aaa38c7c9be5b67be27&amp;profile_id=174&amp;oauth_token_id=1544629081">
                 <source type="video/mp4" src="https://player.vimeo.com/external/646664652.sd.mp4?s=a32441c7102bbadf3c8d11a1225f7ac76ae609f4&amp;profile_id=165&amp;oauth_token_id=1544629081">
                 <source type="video/mp4" src="https://player.vimeo.com/external/646664652.sd.mp4?s=a32441c7102bbadf3c8d11a1225f7ac76ae609f4&amp;profile_id=164&amp;oauth_token_id=1544629081">
-              </video>
             </div>
           </div>
         </div>
@@ -266,3 +265,6 @@ export default {
     updateIrisEndingFactor() {
       const windowAspectRatio = window.innerWidth / window.innerHeight;
       const irisEndingFactor = windowAspectRatio > 1.2 ?
+        windowAspectRatio / 1.2 :
+        1.2 / windowAspectRatio;
+      this.irisEnding = {

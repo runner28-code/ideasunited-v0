@@ -33,7 +33,6 @@ export default {
       alert: null
     };
   },
-  mounted() {
     this.$root.$on("alert", async alert => {
       this.alert = false;
       await this.$nextTick();
@@ -69,3 +68,4 @@ export default {
 
   &__message {
     padding: 15px;
+

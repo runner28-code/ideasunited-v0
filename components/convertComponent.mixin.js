@@ -15,7 +15,6 @@ import Faq from "./Faq";
 import TimelineList from "./TimelineList";
 
 export default {
-// Temp comment
   components: {
     ContentSection,
     Countdown,

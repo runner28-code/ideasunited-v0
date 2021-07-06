@@ -95,3 +95,4 @@ export default {
         bounding.right <=
           (window.innerWidth || document.documentElement.clientWidth)
       );
+    },

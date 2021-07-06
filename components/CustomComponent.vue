@@ -47,3 +47,4 @@ export default {
             },
             getFile: () => {
               return component.code;
+            },

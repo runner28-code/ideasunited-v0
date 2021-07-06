@@ -27,7 +27,6 @@
         @click="remove"
         color="red"
         v-if="value"
-        fab
         small
         class="uploader__delete"
       >
@@ -51,6 +50,7 @@
         :rules="rules"
       />
     </div>
+  </div>
 </template>
 
 <script>
@@ -92,3 +92,4 @@ export default {
       if (file) this.$emit("input", file);
     },
     handleFileChange(file) {
+      if(!file) return;

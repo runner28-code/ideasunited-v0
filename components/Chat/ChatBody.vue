@@ -24,7 +24,6 @@ export default {
     return { messages: [] };
   },
   channels: {
-    ChatChannel: {
       received({ type, payload }) {
         switch (type) {
           case "new_message":

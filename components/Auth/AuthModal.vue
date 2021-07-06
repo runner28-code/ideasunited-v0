@@ -9,6 +9,7 @@
       </v-btn>
       <v-card-text>
         <AuthRegisterForm
+          :dialog-state="dialogState"
         />
       </v-card-text>
     </v-card>
@@ -39,6 +40,5 @@ export default {
 
     this.$root.$on(`authModal/close`, () => {
       this.cancel();
-    });
   },
   methods: {

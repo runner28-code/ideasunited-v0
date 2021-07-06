@@ -29,7 +29,6 @@ export default {
   methods: {
     onclick() {
       if (this.item.event) {
-        const { page_url, id } = this.item.event;
         this.$router.push(page_url + "?event_id=" + id);
         this.$root.$emit("setActiveEvent", id);
       }
@@ -51,3 +50,4 @@ export default {
       return result;
     },
   }
+};

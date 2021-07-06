@@ -23,6 +23,7 @@
           v-for="(item, index) in items2"
           :key="index"
         >
+          <div class="faq__section-header" v-if="item.header">
             {{ item.header }}
           </div>
           <v-expansion-panel-header v-if="item.question">
@@ -57,3 +58,4 @@ export default {
       } else {
         return items;
       }
+    },

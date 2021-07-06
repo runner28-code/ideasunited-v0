@@ -138,3 +138,4 @@ export default {
       this.setActive(activeId);
     },
     availableEvent(event) {
+      return (

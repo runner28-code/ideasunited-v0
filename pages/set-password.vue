@@ -45,9 +45,11 @@ export default {
           this.$alert("Token not found", "error");
           this.$router.push("/");
         }
+      } catch (e) {
         console.error(e);
       }
     },
     async submit() {
       try {
         const { data } = await this.$api.Auth.setPassword({
+          ...this.form,

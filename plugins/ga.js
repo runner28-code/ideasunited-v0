@@ -6,3 +6,4 @@ export default ctx => {
 
   if (isProduction) {
     Vue.use(
+      VueGtag,

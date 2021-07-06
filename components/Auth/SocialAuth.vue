@@ -37,6 +37,7 @@ export default {
         },
         GoogleLogin: {
           provider: "google"
+        },
         FacebookLogin: {
           provider: "facebook"
         },
@@ -65,3 +66,4 @@ export default {
 
         this.$root.$emit("authModal/close");
       }
+      // } catch {}

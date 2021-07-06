@@ -1,3 +1,4 @@
+<template>
   <v-checkbox
     class="checkbox"
     hide-details="auto"
@@ -9,7 +10,6 @@
   >
     <template #label>
       <slot>
-        <span
           @click.stop
           v-html="label + (required && markRequired ? ' *' : '')"
         ></span>
@@ -26,3 +26,4 @@ export default {
     rules: {
       type: Array,
       default: () => []
+    },
