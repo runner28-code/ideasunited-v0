@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Vue from "vue";
 
 const store = {
@@ -10,4 +11,5 @@ const store = {
     }
   },
   actions: {
+// Temp comment
     async fetch({ commit }) {

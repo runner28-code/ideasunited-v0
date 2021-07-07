@@ -27,6 +27,7 @@
         @click="remove"
         color="red"
         v-if="value"
+        fab
         small
         class="uploader__delete"
       >
@@ -39,7 +40,6 @@
               label + (required && markRequired ? " *" : "")
           }}
         </div>
-        <input @change="handleChange" class="uploader__input" type="file" />
       </label>
       <v-text-field
         ref="validation"

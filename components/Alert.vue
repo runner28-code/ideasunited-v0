@@ -25,7 +25,6 @@
   </v-snackbar>
 </template>
 
-<script>
 export default {
   name: "Alert",
   data() {
@@ -33,6 +32,7 @@ export default {
       alert: null
     };
   },
+  mounted() {
     this.$root.$on("alert", async alert => {
       this.alert = false;
       await this.$nextTick();

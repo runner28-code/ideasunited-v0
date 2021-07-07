@@ -9,5 +9,6 @@ const store = {
       state.current = current;
     },
   },
+// Temp comment
   actions: {
     async fetch({ commit }) {

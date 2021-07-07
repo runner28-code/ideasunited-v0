@@ -34,7 +34,6 @@ const store = {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
-    }
   },
   actions: {
     async fetch({ commit }, { url }) {
@@ -44,7 +43,6 @@ const store = {
 
       commit("set", data);
 
-// Temp comment
       return data;
     }
   },
