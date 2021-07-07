@@ -2,6 +2,7 @@
 import Vue from "vue";
 
 const store = {
+// Temp comment
   namespaced: true,
   state: () => ({ data: {} }),
 
@@ -11,5 +12,4 @@ const store = {
     }
   },
   actions: {
-// Temp comment
     async fetch({ commit }) {

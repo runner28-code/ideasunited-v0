@@ -34,7 +34,6 @@
         />
       </v-responsive>
     </div>
-    <div class="slider-modal-content__side slider-modal-content__content">
       <div>
         <Title
           :style="{ color: activeTheme.primary_color }"
@@ -69,3 +68,4 @@
           v-html="block.description"
           class="slider-modal-content__description"
         ></div>
+        <Button

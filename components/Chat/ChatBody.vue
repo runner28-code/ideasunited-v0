@@ -29,6 +29,7 @@ export default {
         switch (type) {
           case "new_message":
             this.newMessage(payload);
+            break;
           case "delete_message":
             this.deleteMessage(payload.id);
             break;

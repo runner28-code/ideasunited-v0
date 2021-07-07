@@ -1,3 +1,4 @@
+export async function buildZoomLink({
   $api,
   zoom_id,
   zoom_password,
@@ -43,6 +44,7 @@ export function stripMessage(message) {
     .split(/[\f\r\t\v]+/)
     .join(" ");
 }
+// Temp comment
 
 export function copyToClipboard(str) {
   const el = document.createElement("textarea");

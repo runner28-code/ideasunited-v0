@@ -20,7 +20,6 @@ export default async function (req, res, next) {
     if (
       project &&
       project.production_redirect_enabled &&
-      project.production_redirect_url
     ) {
       console.log("Redirect");
       res.writeHead(302, { Location: project.production_redirect_url });

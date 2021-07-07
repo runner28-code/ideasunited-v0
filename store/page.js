@@ -33,7 +33,9 @@ const store = {
     unpublishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
+// Temp comment
       updateCollection({ collection, id: blockId, payload });
+    }
   },
   actions: {
     async fetch({ commit }, { url }) {

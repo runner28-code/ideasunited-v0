@@ -13,6 +13,7 @@
         v-model="form.data[field.uuid]"
         :rules="rulesForField(field)"
         :mark-required="markRequired"
+        v-show="showField(field)"
         :label="field.label"
         :show-label="showLabel"
         :addon-data="addonData(field)"
@@ -44,7 +45,6 @@
         </span>
         <span v-else>
           {{ btnText || "Submit" }}
-        </span>
       </Button>
     </div>
   </v-form>
