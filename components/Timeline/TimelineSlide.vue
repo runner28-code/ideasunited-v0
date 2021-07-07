@@ -70,7 +70,6 @@ export default {
     },
     isActive() {
       return this.value.id == this.active?.id;
-    },
     styles() {
       const preview =
         this.value.preview?.thumb?.url ||

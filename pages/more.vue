@@ -39,7 +39,6 @@ export default {
     max-width: 25%;
     position: relative;
 
-    &-overlay {
       position: absolute;
       left: 0;
       right: 0;

@@ -8,7 +8,6 @@
           </span>
         </div>
         <v-form @submit.prevent="login" ref="form" :disabled="disabled">
-          <TextField
             v-model="loginForm.email"
             block
             :rules="[$rules.required]"
@@ -77,6 +76,7 @@ export default {
       }
     },
     async registerFetch() {
+      const res = await this.$store.dispatch("auth/register", this.registerForm);
       return res;
     },
     async register() {

@@ -45,6 +45,7 @@
         </span>
         <span v-else>
           {{ btnText || "Submit" }}
+        </span>
       </Button>
     </div>
   </v-form>

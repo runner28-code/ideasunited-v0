@@ -40,6 +40,7 @@
       >
         <button class="fullpage-top-arrow"></button>
         <div class="fullpage-top-arrow__text">
+          BACK TO TOP
         </div>
       </div> -->
     </div>
@@ -80,7 +81,6 @@ export default {
 <style lang="scss" scoped>
 .page {
   background-color: #56565a;
-  overflow-y: scroll;
   overflow-anchor: none;
   scrollbar-width: none;
   -ms-overflow-style: none;
