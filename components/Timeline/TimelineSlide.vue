@@ -9,7 +9,6 @@
     <v-responsive
       @click="setActive"
       @keyup.enter="setActive"
-      class="timeline-slide__wrapper"
       :aspect-ratio="aspectRatio"
       role="button"
       tabindex="0"
@@ -70,6 +69,7 @@ export default {
     },
     isActive() {
       return this.value.id == this.active?.id;
+    },
     styles() {
       const preview =
         this.value.preview?.thumb?.url ||

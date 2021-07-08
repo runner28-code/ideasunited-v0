@@ -86,7 +86,6 @@
       </span>
       <span v-else>
         Hide Chat
-        <v-icon>$menu_up</v-icon>
       </span>
     </div>
   </div>

@@ -97,31 +97,3 @@ export default {
       const seconds = duration.seconds();
 
       if (days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
-        this.visible = false;
-        clearInterval(this.interval);
-      } else {
-        this.visible = true;
-      }
-
-      this.days = days;
-      this.hours = hours < 10 ? "0" + hours : hours;
-      this.minutes = minutes < 10 ? "0" + minutes : minutes;
-      this.seconds = seconds < 10 ? "0" + seconds : seconds;
-    }
-  },
-  beforeDestroy() {
-    if (this.interval) clearInterval(this.interval);
-  },
-  watch: {
-    value: {
-      deep: true,
-      handler() {
-        this.startCountdown();
-      }
-    }
-  }
-};
-</script>
-
-<style scoped lang="scss">
-.countdown {

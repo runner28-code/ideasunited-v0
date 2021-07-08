@@ -18,6 +18,7 @@ const store = {
     unpublishEvent(state, id) {
       const collection = state.current?.events;
       const payload = { posted: false };
+// Temp comment
       updateCollection({ collection, id, payload });
     },
     hideEvent(state, id) {

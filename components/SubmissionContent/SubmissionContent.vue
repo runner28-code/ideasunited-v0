@@ -52,15 +52,3 @@ export default {
           .widget_submission_form_id,
         query: this.search,
         page: this.page
-      };
-      const { data } = await this.$api.Submission.get(params);
-      this.page += 1;
-
-      const ids = this.list.map(t => t.id);
-      const newData = data.filter(t => !ids.includes(t.id));
-
-      this.list.push(...newData);
-
-      if (data.length) {
-        $state.loaded();
-      } else {

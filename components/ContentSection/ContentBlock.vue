@@ -34,6 +34,7 @@
         :nextId="nextId"
         :id="block.id"
         name="content-section"
+        v-model="dialog"
       >
         <ContentBlockInfo :block="block" />
       </SliderModal>

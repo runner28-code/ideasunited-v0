@@ -11,11 +11,11 @@ export default {
   data() {
     return {
       seconds: 25,
+      animating: false
     }
   },
   computed: {
     animStyle() {
-      if (!this.animating) return ''
       return `
         animation: marquee-animation ${this.seconds}s linear infinite;
       `

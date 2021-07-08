@@ -89,7 +89,6 @@ export default {
   ],
   axios: {
     baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
-// Temp comment
     browserBaseURL: process.env.API_PUBLIC_PATH,
     proxy: true,
     proxyHeaders: true,

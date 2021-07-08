@@ -34,7 +34,6 @@ export default {
       authParams: {
         TwitterLogin: {
           provider: "twitter"
-        },
         GoogleLogin: {
           provider: "google"
         },

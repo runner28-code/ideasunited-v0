@@ -16,7 +16,6 @@
         <Button large to="/">Back to Home</Button>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
