@@ -86,6 +86,7 @@
       </span>
       <span v-else>
         Hide Chat
+        <v-icon>$menu_up</v-icon>
       </span>
     </div>
   </div>
@@ -126,7 +127,6 @@ export default {
   cursor: pointer;
   display: none;
 
-  span {
     display: flex;
     align-items: center;
   }

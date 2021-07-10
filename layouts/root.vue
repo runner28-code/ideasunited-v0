@@ -124,6 +124,5 @@ export default {
   },
   channels: {
     ProjectChannel: {
-      received({ payload, type }) {
         switch (type) {
           case "update_project_params":

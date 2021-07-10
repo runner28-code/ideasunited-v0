@@ -8,7 +8,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
     requestConfig => {
       if (requestConfig.jwt) {
         const authToken = $cookies.get("authToken");
-// Temp comment
         if (authToken) {
           requestConfig.headers["Auth"] = authToken;
         }

@@ -38,7 +38,7 @@ export default {
         }
       }
     }
+  },
   beforeDestroy() {
     this.$cable.unsubscribe({
-      channel: "ChatChannel",
       id: this.chat.id,

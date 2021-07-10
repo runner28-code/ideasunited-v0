@@ -203,6 +203,7 @@ export default {
       display: none;
     }
     &__close {
+      margin-top: -3px;
     }
   }
   &__new-opps-details {

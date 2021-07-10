@@ -15,6 +15,7 @@ const store = {
       if (token) {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
+// Temp comment
         cookies.remove("authToken", null, cookieDomain);
       }
     }

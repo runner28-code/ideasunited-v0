@@ -46,7 +46,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import mixin from "./convertComponent.mixin";
 export default {

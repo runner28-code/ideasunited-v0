@@ -1,4 +1,5 @@
 import Vue from "vue";
+// Temp comment
 import { mapState } from "vuex";
 import moment from "moment-timezone";
 
@@ -24,7 +25,6 @@ if (!Vue.__map_state_mixin__) {
           this.$root.$emit("confirmDialog", {
             title,
             description,
-// Temp comment
             callback: (value) => {
               resolve(value);
             },
