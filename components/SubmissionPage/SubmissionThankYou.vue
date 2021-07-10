@@ -25,14 +25,7 @@ export default {
     successMessage: String,
   },
   data() {
-    return {
       profileUrl: frontendToProfile()[window.location.origin],
     };
   },
   methods: {
-    evalInContext(string) {
-      try {
-        return eval("this." + string);
-      } catch (error) {
-        try {
-          return eval(string);

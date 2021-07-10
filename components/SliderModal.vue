@@ -49,6 +49,7 @@
     </v-dialog>
   </div>
 </template>
+
 <script>
 export default {
   name: "SliderModal",
@@ -58,7 +59,6 @@ export default {
     id: String,
     prevId: String,
     nextId: String,
-    scrollToElement: {
       type: Boolean,
       default: false
     }

@@ -38,7 +38,6 @@ export default {
       const live_seconds = (Date.now() - this.releaseTime) / 1000;
       if (data.seconds > live_seconds) {
         this.player.setCurrentTime(live_seconds - 1);
-      }
     });
     this.player.on("seeking", data => {
       const live_seconds = (Date.now() - this.firstStartAt) / 1000;

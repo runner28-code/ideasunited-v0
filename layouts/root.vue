@@ -31,7 +31,6 @@ export default {
   components: { HomePageLede, RootAppBar },
   data() {
     return {
-      drawer: false,
       timeouts: {},
       key: 0
     };
@@ -124,5 +123,6 @@ export default {
   },
   channels: {
     ProjectChannel: {
+      received({ payload, type }) {
         switch (type) {
           case "update_project_params":
