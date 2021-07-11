@@ -25,7 +25,7 @@ export default {
     successMessage: String,
   },
   data() {
+    return {
       profileUrl: frontendToProfile()[window.location.origin],
-    };
   },
   methods: {

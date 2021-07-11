@@ -16,12 +16,12 @@ export default {
         hid: "og-title",
         property: "og:title",
         content: this.currentProject?.headline
-      },
       {
         hid: "og-description",
         property: "og:description",
         content: this.currentProject?.og_description || this.currentProject?.description
       },
+      {
         name: "description",
         content: this.currentProject.description
       }

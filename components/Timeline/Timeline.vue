@@ -74,6 +74,7 @@ export default {
   },
   beforeDestroy() {
     this.$root.$off("nextEvent");
+    this.$root.$off("setActiveEvent");
     this.$root.$off("chapterChange");
     Object.values(this.timeouts).forEach(t => clearTimeout(t));
   },

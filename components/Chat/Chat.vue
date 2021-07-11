@@ -27,7 +27,6 @@ export default {
         env: this.currentProject.env
       });
     }
-  },
   channels: {
     ChatChannel: {
       received({ type, payload }) {

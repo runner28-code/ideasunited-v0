@@ -52,3 +52,4 @@ export default {
           .widget_submission_form_id,
         query: this.search,
         page: this.page
+      };

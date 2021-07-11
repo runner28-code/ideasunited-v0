@@ -20,6 +20,7 @@
         </div>
       </div>
     </v-responsive>
+
     <SliderModal
       :prevId="prevId"
       :nextId="nextId"

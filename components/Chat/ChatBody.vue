@@ -51,5 +51,4 @@ export default {
     },
     updateMessage(payload) {
       this.messages = this.messages.map(m => {
-        if (m.id == payload.id) {
           m.body = payload.body;
