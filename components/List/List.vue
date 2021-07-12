@@ -13,7 +13,6 @@
   </div>
 </template>
 
-<script>
 export default {
   props: {
     value: String,
@@ -33,3 +32,4 @@ export default {
         t =>
           !this.search ||
           (t.title + " " + t.subtitle).toLowerCase().includes(this.search)
+      );

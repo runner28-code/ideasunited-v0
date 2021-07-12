@@ -1,6 +1,5 @@
 <template>
   <transition name="fade">
-    <div class="content-section-item"
       v-if="!hiding"
       :class="{
         'content-section-item--no-content':
@@ -31,6 +30,7 @@
 
       <SliderModal
         :prevId="prevId"
+        :nextId="nextId"
         :id="block.id"
         name="content-section"
         v-model="dialog"

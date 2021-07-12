@@ -92,3 +92,4 @@ export default {
     disabled: Boolean
   },
   data() {
+    return {

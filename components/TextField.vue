@@ -12,7 +12,7 @@
     @change="$emit('change')"
     ref="input"
     validate-on-blur
-    :min="min"
+    :suffix="suffix"
     :max="max"
     :class="{ block }"
     :name="name"

@@ -16,3 +16,4 @@ export default {
     styles() {
       if(!this.activeTheme) return {};
       const font = this.activeTheme[`${this.tag}_font`];
+      return {

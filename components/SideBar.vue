@@ -67,6 +67,7 @@
         class="rightsidebar__item"
         :href="profileUrl"
         v-if="currentUser && currentUser.confirmed"
+        v-ripple="false"
       >
         User Portal
       </v-list-item>

@@ -28,10 +28,10 @@ export default {
     position: {
       type: String,
       default: "center"
-    },
     rules: {
       type: Array,
       default: () => []
+    },
     size: {
       type: String,
       default: "cover"

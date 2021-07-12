@@ -53,3 +53,4 @@ export default {
         query: this.search,
         page: this.page
       };
+      const { data } = await this.$api.Submission.get(params);

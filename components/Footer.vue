@@ -78,6 +78,7 @@ export default {
       if(!newValue){
         this.$root.$emit('resetSupportForm');
       }
+    }
   }
 };
 </script>

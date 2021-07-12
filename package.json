@@ -7,6 +7,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "generate": "nuxt generate",
     "deploy-staging": "MINA_CONFIG=deploy/staging.json mina deploy",
     "restart-staging": "pm2 kill && pm2 start",
     "deploy-production": "MINA_CONFIG=deploy/production.json mina deploy",
@@ -26,4 +27,3 @@
     "core-js": "^3.8.3",
     "epic-spinners": "^1.1.0",
     "fs": "^0.0.1-security",
-    "gsap": "^3.9.1",

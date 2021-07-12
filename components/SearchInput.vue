@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import { getThemeByColor } from "@/utils";
 
 export default {
   name: "SearchInput",
@@ -44,3 +43,4 @@ export default {
       this.$emit("input", value);
     }
   }
+};

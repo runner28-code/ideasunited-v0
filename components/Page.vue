@@ -175,6 +175,7 @@ export default {
           canvas.width = img.naturalWidth;
           canvas.height = img.naturalHeight;
           canvas.getContext("2d").drawImage(img, 0, 0);
+          const ext = this.srcExt(src);
           switch (ext) {
             case "png":
               this.preloadedImgBase64s[src] = canvas.toDataURL("image/png");
