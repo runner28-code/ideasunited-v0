@@ -18,4 +18,3 @@ export default {
   created() {}
 };
 </script>
-

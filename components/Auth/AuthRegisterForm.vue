@@ -32,6 +32,7 @@
           >
             {{ registrationForm.description }}
           </div>
+          <DynamicForm
             :submit="submit"
             :fields="registrationForm.registration_form"
             v-model="form"

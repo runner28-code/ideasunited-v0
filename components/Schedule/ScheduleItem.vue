@@ -11,6 +11,7 @@
       }}
     </div>
     <div class="schedule-item__content">
+      <Title class="schedule-item__title">{{ item.title }}</Title>
       <div
         v-if="item.description"
         class="schedule-item__description"
@@ -44,7 +45,6 @@ export default {
       if (url) {
         result.backgroundImage = `url(${url})`;
       } else {
-        result.border = "1px solid";
       }
 
       return result;

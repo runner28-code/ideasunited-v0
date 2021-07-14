@@ -73,3 +73,4 @@
           v-if="block.link_text"
           class="slider-modal-content__link"
           :href="block.link_url | url"
+          target="_blank"

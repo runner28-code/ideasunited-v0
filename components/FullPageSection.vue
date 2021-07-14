@@ -51,6 +51,7 @@
 import mixin from "./convertComponent.mixin";
 export default {
   extends: mixin,
+  props: {
     page: Object,
     idx: Number,
     formsDisabled: Boolean,
@@ -63,7 +64,6 @@ export default {
   computed: {
     mobileBgLedeStyles() {
       if (!this.page) return {};
-      const styles = {};
       const ledeBackground = this.page.lead_background;
       if (ledeBackground)
         styles.backgroundImage = `url(${ledeBackground.large.url})`;

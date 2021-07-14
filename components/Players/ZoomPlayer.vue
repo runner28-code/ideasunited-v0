@@ -46,7 +46,6 @@ export default {
   methods: {
     openZoomLink() {
       window.open(this.event.zoom_url, "_blank");
-    },
     async fetchSignature() {
       const { zoom_id, zoom_password } = this.event;
       const { full_name, email } = this.currentUser || {};

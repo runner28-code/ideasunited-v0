@@ -1,5 +1,6 @@
 export default {
   data() {
+    return {
       resending: false,
     }
   },
@@ -7,4 +8,3 @@ export default {
     async resendConfirmationEmail() {
       this.resending = true;
       try {
-        await this.$api.Auth.sendConfirmationEmail();

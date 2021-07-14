@@ -28,6 +28,7 @@ export default {
     this.$root.$on('leaveSignup', () => {
       window.location.href = frontendToProfile()[window.location.origin];
     });
+  },
 };
 </script>
 

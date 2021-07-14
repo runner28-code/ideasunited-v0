@@ -90,6 +90,7 @@ export default {
       };
 
       return (
+        this.$store.state.application.timelineAspectRatio ||
         aspectRatio[this.$size] ||
         16 / 8
       );

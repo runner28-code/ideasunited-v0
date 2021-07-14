@@ -10,7 +10,6 @@
       <component
         :is="`Dynamic${field.type}`"
         v-bind="field"
-        v-model="form.data[field.uuid]"
         :rules="rulesForField(field)"
         :mark-required="markRequired"
         v-show="showField(field)"
@@ -97,3 +96,4 @@ export default {
       try {
         await this.submit();
       } finally {
+        this.loading = false;
