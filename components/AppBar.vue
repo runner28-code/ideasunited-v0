@@ -71,6 +71,7 @@
               v-for="(menu, idx) in menuItem.menus"
               :key="idx"
               >{{ menu.menu_title }}</v-list-item
+            >
           </v-list>
         </v-menu>
         <a
@@ -199,7 +200,3 @@ export default {
       if (!this.mounted) return "";
       return this.opportunityLogo;
     },
-  },
-};
-</script>
-

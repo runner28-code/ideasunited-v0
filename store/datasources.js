@@ -8,7 +8,6 @@ const store = {
   mutations: {
     set(state, data) {
       state.data = data;
-    }
   },
   actions: {
     async fetch({ commit }) {

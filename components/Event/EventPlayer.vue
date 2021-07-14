@@ -29,3 +29,4 @@
 <script>
 export default {
   props: {
+    event: Object

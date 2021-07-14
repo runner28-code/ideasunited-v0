@@ -19,4 +19,5 @@ export default {
       return {
         fontWeight: font.weight,
         fontStyle: font.style,
+        fontSize: font.size + "px",
         textTransform: font.case,

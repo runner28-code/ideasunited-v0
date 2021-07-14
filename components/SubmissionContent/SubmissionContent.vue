@@ -55,3 +55,4 @@ export default {
       };
       const { data } = await this.$api.Submission.get(params);
       this.page += 1;
+

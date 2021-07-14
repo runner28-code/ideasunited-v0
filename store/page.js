@@ -10,7 +10,7 @@ const store = {
     updateChat(state, chat) {
       state.current.chats[chat.id] = chat;
     },
-      const collection = state.current?.events;
+    publishEvent(state, id) {
       const payload = { posted: true };
       updateCollection({ collection, id, payload });
     },

@@ -48,3 +48,4 @@ export default {
       dialog: false,
       sidebar: false,
       data: null
+    };

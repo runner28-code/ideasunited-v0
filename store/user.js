@@ -8,14 +8,12 @@ const store = {
     set(state, user) {
       state.current = user;
     },
-// Temp comment
   },
   actions: {
     async fetch({ commit }) {
       const token = this.$cookies.get("authToken");
 
       if (token && process.client) {
-        const { data } = await this.$api.User.current();
         commit("set", data);
         const cookieDomain =
           process.env.NODE_ENV === "development"

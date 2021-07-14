@@ -30,6 +30,7 @@ export async function buildZoomLink({
     if (urlParams != "") {
       urlParams += "&";
     }
+    urlParams += key + "=" + encodeURIComponent(params[key]);
   }
 
   return "/zoom/iframe.zoom.html?" + urlParams;
