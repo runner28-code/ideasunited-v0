@@ -10,5 +10,4 @@ const store = {
       state.data = data;
     }
   },
-  actions: {
     async fetch({ commit }) {

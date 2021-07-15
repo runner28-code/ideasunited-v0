@@ -5,7 +5,6 @@
         <div class="submission-item__content">
           <div
             :class="[
-              's-' + field.class_name,
               'submission-item__content--' + field.type
             ]"
             v-for="field in content"
@@ -60,6 +59,7 @@ export default {
         }))
         .filter(t => t);
     },
+    formattedData() {
       const result = {};
       this.item.formatted_data.forEach(t => (result[t.uuid] = t));
       return result;
@@ -73,3 +73,4 @@ export default {
     },
     styles() {
       const styles = {
+        backgroundColor: this.color

@@ -35,3 +35,4 @@
 </template>
 
 <script>
+export default {

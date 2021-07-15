@@ -18,3 +18,4 @@
   </v-checkbox>
 </template>
 
+<script>

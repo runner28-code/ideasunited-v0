@@ -94,3 +94,4 @@ export default {
     },
     handleFileChange(file) {
       if(!file) return;
+      file.uuid = uuidv4();

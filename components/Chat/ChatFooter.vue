@@ -21,6 +21,7 @@
         placeholder="Say something"
         v-model="message"
         maxlength="200"
+      ></v-textarea>
       <div class="chat-footer__actions-bottom">
         <div>
           <v-menu left offset-x content-class="chat-footer__actions-emoji">
@@ -51,7 +52,6 @@
 import { stripMessage } from "@/utils";
 import cookies from "vue-cookies";
 
-export default {
   props: { chat: Object },
   data() {
     return { message: "" };
@@ -63,3 +63,4 @@ export default {
     sendMessage(event) {
       if (!event.shiftKey && this.message.replace(/(\s|\n)+/g, "").length) {
         event.preventDefault();
+        const data = {

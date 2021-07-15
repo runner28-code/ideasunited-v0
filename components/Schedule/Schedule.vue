@@ -8,6 +8,7 @@
       <div
         class="schedule__group"
         v-for="group in groupedItems"
+        :key="group.date"
       >
         <div class="schedule__date">
           {{
@@ -35,3 +36,4 @@ export default {
     },
     groupedItems() {
       const groups = _.groupBy(this.schedule.items, t =>
+        this.$moment

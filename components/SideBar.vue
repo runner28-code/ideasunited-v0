@@ -147,3 +147,7 @@ export default {
         this.$emit("changeKey");
       } else {
         this.$emit('input', false);
+      }
+    },
+    logoClick() {
+      window.location.href = "/";

@@ -22,6 +22,7 @@
       </div>
       <div v-if="!registrationForm.login_form || chooseSignUp">
         <Title
+          v-if="registrationForm.title"
           tag="h2"
           class="registration-form__title"
           >{{ registrationForm.title }}</Title
@@ -93,3 +94,4 @@ export default {
   data() {
     return {
       form: {
+        registration_form_id: this.value,

@@ -3,7 +3,6 @@
     <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
     <ChatFooter :chat="chat" />
-  </div>
 </template>
 
 <script>
@@ -43,3 +42,4 @@ export default {
     this.$cable.unsubscribe({
       channel: "ChatChannel",
       id: this.chat.id,
+      env: this.currentProject.env

@@ -79,6 +79,7 @@ export default {
     Object.values(this.timeouts).forEach(t => clearTimeout(t));
   },
   methods: {
+    nextEvent() {
       console.info("nextEvent");
       const idx = this.events.findIndex(t => t.id == this.value?.id);
       console.info("nextEvent idx", idx);
@@ -112,3 +113,6 @@ export default {
       this.$root.$on("nextEvent", () => this.nextEvent());
       this.$root.$on("nextEventIfPlaying", id => {
         console.info("nextEventIfPlaying id", id);
+        this.$root.$emit("checkPosted");
+        if (this.value.id == id) this.nextEvent();
+      });

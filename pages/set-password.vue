@@ -53,3 +53,4 @@ export default {
       try {
         const { data } = await this.$api.Auth.setPassword({
           ...this.form,
+          token: this.token

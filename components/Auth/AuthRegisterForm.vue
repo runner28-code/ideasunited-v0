@@ -50,6 +50,7 @@
           Thank you!
         </Title>
         <div v-if="!currentUser.confirmed">
+          <p class="register__thank-you_message">
             Please check your email and click the verification link,
             which will direct you to your first log in.
           </p>
@@ -125,3 +126,4 @@ export default {
     backToLogin() {
       this.chooseSignUp = false;
       this.updateDialogState();
+    },

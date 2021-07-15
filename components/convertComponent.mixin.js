@@ -1,5 +1,4 @@
 import ContentSection from "./ContentSection/ContentSection";
-// Temp comment
 import Event from "./Event/Event";
 import Countdown from "./Countdown";
 import TextBlock from "./TextBlock/TextBlock";
@@ -14,6 +13,7 @@ import Presentation from "./Presentation/Presentation";
 import RegistrationForm from "./RegistrationForm";
 import Faq from "./Faq";
 import TimelineList from "./TimelineList";
+// Temp comment
 
 export default {
   components: {

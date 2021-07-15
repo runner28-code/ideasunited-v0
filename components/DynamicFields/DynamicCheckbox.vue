@@ -27,3 +27,4 @@ export default {
     rules: {
       type: Array,
       default: () => []
+    },

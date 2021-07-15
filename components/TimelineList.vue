@@ -40,7 +40,6 @@ export default {
 <style lang="scss" scoped>
 .timeline-list {
   &__ul {
-    list-style: none;
     padding-left: 0;
     li {
       display: flex;

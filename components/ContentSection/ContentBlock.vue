@@ -30,7 +30,6 @@
       </div>
 
       <SliderModal
-        :prevId="prevId"
         :nextId="nextId"
         :id="block.id"
         name="content-section"
@@ -90,3 +89,4 @@ export default {
         this.dialog = true;
       }
     }
+  },

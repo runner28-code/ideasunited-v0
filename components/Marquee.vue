@@ -8,12 +8,12 @@
 
 <script>
 export default {
+  data() {
     return {
       seconds: 25,
       animating: false
     }
   },
-  computed: {
     animStyle() {
       if (!this.animating) return ''
       return `

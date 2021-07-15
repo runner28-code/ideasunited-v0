@@ -1,4 +1,4 @@
-  <div v-html="html"></div>
+<template>
 </template>
 
 <script>

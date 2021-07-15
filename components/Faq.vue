@@ -59,3 +59,4 @@ export default {
         return items;
       }
     },
+    items2() {

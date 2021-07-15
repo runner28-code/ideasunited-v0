@@ -37,3 +37,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
     function(error) {
       return Promise.reject(error);
     }
+  );
