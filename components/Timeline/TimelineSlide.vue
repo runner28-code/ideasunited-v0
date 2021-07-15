@@ -100,3 +100,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.timeline-slide__wrapper {

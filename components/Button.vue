@@ -37,3 +37,4 @@ export default {
     href: String,
     target: String,
     disabled: Boolean
+  },

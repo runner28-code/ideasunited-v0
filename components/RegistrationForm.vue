@@ -22,7 +22,6 @@
       </div>
       <div v-if="!registrationForm.login_form || chooseSignUp">
         <Title
-          v-if="registrationForm.title"
           tag="h2"
           class="registration-form__title"
           >{{ registrationForm.title }}</Title
@@ -62,6 +61,7 @@
         which will direct you to your first log in.
       </p>
       <div class="registration-form__buttons">
+        <Button
           :refs="$refs"
           :disabled="resending"
           @click="resendConfirmationEmail()"
@@ -92,3 +92,4 @@ export default {
   },
   data() {
     return {
+      form: {

@@ -5,7 +5,6 @@
     <Page v-else-if="status == 200" />
   </div>
 </template>
-
 <script>
 import _ from "lodash";
 export default {
@@ -58,3 +57,4 @@ export default {
   },
   channels: {
     PageChannel: {
+      received({ payload, type }) {

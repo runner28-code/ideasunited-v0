@@ -38,6 +38,7 @@ export default {
   props: {
     placeholder: String,
     label: String,
+    value: [String, Number],
     type: {
       type: String,
       default: "text"

@@ -41,3 +41,4 @@ export default {
           this.form.data = {};
           this.submitted = false;
         }, 500);
+      }

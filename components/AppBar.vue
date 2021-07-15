@@ -200,3 +200,5 @@ export default {
       if (!this.mounted) return "";
       return this.opportunityLogo;
     },
+  },
+};

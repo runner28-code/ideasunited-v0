@@ -11,6 +11,7 @@
       ></div>
 
       <Button
+        v-if="currentPage.lead_button_text"
         x-large
         :href="currentPage.lead_button_link"
         >{{ currentPage.lead_button_text }}</Button
@@ -32,3 +33,4 @@ export default {
 
       if (lead_text_color) {
         styles.color = lead_text_color;
+      }

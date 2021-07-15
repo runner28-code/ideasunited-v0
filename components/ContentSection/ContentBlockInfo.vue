@@ -35,6 +35,7 @@
       </v-responsive>
     </div>
     <div class="slider-modal-content__side slider-modal-content__content">
+      <div>
         <Title
           :style="{ color: activeTheme.primary_color }"
           class="slider-modal-content__title"
@@ -74,3 +75,5 @@
           :href="block.link_url | url"
           target="_blank"
           large
+          >{{ block.link_text }}</Button
+        >

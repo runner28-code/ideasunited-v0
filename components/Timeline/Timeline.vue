@@ -79,7 +79,6 @@ export default {
     Object.values(this.timeouts).forEach(t => clearTimeout(t));
   },
   methods: {
-    nextEvent() {
       console.info("nextEvent");
       const idx = this.events.findIndex(t => t.id == this.value?.id);
       console.info("nextEvent idx", idx);
@@ -109,3 +108,7 @@ export default {
 
         window.scroll({ top: 0, left: 0, behavior: "smooth" });
       });
+
+      this.$root.$on("nextEvent", () => this.nextEvent());
+      this.$root.$on("nextEventIfPlaying", id => {
+        console.info("nextEventIfPlaying id", id);

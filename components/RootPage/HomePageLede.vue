@@ -269,3 +269,4 @@ export default {
         windowAspectRatio / 1.2 :
         1.2 / windowAspectRatio;
       this.irisEnding = {
+        duration: 0.5 * irisEndingFactor,

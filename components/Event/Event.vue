@@ -156,3 +156,4 @@ export default {
     justify-content: center;
   }
 
+  &__title {
