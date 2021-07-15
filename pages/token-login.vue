@@ -14,6 +14,5 @@ export default {
         this.$router.push("/");
       }
     }
-  },
   methods: {
     async login(token) {

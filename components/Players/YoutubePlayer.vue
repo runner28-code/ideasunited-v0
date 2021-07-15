@@ -10,5 +10,6 @@
   ></iframe>
 </template>
 
+<script>
 export default {
   name: "YoutubePlayer",

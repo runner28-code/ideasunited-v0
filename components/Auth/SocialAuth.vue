@@ -11,7 +11,6 @@
       }}</Button>
     </div>
     <div v-if="items.length" class="social-auth">
-      <div
         @click="oauth(item.provider)"
         class="social-auth__item"
         :class="['social-auth__item--' + item.provider]"

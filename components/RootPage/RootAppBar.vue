@@ -170,7 +170,6 @@ export default {
   background-color: #E12D1B !important;
   &::v-deep {
     .v-toolbar__content {
-      padding: 0 30px 0 0 !important;
     }
   }
   &__menu {

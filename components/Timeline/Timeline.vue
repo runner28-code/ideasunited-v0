@@ -109,33 +109,3 @@ export default {
 
         window.scroll({ top: 0, left: 0, behavior: "smooth" });
       });
-
-      this.$root.$on("nextEvent", () => this.nextEvent());
-      this.$root.$on("nextEventIfPlaying", id => {
-        console.info("nextEventIfPlaying id", id);
-        this.$root.$emit("checkPosted");
-        if (this.value.id == id) this.nextEvent();
-      });
-
-      this.$root.$on("chapterChange", data => {
-        const event = this.events.find(
-          t =>
-            t.vimeo_id == data.vimeo_id && t.vimeo_chapter == data.vimeo_chapter
-        );
-
-        this.setActive(event?.id);
-      });
-    },
-    initEvent() {
-      let { event_id, block_id } = this.$route.query;
-      if (block_id) return;
-      let activeId = _.find(this.events, t => t.id == event_id && t.posted)?.id;
-
-      if (!activeId) {
-        activeId = _.findLast(this.events, t => t.posted)?.id;
-      }
-
-      this.setActive(activeId);
-    },
-    availableEvent(event) {
-      return (
