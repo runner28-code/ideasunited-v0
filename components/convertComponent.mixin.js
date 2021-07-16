@@ -13,7 +13,6 @@ import Presentation from "./Presentation/Presentation";
 import RegistrationForm from "./RegistrationForm";
 import Faq from "./Faq";
 import TimelineList from "./TimelineList";
-// Temp comment
 
 export default {
   components: {

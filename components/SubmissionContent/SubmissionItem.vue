@@ -5,6 +5,7 @@
         <div class="submission-item__content">
           <div
             :class="[
+              's-' + field.class_name,
               'submission-item__content--' + field.type
             ]"
             v-for="field in content"
@@ -24,7 +25,6 @@
       :prevId="prevId"
       :nextId="nextId"
       :id="item.id"
-      name="article"
       scrollToElement
       v-model="dialog"
     >

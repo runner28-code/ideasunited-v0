@@ -34,6 +34,7 @@
           <div class="slider-modal__content-wrapper" @click.stop>
             <v-btn
               @click="close"
+              class="close elevation-0"
               fab
               small
             >

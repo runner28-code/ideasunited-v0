@@ -113,7 +113,6 @@
         <v-icon color="#E12D1B" size="32">{{
           drawer ? "$close" : "$account_menu"
         }}</v-icon>
-      </v-btn>
     </div>
   </v-app-bar>
 </template>

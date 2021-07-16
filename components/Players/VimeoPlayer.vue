@@ -19,7 +19,6 @@ export default {
     firstStartAt: {
       type: Number,
       default: 0
-    },
     autoplay: {
       type: Boolean,
       default: true,

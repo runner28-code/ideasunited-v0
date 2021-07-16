@@ -1,4 +1,5 @@
 <template>
+  <div
     class="presentation-image"
     :style="{
       backgroundImage: `url(${slide.preview ? slide.preview.url : ''})`
@@ -9,4 +10,3 @@
 <script>
 export default {
   props: {
-    slide: Object

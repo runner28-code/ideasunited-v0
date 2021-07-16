@@ -19,7 +19,6 @@
           >$chevron_right</v-icon
         >
       </a>
-      <div class="content-section__title__underline" v-rellax="{speed: -0.25, center: true, percentage: 0.5}"></div>
     </Title>
     <div v-if="contentSection.subtitle" class="content-section__subtitle">
       {{ contentSection.subtitle }}

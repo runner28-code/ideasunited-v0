@@ -14,6 +14,7 @@ export default {
       animating: false
     }
   },
+  computed: {
     animStyle() {
       if (!this.animating) return ''
       return `

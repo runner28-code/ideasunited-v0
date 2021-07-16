@@ -59,14 +59,3 @@ import _ from "lodash";
 export default {
   props: {
     id: String,
-    title: String,
-    description: String,
-    btnText: String,
-    successMessage: String,
-    fields: Array,
-    submissionForm: Object,
-  },
-  data() {
-    return {
-      form: null,
-      submitted: false,

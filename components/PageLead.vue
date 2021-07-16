@@ -9,6 +9,7 @@
         class="page-lead__description"
         v-html="currentPage.lead_description"
       ></div>
+
       <Button
         v-if="currentPage.lead_button_text"
         x-large
@@ -30,6 +31,5 @@ export default {
         styles.backgroundImage = `url(${lead_background.large.url})`;
       }
 
-      if (lead_text_color) {
         styles.color = lead_text_color;
       }
