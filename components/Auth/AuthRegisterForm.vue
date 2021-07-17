@@ -1,5 +1,6 @@
 <template>
   <div class="auth-register-form">
+    <div v-if="registrationForm">
       <div v-if="!currentUser">
         <div v-show="registrationForm.login_form && !chooseSignUp" class="auth-register-form__login">
           <AuthForm
@@ -126,3 +127,6 @@ export default {
       this.chooseSignUp = false;
       this.updateDialogState();
     },
+    clickRegister() {
+      this.loginFormRequest = true;
+      this.chooseSignUp = true;

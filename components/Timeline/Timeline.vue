@@ -50,6 +50,7 @@ export default {
           0: {
             slidesPerView: 1.2,
             spaceBetween: 20
+          },
 
           960: {
             slidesPerView: 3,
@@ -115,3 +116,6 @@ export default {
         this.$root.$emit("checkPosted");
         if (this.value.id == id) this.nextEvent();
       });
+
+      this.$root.$on("chapterChange", data => {
+        const event = this.events.find(

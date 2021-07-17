@@ -73,7 +73,6 @@ export default {
     this.$root.$on(this.triggerName, id => {
       if (this.id == id) {
         this.$emit("input", true);
-
         if (this.scrollToElement) {
           const y = this.$el.getBoundingClientRect().top + window.scrollY;
           window.scroll({

@@ -25,6 +25,7 @@
       :prevId="prevId"
       :nextId="nextId"
       :id="item.id"
+      name="article"
       scrollToElement
       v-model="dialog"
     >
@@ -37,7 +38,6 @@
 import { getHash } from "@/utils";
 
 export default {
-  props: {
     item: Object,
     prevId: String,
     nextId: String,

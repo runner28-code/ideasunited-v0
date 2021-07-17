@@ -35,3 +35,4 @@ export default {
   },
   methods: {
     async play() {
+      this.player.setCurrentTime(this.newSlideSettings.time || 0);

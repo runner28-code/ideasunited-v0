@@ -4,6 +4,7 @@
       class="chat-header__status"
       :class="`chat-header__status--${status}`"
     ></div>
+    <div class="chat-header__title">{{ chat.title || "Chat" }}</div>
   </div>
 </template>
 
@@ -33,3 +34,4 @@ export default {
   box-shadow: 0px 0px 5px -1px rgb(0 0 0 / 15%);
   position: relative;
   z-index: 1;
+  display: flex;

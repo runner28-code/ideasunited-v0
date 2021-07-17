@@ -58,3 +58,4 @@ export default {
 
       const ids = this.list.map(t => t.id);
       const newData = data.filter(t => !ids.includes(t.id));
+

@@ -49,3 +49,4 @@ export default {
       sidebar: false,
       data: null
     };
+  },

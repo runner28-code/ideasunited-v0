@@ -8,6 +8,7 @@
             <div class="countdown-timer__item-value">{{ days }}</div>
             <div class="countdown-timer__item-label">days</div>
           </div>
+          <div class="countdown-timer__item">
             <div class="countdown-timer__item-value">
               {{ hours }}
             </div>
@@ -107,3 +108,4 @@ export default {
       this.minutes = minutes < 10 ? "0" + minutes : minutes;
       this.seconds = seconds < 10 ? "0" + seconds : seconds;
     }
+  },

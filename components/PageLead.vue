@@ -31,5 +31,6 @@ export default {
         styles.backgroundImage = `url(${lead_background.large.url})`;
       }
 
+      if (lead_text_color) {
         styles.color = lead_text_color;
       }

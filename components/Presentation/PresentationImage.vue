@@ -1,4 +1,3 @@
-<template>
   <div
     class="presentation-image"
     :style="{
@@ -10,3 +9,4 @@
 <script>
 export default {
   props: {
+    slide: Object

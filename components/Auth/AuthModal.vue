@@ -44,3 +44,4 @@ export default {
   },
   methods: {
     cancel() {
+      this.opened = false;

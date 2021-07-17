@@ -160,3 +160,4 @@ export default {
   computed: {
     styles() {
       return `
+        <style rel="stylesheet" type="text/css">

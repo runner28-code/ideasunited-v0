@@ -58,7 +58,6 @@ export default {
     message: Object,
     chat: Object
   },
-  methods: {
     deleteMessage() {
       this.$api.Message.destroy(this.message.id);
     },
