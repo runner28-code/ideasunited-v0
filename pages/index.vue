@@ -8,6 +8,7 @@
 
 <script>
 export default {
+  layout: 'root',
   computed: {
     status() {
       if (!this.page && !this.currentProject) return 404;

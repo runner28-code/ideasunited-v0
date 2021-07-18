@@ -16,6 +16,7 @@
         v-show="showField(field)"
         :label="field.label"
         :show-label="showLabel"
+        :addon-data="addonData(field)"
         :file-input="field.file_input"
       ></component>
     </div>
@@ -104,3 +105,4 @@ export default {
 
       const conditionalField = this.fields.find(
         (f) => f.uuid == field.conditional_uuid
+      );

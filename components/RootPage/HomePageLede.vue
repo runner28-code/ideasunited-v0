@@ -41,7 +41,6 @@
       </div>
     </div>
     <div class="root-lede__content" ref="content">
-      <v-responsive
         :aspect-ratio="aspectRatio"
       >
         <div class="root-lede__text-wrapper">
@@ -273,3 +272,5 @@ export default {
         size: 200 * irisEndingFactor,
       }
     },
+    fullscreenToggle() {
+      if (document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {

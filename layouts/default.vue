@@ -92,7 +92,6 @@ export default {
         this.$WebFont.load({
           google: {
             families: _.uniq(
-              googleFonts.map((font) => font.font_name + ":300,400,500,700,900")
             ),
           },
         });
@@ -161,3 +160,4 @@ export default {
     styles() {
       return `
         <style rel="stylesheet" type="text/css">
+          .v-application {

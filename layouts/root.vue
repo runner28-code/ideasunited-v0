@@ -37,7 +37,6 @@ export default {
     };
   },
   created() {
-    this.$store.dispatch("application/init");
 
     if (process.client) {
       this.$cable.subscribe({
@@ -128,3 +127,4 @@ export default {
         switch (type) {
           case "update_project_params":
             this.$store.commit("project/set", payload);
+            break;

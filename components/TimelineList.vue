@@ -21,6 +21,7 @@ export default {
     value: String,
     page: Object,
   },
+  computed: {
     timelineList() {
       return (this.page || this.currentPage).timeline_lists[this.value];
     },

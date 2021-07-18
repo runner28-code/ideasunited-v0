@@ -41,7 +41,6 @@
       @close="areYouSureDialog = false"
       @submit="register"
     />
-  </div>
 </template>
 
 <script>
@@ -110,3 +109,4 @@ export default {
     }
   },
 };
+</script>

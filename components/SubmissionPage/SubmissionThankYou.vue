@@ -33,3 +33,4 @@ export default {
     evalInContext(string) {
       try {
         return eval("this." + string);
+      } catch (error) {

@@ -71,3 +71,4 @@ export default {
     padding: 15px;
 
     &.clickable {
+      cursor: pointer;

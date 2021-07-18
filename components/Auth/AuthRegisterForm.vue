@@ -90,7 +90,6 @@ export default {
       registrationForm: null,
       loginFormRequest: false,
     };
-  },
   mounted() {
     this.fetchForm();
     if (this.dialogState) {
@@ -130,3 +129,4 @@ export default {
     clickRegister() {
       this.loginFormRequest = true;
       this.chooseSignUp = true;
+      this.updateDialogState();

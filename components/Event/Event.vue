@@ -152,9 +152,11 @@ export default {
     background: #e5e5e5;
     height: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
   }
 
   &__title {
     font-size: 12px;
     font-weight: bold;
+    padding: 24px 40px;

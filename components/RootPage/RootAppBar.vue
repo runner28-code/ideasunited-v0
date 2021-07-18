@@ -127,6 +127,7 @@ export default {
     goToOpps() {
       window.location.href = frontendToProfile()[window.location.origin] + "/opportunities";
     },
+    updateNewOppDetail() {
       if(!this.newOpps || this.newOpps.length == 0) {
         this.newOppDetail = null;
         return;
@@ -216,3 +217,4 @@ export default {
     border: 1px solid #FFFFFF;
     border-radius: 10px;
     z-index: 2;
+    display: flex;

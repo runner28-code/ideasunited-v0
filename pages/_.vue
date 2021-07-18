@@ -59,3 +59,4 @@ export default {
   channels: {
     PageChannel: {
       received({ payload, type }) {
+        switch (type) {

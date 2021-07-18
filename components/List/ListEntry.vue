@@ -19,6 +19,7 @@
 
 <script>
 export default {
+  props: {
     entry: Object
   }
 };
@@ -31,3 +32,4 @@ export default {
   display: flex;
 
   &__preview {
+    width: 40px;

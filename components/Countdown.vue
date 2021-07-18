@@ -109,3 +109,6 @@ export default {
       this.seconds = seconds < 10 ? "0" + seconds : seconds;
     }
   },
+  beforeDestroy() {
+    if (this.interval) clearInterval(this.interval);
+  },

@@ -96,3 +96,4 @@ export default {
       form: {
         registration_form_id: this.value,
         data: {}
+      },

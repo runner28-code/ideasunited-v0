@@ -54,7 +54,6 @@ export default {
     return {
       dialog: false
     };
-  },
   mounted() {
     const { block_id } = this.$route.query;
 
@@ -92,3 +91,4 @@ export default {
     }
   },
   computed: {
+    styles() {

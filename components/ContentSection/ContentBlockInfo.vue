@@ -39,7 +39,6 @@
         <Title
           :style="{ color: activeTheme.primary_color }"
           class="slider-modal-content__title"
-          >{{ block.title }}</Title
         >
         <div v-if="block.creator">
           <div
@@ -80,3 +79,5 @@
       </div>
     </div>
   </div>
+</template>
+

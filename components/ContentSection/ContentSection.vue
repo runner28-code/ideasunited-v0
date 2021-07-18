@@ -170,7 +170,6 @@ export default {
             this.timeouts[`start_${t.id}`] = setTimeout(() => {
               this.$store.commit("page/publishContentBlock", {
                 blockId: t.id,
-                sectionId: this.contentSection.id
               });
             }, untilStart);
           }
@@ -203,3 +202,4 @@ export default {
       );
     }
   }
+};
