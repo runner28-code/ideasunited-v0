@@ -72,6 +72,7 @@ export default {
       return this.value.id == this.active?.id;
     },
     styles() {
+      const preview =
         this.value.preview?.thumb?.url ||
         this.activeTheme.event_preview?.thumb?.url;
 

@@ -72,7 +72,6 @@ export default {
         window.location.href = frontendToProfile()[window.location.origin] + "/faq";
       }
     }
-  },
   watch:{
     supportDialog:function(newValue, old){
       if(!newValue){

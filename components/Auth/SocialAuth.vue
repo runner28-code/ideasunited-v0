@@ -40,7 +40,6 @@ export default {
         },
         FacebookLogin: {
           provider: "facebook"
-        },
         LinkedinLogin: {
           provider: "linkedin"
         }

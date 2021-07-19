@@ -32,6 +32,7 @@ export default {
         data: {}
       },
       submitted: false
+    };
   },
   mounted(){
     this.$root.$on('resetSupportForm', () => {

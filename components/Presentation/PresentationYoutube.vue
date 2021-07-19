@@ -13,6 +13,7 @@ export default {
     presentation: Object
   },
   data() {
+    return { started: false };
   },
   mounted() {
     this.player = new YouTubePlayer("youtube-player", {
@@ -34,7 +35,6 @@ export default {
     async play() {
       this.player.seekTo(this.newSlideSettings.time || 0);
       if (this.newSlideSettings.state == "play") {
-        this.player.playVideo();
       }
       if (this.newSlideSettings.state == "pause") {
         this.player.pauseVideo();

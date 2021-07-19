@@ -19,6 +19,7 @@
 
 <script>
 export default {
+  layout: 'simple',
   data() {
     return {
       formModel: null,
@@ -37,6 +38,5 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .forgot-password-page {
   position: absolute;

@@ -37,7 +37,6 @@
                 @top="fullPageToTop()"
                 class="section fp-auto-height-responsive"
                 ref="sections"
-                :forms-disabled="idx != currentSlide && idx - 1 != currentSlide"
               />
             </full-page>
           </no-ssr>

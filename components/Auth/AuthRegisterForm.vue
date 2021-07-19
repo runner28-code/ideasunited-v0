@@ -90,6 +90,7 @@ export default {
       registrationForm: null,
       loginFormRequest: false,
     };
+  },
   mounted() {
     this.fetchForm();
     if (this.dialogState) {

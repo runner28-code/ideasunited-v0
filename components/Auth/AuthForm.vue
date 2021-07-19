@@ -41,6 +41,7 @@
       @close="areYouSureDialog = false"
       @submit="register"
     />
+  </div>
 </template>
 
 <script>

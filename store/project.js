@@ -9,6 +9,7 @@ const store = {
       state.current = current;
     },
   },
+// Temp comment
   actions: {
     async fetch({ commit }) {
       const { data } = await this.$api.Project.current({

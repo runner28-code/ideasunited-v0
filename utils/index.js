@@ -45,7 +45,6 @@ export function stripMessage(message) {
     .join(" ");
 }
 
-export function copyToClipboard(str) {
   const el = document.createElement("textarea");
   el.value = str;
   el.setAttribute("readonly", "");

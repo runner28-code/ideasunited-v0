@@ -82,7 +82,6 @@
     "@babel/helper-split-export-declaration" "^7.16.0"
 
 "@babel/helper-create-regexp-features-plugin@^7.16.0":
-  version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.16.0.tgz#06b2348ce37fccc4f5e18dcd8d75053f2a7c44ff"
   integrity sha512-3DyG0zAFAZKcOp7aVr33ddwkxJ0Z0Jr5V99y3I690eYLpukJsJvAbzTy1ewoCqsML8SbIrjH14Jc/nSQ4TvNPA==
   dependencies:

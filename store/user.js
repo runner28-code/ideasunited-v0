@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Vue from "vue";
 
 const store = {
@@ -21,4 +22,3 @@ const store = {
             : "." + window.location.hostname;
         var d = new Date();
         d.setDate(d.getDate() + 7);
-        this.$cookies.set(
