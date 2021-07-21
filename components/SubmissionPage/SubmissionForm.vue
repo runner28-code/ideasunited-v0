@@ -19,7 +19,6 @@
               and we'll make it right!
             </div>
             <div>
-              <br />
               <Button @click="supportDialog = true">Contact Us</Button>
             </div>
           </div>

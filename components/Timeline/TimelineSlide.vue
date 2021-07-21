@@ -54,7 +54,6 @@ export default {
         if (this.value.url) {
           window.open(this.value.url, "_blank");
         }
-      }
     }
   },
   computed: {

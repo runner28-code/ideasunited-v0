@@ -3,7 +3,6 @@ import list from "./stopwords.json";
 class Filter {
   constructor(options = {}) {
     Object.assign(this, {
-// Temp comment
       list,
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
@@ -12,6 +11,7 @@ class Filter {
       replaceRegex: options.replaceRegex || /\w/g
     });
   }
+// Temp comment
 
   isProfane(string) {
     return (

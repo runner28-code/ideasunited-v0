@@ -39,7 +39,6 @@
             ? {
                 backgroundColor: menuItem.menu_button_background,
                 color: menuItem.menu_button_text_color,
-              }
             : {}
         "
       >

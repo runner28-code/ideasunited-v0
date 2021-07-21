@@ -35,6 +35,7 @@ export default {
     async play() {
       this.player.seekTo(this.newSlideSettings.time || 0);
       if (this.newSlideSettings.state == "play") {
+        this.player.playVideo();
       }
       if (this.newSlideSettings.state == "pause") {
         this.player.pauseVideo();

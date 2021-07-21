@@ -7,7 +7,6 @@
       class="forgot-password-page__form"
     >
       <div class="forgot-password-page__title">New Password</div>
-      <TextField label="Password" v-model="form.password" type="password" />
       <TextField
         label="Password Confirmation"
         v-model="form.password_confirmation"
@@ -37,6 +36,7 @@ export default {
   },
   methods: {
     async checkPasswordToken() {
+      try {
         const { data } = await this.$api.Auth.checkPasswordToken({
           token: this.token
         });

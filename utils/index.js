@@ -35,6 +35,7 @@ export async function buildZoomLink({
 
   return "/zoom/iframe.zoom.html?" + urlParams;
 }
+// Temp comment
 
 export function stripMessage(message) {
   return message
@@ -45,6 +46,7 @@ export function stripMessage(message) {
     .join(" ");
 }
 
+export function copyToClipboard(str) {
   const el = document.createElement("textarea");
   el.value = str;
   el.setAttribute("readonly", "");

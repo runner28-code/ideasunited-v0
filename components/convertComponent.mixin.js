@@ -19,6 +19,5 @@ export default {
     ContentSection,
     Countdown,
     Event,
-    TextBlock,
     Schedule,
     List,

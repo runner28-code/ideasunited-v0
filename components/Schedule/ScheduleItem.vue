@@ -12,7 +12,6 @@
     </div>
     <div class="schedule-item__content">
       <Title class="schedule-item__title">{{ item.title }}</Title>
-      <div
         v-if="item.description"
         class="schedule-item__description"
         v-html="item.description"

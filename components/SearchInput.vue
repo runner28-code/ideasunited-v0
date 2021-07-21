@@ -41,13 +41,13 @@ export default {
       }
     },
     localValue(value) {
+      this.$emit("input", value);
     }
   }
 };
 </script>
 
 <style scoped lang="scss">
-.search-input {
   height: 46px;
   position: relative;
   // max-width: 600px;
