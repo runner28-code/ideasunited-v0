@@ -112,3 +112,6 @@ export default {
   beforeDestroy() {
     if (this.interval) clearInterval(this.interval);
   },
+  watch: {
+    value: {
+      deep: true,

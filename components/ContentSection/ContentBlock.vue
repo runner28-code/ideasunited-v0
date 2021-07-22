@@ -53,6 +53,7 @@ export default {
   data() {
     return {
       dialog: false
+    };
   },
   mounted() {
     const { block_id } = this.$route.query;
@@ -92,3 +93,5 @@ export default {
   },
   computed: {
     styles() {
+      let preview = this.activeTheme.content_block_preview?.thumb?.url;
+

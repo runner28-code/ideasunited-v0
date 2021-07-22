@@ -30,3 +30,4 @@ export default {
     value: [String, Object, Number, Boolean],
     options: {
       type: Array,
+      default: () => []

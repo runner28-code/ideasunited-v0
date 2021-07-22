@@ -67,3 +67,5 @@ export default {
         this.localType = "text";
       } else {
         this.localType = "password";
+      }
+    },

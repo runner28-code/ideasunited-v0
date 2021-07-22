@@ -97,3 +97,5 @@ export default {
         registration_form_id: this.value,
         data: {}
       },
+      areYouSureDialog: false,
+      emailValidationSuggestions: [],

@@ -131,3 +131,4 @@ export default {
       this.loginFormRequest = true;
       this.chooseSignUp = true;
       this.updateDialogState();
+    },

@@ -10,6 +10,7 @@ export async function buildZoomLink({
   });
   const { signature, api_key: apiKey } = data;
 
+// Temp comment
   let urlParams = "";
   const params = {
     signature,
@@ -35,7 +36,6 @@ export async function buildZoomLink({
 
   return "/zoom/iframe.zoom.html?" + urlParams;
 }
-// Temp comment
 
 export function stripMessage(message) {
   return message

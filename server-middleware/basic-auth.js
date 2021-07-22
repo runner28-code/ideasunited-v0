@@ -3,7 +3,6 @@ export default async function (req, res, next) {
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
   const { host } = req.headers;
-  // console.log(req.headers.referer);
   const protocol = host.match(/localhost\:\d+/) ? "http" : "https";
   try {
     const { data: project } = await axios.get(
@@ -26,3 +25,4 @@ export default async function (req, res, next) {
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();
     }
+

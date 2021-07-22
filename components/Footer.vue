@@ -74,6 +74,7 @@ export default {
     }
   },
   watch:{
+    supportDialog:function(newValue, old){
       if(!newValue){
         this.$root.$emit('resetSupportForm');
       }
@@ -109,3 +110,5 @@ export default {
     display: flex;
     width: 100%;
     align-items: stretch;
+    justify-content: space-between;
+  }

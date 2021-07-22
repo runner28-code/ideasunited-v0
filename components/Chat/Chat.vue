@@ -9,7 +9,6 @@
 <script>
 export default {
   props: {
-    chat: Object
   },
   data() {
     return {
@@ -44,3 +43,4 @@ export default {
       channel: "ChatChannel",
       id: this.chat.id,
       env: this.currentProject.env
+    });

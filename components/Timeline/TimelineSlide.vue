@@ -54,6 +54,7 @@ export default {
         if (this.value.url) {
           window.open(this.value.url, "_blank");
         }
+      }
     }
   },
   computed: {
@@ -102,3 +103,6 @@ export default {
 .timeline-slide__wrapper {
   overflow: visible;
   flex: none;
+}
+.timeline-slide {
+  background: black;

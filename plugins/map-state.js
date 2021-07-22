@@ -38,3 +38,4 @@ if (!Vue.__map_state_mixin__) {
           payload = message;
         }
 
+        this.$root.$emit("alert", payload);

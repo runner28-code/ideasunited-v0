@@ -30,3 +30,4 @@ export default {
         "#1b5e20",
         "#1a237e"
       ]
+    };

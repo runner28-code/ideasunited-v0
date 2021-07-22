@@ -50,3 +50,4 @@ export default {
       data: null
     };
   },
+  created() {

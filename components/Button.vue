@@ -38,3 +38,4 @@ export default {
     target: String,
     disabled: Boolean
   },
+  computed: {

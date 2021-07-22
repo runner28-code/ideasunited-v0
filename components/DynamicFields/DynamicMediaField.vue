@@ -96,3 +96,5 @@ export default {
       if(!file) return;
       file.uuid = uuidv4();
       if (file) this.$emit("input", file);
+    },
+    drop(event) {

@@ -1,3 +1,4 @@
+<template>
   <div class="root-lede-play" @click="$emit('input')">
     <div class="root-lede-play__btn">
     </div>
@@ -74,3 +75,5 @@
   pointer-events: all;
   cursor: pointer;
 
+  @media screen and (max-width: 960px) {
+    width: 100%;

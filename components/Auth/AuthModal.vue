@@ -45,3 +45,4 @@ export default {
   methods: {
     cancel() {
       this.opened = false;
+      setTimeout(() => this.backToLogin(), 500);

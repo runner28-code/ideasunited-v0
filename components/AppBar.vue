@@ -39,6 +39,7 @@
             ? {
                 backgroundColor: menuItem.menu_button_background,
                 color: menuItem.menu_button_text_color,
+              }
             : {}
         "
       >
@@ -205,3 +206,7 @@ export default {
 
 <style scoped lang="scss">
 .app-bar {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+  transition: 0.3s;
+  min-height: calc(100vh - 72px) !important;
+  overflow: auto;

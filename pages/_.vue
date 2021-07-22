@@ -60,3 +60,4 @@ export default {
     PageChannel: {
       received({ payload, type }) {
         switch (type) {
+          case "update_page_params":

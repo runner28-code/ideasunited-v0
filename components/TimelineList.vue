@@ -45,3 +45,4 @@ export default {
     li {
       display: flex;
       > div {
+        width: 50%;

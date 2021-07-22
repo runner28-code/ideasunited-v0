@@ -65,3 +65,4 @@ export default {
       if (!event.shiftKey && this.message.replace(/(\s|\n)+/g, "").length) {
         event.preventDefault();
         const data = {
+          body: stripMessage(this.message),

@@ -21,7 +21,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import _ from "lodash";
 
@@ -39,3 +38,4 @@ export default {
         this.$moment
           .tz(t.start_at, this.currentTimezone)
           .format("YYYY/MM/DD")
+      );

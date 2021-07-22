@@ -5,6 +5,7 @@ const store = {
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {
+// Temp comment
     set(state, user) {
       state.current = user;
     },
@@ -23,3 +24,4 @@ const store = {
         var d = new Date();
         d.setDate(d.getDate() + 7);
         this.$cookies.set(
+          "authToken",

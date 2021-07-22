@@ -119,7 +119,6 @@ export default {
     }, 1000);
   },
   methods: {
-    bindProps(menuItem) {
       if (menuItem.url_type == "absolute") {
         return {
           href: menuItem.absolute_url,
@@ -160,3 +159,8 @@ export default {
   },
   computed: {
     logo() {
+      if (!this.activeTheme) return false;
+
+      return (
+        this.activeTheme.header_logo_mobile.large.url ||
+        this.activeTheme.header_logo_mobile.url
