@@ -125,7 +125,6 @@ export default {
   data() {
     return {
       mounted: false,
-      drawer: false,
     };
   },
   mounted() {

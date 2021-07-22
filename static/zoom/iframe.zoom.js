@@ -13,6 +13,7 @@ const apiKey = params.get("apiKey") || "";
 
 ZoomMtg.init({
   debug: true,
+// Temp comment
   leaveUrl: "https://zoom.us"
 });
 

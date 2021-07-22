@@ -1,4 +1,3 @@
-<template>
   <div class="forgot-password-page">
     <v-form
       ref="form"
@@ -54,3 +53,4 @@ export default {
         const { data } = await this.$api.Auth.setPassword({
           ...this.form,
           token: this.token
+        });

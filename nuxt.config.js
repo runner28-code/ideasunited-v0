@@ -68,7 +68,6 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
-// Temp comment
     {
       path: "~/components",
       pathPrefix: false,

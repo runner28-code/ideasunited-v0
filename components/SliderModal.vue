@@ -79,6 +79,7 @@ export default {
           window.scroll({
             top: y - 70,
             behavior: "smooth"
+          });
         }
       }
     });

@@ -46,7 +46,6 @@
       <a class="app-bar__new-opps-details"
         v-if="newOppDetail && showNewOppDetails"
         :key="newOppDetail.id"
-        :href="newOppDetail.site"
         target="_blank"
       >
         <div class="app-bar__new-opps-details__content">

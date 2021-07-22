@@ -1,3 +1,4 @@
+<template>
   <div class="submission-thank-you">
     <p
       class="submission-thank-you__text"
@@ -19,7 +20,6 @@
 import { frontendToProfile } from "@/utils";
 
 export default {
-  props: {
     value: Object,
     successMessage: String,
   },

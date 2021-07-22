@@ -37,7 +37,6 @@ export default {
       this.dialogState.chooseSignUp = true;
       this.opened = true;
     });
-
     this.$root.$on(`authModal/close`, () => {
       this.cancel();
     });
