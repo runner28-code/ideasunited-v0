@@ -78,7 +78,6 @@
         v-ripple="false"
       >
         Login/Register
-      </v-list-item>
       <v-list-item
         v-if="currentUser"
         class="rightsidebar__item"

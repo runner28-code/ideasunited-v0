@@ -219,7 +219,6 @@ export default {
     z-index: 2;
     display: flex;
     filter: drop-shadow(5px 5px #000000);
-    text-decoration: none;
     @media screen and (max-width: 944px) {
       width: unset;
       right: 0;

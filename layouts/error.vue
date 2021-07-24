@@ -7,11 +7,11 @@
       {{ otherError }}
     </h1>
     <NuxtLink to="/">
+      Home page
     </NuxtLink>
   </v-app>
 </template>
 
-<script>
 export default {
   layout: 'empty',
   props: {

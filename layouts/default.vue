@@ -15,6 +15,7 @@
             >{{ newOpps.length }}</div>
           </transition>
         </v-btn>
+      </div>
       <SideBar v-model="drawer" :no-root="true" />
     </client-only>
     <AppBar @changeKey="key = key + 1" />

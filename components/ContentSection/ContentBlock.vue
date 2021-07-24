@@ -42,7 +42,6 @@
   </transition>
 </template>
 
-<script>
 export default {
   props: {
     block: Object,

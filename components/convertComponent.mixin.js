@@ -20,4 +20,5 @@ export default {
     Countdown,
     Event,
     TextBlock,
+    Schedule,
     List,

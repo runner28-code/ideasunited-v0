@@ -49,7 +49,6 @@ export default {
 .uploader {
   border-radius: 10px;
   cursor: pointer;
-  transition: 0.2s;
   border: 2px dashed rgba(0, 0, 0, 0.38);
   background-size: cover;
   background-position: center;

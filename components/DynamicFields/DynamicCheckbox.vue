@@ -23,8 +23,8 @@
 export default {
   props: {
     label: String,
+    value: [String, Object, Number, Boolean],
     rules: {
       type: Array,
       default: () => []
-    },
     required: Boolean,

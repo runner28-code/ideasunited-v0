@@ -13,7 +13,6 @@
         :href="contentSection.more_link_url | url"
       >
         <span>
-          {{ contentSection.more_link_text }}
         </span>
         <v-icon size="30" :color="activeTheme.primary_color"
           >$chevron_right</v-icon

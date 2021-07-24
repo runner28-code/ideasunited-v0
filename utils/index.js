@@ -21,7 +21,6 @@ export async function buildZoomLink({
     params.zoomPassword = zoom_password;
   }
 
-  if (full_name || email) {
     params.nickname = full_name;
     params.email = email;
   }
@@ -40,6 +39,7 @@ export function stripMessage(message) {
   return message
     .replace(/^\s+/g, "")
     .split(/\n+/g)
+    .join("\n")
     .split(/[\f\r\t\v]+/)
     .join(" ");
 }

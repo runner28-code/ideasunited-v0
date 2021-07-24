@@ -70,6 +70,7 @@ export default {
     this.initEvent();
   },
   mounted() {
+    this.swiperInstance = this.$refs.swiper.swiperInstance;
   },
   beforeDestroy() {
     this.$root.$off("nextEvent");

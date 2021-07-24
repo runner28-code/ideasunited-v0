@@ -60,7 +60,6 @@ export default {
   computed: {
     classList() {
       const { id, status } = this.value;
-      return {
         active: this.isActive,
         earlier: status == "earlier",
         just_posted: status == "just_posted",
@@ -99,6 +98,7 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
 .timeline-slide__wrapper {
   overflow: visible;
   flex: none;

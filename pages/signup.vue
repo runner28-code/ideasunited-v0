@@ -13,7 +13,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import { frontendToProfile } from "@/utils";
 export default {

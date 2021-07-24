@@ -22,6 +22,7 @@ export default {
       type: Array,
       default: () => []
     },
+    required: Boolean,
     markRequired: Boolean,
     addonData: {
       type: [Object, Boolean],

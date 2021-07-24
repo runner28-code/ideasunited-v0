@@ -57,8 +57,8 @@ export default {
         .map(t => ({
           ...this.formattedData[t.field_id],
           class_name: t.uuid
-        }))
         .filter(t => t);
+    },
     formattedData() {
       const result = {};
       this.item.formatted_data.forEach(t => (result[t.uuid] = t));
