@@ -22,7 +22,6 @@ export default {
   data() {
     return {
       started: false
-    };
   },
   mounted() {
     this.player = new Player(this.$refs.vimeo);
@@ -35,6 +34,8 @@ export default {
   },
   methods: {
     async play() {
+      this.player.setCurrentTime(this.newSlideSettings.time || 0);
       this.player.setVolume(0.6);
       this.player.play();
     }
+  },

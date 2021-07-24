@@ -35,3 +35,4 @@ export default {
         styles.color = lead_text_color;
       }
 
+      return styles;

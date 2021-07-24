@@ -213,3 +213,6 @@ export default {
   width: 232px;
   position: absolute;
 
+  &.v-sheet.v-toolbar {
+    box-shadow: none !important;
+  }

@@ -27,4 +27,6 @@ export default {
     rules: {
       type: Array,
       default: () => []
+    },
     required: Boolean,
+    markRequired: Boolean

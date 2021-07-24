@@ -70,3 +70,4 @@ export default {
       }
     },
     validate() {
+      this.$refs.input.validate(true);

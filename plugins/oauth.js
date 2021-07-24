@@ -21,7 +21,6 @@ export default function(ctx, inject) {
     return new Promise((resolve, reject) => {
       console.log(process.env["ROOT_DOMAIN"]);
 
-// Temp comment
       let { authorizationEndpoint } = providers[provider];
       localStorage.removeItem("token");
 
@@ -30,3 +29,4 @@ export default function(ctx, inject) {
           `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }
 
+      authorizationEndpoint =

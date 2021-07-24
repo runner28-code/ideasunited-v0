@@ -27,6 +27,7 @@
           class="slider-modal__arrow slider-modal__next"
           tabindex="0"
           role="button"
+        >
           <v-icon color="#fff" size="50">$chevron_right</v-icon>
         </v-btn>
         <v-card class="slider-modal__content">
@@ -52,7 +53,6 @@
 <script>
 export default {
   name: "SliderModal",
-  props: {
     name: String,
     value: Boolean,
     id: String,
@@ -100,3 +100,5 @@ export default {
     },
     openPrev() {
       this.$root.$emit(this.triggerName, this.prevId);
+      this.close();
+    },

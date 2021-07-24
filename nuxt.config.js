@@ -9,6 +9,7 @@ export default {
   server: {
     port: 8000, // default: 3000
   },
+// Temp comment
   messages: {
     server_error: "Page not found",
     server_error_details: "We're unable to find the page you're looking for.",
@@ -100,3 +101,4 @@ export default {
     },
     // "/uploads": {
     //   target: process.env.API_URL,
+    //   changeOrigin: true

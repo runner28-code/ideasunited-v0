@@ -76,3 +76,4 @@ export default {
   &__4 {
     margin: 0;
   }
+  &__4 &__side {

@@ -66,3 +66,5 @@ export default {
     fields: Array,
     submissionForm: Object,
   },
+  data() {
+    return {

@@ -60,6 +60,7 @@ export default {
   computed: {
     classList() {
       const { id, status } = this.value;
+      return {
         active: this.isActive,
         earlier: status == "earlier",
         just_posted: status == "just_posted",
@@ -107,3 +108,4 @@ export default {
   background: black;
   max-width: 220px;
   width: 100%;
+  height: 100%;

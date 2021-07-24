@@ -67,3 +67,4 @@ export default {
         const data = {
           body: stripMessage(this.message),
           token: cookies.get("authToken")
+          

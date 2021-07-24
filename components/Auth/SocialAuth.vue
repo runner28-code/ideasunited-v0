@@ -71,3 +71,4 @@ export default {
   },
   computed: {
     items() {
+      const intersection = _.intersection(this.currentProject.addons, [

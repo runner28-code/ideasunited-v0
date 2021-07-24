@@ -99,3 +99,4 @@ export default {
     },
     drop(event) {
       const file = event.dataTransfer.files[0];
+      this.$emit("input", file);

@@ -42,6 +42,7 @@
   </transition>
 </template>
 
+<script>
 export default {
   props: {
     block: Object,
@@ -95,3 +96,5 @@ export default {
       let preview = this.activeTheme.content_block_preview?.thumb?.url;
 
       const original = this.block.preview?.url;
+
+      if (original) {

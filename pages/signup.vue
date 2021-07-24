@@ -13,6 +13,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import { frontendToProfile } from "@/utils";
 export default {
@@ -36,8 +37,8 @@ export default {
   display: flex;
   flex-direction: column;
   margin: auto;
-  align-items: center;
   justify-content: center;
   width: 100%;
   background: whitesmoke;
   text-align: center;
+  min-height: 100vh;

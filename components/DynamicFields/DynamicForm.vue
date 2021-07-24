@@ -28,6 +28,7 @@
     <div class="dynamic-form__buttons">
       <Button
         class="btn_back-to-login"
+        :refs="$refs"
         v-if="showBackToLogin && !currentUser"
         @click="$emit('backToLogin')"
       >
@@ -111,3 +112,5 @@ export default {
         });
         const conditionalFormValue = conditionalFormOption
           ? conditionalField.options.find((o) => {
+              return o.uuid == this.form.data[field.conditional_uuid];
+            }).uuid

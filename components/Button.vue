@@ -33,8 +33,10 @@ export default {
     to: String,
     type: String,
     refs: Object,
+    text: Boolean,
     href: String,
     target: String,
     disabled: Boolean
   },
   computed: {
+    calcColor() {

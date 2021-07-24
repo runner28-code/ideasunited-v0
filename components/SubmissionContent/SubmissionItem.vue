@@ -57,6 +57,7 @@ export default {
         .map(t => ({
           ...this.formattedData[t.field_id],
           class_name: t.uuid
+        }))
         .filter(t => t);
     },
     formattedData() {
@@ -77,3 +78,4 @@ export default {
       };
 
       if (this.preview) {
+        styles.backgroundImage = `url(${this.preview})`;

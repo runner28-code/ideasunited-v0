@@ -36,3 +36,4 @@ export default {
       } catch (error) {
         try {
           return eval(string);
+        } catch (errorWithoutThis) {

@@ -62,7 +62,6 @@
         which will direct you to your first log in.
       </p>
       <div class="registration-form__buttons">
-        <Button
           :refs="$refs"
           :disabled="resending"
           @click="resendConfirmationEmail()"
@@ -100,3 +99,5 @@ export default {
       areYouSureDialog: false,
       emailValidationSuggestions: [],
       chooseSignUp: false,
+    };
+  },

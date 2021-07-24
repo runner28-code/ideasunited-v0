@@ -91,3 +91,4 @@ export default {
   }
   &-inner {
     display: flex;
+    flex-direction: column;

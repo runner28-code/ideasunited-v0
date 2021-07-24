@@ -67,7 +67,6 @@
         class="rightsidebar__item"
         :href="profileUrl"
         v-if="currentUser && currentUser.confirmed"
-        v-ripple="false"
       >
         User Portal
       </v-list-item>
@@ -78,6 +77,7 @@
         v-ripple="false"
       >
         Login/Register
+      </v-list-item>
       <v-list-item
         v-if="currentUser"
         class="rightsidebar__item"
@@ -169,3 +169,8 @@ export default {
     profileUrl() {
       return process.env.NODE_ENV === "development" ?
         "http://localhost:8081" :
+        "https://profile." + window.location.hostname;
+    },
+    opportunitiesUrl() {
+      return this.profileUrl + "/opportunities"
+    },

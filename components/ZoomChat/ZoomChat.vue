@@ -10,6 +10,7 @@
     />
   </div>
 </template>
+
 <script>
 import { buildZoomLink } from "@/utils";
 export default {
@@ -27,3 +28,4 @@ export default {
   methods: {
     async fetchSignature() {
       const { zoom_id, zoom_password } = this.chat;
+      const { full_name, email } = this.currentUser || {};

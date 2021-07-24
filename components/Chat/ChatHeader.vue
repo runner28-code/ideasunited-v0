@@ -36,3 +36,4 @@ export default {
   z-index: 1;
   display: flex;
   align-items: center;
+  padding: 0 15px;

@@ -133,3 +133,5 @@ export default {
       }
     },
     NotificationChannel: {
+      received({ payload, type }) {
+        switch (type) {

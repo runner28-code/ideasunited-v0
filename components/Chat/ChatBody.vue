@@ -56,3 +56,4 @@ export default {
         }
         return m;
       });
+      this.scrollBottom();

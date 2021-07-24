@@ -115,3 +115,5 @@ export default {
 <style scoped lang="scss">
 .forgot-password-link {
   text-decoration: underline;
+  cursor: pointer;
+  color: #E12D1B;

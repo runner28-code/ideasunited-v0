@@ -164,3 +164,9 @@ export default {
     srcExt(src) {
       const parts = src.split(".");
       return parts[parts.length - 1];
+    },
+    preloadSlide(src) {
+      if (!this.preloadedImgBase64s[src]) {
+        const img = new Image();
+        img.crossOrigin = "anonymous";
+

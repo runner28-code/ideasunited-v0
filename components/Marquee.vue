@@ -35,3 +35,4 @@ export default {
               this.$refs.marqueetext.offsetWidth > window.innerWidth
           }
         })
+      }

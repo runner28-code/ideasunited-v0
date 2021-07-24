@@ -13,6 +13,7 @@
         :href="contentSection.more_link_url | url"
       >
         <span>
+          {{ contentSection.more_link_text }}
         </span>
         <v-icon size="30" :color="activeTheme.primary_color"
           >$chevron_right</v-icon
@@ -210,3 +211,5 @@ export default {
   min-height: 300px;
   padding: 40px 75px 80px;
   @media screen and (min-width: 1905px) {
+    padding: 40px 195px 200px;
+  }
