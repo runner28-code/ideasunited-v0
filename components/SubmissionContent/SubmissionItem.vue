@@ -79,3 +79,4 @@ export default {
 
       if (this.preview) {
         styles.backgroundImage = `url(${this.preview})`;
+      }

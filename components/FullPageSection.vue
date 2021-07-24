@@ -48,6 +48,7 @@
 </template>
 
 <script>
+import mixin from "./convertComponent.mixin";
 export default {
   extends: mixin,
   props: {
@@ -56,7 +57,6 @@ export default {
     formsDisabled: Boolean,
   },
   methods: {
-    onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
@@ -91,3 +91,4 @@ export default {
   &-inner {
     display: flex;
     flex-direction: column;
+    align-items: center;

@@ -21,6 +21,7 @@
         <v-expansion-panel
           elevation-0
           v-for="(item, index) in items2"
+          :key="index"
         >
           <div class="faq__section-header" v-if="item.header">
             {{ item.header }}
@@ -62,3 +63,4 @@ export default {
       const { two_column, items } = this.faq.settings;
       if(two_column){
         const lastItem1 = Math.ceil(items.length / 2);
+        return items.slice(lastItem1);

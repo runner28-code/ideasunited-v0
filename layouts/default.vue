@@ -75,7 +75,6 @@ export default {
       ].filter((f) => f && f.src_type == "google_fonts");
 
       googleFonts.push({
-        font_name: "Source Sans Pro",
         google_font_name: "Source Sans Pro",
         src_type: "google_fonts",
       });
@@ -169,3 +168,6 @@ export default {
             font-weight: ${this.activeTheme.paragraph_font.weight};
             text-transform: ${this.activeTheme.paragraph_font.case};
           }
+          h1 {
+            font-family: ${this.activeTheme.h1_font.font.font_name}, sans-serif;
+            font-size: ${this.activeTheme.h1_font.size}px;

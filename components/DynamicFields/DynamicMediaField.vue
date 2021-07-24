@@ -82,7 +82,6 @@ export default {
     markRequired: Boolean,
     label: String,
     showLabel: Boolean,
-    fileInput: Boolean
   },
   methods: {
     handleChange(event) {
@@ -100,3 +99,5 @@ export default {
     drop(event) {
       const file = event.dataTransfer.files[0];
       this.$emit("input", file);
+    },
+    remove() {

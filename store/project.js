@@ -6,7 +6,6 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, current) {
-      state.current = current;
     },
   },
   actions: {
@@ -14,3 +13,4 @@ const store = {
       const { data } = await this.$api.Project.current({
         host: window.location.host,
         root_path: window.location.pathname,
+      });

@@ -52,3 +52,4 @@ export default {
   },
   created() {
     this.$root.$on("showNotification", payload => {
+      this.data = payload;

@@ -89,3 +89,5 @@ export default {
   },
   data() {
     return {
+      sliderInited: false
+    };

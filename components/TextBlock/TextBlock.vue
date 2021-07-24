@@ -77,3 +77,4 @@ export default {
     margin: 0;
   }
   &__4 &__side {
+    width: 100%;

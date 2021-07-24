@@ -49,7 +49,6 @@
           </v-card>
         </v-dialog>
       </client-only>
-    </div>
   </div>
 </template>
 
@@ -60,6 +59,7 @@ export default {
   props: {
     id: String,
     title: String,
+    description: String,
     btnText: String,
     successMessage: String,
     fields: Array,
@@ -67,3 +67,19 @@ export default {
   },
   data() {
     return {
+      form: null,
+      submitted: false,
+      supportDialog: false,
+      supportForm: null,
+    };
+  },
+  created() {
+    this.initForm();
+    this.fetchSupportForm();
+  },
+  methods: {
+    async fetchSupportForm() {
+      const { data } = await this.$api.Support.getForm();
+      this.supportForm = data;
+      this.$nextTick(() => {
+        this.$root.$emit("fullpageRebuild");

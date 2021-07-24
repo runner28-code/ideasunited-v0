@@ -60,6 +60,7 @@ export default {
             : "." + window.location.hostname;
 
         console.info('oauth cookieDomain', cookieDomain);
+        cookies.set("authToken", token, null, null, cookieDomain);
         localStorage.removeItem("token");
         await this.$store.dispatch("user/fetch");
 
@@ -71,3 +72,4 @@ export default {
   computed: {
     items() {
       const intersection = _.intersection(this.currentProject.addons, [
+        "Addon::TwitterLogin",

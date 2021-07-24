@@ -176,3 +176,7 @@ export default {
       return this.profileUrl + "/opportunities"
     },
     creatorsUrl() {
+      return this.profileUrl + "/creators"
+    },
+    menuPages() {
+      const menuPages = this.currentProject.menu_pages;

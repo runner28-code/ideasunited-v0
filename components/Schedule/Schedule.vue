@@ -42,3 +42,4 @@ export default {
       );
 
       return _.sortBy(
+        Object.keys(groups).map(k => {

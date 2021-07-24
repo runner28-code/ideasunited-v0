@@ -30,6 +30,7 @@ export default {
           case "new_message":
             this.newMessage(payload);
             break;
+          case "delete_message":
             this.deleteMessage(payload.id);
             break;
           case "update_message":
@@ -56,3 +57,4 @@ export default {
         return m;
       });
       this.scrollBottom();
+    },

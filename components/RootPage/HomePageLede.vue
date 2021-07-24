@@ -287,3 +287,7 @@ export default {
         }
 
         const { videoElem } = this.$refs;
+        videoElem.pause();
+
+      } else {
+        // Otherwise, enter fullscreen

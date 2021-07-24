@@ -17,3 +17,4 @@ export default {
   },
   created() {}
 };
+</script>

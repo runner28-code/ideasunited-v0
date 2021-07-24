@@ -7,7 +7,6 @@
         class="message__avatar"
       />
       <div>
-        <div
           class="message__name"
           @click="$emit('replyTo', message.user.full_name)"
         >
@@ -49,6 +48,7 @@
 </template>
 
 <script>
+import stripMessage from "@/filters/stripMessage";
 import badwords from "@/filters/badwords";
 
 export default {
@@ -69,3 +69,4 @@ export default {
     deleteAllMessagesAndBlock() {
       if (
         confirm("all messages from this user will be deleted. Are you sure?")
+      ) {

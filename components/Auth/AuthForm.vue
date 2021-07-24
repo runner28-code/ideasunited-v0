@@ -58,6 +58,7 @@ export default {
   },
   data() {
     return {
+      loginForm: {},
       registerForm: {},
       areYouSureDialog: false,
       emailValidationSuggestions: {}
@@ -116,3 +117,4 @@ export default {
   text-decoration: underline;
   cursor: pointer;
   color: #E12D1B;
+  font-size: 14px;

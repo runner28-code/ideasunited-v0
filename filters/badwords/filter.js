@@ -35,8 +35,8 @@ class Filter {
   clean(string) {
     const join = this.splitRegex.exec(string);
     return string
-// Temp comment
       .split(this.splitRegex)
+// Temp comment
       .map(word => {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })

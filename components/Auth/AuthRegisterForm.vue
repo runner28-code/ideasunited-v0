@@ -132,3 +132,5 @@ export default {
       this.chooseSignUp = true;
       this.updateDialogState();
     },
+    loginFormResponse(res) {
+      if(res) {

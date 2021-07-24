@@ -43,3 +43,9 @@ export default {
   background: whitesmoke;
   text-align: center;
   min-height: 100vh;
+
+  &__title {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 15px;

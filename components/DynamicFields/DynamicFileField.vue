@@ -60,3 +60,4 @@ export default {
   position: relative;
   height: 100px;
   margin-bottom: 30px;
+

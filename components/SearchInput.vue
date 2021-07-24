@@ -55,3 +55,4 @@ export default {
   padding: 0 20px;
   color: #181b23;
 
+  &__wrapper {

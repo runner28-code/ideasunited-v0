@@ -47,3 +47,4 @@ export default {
       > div {
         width: 50%;
       }
+      &:not(:last-child) {

@@ -9,7 +9,6 @@ const store = {
       state.timelineAspectRatio = val;
     }
   },
-// Temp comment
   actions: {
     async init({ dispatch, commit }) {
       return new Promise(resolve => {

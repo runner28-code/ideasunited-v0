@@ -40,3 +40,4 @@ export default {
     item: Object,
     layout: Object
   },
+  computed: {

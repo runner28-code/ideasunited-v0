@@ -49,7 +49,6 @@ export default {
     prevId: String,
     nextId: String,
     hiding: Boolean
-  },
   data() {
     return {
       dialog: false
@@ -70,6 +69,7 @@ export default {
           this.$root.$emit("setActiveEvent", this.block.event_id);
         } else {
           const hasEventBlock = this.currentPage.components.find(
+            t => t.type == "Event"
           );
           if (hasEventBlock) {
             const event_type = this.block.video_player_type;
@@ -97,3 +97,4 @@ export default {
       const original = this.block.preview?.url;
 
       if (original) {
+        if (original.match("\.gif$") || original.match("\.svg$")) {

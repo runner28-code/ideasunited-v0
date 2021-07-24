@@ -8,7 +8,6 @@
   </div>
 </template>
 
-<script>
 import Vue from "vue";
 import Spinner from "./Spinner";
 import { v4 as uuidv4 } from "uuid";
@@ -51,3 +50,4 @@ export default {
             addStyle: textContent => {
               const styleExist = document.querySelector(`[sfc=${sfc_name}]`);
 
+              const style = Object.assign(document.createElement("style"), {

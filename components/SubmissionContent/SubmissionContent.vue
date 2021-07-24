@@ -65,3 +65,5 @@ export default {
         $state.loaded();
       } else {
         $state.complete();
+      }
+    },

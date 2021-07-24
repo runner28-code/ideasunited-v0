@@ -115,3 +115,5 @@ export default {
               return o.uuid == this.form.data[field.conditional_uuid];
             }).uuid
           : "Option not found";
+        return field.conditional_value.includes(conditionalFormValue);
+      } else if (conditionalField.type == "Checkbox") {

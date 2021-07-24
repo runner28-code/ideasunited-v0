@@ -135,3 +135,4 @@ export default {
     NotificationChannel: {
       received({ payload, type }) {
         switch (type) {
+          case "send_notification":

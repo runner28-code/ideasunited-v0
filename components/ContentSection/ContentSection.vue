@@ -102,6 +102,7 @@ export default {
             spaceBetween: 40
           },
           600: {
+            slidesPerView: 2,
             spaceBetween: 40
           },
           960: {
@@ -212,3 +213,6 @@ export default {
   @media screen and (min-width: 1905px) {
     padding: 40px 195px 200px;
   }
+
+  &__blocks {
+    display: flex;

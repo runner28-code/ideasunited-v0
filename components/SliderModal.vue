@@ -103,3 +103,4 @@ export default {
       this.$root.$emit(this.triggerName, this.prevId);
       this.close();
     },
+    openNext() {

@@ -46,3 +46,4 @@ export default {
       env: this.currentProject.env
     });
   }
+};

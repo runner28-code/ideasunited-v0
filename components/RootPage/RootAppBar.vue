@@ -22,6 +22,7 @@
           New opportunities just dropped!
           <v-btn
             icon
+            class="app-bar__new-opps__close"
             @click.stop="showNewOpps = false"
             small
           >
@@ -225,3 +226,6 @@ export default {
       left: 0;
       bottom: 0;
       border-radius: 0;
+      border-width: 2px 0 0 0;
+    }
+    &__content {

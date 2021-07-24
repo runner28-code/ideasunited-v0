@@ -3,13 +3,13 @@
     <Title v-if="supportForm.headline" class="support-form__title">{{
       supportForm.headline
     }}</Title>
-    <div v-if="supportForm.description" class="support-form__description">
       {{ supportForm.description }}
     </div>
     <DynamicForm
       :submit="submit"
       :fields="supportForm.support_form"
       v-model="form"
+      v-if="!submitted"
       :btn-text="supportForm.btn_text"
     />
     <div v-else class="support-form__submitted">
@@ -43,3 +43,4 @@ export default {
       }
     });
   },
+  methods: {

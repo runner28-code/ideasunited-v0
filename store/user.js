@@ -3,7 +3,6 @@ import Vue from "vue";
 
 const store = {
   namespaced: true,
-  state: () => ({ current: null }),
   mutations: {
     set(state, user) {
       state.current = user;
@@ -22,4 +21,6 @@ const store = {
             : "." + window.location.hostname;
         var d = new Date();
         d.setDate(d.getDate() + 7);
+        this.$cookies.set(
           "authToken",
+          token,

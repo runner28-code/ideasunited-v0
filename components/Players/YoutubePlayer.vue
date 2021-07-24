@@ -1,4 +1,5 @@
 <template>
+  <iframe
     class="youtube-player"
     width="560"
     height="315"
@@ -13,3 +14,4 @@
 export default {
   name: "YoutubePlayer",
   props: {
+    youtubeId: String

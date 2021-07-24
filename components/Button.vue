@@ -21,7 +21,6 @@
 </template>
 
 <script>
-import { getThemeByColor } from "@/utils";
 
 export default {
   props: {
@@ -40,3 +39,4 @@ export default {
   },
   computed: {
     calcColor() {
+      return this.color || (this.activeTheme ? this.activeTheme.primary_color : '#E12D1B');

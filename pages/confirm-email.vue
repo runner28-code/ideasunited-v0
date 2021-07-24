@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  layout: 'simple',
   created() {
     if (process.client) this.confirm();
   },
@@ -13,3 +14,4 @@ export default {
       try {
         const { data } = await this.$api.Auth.confirm({ confirmation_token });
 
+        this.$store.commit("auth/setToken", data.token);

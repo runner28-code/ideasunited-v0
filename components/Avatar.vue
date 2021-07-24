@@ -11,7 +11,6 @@ export default {
   props: {
     name: String,
     id: String
-  },
   data() {
     return {
       colors: [
@@ -33,3 +32,4 @@ export default {
     };
   },
   computed: {
+    styles() {

@@ -68,3 +68,4 @@ export default {
           body: stripMessage(this.message),
           token: cookies.get("authToken")
           
+        };

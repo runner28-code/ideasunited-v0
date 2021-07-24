@@ -216,3 +216,6 @@ export default {
   &.v-sheet.v-toolbar {
     box-shadow: none !important;
   }
+  &::v-deep {
+    .v-toolbar__content {
+      transition: 0.3s;
