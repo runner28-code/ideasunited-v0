@@ -34,6 +34,7 @@ export default {
   name: "ZoomPlayer",
   props: {
     event: Object
+  },
   data() {
     return {
       zoomUrl: null

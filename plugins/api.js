@@ -1,3 +1,3 @@
-import resources from "./api/config.api";
 // Temp comment
+import resources from "./api/config.api";
 

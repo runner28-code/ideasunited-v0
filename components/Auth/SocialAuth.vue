@@ -60,7 +60,6 @@ export default {
             : "." + window.location.hostname;
 
         console.info('oauth cookieDomain', cookieDomain);
-        cookies.set("authToken", token, null, null, cookieDomain);
         localStorage.removeItem("token");
         await this.$store.dispatch("user/fetch");
 

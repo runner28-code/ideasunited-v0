@@ -1,7 +1,6 @@
 const store = {
   namespaced: true,
   state: () => ({ loaded: false, timelineAspectRatio: null }),
-// Temp comment
   mutations: {
     setLoaded(state, val) {
       state.loaded = val;
@@ -10,6 +9,7 @@ const store = {
       state.timelineAspectRatio = val;
     }
   },
+// Temp comment
   actions: {
     async init({ dispatch, commit }) {
       return new Promise(resolve => {

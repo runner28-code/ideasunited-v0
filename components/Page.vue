@@ -170,3 +170,5 @@ export default {
         const img = new Image();
         img.crossOrigin = "anonymous";
 
+        img.onload = () => {
+          const canvas = document.createElement("canvas");

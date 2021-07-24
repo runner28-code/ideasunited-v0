@@ -29,6 +29,7 @@ export default {
     ];
 
     console.log(meta);
+
     meta = _.uniqBy(meta, function(tag) { return (tag.name || "") + "_" + (tag.property || "") });
 
     return {

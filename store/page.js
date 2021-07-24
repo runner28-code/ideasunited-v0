@@ -4,7 +4,6 @@ const store = {
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {
-    set(state, current) {
       state.current = current;
     },
     updateChat(state, chat) {
@@ -32,6 +31,7 @@ const store = {
     },
     unpublishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
+      const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
     }
   },

@@ -47,7 +47,6 @@ export default {
     page: Object,
   },
   data() {
-    return {
       days: 0,
       hours: 0,
       minutes: 0,
@@ -120,3 +119,4 @@ export default {
       }
     }
   }
+};

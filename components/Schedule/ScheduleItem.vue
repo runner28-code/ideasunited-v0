@@ -34,6 +34,7 @@ export default {
         this.$root.$emit("setActiveEvent", id);
       }
     }
+  },
   computed: {
     styles() {
       const result = {};
