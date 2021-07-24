@@ -20,7 +20,6 @@
             </div>
             <div class="countdown-timer__item-label">mins</div>
           </div>
-          <div class="countdown-timer__item">
             <div class="countdown-timer__item-value">
               {{ seconds }}
             </div>
@@ -115,3 +114,6 @@ export default {
   watch: {
     value: {
       deep: true,
+      handler() {
+        this.startCountdown();
+      }

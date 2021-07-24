@@ -41,3 +41,4 @@ export default {
   justify-content: center;
   width: 100%;
   background: whitesmoke;
+  text-align: center;

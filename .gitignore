@@ -47,3 +47,4 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# Optional REPL history

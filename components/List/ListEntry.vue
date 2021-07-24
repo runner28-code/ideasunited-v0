@@ -7,6 +7,7 @@
     ></div>
     <div class="list-entry__content">
       <div
+        :style="{ color: activeTheme.primary_color }"
         class="list-entry__title"
       >
         {{ entry.title }}
@@ -32,3 +33,4 @@ export default {
 
   &__preview {
     width: 40px;
+    height: 40px;

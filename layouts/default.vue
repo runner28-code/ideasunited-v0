@@ -15,7 +15,6 @@
             >{{ newOpps.length }}</div>
           </transition>
         </v-btn>
-      </div>
       <SideBar v-model="drawer" :no-root="true" />
     </client-only>
     <AppBar @changeKey="key = key + 1" />
@@ -165,3 +164,5 @@ export default {
             font-family: ${this.activeTheme.paragraph_font.font.font_name}, sans-serif;
             font-size: ${this.activeTheme.paragraph_font.size}px;
             letter-spacing: ${this.activeTheme.paragraph_font.letter_spacing}px;
+            font-style: ${this.activeTheme.paragraph_font.style};
+            font-weight: ${this.activeTheme.paragraph_font.weight};

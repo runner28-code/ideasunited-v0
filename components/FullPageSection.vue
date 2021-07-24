@@ -56,7 +56,6 @@ export default {
     idx: Number,
     formsDisabled: Boolean,
   },
-  methods: {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
@@ -89,3 +88,5 @@ export default {
     width: 0;
     height: 0;
   }
+  &-inner {
+    display: flex;

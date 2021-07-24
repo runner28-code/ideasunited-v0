@@ -73,3 +73,4 @@ export default {
     &.clickable {
       cursor: pointer;
 
+      &:hover {

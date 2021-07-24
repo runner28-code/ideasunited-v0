@@ -99,10 +99,11 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .timeline-slide__wrapper {
   overflow: visible;
   flex: none;
 }
 .timeline-slide {
   background: black;
+  max-width: 220px;
+  width: 100%;

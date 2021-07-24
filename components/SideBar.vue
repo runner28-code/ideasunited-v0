@@ -165,3 +165,8 @@ export default {
       return (
         this.activeTheme.header_logo_mobile.large.url ||
         this.activeTheme.header_logo_mobile.url
+      );
+    },
+    profileUrl() {
+      return process.env.NODE_ENV === "development" ?
+        "http://localhost:8081" :

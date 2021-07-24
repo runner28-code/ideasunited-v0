@@ -3,6 +3,7 @@ const store = {
   state: () => ({ loaded: false, timelineAspectRatio: null }),
   mutations: {
     setLoaded(state, val) {
+      state.loaded = val;
     },
     setTimelineAspectRatio(state, val) {
       state.timelineAspectRatio = val;
@@ -11,3 +12,4 @@ const store = {
   actions: {
     async init({ dispatch, commit }) {
       return new Promise(resolve => {
+        Promise.all([

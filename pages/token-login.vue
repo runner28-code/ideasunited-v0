@@ -16,3 +16,5 @@ export default {
     }
   },
   methods: {
+    async login(token) {
+      try {

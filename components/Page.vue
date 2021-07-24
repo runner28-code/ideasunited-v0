@@ -57,7 +57,6 @@
             v-bind="component"
             :is="convertComponent(component.type)"
           ></component>
-        </div>
       </div>
     </div>
   </div>
@@ -158,3 +157,9 @@ export default {
         this.fullPageMoveTo(idx + 1);
       }
     },
+    fullPageToTop() {
+      this.fullPageMoveTo(0);
+    },
+    srcExt(src) {
+      const parts = src.split(".");
+      return parts[parts.length - 1];

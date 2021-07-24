@@ -208,3 +208,6 @@ export default {
 
 <style scoped lang="scss">
 .content-section {
+  min-height: 300px;
+  padding: 40px 75px 80px;
+  @media screen and (min-width: 1905px) {

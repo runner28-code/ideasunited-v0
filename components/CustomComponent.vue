@@ -21,6 +21,7 @@ export default {
   data() {
     return {
       loaded: false,
+      key: 1
     };
   },
   created() {
@@ -49,3 +50,4 @@ export default {
             },
             addStyle: textContent => {
               const styleExist = document.querySelector(`[sfc=${sfc_name}]`);
+

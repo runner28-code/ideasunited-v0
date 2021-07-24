@@ -69,3 +69,4 @@ export default {
         this.localType = "password";
       }
     },
+    validate() {

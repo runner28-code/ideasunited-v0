@@ -98,3 +98,5 @@ export default {
       target: process.env.API_URL,
       changeOrigin: true,
     },
+    // "/uploads": {
+    //   target: process.env.API_URL,

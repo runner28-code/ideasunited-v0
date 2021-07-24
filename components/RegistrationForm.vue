@@ -99,3 +99,4 @@ export default {
       },
       areYouSureDialog: false,
       emailValidationSuggestions: [],
+      chooseSignUp: false,

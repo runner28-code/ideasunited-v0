@@ -20,6 +20,7 @@
 import { frontendToProfile } from "@/utils";
 
 export default {
+  props: {
     value: Object,
     successMessage: String,
   },
@@ -34,3 +35,4 @@ export default {
         return eval("this." + string);
       } catch (error) {
         try {
+          return eval(string);

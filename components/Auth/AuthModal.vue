@@ -37,6 +37,7 @@ export default {
       this.dialogState.chooseSignUp = true;
       this.opened = true;
     });
+
     this.$root.$on(`authModal/close`, () => {
       this.cancel();
     });
@@ -45,3 +46,4 @@ export default {
     cancel() {
       this.opened = false;
       setTimeout(() => this.backToLogin(), 500);
+    },

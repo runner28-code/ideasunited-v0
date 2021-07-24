@@ -46,6 +46,7 @@
       <a class="app-bar__new-opps-details"
         v-if="newOppDetail && showNewOppDetails"
         :key="newOppDetail.id"
+        :href="newOppDetail.site"
         target="_blank"
       >
         <div class="app-bar__new-opps-details__content">
@@ -220,3 +221,6 @@ export default {
     filter: drop-shadow(5px 5px #000000);
     text-decoration: none;
     @media screen and (max-width: 944px) {
+      width: unset;
+      right: 0;
+      left: 0;

@@ -163,3 +163,5 @@ export default {
   }
 
   &.show-event {
+    margin-bottom: -45px;
+  }

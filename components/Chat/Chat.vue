@@ -45,3 +45,4 @@ export default {
       id: this.chat.id,
       env: this.currentProject.env
     });
+  }

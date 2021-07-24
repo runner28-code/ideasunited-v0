@@ -4,6 +4,7 @@
     <NotAuthorized v-else-if="status == 403" />
     <Page v-else-if="status == 200" />
   </div>
+</template>
 
 <script>
 import _ from "lodash";
@@ -25,7 +26,6 @@ export default {
         name: "description",
         content: this.currentProject.description
       }
-    ];
 
     console.log(meta);
 
@@ -60,3 +60,14 @@ export default {
       received({ payload, type }) {
         switch (type) {
           case "update_page_params":
+            this.$store.commit("page/set", payload);
+            break;
+        }
+      }
+    }
+  },
+  async asyncData({ $api, route, store }) {
+    await store.dispatch("user/fetch");
+    const page = await store.dispatch("page/fetch", {
+      url: route.params.pathMatch
+    });

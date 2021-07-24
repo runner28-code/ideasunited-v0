@@ -1,3 +1,4 @@
+<template>
   <div class="forgot-password-page">
     <v-form
       ref="form"
@@ -54,3 +55,4 @@ export default {
           ...this.form,
           token: this.token
         });
+        this.$store.commit("auth/setToken", data.token);

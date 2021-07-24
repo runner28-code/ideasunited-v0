@@ -67,3 +67,4 @@ export default {
         this.$api.Message.blockUser({ message_id: this.message.id });
       }
     },
+    deleteAllMessagesAndBlock() {

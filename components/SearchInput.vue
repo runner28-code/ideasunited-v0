@@ -54,3 +54,4 @@ export default {
   // max-width: 600px;
   padding: 0 20px;
   color: #181b23;
+

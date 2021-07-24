@@ -59,7 +59,6 @@ export default {
           class_name: t.uuid
         }))
         .filter(t => t);
-    },
     formattedData() {
       const result = {};
       this.item.formatted_data.forEach(t => (result[t.uuid] = t));
@@ -77,3 +76,4 @@ export default {
         backgroundColor: this.color
       };
 
+      if (this.preview) {

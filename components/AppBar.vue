@@ -125,6 +125,7 @@ export default {
   data() {
     return {
       mounted: false,
+      drawer: false,
     };
   },
   mounted() {
@@ -209,3 +210,6 @@ export default {
   transition: 0.3s;
   min-height: calc(100vh - 72px) !important;
   overflow: auto;
+  width: 232px;
+  position: absolute;
+

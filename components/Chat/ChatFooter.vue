@@ -66,3 +66,4 @@ export default {
         event.preventDefault();
         const data = {
           body: stripMessage(this.message),
+          token: cookies.get("authToken")

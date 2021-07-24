@@ -25,7 +25,6 @@ export default {
   props: {
     opened: Boolean,
     suggestions: [Array, Object],
-    form: Object
   },
   methods: {
     useSuggestion(suggestion) {
@@ -44,3 +43,8 @@ export default {
         this.$emit('close');
         this.form.email_validation_options = {};
         this.$emit('submit');
+      }
+    },
+    close(){
+      this.$emit('close');
+    },

@@ -18,6 +18,7 @@
 </template>
 
 <script>
+import { frontendToProfile } from "@/utils";
 export default {
   props: {
     value: Array,
@@ -30,8 +31,8 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .eligibles {
   display: flex;
   justify-content: center;
 }
+.eligible {

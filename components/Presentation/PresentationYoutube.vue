@@ -41,4 +41,3 @@ export default {
         this.player.pauseVideo();
       }
     }
-  },

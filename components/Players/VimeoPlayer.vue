@@ -48,3 +48,4 @@ export default {
     });
     this.player.on("chapterchange", data => {
       this.$root.$emit("chapterChange", {
+        vimeo_id: this.vimeoId,

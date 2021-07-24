@@ -75,3 +75,4 @@ export default {
   
   &__4 {
     margin: 0;
+  }
