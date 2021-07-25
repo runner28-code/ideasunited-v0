@@ -75,6 +75,7 @@ export default {
       ].filter((f) => f && f.src_type == "google_fonts");
 
       googleFonts.push({
+        font_name: "Source Sans Pro",
         google_font_name: "Source Sans Pro",
         src_type: "google_fonts",
       });
@@ -111,7 +112,6 @@ export default {
   mounted() {
     this.$root.$on("toggleDrawer", () => {
       this.drawer = !this.drawer;
-    });
     this.$root.$on("mobileScrollTo", (y) => {
       this.$refs.mobileScroll.scroll({
         top: y,

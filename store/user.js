@@ -3,6 +3,7 @@ import Vue from "vue";
 
 const store = {
   namespaced: true,
+  state: () => ({ current: null }),
   mutations: {
     set(state, user) {
       state.current = user;
@@ -12,6 +13,7 @@ const store = {
     async fetch({ commit }) {
       const token = this.$cookies.get("authToken");
 
+// Temp comment
       if (token && process.client) {
         const { data } = await this.$api.User.current();
         commit("set", data);

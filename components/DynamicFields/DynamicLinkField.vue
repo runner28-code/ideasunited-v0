@@ -28,5 +28,6 @@ export default {
       type: [Object, Boolean],
       default: false
     }
+  },
   data() {
     return {

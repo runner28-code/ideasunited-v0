@@ -87,7 +87,6 @@ export default {
       areYouSureDialog: false,
       emailValidationSuggestions: [],
       chooseSignUp: false,
-      registrationForm: null,
       loginFormRequest: false,
     };
   },

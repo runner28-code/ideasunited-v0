@@ -53,7 +53,6 @@
       <v-list dense v-if="noRoot">
         <v-list-item class="rightsidebar__item__subitem">
           {{ currentProject.title }}
-        </v-list-item>
       </v-list>
       <v-list-item
         class="rightsidebar__item"

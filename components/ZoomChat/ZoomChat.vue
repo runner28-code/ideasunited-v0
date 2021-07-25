@@ -16,6 +16,7 @@ import { buildZoomLink } from "@/utils";
 export default {
   props: {
     chat: Object
+  },
   data() {
     return {
       zoomUrl: null
@@ -23,7 +24,6 @@ export default {
   },
   created() {
     this.fetchSignature();
-  },
   methods: {
     async fetchSignature() {
       const { zoom_id, zoom_password } = this.chat;

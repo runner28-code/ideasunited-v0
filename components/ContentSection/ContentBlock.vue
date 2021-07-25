@@ -49,6 +49,7 @@ export default {
     prevId: String,
     nextId: String,
     hiding: Boolean
+  },
   data() {
     return {
       dialog: false
@@ -78,7 +79,6 @@ export default {
               event_type,
               type: "content_block"
             });
-            window.scroll({ top: 0, left: 0, behavior: "smooth" });
           } else {
             this.dialog = true;
           }

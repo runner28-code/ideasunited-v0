@@ -26,6 +26,7 @@ export default function(ctx, inject) {
 
       if (process.env.NODE_ENV !== "development") {
         authorizationEndpoint =
+          `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }
 
       authorizationEndpoint =
