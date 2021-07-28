@@ -24,6 +24,7 @@
     <div v-html="css"></div>
   </div>
 </template>
+
 <script>
 import _ from "lodash";
 

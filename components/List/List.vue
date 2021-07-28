@@ -22,7 +22,6 @@ export default {
   data() {
     return {
       search: ""
-    };
   },
   computed: {
     list() {

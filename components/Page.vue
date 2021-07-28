@@ -185,3 +185,4 @@ export default {
               break;
             default:
               this.preloadedImgBase64s[src] = canvas.toDataURL("image/jpg");
+          }

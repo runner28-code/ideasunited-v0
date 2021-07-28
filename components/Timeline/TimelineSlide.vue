@@ -12,6 +12,7 @@
       class="timeline-slide__wrapper"
       :aspect-ratio="aspectRatio"
       role="button"
+      tabindex="0"
     >
       <div :class="classList" :style="styles">
         <div class="timeline-slide--bg"></div>

@@ -19,3 +19,4 @@
       :slide="presentation.active_slide"
       v-if="presentation.active_slide.slide_type == 'youtube'"
     />
+  </div>

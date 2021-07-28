@@ -14,6 +14,7 @@
       <Button
         large
         @click="yesImSure()"
+        >Yes, I'm Sure</Button
       >
     </v-card>
   </v-dialog>
@@ -43,7 +44,6 @@ export default {
         this.$emit('close');
         this.form.email_validation_options = {};
         this.$emit('submit');
-      }
     },
     close(){
       this.$emit('close');

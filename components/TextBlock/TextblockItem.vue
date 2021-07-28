@@ -1,5 +1,4 @@
 <template>
-  <component
     :is="item.link ? 'a' : 'div'"
     :href="item.link"
     target="_blank"
@@ -36,6 +35,7 @@ export default {
   }
 };
 </script>
+
 <style scoped lang="scss">
 a.text-block__item-wrapper:hover {
   opacity: 0.9;

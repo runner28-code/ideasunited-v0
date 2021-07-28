@@ -158,6 +158,7 @@ export default {
       this.newOpps = data;
     },
   },
+  computed: {
     logo() {
       if (!this.activeTheme) return false;
 

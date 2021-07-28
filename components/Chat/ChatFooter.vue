@@ -32,6 +32,7 @@
                 </v-icon>
               </v-btn>
             </template>
+            <div>
               <VEmojiPicker @select="selectEmoji" />
             </div>
           </v-menu>

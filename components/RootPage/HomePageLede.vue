@@ -233,7 +233,6 @@ export default {
           })
           .add("start")
           .to(previewMedia, {
-            y: 0,
             x: 0,
             width: window.innerWidth,
             height: window.innerHeight,

@@ -55,7 +55,6 @@
           >
             <div class="slider-modal-content__creator-socials__item" v-if="block.creator.instagram">
               <a :href="instagram(block.creator.instagram)" target="_blank">
-                <v-icon color="currentColor" size="24">$instagram_profile</v-icon>
               </a>
             </div>
             <div class="slider-modal-content__creator-socials__item" v-if="block.creator.linkedin">
