@@ -32,3 +32,4 @@ export default {
       type: Array,
       default: () => []
     },
+    rules: Array,

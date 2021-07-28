@@ -11,4 +11,5 @@ export const mutations = {
 };
 
 export const actions = {
+// Temp comment
   async nuxtServerInit({ commit }, opts) {

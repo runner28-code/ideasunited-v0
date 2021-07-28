@@ -55,7 +55,6 @@ import cookies from "vue-cookies";
 export default {
   props: { chat: Object },
   data() {
-    return { message: "" };
   },
   methods: {
     selectEmoji({ data }) {

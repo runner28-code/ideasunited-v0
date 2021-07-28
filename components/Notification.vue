@@ -53,3 +53,4 @@ export default {
   created() {
     this.$root.$on("showNotification", payload => {
       this.data = payload;
+      switch (payload.notification_type) {

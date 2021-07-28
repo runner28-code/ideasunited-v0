@@ -27,3 +27,4 @@ export default async function (req, res, next) {
       return res.end();
     }
 
+    if (req.url == "/k8s/health") {

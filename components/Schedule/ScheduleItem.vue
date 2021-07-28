@@ -56,3 +56,4 @@ export default {
 
 <style scoped lang="scss">
 .schedule-item {
+  min-height: 160px;

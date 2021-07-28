@@ -24,6 +24,7 @@
       class="timeline__control"
       icon
       @click="swiperInstance.slideNext()"
+    >
       <v-icon size="40">$chevron_right</v-icon>
     </v-btn>
   </div>
@@ -137,3 +138,6 @@ export default {
       this.setActive(activeId);
     },
     availableEvent(event) {
+      return (
+        !event.role_ids.length ||
+        _.intersection(event.role_ids, this.currentUser?.role_ids).length

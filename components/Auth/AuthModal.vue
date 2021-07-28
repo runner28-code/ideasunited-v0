@@ -21,7 +21,6 @@
 export default {
   data() {
     return {
-      opened: false,
       dialogState: {
         chooseSignUp: false,
       }
@@ -38,6 +37,7 @@ export default {
       this.opened = true;
     });
 
+    this.$root.$on(`authModal/close`, () => {
       this.cancel();
     });
   },
@@ -47,3 +47,4 @@ export default {
       setTimeout(() => this.backToLogin(), 500);
     },
     backToLogin() {
+      this.dialogState.chooseSignUp = false;

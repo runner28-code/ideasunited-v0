@@ -50,6 +50,7 @@ export default {
     { src: "~/plugins/fullpage", mode: "client" },
     { src: "~/plugins/vue-rellax.js", ssr: false }
   ],
+  serverMiddleware: ["~/server-middleware/basic-auth"],
 
   polyfill: {
     features: [
@@ -101,3 +102,4 @@ export default {
     //   target: process.env.API_URL,
     //   changeOrigin: true
     // },
+    // "/cable": {

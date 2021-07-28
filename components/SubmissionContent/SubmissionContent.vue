@@ -42,7 +42,6 @@ export default {
     };
   },
   methods: {
-    getId(index) {
       const item = this.list[index];
       return item?.published ? item.id : null;
     },
@@ -67,3 +66,4 @@ export default {
         $state.complete();
       }
     },
+    setInfiniteId: _.debounce(function() {

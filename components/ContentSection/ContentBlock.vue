@@ -79,6 +79,7 @@ export default {
               event_type,
               type: "content_block"
             });
+            window.scroll({ top: 0, left: 0, behavior: "smooth" });
           } else {
             this.dialog = true;
           }
@@ -93,8 +94,8 @@ export default {
   computed: {
     styles() {
       let preview = this.activeTheme.content_block_preview?.thumb?.url;
-
       const original = this.block.preview?.url;
 
       if (original) {
         if (original.match("\.gif$") || original.match("\.svg$")) {
+          preview = original;

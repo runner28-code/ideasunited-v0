@@ -87,6 +87,7 @@ export default {
       areYouSureDialog: false,
       emailValidationSuggestions: [],
       chooseSignUp: false,
+      registrationForm: null,
       loginFormRequest: false,
     };
   },
@@ -133,3 +134,4 @@ export default {
     },
     loginFormResponse(res) {
       if(res) {
+        const emailUuid = this.registrationForm.registration_form.find((field) => field.short_name == "email").uuid;

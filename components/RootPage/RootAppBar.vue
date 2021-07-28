@@ -229,3 +229,5 @@ export default {
       border-width: 2px 0 0 0;
     }
     &__content {
+      padding: 10px;
+      flex-grow: 1;

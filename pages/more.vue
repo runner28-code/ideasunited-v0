@@ -50,3 +50,4 @@ export default {
       align-items: center;
       justify-content: center;
       text-align: center;
+      font-weight: bold;

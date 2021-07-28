@@ -19,7 +19,6 @@ if (!Vue.__map_state_mixin__) {
           });
         }
       },
-      async $confirm({ title, description }) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
             title,
@@ -33,7 +32,6 @@ if (!Vue.__map_state_mixin__) {
       $alert(message) {
         let payload;
         if (typeof message == "string") {
-// Temp comment
           payload = { message };
         } else if (typeof message == "object") {
           payload = message;
@@ -41,3 +39,4 @@ if (!Vue.__map_state_mixin__) {
 
         this.$root.$emit("alert", payload);
       },
+    },

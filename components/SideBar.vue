@@ -53,6 +53,7 @@
       <v-list dense v-if="noRoot">
         <v-list-item class="rightsidebar__item__subitem">
           {{ currentProject.title }}
+        </v-list-item>
       </v-list>
       <v-list-item
         class="rightsidebar__item"
@@ -157,7 +158,6 @@ export default {
       this.newOpps = data;
     },
   },
-  computed: {
     logo() {
       if (!this.activeTheme) return false;
 
@@ -179,3 +179,6 @@ export default {
     },
     menuPages() {
       const menuPages = this.currentProject.menu_pages;
+      return menuPages.filter(t => !t.parent_menu_id);
+    },
+    menuFooterPages() {

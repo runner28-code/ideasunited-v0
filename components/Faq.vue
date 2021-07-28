@@ -64,3 +64,4 @@ export default {
       if(two_column){
         const lastItem1 = Math.ceil(items.length / 2);
         return items.slice(lastItem1);
+      } else {

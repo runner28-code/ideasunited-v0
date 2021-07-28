@@ -117,3 +117,4 @@ export default {
           : "Option not found";
         return field.conditional_value.includes(conditionalFormValue);
       } else if (conditionalField.type == "Checkbox") {
+        return (

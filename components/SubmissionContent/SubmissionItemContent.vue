@@ -41,3 +41,4 @@ export default {
     layout: Object
   },
   computed: {
+    content() {

@@ -169,3 +169,5 @@ export default {
   &.with_chat &__video-player {
   }
 
+  &.chat_is_text &__video {
+    &.with_chat {

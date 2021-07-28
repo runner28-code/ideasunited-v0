@@ -112,6 +112,7 @@ export default {
   mounted() {
     this.$root.$on("toggleDrawer", () => {
       this.drawer = !this.drawer;
+    });
     this.$root.$on("mobileScrollTo", (y) => {
       this.$refs.mobileScroll.scroll({
         top: y,
@@ -171,3 +172,4 @@ export default {
           h1 {
             font-family: ${this.activeTheme.h1_font.font.font_name}, sans-serif;
             font-size: ${this.activeTheme.h1_font.size}px;
+            letter-spacing: ${this.activeTheme.h1_font.letter_spacing}px;

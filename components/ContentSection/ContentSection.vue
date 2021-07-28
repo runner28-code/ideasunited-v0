@@ -216,3 +216,5 @@ export default {
 
   &__blocks {
     display: flex;
+  }
+

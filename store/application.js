@@ -11,6 +11,5 @@ const store = {
   },
   actions: {
     async init({ dispatch, commit }) {
-// Temp comment
       return new Promise(resolve => {
         Promise.all([

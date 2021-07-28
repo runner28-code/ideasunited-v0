@@ -1,4 +1,3 @@
-<template>
   <v-text-field
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
@@ -15,3 +14,4 @@ export default {
     label: String,
     value: String,
     rules: {
+      type: Array,

@@ -57,6 +57,7 @@
             v-bind="component"
             :is="convertComponent(component.type)"
           ></component>
+        </div>
       </div>
     </div>
   </div>
@@ -176,3 +177,7 @@ export default {
           canvas.getContext("2d").drawImage(img, 0, 0);
           const ext = this.srcExt(src);
           switch (ext) {
+            case "png":
+              this.preloadedImgBase64s[src] = canvas.toDataURL("image/png");
+              break;
+            case "gif":

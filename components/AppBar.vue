@@ -219,3 +219,6 @@ export default {
   &::v-deep {
     .v-toolbar__content {
       transition: 0.3s;
+      height: auto !important;
+      flex-direction: column;
+      padding: 58px 56px;
