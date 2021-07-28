@@ -14,7 +14,6 @@
       <Button
         large
         @click="yesImSure()"
-        >Yes, I'm Sure</Button
       >
     </v-card>
   </v-dialog>
@@ -40,6 +39,7 @@ export default {
         this.form.email = suggested_email;
         this.$set(suggestion, 'accepted', true);
       }
+      if(this.suggestions.filter((s) => !s.accepted).length == 0) {
         this.$emit('close');
         this.form.email_validation_options = {};
         this.$emit('submit');

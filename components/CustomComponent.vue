@@ -52,3 +52,4 @@ export default {
               const styleExist = document.querySelector(`[sfc=${sfc_name}]`);
 
               const style = Object.assign(document.createElement("style"), {
+                textContent

@@ -92,3 +92,5 @@ export default {
       sliderInited: false
     };
   },
+  mounted() {
+    setTimeout(() => {

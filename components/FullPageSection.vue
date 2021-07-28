@@ -94,3 +94,4 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding: 46px 59px;

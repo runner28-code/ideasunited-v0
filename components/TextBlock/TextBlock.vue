@@ -78,3 +78,4 @@ export default {
   }
   &__4 &__side {
     width: 100%;
+    display: flex;

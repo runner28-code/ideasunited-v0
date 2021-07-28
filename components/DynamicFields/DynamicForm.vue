@@ -118,3 +118,5 @@ export default {
         return field.conditional_value.includes(conditionalFormValue);
       } else if (conditionalField.type == "Checkbox") {
         return (
+          field.conditional_value == this.form.data[field.conditional_uuid]
+        );

@@ -138,3 +138,4 @@ export default {
           case "send_notification":
             this.sendNotification(payload);
             break;
+        }

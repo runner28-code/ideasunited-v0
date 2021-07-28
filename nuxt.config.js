@@ -103,3 +103,4 @@ export default {
     //   changeOrigin: true
     // },
     // "/cable": {
+    //   target: process.env.WS_HOST,

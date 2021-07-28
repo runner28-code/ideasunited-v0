@@ -20,6 +20,7 @@ export default {
   layout: 'simple',
   methods: {
     logout() {
+      this.$store.dispatch("auth/logout");
       this.$emit('input', false)
     }
   },

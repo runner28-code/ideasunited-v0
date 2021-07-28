@@ -135,3 +135,5 @@ export default {
     loginFormResponse(res) {
       if(res) {
         const emailUuid = this.registrationForm.registration_form.find((field) => field.short_name == "email").uuid;
+        this.form.data[emailUuid] = res.email;
+        if(res.password) {

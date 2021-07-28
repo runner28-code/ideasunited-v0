@@ -1,4 +1,5 @@
 <template>
+  <div class="avatar" :style="styles" v-bind="$attrs">
     {{ initals }}
   </div>
 </template>
@@ -34,3 +35,4 @@ export default {
   computed: {
     styles() {
       return {
+        backgroundColor: this.color

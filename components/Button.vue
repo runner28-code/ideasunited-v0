@@ -34,7 +34,6 @@ export default {
     type: String,
     refs: Object,
     text: Boolean,
-    href: String,
     target: String,
     disabled: Boolean
   },

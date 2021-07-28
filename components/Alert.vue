@@ -38,7 +38,6 @@ export default {
       this.alert = false;
       await this.$nextTick();
       this.alert = alert;
-    });
   },
   methods: {
     onclick() {

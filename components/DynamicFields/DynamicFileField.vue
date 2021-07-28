@@ -61,3 +61,4 @@ export default {
   height: 100px;
   margin-bottom: 30px;
 
+  &-wrapper {

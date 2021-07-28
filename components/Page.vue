@@ -181,3 +181,7 @@ export default {
               this.preloadedImgBase64s[src] = canvas.toDataURL("image/png");
               break;
             case "gif":
+              this.preloadedImgBase64s[src] = src;
+              break;
+            default:
+              this.preloadedImgBase64s[src] = canvas.toDataURL("image/jpg");

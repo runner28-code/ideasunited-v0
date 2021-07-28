@@ -125,3 +125,5 @@ export default {
 
 <style scoped lang="scss">
 .countdown {
+  background-size: cover;
+  background-position: center;

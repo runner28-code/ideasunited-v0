@@ -3,6 +3,7 @@
     <iframe
       frameborder="0"
       allow="autoplay; fullscreen"
+      allowfullscreen
       class="zoom-player__embedded"
       :src="zoomUrl"
       v-if="zoomUrl"
@@ -28,3 +29,4 @@ export default {
     async fetchSignature() {
       const { zoom_id, zoom_password } = this.chat;
       const { full_name, email } = this.currentUser || {};
+

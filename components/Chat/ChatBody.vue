@@ -58,3 +58,4 @@ export default {
       });
       this.scrollBottom();
     },
+    scrollBottom() {

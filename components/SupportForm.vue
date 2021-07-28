@@ -45,3 +45,4 @@ export default {
     });
   },
   methods: {
+    async submit() {

@@ -24,7 +24,6 @@
     <div v-html="css"></div>
   </div>
 </template>
-
 <script>
 import _ from "lodash";
 
@@ -42,6 +41,7 @@ export default {
     };
   },
   methods: {
+    getId(index) {
       const item = this.list[index];
       return item?.published ? item.id : null;
     },
@@ -67,3 +67,4 @@ export default {
       }
     },
     setInfiniteId: _.debounce(function() {
+      this.page = 1;

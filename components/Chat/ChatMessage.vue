@@ -72,3 +72,4 @@ export default {
         confirm("all messages from this user will be deleted. Are you sure?")
       ) {
         this.$api.Message.destroyAll({
+          chat_id: this.chat.id,

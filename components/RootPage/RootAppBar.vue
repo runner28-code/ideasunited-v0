@@ -231,3 +231,4 @@ export default {
     &__content {
       padding: 10px;
       flex-grow: 1;
+    }

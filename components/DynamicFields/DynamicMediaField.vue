@@ -103,3 +103,4 @@ export default {
     },
     remove() {
       this.$emit("input", null);
+    }

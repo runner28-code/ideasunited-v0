@@ -46,7 +46,6 @@
           </div>
         </v-card>
       </div>
-    </v-dialog>
   </div>
 </template>
 
@@ -105,3 +104,4 @@ export default {
     },
     openNext() {
       this.$root.$emit(this.triggerName, this.nextId);
+      this.close();

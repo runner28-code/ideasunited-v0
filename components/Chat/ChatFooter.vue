@@ -32,7 +32,6 @@
                 </v-icon>
               </v-btn>
             </template>
-            <div>
               <VEmojiPicker @select="selectEmoji" />
             </div>
           </v-menu>
@@ -55,6 +54,7 @@ import cookies from "vue-cookies";
 export default {
   props: { chat: Object },
   data() {
+    return { message: "" };
   },
   methods: {
     selectEmoji({ data }) {
@@ -68,3 +68,4 @@ export default {
           token: cookies.get("authToken")
           
         };
+        console.info('sendMessage data', data);

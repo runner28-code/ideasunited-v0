@@ -171,3 +171,4 @@ export default {
 
   &.chat_is_text &__video {
     &.with_chat {
+      width: calc(100% - 300px);

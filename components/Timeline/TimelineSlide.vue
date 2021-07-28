@@ -12,7 +12,6 @@
       class="timeline-slide__wrapper"
       :aspect-ratio="aspectRatio"
       role="button"
-      tabindex="0"
     >
       <div :class="classList" :style="styles">
         <div class="timeline-slide--bg"></div>
@@ -112,3 +111,4 @@ export default {
   border-radius: 10px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  background-size: cover;

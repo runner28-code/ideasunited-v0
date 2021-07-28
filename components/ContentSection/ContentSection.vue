@@ -218,3 +218,4 @@ export default {
     display: flex;
   }
 
+  &__control {

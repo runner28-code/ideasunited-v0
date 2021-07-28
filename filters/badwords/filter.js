@@ -25,6 +25,7 @@ class Filter {
       }).length > 0 || false
     );
   }
+
   replaceWord(string) {
     return string
       .replace(this.regex, "")

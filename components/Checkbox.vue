@@ -1,3 +1,4 @@
+<template>
   <v-checkbox
     class="checkbox"
     hide-details="auto"
@@ -21,3 +22,4 @@
 export default {
   props: {
     label: String,
+    value: Boolean,

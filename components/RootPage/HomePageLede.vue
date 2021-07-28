@@ -294,3 +294,5 @@ export default {
         const { videoElem } = this.$refs;
 
         console.info('enterFullScreen videoElem', videoElem);
+        if (videoElem.requestFullscreen) {
+          videoElem.requestFullscreen();

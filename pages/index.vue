@@ -26,3 +26,4 @@ export default {
         return 200;
       }
     }
+  },

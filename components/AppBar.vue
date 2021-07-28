@@ -222,3 +222,4 @@ export default {
       height: auto !important;
       flex-direction: column;
       padding: 58px 56px;
+      @media screen and (max-width: 944px) {
