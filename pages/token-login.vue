@@ -3,6 +3,7 @@
 </template>
 
 <script>
+export default {
   layout: 'simple',
   created() {
     if (process.client) {
@@ -19,3 +20,4 @@
       try {
         const { data } = await this.$api.Auth.tokenLogin({ token });
 
+        this.$store.commit("auth/setToken", data.token);

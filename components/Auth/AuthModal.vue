@@ -49,3 +49,4 @@ export default {
     },
     backToLogin() {
       this.dialogState.chooseSignUp = false;
+    },

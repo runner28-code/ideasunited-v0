@@ -67,7 +67,6 @@ export default {
         data.backgroundColor = this.countdown.bg_color;
       if (this.countdown.preview.large.url)
         data.backgroundImage = `url(${this.countdown.preview.large.url})`;
-      return data;
     },
     countdown() {
       return (this.page || this.currentPage).countdowns[this.value];
@@ -128,3 +127,5 @@ export default {
   background-size: cover;
   background-position: center;
 }
+.countdown-wrapper {
+  min-height: 120px;

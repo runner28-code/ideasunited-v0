@@ -10,7 +10,6 @@
     @focus.stop="onFocus($event)"
   />
 </template>
-
 <script>
 import urlFormatter from "@/filters/url";
 
@@ -27,6 +26,8 @@ export default {
     addonData: {
       type: [Object, Boolean],
       default: false
+    }
   },
   data() {
     return {
+      localValue: this.value,

@@ -1,7 +1,7 @@
+<template>
   <div class="slider-wrapper">
     <div class="swiper-button-prev">
       <v-icon color="#ffffff" size="50">$chevron_left</v-icon>
-    </div>
     <div class="swiper-button-next">
       <v-icon color="#ffffff" size="50">$chevron_right</v-icon>
     </div>
@@ -40,3 +40,4 @@ export default {
   },
   methods: {
     slideClick(slide) {
+      if (slide.url) {

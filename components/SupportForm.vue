@@ -13,6 +13,7 @@
       v-if="!submitted"
       :btn-text="supportForm.btn_text"
     />
+    <div v-else class="support-form__submitted">
       Thank you! We will process your request and reply to you shortly.
     </div>
   </div>
@@ -37,7 +38,6 @@ export default {
     this.$root.$on('resetSupportForm', () => {
       if(this.submitted) {
         setTimeout(() => {
-          this.form.data = {};
           this.submitted = false;
         }, 500);
       }
@@ -45,3 +45,4 @@ export default {
   },
   methods: {
     async submit() {
+      try {

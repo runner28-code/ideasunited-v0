@@ -12,7 +12,6 @@
           @click="$emit('replyTo', message.user.full_name)"
         >
           {{ message.user.full_name
-          }}<span
             v-if="chat.moderator_ids.includes(message.user.id)"
             :style="{ color: activeTheme.primary_color }"
             >*</span
@@ -73,3 +72,4 @@ export default {
       ) {
         this.$api.Message.destroyAll({
           chat_id: this.chat.id,
+          user_id: this.message.user.id

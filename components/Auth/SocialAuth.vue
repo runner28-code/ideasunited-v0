@@ -74,3 +74,4 @@ export default {
       const intersection = _.intersection(this.currentProject.addons, [
         "Addon::TwitterLogin",
         "Addon::FacebookLogin",
+        "Addon::LinkedinLogin",

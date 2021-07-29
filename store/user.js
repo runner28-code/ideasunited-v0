@@ -6,6 +6,7 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, user) {
+// Temp comment
       state.current = user;
     },
   },
@@ -27,3 +28,4 @@ const store = {
           token,
           { expires: d, domain: cookieDomain },
           null,
+          cookieDomain

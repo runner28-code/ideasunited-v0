@@ -1,7 +1,6 @@
 import moment from "moment-timezone";
 
 export const state = () => ({
-// Temp comment
   authUser: null
 });
 

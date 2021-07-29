@@ -24,3 +24,4 @@ export default {
   data() {
     return {
       authDisabled: false
+    };

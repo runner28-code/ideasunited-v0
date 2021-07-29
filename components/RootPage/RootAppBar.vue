@@ -233,3 +233,5 @@ export default {
       flex-grow: 1;
     }
     &__content-top{
+      display: flex;
+      align-items: center;

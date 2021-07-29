@@ -20,6 +20,7 @@
   </div>
 </template>
 
+<script>
 export default {
   computed: {
     styles() {
@@ -36,3 +37,4 @@ export default {
 
       return styles;
     }
+  }

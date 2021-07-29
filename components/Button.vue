@@ -28,7 +28,6 @@ export default {
     color: String,
     large: Boolean,
     xLarge: Boolean,
-    outlined: Boolean,
     block: Boolean,
     to: String,
     type: String,
@@ -41,3 +40,4 @@ export default {
   computed: {
     calcColor() {
       return this.color || (this.activeTheme ? this.activeTheme.primary_color : '#E12D1B');
+    },

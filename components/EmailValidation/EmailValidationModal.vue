@@ -1,6 +1,7 @@
 <template>
   <v-dialog max-width="500" v-model="opened">
     <v-card class="email-validation__dialog">
+      <v-btn class="close" icon @click="close()">
         <v-icon size="30">$close</v-icon>
       </v-btn>
       <Title>Are you sure?</Title>
@@ -11,7 +12,6 @@
         </div>
       </div>
       <Button
-        large
         @click="yesImSure()"
         >Yes, I'm Sure</Button
       >

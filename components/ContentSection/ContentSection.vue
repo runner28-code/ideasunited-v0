@@ -69,6 +69,7 @@
         <v-icon size="40">$chevron_right</v-icon>
       </v-btn>
     </div>
+    <div
       class="content-section__view-more"
       @click="toggleViewMore"
       v-show="filteredBlocks.length > 4"
@@ -219,3 +220,5 @@ export default {
 
   &__control {
     visibility: hidden;
+    pointer-events: none;
+    margin-top: 15px;

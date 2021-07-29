@@ -16,6 +16,7 @@
 </template>
 
 <script>
+export default {
   props: {
     chat: Object
   },
@@ -58,3 +59,4 @@
       this.scrollBottom();
     },
     scrollBottom() {
+      const el = this.$refs.messages;

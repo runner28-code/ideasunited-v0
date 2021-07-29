@@ -173,3 +173,5 @@ export default {
     &.with_chat {
       width: calc(100% - 300px);
     }
+
+    &-player {

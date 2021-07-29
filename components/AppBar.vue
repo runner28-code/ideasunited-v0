@@ -43,6 +43,7 @@
             : {}
         "
       >
+        <v-menu
           offset-y
           v-if="['relative', 'none'].includes(menuItem.url_type)"
         >
@@ -224,3 +225,5 @@ export default {
       @media screen and (max-width: 944px) {
         flex-direction: row;
         justify-content: space-between;
+        padding: 18px 20px;
+      }

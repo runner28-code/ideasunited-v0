@@ -148,7 +148,6 @@ export default {
       },
     },
     NotificationChannel: {
-      received({ payload, type }) {
         switch (type) {
           case "send_notification":
             this.sendNotification(payload);
@@ -175,3 +174,5 @@ export default {
             letter-spacing: ${this.activeTheme.h1_font.letter_spacing}px;
             font-style: ${this.activeTheme.h1_font.style};
             font-weight: ${this.activeTheme.h1_font.weight};
+            text-transform: ${this.activeTheme.h1_font.case};
+          }

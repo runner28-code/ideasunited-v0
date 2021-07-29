@@ -80,7 +80,6 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     "@nuxtjs/dotenv",
-    "@nuxtjs/vuetify",
     "@nuxtjs/axios",
     "cookie-universal-nuxt",
     "@nuxtjs/device",
@@ -105,3 +104,4 @@ export default {
     // "/cable": {
     //   target: process.env.WS_HOST,
     //   logLevel: "debug",
+    //   secure: false,

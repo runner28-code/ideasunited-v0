@@ -78,6 +78,8 @@ export default {
       };
 
       if (this.preview) {
+        styles.backgroundImage = `url(${this.preview})`;
       }
 
       if (this.backgroundImage) {
+        styles.backgroundImage = this.item.background_image.large.url;

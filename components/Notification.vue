@@ -46,6 +46,7 @@ export default {
   data() {
     return {
       dialog: false,
+      sidebar: false,
       data: null
     };
   },
@@ -53,3 +54,4 @@ export default {
     this.$root.$on("showNotification", payload => {
       this.data = payload;
       switch (payload.notification_type) {
+        case "popup":

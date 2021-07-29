@@ -72,7 +72,6 @@ export default {
     markRequired: Boolean,
     showLabel: Boolean,
     description: String,
-    btnText: String,
     disabled: Boolean,
     showBackToLogin: Boolean,
   },
@@ -121,3 +120,5 @@ export default {
           field.conditional_value == this.form.data[field.conditional_uuid]
         );
       } else {
+        const conditionalFormValue = this.form.data[field.conditional_uuid];
+        const validValues = field.conditional_value.split(",").map((v) => {

@@ -41,7 +41,6 @@ export default {
           const {
             loadModule
           } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
-          const options = {
             moduleCache: {
               vue: Vue
             },
@@ -53,3 +52,4 @@ export default {
 
               const style = Object.assign(document.createElement("style"), {
                 textContent
+              });

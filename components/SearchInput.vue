@@ -56,3 +56,4 @@ export default {
   color: #181b23;
 
   &__wrapper {
+    border-top: 1px solid #e5e5e5;

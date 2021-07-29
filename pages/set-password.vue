@@ -59,3 +59,4 @@ export default {
         this.$store.dispatch("user/fetch");
         this.$router.push("/").catch(() => {});
       } catch (e) {
+        console.error(e);

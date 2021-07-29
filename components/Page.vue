@@ -14,6 +14,7 @@
           <div
             class="background-lede__logo"
             v-if="opportunityLogo && !currentProject.hide_frontend_logo"
+          >
             <img :src="opportunityLogo" alt="Logo" />
           </div>
         </div>
@@ -79,7 +80,6 @@ export default {
       clickingToSection: false,
       keyIsDown: false,
     };
-  },
   mounted() {
     this.$root.$on("menuClick", (item, idx) => {
       if (item.url_type == "relative") {
@@ -187,3 +187,7 @@ export default {
           }
         };
         img.src = src;
+      } else {
+        console.info("image already preloaed");
+      }
+    },

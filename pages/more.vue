@@ -51,3 +51,4 @@ export default {
       justify-content: center;
       text-align: center;
       font-weight: bold;
+      background: rgba(0, 0, 0, 0.1);

@@ -6,6 +6,7 @@
         'content-section-item--no-content':
           block.content_type == 'no_content'
       }"
+    >
       <v-responsive
         @click="openDialog"
         class="content-section-item__wrapper"
@@ -101,3 +102,4 @@ export default {
           preview = original;
         } else {
           preview = this.block.preview?.thumb?.url;
+        }

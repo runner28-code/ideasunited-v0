@@ -63,7 +63,6 @@
       </p>
       <div class="registration-form__buttons">
         <Button
-          :refs="$refs"
           :disabled="resending"
           @click="resendConfirmationEmail()"
         >
@@ -106,3 +105,5 @@ export default {
     if(this.$route.query.signup) {
       this.chooseSignUp = true;
     }
+  },
+  methods: {

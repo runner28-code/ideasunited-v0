@@ -94,3 +94,5 @@ export default {
   },
   mounted() {
     setTimeout(() => {
+      this.sliderInited = true;
+    }, 300);

@@ -38,6 +38,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+a.text-block__item-wrapper:hover {
   opacity: 0.9;
 }
 
@@ -48,7 +49,6 @@ export default {
     background-position: center;
     background-size: cover;
     height: 100%;
-
     &.dark {
       color: white;
     }
@@ -67,3 +67,4 @@ export default {
 
     &-wrapper {
       padding: 10px;
+      display: block;

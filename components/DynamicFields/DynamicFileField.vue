@@ -62,3 +62,10 @@ export default {
   margin-bottom: 30px;
 
   &-wrapper {
+    position: relative;
+  }
+
+  &__label {
+    font-weight: bold;
+  }
+

@@ -44,3 +44,4 @@ export default {
   },
   computed: {
     newSlideSettings() {
+      return this.presentation.settings[this.slide.id] || {};

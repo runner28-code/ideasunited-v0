@@ -120,3 +120,4 @@ export default {
   }
 
   .copyright {
+    text-transform: none;

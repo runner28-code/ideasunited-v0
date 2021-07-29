@@ -20,7 +20,6 @@
         class="rightsidebar__item rightsidebar__item-mobile"
         :to="`#${menuItem.url}`"
         v-ripple="false"
-      >
         <span @click="menuClick(menuItem, idx)">
           {{ menuItem.menu_title }}
         </span>
@@ -188,3 +187,6 @@ export default {
     drawerWidth() {
       return this.isMobile ? '100%' : '302px';
     },
+    showSeparator() {
+      return this.isMobile && this.menuPages.length;
+    }
