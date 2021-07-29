@@ -20,6 +20,7 @@
         class="rightsidebar__item rightsidebar__item-mobile"
         :to="`#${menuItem.url}`"
         v-ripple="false"
+      >
         <span @click="menuClick(menuItem, idx)">
           {{ menuItem.menu_title }}
         </span>
@@ -190,3 +191,4 @@ export default {
     showSeparator() {
       return this.isMobile && this.menuPages.length;
     }
+  }

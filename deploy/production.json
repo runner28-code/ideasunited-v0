@@ -2,4 +2,4 @@
   "server": "deploy@community.ideasunited.com",
   "port": 22,
   "server_dir": "/home/deploy/production/frontend",
-  "prj_git_relative_dir": "",
+  "repo": "git@gitlab.com:iu-evp/frontend.git",

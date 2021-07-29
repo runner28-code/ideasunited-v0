@@ -72,6 +72,7 @@ export default {
     markRequired: Boolean,
     showLabel: Boolean,
     description: String,
+    btnText: String,
     disabled: Boolean,
     showBackToLogin: Boolean,
   },

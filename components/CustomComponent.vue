@@ -3,7 +3,6 @@
     <component
       :key="key"
       v-if="loaded"
-      :is="customComponent.sfc_name"
     ></component>
   </div>
 </template>
@@ -41,6 +40,7 @@ export default {
           const {
             loadModule
           } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
+          const options = {
             moduleCache: {
               vue: Vue
             },

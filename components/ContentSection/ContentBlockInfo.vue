@@ -96,3 +96,4 @@ export default {
     setTimeout(() => {
       this.sliderInited = true;
     }, 300);
+  },

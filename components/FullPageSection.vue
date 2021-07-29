@@ -96,3 +96,4 @@ export default {
     justify-content: space-between;
     padding: 46px 59px;
     min-height: 100%;
+    &::after {

@@ -80,6 +80,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     "@nuxtjs/dotenv",
+    "@nuxtjs/vuetify",
     "@nuxtjs/axios",
     "cookie-universal-nuxt",
     "@nuxtjs/device",

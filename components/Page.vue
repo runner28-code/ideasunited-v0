@@ -80,6 +80,7 @@ export default {
       clickingToSection: false,
       keyIsDown: false,
     };
+  },
   mounted() {
     this.$root.$on("menuClick", (item, idx) => {
       if (item.url_type == "relative") {
@@ -127,7 +128,6 @@ export default {
   },
   methods: {
     async fullPageMoveTo(idx) {
-      this.clickingToSection = true;
       const newAnchor = this.fullpageOpts.anchors[idx + 1];
       location.hash = `#${newAnchor}`;
       this.$refs.fullpage.api.moveTo(idx + 1, true, { force: true });
@@ -191,3 +191,5 @@ export default {
         console.info("image already preloaed");
       }
     },
+    goToHash(hash) {
+      const url = hash.substring(1);

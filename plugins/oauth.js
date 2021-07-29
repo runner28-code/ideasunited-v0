@@ -30,4 +30,3 @@ export default function(ctx, inject) {
       }
 
       authorizationEndpoint =
-        authorizationEndpoint + "?domain=" + location.hostname;

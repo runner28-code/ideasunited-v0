@@ -38,6 +38,7 @@ export default {
   data() {
     return {
       zoomUrl: null
+    };
   },
   created() {
     this.fetchSignature();

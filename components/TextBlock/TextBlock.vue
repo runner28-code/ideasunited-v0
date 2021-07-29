@@ -80,3 +80,4 @@ export default {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 960px) {

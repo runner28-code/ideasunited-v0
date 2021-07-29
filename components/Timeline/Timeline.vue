@@ -147,3 +147,4 @@ export default {
   computed: {
     visibleControls() {
       return (
+        (this.$size == "md" && this.timelineEvents.length > 4) ||

@@ -8,5 +8,4 @@ export default {
     async resendConfirmationEmail() {
       this.resending = true;
       try {
-// Temp comment
         await this.$api.Auth.sendConfirmationEmail();

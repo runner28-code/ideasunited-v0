@@ -22,3 +22,4 @@ export default {
     TextBlock,
     Schedule,
     List,
+    HtmlBlock,

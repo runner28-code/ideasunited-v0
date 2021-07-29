@@ -122,3 +122,4 @@ export default {
 
 .auth {
 
+  &-admin-title {

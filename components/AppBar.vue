@@ -227,3 +227,4 @@ export default {
         justify-content: space-between;
         padding: 18px 20px;
       }
+    }

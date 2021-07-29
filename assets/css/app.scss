@@ -21,6 +21,7 @@ html {
   }
   &-description {
     font-weight: normal;
+    font-size: 24px;
     margin: 10px 0 25px 0;
   }
 }
@@ -28,3 +29,4 @@ html {
 .close {
   position: absolute !important;
   right: 10px;
+  top: 10px;

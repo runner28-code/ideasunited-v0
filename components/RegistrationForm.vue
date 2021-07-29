@@ -63,6 +63,7 @@
       </p>
       <div class="registration-form__buttons">
         <Button
+          :refs="$refs"
           :disabled="resending"
           @click="resendConfirmationEmail()"
         >

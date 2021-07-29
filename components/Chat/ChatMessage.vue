@@ -12,6 +12,7 @@
           @click="$emit('replyTo', message.user.full_name)"
         >
           {{ message.user.full_name
+          }}<span
             v-if="chat.moderator_ids.includes(message.user.id)"
             :style="{ color: activeTheme.primary_color }"
             >*</span
@@ -47,7 +48,6 @@
   </div>
 </template>
 
-<script>
 import stripMessage from "@/filters/stripMessage";
 import badwords from "@/filters/badwords";
 
@@ -73,3 +73,4 @@ export default {
         this.$api.Message.destroyAll({
           chat_id: this.chat.id,
           user_id: this.message.user.id
+        });

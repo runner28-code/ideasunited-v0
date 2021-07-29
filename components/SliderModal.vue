@@ -58,7 +58,6 @@ export default {
     value: Boolean,
     id: String,
     prevId: String,
-    nextId: String,
     scrollToElement: {
       type: Boolean,
       default: false

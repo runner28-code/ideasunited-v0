@@ -4,7 +4,6 @@
       supportForm.headline
     }}</Title>
     <div v-if="supportForm.description" class="support-form__description">
-      {{ supportForm.description }}
     </div>
     <DynamicForm
       :submit="submit"
@@ -38,6 +37,7 @@ export default {
     this.$root.$on('resetSupportForm', () => {
       if(this.submitted) {
         setTimeout(() => {
+          this.form.data = {};
           this.submitted = false;
         }, 500);
       }
