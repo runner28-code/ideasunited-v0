@@ -232,3 +232,4 @@ export default {
       padding: 10px;
       flex-grow: 1;
     }
+    &__content-top{

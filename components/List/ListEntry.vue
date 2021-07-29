@@ -11,7 +11,6 @@
         class="list-entry__title"
       >
         {{ entry.title }}
-      </div>
       <div class="list-entry__subtitle" v-html="entry.subtitle"></div>
     </div>
   </div>
@@ -35,3 +34,4 @@ export default {
     width: 40px;
     height: 40px;
     border-radius: 40px;
+    margin-top: 8px;

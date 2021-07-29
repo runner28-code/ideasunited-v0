@@ -3,7 +3,6 @@
 </template>
 
 <script>
-export default {
   layout: 'simple',
   created() {
     if (process.client) {
@@ -13,6 +12,7 @@ export default {
       } else {
         this.$router.push("/");
       }
+    }
   },
   methods: {
     async login(token) {

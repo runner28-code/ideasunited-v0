@@ -186,3 +186,5 @@ export default {
       return this.currentProject.menu_footer_pages;
     },
     drawerWidth() {
+      return this.isMobile ? '100%' : '302px';
+    },

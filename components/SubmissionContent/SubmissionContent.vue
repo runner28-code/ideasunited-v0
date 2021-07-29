@@ -66,6 +66,5 @@ export default {
       } else {
         $state.complete();
       }
-    },
     setInfiniteId: _.debounce(function() {
       this.page = 1;

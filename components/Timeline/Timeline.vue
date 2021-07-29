@@ -143,3 +143,4 @@ export default {
         _.intersection(event.role_ids, this.currentUser?.role_ids).length
       );
     }
+  },

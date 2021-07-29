@@ -48,3 +48,4 @@ export default {
         width: 50%;
       }
       &:not(:last-child) {
+        .timeline-list__date::before {

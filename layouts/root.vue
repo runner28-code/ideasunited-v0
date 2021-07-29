@@ -93,6 +93,7 @@ export default {
           typekit: {
             id: fontkitId
           }
+        });
       });
     }
   },

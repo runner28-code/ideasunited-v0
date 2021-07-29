@@ -24,6 +24,7 @@ export default {
       started: false
     };
   },
+  mounted() {
     this.player = new Player(this.$refs.vimeo);
 
     this.player.on("play", async () => {
@@ -42,3 +43,4 @@ export default {
   computed: {
     newSlideSettings() {
       return this.presentation.settings[this.slide.id] || {};
+    }

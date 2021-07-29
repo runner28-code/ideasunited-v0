@@ -127,3 +127,4 @@ export default {
 .countdown {
   background-size: cover;
   background-position: center;
+}

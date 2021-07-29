@@ -104,3 +104,4 @@ export default {
     // },
     // "/cable": {
     //   target: process.env.WS_HOST,
+    //   logLevel: "debug",

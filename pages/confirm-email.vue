@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  layout: 'simple',
+export default {
   created() {
     if (process.client) this.confirm();
   },

@@ -43,7 +43,6 @@
             : {}
         "
       >
-        <v-menu
           offset-y
           v-if="['relative', 'none'].includes(menuItem.url_type)"
         >
@@ -108,6 +107,7 @@
         </div>
       </div>
     </div>
+    <div class="menu-toggle" v-if="menuPages.length">
       <v-btn @click="toggleDrawer()" icon>
         <v-icon color="#E12D1B" size="32">{{
           drawer ? "$close" : "$account_menu"
@@ -222,3 +222,5 @@ export default {
       flex-direction: column;
       padding: 58px 56px;
       @media screen and (max-width: 944px) {
+        flex-direction: row;
+        justify-content: space-between;

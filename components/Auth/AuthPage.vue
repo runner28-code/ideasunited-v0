@@ -18,3 +18,4 @@ export default {};
 <style scoped lang="scss">
 .auth-page {
   width: 100%;
+  min-height: 100%;
