@@ -37,4 +37,3 @@ export default {
 
       return styles;
     }
-  }

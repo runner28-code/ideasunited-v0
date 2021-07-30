@@ -103,3 +103,4 @@ export default {
         } else {
           preview = this.block.preview?.thumb?.url;
         }
+      }

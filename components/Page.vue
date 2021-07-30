@@ -128,6 +128,7 @@ export default {
   },
   methods: {
     async fullPageMoveTo(idx) {
+      this.clickingToSection = true;
       const newAnchor = this.fullpageOpts.anchors[idx + 1];
       location.hash = `#${newAnchor}`;
       this.$refs.fullpage.api.moveTo(idx + 1, true, { force: true });
@@ -193,3 +194,4 @@ export default {
     },
     goToHash(hash) {
       const url = hash.substring(1);
+      const idx = this.currentProject.menu_pages.findIndex((p) => p.url == url);

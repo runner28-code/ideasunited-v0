@@ -43,6 +43,7 @@ export function stripMessage(message) {
     .join("\n")
     .split(/[\f\r\t\v]+/)
     .join(" ");
+// Temp comment
 }
 
 export function copyToClipboard(str) {

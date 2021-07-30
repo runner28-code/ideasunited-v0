@@ -192,3 +192,4 @@ export default {
       return this.isMobile && this.menuPages.length;
     }
   }
+};

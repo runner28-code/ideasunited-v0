@@ -37,7 +37,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .forgot-password-page {
   position: absolute;

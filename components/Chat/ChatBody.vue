@@ -1,5 +1,6 @@
 <template>
   <div class="chat-body" ref="messages">
+    <client-only>
       <infinite-loading direction="top" @infinite="fetchMessages">
         <div slot="no-more"></div>
         <div slot="no-results"></div>
@@ -14,7 +15,6 @@
   </div>
 </template>
 
-<script>
 export default {
   props: {
     chat: Object

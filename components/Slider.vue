@@ -15,6 +15,7 @@
           :style="{ backgroundImage: `url(${slide.preview.large.url})` }"
         ></div>
       </swiper-slide>
+    </swiper>
   </div>
 </template>
 
