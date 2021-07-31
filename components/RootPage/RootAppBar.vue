@@ -118,7 +118,6 @@ export default {
       );
     },
     async getOpportunityNotifications() {
-      const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
       setTimeout(() => {
         this.updateNewOppDetail();
@@ -145,6 +144,7 @@ export default {
       setTimeout(() => {
         this.updateNewOppDetail();
       }, 15000);
+    },
     newOppDetailPreview(opp) {
       if(!opp.preview) return;
       if(opp.preview.thumb && opp.preview.thumb.url) return opp.preview.thumb.url;

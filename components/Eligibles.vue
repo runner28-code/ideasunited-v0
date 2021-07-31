@@ -15,7 +15,6 @@
       <div class="eligible-label">{{ badge.title }}</div>
     </a>
   </div>
-</template>
 
 <script>
 import { frontendToProfile } from "@/utils";

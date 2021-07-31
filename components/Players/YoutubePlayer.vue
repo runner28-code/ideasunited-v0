@@ -1,6 +1,6 @@
 <template>
   <iframe
-    width="560"
+    class="youtube-player"
     height="315"
     :src="`https://www.youtube.com/embed/${youtubeId}?autoplay=1&rel=0`"
     frameborder="0"

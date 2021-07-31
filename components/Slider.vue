@@ -26,7 +26,6 @@ export default {
   },
   data() {
     return {
-      swiperOption: {
         slidesPerView: 1,
         spaceBetween: 0,
         // autoplay: {

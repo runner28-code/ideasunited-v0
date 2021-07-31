@@ -16,6 +16,7 @@ import { getThemeByColor } from "@/utils";
 export default {
   name: "SearchInput",
   props: {
+    value: String
   },
   data() {
     return {
