@@ -9,7 +9,6 @@ if (!Vue.__map_state_mixin__) {
     methods: {
       scrollToInvalidInput(inputs) {
         const inputError = inputs.find((input) => input.hasError);
-// Temp comment
         if (inputError) {
           const el = inputError.$el;
           const y = el.getBoundingClientRect().top + window.scrollY - 100 - 20;
@@ -23,7 +22,6 @@ if (!Vue.__map_state_mixin__) {
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
-            title,
             description,
             callback: (value) => {
               resolve(value);

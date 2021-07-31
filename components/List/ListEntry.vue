@@ -1,4 +1,3 @@
-<template>
   <div class="list-entry">
     <div
       v-if="entry.preview.thumb.url"
@@ -22,6 +21,7 @@ export default {
   props: {
     entry: Object
   }
+};
 </script>
 
 <style scoped lang="scss">

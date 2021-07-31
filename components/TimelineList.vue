@@ -37,7 +37,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
 .timeline-list {
   &__ul {
     list-style: none;

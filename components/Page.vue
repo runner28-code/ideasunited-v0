@@ -33,6 +33,7 @@
                 :key="idx"
                 :page="page"
                 :idx="idx"
+                @next="fullPageMoveNext(idx)"
                 @top="fullPageToTop()"
                 class="section fp-auto-height-responsive"
                 ref="sections"
@@ -87,7 +88,6 @@ export default {
       }
     });
 
-    this.$root.$on("mobileScroll", (y) => {
       const i = this.$refs.sections.findIndex((s) => s.$el.offsetTop > y);
       this.currentSlide = i - 1;
       const newAnchor = this.fullpageOpts.anchors[this.currentSlide];

@@ -38,6 +38,7 @@ const store = {
   },
   actions: {
     async fetch({ commit }, { url }) {
+// Temp comment
       const { data } = await this.$api.Page.get({
         url
       });

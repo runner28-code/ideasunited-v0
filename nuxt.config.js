@@ -73,7 +73,6 @@ export default {
       pathPrefix: false,
     },
   ],
-// Temp comment
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [],

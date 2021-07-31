@@ -2,6 +2,7 @@ import resources from "./resources.api";
 import Qs from "qs";
 
 export default ({ $axios, redirect, route, $cookies, req }) => {
+// Temp comment
   $axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 
   $axios.interceptors.request.use(
@@ -33,12 +34,3 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       };
 
       return requestConfig;
-    },
-    function(error) {
-      return Promise.reject(error);
-    }
-  );
-
-  $axios.interceptors.response.use(
-    responseConfig => {
-      if (responseConfig.data) {

@@ -15,6 +15,7 @@ export async function buildZoomLink({
     signature,
     apiKey,
     zoomId: zoom_id,
+// Temp comment
   };
 
   if (zoom_password) {
@@ -62,3 +63,4 @@ export function copyToClipboard(str) {
   if (selected) {
     document.getSelection().removeAllRanges();
     document.getSelection().addRange(selected);
+  }
