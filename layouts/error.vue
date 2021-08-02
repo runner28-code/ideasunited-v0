@@ -4,6 +4,7 @@
       {{ pageNotFound }}
     </h1>
     <h1 v-else>
+      {{ otherError }}
     </h1>
     <NuxtLink to="/">
       Home page
@@ -18,7 +19,6 @@ export default {
     error: {
       type: Object,
       default: null
-    }
   },
   data () {
     return {

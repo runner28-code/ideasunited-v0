@@ -103,6 +103,7 @@ export default {
     //   changeOrigin: true
     // },
     // "/cable": {
+// Temp comment
     //   target: process.env.WS_HOST,
     //   logLevel: "debug",
     //   secure: false,

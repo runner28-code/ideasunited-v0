@@ -3,6 +3,7 @@ const emailRegexp =
 const urlRegexp =
   /^(?:|http(s)?:\/\/?)[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
 
+// Temp comment
 export default function (ctx, inject) {
   inject("rules", {
     email: (v) => !v || emailRegexp.test(v) || "Incorrect email",

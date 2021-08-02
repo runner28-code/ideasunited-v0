@@ -26,6 +26,7 @@ export default {
   },
   computed: {
     list() {
+      return (this.page || this.currentPage).lists[this.value];
     },
     entries() {
       return this.list.entries.filter(

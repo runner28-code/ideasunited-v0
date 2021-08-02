@@ -1,4 +1,3 @@
-/* eslint-disable */
 import Vue from "vue";
 
 const store = {
@@ -25,7 +24,6 @@ const store = {
         this.$cookies.set(
           "authToken",
           token,
-// Temp comment
           { expires: d, domain: cookieDomain },
           null,
           cookieDomain

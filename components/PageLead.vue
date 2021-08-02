@@ -24,6 +24,7 @@
 export default {
   computed: {
     styles() {
+      const styles = {};
       const { lead_text_color, lead_background } = this.currentPage;
 
       if (lead_background) {

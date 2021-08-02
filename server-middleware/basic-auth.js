@@ -28,5 +28,4 @@ export default async function (req, res, next) {
     }
 
     if (req.url == "/k8s/health") {
-// Temp comment
       res.statusCode = 200;

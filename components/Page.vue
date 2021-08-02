@@ -88,6 +88,7 @@ export default {
       }
     });
 
+    this.$root.$on("mobileScroll", (y) => {
       const i = this.$refs.sections.findIndex((s) => s.$el.offsetTop > y);
       this.currentSlide = i - 1;
       const newAnchor = this.fullpageOpts.anchors[this.currentSlide];
@@ -135,7 +136,6 @@ export default {
       if (this.isMobile) {
         this.$root.$emit(
           "mobileScrollTo",
-          this.$refs.sections[idx].$el.offsetTop
         );
       }
 
@@ -194,3 +194,4 @@ export default {
     goToHash(hash) {
       const url = hash.substring(1);
       const idx = this.currentProject.menu_pages.findIndex((p) => p.url == url);
+      if (idx != -1) this.$nextTick(() => { this.fullPageMoveTo(idx); });

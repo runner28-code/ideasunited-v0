@@ -18,7 +18,6 @@ export default {
   },
   channels: {
     ChatChannel: {
-      connected() {
         this.status = "Connected";
       },
       disconnected() {
