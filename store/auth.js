@@ -4,7 +4,6 @@ import cookies from "vue-cookies";
 const store = {
   namespaced: true,
   state: () => ({}),
-  mutations: {
     setToken(state, token) {
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
       const cookieDomain =
@@ -20,7 +19,6 @@ const store = {
     }
   },
   actions: {
-// Temp comment
     async login({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.login(params);
       commit("setToken", data.token);

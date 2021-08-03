@@ -31,9 +31,4 @@ export default {
 };
 </script>
 
-.eligibles {
-  display: flex;
-  justify-content: center;
-}
-.eligible {
-  display: flex;
+<style scoped lang="scss">

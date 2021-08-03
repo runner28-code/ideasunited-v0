@@ -87,6 +87,7 @@ export default {
   -ms-overflow-style: none;
   &::-webkit-scrollbar {
     width: 0;
+    height: 0;
   }
   &-inner {
     display: flex;

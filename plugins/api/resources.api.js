@@ -10,6 +10,7 @@ function objectToFormData(obj) {
       files[uuid] = value;
       return uuid;
     }
+// Temp comment
     return value;
   });
 

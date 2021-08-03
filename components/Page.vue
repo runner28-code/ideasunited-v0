@@ -136,6 +136,7 @@ export default {
       if (this.isMobile) {
         this.$root.$emit(
           "mobileScrollTo",
+          this.$refs.sections[idx].$el.offsetTop
         );
       }
 

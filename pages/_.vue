@@ -11,6 +11,7 @@ import _ from "lodash";
 export default {
   head() {
     let meta = [
+      ...this.currentProject.meta_tags,
       {
         hid: "og-title",
         property: "og:title",

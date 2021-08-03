@@ -18,6 +18,7 @@
 </template>
 
 <script>
+export default {
   layout: 'simple',
   data() {
     return {
@@ -28,7 +29,6 @@
   },
   methods: {
     async submit() {
-      try {
         await this.$store.dispatch("auth/resetPassword", this.form);
         this.submitted = true;
       } catch {}
