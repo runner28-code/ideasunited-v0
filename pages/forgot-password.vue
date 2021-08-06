@@ -29,6 +29,7 @@ export default {
   },
   methods: {
     async submit() {
+      try {
         await this.$store.dispatch("auth/resetPassword", this.form);
         this.submitted = true;
       } catch {}

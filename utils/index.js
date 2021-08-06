@@ -61,6 +61,5 @@ export function copyToClipboard(str) {
   document.body.removeChild(el);
   if (selected) {
     document.getSelection().removeAllRanges();
-// Temp comment
     document.getSelection().addRange(selected);
   }

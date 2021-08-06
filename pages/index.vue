@@ -14,6 +14,7 @@ export default {
       if (!this.page && !this.currentProject) return 404;
 
       if (this.currentProject) return 200;
+
       if (
         (this.page.authorized && !this.currentUser) ||
         (this.currentUser &&
@@ -21,7 +22,6 @@ export default {
           !_.intersection(this.page.role_ids, this.currentUser.role_ids).length)
       ) {
         return 403;
-      } else {
         return 200;
       }
     }

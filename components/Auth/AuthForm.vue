@@ -1,5 +1,4 @@
 <template>
-  <div class="auth-wrapper">
     <div class="auth">
       <div>
         <div class="auth-admin-title">
@@ -41,6 +40,7 @@
       @close="areYouSureDialog = false"
       @submit="register"
     />
+  </div>
 </template>
 
 <script>

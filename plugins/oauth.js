@@ -17,6 +17,7 @@ const providers = {
 };
 
 export default function(ctx, inject) {
+// Temp comment
   inject("oauth", provider => {
     return new Promise((resolve, reject) => {
       console.log(process.env["ROOT_DOMAIN"]);

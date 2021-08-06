@@ -75,6 +75,7 @@ export default {
       default: () => []
     },
     size: {
+      type: String,
       default: "cover"
     },
     required: Boolean,

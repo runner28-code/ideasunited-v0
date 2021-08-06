@@ -143,7 +143,6 @@ export default {
     },
     visibleControls() {
       return (
-        (this.$size == "md" && this.filteredBlocks.length > 3) ||
         (["lg", "xl"].includes(this.$size) && this.filteredBlocks.length > 4) ||
         (["sm", "xs"].includes(this.$size) && this.filteredBlocks.length > 1)
       );
