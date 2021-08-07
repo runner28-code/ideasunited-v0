@@ -13,5 +13,4 @@ const store = {
     async fetch({ commit }) {
       const { data } = await this.$api.Project.current({
         host: window.location.host,
-        root_path: window.location.pathname,
       });

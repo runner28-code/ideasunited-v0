@@ -51,7 +51,6 @@ export default {
       return result;
     },
   }
-};
 </script>
 
 <style scoped lang="scss">

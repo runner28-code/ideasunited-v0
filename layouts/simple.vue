@@ -1,3 +1,3 @@
-  <v-app>
+<template>
     <v-main>
       <Nuxt />

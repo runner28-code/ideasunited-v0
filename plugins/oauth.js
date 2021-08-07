@@ -17,7 +17,6 @@ const providers = {
 };
 
 export default function(ctx, inject) {
-// Temp comment
   inject("oauth", provider => {
     return new Promise((resolve, reject) => {
       console.log(process.env["ROOT_DOMAIN"]);
@@ -27,7 +26,6 @@ export default function(ctx, inject) {
 
       if (process.env.NODE_ENV !== "development") {
         authorizationEndpoint =
-          `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }
 
       authorizationEndpoint =

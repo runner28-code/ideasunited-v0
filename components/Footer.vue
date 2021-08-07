@@ -56,7 +56,6 @@ export default {
     return {
       year: new Date().getFullYear(),
       supportDialog: false,
-      supportForm: null,
     };
   },
   created(){

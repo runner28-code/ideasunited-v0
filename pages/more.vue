@@ -22,7 +22,6 @@
 export default {
   computed: {
     gridMenuPages() {
-      return this.currentProject.grid_menu_pages;
     }
   }
 };
@@ -37,6 +36,7 @@ export default {
     background-size: cover;
     background-position: center;
     max-width: 25%;
+    position: relative;
 
     &-overlay {
       position: absolute;

@@ -43,7 +43,6 @@
           :login-form="registrationForm.login_form"
           @backToLogin="backToLogin()"
           :disabled="disabled"
-          :show-back-to-login="true"
         />
       </div>
     </div>

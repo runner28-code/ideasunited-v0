@@ -50,7 +50,6 @@ export default {
     { src: "~/plugins/fullpage", mode: "client" },
     { src: "~/plugins/vue-rellax.js", ssr: false }
   ],
-// Temp comment
   serverMiddleware: ["~/server-middleware/basic-auth"],
 
   polyfill: {

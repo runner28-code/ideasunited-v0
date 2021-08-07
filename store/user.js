@@ -26,5 +26,4 @@ const store = {
           "authToken",
           token,
           { expires: d, domain: cookieDomain },
-          null,
           cookieDomain

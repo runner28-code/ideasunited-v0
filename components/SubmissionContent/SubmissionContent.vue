@@ -44,6 +44,7 @@ export default {
   methods: {
     getId(index) {
       const item = this.list[index];
+      return item?.published ? item.id : null;
     },
     async fetchSubmissions($state) {
       const params = {

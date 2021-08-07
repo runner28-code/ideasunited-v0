@@ -17,5 +17,4 @@ ZoomMtg.init({
 });
 
 const joinParams = {
-// Temp comment
   meetingNumber,

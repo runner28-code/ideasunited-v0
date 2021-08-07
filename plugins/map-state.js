@@ -8,7 +8,6 @@ if (!Vue.__map_state_mixin__) {
   Vue.mixin({
     methods: {
       scrollToInvalidInput(inputs) {
-// Temp comment
         const inputError = inputs.find((input) => input.hasError);
         if (inputError) {
           const el = inputError.$el;
@@ -33,7 +32,6 @@ if (!Vue.__map_state_mixin__) {
       },
       $alert(message) {
         let payload;
-        if (typeof message == "string") {
           payload = { message };
         } else if (typeof message == "object") {
           payload = message;

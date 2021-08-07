@@ -17,7 +17,6 @@ const store = {
       } else {
         cookies.remove("authToken", null, cookieDomain);
       }
-    }
   },
   actions: {
     async login({ commit, dispatch }, params) {

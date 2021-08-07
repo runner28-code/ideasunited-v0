@@ -126,7 +126,6 @@ export default {
   width: 100%;
   cursor: pointer;
   display: none;
-
   span {
     display: flex;
     align-items: center;

@@ -63,6 +63,7 @@ export default {
     }
   },
   methods: {
+    openDialog() {
       if (this.block.content_type == "no_content") return;
       if (this.block.content_type == "video_player") {
         if (this.block.video_player_type == "event") {
