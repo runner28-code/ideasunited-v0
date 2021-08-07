@@ -9,5 +9,5 @@
 
 <script>
 export default {
-    slide: Object
+  props: {
   }

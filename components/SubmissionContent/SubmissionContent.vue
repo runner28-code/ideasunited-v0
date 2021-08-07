@@ -41,7 +41,6 @@ export default {
       search: ""
     };
   },
-  methods: {
     getId(index) {
       const item = this.list[index];
       return item?.published ? item.id : null;

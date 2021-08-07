@@ -56,6 +56,7 @@ export default {
     return {
       year: new Date().getFullYear(),
       supportDialog: false,
+      supportForm: null,
     };
   },
   created(){
@@ -91,7 +92,6 @@ export default {
   color: white;
   font-size: 14px;
   font-family: Source Sans Pro, sans-serif;
-  &::v-deep {
     &.v-sheet.v-footer:not(.v-sheet--outlined) {
       box-shadow: none;
     }

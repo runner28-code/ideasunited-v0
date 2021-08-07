@@ -139,5 +139,4 @@ export default {
             this.sendNotification(payload);
             break;
         }
-      }
     }

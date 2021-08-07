@@ -80,6 +80,7 @@ export default {
 
 <style lang="scss" scoped>
 .page {
+  background-color: #56565a;
   overflow-y: scroll;
   overflow-anchor: none;
   scrollbar-width: none;
@@ -90,7 +91,6 @@ export default {
   }
   &-inner {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 46px 59px;

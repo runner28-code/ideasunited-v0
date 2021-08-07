@@ -56,12 +56,12 @@ export default {
     startAtSignUp: Boolean,
     loginFormRequest: Boolean,
   },
-  data() {
     return {
       loginForm: {},
       registerForm: {},
       areYouSureDialog: false,
       emailValidationSuggestions: {}
+    };
   },
   methods: {
     async login() {

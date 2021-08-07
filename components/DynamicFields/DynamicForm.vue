@@ -16,6 +16,7 @@
         v-show="showField(field)"
         :label="field.label"
         :show-label="showLabel"
+        :addon-data="addonData(field)"
         :file-input="field.file_input"
       ></component>
     </div>
@@ -92,7 +93,6 @@ export default {
   },
   methods: {
     async submitCallback() {
-      this.loading = true;
       try {
         await this.submit();
       } finally {
