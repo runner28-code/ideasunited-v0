@@ -11,14 +11,15 @@
     :disabled="disabled"
   >
     <template #label>
+      <slot>
         <span v-html="label"></span>
       </slot>
     </template>
   </v-checkbox>
 </template>
-
 <script>
 export default {
   props: {
     label: String,
     value: Boolean,
+    rules: {

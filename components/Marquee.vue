@@ -13,7 +13,6 @@ export default {
       seconds: 25,
       animating: false
     }
-  },
   computed: {
     animStyle() {
       if (!this.animating) return ''
@@ -21,6 +20,7 @@ export default {
         animation: marquee-animation ${this.seconds}s linear infinite;
       `
     }
+  },
   watch: {
     message: {
       immediate: true,

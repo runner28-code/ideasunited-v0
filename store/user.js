@@ -25,5 +25,6 @@ const store = {
         this.$cookies.set(
           "authToken",
           token,
+          { expires: d, domain: cookieDomain },
           null,
           cookieDomain

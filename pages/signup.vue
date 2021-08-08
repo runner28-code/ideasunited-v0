@@ -1,5 +1,4 @@
 <template>
-  <div class="signup-page">
     <AuthRegisterForm v-if="!currentUser" />
     <div 
       v-if="currentUser"
@@ -39,6 +38,7 @@ export default {
   margin: auto;
   align-items: center;
   justify-content: center;
+  width: 100%;
   background: whitesmoke;
   text-align: center;
   min-height: 100vh;

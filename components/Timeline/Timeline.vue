@@ -17,6 +17,7 @@
       >
         <TimelineSlide @setActive="setActive" :active="value" :value="event" />
       </swiper-slide>
+    </swiper>
 
     <v-btn
       :class="{ visible: visibleControls }"

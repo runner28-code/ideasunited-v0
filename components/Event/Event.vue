@@ -14,7 +14,6 @@
     }"
   >
     <div
-      :class="{ with_chat: currentPage.chats[0] }"
       class="event__video"
       v-if="currentPage.events.length"
     >
@@ -37,6 +36,7 @@
 
           <div class="event__video-timestamp" v-if="activeEvent.start_at">
             <timeago
+              :auto-update="60"
               :datetime="activeEvent.start_at"
             ></timeago>
           </div>
@@ -174,3 +174,4 @@ export default {
     }
 
     &-player {
+      border-top: 1px solid #e5e5e5;

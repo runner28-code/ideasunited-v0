@@ -13,6 +13,7 @@
         :style="{ backgroundImage: `url(${badge.preview.url})` }"
       ></div>
       <div class="eligible-label">{{ badge.title }}</div>
+    </a>
   </div>
 </template>
 
@@ -31,3 +32,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.eligibles {

@@ -106,7 +106,6 @@ export default {
       this.days = days;
       this.hours = hours < 10 ? "0" + hours : hours;
       this.minutes = minutes < 10 ? "0" + minutes : minutes;
-      this.seconds = seconds < 10 ? "0" + seconds : seconds;
     }
   },
   beforeDestroy() {
@@ -131,3 +130,4 @@ export default {
 .countdown-wrapper {
   min-height: 120px;
   width: 100%;
+  display: flex;

@@ -10,4 +10,5 @@
 <script>
 export default {
   props: {
+    slide: Object
   }

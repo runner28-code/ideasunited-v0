@@ -35,3 +35,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       return requestConfig;
     },
     function(error) {
+      return Promise.reject(error);
