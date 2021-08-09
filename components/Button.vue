@@ -22,6 +22,7 @@
 
 <script>
 import { getThemeByColor } from "@/utils";
+
 export default {
   props: {
     color: String,

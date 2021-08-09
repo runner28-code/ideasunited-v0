@@ -23,4 +23,3 @@ export default {
   },
   data () {
     return {
-      pageNotFound: '404 Not Found',

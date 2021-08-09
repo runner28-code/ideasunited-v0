@@ -30,12 +30,12 @@ export default {
     value: String,
     page: Object,
   },
-  computed: {
     schedule() {
       return (this.page || this.currentPage).schedules[this.value];
     },
     groupedItems() {
       const groups = _.groupBy(this.schedule.items, t =>
+        this.$moment
           .tz(t.start_at, this.currentTimezone)
           .format("YYYY/MM/DD")
       );

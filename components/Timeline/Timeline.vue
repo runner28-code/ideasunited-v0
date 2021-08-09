@@ -149,3 +149,4 @@ export default {
       return (
         (this.$size == "md" && this.timelineEvents.length > 4) ||
         (["lg", "xl"].includes(this.$size) && this.timelineEvents.length > 6) ||
+        (["sm", "xs"].includes(this.$size) && this.timelineEvents.length > 1)

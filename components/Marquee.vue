@@ -13,6 +13,7 @@ export default {
       seconds: 25,
       animating: false
     }
+  },
   computed: {
     animStyle() {
       if (!this.animating) return ''

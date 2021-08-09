@@ -12,7 +12,6 @@ import CustomComponent from "./CustomComponent";
 import Presentation from "./Presentation/Presentation";
 import RegistrationForm from "./RegistrationForm";
 import Faq from "./Faq";
-import TimelineList from "./TimelineList";
 
 export default {
   components: {
