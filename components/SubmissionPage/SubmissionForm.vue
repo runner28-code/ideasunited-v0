@@ -64,7 +64,6 @@ export default {
     btnText: String,
     successMessage: String,
     fields: Array,
-    submissionForm: Object,
   },
   data() {
     return {
@@ -79,3 +78,4 @@ export default {
     this.fetchSupportForm();
   },
   methods: {
+    async fetchSupportForm() {

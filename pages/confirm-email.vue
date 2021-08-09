@@ -15,3 +15,4 @@ export default {
         const { data } = await this.$api.Auth.confirm({ confirmation_token });
 
         this.$store.commit("auth/setToken", data.token);
+        this.$store.dispatch("user/fetch");

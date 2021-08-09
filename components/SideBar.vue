@@ -195,3 +195,6 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
+.rightsidebar {
+  max-width: 100%;

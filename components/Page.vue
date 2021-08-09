@@ -180,7 +180,6 @@ export default {
             case "png":
               this.preloadedImgBase64s[src] = canvas.toDataURL("image/png");
               break;
-            case "gif":
               this.preloadedImgBase64s[src] = src;
               break;
             default:
@@ -198,3 +197,7 @@ export default {
       if (idx != -1) this.$nextTick(() => { this.fullPageMoveTo(idx); });
     },
     fullpageScrollReset() {
+      const fpScrollable = document.querySelector('.fp-scrollable');
+      if(fpScrollable) fpScrollable.scrollTo(0, 0);
+    },
+    fullpageScrollFocus(elem) {

@@ -81,7 +81,6 @@
   </div>
 </template>
 
-<script>
 import registrationMixin from "./registration.mixin";
 
 export default {
@@ -108,3 +107,5 @@ export default {
     }
   },
   methods: {
+    async submit() {
+      try {

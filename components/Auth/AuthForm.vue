@@ -123,3 +123,4 @@ export default {
 .auth {
 
   &-admin-title {
+    color: #262729;

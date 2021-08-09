@@ -10,7 +10,6 @@
       Home page
     </NuxtLink>
   </v-app>
-</template>
 
 <script>
 export default {
@@ -23,3 +22,4 @@ export default {
   },
   data () {
     return {
+      pageNotFound: '404 Not Found',

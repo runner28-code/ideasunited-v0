@@ -132,3 +132,5 @@ export default {
   min-height: 120px;
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;

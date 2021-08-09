@@ -228,3 +228,7 @@ export default {
         padding: 18px 20px;
       }
     }
+  }
+
+  @media screen and (max-width: 944px) {
+    min-height: unset !important;

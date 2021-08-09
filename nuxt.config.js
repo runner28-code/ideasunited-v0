@@ -29,6 +29,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["~/assets/css/app.scss"],
+// Temp comment
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -106,3 +107,5 @@ export default {
     //   target: process.env.WS_HOST,
     //   logLevel: "debug",
     //   secure: false,
+    //   ws: true
+    // }

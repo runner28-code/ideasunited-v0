@@ -14,7 +14,6 @@
           {{ message.user.full_name
           }}<span
             v-if="chat.moderator_ids.includes(message.user.id)"
-            :style="{ color: activeTheme.primary_color }"
             >*</span
           >
         </div>
@@ -75,3 +74,4 @@ export default {
           chat_id: this.chat.id,
           user_id: this.message.user.id
         });
+      }

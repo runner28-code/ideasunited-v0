@@ -27,3 +27,4 @@ export default {
       }
     }
   },
+  async asyncData({ $api, route, store }) {

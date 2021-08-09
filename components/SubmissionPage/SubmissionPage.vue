@@ -9,6 +9,7 @@
         :title="submissionForm.title"
         :description="submissionForm.description"
         :btn-text="submissionForm.btn_text"
+        :success-message="submissionForm.success_message"
       />
     </div>
   </div>

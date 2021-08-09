@@ -178,3 +178,5 @@ export default {
             text-transform: ${this.activeTheme.h1_font.case};
           }
           h2 {
+            font-family: ${this.activeTheme.h2_font.font.font_name}, sans-serif;
+            font-size: ${this.activeTheme.h2_font.size}px;

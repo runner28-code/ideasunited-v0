@@ -97,3 +97,5 @@ export default {
       this.sliderInited = true;
     }, 300);
   },
+  methods: {
+    instagram(v) {

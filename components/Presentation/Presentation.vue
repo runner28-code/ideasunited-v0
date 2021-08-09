@@ -20,3 +20,4 @@
       v-if="presentation.active_slide.slide_type == 'youtube'"
     />
   </div>
+</template>

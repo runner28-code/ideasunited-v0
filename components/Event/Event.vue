@@ -176,3 +176,5 @@ export default {
 
     &-player {
       border-top: 1px solid #e5e5e5;
+    }
+  }

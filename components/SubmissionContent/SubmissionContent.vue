@@ -22,7 +22,6 @@
       </infinite-loading>
     </client-only>
     <div v-html="css"></div>
-  </div>
 </template>
 
 <script>
@@ -62,6 +61,7 @@ export default {
       this.list.push(...newData);
 
       if (data.length) {
+        $state.loaded();
       } else {
         $state.complete();
       }
@@ -70,3 +70,4 @@ export default {
       this.page = 1;
       this.list = [];
       this.infiniteId += 1;
+    }, 300)

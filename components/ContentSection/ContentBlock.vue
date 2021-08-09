@@ -104,3 +104,4 @@ export default {
           preview = this.block.preview?.thumb?.url;
         }
       }
+

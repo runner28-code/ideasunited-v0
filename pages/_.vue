@@ -37,6 +37,7 @@ export default {
       meta,
       link: [
         { rel: "icon", href: this.currentProject?.favicon.url || this.activeTheme.favicon.url || "/favicon.ico" }
+      ]
     };
   },
   created() {
@@ -71,3 +72,4 @@ export default {
     const page = await store.dispatch("page/fetch", {
       url: route.params.pathMatch
     });
+    return {

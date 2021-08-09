@@ -31,12 +31,12 @@ export default {
     useSuggestion(suggestion) {
       const suggested_email = `${suggestion.local}@${suggestion.suggestion}`
       for (var key in this.form.data){
+        if (this.form.data[key] == suggestion.email) {
           this.form.data[key] = suggested_email;
           this.$set(suggestion, 'accepted', true);
         }
       }
       if(this.form.email == suggestion.email) {
-        this.form.email = suggested_email;
         this.$set(suggestion, 'accepted', true);
       }
       if(this.suggestions.filter((s) => !s.accepted).length == 0) {
@@ -48,3 +48,4 @@ export default {
     close(){
       this.$emit('close');
     },
+    yesImSure() {

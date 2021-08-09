@@ -302,3 +302,7 @@ export default {
           videoElem.webkitRequestFullscreen();
         } else if (videoElem.webkitEnterFullscreen) {
           videoElem.webkitEnterFullscreen();
+        } else if (videoElem.msRequestFullscreen) {
+          videoElem.msRequestFullscreen();
+        }
+      }

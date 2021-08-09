@@ -69,7 +69,6 @@ export default {
     fields: Array,
     value: Object,
     submit: Function,
-    markRequired: Boolean,
     showLabel: Boolean,
     description: String,
     btnText: String,
@@ -124,3 +123,5 @@ export default {
         const conditionalFormValue = this.form.data[field.conditional_uuid];
         const validValues = field.conditional_value.split(",").map((v) => {
           const value = v.trim();
+          switch (value) {
+            case "true":

@@ -60,3 +60,4 @@ export default {
     },
     scrollBottom() {
       const el = this.$refs.messages;
+      if (!el) return;

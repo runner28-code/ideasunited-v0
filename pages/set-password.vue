@@ -60,3 +60,4 @@ export default {
         this.$router.push("/").catch(() => {});
       } catch (e) {
         console.error(e);
+      }

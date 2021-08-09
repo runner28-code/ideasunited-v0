@@ -49,3 +49,4 @@ export default {
       }
       &:not(:last-child) {
         .timeline-list__date::before {
+          display: block;

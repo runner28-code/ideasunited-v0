@@ -45,3 +45,4 @@ export default {
       return this.presentation.settings[this.slide.id] || {};
     }
   },
+  watch: {

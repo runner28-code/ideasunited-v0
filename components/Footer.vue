@@ -121,3 +121,5 @@ export default {
 
   .copyright {
     text-transform: none;
+    font-weight: 700;
+  }

@@ -23,6 +23,7 @@
 export default {
   props: {
     supportForm: Object,
+    page: Object,
   },
   data() {
     return {
@@ -45,3 +46,4 @@ export default {
   },
   methods: {
     async submit() {
+      try {

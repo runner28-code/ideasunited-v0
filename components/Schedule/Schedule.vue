@@ -30,6 +30,7 @@ export default {
     value: String,
     page: Object,
   },
+  computed: {
     schedule() {
       return (this.page || this.currentPage).schedules[this.value];
     },
@@ -45,3 +46,4 @@ export default {
           return {
             items: _.sortBy(groups[k], t => t.start_at),
             date: groups[k][0].start_at
+          };

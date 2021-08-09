@@ -7,7 +7,6 @@
   >
     <div class="schedule-item__start-at">
       {{
-        item.start_at | moment("timezone", currentTimezone, "h:mm a zz")
       }}
     </div>
     <div class="schedule-item__content">
@@ -58,3 +57,4 @@ export default {
 .schedule-item {
   min-height: 160px;
   border-radius: 10px;
+  padding: 40px;
