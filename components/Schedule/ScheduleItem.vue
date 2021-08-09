@@ -7,6 +7,7 @@
   >
     <div class="schedule-item__start-at">
       {{
+        item.start_at | moment("timezone", currentTimezone, "h:mm a zz")
       }}
     </div>
     <div class="schedule-item__content">
@@ -36,7 +37,6 @@ export default {
   },
   computed: {
     styles() {
-      const result = {};
       const url =
         this.item.preview.large.url ||
         this.activeTheme.schedule_preview.large.url;

@@ -81,6 +81,7 @@
   </div>
 </template>
 
+<script>
 import registrationMixin from "./registration.mixin";
 
 export default {
@@ -106,6 +107,5 @@ export default {
       this.chooseSignUp = true;
     }
   },
-  methods: {
     async submit() {
       try {

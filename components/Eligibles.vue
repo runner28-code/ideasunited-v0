@@ -2,7 +2,6 @@
   <div class="eligibles">
     <a
       v-for="badge in value"
-      :key="badge.id"
       class="eligible"
       :class="[`eligible--${badge.slug}`]"
       :href="badgeInfoUrl"
@@ -22,6 +21,7 @@ import { frontendToProfile } from "@/utils";
 export default {
   props: {
     value: Array,
+  },
   data() {
     return {
       badgeInfoUrl: frontendToProfile()[window.location.origin] + "/badge-info",

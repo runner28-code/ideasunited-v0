@@ -107,6 +107,7 @@ export default {
     async submit() {
       try {
         const { data } = await this.$api.RegistrationForm.submit(this.form);
+        this.emailValidationSuggestions = [];
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
         if (this.registrationForm.destination_page_id)

@@ -6,7 +6,6 @@ import Schedule from "./Schedule/Schedule";
 import List from "./List/List";
 import HtmlBlock from "./HtmlBlock";
 import SubmissionPage from "./SubmissionPage/SubmissionPage";
-import SubmissionContent from "./SubmissionContent/SubmissionContent";
 import SupportForm from "./SupportForm";
 import CustomComponent from "./CustomComponent";
 import Presentation from "./Presentation/Presentation";

@@ -1,6 +1,5 @@
 <template>
   <v-snackbar
-    v-if="alert"
     class="alert-container"
     v-model="alert"
     top
@@ -24,6 +23,7 @@
     </v-alert>
   </v-snackbar>
 </template>
+
 <script>
 export default {
   name: "Alert",

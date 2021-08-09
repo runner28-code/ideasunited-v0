@@ -36,7 +36,6 @@
 
 <script>
 import { getHash } from "@/utils";
-
 export default {
   props: {
     item: Object,
