@@ -12,7 +12,6 @@
     @change="$emit('change')"
     ref="input"
     validate-on-blur
-    :suffix="suffix"
     :min="min"
     :max="max"
     :class="{ block }"
@@ -63,6 +62,7 @@ export default {
   },
   methods: {
     togglePassword() {
+      if (this.localType == "password") {
         this.localType = "text";
       } else {
         this.localType = "password";

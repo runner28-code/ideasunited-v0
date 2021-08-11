@@ -35,6 +35,7 @@
       />
     </div>
     <div class="content-section__swiper-wrapper" v-else>
+      <v-btn
         :class="{ visible: visibleControls }"
         class="content-section__control content-section__control-prev"
         icon

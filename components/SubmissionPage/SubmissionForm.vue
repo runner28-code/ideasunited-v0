@@ -48,6 +48,7 @@
             <SupportForm :support-form="supportForm" />
           </v-card>
         </v-dialog>
+      </client-only>
     </div>
   </div>
 </template>

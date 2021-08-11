@@ -37,6 +37,7 @@ export default {
   props: {
     value: Object
   },
+  data() {
     return {
       active: null,
       swiperInstance: null,

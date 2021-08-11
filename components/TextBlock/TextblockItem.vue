@@ -46,7 +46,6 @@ a.text-block__item-wrapper:hover {
   &__item {
     position: relative;
     overflow: hidden;
-    background-position: center;
     background-size: cover;
     height: 100%;
 

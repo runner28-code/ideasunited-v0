@@ -13,6 +13,7 @@ const providers = {
   },
   cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
+// Temp comment
   }
 };
 
@@ -24,7 +25,6 @@ export default function(ctx, inject) {
       let { authorizationEndpoint } = providers[provider];
       localStorage.removeItem("token");
 
-// Temp comment
       if (process.env.NODE_ENV !== "development") {
         authorizationEndpoint =
           `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;

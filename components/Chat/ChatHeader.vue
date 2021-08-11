@@ -32,10 +32,3 @@ export default {
 <style scoped lang="scss">
 .chat-header {
   box-shadow: 0px 0px 5px -1px rgb(0 0 0 / 15%);
-  position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  padding: 0 15px;
-  min-height: 48px;
-
