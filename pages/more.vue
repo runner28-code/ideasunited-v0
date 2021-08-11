@@ -16,7 +16,6 @@
       </nuxt-link>
     </v-responsive>
   </div>
-</template>
 
 <script>
 export default {
@@ -24,6 +23,7 @@ export default {
     gridMenuPages() {
       return this.currentProject.grid_menu_pages;
     }
+  }
 };
 </script>
 

@@ -107,5 +107,6 @@ export default {
       this.chooseSignUp = true;
     }
   },
+  methods: {
     async submit() {
       try {

@@ -100,7 +100,6 @@ export default {
       showMobileChat: false,
       scrollPosition: null
     };
-  },
   methods: {
     onScroll() {
       this.scrollPosition = window.top.scrollY;

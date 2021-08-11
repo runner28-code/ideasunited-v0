@@ -2,6 +2,7 @@
   <div class="eligibles">
     <a
       v-for="badge in value"
+      :key="badge.id"
       class="eligible"
       :class="[`eligible--${badge.slug}`]"
       :href="badgeInfoUrl"
@@ -33,3 +34,4 @@ export default {
 <style scoped lang="scss">
 .eligibles {
   display: flex;
+  justify-content: center;

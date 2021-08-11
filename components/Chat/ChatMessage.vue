@@ -14,6 +14,7 @@
           {{ message.user.full_name
           }}<span
             v-if="chat.moderator_ids.includes(message.user.id)"
+            :style="{ color: activeTheme.primary_color }"
             >*</span
           >
         </div>
@@ -60,7 +61,6 @@ export default {
   methods: {
     deleteMessage() {
       this.$api.Message.destroy(this.message.id);
-    },
     blockUser() {
       if (confirm("Are you sure?")) {
         this.$api.Message.blockUser({ message_id: this.message.id });

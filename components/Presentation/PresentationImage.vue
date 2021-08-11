@@ -7,8 +7,8 @@
   ></div>
 </template>
 
-<script>
 export default {
   props: {
+    slide: Object
   }
 };

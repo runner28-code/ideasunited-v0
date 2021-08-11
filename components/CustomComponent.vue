@@ -45,7 +45,6 @@ export default {
             moduleCache: {
               vue: Vue
             },
-            getFile: () => {
               return component.code;
             },
             addStyle: textContent => {

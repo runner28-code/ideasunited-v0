@@ -139,10 +139,3 @@ export default {
         if(res.password) {
           const passwordUuid = this.registrationForm.registration_form.find((field) => field.short_name == "password").uuid;
           this.form.data[passwordUuid] = res.password;
-        }
-      }
-      this.loginFormRequest = false;
-    },
-    updateDialogState() {
-      if(this.dialogState) this.dialogState.chooseSignUp = this.chooseSignUp;
-    }

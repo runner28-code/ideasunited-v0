@@ -5,6 +5,7 @@
     :dark="calcTheme == 'dark'"
     :large="large"
     :block="block"
+    :xLarge="xLarge"
     :color="calcColor"
     :type="type"
     :outlined="outlined"
@@ -26,7 +27,6 @@ export default {
   props: {
     color: String,
     large: Boolean,
-    xLarge: Boolean,
     outlined: Boolean,
     block: Boolean,
     to: String,
