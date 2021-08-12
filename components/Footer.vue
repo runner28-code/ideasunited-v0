@@ -123,3 +123,5 @@ export default {
     text-transform: none;
     font-weight: 700;
   }
+
+  &__logo {

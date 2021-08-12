@@ -9,7 +9,6 @@
         backgroundImage: item.grid_menu_image.url
           ? `url(${item.grid_menu_image.large.url})`
           : ''
-      }"
     >
       <nuxt-link :to="item.url" class="grid-menu__item-overlay">
         {{ item.menu_title }}
@@ -52,3 +51,4 @@ export default {
       text-align: center;
       font-weight: bold;
       background: rgba(0, 0, 0, 0.1);
+      text-decoration: none;

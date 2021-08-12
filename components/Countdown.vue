@@ -111,7 +111,6 @@ export default {
   },
   beforeDestroy() {
     if (this.interval) clearInterval(this.interval);
-  },
   watch: {
     value: {
       deep: true,
@@ -134,3 +133,5 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: 600;
+  padding: 0 85px;

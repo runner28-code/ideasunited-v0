@@ -16,7 +16,6 @@
         >
       </v-card>
     </v-dialog>
-    <v-navigation-drawer
       right
       v-model="sidebar"
       fixed
@@ -56,3 +55,4 @@ export default {
       switch (payload.notification_type) {
         case "popup":
           this.dialog = true;
+          break;

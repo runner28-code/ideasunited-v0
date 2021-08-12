@@ -15,6 +15,7 @@
     </v-card>
   </v-dialog>
 </template>
+
 <script>
 
 export default {
@@ -50,3 +51,4 @@ export default {
       this.dialogState.chooseSignUp = false;
     },
   },
+  computed: {

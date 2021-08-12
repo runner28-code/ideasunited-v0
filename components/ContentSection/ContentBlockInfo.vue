@@ -99,3 +99,4 @@ export default {
   },
   methods: {
     instagram(v) {
+      /* eslint-disable no-useless-escape */

@@ -27,7 +27,7 @@
           v-for="(section, idx) in content"
           :key="idx"
         >
-          {{ section.value }}
+        </div>
       </div>
     </div>
   </div>
@@ -37,3 +37,4 @@
 export default {
   props: {
     item: Object,
+    layout: Object

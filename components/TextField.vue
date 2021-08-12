@@ -12,6 +12,7 @@
     @change="$emit('change')"
     ref="input"
     validate-on-blur
+    :suffix="suffix"
     :min="min"
     :max="max"
     :class="{ block }"
@@ -74,3 +75,4 @@ export default {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", this.$el);
     }
+  },

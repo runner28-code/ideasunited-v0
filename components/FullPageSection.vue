@@ -98,3 +98,4 @@ export default {
     min-height: 100%;
     &::after {
       content: "";
+      display: block;

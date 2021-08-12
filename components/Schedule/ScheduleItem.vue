@@ -59,3 +59,4 @@ export default {
   min-height: 160px;
   border-radius: 10px;
   padding: 40px;
+  display: flex;

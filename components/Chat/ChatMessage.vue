@@ -60,7 +60,7 @@ export default {
   },
   methods: {
     deleteMessage() {
-    },
+      this.$api.Message.destroy(this.message.id);
     blockUser() {
       if (confirm("Are you sure?")) {
         this.$api.Message.blockUser({ message_id: this.message.id });
@@ -75,3 +75,5 @@ export default {
           user_id: this.message.user.id
         });
       }
+    }
+  },

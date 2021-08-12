@@ -105,3 +105,5 @@ export default {
         }
       }
 
+      return {
+        backgroundImage: `url(${preview})`

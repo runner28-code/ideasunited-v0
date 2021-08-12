@@ -39,7 +39,6 @@ export default {
         }
       }
     }
-  },
   methods: {
     newMessage(payload) {
       this.messages.push(payload);
@@ -61,3 +60,4 @@ export default {
     scrollBottom() {
       const el = this.$refs.messages;
       if (!el) return;
+      if (el.scrollTop == el.scrollHeight - el.clientHeight)

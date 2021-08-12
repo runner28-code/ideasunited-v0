@@ -48,7 +48,6 @@ export default {
   data() {
     return {
       colors: ["#1E1818", "#171313", "#140808", "#8F7878", "#8F7E7E"],
-      dialog: false
     };
   },
   computed: {
@@ -84,3 +83,4 @@ export default {
       if (this.backgroundImage) {
         styles.backgroundImage = this.item.background_image.large.url;
       }
+

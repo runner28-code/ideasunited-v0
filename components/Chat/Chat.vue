@@ -15,7 +15,6 @@ export default {
     return {
       message: "",
       status: "Connected",
-      messages: []
     };
   },
   created() {
@@ -49,3 +48,4 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">

@@ -47,3 +47,4 @@ export default {
             items: _.sortBy(groups[k], t => t.start_at),
             date: groups[k][0].start_at
           };
+        }),

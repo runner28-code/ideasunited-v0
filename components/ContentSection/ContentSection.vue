@@ -226,3 +226,6 @@ export default {
       width: 0;
     }
 
+    &.visible {
+      visibility: visible;
+      pointer-events: all;

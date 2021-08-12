@@ -13,7 +13,6 @@ const providers = {
   },
   cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
-// Temp comment
   }
 };
 

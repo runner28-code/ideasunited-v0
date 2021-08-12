@@ -1,4 +1,5 @@
 <template>
+  <div
     class="text-block"
     :class="`text-block-${textBlock.id} text-block__${textBlock.layout}`"
   >
@@ -81,3 +82,4 @@ export default {
     justify-content: space-between;
     @media screen and (max-width: 960px) {
       flex-direction: column;
+      align-items: center;

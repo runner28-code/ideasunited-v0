@@ -115,3 +115,5 @@ export default {
   background-size: cover;
   background-position: center;
   position: relative;
+  color: white;
+  box-sizing: border-box;

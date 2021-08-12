@@ -80,3 +80,4 @@ export default {
   }
 
   &::v-deep {
+    .v-alert__wrapper {

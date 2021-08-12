@@ -46,6 +46,7 @@ a.text-block__item-wrapper:hover {
   &__item {
     position: relative;
     overflow: hidden;
+    background-position: center;
     background-size: cover;
     height: 100%;
 
@@ -69,3 +70,4 @@ a.text-block__item-wrapper:hover {
       padding: 10px;
       display: block;
       text-decoration: none;
+      color: inherit;

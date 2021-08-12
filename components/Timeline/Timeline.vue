@@ -152,3 +152,6 @@ export default {
         (["sm", "xs"].includes(this.$size) && this.timelineEvents.length > 1)
       );
     },
+    events() {
+      const dates = {};
+      return this.currentPage.events

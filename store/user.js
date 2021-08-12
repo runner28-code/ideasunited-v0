@@ -23,7 +23,6 @@ const store = {
         var d = new Date();
         d.setDate(d.getDate() + 7);
         this.$cookies.set(
-          "authToken",
           token,
           { expires: d, domain: cookieDomain },
           null,

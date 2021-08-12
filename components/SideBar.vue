@@ -118,6 +118,7 @@ export default {
       this.getOpportunityNotifications();
     }, 1000);
   },
+  methods: {
     bindProps(menuItem) {
       if (menuItem.url_type == "absolute") {
         return {
@@ -197,3 +198,6 @@ export default {
 <style scoped lang="scss">
 .rightsidebar {
   max-width: 100%;
+  height: 101vh !important;
+  z-index: 8;
+

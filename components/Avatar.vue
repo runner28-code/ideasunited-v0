@@ -20,7 +20,6 @@ export default {
         "#303f9f",
         "#0288d1",
         "#0097a7",
-        "#00796b",
         "#689f38",
         "#afb42b",
         "#fbc02d",
@@ -38,3 +37,4 @@ export default {
         backgroundColor: this.color
       };
     },
+    initals() {

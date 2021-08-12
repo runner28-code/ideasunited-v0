@@ -72,3 +72,5 @@ export default {
       this.list = [];
       this.infiniteId += 1;
     }, 300)
+  },
+  computed: {

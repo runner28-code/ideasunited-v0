@@ -1,4 +1,5 @@
 /* eslint-disable */
+
 const store = {
   namespaced: true,
   state: () => ({ current: null }),
@@ -39,7 +40,6 @@ const store = {
     async fetch({ commit }, { url }) {
       const { data } = await this.$api.Page.get({
         url
-      });
 
       commit("set", data);
 

@@ -1,6 +1,7 @@
 import list from "./stopwords.json";
 
 class Filter {
+  constructor(options = {}) {
     Object.assign(this, {
       list,
       exclude: options.exclude || [],

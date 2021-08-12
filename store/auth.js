@@ -13,7 +13,7 @@ const store = {
           : "." + window.location.hostname;
       console.info('auth cookieDomain', cookieDomain);
       if (token) {
-        cookies.set("authToken", token, null, null, cookieDomain);
+      } else {
         cookies.remove("authToken", null, cookieDomain);
       }
     }
@@ -28,3 +28,4 @@ const store = {
       const { data } = await this.$api.Auth.register(params);
       commit("setToken", data.token);
       return await dispatch("user/fetch", null, { root: true });
+    },

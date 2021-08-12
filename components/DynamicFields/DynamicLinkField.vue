@@ -18,6 +18,7 @@ export default {
   props: {
     label: String,
     value: String,
+    rules: {
       type: Array,
       default: () => []
     },
@@ -31,3 +32,4 @@ export default {
   data() {
     return {
       localValue: this.value,
+      localRules: [...this.rules, this.$rules.url]

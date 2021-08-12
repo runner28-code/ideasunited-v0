@@ -238,3 +238,6 @@ export default {
     }
     &__thumb {
       width: 50px;
+      height: 50px;
+      background-size: cover;
+      background-position: center;
