@@ -21,7 +21,6 @@
     <div v-html="styles"></div>
   </v-app>
 </template>
-
 <script>
 import _ from "lodash";
 import HomePageLede from "@/components/RootPage/HomePageLede";
@@ -146,3 +145,5 @@ export default {
     styles() {
       return `
         <style rel="stylesheet" type="text/css">
+          .v-application {
+            font-family: ${this.activeTheme.paragraph_font.font.font_name}, sans-serif;

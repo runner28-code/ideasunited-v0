@@ -28,6 +28,7 @@ export default {
     Vue.component("Spinner", Spinner);
   },
   computed: {
+    customComponent() {
       return (this.page || this.currentPage).custom_components[this.value];
     }
   },
@@ -55,3 +56,4 @@ export default {
               });
               style.setAttribute("sfc", sfc_name);
 
+              const ref =

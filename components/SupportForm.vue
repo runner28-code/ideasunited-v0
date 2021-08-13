@@ -48,3 +48,4 @@ export default {
     async submit() {
       try {
         this.form.support_form_id = this.supportForm.id;
+        this.form.user_agent = this.$ua._parsed;

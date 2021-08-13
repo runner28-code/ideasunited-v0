@@ -69,3 +69,4 @@ export default {
     font-weight: bold;
   }
 
+  &__delete {

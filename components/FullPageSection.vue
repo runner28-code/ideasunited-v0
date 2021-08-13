@@ -100,3 +100,5 @@ export default {
       content: "";
       display: block;
       height: 84px;
+      width: 100%;
+    }

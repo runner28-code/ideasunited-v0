@@ -48,3 +48,4 @@ export default {
             date: groups[k][0].start_at
           };
         }),
+        t => t.date

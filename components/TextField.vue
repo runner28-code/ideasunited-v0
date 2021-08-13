@@ -69,7 +69,6 @@ export default {
         this.localType = "password";
       }
     },
-    validate() {
       this.$refs.input.validate(true);
     },
     onFocus($event) {
@@ -77,3 +76,4 @@ export default {
     }
   },
   watch: {
+    type() {

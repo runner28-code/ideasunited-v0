@@ -95,3 +95,4 @@
     background: white;
     filter: drop-shadow(2px 3px 12px rgba(0, 0, 0, 0.15));
 
+    @media screen and (max-width: 960px) {

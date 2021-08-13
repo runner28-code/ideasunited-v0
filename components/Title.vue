@@ -11,6 +11,7 @@ export default {
       type: String,
       default: "h2"
     }
+  },
   computed: {
     styles() {
       if(!this.activeTheme) return {};
@@ -25,3 +26,4 @@ export default {
     }
   }
 };
+</script>

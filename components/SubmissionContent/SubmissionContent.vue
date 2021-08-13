@@ -75,3 +75,4 @@ export default {
   },
   computed: {
     submissionContent() {
+      return (this.page || this.currentPage).submission_contents[this.value];

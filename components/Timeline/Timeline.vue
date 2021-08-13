@@ -157,3 +157,5 @@ export default {
       return this.currentPage.events
         .map(t => {
           const startAt = this.$moment
+            .tz(t.start_at, this.currentTimezone)
+            .format("YYYY/MM/DD");

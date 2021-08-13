@@ -48,6 +48,7 @@
           v-if="['relative', 'none'].includes(menuItem.url_type)"
         >
           <template v-slot:activator="{ on, attrs }">
+            <component
               v-bind="attrs"
               v-on="on"
               :is="menuItem.url_type == 'relative' ? 'nuxt-link' : 'span'"
@@ -96,7 +97,6 @@
             v-if="menuItem.url_type == 'absolute'"
             target="_blank"
             :href="menuItem.absolute_url"
-            >{{ menuItem.footer_menu_title }}</a
           >
           <a
             @click.prevent="menuItem.onclick"
@@ -236,3 +236,6 @@ export default {
 
     &::v-deep {
       .v-toolbar__content {
+        min-height: 100% !important;
+      }
+    }

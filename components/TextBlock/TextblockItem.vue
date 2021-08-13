@@ -54,6 +54,7 @@ a.text-block__item-wrapper:hover {
       color: white;
     }
 
+    &.with-preview {
       &:before {
         content: "";
         position: absolute;
@@ -70,3 +71,4 @@ a.text-block__item-wrapper:hover {
       display: block;
       text-decoration: none;
       color: inherit;
+      transition: 0.3s;

@@ -33,3 +33,4 @@ export default {
   },
   computed: {
     styles() {
+      const url =

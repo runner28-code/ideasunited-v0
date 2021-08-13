@@ -37,3 +37,4 @@ export default {
     border-radius: 40px;
     margin-top: 8px;
     margin-right: 10px;
+    background-size: cover;

@@ -231,3 +231,6 @@ export default {
       pointer-events: all;
       margin-top: -45px;
     }
+  }
+
+  &__swiper {

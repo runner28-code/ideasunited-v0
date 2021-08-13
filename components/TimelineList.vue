@@ -19,7 +19,6 @@ export default {
   name: "Timeline",
   props: {
     value: String,
-    page: Object,
   },
   computed: {
     timelineList() {
@@ -29,6 +28,7 @@ export default {
       return this.timelineList?.settings?.items;
     },
     timelineCssVars() {
+      return {
         '--dot-color': this.timelineList?.settings?.dot_color || "currentColor",
       }
     }
@@ -50,3 +50,4 @@ export default {
         .timeline-list__date::before {
           display: block;
           content: "";
+          background: currentColor;

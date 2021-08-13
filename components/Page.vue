@@ -154,7 +154,6 @@ export default {
       );
     },
     fullPageMoveNext(idx) {
-      if (idx != -1 && idx + 1 < this.fullpageOpts.anchors.length) {
         this.fullPageMoveTo(idx + 1);
       }
     },
@@ -209,3 +208,6 @@ export default {
 
         this.$nextTick(() => {
           if(this.keyIsDown) {
+
+            const viewportOffset = elem.getBoundingClientRect();
+            if(viewportOffset.y > window.innerHeight) {

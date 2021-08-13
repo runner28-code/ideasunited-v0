@@ -10,6 +10,7 @@
 export default {
   props: {
     chat: Object
+  },
   data() {
     return {
       message: "",
@@ -49,3 +50,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.chat {

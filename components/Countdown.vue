@@ -109,7 +109,6 @@ export default {
       this.seconds = seconds < 10 ? "0" + seconds : seconds;
     }
   },
-  beforeDestroy() {
     if (this.interval) clearInterval(this.interval);
   },
   watch: {
@@ -121,6 +120,7 @@ export default {
     }
   }
 };
+</script>
 
 <style scoped lang="scss">
 .countdown {
@@ -137,3 +137,5 @@ export default {
   padding: 0 85px;
 }
 
+.countdown__text {
+  font-weight: bold;

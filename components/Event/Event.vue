@@ -182,3 +182,5 @@ export default {
   &.chat_is_zoom &__video {
     &.with_chat {
       width: 50%;
+    }
+    &-player {

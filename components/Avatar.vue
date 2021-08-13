@@ -28,9 +28,9 @@ export default {
         "#5d4037",
         "#455a64",
         "#1b5e20",
-        "#1a237e"
       ]
     };
+  },
   computed: {
     styles() {
       return {
@@ -38,3 +38,4 @@ export default {
       };
     },
     initals() {
+      return (this.name || "Anon")

@@ -31,7 +31,6 @@ import cookies from "vue-cookies";
 export default {
   data() {
     return {
-      authParams: {
         TwitterLogin: {
           provider: "twitter"
         },
@@ -78,3 +77,4 @@ export default {
         "Addon::GoogleLogin"
       ]).map(t => this.authParams[t.replace("Addon::", "")]);
 
+      return intersection;

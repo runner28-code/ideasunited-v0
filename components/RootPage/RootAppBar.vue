@@ -243,3 +243,6 @@ export default {
       background-position: center;
       margin-right: 10px;
       flex-shrink: 0;
+    }
+    &__new {
+      color: white;

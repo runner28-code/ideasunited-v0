@@ -313,3 +313,7 @@ export default {
     },
     slideChange() {
       this.currentSlideIndex = (this.currentSlideIndex + 1) % this.slides.length;
+      setTimeout(() => {
+        this.slideChange();
+      }, 3000);
+    }

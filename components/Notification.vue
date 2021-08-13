@@ -57,3 +57,4 @@ export default {
         case "popup":
           this.dialog = true;
           break;
+        case "sidebar":

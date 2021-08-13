@@ -16,6 +16,7 @@ class Filter {
     return (
       this.list.filter(word => {
         const wordExp = new RegExp(
+          `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
           "gi"
         );
         return (
@@ -39,4 +40,5 @@ class Filter {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })
       .join(join ? join[0] : "");
+// Temp comment
   }

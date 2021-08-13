@@ -76,7 +76,6 @@ export default {
             const event_type = this.block.video_player_type;
             this.$root.$emit("setActiveEvent", {
               ...this.block,
-              event_type,
               type: "content_block"
             });
             window.scroll({ top: 0, left: 0, behavior: "smooth" });
@@ -108,3 +107,4 @@ export default {
       return {
         backgroundImage: `url(${preview})`
       };
+    }

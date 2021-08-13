@@ -20,7 +20,6 @@ export default {
   props: {
     chat: Object
   },
-  data() {
     return { messages: [] };
   },
   channels: {
@@ -62,3 +61,4 @@ export default {
       const el = this.$refs.messages;
       if (!el) return;
       if (el.scrollTop == el.scrollHeight - el.clientHeight)
+        this.$nextTick(function() {

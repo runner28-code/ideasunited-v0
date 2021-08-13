@@ -22,6 +22,7 @@
             block
             label="Password"
             type="password"
+            name="password"
           />
           <div class="auth-footer">
             <div><Button block :refs="$refs" type="submit">Log In</Button></div>
@@ -126,3 +127,5 @@ export default {
     text-align: center;
     font-size: 28px;
     line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 20px;

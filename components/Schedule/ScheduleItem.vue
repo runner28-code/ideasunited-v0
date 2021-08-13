@@ -45,7 +45,6 @@ export default {
       if (url) {
         result.backgroundImage = `url(${url})`;
       } else {
-        result.border = "1px solid";
       }
 
       return result;
@@ -60,3 +59,4 @@ export default {
   border-radius: 10px;
   padding: 40px;
   display: flex;
+  align-items: center;

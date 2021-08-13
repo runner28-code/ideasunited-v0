@@ -204,3 +204,6 @@ export default {
   @media screen and (max-width: 944px) {
     background: #E12D1B;
     color: white;
+  }
+
+  &__logo {

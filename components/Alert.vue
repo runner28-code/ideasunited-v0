@@ -1,3 +1,4 @@
+<template>
   <v-snackbar
     v-if="alert"
     class="alert-container"
@@ -81,3 +82,4 @@ export default {
   &::v-deep {
     .v-alert__wrapper {
       padding-right: 15px;
+      display: flex;
