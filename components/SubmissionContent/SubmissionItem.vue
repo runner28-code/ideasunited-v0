@@ -12,7 +12,6 @@
             :key="field.id"
           >
             <span>{{
-              field.value.length > 100
                 ? field.value.substr(0, 100) + "..."
                 : field.value
             }}</span>
@@ -48,6 +47,7 @@ export default {
   data() {
     return {
       colors: ["#1E1818", "#171313", "#140808", "#8F7878", "#8F7E7E"],
+      dialog: false
     };
   },
   computed: {
@@ -84,3 +84,4 @@ export default {
         styles.backgroundImage = this.item.background_image.large.url;
       }
 
+      return styles;

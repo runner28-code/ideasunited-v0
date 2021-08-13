@@ -128,7 +128,6 @@ export default {
       this.updateDialogState();
     },
     clickRegister() {
-      this.loginFormRequest = true;
       this.chooseSignUp = true;
       this.updateDialogState();
     },
@@ -141,3 +140,5 @@ export default {
           this.form.data[passwordUuid] = res.password;
         }
       }
+      this.loginFormRequest = false;
+    },

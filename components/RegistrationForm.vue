@@ -111,3 +111,5 @@ export default {
     async submit() {
       try {
         const { data } = await this.$api.RegistrationForm.submit(this.form);
+        this.emailValidationSuggestions = [];
+        this.$store.commit("auth/setToken", data.token);

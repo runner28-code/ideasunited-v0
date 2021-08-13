@@ -43,7 +43,6 @@ export default {
         },
         LinkedinLogin: {
           provider: "linkedin"
-        }
       }
     };
   },
@@ -77,3 +76,4 @@ export default {
         "Addon::LinkedinLogin",
         "Addon::GoogleLogin"
       ]).map(t => this.authParams[t.replace("Addon::", "")]);
+

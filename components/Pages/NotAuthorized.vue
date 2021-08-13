@@ -25,3 +25,4 @@ export default {
     return {
       authDisabled: false
     };
+  },

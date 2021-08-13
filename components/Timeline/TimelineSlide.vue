@@ -117,3 +117,5 @@ export default {
   position: relative;
   color: white;
   box-sizing: border-box;
+  border: 4px solid rgba(16, 24, 32, 0.6);
+

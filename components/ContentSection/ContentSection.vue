@@ -229,3 +229,5 @@ export default {
     &.visible {
       visibility: visible;
       pointer-events: all;
+      margin-top: -45px;
+    }

@@ -125,3 +125,4 @@ export default {
   }
 
   &__logo {
+    text-decoration: none;

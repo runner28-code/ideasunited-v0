@@ -22,6 +22,7 @@
     </v-radio-group>
   </div>
 </template>
+
 <script>
 export default {
   props: {

@@ -76,3 +76,4 @@ export default {
       this.$root.$emit("fullpageScrollFocus", this.$el);
     }
   },
+  watch: {

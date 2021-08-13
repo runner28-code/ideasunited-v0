@@ -83,3 +83,4 @@ export default {
     @media screen and (max-width: 960px) {
       flex-direction: column;
       align-items: center;
+    }

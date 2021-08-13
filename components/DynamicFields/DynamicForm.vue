@@ -43,6 +43,7 @@
           ></v-progress-circular>
           <span style="margin-left: 10px"> Uploading... </span>
         </span>
+        <span v-else>
           {{ btnText || "Submit" }}
         </span>
       </Button>
@@ -127,3 +128,4 @@ export default {
             case "true":
               return true;
             case "false":
+              return false;

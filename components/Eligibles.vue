@@ -35,3 +35,4 @@ export default {
 .eligibles {
   display: flex;
   justify-content: center;
+}

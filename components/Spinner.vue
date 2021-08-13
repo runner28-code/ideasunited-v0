@@ -7,12 +7,12 @@
         :color="activeTheme.primary_color"
       />
     </div>
-  </client-only>
 </template>
 
 <script>
 export default {
   props: {
+    relative: Boolean
   },
   created() {}
 };

@@ -40,6 +40,7 @@
 
 <script>
 
+export default {
   name: "Faq",
   props: {
     value: String,
@@ -67,3 +68,4 @@
         return false;
       }
     },
+  }

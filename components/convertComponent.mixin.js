@@ -20,7 +20,6 @@ export default {
     Countdown,
     Event,
     TextBlock,
-// Temp comment
     Schedule,
     List,
     HtmlBlock,

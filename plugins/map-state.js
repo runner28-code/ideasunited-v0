@@ -43,3 +43,4 @@ if (!Vue.__map_state_mixin__) {
     },
     computed: {
       ...mapState({
+        currentUser: (state) => state.user.current,

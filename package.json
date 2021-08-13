@@ -32,3 +32,4 @@
     "mina": "^1.0.9",
     "moment-timezone": "^0.5.33",
     "nuxt": "^2.14.12",
+    "nuxt-polyfill": "^1.0.3",

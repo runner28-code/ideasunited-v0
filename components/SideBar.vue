@@ -201,3 +201,6 @@ export default {
   height: 101vh !important;
   z-index: 8;
 
+  @media screen and (max-width: 944px) {
+    background: #E12D1B;
+    color: white;

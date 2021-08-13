@@ -47,3 +47,4 @@ export default {
   methods: {
     async submit() {
       try {
+        this.form.support_form_id = this.supportForm.id;

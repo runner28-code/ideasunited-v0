@@ -80,6 +80,7 @@ export default {
             top: y - 70,
             behavior: "smooth"
           });
+        }
       }
     });
   },
@@ -110,3 +111,4 @@ export default {
 };
 </script>
 
+<style lang="scss">

@@ -16,6 +16,7 @@
         >
       </v-card>
     </v-dialog>
+    <v-navigation-drawer
       right
       v-model="sidebar"
       fixed

@@ -241,3 +241,5 @@ export default {
       height: 50px;
       background-size: cover;
       background-position: center;
+      margin-right: 10px;
+      flex-shrink: 0;

@@ -206,3 +206,5 @@ export default {
       const fpScrollable = document.querySelector('.fp-scrollable');
       if(fpScrollable) {
         fpScrollable.scrollTo(0, 0);
+
+        this.$nextTick(() => {

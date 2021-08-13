@@ -31,10 +31,13 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
           encode: false
         });
       };
+// Temp comment
 
       return requestConfig;
+    },
     function(error) {
       return Promise.reject(error);
     }
   );
 
+  $axios.interceptors.response.use(

@@ -234,3 +234,6 @@ export default {
     min-height: unset !important;
     height: auto !important;
     width: 100%;
+
+    &::v-deep {
+      .v-toolbar__content {

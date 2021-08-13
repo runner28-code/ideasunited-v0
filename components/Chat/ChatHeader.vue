@@ -34,3 +34,4 @@ export default {
   box-shadow: 0px 0px 5px -1px rgb(0 0 0 / 15%);
   position: relative;
   z-index: 1;
+  display: flex;

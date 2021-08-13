@@ -81,3 +81,4 @@ export default {
 
   &::v-deep {
     .v-alert__wrapper {
+      padding-right: 15px;

@@ -69,7 +69,6 @@
 
       <ZoomChat
         v-if="currentPage.chats[0].chat_type == 'zoom'"
-        :chat="currentPage.chats[0]"
       />
     </div>
     <client-only>
@@ -180,3 +179,5 @@ export default {
   }
 
   &.chat_is_zoom &__video {
+    &.with_chat {
+      width: 50%;

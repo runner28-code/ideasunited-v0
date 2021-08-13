@@ -129,6 +129,7 @@ export default {
       };
       document.onmsfullscreenchange = () => {
         if (!document.msFullscreenElement) {
+          this.onFullscreenExit();
         }
       };
     },
@@ -206,7 +207,6 @@ export default {
         const { videoElem } = this.$refs;
         videoElem.play();
         // enter full screen
-        this.fullscreen = true;
         this.fullscreenToggle();
       } else {
         const { previewMedia, playBtn, previewImage, previewVideo, videoElem } = this.$refs;
@@ -309,3 +309,6 @@ export default {
     onFullscreenExit() {
       this.fullscreen = false;
       this.$refs.videoElem.pause();
+    },
+    slideChange() {
+      this.currentSlideIndex = (this.currentSlideIndex + 1) % this.slides.length;

@@ -12,4 +12,6 @@ const store = {
   },
   actions: {
     async fetch({ commit }) {
+      const { data } = await this.$api.Datasources.get();
       commit("set", data);
+

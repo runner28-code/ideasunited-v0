@@ -32,3 +32,4 @@ export default {
     event: Object
   },
   computed: {
+    styles() {

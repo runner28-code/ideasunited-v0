@@ -8,5 +8,4 @@ export default function (ctx, inject) {
     email: (v) => !v || emailRegexp.test(v) || "Incorrect email",
     url: (v) => !v || urlRegexp.test(v) || "Incorrect URL",
 
-// Temp comment
     required: (v) => {

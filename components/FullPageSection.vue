@@ -99,3 +99,4 @@ export default {
     &::after {
       content: "";
       display: block;
+      height: 84px;
