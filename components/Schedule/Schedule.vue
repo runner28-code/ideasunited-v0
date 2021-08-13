@@ -41,6 +41,7 @@ export default {
           .format("YYYY/MM/DD")
       );
 
+      return _.sortBy(
         Object.keys(groups).map(k => {
           return {
             items: _.sortBy(groups[k], t => t.start_at),

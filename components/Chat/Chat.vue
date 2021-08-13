@@ -10,7 +10,6 @@
 export default {
   props: {
     chat: Object
-  },
   data() {
     return {
       message: "",

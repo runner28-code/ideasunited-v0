@@ -31,7 +31,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
           encode: false
         });
       };
-// Temp comment
 
       return requestConfig;
     },

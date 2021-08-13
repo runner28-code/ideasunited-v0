@@ -16,12 +16,12 @@ const store = {
       if (token && process.client) {
         const { data } = await this.$api.User.current();
         commit("set", data);
+// Temp comment
         const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"
             : "." + window.location.hostname;
         var d = new Date();
-// Temp comment
         d.setDate(d.getDate() + 7);
         this.$cookies.set(
           "authToken",

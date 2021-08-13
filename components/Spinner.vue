@@ -7,6 +7,7 @@
         :color="activeTheme.primary_color"
       />
     </div>
+  </client-only>
 </template>
 
 <script>
@@ -20,3 +21,4 @@ export default {
 
 <style scope>
 .spinner {
+  position: absolute;

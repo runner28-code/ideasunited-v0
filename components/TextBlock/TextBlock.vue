@@ -18,7 +18,6 @@
         v-if="textBlock.layout == 4"
       />
     </div>
-    <div
       class="text-block__side text-block__side-double"
       v-if="[2, 3].includes(textBlock.layout)"
     >

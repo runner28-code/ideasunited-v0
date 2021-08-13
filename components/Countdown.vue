@@ -121,7 +121,6 @@ export default {
     }
   }
 };
-</script>
 
 <style scoped lang="scss">
 .countdown {
@@ -137,3 +136,4 @@ export default {
   font-weight: 600;
   padding: 0 85px;
 }
+

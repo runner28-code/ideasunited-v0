@@ -57,7 +57,6 @@
           <div class="register__buttons">
             <Button
               :refs="$refs"
-              :disabled="resending"
               @click="resendConfirmationEmail()"
             >
               Resend Confirmation Email
@@ -128,6 +127,7 @@ export default {
       this.updateDialogState();
     },
     clickRegister() {
+      this.loginFormRequest = true;
       this.chooseSignUp = true;
       this.updateDialogState();
     },

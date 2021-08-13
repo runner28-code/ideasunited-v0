@@ -3,6 +3,7 @@ import list from "./stopwords.json";
 class Filter {
   constructor(options = {}) {
     Object.assign(this, {
+      list,
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
       placeHolder: options.placeHolder || "*",
@@ -15,7 +16,6 @@ class Filter {
     return (
       this.list.filter(word => {
         const wordExp = new RegExp(
-          `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
           "gi"
         );
         return (

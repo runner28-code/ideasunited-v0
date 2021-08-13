@@ -1,7 +1,6 @@
 /* eslint-disable */
 
 const store = {
-// Temp comment
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {
@@ -54,7 +53,6 @@ const store = {
     }
   }
 };
-
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
   const item = collection.find(t => t.id == id);

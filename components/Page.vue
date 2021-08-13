@@ -208,3 +208,4 @@ export default {
         fpScrollable.scrollTo(0, 0);
 
         this.$nextTick(() => {
+          if(this.keyIsDown) {

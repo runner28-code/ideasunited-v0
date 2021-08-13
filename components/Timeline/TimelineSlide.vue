@@ -45,7 +45,6 @@ export default {
   props: {
     value: Object,
     active: Object
-  },
   methods: {
     setActive() {
       if (this.value.posted) {

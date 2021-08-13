@@ -12,6 +12,7 @@
             :key="field.id"
           >
             <span>{{
+              field.value.length > 100
                 ? field.value.substr(0, 100) + "..."
                 : field.value
             }}</span>
@@ -61,7 +62,6 @@ export default {
     },
     formattedData() {
       const result = {};
-      this.item.formatted_data.forEach(t => (result[t.uuid] = t));
       return result;
     },
     preview() {

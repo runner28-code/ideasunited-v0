@@ -16,7 +16,7 @@
     </div>
   </div>
 </template>
-
+<script>
 export default {
   layout: 'simple',
   data() {

@@ -207,6 +207,7 @@ export default {
         const { videoElem } = this.$refs;
         videoElem.play();
         // enter full screen
+        this.fullscreen = true;
         this.fullscreenToggle();
       } else {
         const { previewMedia, playBtn, previewImage, previewVideo, videoElem } = this.$refs;

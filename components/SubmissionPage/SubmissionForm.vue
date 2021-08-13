@@ -34,6 +34,7 @@
             />
             <div v-else>
               <SubmissionThankYou
+                v-model="form"
                 :success-message="successMessage"
               />
             </div>
