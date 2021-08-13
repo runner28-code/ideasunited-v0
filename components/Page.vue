@@ -154,6 +154,7 @@ export default {
       );
     },
     fullPageMoveNext(idx) {
+      if (idx != -1 && idx + 1 < this.fullpageOpts.anchors.length) {
         this.fullPageMoveTo(idx + 1);
       }
     },

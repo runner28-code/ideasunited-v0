@@ -102,7 +102,6 @@ export default {
     },
     showField(field) {
       if (!field.conditional) return true;
-
       const conditionalField = this.fields.find(
         (f) => f.uuid == field.conditional_uuid
       );
@@ -124,6 +123,7 @@ export default {
         const conditionalFormValue = this.form.data[field.conditional_uuid];
         const validValues = field.conditional_value.split(",").map((v) => {
           const value = v.trim();
+          switch (value) {
             case "true":
               return true;
             case "false":

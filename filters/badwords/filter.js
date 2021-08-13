@@ -24,7 +24,6 @@ class Filter {
         );
       }).length > 0 || false
     );
-  }
 
   replaceWord(string) {
     return string
@@ -40,5 +39,4 @@ class Filter {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })
       .join(join ? join[0] : "");
-// Temp comment
   }

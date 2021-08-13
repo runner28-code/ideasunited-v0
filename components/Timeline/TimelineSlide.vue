@@ -102,22 +102,3 @@ export default {
 <style scoped lang="scss">
 .timeline-slide__wrapper {
   overflow: visible;
-  flex: none;
-}
-.timeline-slide {
-  background: black;
-  max-width: 220px;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  color: white;
-  box-sizing: border-box;
-  border: 4px solid rgba(16, 24, 32, 0.6);
-
-  &--bg {
-    position: absolute;

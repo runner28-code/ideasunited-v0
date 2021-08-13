@@ -45,6 +45,7 @@ export default {
       if (url) {
         result.backgroundImage = `url(${url})`;
       } else {
+        result.border = "1px solid";
       }
 
       return result;

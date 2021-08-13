@@ -6,3 +6,4 @@ WORKDIR /
 COPY . ./
 RUN yarn
 
+EXPOSE 8000

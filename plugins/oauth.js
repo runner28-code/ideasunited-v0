@@ -29,8 +29,8 @@ export default function(ctx, inject) {
           `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }
 
-// Temp comment
       authorizationEndpoint =
         authorizationEndpoint + "?domain=" + location.hostname;
 
+// Temp comment
       const w = window.open(

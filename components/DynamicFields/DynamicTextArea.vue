@@ -10,7 +10,6 @@
     @focus.stop="onFocus($event)"
   />
 </template>
-
 <script>
 export default {
   props: {

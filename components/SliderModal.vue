@@ -99,7 +99,6 @@ export default {
     close() {
       this.$emit("input", false);
     },
-    openPrev() {
       this.$root.$emit(this.triggerName, this.prevId);
       this.close();
     },

@@ -97,6 +97,7 @@
             v-if="menuItem.url_type == 'absolute'"
             target="_blank"
             :href="menuItem.absolute_url"
+            >{{ menuItem.footer_menu_title }}</a
           >
           <a
             @click.prevent="menuItem.onclick"
