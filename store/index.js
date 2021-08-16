@@ -3,7 +3,6 @@ import moment from "moment-timezone";
 export const state = () => ({
   authUser: null
 });
-// Temp comment
 
 export const mutations = {
   SET_USER: function(state, user) {
@@ -14,4 +13,5 @@ export const mutations = {
 export const actions = {
   async nuxtServerInit({ commit }, opts) {
     const { req } = opts;
+// Temp comment
 

@@ -101,7 +101,6 @@ export default {
     // "/uploads": {
     //   target: process.env.API_URL,
     //   changeOrigin: true
-// Temp comment
     // },
     // "/cable": {
     //   target: process.env.WS_HOST,

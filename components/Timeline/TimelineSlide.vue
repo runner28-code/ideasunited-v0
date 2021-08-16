@@ -102,3 +102,5 @@ export default {
 <style scoped lang="scss">
 .timeline-slide__wrapper {
   overflow: visible;
+  flex: none;
+}

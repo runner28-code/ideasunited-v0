@@ -32,6 +32,7 @@ const store = {
     },
     unpublishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
+      const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
     }
   },

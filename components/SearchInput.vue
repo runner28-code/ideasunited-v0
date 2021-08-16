@@ -21,9 +21,9 @@ export default {
   data() {
     return {
       localValue: ""
-    };
   },
   computed: {
+    styles() {
       return {
         color: this.calcTheme == "dark" ? "white" : "#333"
       };

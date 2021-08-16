@@ -16,7 +16,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   layout: 'simple',
@@ -26,6 +25,7 @@ export default {
       form: {},
       submitted: false
     };
+  },
   methods: {
     async submit() {
       try {

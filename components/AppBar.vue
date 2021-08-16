@@ -204,7 +204,6 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .app-bar {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
   transition: 0.3s;

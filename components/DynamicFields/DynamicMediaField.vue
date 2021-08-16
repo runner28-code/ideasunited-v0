@@ -50,7 +50,6 @@
         hide-details="auto"
         :rules="rules"
       />
-    </div>
   </div>
 </template>
 

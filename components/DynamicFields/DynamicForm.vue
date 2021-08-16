@@ -99,9 +99,9 @@ export default {
       } finally {
         this.loading = false;
       }
-    },
     showField(field) {
       if (!field.conditional) return true;
+
       const conditionalField = this.fields.find(
         (f) => f.uuid == field.conditional_uuid
       );

@@ -22,7 +22,6 @@ if (!Vue.__map_state_mixin__) {
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
-// Temp comment
             title,
             description,
             callback: (value) => {
@@ -40,6 +39,7 @@ if (!Vue.__map_state_mixin__) {
         }
 
         this.$root.$emit("alert", payload);
+// Temp comment
       },
     },
     computed: {
