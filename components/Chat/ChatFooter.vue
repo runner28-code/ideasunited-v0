@@ -31,6 +31,7 @@
                   $emoji
                 </v-icon>
               </v-btn>
+            </template>
             <div>
               <VEmojiPicker @select="selectEmoji" />
             </div>
@@ -61,7 +62,6 @@ export default {
       this.message += data;
     },
     sendMessage(event) {
-      if (!event.shiftKey && this.message.replace(/(\s|\n)+/g, "").length) {
         event.preventDefault();
         const data = {
           body: stripMessage(this.message),

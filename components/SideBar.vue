@@ -43,7 +43,6 @@
         v-ripple="false"
       >
         Opportunities
-        <transition name="fade">
           <div
             v-if="newOpps.length"
             class="rightsidebar__opp-count"
@@ -198,6 +197,7 @@ export default {
 <style scoped lang="scss">
 .rightsidebar {
   max-width: 100%;
+  height: 101vh !important;
   z-index: 8;
 
   @media screen and (max-width: 944px) {

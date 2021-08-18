@@ -32,5 +32,4 @@ export default {
     event: Object
   },
   computed: {
-    styles() {
       const url =

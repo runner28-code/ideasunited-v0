@@ -78,7 +78,6 @@ export default {
               ...this.block,
               event_type,
               type: "content_block"
-            });
             window.scroll({ top: 0, left: 0, behavior: "smooth" });
           } else {
             this.dialog = true;

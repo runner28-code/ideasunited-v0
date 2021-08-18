@@ -54,6 +54,7 @@ export default {
     return {
       localType: this.type
     };
+  },
   computed: {
     calcTheme() {
       if(!this.activeTheme) return "light";

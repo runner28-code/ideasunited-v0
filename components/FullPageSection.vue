@@ -79,7 +79,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.page {
   background-color: #56565a;
   overflow-y: scroll;
   overflow-anchor: none;

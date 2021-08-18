@@ -32,7 +32,6 @@ export default {
         const { page_url, id } = this.item.event;
         this.$router.push(page_url + "?event_id=" + id);
         this.$root.$emit("setActiveEvent", id);
-      }
     }
   },
   computed: {

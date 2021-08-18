@@ -127,6 +127,7 @@ export default {
   cursor: pointer;
   display: none;
 
+  span {
     display: flex;
     align-items: center;
   }
@@ -161,7 +162,6 @@ export default {
     padding: 24px 40px;
   }
 
-  &.show-event {
     margin-bottom: -45px;
   }
 

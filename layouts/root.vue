@@ -122,29 +122,3 @@ export default {
       env: this.currentProject.env
     });
   },
-  channels: {
-    ProjectChannel: {
-      received({ payload, type }) {
-        switch (type) {
-          case "update_project_params":
-            this.$store.commit("project/set", payload);
-            break;
-        }
-      }
-    },
-    NotificationChannel: {
-      received({ payload, type }) {
-        switch (type) {
-          case "send_notification":
-            this.sendNotification(payload);
-            break;
-        }
-      }
-    }
-  },
-  computed: {
-    styles() {
-      return `
-        <style rel="stylesheet" type="text/css">
-          .v-application {
-            font-family: ${this.activeTheme.paragraph_font.font.font_name}, sans-serif;
