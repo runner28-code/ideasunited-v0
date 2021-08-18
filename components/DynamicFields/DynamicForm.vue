@@ -131,3 +131,5 @@ export default {
               return false;
             default:
               return value;
+          }
+        });

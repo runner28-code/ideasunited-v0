@@ -240,3 +240,6 @@ export default {
         min-height: 100% !important;
       }
     }
+  }
+
+  &__dropdown {

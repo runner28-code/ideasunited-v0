@@ -32,4 +32,6 @@ export default {
     event: Object
   },
   computed: {
+    styles() {
       const url =
+        this.event.background?.large?.url ||

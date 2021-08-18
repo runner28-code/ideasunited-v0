@@ -59,3 +59,5 @@ export default {
         return items;
       }
     },
+    items2() {
+      const { two_column, items } = this.faq.settings;

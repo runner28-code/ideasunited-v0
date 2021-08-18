@@ -20,7 +20,6 @@
       <div class="content-section-item__text">
         <div class="content-section-item__title">{{ block.title }}</div>
         <div class="content-section-item__subtitle">{{ block.subtitle }}</div>
-      </div>
 
       <div
         class="content-section-item__icon"
@@ -78,6 +77,7 @@ export default {
               ...this.block,
               event_type,
               type: "content_block"
+            });
             window.scroll({ top: 0, left: 0, behavior: "smooth" });
           } else {
             this.dialog = true;
@@ -108,3 +108,5 @@ export default {
         backgroundImage: `url(${preview})`
       };
     }
+  }
+};

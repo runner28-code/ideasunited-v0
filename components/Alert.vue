@@ -14,6 +14,7 @@
       :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
       :value="!!alert"
       @input="alert = $event"
+    >
       <div
         :class="{ clickable: alert.onclick }"
         class="alert__message"
@@ -82,3 +83,4 @@ export default {
     .v-alert__wrapper {
       padding-right: 15px;
       display: flex;
+      width: 100%;

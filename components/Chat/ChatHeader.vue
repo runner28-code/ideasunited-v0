@@ -11,6 +11,7 @@
 <script>
 export default {
   props: {
+    chat: Object
   },
   data() {
     return { status: "Connecting" };
@@ -35,3 +36,4 @@ export default {
   z-index: 1;
   display: flex;
   align-items: center;
+  padding: 0 15px;

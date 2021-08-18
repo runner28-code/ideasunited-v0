@@ -78,7 +78,6 @@ export default {
       scrollDelayCounter: 0,
       scrollDelay: 5,
       clickingToSection: false,
-      keyIsDown: false,
     };
   },
   mounted() {
@@ -212,3 +211,7 @@ export default {
 
             const viewportOffset = elem.getBoundingClientRect();
             if(viewportOffset.y > window.innerHeight) {
+              const iScrollInstance = fpScrollable.fp_iscrollInstance
+              iScrollInstance.scrollToElement(elem);
+            }
+          }

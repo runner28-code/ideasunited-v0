@@ -85,7 +85,6 @@ export default {
     });
   },
   methods: {
-    inViewport() {
       var bounding = this.$el.getBoundingClientRect();
       return (
         bounding.top >= 0 &&
@@ -113,3 +112,5 @@ export default {
 
 <style lang="scss">
 .slider-modal {
+  .v-btn.slider-modal__arrow:not(.v-btn--text):not(.v-btn--outlined):focus:before {
+    opacity: 0.72;

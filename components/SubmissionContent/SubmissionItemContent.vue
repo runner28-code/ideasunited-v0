@@ -43,3 +43,4 @@ export default {
   computed: {
     content() {
       return this.layout.content
+        .map(t => ({

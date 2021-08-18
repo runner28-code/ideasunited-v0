@@ -32,6 +32,7 @@ export default {
         const { page_url, id } = this.item.event;
         this.$router.push(page_url + "?event_id=" + id);
         this.$root.$emit("setActiveEvent", id);
+      }
     }
   },
   computed: {
@@ -60,3 +61,4 @@ export default {
   padding: 40px;
   display: flex;
   align-items: center;
+  background-size: cover;

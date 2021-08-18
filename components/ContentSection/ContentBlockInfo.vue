@@ -103,3 +103,5 @@ export default {
       const urlRegexp =
         /^http(s)?:\/\/?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
 
+      /* eslint-disable no-useless-escape */
+      const instagramHandleRegexp =

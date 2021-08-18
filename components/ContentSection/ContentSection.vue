@@ -234,3 +234,6 @@ export default {
   }
 
   &__swiper {
+    width: 100%;
+    padding: 40px 10px 0;
+

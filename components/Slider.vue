@@ -8,7 +8,6 @@
     </div>
     <swiper class="slider" :options="swiperOption">
       <swiper-slide v-for="slide in slides" :key="slide.id">
-        <div
           @click="slideClick(slide)"
           class="slider__slide"
           :class="{ clickable: slide.url }"
@@ -36,6 +35,7 @@ export default {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
         }
+      }
     };
   },
   methods: {
@@ -43,3 +43,4 @@ export default {
       if (slide.url) {
         window.open(slide.url, slide.open_url || "_blank");
       }
+    }

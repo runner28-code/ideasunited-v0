@@ -12,7 +12,6 @@
       You are blocked
     </div>
 
-    <div v-else class="chat-footer__actions">
       <v-textarea
         @keydown.enter="sendMessage"
         auto-grow
@@ -62,6 +61,7 @@ export default {
       this.message += data;
     },
     sendMessage(event) {
+      if (!event.shiftKey && this.message.replace(/(\s|\n)+/g, "").length) {
         event.preventDefault();
         const data = {
           body: stripMessage(this.message),
@@ -74,3 +74,4 @@ export default {
         this.$cable.perform({
           channel: "ChatChannel",
           chat_id: this.chat.id,
+          action: "send_message",

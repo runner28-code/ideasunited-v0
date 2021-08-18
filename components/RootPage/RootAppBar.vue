@@ -70,7 +70,6 @@
           >
             <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
-          <v-btn
             icon
             class="app-bar__new-opps-details__eye"
             small
@@ -246,3 +245,6 @@ export default {
     }
     &__new {
       color: white;
+      opacity: 0.7;
+      font-size: 11px;
+      line-height: 1.38;

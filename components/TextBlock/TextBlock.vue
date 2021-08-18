@@ -85,3 +85,4 @@ export default {
       align-items: center;
     }
   }
+  &__4 &__item-wrapper {

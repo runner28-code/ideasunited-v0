@@ -34,7 +34,6 @@ export default {
   plugins: [
     { src: "~/plugins/map-state.js" },
     { src: "~/plugins/api.js" },
-    { src: "~/plugins/filters.js" },
     { src: "~/plugins/rules.js" },
     { src: "~/plugins/swiper.js" },
     { src: "~/plugins/emoji.js" },
@@ -111,3 +110,5 @@ export default {
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
+  vuetify: {
+    treeShake: false,

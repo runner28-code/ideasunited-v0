@@ -4,7 +4,8 @@ const urlRegexp =
   /^(?:|http(s)?:\/\/?)[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
 
 export default function (ctx, inject) {
-    email: (v) => !v || emailRegexp.test(v) || "Incorrect email",
+  inject("rules", {
     url: (v) => !v || urlRegexp.test(v) || "Incorrect URL",
 
     required: (v) => {
+      return !!(v || "").toString().trim() || "Required field";

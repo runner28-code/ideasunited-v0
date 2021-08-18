@@ -72,3 +72,4 @@ a.text-block__item-wrapper:hover {
       text-decoration: none;
       color: inherit;
       transition: 0.3s;
+      opacity: 1;

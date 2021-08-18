@@ -162,6 +162,7 @@ export default {
     padding: 24px 40px;
   }
 
+  &.show-event {
     margin-bottom: -45px;
   }
 
@@ -183,3 +184,6 @@ export default {
       width: 50%;
     }
     &-player {
+      border-top: none;
+    }
+  }

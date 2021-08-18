@@ -129,3 +129,5 @@ export default {
     line-height: 1.2;
     font-weight: bold;
     margin-bottom: 20px;
+  }
+

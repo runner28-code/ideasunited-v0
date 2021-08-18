@@ -35,3 +35,4 @@ export default {
     rules: Array,
     required: Boolean,
     markRequired: Boolean
+  },

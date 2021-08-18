@@ -140,3 +140,5 @@ export default {
 
 .countdown__text {
   font-weight: bold;
+  font-size: 18px;
+  width: 100%;

@@ -23,7 +23,6 @@
           <timeago :auto-update="60" :datetime="message.created_at"></timeago>
         </div>
       </div>
-    </div>
     <v-menu
       offset-y
       v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"
@@ -80,3 +79,4 @@ export default {
   },
   computed: {
     body() {
+      let body = stripMessage(this.message.body);

@@ -37,3 +37,4 @@ export default {
   justify-content: center;
 }
 .eligible {
+  display: flex;

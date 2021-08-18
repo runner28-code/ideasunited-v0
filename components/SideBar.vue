@@ -43,6 +43,7 @@
         v-ripple="false"
       >
         Opportunities
+        <transition name="fade">
           <div
             v-if="newOpps.length"
             class="rightsidebar__opp-count"
@@ -206,3 +207,6 @@ export default {
   }
 
   &__logo {
+    display: block;
+    height: 50px;
+    max-width: 269px;

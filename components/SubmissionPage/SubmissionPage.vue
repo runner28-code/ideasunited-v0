@@ -23,9 +23,11 @@ export default {
   },
   data() {
     return {
+      formDialog: false,
     };
   },
   computed: {
     submissionForm() {
       return (this.page || this.currentPage).submission_forms[this.value];
     },
+  },

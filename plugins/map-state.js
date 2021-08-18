@@ -23,6 +23,7 @@ if (!Vue.__map_state_mixin__) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
             title,
+            description,
             callback: (value) => {
               resolve(value);
             },
@@ -36,6 +37,7 @@ if (!Vue.__map_state_mixin__) {
         } else if (typeof message == "object") {
           payload = message;
         }
+// Temp comment
 
         this.$root.$emit("alert", payload);
       },
@@ -43,3 +45,4 @@ if (!Vue.__map_state_mixin__) {
     computed: {
       ...mapState({
         currentUser: (state) => state.user.current,
+        currentProject: (state) => state.project.current,

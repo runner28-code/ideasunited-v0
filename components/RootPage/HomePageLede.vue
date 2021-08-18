@@ -317,3 +317,7 @@ export default {
         this.slideChange();
       }, 3000);
     }
+  },
+  computed: {
+    aspectRatio() {
+      if(['sm', 'xs'].includes(this.$size)) return undefined;

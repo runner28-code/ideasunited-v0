@@ -28,6 +28,7 @@ export default {
     color: String,
     large: Boolean,
     xLarge: Boolean,
+    outlined: Boolean,
     block: Boolean,
     to: String,
     type: String,
@@ -43,3 +44,4 @@ export default {
     },
     calcTheme() {
       return getThemeByColor(this.calcColor);
+    }

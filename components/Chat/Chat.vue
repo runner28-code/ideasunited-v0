@@ -30,6 +30,7 @@ export default {
   },
   channels: {
     ChatChannel: {
+      received({ type, payload }) {
         switch (type) {
           case "update_chat_params":
             this.$store.commit("page/updateChat", payload);
@@ -50,3 +51,4 @@ export default {
 
 <style scoped lang="scss">
 .chat {
+  color: black;

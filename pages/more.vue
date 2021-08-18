@@ -17,6 +17,7 @@
     </v-responsive>
   </div>
 </template>
+
 <script>
 export default {
   computed: {
@@ -53,3 +54,4 @@ export default {
       background: rgba(0, 0, 0, 0.1);
       text-decoration: none;
       transition: 0.3s;
+      text-shadow: 0 0 3px black;

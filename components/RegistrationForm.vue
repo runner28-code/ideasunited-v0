@@ -114,3 +114,4 @@ export default {
         this.emailValidationSuggestions = [];
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
+          this.$router.push("/" + this.registrationForm.destination_url);

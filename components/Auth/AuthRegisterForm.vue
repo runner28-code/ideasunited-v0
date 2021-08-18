@@ -73,7 +73,6 @@
 import registrationMixin from "../registration.mixin";
 
 export default {
-  extends: registrationMixin,
   props: {
     dialogState: Object,
   },
@@ -145,3 +144,5 @@ export default {
     },
     updateDialogState() {
       if(this.dialogState) this.dialogState.chooseSignUp = this.chooseSignUp;
+    }
+  },

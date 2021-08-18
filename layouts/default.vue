@@ -187,3 +187,5 @@ export default {
           }
           ${this.activeTheme?.css}
           ${this.staticCss}
+        </style>
+      `;

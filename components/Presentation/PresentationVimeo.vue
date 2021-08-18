@@ -42,8 +42,10 @@ export default {
   },
   computed: {
     newSlideSettings() {
+      return this.presentation.settings[this.slide.id] || {};
     }
   },
   watch: {
     presentation: {
       deep: true,
+      immediate: true,

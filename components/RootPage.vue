@@ -37,3 +37,4 @@ export default {
     ContentSection,
     Countdown,
     Event,
+    TextBlock,
