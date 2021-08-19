@@ -108,3 +108,4 @@ export default {
   background: black;
   max-width: 220px;
   width: 100%;
+  height: 100%;

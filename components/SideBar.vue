@@ -210,3 +210,4 @@ export default {
     display: block;
     height: 50px;
     max-width: 269px;
+    background-size: contain;

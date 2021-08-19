@@ -25,7 +25,6 @@
           v-if="registrationForm.title"
           tag="h2"
           class="registration-form__title"
-          >{{ registrationForm.title }}</Title
         >
         <div
           v-if="registrationForm.description"
@@ -114,4 +113,5 @@ export default {
         this.emailValidationSuggestions = [];
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
+        if (this.registrationForm.destination_page_id)
           this.$router.push("/" + this.registrationForm.destination_url);

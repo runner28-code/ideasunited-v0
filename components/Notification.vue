@@ -26,7 +26,6 @@
       <v-btn class="close" icon @click="closeSidebar">
         <v-icon size="30">$close</v-icon>
       </v-btn>
-      <div class="notification__sidebar-content">
         <Title>{{ data.title }}</Title>
         <p class="notification-content" v-html="data.description"></p>
         <Button
@@ -52,6 +51,7 @@ export default {
   },
   created() {
     this.$root.$on("showNotification", payload => {
+      this.data = payload;
       switch (payload.notification_type) {
         case "popup":
           this.dialog = true;

@@ -34,7 +34,6 @@ export default {
   },
   computed: {
     styles() {
-      return {
         backgroundColor: this.color
       };
     },

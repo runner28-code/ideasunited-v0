@@ -9,6 +9,7 @@
       v-if="zoomUrl"
     />
   </div>
+</template>
 
 <script>
 import { buildZoomLink } from "@/utils";

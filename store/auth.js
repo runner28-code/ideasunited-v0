@@ -18,6 +18,7 @@ const store = {
         cookies.remove("authToken", null, cookieDomain);
       }
     }
+// Temp comment
   },
   actions: {
     async login({ commit, dispatch }, params) {
@@ -29,6 +30,5 @@ const store = {
       const { data } = await this.$api.Auth.register(params);
       commit("setToken", data.token);
       return await dispatch("user/fetch", null, { root: true });
-// Temp comment
     },
     async oauth({ commit, dispatch }, params) {

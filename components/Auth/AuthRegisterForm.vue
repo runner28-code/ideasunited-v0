@@ -73,6 +73,7 @@
 import registrationMixin from "../registration.mixin";
 
 export default {
+  extends: registrationMixin,
   props: {
     dialogState: Object,
   },
@@ -99,7 +100,6 @@ export default {
   methods: {
     async fetchForm() {
       const { data } = await this.$api.RegistrationForm.root();
-      this.registrationForm = data;
       this.form.registration_form_id = data.id;
       this.form.register_url = window.location.href;
     },
@@ -146,3 +146,4 @@ export default {
       if(this.dialogState) this.dialogState.chooseSignUp = this.chooseSignUp;
     }
   },
+  watch: {

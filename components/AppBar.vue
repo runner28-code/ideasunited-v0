@@ -243,3 +243,4 @@ export default {
   }
 
   &__dropdown {
+    display: inline-flex;

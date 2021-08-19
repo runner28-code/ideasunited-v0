@@ -37,6 +37,7 @@ export default {
     value: {
       immediate: true,
       handler(value) {
+        this.localValue = value;
       }
     },
     localValue(value) {

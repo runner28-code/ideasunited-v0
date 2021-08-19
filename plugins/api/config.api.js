@@ -7,12 +7,12 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
   $axios.interceptors.request.use(
     requestConfig => {
       if (requestConfig.jwt) {
-// Temp comment
         const authToken = $cookies.get("authToken");
         if (authToken) {
           requestConfig.headers["Auth"] = authToken;
         }
       }
+// Temp comment
 
       if (process.server) {
         requestConfig.headers["Nuxt"] = process.env.NUXT_ID;
@@ -43,3 +43,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
   $axios.interceptors.response.use(
     responseConfig => {
       if (responseConfig.data) {
+        const { alert, redirect_to } = responseConfig.data;

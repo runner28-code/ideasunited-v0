@@ -8,6 +8,7 @@
     </div>
     <swiper class="slider" :options="swiperOption">
       <swiper-slide v-for="slide in slides" :key="slide.id">
+        <div
           @click="slideClick(slide)"
           class="slider__slide"
           :class="{ clickable: slide.url }"

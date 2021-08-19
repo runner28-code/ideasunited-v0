@@ -1,3 +1,4 @@
+FROM node:14
 ENV NODE_ENV production
 
 WORKDIR /
@@ -5,5 +6,4 @@ WORKDIR /
 COPY . ./
 RUN yarn
 
-EXPOSE 8000
 

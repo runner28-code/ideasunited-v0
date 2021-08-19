@@ -20,6 +20,7 @@
       <div class="content-section-item__text">
         <div class="content-section-item__title">{{ block.title }}</div>
         <div class="content-section-item__subtitle">{{ block.subtitle }}</div>
+      </div>
 
       <div
         class="content-section-item__icon"

@@ -80,6 +80,7 @@ export default {
   },
   methods: {
     async fetchSupportForm() {
+      const { data } = await this.$api.Support.getForm();
       this.supportForm = data;
       this.$nextTick(() => {
         this.$root.$emit("fullpageRebuild");

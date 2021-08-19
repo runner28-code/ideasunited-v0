@@ -85,6 +85,7 @@ export default {
     });
   },
   methods: {
+    inViewport() {
       var bounding = this.$el.getBoundingClientRect();
       return (
         bounding.top >= 0 &&

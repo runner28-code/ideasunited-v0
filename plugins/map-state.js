@@ -1,7 +1,6 @@
 import Vue from "vue";
 import { mapState } from "vuex";
 import moment from "moment-timezone";
-
 if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
 
@@ -37,7 +36,6 @@ if (!Vue.__map_state_mixin__) {
         } else if (typeof message == "object") {
           payload = message;
         }
-// Temp comment
 
         this.$root.$emit("alert", payload);
       },

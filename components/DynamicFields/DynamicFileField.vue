@@ -14,7 +14,6 @@
     </template>
   </v-file-input>
 </template>
-
 <script>
 export default {
   props: {

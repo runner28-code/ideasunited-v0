@@ -24,7 +24,6 @@
     <template #append>
       <div v-if="type == 'password'">
         <v-icon @click="togglePassword" class="input-icon-toggle" @focus="onFocus">{{
-          localType == "password" ? "$eye" : "$eye_off"
         }}</v-icon>
       </div>
     </template>
@@ -74,6 +73,7 @@ export default {
     },
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", this.$el);
+    }
   },
   watch: {
     type() {

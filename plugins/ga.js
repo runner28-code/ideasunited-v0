@@ -6,6 +6,5 @@ export default ctx => {
 
   if (isProduction) {
     Vue.use(
-// Temp comment
       VueGtag,
       {
