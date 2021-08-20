@@ -28,7 +28,6 @@
       </v-btn>
       <div class="notification__sidebar-content">
         <Title>{{ data.title }}</Title>
-        <p class="notification-content" v-html="data.description"></p>
         <Button
           large
           target="_blank"
@@ -54,6 +53,7 @@ export default {
     this.$root.$on("showNotification", payload => {
       this.data = payload;
       switch (payload.notification_type) {
+        case "popup":
           this.dialog = true;
           break;
         case "sidebar":

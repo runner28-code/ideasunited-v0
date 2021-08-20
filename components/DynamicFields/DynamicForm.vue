@@ -29,7 +29,6 @@
       <Button
         class="btn_back-to-login"
         :refs="$refs"
-        v-if="showBackToLogin && !currentUser"
         @click="$emit('backToLogin')"
       >
         Already a member?

@@ -4,7 +4,7 @@
   </div>
 </template>
 
-import { getHash } from "@/utils";
+<script>
 
 export default {
   props: {

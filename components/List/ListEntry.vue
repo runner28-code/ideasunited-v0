@@ -21,7 +21,6 @@
 export default {
   props: {
     entry: Object
-  }
 };
 </script>
 

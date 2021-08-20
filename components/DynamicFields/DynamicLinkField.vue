@@ -13,7 +13,6 @@
 
 <script>
 import urlFormatter from "@/filters/url";
-
 export default {
   props: {
     label: String,
@@ -21,6 +20,7 @@ export default {
     rules: {
       type: Array,
       default: () => []
+    },
     required: Boolean,
     markRequired: Boolean,
     addonData: {

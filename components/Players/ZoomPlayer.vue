@@ -49,6 +49,7 @@ export default {
     },
     async fetchSignature() {
       const { zoom_id, zoom_password } = this.event;
+      const { full_name, email } = this.currentUser || {};
 
       this.zoomUrl = await buildZoomLink({
         $api: this.$api,

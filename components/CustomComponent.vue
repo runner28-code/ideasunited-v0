@@ -54,5 +54,6 @@ export default {
               const style = Object.assign(document.createElement("style"), {
                 textContent
               });
+              style.setAttribute("sfc", sfc_name);
 
               const ref =

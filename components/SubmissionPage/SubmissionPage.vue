@@ -29,5 +29,4 @@ export default {
   computed: {
     submissionForm() {
       return (this.page || this.currentPage).submission_forms[this.value];
-    },
   },

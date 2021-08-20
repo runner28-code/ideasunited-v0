@@ -88,6 +88,7 @@ export default {
       emailValidationSuggestions: [],
       chooseSignUp: false,
       registrationForm: null,
+      loginFormRequest: false,
     };
   },
   mounted() {

@@ -29,6 +29,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         return Qs.stringify(params, {
           arrayFormat: "brackets",
           encode: false
+// Temp comment
         });
       };
 

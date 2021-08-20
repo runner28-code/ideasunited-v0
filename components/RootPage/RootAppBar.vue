@@ -105,7 +105,6 @@ export default {
   mounted() {
     setTimeout(() => {
       this.getOpportunityNotifications();
-    }, 1000);
   },
   methods: {
     async logout() {
