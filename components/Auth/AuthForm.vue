@@ -56,6 +56,7 @@ export default {
     startAtSignUp: Boolean,
     loginFormRequest: Boolean,
   },
+  data() {
     return {
       loginForm: {},
       registerForm: {},

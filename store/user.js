@@ -8,7 +8,6 @@ const store = {
     set(state, user) {
       state.current = user;
     },
-// Temp comment
   },
   actions: {
     async fetch({ commit }) {

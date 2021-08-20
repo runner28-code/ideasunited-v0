@@ -4,7 +4,6 @@
   </div>
 </template>
 
-<script>
 import { getHash } from "@/utils";
 
 export default {
@@ -34,6 +33,7 @@ export default {
   },
   computed: {
     styles() {
+      return {
         backgroundColor: this.color
       };
     },

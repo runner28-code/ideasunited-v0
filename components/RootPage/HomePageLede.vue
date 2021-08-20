@@ -159,7 +159,6 @@ export default {
           marginTop: 0,
           maskImage: `url(${this.irisAsset})`,
           maskSize: this.irisEnding.size + "% " + this.irisEnding.size + "%",
-        })
         .set(previewVideo, {
           clearProps: "pointerEvents",
         })

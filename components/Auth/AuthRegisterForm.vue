@@ -88,7 +88,6 @@ export default {
       emailValidationSuggestions: [],
       chooseSignUp: false,
       registrationForm: null,
-      loginFormRequest: false,
     };
   },
   mounted() {
@@ -100,6 +99,7 @@ export default {
   methods: {
     async fetchForm() {
       const { data } = await this.$api.RegistrationForm.root();
+      this.registrationForm = data;
       this.form.registration_form_id = data.id;
       this.form.register_url = window.location.href;
     },

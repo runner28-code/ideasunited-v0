@@ -18,7 +18,6 @@ const store = {
         cookies.remove("authToken", null, cookieDomain);
       }
     }
-// Temp comment
   },
   actions: {
     async login({ commit, dispatch }, params) {

@@ -1,5 +1,6 @@
 <template>
   <div class="custom-sfc">
+    <component
       :key="key"
       v-if="loaded"
       :is="customComponent.sfc_name"
@@ -53,6 +54,5 @@ export default {
               const style = Object.assign(document.createElement("style"), {
                 textContent
               });
-              style.setAttribute("sfc", sfc_name);
 
               const ref =

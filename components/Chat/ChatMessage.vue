@@ -52,7 +52,6 @@
 import stripMessage from "@/filters/stripMessage";
 import badwords from "@/filters/badwords";
 
-export default {
   name: "ChatMessage",
   props: {
     message: Object,

@@ -12,7 +12,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
           requestConfig.headers["Auth"] = authToken;
         }
       }
-// Temp comment
 
       if (process.server) {
         requestConfig.headers["Nuxt"] = process.env.NUXT_ID;

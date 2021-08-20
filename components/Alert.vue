@@ -25,6 +25,7 @@
   </v-snackbar>
 </template>
 
+<script>
 export default {
   name: "Alert",
   data() {
@@ -36,7 +37,6 @@ export default {
     this.$root.$on("alert", async alert => {
       this.alert = false;
       await this.$nextTick();
-      this.alert = alert;
     });
   },
   methods: {

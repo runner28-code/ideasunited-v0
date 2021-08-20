@@ -86,7 +86,6 @@ export default {
 <style scoped lang="scss">
 .footer {
   position: fixed;
-  z-index: 7;
   padding: 10px 19px 10px 14px;
   background-color: #56565a;
   color: white;
@@ -108,40 +107,3 @@ export default {
 
   &-container {
     display: flex;
-    width: 100%;
-    align-items: stretch;
-    justify-content: space-between;
-  }
-
-  &__start {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .copyright {
-    text-transform: none;
-    font-weight: 700;
-  }
-
-  &__logo {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    width: 277px;
-    height: 52px;
-    img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-    }
-  }
-
-  &__menu {
-    display: flex;
-    align-items: center;
-
-    &-item {
-      margin: 0 11px;
-      font-weight: 700;
-
