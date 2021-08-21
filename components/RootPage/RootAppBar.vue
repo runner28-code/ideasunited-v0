@@ -105,6 +105,7 @@ export default {
   mounted() {
     setTimeout(() => {
       this.getOpportunityNotifications();
+    }, 1000);
   },
   methods: {
     async logout() {
@@ -248,3 +249,5 @@ export default {
       opacity: 0.7;
       font-size: 11px;
       line-height: 1.38;
+    }
+    &__title {

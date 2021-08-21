@@ -8,7 +8,6 @@
 
         <div class="footer__separator"></div>
 
-        <div class="copyright">© {{ year }} Ideas United</div>
       </div>
       <div class="footer__menu">
         <div class="footer__menu-item" v-if="supportForm">
@@ -73,6 +72,7 @@ export default {
       }
     }
   },
+  watch:{
     supportDialog:function(newValue, old){
       if(!newValue){
         this.$root.$emit('resetSupportForm');
@@ -107,3 +107,6 @@ export default {
 
   &-container {
     display: flex;
+    width: 100%;
+    align-items: stretch;
+    justify-content: space-between;

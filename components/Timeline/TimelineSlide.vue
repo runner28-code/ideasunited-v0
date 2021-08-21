@@ -109,3 +109,6 @@ export default {
   max-width: 220px;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;

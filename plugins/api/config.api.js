@@ -14,7 +14,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       }
 
       if (process.server) {
-        requestConfig.headers["Nuxt"] = process.env.NUXT_ID;
       }
 
       if (process.server) {
@@ -29,7 +28,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         return Qs.stringify(params, {
           arrayFormat: "brackets",
           encode: false
-// Temp comment
         });
       };
 

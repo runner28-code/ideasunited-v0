@@ -211,3 +211,19 @@ export default {
     height: 50px;
     max-width: 269px;
     background-size: contain;
+    background-position: center;
+    background-image: url(~assets/images/sidebar_logo.svg);
+    cursor: pointer;
+    @media screen and (max-width: 944px) {
+      background-image: url(~assets/images/sidebar_logo_mobile.svg);
+    }
+    img {
+      width: 100%;
+    }
+    @media screen and (max-width: 944px) {
+      margin: 8px auto 0;
+    }
+  }
+
+  &__close {
+    position: absolute;

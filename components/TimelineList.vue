@@ -34,6 +34,7 @@ export default {
       }
     }
   }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -51,3 +52,4 @@ export default {
           display: block;
           content: "";
           background: currentColor;
+          position: absolute;

@@ -14,6 +14,7 @@
       ></div>
       <div class="eligible-label">{{ badge.title }}</div>
     </a>
+  </div>
 </template>
 
 <script>
@@ -37,3 +38,4 @@ export default {
 }
 .eligible {
   display: flex;
+  align-items: center;

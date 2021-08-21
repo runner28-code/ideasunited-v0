@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import { getHash } from "@/utils";
 
 export default {
   props: {
@@ -39,3 +40,4 @@ export default {
     },
     initals() {
       return (this.name || "Anon")
+        .split(" ")

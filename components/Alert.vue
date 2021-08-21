@@ -84,3 +84,4 @@ export default {
       padding-right: 15px;
       display: flex;
       width: 100%;
+      align-items: center;

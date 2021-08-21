@@ -22,3 +22,4 @@ export default {
 <style scope>
 .spinner {
   position: absolute;
+  left: 0;

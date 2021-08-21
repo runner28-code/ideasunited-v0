@@ -38,6 +38,7 @@ export default {
       immediate: true,
       handler(value) {
         this.localValue = value;
+      }
     },
     localValue(value) {
       this.$emit("input", value);

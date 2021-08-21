@@ -21,7 +21,6 @@ import { frontendToProfile } from "@/utils";
 
 export default {
   props: {
-    value: Object,
     successMessage: String,
   },
   data() {
@@ -43,3 +42,4 @@ export default {
       }
     },
     parseMessage(string) {
+      return string.replace(/{{.*?}}/g, (match) => {

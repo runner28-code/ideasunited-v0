@@ -216,3 +216,5 @@ export default {
               iScrollInstance.scrollToElement(elem);
             }
           }
+        });
+      }

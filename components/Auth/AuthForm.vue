@@ -69,7 +69,6 @@ export default {
       if (this.$refs.form.validate()) {
         try {
           await this.$store.dispatch("auth/login", this.loginForm);
-          this.$root.$emit('fullpageRebuild');
           this.$root.$emit("authModal/close");
           this.$root.$emit('leaveSignup');
           if(this.$route.name == 'index') window.location.href = frontendToProfile()[window.location.origin];
@@ -113,6 +112,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.forgot-password-link {
   text-decoration: underline;
   cursor: pointer;
   color: #E12D1B;

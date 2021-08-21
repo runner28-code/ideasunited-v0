@@ -7,7 +7,6 @@
         :nextId="getId(index + 1)"
         :item="item"
         v-for="(item, index) in list"
-        :key="item.id"
         :layout="submissionContent.layout"
         :previewLayout="submissionContent.preview_layout"
       />
@@ -54,6 +53,7 @@ export default {
         page: this.page
       };
       const { data } = await this.$api.Submission.get(params);
+      this.page += 1;
 
       const ids = this.list.map(t => t.id);
       const newData = data.filter(t => !ids.includes(t.id));

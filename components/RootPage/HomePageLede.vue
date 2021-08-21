@@ -321,3 +321,5 @@ export default {
   computed: {
     aspectRatio() {
       if(['sm', 'xs'].includes(this.$size)) return undefined;
+      if(this.$size == 'xl') return (2560 / 1247);
+      return (1440 / 810);

@@ -8,6 +8,7 @@
         <v-icon>$close</v-icon>
       </v-btn>
       <v-card-text>
+        <AuthRegisterForm
           :dialog-state="dialogState"
         />
       </v-card-text>

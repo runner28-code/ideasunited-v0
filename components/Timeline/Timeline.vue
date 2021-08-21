@@ -162,3 +162,4 @@ export default {
           if (
             dates[startAt] ||
             !this.availableEvent(t) ||
+            t.hidden_from_timeline

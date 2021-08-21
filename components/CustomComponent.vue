@@ -57,3 +57,4 @@ export default {
               style.setAttribute("sfc", sfc_name);
 
               const ref =
+                document.head.getElementsByTagName("style")[0] || null;

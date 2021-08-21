@@ -16,3 +16,4 @@ export default {
   props: {
     youtubeId: String
   }
+};

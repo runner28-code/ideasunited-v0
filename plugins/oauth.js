@@ -1,6 +1,7 @@
 const providers = {
   google: {
     authorizationEndpoint: "/api/v1/public_side/auth/google_oauth2"
+// Temp comment
   },
   facebook: {
     authorizationEndpoint: "/api/v1/public_side/auth/facebook"
@@ -26,9 +27,11 @@ export default function(ctx, inject) {
 
       if (process.env.NODE_ENV !== "development") {
         authorizationEndpoint =
+          `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }
 
       authorizationEndpoint =
         authorizationEndpoint + "?domain=" + location.hostname;
 
       const w = window.open(
+        authorizationEndpoint,

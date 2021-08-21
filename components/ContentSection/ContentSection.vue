@@ -112,7 +112,6 @@ export default {
           1264: {
             slidesPerView: 4,
             spaceBetween: 40
-          }
         }
       },
       timeouts: {},
@@ -237,3 +236,4 @@ export default {
     width: 100%;
     padding: 40px 10px 0;
 
+    &:not(.swiper-container-initialized) {
