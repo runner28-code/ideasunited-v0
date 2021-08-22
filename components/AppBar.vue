@@ -72,6 +72,7 @@
               :key="idx"
               >{{ menu.menu_title }}</v-list-item
             >
+          </v-list>
         </v-menu>
         <a
           v-else-if="menuItem.url_type == 'absolute'"

@@ -26,6 +26,7 @@
             </div>
             <div class="countdown-timer__item-label">secs</div>
           </div>
+        </div>
         <div
           v-if="countdown.right_title"
           v-html="countdown.right_title"
@@ -65,7 +66,6 @@ export default {
       if (this.countdown.bg_color)
         data.backgroundColor = this.countdown.bg_color;
       if (this.countdown.preview.large.url)
-        data.backgroundImage = `url(${this.countdown.preview.large.url})`;
       return data;
     },
     countdown() {

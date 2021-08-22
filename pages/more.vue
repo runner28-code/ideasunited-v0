@@ -19,6 +19,7 @@
 </template>
 
 <script>
+export default {
   computed: {
     gridMenuPages() {
       return this.currentProject.grid_menu_pages;
@@ -43,7 +44,6 @@
       left: 0;
       right: 0;
       top: 0;
-      bottom: 0;
       color: white;
       display: flex;
       align-items: center;

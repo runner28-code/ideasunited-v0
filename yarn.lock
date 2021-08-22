@@ -684,6 +684,7 @@
 
 "@babel/plugin-transform-object-super@^7.16.0":
   version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-object-super/-/plugin-transform-object-super-7.16.0.tgz#fb20d5806dc6491a06296ac14ea8e8d6fedda72b"
   integrity sha512-fds+puedQHn4cPLshoHcR1DTMN0q1V9ou0mUjm8whx9pGcNvDrVVrgw+KJzzCaiTdaYhldtrUps8DWVMgrSEyg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"

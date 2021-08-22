@@ -32,10 +32,10 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .signup-page {
   display: flex;
   flex-direction: column;
+  margin: auto;
   align-items: center;
   justify-content: center;
   width: 100%;

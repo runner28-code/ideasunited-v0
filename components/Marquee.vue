@@ -5,7 +5,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   data() {
@@ -27,6 +26,7 @@ export default {
       immediate: true,
       handler() {
         this.$nextTick(() => {
+          if (this.$refs.marqueetext) {
             this.seconds = this.$refs.marqueetext
               ? this.$refs.marqueetext.offsetWidth / 50
               : 25

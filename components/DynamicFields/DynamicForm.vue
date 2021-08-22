@@ -130,7 +130,6 @@ export default {
             case "false":
               return false;
             default:
-              return value;
           }
         });
         return validValues.includes(conditionalFormValue);

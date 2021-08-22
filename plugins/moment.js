@@ -1,3 +1,3 @@
-import VueMoment from "vue-moment";
+import Vue from "vue";
 import moment from "moment-timezone";
 

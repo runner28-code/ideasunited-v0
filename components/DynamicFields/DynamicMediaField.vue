@@ -110,7 +110,6 @@ export default {
 
 <style scoped lang="scss">
 .file-input {
-  cursor: pointer;
   &__icon {
     cursor: pointer;
   }

@@ -152,6 +152,7 @@ export default {
           top: 0,
           left: 0,
           y: fixedStart.top,
+          x: fixedStart.left,
           width: fixedStart.width,
           paddingBottom: 0,
           height: fixedStart.height,

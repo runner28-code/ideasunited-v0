@@ -24,6 +24,7 @@ export default {
     return {
       formModel: null,
       form: {},
+      submitted: false
     };
   },
   methods: {

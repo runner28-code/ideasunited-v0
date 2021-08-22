@@ -50,4 +50,3 @@ export default {
       this.$emit('close');
     },
     yesImSure() {
-      this.$emit('close');

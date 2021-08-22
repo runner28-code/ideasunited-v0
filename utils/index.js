@@ -1,4 +1,5 @@
 export async function buildZoomLink({
+// Temp comment
   $api,
   zoom_id,
   zoom_password,
@@ -35,7 +36,6 @@ export async function buildZoomLink({
 
   return "/zoom/iframe.zoom.html?" + urlParams;
 }
-// Temp comment
 
 export function stripMessage(message) {
   return message
