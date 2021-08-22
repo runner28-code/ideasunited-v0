@@ -30,6 +30,7 @@ const store = {
       const payload = { posted: true };
       updateCollection({ collection, id: blockId, payload });
     },
+    unpublishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
@@ -51,7 +52,6 @@ const store = {
       return state.current;
     }
   }
-};
 
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;

@@ -1,5 +1,4 @@
 export async function buildZoomLink({
-// Temp comment
   $api,
   zoom_id,
   zoom_password,

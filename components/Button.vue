@@ -37,7 +37,6 @@ export default {
     href: String,
     target: String,
     disabled: Boolean
-  },
   computed: {
     calcColor() {
       return this.color || (this.activeTheme ? this.activeTheme.primary_color : '#E12D1B');

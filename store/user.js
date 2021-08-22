@@ -7,7 +7,6 @@ const store = {
   mutations: {
     set(state, user) {
       state.current = user;
-    },
   },
   actions: {
     async fetch({ commit }) {
@@ -19,7 +18,6 @@ const store = {
         const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"
-// Temp comment
             : "." + window.location.hostname;
         var d = new Date();
         d.setDate(d.getDate() + 7);

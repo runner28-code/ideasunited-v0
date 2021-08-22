@@ -106,6 +106,7 @@ export default {
             id: fontkitId,
           },
         });
+      });
     }
   },
   mounted() {

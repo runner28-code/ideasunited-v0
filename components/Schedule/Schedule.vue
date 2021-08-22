@@ -1,5 +1,6 @@
 <template>
   <div class="schedule">
+    <Title tag="h1" class="schedule-title">{{ schedule.title }}</Title>
 
     <div class="schedule__description" v-html="schedule.description"></div>
 
@@ -30,7 +31,6 @@ export default {
     page: Object,
   },
   computed: {
-    schedule() {
       return (this.page || this.currentPage).schedules[this.value];
     },
     groupedItems() {

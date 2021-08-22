@@ -28,7 +28,6 @@ export default {
     Vue.component("Spinner", Spinner);
   },
   computed: {
-    customComponent() {
       return (this.page || this.currentPage).custom_components[this.value];
     }
   },
@@ -40,6 +39,7 @@ export default {
         if (process.client) {
           const {
             loadModule
+          } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
           const options = {
             moduleCache: {
               vue: Vue

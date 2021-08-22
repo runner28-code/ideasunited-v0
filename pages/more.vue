@@ -14,7 +14,6 @@
       <nuxt-link :to="item.url" class="grid-menu__item-overlay">
         {{ item.menu_title }}
       </nuxt-link>
-    </v-responsive>
   </div>
 </template>
 
@@ -44,6 +43,7 @@ export default {
       left: 0;
       right: 0;
       top: 0;
+      bottom: 0;
       color: white;
       display: flex;
       align-items: center;

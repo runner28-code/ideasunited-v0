@@ -66,6 +66,7 @@ export default {
       if (this.countdown.bg_color)
         data.backgroundColor = this.countdown.bg_color;
       if (this.countdown.preview.large.url)
+        data.backgroundImage = `url(${this.countdown.preview.large.url})`;
       return data;
     },
     countdown() {

@@ -94,13 +94,3 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 46px 59px;
-    min-height: 100%;
-    &::after {
-      content: "";
-      display: block;
-      height: 84px;
-      width: 100%;
-    }
-    @media screen and (max-width: 944px) {
-      padding: 20px 30px;

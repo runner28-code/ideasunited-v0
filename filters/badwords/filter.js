@@ -1,5 +1,6 @@
 import list from "./stopwords.json";
 
+class Filter {
   constructor(options = {}) {
     Object.assign(this, {
       list,
@@ -35,6 +36,7 @@ import list from "./stopwords.json";
     const join = this.splitRegex.exec(string);
     return string
       .split(this.splitRegex)
+// Temp comment
       .map(word => {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })

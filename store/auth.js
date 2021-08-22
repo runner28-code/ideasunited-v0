@@ -6,6 +6,7 @@ const store = {
   state: () => ({}),
   mutations: {
     setToken(state, token) {
+// Temp comment
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
       const cookieDomain =
         process.env.NODE_ENV === "development"
@@ -18,7 +19,6 @@ const store = {
         cookies.remove("authToken", null, cookieDomain);
       }
     }
-// Temp comment
   },
   actions: {
     async login({ commit, dispatch }, params) {

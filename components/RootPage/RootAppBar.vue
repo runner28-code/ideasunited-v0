@@ -25,7 +25,6 @@
             class="app-bar__new-opps__close"
             @click.stop="showNewOpps = false"
             small
-          >
             <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
         </div>
@@ -228,26 +227,3 @@ export default {
       border-radius: 0;
       border-width: 2px 0 0 0;
     }
-    &__content {
-      padding: 10px;
-      flex-grow: 1;
-    }
-    &__content-top{
-      display: flex;
-      align-items: center;
-    }
-    &__thumb {
-      width: 50px;
-      height: 50px;
-      background-size: cover;
-      background-position: center;
-      margin-right: 10px;
-      flex-shrink: 0;
-    }
-    &__new {
-      color: white;
-      opacity: 0.7;
-      font-size: 11px;
-      line-height: 1.38;
-    }
-    &__title {
