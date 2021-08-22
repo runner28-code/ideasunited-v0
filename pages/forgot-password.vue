@@ -24,7 +24,6 @@ export default {
     return {
       formModel: null,
       form: {},
-      submitted: false
     };
   },
   methods: {
@@ -38,6 +37,7 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
 .forgot-password-page {
   position: absolute;
   top: 0;

@@ -15,7 +15,6 @@ const store = {
 
       if (token && process.client) {
         const { data } = await this.$api.User.current();
-        commit("set", data);
         const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"

@@ -27,4 +27,5 @@ export default {
       }
     }
   },
+  async asyncData({ $api, route, store }) {
     await store.dispatch("user/fetch");

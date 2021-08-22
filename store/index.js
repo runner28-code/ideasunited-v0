@@ -10,7 +10,6 @@ export const mutations = {
   }
 };
 
-// Temp comment
 export const actions = {
   async nuxtServerInit({ commit }, opts) {
     const { req } = opts;

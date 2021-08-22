@@ -8,6 +8,7 @@
       ref="vimeo"
     ></iframe>
     <div class="vimeo-player-overlay" @click="started ? null : play()"></div>
+  </div>
 </template>
 
 <script>
@@ -27,7 +28,6 @@ export default {
     this.player = new Player(this.$refs.vimeo);
 
     this.player.on("play", async () => {
-      this.started = true;
     });
 
     this.play();

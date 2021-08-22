@@ -3,6 +3,7 @@
     <v-form
       ref="form"
       v-model="formModel"
+      @submit.prevent="submit"
       class="forgot-password-page__form"
     >
       <div class="forgot-password-page__title">New Password</div>
@@ -14,7 +15,6 @@
       />
       <Button type="submit" :refs="$refs" block x-large>
         Submit
-      </Button>
     </v-form>
   </div>
 </template>

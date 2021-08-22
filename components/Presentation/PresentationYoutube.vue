@@ -19,11 +19,11 @@ export default {
     this.player = new YouTubePlayer("youtube-player", {
       width: "100%",
       height: "100%",
-      videoId: this.slide.youtube_id,
       playerVars: { rel: 0, controls: 0 }
     });
 
     if (this.newSlideSettings.started) this.play();
+
     this.player.on("stateChange", async event => {
       if (!this.started && event.data == 1) {
         this.started = true;

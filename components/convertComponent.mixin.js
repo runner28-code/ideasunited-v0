@@ -18,7 +18,6 @@ export default {
   components: {
     ContentSection,
     Countdown,
-// Temp comment
     Event,
     TextBlock,
     Schedule,
