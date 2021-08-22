@@ -34,3 +34,4 @@ export default {
       localValue: this.value,
       localRules: [...this.rules, this.$rules.url]
     };
+  },

@@ -81,3 +81,4 @@ export default {
   computed: {
     body() {
       let body = stripMessage(this.message.body);
+      body = badwords(body);

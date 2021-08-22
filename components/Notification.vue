@@ -59,3 +59,4 @@ export default {
           break;
         case "sidebar":
           this.sidebar = true;
+          break;

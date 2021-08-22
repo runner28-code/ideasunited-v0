@@ -26,7 +26,6 @@ class Filter {
     );
   }
 
-  replaceWord(string) {
     return string
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
@@ -36,7 +35,6 @@ class Filter {
     const join = this.splitRegex.exec(string);
     return string
       .split(this.splitRegex)
-// Temp comment
       .map(word => {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })

@@ -9,7 +9,6 @@
     allowfullscreen
   ></iframe>
 </template>
-
 <script>
 export default {
   name: "YoutubePlayer",
@@ -17,3 +16,4 @@ export default {
     youtubeId: String
   }
 };
+</script>

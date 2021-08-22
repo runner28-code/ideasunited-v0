@@ -44,6 +44,7 @@ export default {
     if (process.client) {
       this.$cable.subscribe({
         channel: "PageChannel",
+        page_id: this.page?.id,
         env: this.currentProject.env
       });
     }

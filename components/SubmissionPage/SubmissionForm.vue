@@ -68,6 +68,7 @@ export default {
   },
   data() {
     return {
+      form: null,
       submitted: false,
       supportDialog: false,
       supportForm: null,
@@ -83,3 +84,4 @@ export default {
       this.supportForm = data;
       this.$nextTick(() => {
         this.$root.$emit("fullpageRebuild");
+      });

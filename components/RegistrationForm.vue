@@ -77,6 +77,7 @@
       :form="form"
       @close="areYouSureDialog = false"
       @submit="submit"
+    />
   </div>
 </template>
 
@@ -116,3 +117,11 @@ export default {
         if (this.registrationForm.destination_page_id)
           this.$router.push("/" + this.registrationForm.destination_url);
       } catch (e) {
+        if (!e.response.data) return;
+        const data = e.response.data;
+        if (data.email_validation_response == "are_you_sure") {
+          if (data.email_suggestions)
+            this.emailValidationSuggestions = data.email_suggestions;
+          else this.emailValidationSuggestions = [];
+          this.areYouSureDialog = true;
+        }

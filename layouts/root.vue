@@ -116,6 +116,7 @@ export default {
       env: this.currentProject.env
     });
 
+    this.$cable.unsubscribe({
       channel: "NotificationChannel",
       project_id: this.currentProject.id,
       env: this.currentProject.env
@@ -132,3 +133,5 @@ export default {
       }
     },
     NotificationChannel: {
+      received({ payload, type }) {
+        switch (type) {

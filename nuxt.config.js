@@ -114,3 +114,4 @@ export default {
   vuetify: {
     treeShake: false,
     icons: {
+      iconfont: "mdi",

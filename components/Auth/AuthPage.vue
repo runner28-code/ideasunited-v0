@@ -19,5 +19,6 @@ export default {};
 .auth-page {
   width: 100%;
   min-height: 100%;
+  margin: auto;
   display: flex;
   align-items: center;

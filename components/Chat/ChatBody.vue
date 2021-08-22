@@ -25,7 +25,6 @@ export default {
   },
   channels: {
     ChatChannel: {
-      received({ type, payload }) {
         switch (type) {
           case "new_message":
             this.newMessage(payload);
@@ -64,3 +63,4 @@ export default {
       if (el.scrollTop == el.scrollHeight - el.clientHeight)
         this.$nextTick(function() {
           el.scrollTop = el.scrollHeight;
+        });

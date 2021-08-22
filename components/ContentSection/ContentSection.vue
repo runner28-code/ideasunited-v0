@@ -238,3 +238,5 @@ export default {
     padding: 40px 10px 0;
 
     &:not(.swiper-container-initialized) {
+      .content-section__swiper-slide {
+        max-width: 320px;

@@ -163,3 +163,5 @@ export default {
             dates[startAt] ||
             !this.availableEvent(t) ||
             t.hidden_from_timeline
+          )
+            return t;

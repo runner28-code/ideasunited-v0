@@ -9,7 +9,6 @@
   >
     <template #append>
       <div>
-        <v-icon class="input-icon-toggle"> $upload </v-icon>
       </div>
     </template>
   </v-file-input>
@@ -70,3 +69,4 @@ export default {
   }
 
   &__delete {
+    position: absolute;

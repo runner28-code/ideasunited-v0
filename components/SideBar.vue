@@ -31,7 +31,6 @@
         class="rightsidebar__item-small rightsidebar__item-mobile"
         :to="`#${menuItem.url}`"
         v-ripple="false"
-      >
         <span @click="menuClick(menuItem, idx)">
           {{ menuItem.footer_menu_title }}
         </span>
@@ -227,3 +226,4 @@ export default {
 
   &__close {
     position: absolute;
+    right: 20px;

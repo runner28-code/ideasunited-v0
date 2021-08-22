@@ -149,3 +149,4 @@ export default {
   },
   watch: {
     dialogState: {
+      deep: true,

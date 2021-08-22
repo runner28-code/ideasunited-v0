@@ -245,3 +245,5 @@ export default {
   &__dropdown {
     display: inline-flex;
     align-items: center;
+    cursor: pointer;
+    text-transform: none;

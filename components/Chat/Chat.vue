@@ -9,6 +9,7 @@
 <script>
 export default {
   props: {
+    chat: Object
   },
   data() {
     return {
@@ -51,3 +52,4 @@ export default {
 <style scoped lang="scss">
 .chat {
   color: black;
+  display: flex;

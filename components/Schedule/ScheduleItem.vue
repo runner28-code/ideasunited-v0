@@ -62,3 +62,4 @@ export default {
   display: flex;
   align-items: center;
   background-size: cover;
+  background-position: center;

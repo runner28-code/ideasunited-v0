@@ -18,7 +18,6 @@
         <div class="timeline-slide--bg"></div>
         <div class="timeline-slide__text">
           <div class="timeline-slide__text-timestamp">
-            {{
               (value.display_time || value.start_at)
                 | moment("timezone", currentTimezone, "h:mm A zz")
             }}
@@ -112,3 +111,5 @@ export default {
   border-radius: 10px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  background-size: cover;
+  background-position: center;

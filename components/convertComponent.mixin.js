@@ -12,6 +12,7 @@ import CustomComponent from "./CustomComponent";
 import Presentation from "./Presentation/Presentation";
 import RegistrationForm from "./RegistrationForm";
 import Faq from "./Faq";
+// Temp comment
 import TimelineList from "./TimelineList";
 
 export default {

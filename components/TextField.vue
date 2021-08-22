@@ -71,6 +71,7 @@ export default {
     },
     validate() {
       this.$refs.input.validate(true);
+    },
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", this.$el);
     }
@@ -78,3 +79,4 @@ export default {
   watch: {
     type() {
       this.localType = this.type;
+    }

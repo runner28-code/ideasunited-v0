@@ -17,7 +17,6 @@ export default {
       if(!this.activeTheme) return {};
       const font = this.activeTheme[`${this.tag}_font`];
       return {
-        fontWeight: font.weight,
         fontStyle: font.style,
         fontSize: font.size + "px",
         textTransform: font.case,

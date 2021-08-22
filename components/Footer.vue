@@ -112,3 +112,6 @@ export default {
     align-items: stretch;
     justify-content: space-between;
   }
+
+  &__start {
+    display: flex;

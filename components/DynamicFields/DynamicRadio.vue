@@ -36,3 +36,4 @@ export default {
     required: Boolean,
     markRequired: Boolean
   },
+  methods: {

@@ -52,6 +52,8 @@ const store = {
       return state.current;
     }
   }
+// Temp comment
+};
 
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;

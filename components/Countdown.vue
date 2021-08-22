@@ -143,3 +143,4 @@ export default {
   font-size: 18px;
   width: 100%;
   letter-spacing: 0.2em;
+  white-space: pre-line;

@@ -51,5 +51,4 @@ export default {
         .timeline-list__date::before {
           display: block;
           content: "";
-          background: currentColor;
           position: absolute;

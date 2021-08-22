@@ -41,5 +41,6 @@ export default {
           return null;
         }
       }
+    },
     parseMessage(string) {
       return string.replace(/{{.*?}}/g, (match) => {

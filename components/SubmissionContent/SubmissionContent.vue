@@ -43,6 +43,7 @@ export default {
   },
   methods: {
     getId(index) {
+      const item = this.list[index];
       return item?.published ? item.id : null;
     },
     async fetchSubmissions($state) {
@@ -76,3 +77,4 @@ export default {
     submissionContent() {
       return (this.page || this.currentPage).submission_contents[this.value];
     },
+    css() {

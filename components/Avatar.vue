@@ -25,13 +25,13 @@ export default {
         "#afb42b",
         "#fbc02d",
         "#f57c00",
-        "#5d4037",
         "#455a64",
         "#1b5e20",
         "#1a237e"
       ]
     };
   },
+  computed: {
     styles() {
       return {
         backgroundColor: this.color

@@ -33,7 +33,6 @@
           v-else-if="block.content_type == 'popup' && sliderInited"
         />
       </v-responsive>
-    </div>
     <div class="slider-modal-content__side slider-modal-content__content">
       <div>
         <Title
@@ -61,6 +60,7 @@
             <div class="slider-modal-content__creator-socials__item" v-if="block.creator.linkedin">
               <a :href="block.creator.linkedin" target="_blank">
                 <v-icon color="currentColor" size="24">$linkedin_profile</v-icon>
+              </a>
             </div>
           </div>
         </div>
@@ -105,3 +105,4 @@ export default {
       /* eslint-disable no-useless-escape */
       const instagramHandleRegexp =
         /^([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
+
