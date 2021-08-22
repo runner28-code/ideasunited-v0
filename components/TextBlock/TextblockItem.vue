@@ -74,3 +74,4 @@ a.text-block__item-wrapper:hover {
       transition: 0.3s;
       opacity: 1;
     }
+

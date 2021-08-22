@@ -26,7 +26,6 @@ if (!Vue.__map_state_mixin__) {
             description,
             callback: (value) => {
               resolve(value);
-            },
           });
         });
       },
@@ -45,3 +44,4 @@ if (!Vue.__map_state_mixin__) {
       ...mapState({
         currentUser: (state) => state.user.current,
         currentProject: (state) => state.project.current,
+        currentPage: (state) => state.page.current,

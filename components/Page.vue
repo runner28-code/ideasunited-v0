@@ -220,3 +220,5 @@ export default {
       }
     },
     keyDownHandler(e) {
+      if(!e.key) return;
+      this.keyIsDown = true;

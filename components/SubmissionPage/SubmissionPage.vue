@@ -22,7 +22,6 @@ export default {
     page: Object,
   },
   data() {
-    return {
       formDialog: false,
     };
   },

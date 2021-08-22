@@ -247,3 +247,5 @@ export default {
     align-items: center;
     cursor: pointer;
     text-transform: none;
+    text-decoration: none;
+    white-space: nowrap;

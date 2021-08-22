@@ -45,3 +45,4 @@ export default {
     calcTheme() {
       return getThemeByColor(this.calcColor);
     }
+  },

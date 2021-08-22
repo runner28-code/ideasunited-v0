@@ -158,6 +158,7 @@ export default {
 
   &__title {
     font-size: 12px;
+    font-weight: bold;
     padding: 24px 40px;
   }
 
@@ -188,3 +189,4 @@ export default {
   }
 
   &__video {
+    position: relative;

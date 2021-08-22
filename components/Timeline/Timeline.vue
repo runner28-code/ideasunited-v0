@@ -165,3 +165,4 @@ export default {
             t.hidden_from_timeline
           )
             return t;
+          dates[startAt] = true;

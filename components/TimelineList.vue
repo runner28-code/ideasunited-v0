@@ -31,7 +31,6 @@ export default {
     timelineCssVars() {
       return {
         '--dot-color': this.timelineList?.settings?.dot_color || "currentColor",
-      }
     }
   }
 }
@@ -51,4 +50,5 @@ export default {
         .timeline-list__date::before {
           display: block;
           content: "";
+          background: currentColor;
           position: absolute;

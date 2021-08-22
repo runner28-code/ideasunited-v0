@@ -78,3 +78,4 @@ export default {
       return (this.page || this.currentPage).submission_contents[this.value];
     },
     css() {
+      const styles1 = this.submissionContent.layout.content

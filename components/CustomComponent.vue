@@ -58,3 +58,4 @@ export default {
 
               const ref =
                 document.head.getElementsByTagName("style")[0] || null;
+              document.head.insertBefore(style, ref);

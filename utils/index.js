@@ -43,6 +43,7 @@ export function stripMessage(message) {
     .join("\n")
     .split(/[\f\r\t\v]+/)
     .join(" ");
+}
 
 export function copyToClipboard(str) {
   const el = document.createElement("textarea");

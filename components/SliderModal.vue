@@ -116,3 +116,4 @@ export default {
   .v-btn.slider-modal__arrow:not(.v-btn--text):not(.v-btn--outlined):focus:before {
     opacity: 0.72;
     color: #000;
+  }

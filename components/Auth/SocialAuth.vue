@@ -75,3 +75,4 @@ export default {
         "Addon::TwitterLogin",
         "Addon::FacebookLogin",
         "Addon::LinkedinLogin",
+        "Addon::GoogleLogin"

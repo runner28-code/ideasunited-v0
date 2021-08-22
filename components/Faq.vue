@@ -1,8 +1,8 @@
+<template>
 	<div>
     <div class="faqs">
       <v-expansion-panels class="faqs__column" accordion flat>
         <v-expansion-panel
-          elevation-0
           v-for="(item, index) in items1"
           :key="index"
         >
@@ -64,3 +64,4 @@ export default {
         const lastItem1 = Math.ceil(items.length / 2);
         return items.slice(lastItem1);
       } else {
+        return false;

@@ -115,3 +115,5 @@ export default {
 
   &__start {
     display: flex;
+    align-items: center;
+    justify-content: space-between;

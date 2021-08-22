@@ -18,6 +18,7 @@
         <div class="timeline-slide--bg"></div>
         <div class="timeline-slide__text">
           <div class="timeline-slide__text-timestamp">
+            {{
               (value.display_time || value.start_at)
                 | moment("timezone", currentTimezone, "h:mm A zz")
             }}
@@ -113,3 +114,5 @@ export default {
   cursor: pointer;
   background-size: cover;
   background-position: center;
+  position: relative;
+  color: white;

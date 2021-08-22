@@ -10,6 +10,7 @@ import YouTubePlayer from "youtube-player";
 export default {
   props: {
     slide: Object,
+    presentation: Object
   },
   data() {
     return { started: false };
@@ -42,3 +43,4 @@ export default {
     }
   },
   computed: {
+    newSlideSettings() {

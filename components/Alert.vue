@@ -69,6 +69,7 @@ export default {
 
   &__message {
     padding: 15px;
+
     &.clickable {
       cursor: pointer;
 
@@ -84,3 +85,4 @@ export default {
       display: flex;
       width: 100%;
       align-items: center;
+      justify-content: space-between;
