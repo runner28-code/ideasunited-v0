@@ -31,11 +31,11 @@ export default {
     timelineCssVars() {
       return {
         '--dot-color': this.timelineList?.settings?.dot_color || "currentColor",
+      }
     }
   }
 }
 </script>
-
 <style lang="scss" scoped>
 .timeline-list {
   &__ul {

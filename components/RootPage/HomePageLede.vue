@@ -104,6 +104,7 @@ export default {
     signUp() {
       this.$root.$emit("authModal/open/register");
     },
+    preloadVideo() {
       const { videoElem } = this.$refs;
       videoElem.play();
       this.$nextTick(() => {
@@ -297,7 +298,6 @@ export default {
           videoElem.requestFullscreen();
         } else if (videoElem.mozRequestFullScreen) {
           videoElem.mozRequestFullScreen();
-        } else if (videoElem.webkitRequestFullscreen) {
           videoElem.webkitRequestFullscreen();
         } else if (videoElem.webkitEnterFullscreen) {
           videoElem.webkitEnterFullscreen();

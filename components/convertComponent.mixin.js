@@ -3,7 +3,6 @@ import Event from "./Event/Event";
 import Countdown from "./Countdown";
 import TextBlock from "./TextBlock/TextBlock";
 import Schedule from "./Schedule/Schedule";
-// Temp comment
 import List from "./List/List";
 import HtmlBlock from "./HtmlBlock";
 import SubmissionPage from "./SubmissionPage/SubmissionPage";
@@ -17,7 +16,6 @@ import TimelineList from "./TimelineList";
 
 export default {
   components: {
-    ContentSection,
     Countdown,
     Event,
     TextBlock,

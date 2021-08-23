@@ -91,7 +91,6 @@ export default {
     baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
     browserBaseURL: process.env.API_PUBLIC_PATH,
     proxy: true,
-    proxyHeaders: true,
   },
   proxy: {
     "/api": {

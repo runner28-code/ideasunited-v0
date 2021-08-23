@@ -24,7 +24,6 @@ export default {
     };
   },
   computed: {
-    styles() {
       return {
         color: this.calcTheme == "dark" ? "white" : "#333"
       };
@@ -37,6 +36,7 @@ export default {
     value: {
       immediate: true,
       handler(value) {
+        this.localValue = value;
       }
     },
     localValue(value) {

@@ -14,7 +14,6 @@ if (!Vue.__map_state_mixin__) {
           const y = el.getBoundingClientRect().top + window.scrollY - 100 - 20;
 
           window.scroll({
-            top: y,
             behavior: "smooth",
           });
         }
@@ -26,6 +25,7 @@ if (!Vue.__map_state_mixin__) {
             description,
             callback: (value) => {
               resolve(value);
+            },
           });
         });
       },

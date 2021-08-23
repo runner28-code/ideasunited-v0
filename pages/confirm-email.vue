@@ -17,4 +17,3 @@ export default {
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
         if(data.register_url) window.location.href = data.register_url;
-        else this.$router.push("/");

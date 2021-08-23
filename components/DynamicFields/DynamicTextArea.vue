@@ -24,3 +24,4 @@ export default {
     markRequired: Boolean
   },
   methods: {
+    onFocus($event) {

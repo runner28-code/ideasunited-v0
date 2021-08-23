@@ -33,7 +33,6 @@
           class="countdown__text text-right"
         ></div>
       </div>
-    </div>
   </div>
 </template>
 
@@ -48,6 +47,7 @@ export default {
   },
   data() {
     return {
+      days: 0,
       hours: 0,
       minutes: 0,
       seconds: 0,
