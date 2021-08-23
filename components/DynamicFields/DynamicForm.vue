@@ -53,7 +53,6 @@
 
 <script>
 import DynamicCheckbox from "./DynamicCheckbox";
-import DynamicEmailField from "./DynamicEmailField";
 import DynamicHtmlBlock from "./DynamicHtmlBlock";
 import DynamicNumberField from "./DynamicNumberField";
 import DynamicRadio from "./DynamicRadio";

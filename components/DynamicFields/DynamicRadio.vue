@@ -26,9 +26,9 @@
 <script>
 export default {
   props: {
+    title: String,
     value: [String, Object, Number, Boolean],
     options: {
-      type: Array,
       default: () => []
     },
     rules: Array,

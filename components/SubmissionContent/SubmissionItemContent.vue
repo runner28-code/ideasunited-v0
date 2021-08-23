@@ -35,7 +35,7 @@
 </template>
 
 <script>
-export default {
+  props: {
     item: Object,
     layout: Object
   },

@@ -69,6 +69,7 @@ export default {
     },
     setInfiniteId: _.debounce(function() {
       this.page = 1;
+      this.list = [];
       this.infiniteId += 1;
     }, 300)
   },

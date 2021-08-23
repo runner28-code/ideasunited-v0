@@ -122,7 +122,6 @@ export default {
           this.onFullscreenExit();
         }
       };
-      document.onmozfullscreenchange = () => {
         if (!document.mozFullScreenElement) {
           this.onFullscreenExit();
         }
@@ -298,6 +297,7 @@ export default {
           videoElem.requestFullscreen();
         } else if (videoElem.mozRequestFullScreen) {
           videoElem.mozRequestFullScreen();
+        } else if (videoElem.webkitRequestFullscreen) {
           videoElem.webkitRequestFullscreen();
         } else if (videoElem.webkitEnterFullscreen) {
           videoElem.webkitEnterFullscreen();

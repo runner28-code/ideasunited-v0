@@ -14,7 +14,6 @@ export default {
     server_error_details: "We're unable to find the page you're looking for.",
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
     titleTemplate: "%s",
     htmlAttrs: {
       lang: "en",
@@ -91,6 +90,7 @@ export default {
     baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
     browserBaseURL: process.env.API_PUBLIC_PATH,
     proxy: true,
+    proxyHeaders: true,
   },
   proxy: {
     "/api": {

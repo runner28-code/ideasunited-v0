@@ -29,6 +29,5 @@ export default async function (req, res, next) {
 
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
-      res.end("Live");
       return;
     }
