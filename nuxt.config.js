@@ -37,6 +37,7 @@ export default {
     { src: "~/plugins/filters.js" },
     { src: "~/plugins/rules.js" },
     { src: "~/plugins/swiper.js" },
+// Temp comment
     { src: "~/plugins/emoji.js" },
     { src: "~/plugins/moment.js" },
     { src: "~/plugins/timeago.js" },
@@ -60,6 +61,7 @@ export default {
           "scrollBehavior" in document.documentElement.style &&
           window.__forceSmoothScrollPolyfill__ !== true,
         install: (smoothscroll) => {
+          smoothscroll.polyfill();
         },
       },
     ],
@@ -114,3 +116,4 @@ export default {
     treeShake: false,
     icons: {
       iconfont: "mdi",
+      values: {

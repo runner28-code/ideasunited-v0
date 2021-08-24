@@ -50,6 +50,7 @@ export default {
       this.scrollBottom();
     },
     updateMessage(payload) {
+      this.messages = this.messages.map(m => {
         if (m.id == payload.id) {
           m.body = payload.body;
         }
@@ -64,3 +65,4 @@ export default {
         this.$nextTick(function() {
           el.scrollTop = el.scrollHeight;
         });
+    },

@@ -119,3 +119,5 @@ export default {
     justify-content: space-between;
   }
 
+  .copyright {
+    text-transform: none;

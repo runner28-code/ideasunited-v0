@@ -53,3 +53,4 @@ export default {
           content: "";
           background: currentColor;
           position: absolute;
+          top: 15px;

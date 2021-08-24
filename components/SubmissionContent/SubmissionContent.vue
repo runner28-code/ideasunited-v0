@@ -10,7 +10,6 @@
         :key="item.id"
         :layout="submissionContent.layout"
         :previewLayout="submissionContent.preview_layout"
-      />
     </div>
     <client-only>
       <infinite-loading :identifier="infiniteId" @infinite="fetchSubmissions">
@@ -43,6 +42,7 @@ export default {
   },
   methods: {
     getId(index) {
+      const item = this.list[index];
       return item?.published ? item.id : null;
     },
     async fetchSubmissions($state) {

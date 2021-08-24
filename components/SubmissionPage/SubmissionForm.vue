@@ -85,3 +85,4 @@ export default {
       this.$nextTick(() => {
         this.$root.$emit("fullpageRebuild");
       });
+    },

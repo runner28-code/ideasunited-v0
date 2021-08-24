@@ -80,3 +80,4 @@ export default {
     type() {
       this.localType = this.type;
     }
+  }

@@ -39,3 +39,4 @@ export default {
     margin-right: 10px;
     background-size: cover;
     background-position: center;
+  }

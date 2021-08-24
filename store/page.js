@@ -42,7 +42,6 @@ const store = {
         url
       });
 
-      commit("set", data);
 
       return data;
     }

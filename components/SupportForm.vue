@@ -4,6 +4,7 @@
       supportForm.headline
     }}</Title>
     <div v-if="supportForm.description" class="support-form__description">
+      {{ supportForm.description }}
     </div>
     <DynamicForm
       :submit="submit"

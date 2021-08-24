@@ -97,7 +97,6 @@ export default {
       redLogo: require("@/assets/images/logo-red.png"),
       newOpps: [],
       showNewOpps: true,
-      showNewOppDetails: true,
       newOppDetail: null,
       newOppDetailIndex: 0,
     };
@@ -236,3 +235,7 @@ export default {
       display: flex;
       align-items: center;
     }
+    &__thumb {
+      width: 50px;
+      height: 50px;
+      background-size: cover;

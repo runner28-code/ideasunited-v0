@@ -17,7 +17,6 @@ export async function buildZoomLink({
     zoomId: zoom_id,
   };
 
-  if (zoom_password) {
     params.zoomPassword = zoom_password;
   }
 

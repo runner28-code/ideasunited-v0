@@ -63,3 +63,9 @@ export default {
   align-items: center;
   background-size: cover;
   background-position: center;
+  margin-top: 15px;
+
+  &.clickable {
+    cursor: pointer;
+  }
+

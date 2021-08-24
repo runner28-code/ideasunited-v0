@@ -136,3 +136,5 @@ export default {
         return validValues.includes(conditionalFormValue);
       }
     },
+    addonData(field) {
+      if (field.tpe == "EmailField")

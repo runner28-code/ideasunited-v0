@@ -7,7 +7,6 @@
       <v-btn class="dialog-close" icon @click="cancel">
         <v-icon>$close</v-icon>
       </v-btn>
-      <v-card-text>
         <AuthRegisterForm
           :dialog-state="dialogState"
         />
@@ -26,6 +25,7 @@ export default {
         chooseSignUp: false,
       }
     };
+  },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
       this.backToLogin();

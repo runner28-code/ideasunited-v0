@@ -47,3 +47,4 @@ export default {
   right: 0;
   display: flex;
   margin: auto;
+  align-items: center;

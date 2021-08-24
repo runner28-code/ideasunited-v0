@@ -122,6 +122,7 @@ export default {
   }
 };
 </script>
+
 <style scoped lang="scss">
 .countdown {
   background-size: cover;
@@ -144,3 +145,4 @@ export default {
   letter-spacing: 0.2em;
   white-space: pre-line;
   line-height: 1.2;
+}

@@ -125,3 +125,4 @@ export default {
           else this.emailValidationSuggestions = [];
           this.areYouSureDialog = true;
         }
+      }

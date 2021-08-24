@@ -45,3 +45,4 @@ export default {
   min-height: 100vh;
 
   &__title {
+    font-weight: bold;

@@ -249,3 +249,5 @@ export default {
     text-transform: none;
     text-decoration: none;
     white-space: nowrap;
+
+    &:hover {

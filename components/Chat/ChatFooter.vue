@@ -61,6 +61,7 @@ export default {
     selectEmoji({ data }) {
       this.message += data;
     },
+    sendMessage(event) {
       if (!event.shiftKey && this.message.replace(/(\s|\n)+/g, "").length) {
         event.preventDefault();
         const data = {
@@ -76,3 +77,4 @@ export default {
           chat_id: this.chat.id,
           action: "send_message",
           data
+        });

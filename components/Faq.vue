@@ -66,3 +66,5 @@ export default {
         return items.slice(lastItem1);
       } else {
         return false;
+      }
+    },

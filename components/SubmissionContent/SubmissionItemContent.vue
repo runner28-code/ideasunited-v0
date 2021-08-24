@@ -23,6 +23,7 @@
     >
       <div>
         <div
+          :class="'s-' + section.class_name"
           v-for="(section, idx) in content"
           :key="idx"
         >
@@ -45,3 +46,4 @@ export default {
         .map(t => ({
           ...this.formattedData[t.field_id],
           class_name: t.uuid
+        }))

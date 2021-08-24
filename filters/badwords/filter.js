@@ -1,4 +1,3 @@
-// Temp comment
 import list from "./stopwords.json";
 
 class Filter {

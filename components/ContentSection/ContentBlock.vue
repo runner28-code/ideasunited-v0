@@ -101,6 +101,7 @@ export default {
         if (original.match("\.gif$") || original.match("\.svg$")) {
           preview = original;
         } else {
+          preview = this.block.preview?.thumb?.url;
         }
       }
 
@@ -112,3 +113,4 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">

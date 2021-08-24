@@ -26,7 +26,6 @@
           icon
           class="slider-modal__arrow slider-modal__next"
           tabindex="0"
-          role="button"
         >
           <v-icon color="#fff" size="50">$chevron_right</v-icon>
         </v-btn>
@@ -89,6 +88,7 @@ export default {
       var bounding = this.$el.getBoundingClientRect();
       return (
         bounding.top >= 0 &&
+        bounding.left >= 0 &&
         bounding.bottom <=
           (window.innerHeight || document.documentElement.clientHeight) &&
         bounding.right <=
@@ -116,3 +116,4 @@ export default {
     opacity: 0.72;
     color: #000;
   }
+}
