@@ -16,6 +16,7 @@
           {{ contentSection.more_link_text }}
         </span>
         <v-icon size="30" :color="activeTheme.primary_color"
+          >$chevron_right</v-icon
         >
       </a>
       <div class="content-section__title__underline" v-rellax="{speed: -0.25, center: true, percentage: 0.5}"></div>
@@ -66,7 +67,6 @@
         @click="swiperInstance.slideNext()"
       >
         <v-icon size="40">$chevron_right</v-icon>
-      </v-btn>
     </div>
     <div
       class="content-section__view-more"

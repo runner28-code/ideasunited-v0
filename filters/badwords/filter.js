@@ -10,7 +10,6 @@ class Filter {
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,
       replaceRegex: options.replaceRegex || /\w/g
     });
-// Temp comment
   }
 
   isProfane(string) {

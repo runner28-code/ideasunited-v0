@@ -30,6 +30,7 @@ export default {
     }
   },
   data() {
+    return {
       localValue: this.value,
       localRules: [...this.rules, this.$rules.url]
     };

@@ -1,4 +1,3 @@
-<template>
   <div class="error-page">
     <div class="error-content">
       <div class="error-title">
@@ -9,3 +8,4 @@
       </div>
 
       <Button large to="/">Back to Home</Button>
+    </div>

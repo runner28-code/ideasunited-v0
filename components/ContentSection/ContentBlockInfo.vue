@@ -99,6 +99,7 @@ export default {
   },
   methods: {
     instagram(v) {
+      /* eslint-disable no-useless-escape */
       const urlRegexp =
         /^http(s)?:\/\/?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
 

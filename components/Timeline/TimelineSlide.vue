@@ -10,6 +10,7 @@
       @click="setActive"
       @keyup.enter="setActive"
       class="timeline-slide__wrapper"
+      :aspect-ratio="aspectRatio"
       role="button"
       tabindex="0"
     >

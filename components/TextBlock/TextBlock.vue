@@ -48,6 +48,7 @@ export default {
       return this.textBlock.items.slice(0, this.textBlock.layout);
     }
   }
+};
 </script>
 
 <style scoped lang="scss">
@@ -57,7 +58,6 @@ export default {
   flex-wrap: wrap;
 
   &__side {
-    width: 50%;
 
     .text-block__item-wrapper {
       height: 100%;

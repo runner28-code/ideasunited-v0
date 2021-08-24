@@ -42,6 +42,7 @@ export default {
   },
   created() {
     this.fetchSignature();
+  },
   methods: {
     openZoomLink() {
       window.open(this.event.zoom_url, "_blank");

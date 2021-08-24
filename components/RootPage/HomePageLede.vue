@@ -122,6 +122,7 @@ export default {
           this.onFullscreenExit();
         }
       };
+      document.onmozfullscreenchange = () => {
         if (!document.mozFullScreenElement) {
           this.onFullscreenExit();
         }
