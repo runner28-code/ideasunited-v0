@@ -11,6 +11,7 @@
           Did you mean {{`${suggestion.local}@${suggestion.suggestion}`}}? <a @click="useSuggestion(suggestion)">Use this email.</a>
         </div>
       </div>
+      <Button
         large
         @click="yesImSure()"
         >Yes, I'm Sure</Button

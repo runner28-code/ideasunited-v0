@@ -32,5 +32,4 @@ export default function(ctx, inject) {
       authorizationEndpoint =
         authorizationEndpoint + "?domain=" + location.hostname;
 
-      const w = window.open(
         authorizationEndpoint,

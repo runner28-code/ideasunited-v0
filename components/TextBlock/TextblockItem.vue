@@ -42,7 +42,6 @@ a.text-block__item-wrapper:hover {
   opacity: 0.9;
 }
 
-.text-block {
   &__item {
     position: relative;
     overflow: hidden;

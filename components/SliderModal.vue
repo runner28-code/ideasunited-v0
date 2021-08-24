@@ -89,7 +89,6 @@ export default {
       var bounding = this.$el.getBoundingClientRect();
       return (
         bounding.top >= 0 &&
-        bounding.left >= 0 &&
         bounding.bottom <=
           (window.innerHeight || document.documentElement.clientHeight) &&
         bounding.right <=

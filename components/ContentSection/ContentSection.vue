@@ -67,6 +67,7 @@
         @click="swiperInstance.slideNext()"
       >
         <v-icon size="40">$chevron_right</v-icon>
+      </v-btn>
     </div>
     <div
       class="content-section__view-more"

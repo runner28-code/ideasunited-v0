@@ -24,4 +24,5 @@ export default {
     label: String,
     value: Boolean,
     rules: {
+      type: Array,
       default: () => [],

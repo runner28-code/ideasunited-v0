@@ -235,3 +235,4 @@ export default {
     &__content-top{
       display: flex;
       align-items: center;
+    }

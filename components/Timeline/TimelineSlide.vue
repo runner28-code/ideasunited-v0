@@ -116,3 +116,4 @@ export default {
   background-position: center;
   position: relative;
   color: white;
+  box-sizing: border-box;

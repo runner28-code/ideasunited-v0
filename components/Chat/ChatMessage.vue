@@ -56,7 +56,6 @@ export default {
   name: "ChatMessage",
   props: {
     message: Object,
-    chat: Object
   },
   methods: {
     deleteMessage() {
