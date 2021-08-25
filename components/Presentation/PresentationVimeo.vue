@@ -49,5 +49,6 @@ export default {
     presentation: {
       deep: true,
       immediate: true,
+      handler(newVal, oldVal) {
         if (this.newSlideSettings.started && this.player) {
           this.play();

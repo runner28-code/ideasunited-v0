@@ -6,5 +6,6 @@
 export default {
   props: {
     value: String,
+    page: Object,
   },
   computed: {

@@ -49,5 +49,6 @@ export default {
       try {
         this.form.support_form_id = this.supportForm.id;
         this.form.user_agent = this.$ua._parsed;
+        await this.$api.Support.create(this.form);
         this.submitted = true;
       } catch {}

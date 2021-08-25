@@ -105,7 +105,6 @@ export default {
     onScroll() {
       this.scrollPosition = window.top.scrollY;
     }
-  },
   mounted() {
     window.addEventListener("scroll", this.onScroll);
   },

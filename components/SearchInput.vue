@@ -46,6 +46,7 @@ export default {
   }
 };
 </script>
+
 <style scoped lang="scss">
 .search-input {
   height: 46px;

@@ -75,7 +75,6 @@ export default {
           chat_id: this.chat.id,
           user_id: this.message.user.id
         });
-      }
     }
   },
   computed: {

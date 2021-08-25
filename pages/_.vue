@@ -27,6 +27,7 @@ export default {
         content: this.currentProject.description
       }
     ];
+
     console.log(meta);
 
     meta = _.uniqBy(meta, function(tag) { return (tag.name || "") + "_" + (tag.property || "") });
@@ -38,7 +39,6 @@ export default {
         { rel: "icon", href: this.currentProject?.favicon.url || this.activeTheme.favicon.url || "/favicon.ico" }
       ]
     };
-  },
   created() {
     if (process.client) {
       this.$cable.subscribe({

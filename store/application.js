@@ -6,7 +6,6 @@ const store = {
       state.loaded = val;
     },
     setTimelineAspectRatio(state, val) {
-      state.timelineAspectRatio = val;
     }
   },
   actions: {

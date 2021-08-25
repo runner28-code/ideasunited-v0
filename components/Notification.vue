@@ -10,6 +10,7 @@
         <Button
           large
           target="_blank"
+          v-if="data.link_text && data.link_to"
           :href="data.link_to"
           >{{ data.link_text }}</Button
         >
@@ -49,7 +50,6 @@ export default {
       data: null
     };
   },
-  created() {
     this.$root.$on("showNotification", payload => {
       this.data = payload;
       switch (payload.notification_type) {
