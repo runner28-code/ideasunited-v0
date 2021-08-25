@@ -17,3 +17,4 @@ export default {};
 
 <style scoped lang="scss">
 .auth-page {
+  width: 100%;

@@ -19,7 +19,6 @@
       </swiper-slide>
     </swiper>
 
-    <v-btn
       :class="{ visible: visibleControls }"
       class="timeline__control"
       icon
@@ -167,3 +166,5 @@ export default {
             return t;
           dates[startAt] = true;
 
+          return { ...t, first_in_day: true };
+        })

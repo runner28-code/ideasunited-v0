@@ -37,7 +37,6 @@ export default {
     { src: "~/plugins/filters.js" },
     { src: "~/plugins/rules.js" },
     { src: "~/plugins/swiper.js" },
-// Temp comment
     { src: "~/plugins/emoji.js" },
     { src: "~/plugins/moment.js" },
     { src: "~/plugins/timeago.js" },
@@ -95,6 +94,7 @@ export default {
     proxyHeaders: true,
   },
   proxy: {
+// Temp comment
     "/api": {
       target: process.env.API_URL,
       changeOrigin: true,
@@ -117,3 +117,4 @@ export default {
     icons: {
       iconfont: "mdi",
       values: {
+        dots_vertical: "mdi-dots-vertical",

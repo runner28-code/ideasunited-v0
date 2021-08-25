@@ -192,3 +192,5 @@ export default {
     position: relative;
     min-height: calc(100vh - 200px);
     width: 100%;
+
+    &-container {

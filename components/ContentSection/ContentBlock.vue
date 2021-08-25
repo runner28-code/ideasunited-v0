@@ -104,7 +104,6 @@ export default {
           preview = this.block.preview?.thumb?.url;
         }
       }
-
       return {
         backgroundImage: `url(${preview})`
       };
@@ -114,3 +113,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.content-section-item {

@@ -224,3 +224,5 @@ export default {
       this.keyIsDown = true;
     },
     keyUpHandler(e) {
+      if(!e.key) return;
+      this.keyIsDown = false;

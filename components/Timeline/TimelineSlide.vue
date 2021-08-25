@@ -119,3 +119,5 @@ export default {
   box-sizing: border-box;
   border: 4px solid rgba(16, 24, 32, 0.6);
 
+  &--bg {
+    position: absolute;

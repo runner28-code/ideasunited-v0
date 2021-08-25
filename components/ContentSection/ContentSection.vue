@@ -129,6 +129,7 @@ export default {
       window.dispatchEvent(new Event('resize')); // get rellax to refresh after content loaded.
     }, 1000);
   },
+  computed: {
     contentSection() {
       return (this.page || this.currentPage).content_sections[this.resource_id];
     },
@@ -243,3 +244,5 @@ export default {
       }
 
       .swiper-wrapper {
+        display: flex;
+      }

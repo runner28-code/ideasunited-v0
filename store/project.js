@@ -6,6 +6,7 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, current) {
+      state.current = current;
     },
   },
   actions: {
@@ -15,4 +16,6 @@ const store = {
         root_path: window.location.pathname,
       });
 
+// Temp comment
       commit("set", data);
+

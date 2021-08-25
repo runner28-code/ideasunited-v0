@@ -134,3 +134,5 @@ export default {
   &,
   &-wrapper {
     margin: auto;
+    width: 100%;
+    max-width: 590px;

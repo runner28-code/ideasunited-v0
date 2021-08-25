@@ -26,6 +26,7 @@
           icon
           class="slider-modal__arrow slider-modal__next"
           tabindex="0"
+          role="button"
         >
           <v-icon color="#fff" size="50">$chevron_right</v-icon>
         </v-btn>
@@ -40,7 +41,6 @@
               <v-icon size="36" :color="currentColor"
                 >$close</v-icon
               >
-            </v-btn>
             <slot></slot>
           </div>
         </v-card>
@@ -117,3 +117,4 @@ export default {
     color: #000;
   }
 }
+.slider-modal {

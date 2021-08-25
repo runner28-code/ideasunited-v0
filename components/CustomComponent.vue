@@ -11,7 +11,6 @@
 <script>
 import Vue from "vue";
 import Spinner from "./Spinner";
-import { v4 as uuidv4 } from "uuid";
 
 export default {
   props: {
@@ -59,3 +58,4 @@ export default {
               const ref =
                 document.head.getElementsByTagName("style")[0] || null;
               document.head.insertBefore(style, ref);
+

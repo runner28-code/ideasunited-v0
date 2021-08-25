@@ -138,3 +138,4 @@ export default {
     },
     addonData(field) {
       if (field.tpe == "EmailField")
+        return this.currentProject.addon_emailpasswordlogin_data;

@@ -71,3 +71,4 @@ export default {
 
   &__delete {
     position: absolute;
+    right: 10px;

@@ -78,3 +78,4 @@ export default {
         "Addon::GoogleLogin"
       ]).map(t => this.authParams[t.replace("Addon::", "")]);
 
+      return intersection;

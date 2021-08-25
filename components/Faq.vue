@@ -68,3 +68,4 @@ export default {
         return false;
       }
     },
+  }

@@ -10,6 +10,7 @@
         :key="item.id"
         :layout="submissionContent.layout"
         :previewLayout="submissionContent.preview_layout"
+      />
     </div>
     <client-only>
       <infinite-loading :identifier="infiniteId" @infinite="fetchSubmissions">
@@ -78,3 +79,4 @@ export default {
     },
     css() {
       const styles1 = this.submissionContent.layout.content
+        .filter(t => t.styles)

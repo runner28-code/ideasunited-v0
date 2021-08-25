@@ -40,3 +40,4 @@ export default {
   min-height: 48px;
 
   &__title {
+    font-weight: bold;

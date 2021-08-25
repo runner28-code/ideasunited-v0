@@ -55,3 +55,4 @@ export default {
   },
   watch: {
     vimeoChapter() {
+      this.goToChapter(this.vimeoChapter);

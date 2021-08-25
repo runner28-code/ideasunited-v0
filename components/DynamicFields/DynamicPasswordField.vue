@@ -8,7 +8,6 @@
     outlined
   />
 </template>
-
 <script>
 export default {
   props: {

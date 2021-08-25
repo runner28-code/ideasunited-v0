@@ -142,3 +142,6 @@ export default {
       }
     }
   },
+  computed: {
+    styles() {
+      return `

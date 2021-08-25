@@ -12,7 +12,6 @@
           v-bind="component"
           :is="convertComponent(component.type)"
         ></component>
-      </div>
     </div>
   </div>
 </template>

@@ -251,3 +251,5 @@ export default {
     white-space: nowrap;
 
     &:hover {
+      opacity: 0.8;
+    }

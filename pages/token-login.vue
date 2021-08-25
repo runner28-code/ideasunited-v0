@@ -21,3 +21,4 @@ export default {
         const { data } = await this.$api.Auth.tokenLogin({ token });
 
         this.$store.commit("auth/setToken", data.token);
+        this.$store.dispatch("user/fetch");

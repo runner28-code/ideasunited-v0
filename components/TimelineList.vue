@@ -54,3 +54,4 @@ export default {
           background: currentColor;
           position: absolute;
           top: 15px;
+          bottom: -16px;

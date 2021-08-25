@@ -28,6 +28,7 @@
 
 <script>
 export default {
+  props: {
     event: Object
   },
   computed: {
@@ -35,3 +36,4 @@ export default {
       const url =
         this.event.background?.large?.url ||
         this.activeTheme.event_background.large.url;
+      return {

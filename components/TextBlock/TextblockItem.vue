@@ -75,3 +75,4 @@ a.text-block__item-wrapper:hover {
       opacity: 1;
     }
 
+    &-title {

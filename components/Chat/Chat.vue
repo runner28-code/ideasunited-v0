@@ -53,3 +53,4 @@ export default {
 .chat {
   color: black;
   display: flex;
+  flex-direction: column;

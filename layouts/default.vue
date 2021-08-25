@@ -59,7 +59,6 @@ export default {
       });
 
       this.$cable.subscribe({
-        channel: "NotificationChannel",
         project_id: this.currentProject.id,
         env: this.currentProject.env,
       });
@@ -195,3 +194,5 @@ export default {
         (t) => t.menu_style != "home_logo" && !t.parent_menu_id
       );
       if (pages.length > 0) return "";
+
+      return `

@@ -47,3 +47,4 @@ export default {
           ...this.formattedData[t.field_id],
           class_name: t.uuid
         }))
+        .filter(t => t);

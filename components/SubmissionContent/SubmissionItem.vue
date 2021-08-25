@@ -91,3 +91,4 @@ export default {
       return this.colors[getHash(this.item.id) % this.colors.length];
     }
   }
+};

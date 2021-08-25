@@ -1,3 +1,4 @@
+<template>
   <v-btn
     @click="click"
     :to="to"
@@ -45,3 +46,4 @@ export default {
       return getThemeByColor(this.calcColor);
     }
   },
+  methods: {

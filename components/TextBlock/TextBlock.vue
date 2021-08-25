@@ -33,6 +33,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   props: {
@@ -80,3 +81,4 @@ export default {
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 960px) {
+      flex-direction: column;

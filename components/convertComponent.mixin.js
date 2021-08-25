@@ -24,4 +24,5 @@ export default {
     List,
     HtmlBlock,
     SupportForm,
+    SubmissionPage,
     SubmissionContent,

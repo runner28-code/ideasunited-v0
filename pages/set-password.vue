@@ -1,4 +1,5 @@
 <template>
+  <div class="forgot-password-page">
     <v-form
       ref="form"
       v-model="formModel"
@@ -34,7 +35,6 @@ export default {
       this.checkPasswordToken();
     }
   },
-  methods: {
     async checkPasswordToken() {
       try {
         const { data } = await this.$api.Auth.checkPasswordToken({

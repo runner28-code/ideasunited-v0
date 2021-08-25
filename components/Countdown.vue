@@ -146,3 +146,5 @@ export default {
   white-space: pre-line;
   line-height: 1.2;
 }
+
+.countdown-timer {

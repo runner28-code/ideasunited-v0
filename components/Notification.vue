@@ -23,7 +23,6 @@
       class="notification__sidebar"
       width="400"
     >
-      <v-btn class="close" icon @click="closeSidebar">
         <v-icon size="30">$close</v-icon>
       </v-btn>
       <div class="notification__sidebar-content">
@@ -60,3 +59,4 @@ export default {
         case "sidebar":
           this.sidebar = true;
           break;
+      }

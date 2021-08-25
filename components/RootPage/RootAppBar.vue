@@ -62,7 +62,6 @@
           <div class="app-bar__new-opps-details__description">{{ newOppDetail.og_description }}</div>
         </div>
         <div class="app-bar__new-opps-details__actions">
-          <v-btn
             icon
             class="app-bar__new-opps-details__close"
             @click.prevent="showNewOppDetails = false"
@@ -97,6 +96,7 @@ export default {
       redLogo: require("@/assets/images/logo-red.png"),
       newOpps: [],
       showNewOpps: true,
+      showNewOppDetails: true,
       newOppDetail: null,
       newOppDetailIndex: 0,
     };
@@ -239,3 +239,7 @@ export default {
       width: 50px;
       height: 50px;
       background-size: cover;
+      background-position: center;
+      margin-right: 10px;
+      flex-shrink: 0;
+    }
