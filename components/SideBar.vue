@@ -135,6 +135,7 @@ export default {
       this.$emit('input', false);
       window.location.href = "/";
     },
+    clickLogin(){
       this.$root.$emit(`authModal/open`);
     },
     async menuClick(item, idx) {

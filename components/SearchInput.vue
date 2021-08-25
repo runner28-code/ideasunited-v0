@@ -10,6 +10,7 @@
   </div>
 </template>
 
+<script>
 import { getThemeByColor } from "@/utils";
 
 export default {
@@ -45,7 +46,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .search-input {
   height: 46px;

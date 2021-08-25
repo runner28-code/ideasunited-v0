@@ -13,7 +13,6 @@ const store = {
     async fetch({ commit }) {
       const token = this.$cookies.get("authToken");
 
-// Temp comment
       if (token && process.client) {
         const { data } = await this.$api.User.current();
         commit("set", data);

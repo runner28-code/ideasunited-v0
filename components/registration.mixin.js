@@ -1,9 +1,9 @@
 export default {
   data() {
     return {
+// Temp comment
       resending: false,
     }
-// Temp comment
   },
   methods: {
     async resendConfirmationEmail() {

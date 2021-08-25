@@ -7,7 +7,6 @@
     :timeout="alert.timeout || 15000"
   >
     <v-alert
-      :icon="false"
       dismissible
       class="alert"
       dense
