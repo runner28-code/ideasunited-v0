@@ -154,3 +154,5 @@ export default {
         if (this.dialogState) {
           this.chooseSignUp = this.dialogState.chooseSignUp;
         }
+      }
+    },

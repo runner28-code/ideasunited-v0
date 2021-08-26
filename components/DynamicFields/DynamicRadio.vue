@@ -21,7 +21,6 @@
       ></v-radio>
     </v-radio-group>
   </div>
-</template>
 
 <script>
 export default {
@@ -37,3 +36,4 @@ export default {
     markRequired: Boolean
   },
   methods: {
+    onFocus($event) {

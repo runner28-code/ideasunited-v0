@@ -28,7 +28,6 @@
 import _ from "lodash";
 import cookies from "vue-cookies";
 
-export default {
   data() {
     return {
       authParams: {
@@ -48,6 +47,7 @@ export default {
     };
   },
   methods: {
+    async oauth(provider) {
       // try {
       const { token } = await this.$oauth(provider);
 
@@ -78,3 +78,4 @@ export default {
       ]).map(t => this.authParams[t.replace("Addon::", "")]);
 
       return intersection;
+    }

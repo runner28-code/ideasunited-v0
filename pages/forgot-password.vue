@@ -25,10 +25,10 @@ export default {
       formModel: null,
       form: {},
       submitted: false
-    };
   },
   methods: {
     async submit() {
+      try {
         await this.$store.dispatch("auth/resetPassword", this.form);
         this.submitted = true;
       } catch {}
@@ -47,3 +47,4 @@ export default {
   display: flex;
   margin: auto;
   align-items: center;
+  justify-content: center;

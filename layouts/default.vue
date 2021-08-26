@@ -1,3 +1,4 @@
+<template>
   <v-app
     v-if="currentProject"
     class="evp-app"
@@ -196,3 +197,5 @@ export default {
       if (pages.length > 0) return "";
 
       return `
+        @media screen and (min-width: 944px) {
+          .app-bar {

@@ -9,7 +9,6 @@
     on-icon="$checkbox_on"
     :rules="rules"
     :disabled="disabled"
-  >
     <template #label>
       <slot>
         <span v-html="label"></span>
@@ -23,6 +22,7 @@ export default {
   props: {
     label: String,
     value: Boolean,
+    rules: {
       type: Array,
       default: () => [],
     },

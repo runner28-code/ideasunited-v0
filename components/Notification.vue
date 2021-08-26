@@ -45,11 +45,11 @@
 export default {
   data() {
     return {
-      dialog: false,
       sidebar: false,
       data: null
     };
   },
+  created() {
     this.$root.$on("showNotification", payload => {
       this.data = payload;
       switch (payload.notification_type) {
@@ -60,3 +60,4 @@ export default {
           this.sidebar = true;
           break;
       }
+    });

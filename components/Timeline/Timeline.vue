@@ -169,3 +169,6 @@ export default {
 
           return { ...t, first_in_day: true };
         })
+        .filter(t => {
+          return this.availableEvent(t);
+        });

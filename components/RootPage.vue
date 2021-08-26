@@ -39,3 +39,4 @@ export default {
     Event,
     TextBlock,
     Schedule,
+    List,

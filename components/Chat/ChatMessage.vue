@@ -63,7 +63,6 @@ export default {
       this.$api.Message.destroy(this.message.id);
     },
     blockUser() {
-      if (confirm("Are you sure?")) {
         this.$api.Message.blockUser({ message_id: this.message.id });
       }
     },
@@ -75,6 +74,7 @@ export default {
           chat_id: this.chat.id,
           user_id: this.message.user.id
         });
+      }
     }
   },
   computed: {
@@ -83,3 +83,4 @@ export default {
       body = badwords(body);
       return body;
     }
+  }

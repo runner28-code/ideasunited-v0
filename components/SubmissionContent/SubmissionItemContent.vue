@@ -37,6 +37,7 @@
 <script>
 export default {
   props: {
+    item: Object,
     layout: Object
   },
   computed: {
@@ -47,3 +48,4 @@ export default {
           class_name: t.uuid
         }))
         .filter(t => t);
+    },

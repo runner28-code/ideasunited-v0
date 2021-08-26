@@ -136,3 +136,5 @@ export default {
     margin: auto;
     width: 100%;
     max-width: 590px;
+  }
+

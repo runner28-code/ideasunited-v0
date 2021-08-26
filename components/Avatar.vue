@@ -42,3 +42,4 @@ export default {
       return (this.name || "Anon")
         .split(" ")
         .map(n => n[0])
+        .join("")

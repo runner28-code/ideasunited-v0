@@ -87,3 +87,4 @@ export default {
       align-items: center;
       justify-content: space-between;
       flex: 1;
+    }

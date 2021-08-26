@@ -39,6 +39,7 @@ export default {
         { rel: "icon", href: this.currentProject?.favicon.url || this.activeTheme.favicon.url || "/favicon.ico" }
       ]
     };
+  },
   created() {
     if (process.client) {
       this.$cable.subscribe({
@@ -75,3 +76,4 @@ export default {
       page
     };
   },
+  computed: {

@@ -230,3 +230,5 @@ export default {
     right: 20px;
     top: 20px;
     .theme--light.v-icon {
+      color: black;
+    }

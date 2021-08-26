@@ -110,3 +110,4 @@ export default {
       /* eslint-disable no-useless-escape */
       const atInstagramHandleRegexp =
         /^@([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
+

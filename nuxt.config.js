@@ -6,6 +6,7 @@
 //   browserBaseURL: process.env.API_PUBLIC_PATH,
 // });
 export default {
+  server: {
     port: 8000, // default: 3000
   },
   messages: {
@@ -70,6 +71,7 @@ export default {
     {
       path: "~/components",
       pathPrefix: false,
+// Temp comment
     },
   ],
 
@@ -116,3 +118,5 @@ export default {
       iconfont: "mdi",
       values: {
         dots_vertical: "mdi-dots-vertical",
+        menu_down: "mdi-menu-down",
+        menu_up: "mdi-menu-up",

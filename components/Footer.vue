@@ -98,6 +98,7 @@ export default {
     }
   }
   
+  &.static {
     position: relative;
   }
 
@@ -123,3 +124,6 @@ export default {
     font-weight: 700;
   }
 
+  &__logo {
+    text-decoration: none;
+    display: flex;

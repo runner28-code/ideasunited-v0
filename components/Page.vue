@@ -54,7 +54,6 @@
         >
           <component
             :value="component.resource_id"
-            v-bind="component"
             :is="convertComponent(component.type)"
           ></component>
         </div>
@@ -226,3 +225,7 @@ export default {
     keyUpHandler(e) {
       if(!e.key) return;
       this.keyIsDown = false;
+    },
+  },
+  computed: {
+    page() {

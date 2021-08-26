@@ -62,3 +62,4 @@ export default {
 
   &__placeholder {
     display: flex;
+    align-items: center;

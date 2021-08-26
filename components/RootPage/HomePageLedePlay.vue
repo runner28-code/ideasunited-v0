@@ -86,7 +86,6 @@
     align-items: center;
   }
 
-  &__btn {
     position: absolute;
     width: 57.7%;
     border-radius: 50%;
@@ -97,3 +96,4 @@
 
     @media screen and (max-width: 960px) {
       width: 28.57%;
+      position: relative;

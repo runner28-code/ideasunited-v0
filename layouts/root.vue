@@ -5,7 +5,6 @@
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
   >
     <client-only>
-      <RootAppBar
         @toggleSidebar="drawer = !drawer"
       />
       <SideBar v-model="drawer" />
@@ -145,3 +144,6 @@ export default {
   computed: {
     styles() {
       return `
+        <style rel="stylesheet" type="text/css">
+          .v-application {
+            font-family: ${this.activeTheme.paragraph_font.font.font_name}, sans-serif;

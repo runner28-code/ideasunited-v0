@@ -1,6 +1,5 @@
 export default {
   data() {
-    return {
       resending: false,
     }
   },
@@ -11,3 +10,4 @@ export default {
         await this.$api.Auth.sendConfirmationEmail();
         setTimeout(() => {
           this.resending = false;
+        }, 120000);

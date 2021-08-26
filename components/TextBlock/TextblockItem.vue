@@ -76,3 +76,4 @@ a.text-block__item-wrapper:hover {
     }
 
     &-title {
+      font-weight: 900;

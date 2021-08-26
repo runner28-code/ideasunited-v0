@@ -105,6 +105,7 @@ export default {
     onScroll() {
       this.scrollPosition = window.top.scrollY;
     }
+  },
   mounted() {
     window.addEventListener("scroll", this.onScroll);
   },
@@ -193,3 +194,6 @@ export default {
     width: 100%;
 
     &-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;

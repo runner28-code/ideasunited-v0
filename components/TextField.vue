@@ -78,6 +78,8 @@ export default {
   },
   watch: {
     type() {
+      this.localType = this.type;
     }
   }
 };
+</script>

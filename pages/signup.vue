@@ -12,7 +12,6 @@
       </v-btn>
     </div>
   </div>
-</template>
 
 <script>
 import { frontendToProfile } from "@/utils";
@@ -47,3 +46,4 @@ export default {
   &__title {
     font-weight: bold;
     font-size: 24px;
+    text-align: center;

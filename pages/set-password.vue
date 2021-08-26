@@ -19,9 +19,9 @@
     </v-form>
   </div>
 </template>
-
 <script>
 export default {
+  layout: 'simple',
   data() {
     return {
       formModel: null,
@@ -65,3 +65,4 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">

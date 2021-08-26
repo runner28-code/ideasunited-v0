@@ -45,3 +45,9 @@ export default {
     parseMessage(string) {
       return string.replace(/{{.*?}}/g, (match) => {
         var expression = match.slice(2, -2);
+        return this.evalInContext(expression);
+      });
+    },
+  },
+  computed: {
+    firstName() {

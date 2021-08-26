@@ -14,6 +14,7 @@
     <ZoomPlayer
       v-else-if="event.event_type == 'zoom'"
       :zoomLink="event.zoom_url"
+      :startAt="event.start_at"
       :event="event"
       :title="event.title"
       :key="event.id"
@@ -35,4 +36,3 @@ export default {
       const url =
         this.event.background?.large?.url ||
         this.activeTheme.event_background.large.url;
-      return {

@@ -56,3 +56,4 @@ export default {
       if(this.dialogState.chooseSignUp && !this.currentUser) return 700;
       else return 400;
     }
+  },

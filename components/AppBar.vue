@@ -253,3 +253,7 @@ export default {
     &:hover {
       opacity: 0.8;
     }
+
+    &-title {
+      font-size: 20px;
+      font-weight: bold;
