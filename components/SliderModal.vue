@@ -41,6 +41,7 @@
               <v-icon size="36" :color="currentColor"
                 >$close</v-icon
               >
+            </v-btn>
             <slot></slot>
           </div>
         </v-card>

@@ -1,7 +1,6 @@
 <template>
   <div class="submission-page">
     <div class="submission-page__container">
-      <SubmissionForm
         @close="formDialog = false"
         :id="submissionForm.id"
         :submissionForm="submissionForm"
@@ -27,6 +26,7 @@ export default {
     };
   },
   computed: {
+    submissionForm() {
       return (this.page || this.currentPage).submission_forms[this.value];
     },
   },

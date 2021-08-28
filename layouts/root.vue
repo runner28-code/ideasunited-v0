@@ -5,6 +5,7 @@
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
   >
     <client-only>
+      <RootAppBar
         @toggleSidebar="drawer = !drawer"
       />
       <SideBar v-model="drawer" />

@@ -27,7 +27,6 @@
             {{ value.short_title || value.title }}
           </div>
         </div>
-
         <div class="timeline-slide__now-playing">
           <div class="timeline-slide__now-playing__dot"></div>
           <span>

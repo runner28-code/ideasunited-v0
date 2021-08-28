@@ -28,6 +28,7 @@
 import _ from "lodash";
 import cookies from "vue-cookies";
 
+export default {
   data() {
     return {
       authParams: {
@@ -67,7 +68,6 @@ import cookies from "vue-cookies";
       }
       // } catch {}
     }
-  },
   computed: {
     items() {
       const intersection = _.intersection(this.currentProject.addons, [

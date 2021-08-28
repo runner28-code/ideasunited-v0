@@ -12,7 +12,6 @@
     "restart-staging": "pm2 kill && pm2 start",
     "deploy-production": "MINA_CONFIG=deploy/production.json mina deploy",
     "restart-production": "pm2 kill && pm2 start"
-  },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/device": "^2.0.0",

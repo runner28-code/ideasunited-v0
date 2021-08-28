@@ -86,6 +86,7 @@
     align-items: center;
   }
 
+  &__btn {
     position: absolute;
     width: 57.7%;
     border-radius: 50%;

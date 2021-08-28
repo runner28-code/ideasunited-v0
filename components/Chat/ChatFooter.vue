@@ -43,7 +43,6 @@
             <v-icon>$send</v-icon>
           </v-btn>
         </div>
-      </div>
     </div>
   </div>
 </template>

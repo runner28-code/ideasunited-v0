@@ -38,7 +38,3 @@ export default {
   align-items: center;
   padding: 0 15px;
   min-height: 48px;
-
-  &__title {
-    font-weight: bold;
-    font-size: 12px;

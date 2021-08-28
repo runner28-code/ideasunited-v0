@@ -28,7 +28,6 @@
               id="fullpage"
               :skip-init="true"
             >
-              <FullPageSection
                 v-for="(page, idx) in currentProject.menu_pages"
                 :key="idx"
                 :page="page"
@@ -54,6 +53,7 @@
         >
           <component
             :value="component.resource_id"
+            v-bind="component"
             :is="convertComponent(component.type)"
           ></component>
         </div>

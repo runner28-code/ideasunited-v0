@@ -1,7 +1,6 @@
 <template>
   <div class="vimeo-player">
     <iframe
-      :src="`https://player.vimeo.com/video/${slide.vimeo_id}?controls=0`"
       frameborder="0"
       allow="fullscreen"
       allowfullscreen
@@ -29,6 +28,7 @@ export default {
 
     this.player.on("play", async () => {
       this.started = true;
+    });
 
     this.play();
   },

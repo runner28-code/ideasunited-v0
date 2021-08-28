@@ -25,6 +25,7 @@ export default {
       formModel: null,
       form: {},
       submitted: false
+    };
   },
   methods: {
     async submit() {

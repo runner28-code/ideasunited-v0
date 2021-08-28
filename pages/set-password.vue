@@ -19,6 +19,7 @@
     </v-form>
   </div>
 </template>
+
 <script>
 export default {
   layout: 'simple',

@@ -21,6 +21,7 @@
       ></v-radio>
     </v-radio-group>
   </div>
+</template>
 
 <script>
 export default {
