@@ -6,6 +6,7 @@ const store = {
       state.loaded = val;
     },
     setTimelineAspectRatio(state, val) {
+// Temp comment
       state.timelineAspectRatio = val;
     }
   },

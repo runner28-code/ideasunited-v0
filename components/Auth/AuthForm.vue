@@ -80,6 +80,7 @@ export default {
       const res = await this.$store.dispatch("auth/register", this.registerForm);
       return res;
     },
+    async register() {
       if (this.$refs.registerForm.validate()) {
         try {
           const { data } = await this.registerFetch();

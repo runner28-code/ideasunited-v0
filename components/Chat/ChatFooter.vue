@@ -43,6 +43,7 @@
             <v-icon>$send</v-icon>
           </v-btn>
         </div>
+      </div>
     </div>
   </div>
 </template>
@@ -50,7 +51,6 @@
 <script>
 import { stripMessage } from "@/utils";
 import cookies from "vue-cookies";
-
 export default {
   props: { chat: Object },
   data() {

@@ -24,6 +24,7 @@ export default {
         return 403;
       } else {
         return 200;
+      }
     }
   },
   async asyncData({ $api, route, store }) {

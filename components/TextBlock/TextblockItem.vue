@@ -22,7 +22,6 @@
   </component>
 </template>
 
-<script>
 export default {
   props: {
     item: Object

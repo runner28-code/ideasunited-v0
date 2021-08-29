@@ -12,12 +12,12 @@
         <VimeoPlayer v-if="value.vimeo_id" :vimeoId="value.vimeo_id" />
         <YoutubePlayer
           v-else-if="value.youtube_id"
-          :youtubeId="value.youtube_id"
         />
       </v-responsive>
       <img v-else :src="value.preview.large.url" width="100%" />
     </div>
     <div
+      class="slider-modal-content__side slider-modal-content__content"
       v-if="content.length"
     >
       <div>

@@ -27,7 +27,6 @@ export async function buildZoomLink({
   }
 
   for (let key in params) {
-// Temp comment
     if (urlParams != "") {
       urlParams += "&";
     }
@@ -57,7 +56,6 @@ export function copyToClipboard(str) {
     document.getSelection().rangeCount > 0
       ? document.getSelection().getRangeAt(0)
       : false;
-  el.select();
   document.execCommand("copy");
   document.body.removeChild(el);
   if (selected) {

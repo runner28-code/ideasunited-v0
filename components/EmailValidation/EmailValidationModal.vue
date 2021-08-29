@@ -24,10 +24,10 @@
 export default {
   props: {
     opened: Boolean,
-    suggestions: [Array, Object],
     form: Object
   },
   methods: {
+    useSuggestion(suggestion) {
       const suggested_email = `${suggestion.local}@${suggestion.suggestion}`
       for (var key in this.form.data){
         if (this.form.data[key] == suggestion.email) {

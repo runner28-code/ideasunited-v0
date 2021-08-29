@@ -181,6 +181,7 @@ export default {
         .to(previewImage, {
           duration: 0.5,
           opacity: 1,
+        }, "irisrestored")
         .to(playBtn, {
           duration: 0.5,
           opacity: 1,

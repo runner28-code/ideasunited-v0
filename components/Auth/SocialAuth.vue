@@ -68,6 +68,7 @@ export default {
       }
       // } catch {}
     }
+  },
   computed: {
     items() {
       const intersection = _.intersection(this.currentProject.addons, [

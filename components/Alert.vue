@@ -62,6 +62,7 @@ export default {
   font-size: 1em;
   flex: 1;
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: stretch;
   justify-content: stretch;
