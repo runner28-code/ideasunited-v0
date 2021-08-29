@@ -9,7 +9,6 @@
         <div class="error-title">
           Restrict access...
         </div>
-        <div class="error-description">
           You don't have access to view this page.
         </div>
 
@@ -25,6 +24,7 @@ export default {
     return {
       authDisabled: false
     };
+  },
   methods: {
     disableAuth(val) {
       this.authDisabled = val;

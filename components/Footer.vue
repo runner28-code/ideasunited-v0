@@ -90,7 +90,6 @@ export default {
   padding: 10px 19px 10px 14px;
   background-color: #56565a;
   color: white;
-  font-size: 14px;
   font-family: Source Sans Pro, sans-serif;
   &::v-deep {
     &.v-sheet.v-footer:not(.v-sheet--outlined) {

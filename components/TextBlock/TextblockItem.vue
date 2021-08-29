@@ -66,6 +66,7 @@ a.text-block__item-wrapper:hover {
       }
     }
 
+    &-wrapper {
       padding: 10px;
       display: block;
       text-decoration: none;

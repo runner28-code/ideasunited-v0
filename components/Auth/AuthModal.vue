@@ -14,12 +14,12 @@
       </v-card-text>
     </v-card>
   </v-dialog>
+</template>
 
 <script>
 
 export default {
   data() {
-    return {
       opened: false,
       dialogState: {
         chooseSignUp: false,

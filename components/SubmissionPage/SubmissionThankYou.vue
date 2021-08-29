@@ -20,6 +20,7 @@
 import { frontendToProfile } from "@/utils";
 
 export default {
+  props: {
     value: Object,
     successMessage: String,
   },

@@ -128,7 +128,6 @@ export default {
       }
       return {
         to: menuItem.url
-      };
     },
     logout() {
       this.$store.dispatch("auth/logout");

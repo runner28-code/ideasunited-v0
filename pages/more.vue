@@ -52,6 +52,7 @@ export default {
       text-align: center;
       font-weight: bold;
       background: rgba(0, 0, 0, 0.1);
+      text-decoration: none;
       transition: 0.3s;
       text-shadow: 0 0 3px black;
       font-size: 36px;

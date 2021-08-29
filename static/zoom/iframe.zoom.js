@@ -4,6 +4,7 @@ ZoomMtg.prepareJssdk();
 
 const params = new URLSearchParams(window.location.search);
 
+// Temp comment
 const meetingNumber = params.get("zoomId");
 const passWord = params.get("zoomPassword") || "";
 const userName = params.get("nickname") || "Guest";
@@ -15,7 +16,6 @@ ZoomMtg.init({
   debug: true,
   leaveUrl: "https://zoom.us"
 });
-// Temp comment
 
 const joinParams = {
   meetingNumber,

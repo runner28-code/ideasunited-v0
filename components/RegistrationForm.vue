@@ -127,4 +127,5 @@ export default {
         }
       }
     },
+    backToLogin() {
       this.chooseSignUp = false;

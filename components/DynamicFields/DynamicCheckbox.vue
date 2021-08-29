@@ -1,5 +1,6 @@
 <template>
   <v-checkbox
+    class="checkbox"
     hide-details="auto"
     :value="value"
     :input-value="value"
@@ -23,7 +24,6 @@ export default {
   props: {
     label: String,
     value: [String, Object, Number, Boolean],
-    rules: {
       type: Array,
       default: () => []
     },

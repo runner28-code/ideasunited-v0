@@ -21,6 +21,7 @@
     />
     <Slider
       v-else-if="event.event_type == 'slideshow'"
+      :slides="event.slides"
     />
   </div>
 </template>

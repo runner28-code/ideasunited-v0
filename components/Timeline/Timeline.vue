@@ -104,7 +104,6 @@ export default {
 
           case "object":
             this.$emit("input", active);
-            break;
         }
 
         window.scroll({ top: 0, left: 0, behavior: "smooth" });

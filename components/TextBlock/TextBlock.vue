@@ -8,6 +8,7 @@
       <TextblockItem
         :item="calcList[1]"
         v-if="textBlock.layout == 4"
+      />
       <TextblockItem
         :item="calcList[2]"
         v-if="textBlock.layout == 4"
@@ -63,7 +64,6 @@ export default {
       height: 100%;
     }
   }
-
   &__1 &__side {
     width: 100%;
   }

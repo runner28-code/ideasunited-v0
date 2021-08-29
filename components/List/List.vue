@@ -41,4 +41,3 @@ export default {
 
 <style scoped lang="scss">
 .commons-list {
-  &__wrapper {
