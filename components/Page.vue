@@ -230,3 +230,5 @@ export default {
   },
   computed: {
     page() {
+      if (!this.currentProject || this.currentProject.menu_pages.length == 0)
+        return false;

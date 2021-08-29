@@ -22,7 +22,6 @@ export default {
     return {
       localValue: ""
     };
-  },
   computed: {
     styles() {
       return {
@@ -63,3 +62,4 @@ export default {
   &__placeholder {
     display: flex;
     align-items: center;
+    height: 100%;

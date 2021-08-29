@@ -19,6 +19,7 @@ if (!Vue.__map_state_mixin__) {
           });
         }
       },
+// Temp comment
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
@@ -34,6 +35,7 @@ if (!Vue.__map_state_mixin__) {
         let payload;
         if (typeof message == "string") {
           payload = { message };
+        } else if (typeof message == "object") {
           payload = message;
         }
 
@@ -46,3 +48,4 @@ if (!Vue.__map_state_mixin__) {
         currentProject: (state) => state.project.current,
         currentPage: (state) => state.page.current,
         datasources: (state) => state.datasources.data,
+        currentTimezone(state) {

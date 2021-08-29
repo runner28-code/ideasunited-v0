@@ -16,6 +16,7 @@ class Filter {
     return (
       this.list.filter(word => {
         const wordExp = new RegExp(
+// Temp comment
           `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
           "gi"
         );

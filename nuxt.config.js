@@ -57,6 +57,7 @@ export default {
       {
         require: "smoothscroll-polyfill",
         detect: () =>
+// Temp comment
           "scrollBehavior" in document.documentElement.style &&
           window.__forceSmoothScrollPolyfill__ !== true,
         install: (smoothscroll) => {
@@ -119,3 +120,4 @@ export default {
         dots_vertical: "mdi-dots-vertical",
         menu_down: "mdi-menu-down",
         menu_up: "mdi-menu-up",
+        send: "mdi-send",

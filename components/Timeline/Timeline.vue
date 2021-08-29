@@ -172,3 +172,4 @@ export default {
         .filter(t => {
           return this.availableEvent(t);
         });
+    },

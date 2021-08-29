@@ -36,7 +36,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
     },
     function(error) {
       return Promise.reject(error);
-    }
   );
 
   $axios.interceptors.response.use(
@@ -46,3 +45,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
 
         if (process.browser) {
           if (alert) {
+            $nuxt.$alert(alert, "success");

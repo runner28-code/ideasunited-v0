@@ -1,6 +1,5 @@
 <template>
   <div
-    @click="onclick"
     class="schedule-item"
     :class="{ clickable: item.event, dark: item.dark }"
     :style="styles"
@@ -56,3 +55,5 @@ export default {
 
 <style scoped lang="scss">
 .schedule-item {
+  min-height: 160px;
+  border-radius: 10px;

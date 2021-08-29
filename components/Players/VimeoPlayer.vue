@@ -3,7 +3,6 @@
     :src="`https://player.vimeo.com/video/${vimeoId}?autoplay=${autoplay ? '1' : '0'}${vimeoH ? '&h=' + vimeoH : ''}`"
     frameborder="0"
     allow="autoplay; fullscreen"
-    allowfullscreen
     class="vimeo-player"
     ref="vimeo"
   ></iframe>
@@ -56,3 +55,4 @@ export default {
   watch: {
     vimeoChapter() {
       this.goToChapter(this.vimeoChapter);
+    }

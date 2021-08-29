@@ -22,6 +22,7 @@
   </component>
 </template>
 
+<script>
 export default {
   props: {
     item: Object
@@ -76,3 +77,4 @@ a.text-block__item-wrapper:hover {
 
     &-title {
       font-weight: 900;
+      font-size: 48px;

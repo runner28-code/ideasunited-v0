@@ -27,7 +27,6 @@ export default {
 
     this.player.on("stateChange", async event => {
       if (!this.started && event.data == 1) {
-        this.started = true;
       }
     });
   },
@@ -47,3 +46,4 @@ export default {
       return this.presentation.settings[this.slide.id] || {};
     }
   },
+  watch: {

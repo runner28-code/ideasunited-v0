@@ -338,3 +338,6 @@ export default {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 17%;
+  }
+  
+  &__header {

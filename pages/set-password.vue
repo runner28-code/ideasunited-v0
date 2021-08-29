@@ -17,6 +17,7 @@
         Submit
       </Button>
     </v-form>
+  </div>
 </template>
 
 <script>
@@ -66,3 +67,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.forgot-password-page {

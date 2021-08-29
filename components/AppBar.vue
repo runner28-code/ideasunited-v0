@@ -80,7 +80,6 @@
           :href="menuItem.absolute_url"
           >{{ menuItem.menu_title }}</a
         >
-        <a
           @click.prevent="menuItem.onclick"
           v-else-if="menuItem.url_type == 'click'"
         >
@@ -257,3 +256,5 @@ export default {
     &-title {
       font-size: 20px;
       font-weight: bold;
+      line-height: 1.1;
+    }

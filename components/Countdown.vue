@@ -57,6 +57,7 @@ export default {
     };
   },
   created() {
+    this.startCountdown();
   },
   computed: {
     styles() {
@@ -149,3 +150,5 @@ export default {
 .countdown-timer {
   display: flex;
   align-items: center;
+
+  &__item {

@@ -7,7 +7,6 @@ export const state = () => ({
 export const mutations = {
   SET_USER: function(state, user) {
     state.authUser = user;
-// Temp comment
   }
 };
 
@@ -16,3 +15,4 @@ export const actions = {
     const { req } = opts;
 
     const { data: projectData } = await this.$api.Project.current({
+      host: req.headers.host,

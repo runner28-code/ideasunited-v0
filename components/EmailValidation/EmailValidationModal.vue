@@ -8,7 +8,6 @@
       <p class="email-validation__message" >An email in this form appears to have a typo in it.</p>
       <div v-if="suggestions && suggestions.length" class="email-validation__suggestions">
         <div v-for="(suggestion, sidx) in suggestions" :key="sidx" v-show="!suggestion.accepted">
-          Did you mean {{`${suggestion.local}@${suggestion.suggestion}`}}? <a @click="useSuggestion(suggestion)">Use this email.</a>
         </div>
       </div>
       <Button
@@ -24,6 +23,7 @@
 export default {
   props: {
     opened: Boolean,
+    suggestions: [Array, Object],
     form: Object
   },
   methods: {
@@ -51,3 +51,4 @@ export default {
     yesImSure() {
       this.$emit('close');
       if(!this.form.email_validation_options) this.form.email_validation_options = {};
+      this.form.email_validation_options.yes_i_am_sure = true;

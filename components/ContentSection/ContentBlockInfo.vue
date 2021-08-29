@@ -25,6 +25,7 @@
           <ZoomPlayer
             v-else-if="block.video_player_type == 'zoom'"
             :zoomLink="block.zoom_url"
+            :event="block"
           />
         </v-responsive>
         <Slider
@@ -110,3 +111,4 @@ export default {
       const atInstagramHandleRegexp =
         /^@([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
 
+      if (urlRegexp.test(v)) return v;

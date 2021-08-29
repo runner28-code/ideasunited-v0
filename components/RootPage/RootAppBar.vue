@@ -249,3 +249,7 @@ export default {
       opacity: 0.7;
       font-size: 11px;
       line-height: 1.38;
+    }
+    &__title {
+      color: white;
+      font-weight: 700;

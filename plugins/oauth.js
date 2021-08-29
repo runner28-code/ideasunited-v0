@@ -22,7 +22,6 @@ export default function(ctx, inject) {
       console.log(process.env["ROOT_DOMAIN"]);
 
       let { authorizationEndpoint } = providers[provider];
-      localStorage.removeItem("token");
 
       if (process.env.NODE_ENV !== "development") {
         authorizationEndpoint =
@@ -35,3 +34,4 @@ export default function(ctx, inject) {
       const w = window.open(
         authorizationEndpoint,
         "Auth",
+        "width=580,height=730"

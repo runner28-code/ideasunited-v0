@@ -121,3 +121,4 @@ export default {
 .slider-modal {
   position: relative;
   box-shadow: none !important;
+  overflow: hidden;

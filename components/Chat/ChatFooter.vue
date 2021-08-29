@@ -14,7 +14,6 @@
 
     <div v-else class="chat-footer__actions">
       <v-textarea
-        @keydown.enter="sendMessage"
         auto-grow
         rows="1"
         class="chat-footer__actions-input"
@@ -51,6 +50,7 @@
 <script>
 import { stripMessage } from "@/utils";
 import cookies from "vue-cookies";
+
 export default {
   props: { chat: Object },
   data() {
@@ -79,3 +79,4 @@ export default {
         });
 
         this.message = "";
+      }

@@ -57,7 +57,6 @@ export default {
       const googleFonts = [
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,
-        this.activeTheme.paragraph_font?.font,
         this.activeTheme.header_font?.font,
         this.activeTheme.footer_font?.font
       ].filter(f => f && f.src_type == "google_fonts");
@@ -148,3 +147,6 @@ export default {
         <style rel="stylesheet" type="text/css">
           .v-application {
             font-family: ${this.activeTheme.paragraph_font.font.font_name}, sans-serif;
+            font-size: ${this.activeTheme.paragraph_font.size}px;
+            letter-spacing: ${this.activeTheme.paragraph_font.letter_spacing}px;
+            font-style: ${this.activeTheme.paragraph_font.style};

@@ -83,8 +83,8 @@ export default {
     .v-alert__wrapper {
       padding-right: 15px;
       display: flex;
-      width: 100%;
       align-items: center;
       justify-content: space-between;
       flex: 1;
     }
+

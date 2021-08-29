@@ -55,3 +55,4 @@ export default {
           position: absolute;
           top: 15px;
           bottom: -16px;
+          right: -1.5px;

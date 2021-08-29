@@ -13,7 +13,6 @@ const store = {
   actions: {
     async fetch({ commit }) {
       const { data } = await this.$api.Datasources.get();
-// Temp comment
       commit("set", data);
 
       return data;

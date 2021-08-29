@@ -37,3 +37,4 @@ export default {
         this.event.background?.large?.url ||
         this.activeTheme.event_background.large.url;
       return {
+        backgroundImage: `url(${url})`

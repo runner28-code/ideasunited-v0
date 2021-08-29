@@ -8,7 +8,6 @@ function objectToFormData(obj) {
     if (value instanceof File || value instanceof Blob) {
       const uuid = "file-" + uuidv4();
       files[uuid] = value;
-      return uuid;
     }
     return value;
   });

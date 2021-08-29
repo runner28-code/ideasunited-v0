@@ -60,4 +60,6 @@ export default {
         case "sidebar":
           this.sidebar = true;
           break;
+      }
     });
+  },

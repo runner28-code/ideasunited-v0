@@ -26,7 +26,6 @@ export default {
         name: "description",
         content: this.currentProject.description
       }
-    ];
 
     console.log(meta);
 

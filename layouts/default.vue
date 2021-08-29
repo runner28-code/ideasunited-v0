@@ -199,3 +199,5 @@ export default {
       return `
         @media screen and (min-width: 944px) {
           .app-bar {
+            display: none;
+          }

@@ -58,6 +58,7 @@ export default {
   flex-wrap: wrap;
 
   &__side {
+    width: 50%;
 
     .text-block__item-wrapper {
       height: 100%;
@@ -83,3 +84,5 @@ export default {
       flex-direction: column;
       align-items: center;
     }
+  }
+  &__4 &__item-wrapper {

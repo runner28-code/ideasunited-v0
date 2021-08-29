@@ -80,3 +80,5 @@ export default {
 
       return intersection;
     }
+  }
+};

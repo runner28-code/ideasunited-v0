@@ -232,3 +232,4 @@ export default {
     .theme--light.v-icon {
       color: black;
     }
+  }
