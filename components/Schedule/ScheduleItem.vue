@@ -1,5 +1,6 @@
 <template>
   <div
+    @click="onclick"
     class="schedule-item"
     :class="{ clickable: item.event, dark: item.dark }"
     :style="styles"
@@ -48,7 +49,6 @@ export default {
       }
 
       return result;
-    },
   }
 };
 </script>
@@ -57,3 +57,5 @@ export default {
 .schedule-item {
   min-height: 160px;
   border-radius: 10px;
+  padding: 40px;
+  display: flex;

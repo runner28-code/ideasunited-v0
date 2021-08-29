@@ -173,3 +173,6 @@ export default {
           return this.availableEvent(t);
         });
     },
+    timelineEvents() {
+      return this.events.filter(t => {
+        return !t.hidden_from_timeline;

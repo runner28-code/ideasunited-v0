@@ -341,3 +341,7 @@ export default {
   }
   
   &__header {
+    color: white;
+    font-size: 42px;
+    text-transform: uppercase;
+    line-height: 1.067;

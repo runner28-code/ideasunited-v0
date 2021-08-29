@@ -68,3 +68,4 @@ export default {
 
 <style scoped lang="scss">
 .forgot-password-page {
+  position: absolute;

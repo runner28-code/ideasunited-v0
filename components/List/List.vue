@@ -33,6 +33,7 @@ export default {
         t =>
           !this.search ||
           (t.title + " " + t.subtitle).toLowerCase().includes(this.search)
+      );
     }
   }
 };
@@ -40,3 +41,4 @@ export default {
 
 <style scoped lang="scss">
 .commons-list {
+  &__wrapper {

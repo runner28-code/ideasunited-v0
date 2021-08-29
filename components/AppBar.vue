@@ -80,6 +80,7 @@
           :href="menuItem.absolute_url"
           >{{ menuItem.menu_title }}</a
         >
+        <a
           @click.prevent="menuItem.onclick"
           v-else-if="menuItem.url_type == 'click'"
         >
@@ -258,3 +259,33 @@ export default {
       font-weight: bold;
       line-height: 1.1;
     }
+    &-icon {
+      margin-left: 5px;
+      &::v-deep {
+        .v-icon {
+          color: inherit;
+        }
+      }
+    }
+  }
+
+  &__logo {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+
+    img {
+      display: block;
+      width: 120px;
+      transition: 0.3s;
+      @media screen and (max-width: 944px) {
+        max-height: 50px;
+        width: auto;
+        max-width: 100%;
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;

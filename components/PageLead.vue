@@ -43,3 +43,4 @@ export default {
 
 <style scoped lang="scss">
 .page-lead {
+  background-size: cover;

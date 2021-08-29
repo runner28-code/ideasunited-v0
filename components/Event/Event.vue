@@ -199,3 +199,5 @@ export default {
       height: 100%;
     }
 
+    &-player {
+      height: calc(100vh - 200px);

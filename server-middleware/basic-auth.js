@@ -1,4 +1,5 @@
 import axios from "axios";
+export default async function (req, res, next) {
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
   const { host } = req.headers;
@@ -21,6 +22,7 @@ import axios from "axios";
       project.production_redirect_enabled &&
       project.production_redirect_url
     ) {
+// Temp comment
       console.log("Redirect");
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();

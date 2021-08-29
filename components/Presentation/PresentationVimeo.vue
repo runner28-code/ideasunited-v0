@@ -53,3 +53,4 @@ export default {
         if (this.newSlideSettings.started && this.player) {
           this.play();
         }
+      }

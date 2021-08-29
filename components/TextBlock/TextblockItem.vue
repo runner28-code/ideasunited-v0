@@ -66,7 +66,6 @@ a.text-block__item-wrapper:hover {
       }
     }
 
-    &-wrapper {
       padding: 10px;
       display: block;
       text-decoration: none;
@@ -78,3 +77,4 @@ a.text-block__item-wrapper:hover {
     &-title {
       font-weight: 900;
       font-size: 48px;
+      line-height: 1.1;

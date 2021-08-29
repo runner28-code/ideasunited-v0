@@ -36,7 +36,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import moment from "moment-timezone";
 
@@ -152,3 +151,5 @@ export default {
   align-items: center;
 
   &__item {
+    margin: 0 20px;
+    width: 60px;

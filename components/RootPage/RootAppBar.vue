@@ -253,3 +253,7 @@ export default {
     &__title {
       color: white;
       font-weight: 700;
+    }
+    &__description {
+      margin-top: 8px;
+      font-size: 12px;

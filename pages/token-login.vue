@@ -1,6 +1,5 @@
 <template>
   <div></div>
-</template>
 
 <script>
 export default {
@@ -11,6 +10,7 @@ export default {
       if (token) {
         this.login(token);
       } else {
+        this.$router.push("/");
       }
     }
   },

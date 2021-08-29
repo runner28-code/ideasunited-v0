@@ -201,3 +201,6 @@ export default {
           .app-bar {
             display: none;
           }
+        }
+        .page-wrapper {
+          margin-left: 0 !important;

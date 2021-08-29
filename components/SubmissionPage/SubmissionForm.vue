@@ -89,3 +89,4 @@ export default {
 
     initForm() {
       this.form = {
+        widget_submission_form_id: this.id,

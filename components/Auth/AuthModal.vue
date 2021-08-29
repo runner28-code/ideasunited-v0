@@ -14,7 +14,6 @@
       </v-card-text>
     </v-card>
   </v-dialog>
-</template>
 
 <script>
 
@@ -57,3 +56,4 @@ export default {
       else return 400;
     }
   },
+  watch: {

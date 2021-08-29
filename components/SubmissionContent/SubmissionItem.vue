@@ -71,7 +71,6 @@ export default {
       );
 
       return t?.value?.preview?.large?.url;
-    },
     styles() {
       const styles = {
         backgroundColor: this.color
@@ -79,6 +78,7 @@ export default {
 
       if (this.preview) {
         styles.backgroundImage = `url(${this.preview})`;
+      }
 
       if (this.backgroundImage) {
         styles.backgroundImage = this.item.background_image.large.url;
@@ -93,3 +93,4 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">

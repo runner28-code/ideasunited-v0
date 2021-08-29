@@ -19,7 +19,6 @@
             :vimeoH="block.vimeo_h"
           />
           <YoutubePlayer
-            v-else-if="block.video_player_type == 'youtube'"
             :youtubeId="block.youtube_id"
           />
           <ZoomPlayer
@@ -112,3 +111,5 @@ export default {
         /^@([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
 
       if (urlRegexp.test(v)) return v;
+      if (instagramHandleRegexp.test(v))
+        return `https://www.instagram.com/${v}`;

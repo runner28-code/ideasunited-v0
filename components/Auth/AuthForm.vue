@@ -131,6 +131,7 @@ export default {
     margin-bottom: 20px;
   }
 
+  &,
   &-wrapper {
     margin: auto;
     width: 100%;
@@ -138,3 +139,5 @@ export default {
   }
 
   &-tabs {
+    display: flex;
+  }

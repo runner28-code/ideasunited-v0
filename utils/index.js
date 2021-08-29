@@ -9,7 +9,6 @@ export async function buildZoomLink({
     zoom_id,
   });
   const { signature, api_key: apiKey } = data;
-
   let urlParams = "";
   const params = {
     signature,

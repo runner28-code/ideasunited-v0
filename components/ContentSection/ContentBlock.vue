@@ -118,3 +118,4 @@ export default {
   cursor: pointer;
   position: relative;
 
+  &--no-content {

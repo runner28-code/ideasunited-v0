@@ -233,3 +233,5 @@ export default {
       color: black;
     }
   }
+
+  &__item {

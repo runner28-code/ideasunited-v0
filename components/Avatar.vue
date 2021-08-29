@@ -43,3 +43,4 @@ export default {
         .split(" ")
         .map(n => n[0])
         .join("")
+        .substr(0, 2)

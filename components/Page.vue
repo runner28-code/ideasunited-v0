@@ -232,3 +232,6 @@ export default {
     page() {
       if (!this.currentProject || this.currentProject.menu_pages.length == 0)
         return false;
+      return this.currentProject.menu_pages[this.currentSlide];
+    },
+    backgroundLedeStyles() {

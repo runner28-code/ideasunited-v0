@@ -41,3 +41,4 @@ export default {
     background-position: center;
   }
 
+  &__title {

@@ -122,3 +122,5 @@ export default {
   position: relative;
   box-shadow: none !important;
   overflow: hidden;
+  display: flex;
+  min-height: 80vh;

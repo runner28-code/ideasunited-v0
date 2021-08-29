@@ -26,6 +26,7 @@ export default {
         name: "description",
         content: this.currentProject.description
       }
+    ];
 
     console.log(meta);
 
@@ -76,3 +77,4 @@ export default {
     };
   },
   computed: {
+    pageStyles() {

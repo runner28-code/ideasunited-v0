@@ -25,11 +25,11 @@ export default {
   },
   data() {
     return {
-      badgeInfoUrl: frontendToProfile()[window.location.origin] + "/badge-info",
     };
   },
 };
 </script>
+
 <style scoped lang="scss">
 .eligibles {
   display: flex;
@@ -38,3 +38,4 @@ export default {
 .eligible {
   display: flex;
   align-items: center;
+  margin-right: 20px;

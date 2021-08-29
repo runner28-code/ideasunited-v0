@@ -129,3 +129,6 @@ export default {
     display: flex;
     align-items: center;
     width: 277px;
+    height: 52px;
+    img {
+      display: block;

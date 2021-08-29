@@ -74,7 +74,6 @@ export default {
       if (posY) styles.backgroundPositionY = `${posY}%`;
       return styles;
     },
-  },
 };
 </script>
 
@@ -105,3 +104,5 @@ export default {
     @media screen and (max-width: 944px) {
       padding: 20px 30px;
     }
+  }
+  @media screen and (max-width: 944px) {

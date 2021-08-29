@@ -98,3 +98,4 @@
     @media screen and (max-width: 960px) {
       width: 28.57%;
       position: relative;
+      top: 0;

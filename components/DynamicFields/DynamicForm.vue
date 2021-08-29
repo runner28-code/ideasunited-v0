@@ -47,6 +47,7 @@
           {{ btnText || "Submit" }}
         </span>
       </Button>
+    </div>
   </v-form>
 </template>
 
@@ -141,3 +142,5 @@ export default {
       else return false;
     },
     rulesForField(field) {
+      const rules = field.required ? [this.$rules.required] : [];
+      if(field.file_size_limit) {

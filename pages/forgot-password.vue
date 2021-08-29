@@ -12,6 +12,7 @@
       <Button :refs="$refs" block x-large type="submit">Reset Password</Button>
     </v-form>
     <div v-else>
+      Email instructions successfully sent
     </div>
   </div>
 </template>
@@ -48,3 +49,4 @@ export default {
   margin: auto;
   align-items: center;
   justify-content: center;
+  width: 100%;
