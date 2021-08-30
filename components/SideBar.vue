@@ -128,6 +128,7 @@ export default {
       }
       return {
         to: menuItem.url
+      };
     },
     logout() {
       this.$store.dispatch("auth/logout");
@@ -234,3 +235,5 @@ export default {
   }
 
   &__item {
+    padding: 14px 0;
+    font-size: 24px;

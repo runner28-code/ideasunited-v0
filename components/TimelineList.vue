@@ -57,3 +57,9 @@ export default {
           bottom: -16px;
           right: -1.5px;
           width: 3px;
+        }
+      }
+    }
+  }
+
+  &__date {

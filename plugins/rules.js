@@ -7,7 +7,6 @@ export default function (ctx, inject) {
   inject("rules", {
     email: (v) => !v || emailRegexp.test(v) || "Incorrect email",
     url: (v) => !v || urlRegexp.test(v) || "Incorrect URL",
-
     required: (v) => {
-// Temp comment
       return !!(v || "").toString().trim() || "Required field";
+    },

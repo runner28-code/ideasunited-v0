@@ -8,6 +8,7 @@
         <div
           v-else-if="
             submissionForm.anon || (currentUser && currentUser.confirmed)
+          "
         >
           <div class="text-center" v-if="!eligible">
             <Eligibles :value="submissionForm.eligibilities" />
@@ -89,3 +90,4 @@ export default {
     initForm() {
       this.form = {
         widget_submission_form_id: this.id,
+        data: {},

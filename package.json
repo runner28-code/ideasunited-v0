@@ -36,3 +36,4 @@
     "nuxt-user-agent": "^1.2.2",
     "qs": "^6.9.6",
     "smoothscroll-polyfill": "^0.4.4",
+    "swiper": "5.x",

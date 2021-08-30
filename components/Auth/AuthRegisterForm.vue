@@ -94,7 +94,6 @@ export default {
   mounted() {
     this.fetchForm();
     if (this.dialogState) {
-      this.chooseSignUp = this.dialogState.chooseSignUp;
     }
   },
   methods: {
@@ -160,3 +159,5 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>

@@ -49,3 +49,4 @@ export default {
   },
   watch: {
     presentation: {
+      deep: true,

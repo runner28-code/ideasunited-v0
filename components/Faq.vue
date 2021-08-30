@@ -41,7 +41,6 @@
 <script>
 
 export default {
-  name: "Faq",
   props: {
     value: String,
     page: Object,
@@ -73,3 +72,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.faqs {

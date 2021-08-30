@@ -5,7 +5,6 @@ const providers = {
   facebook: {
     authorizationEndpoint: "/api/v1/public_side/auth/facebook"
   },
-  twitter: {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
   },
   linkedin: {
@@ -30,8 +29,10 @@ export default function(ctx, inject) {
       }
 
       authorizationEndpoint =
+        authorizationEndpoint + "?domain=" + location.hostname;
 
       const w = window.open(
         authorizationEndpoint,
         "Auth",
         "width=580,height=730"
+      );

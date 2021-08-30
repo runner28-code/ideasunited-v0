@@ -99,3 +99,4 @@
       width: 28.57%;
       position: relative;
       top: 0;
+      left: 0;

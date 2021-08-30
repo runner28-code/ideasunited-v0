@@ -26,7 +26,6 @@
               :options="fullpageOpts"
               ref="fullpage"
               id="fullpage"
-              :skip-init="true"
             >
               <FullPageSection
                 v-for="(page, idx) in currentProject.menu_pages"
@@ -235,3 +234,6 @@ export default {
       return this.currentProject.menu_pages[this.currentSlide];
     },
     backgroundLedeStyles() {
+      if (!this.page) return {};
+      const styles = {};
+      const ledeBackground = this.page.lead_background;

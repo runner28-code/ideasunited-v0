@@ -20,6 +20,7 @@
 
 export default {
   data() {
+    return {
       opened: false,
       dialogState: {
         chooseSignUp: false,

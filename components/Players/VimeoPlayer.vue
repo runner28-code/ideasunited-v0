@@ -57,3 +57,4 @@ export default {
     vimeoChapter() {
       this.goToChapter(this.vimeoChapter);
     }
+  },

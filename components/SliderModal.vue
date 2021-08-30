@@ -110,7 +110,6 @@ export default {
   }
 };
 </script>
-
 <style lang="scss">
 .slider-modal {
   .v-btn.slider-modal__arrow:not(.v-btn--text):not(.v-btn--outlined):focus:before {
@@ -124,3 +123,4 @@ export default {
   overflow: hidden;
   display: flex;
   min-height: 80vh;
+  margin: 0 !important;

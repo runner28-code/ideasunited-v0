@@ -27,7 +27,6 @@ export default {
     return {
       badgeInfoUrl: frontendToProfile()[window.location.origin] + "/badge-info",
     };
-  },
 };
 </script>
 
@@ -40,3 +39,4 @@ export default {
   display: flex;
   align-items: center;
   margin-right: 20px;
+  text-decoration: none;

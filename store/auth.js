@@ -1,4 +1,5 @@
 
+import cookies from "vue-cookies";
 /* eslint-disable */
 const store = {
   namespaced: true,
@@ -11,7 +12,6 @@ const store = {
           ? "localhost"
           : "." + window.location.hostname;
       console.info('auth cookieDomain', cookieDomain);
-      if (token) {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
@@ -32,3 +32,4 @@ const store = {
     async oauth({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.oauth(params);
       commit("setToken", data.token);
+

@@ -37,6 +37,7 @@ export default {
             this.updateMessage(payload);
             break;
         }
+      }
     }
   },
   methods: {

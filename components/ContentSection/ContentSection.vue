@@ -255,3 +255,5 @@ export default {
     }
   }
 
+  &__title,
+  &__subtitle {

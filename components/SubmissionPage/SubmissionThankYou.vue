@@ -1,6 +1,5 @@
 <template>
   <div class="submission-thank-you">
-    <p
       class="submission-thank-you__text"
       v-html="
         successMessage
@@ -51,3 +50,4 @@ export default {
   },
   computed: {
     firstName() {
+      return this.currentUser.first_name;

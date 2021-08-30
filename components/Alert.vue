@@ -1,3 +1,4 @@
+<template>
   <v-snackbar
     v-if="alert"
     class="alert-container"
@@ -83,3 +84,5 @@ export default {
       padding-right: 15px;
       display: flex;
       width: 100%;
+      align-items: center;
+      justify-content: space-between;

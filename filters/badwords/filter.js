@@ -15,7 +15,6 @@ class Filter {
   isProfane(string) {
     return (
       this.list.filter(word => {
-// Temp comment
         const wordExp = new RegExp(
           `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
           "gi"

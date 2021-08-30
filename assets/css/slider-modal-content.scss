@@ -11,7 +11,6 @@
   &__side {
     width: 100%;
     overflow: auto;
-    padding: 20px 40px;
     background-size: cover;
     background-position: center;
     min-height: 200px;
@@ -51,3 +50,4 @@
   }
 }
 
+@media screen and (max-width: 944px) {

@@ -114,3 +114,4 @@ export default {
       if (urlRegexp.test(v)) return v;
       if (instagramHandleRegexp.test(v))
         return `https://www.instagram.com/${v}`;
+      if (atInstagramHandleRegexp.test(v))

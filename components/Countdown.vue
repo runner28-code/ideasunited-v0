@@ -79,7 +79,6 @@ export default {
       if (this.interval) clearInterval(this.interval);
 
       this.interval = setInterval(() => {
-        this.calc();
       }, 1000);
     },
     daysWithoutMonths(ms) {
@@ -154,3 +153,4 @@ export default {
   &__item {
     margin: 0 20px;
     width: 60px;
+  }

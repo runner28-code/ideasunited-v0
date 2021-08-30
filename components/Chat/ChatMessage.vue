@@ -3,7 +3,6 @@
     <div class="message-wrapper">
       <Avatar
         :name="message.user.full_name"
-        :id="message.user.id"
         class="message__avatar"
       />
       <div>
@@ -57,6 +56,7 @@ export default {
   props: {
     message: Object,
     chat: Object
+  },
   methods: {
     deleteMessage() {
       this.$api.Message.destroy(this.message.id);
@@ -86,3 +86,4 @@ export default {
   }
 };
 </script>
+

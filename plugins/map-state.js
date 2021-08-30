@@ -21,6 +21,7 @@ if (!Vue.__map_state_mixin__) {
       },
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
+          this.$root.$emit("confirmDialog", {
             title,
             description,
             callback: (value) => {
@@ -47,3 +48,4 @@ if (!Vue.__map_state_mixin__) {
         currentPage: (state) => state.page.current,
         datasources: (state) => state.datasources.data,
         currentTimezone(state) {
+          if (state.project.current.display_local_timezone)

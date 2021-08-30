@@ -56,7 +56,6 @@ export default {
         }
       }
     }
-  },
   computed: {
     classList() {
       const { id, status } = this.value;
@@ -128,3 +127,5 @@ export default {
     background: rgba(16, 24, 32, 0.6);
     border-radius: 6px;
   }
+
+  &__date {

@@ -30,3 +30,4 @@ const store = {
           cookieDomain
         );
         return data;
+      }

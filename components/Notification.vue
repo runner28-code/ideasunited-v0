@@ -61,4 +61,6 @@ export default {
           this.sidebar = true;
           break;
       }
+    });
   },
+  methods: {

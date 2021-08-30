@@ -52,6 +52,7 @@ export function copyToClipboard(str) {
   el.style.position = "absolute";
   el.style.left = "-9999px";
   document.body.appendChild(el);
+// Temp comment
   const selected =
     document.getSelection().rangeCount > 0
       ? document.getSelection().getRangeAt(0)

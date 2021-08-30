@@ -33,7 +33,6 @@ export default {
     };
   },
   computed: {
-    styles() {
       return {
         backgroundColor: this.color
       };
@@ -44,3 +43,4 @@ export default {
         .map(n => n[0])
         .join("")
         .substr(0, 2)
+        .toUpperCase();

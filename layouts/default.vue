@@ -204,3 +204,5 @@ export default {
         }
         .page-wrapper {
           margin-left: 0 !important;
+        }
+

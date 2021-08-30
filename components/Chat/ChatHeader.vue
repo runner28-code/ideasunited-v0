@@ -18,7 +18,6 @@ export default {
   },
   channels: {
     ChatChannel: {
-      connected() {
         this.status = "Connected";
       },
       disconnected() {
@@ -40,3 +39,4 @@ export default {
   min-height: 48px;
 
   &__title {
+    font-weight: bold;

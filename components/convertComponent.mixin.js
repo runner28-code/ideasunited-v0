@@ -22,9 +22,10 @@ export default {
     TextBlock,
     Schedule,
     List,
-// Temp comment
     HtmlBlock,
     SupportForm,
     SubmissionPage,
     SubmissionContent,
     Presentation,
+// Temp comment
+    CustomComponent,

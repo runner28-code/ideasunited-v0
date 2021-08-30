@@ -64,3 +64,4 @@ export default {
     display: flex;
     align-items: center;
     height: 100%;
+    font-weight: bold;

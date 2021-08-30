@@ -3,6 +3,7 @@
     <div
       v-if="value && (value.preview.url || value.youtube_id || value.vimeo_id)"
       class="slider-modal-content__side slider-modal-content__preview"
+    >
       <v-responsive
         class="slider-modal-content__video"
         :aspect-ratio="480 / 280"
@@ -17,7 +18,6 @@
       <img v-else :src="value.preview.large.url" width="100%" />
     </div>
     <div
-      class="slider-modal-content__side slider-modal-content__content"
       v-if="content.length"
     >
       <div>
@@ -49,3 +49,4 @@ export default {
         .filter(t => t);
     },
     formattedData() {
+      const result = {};

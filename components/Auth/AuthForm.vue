@@ -141,3 +141,4 @@ export default {
   &-tabs {
     display: flex;
   }
+
