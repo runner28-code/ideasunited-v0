@@ -56,6 +56,7 @@ export default {
         }
       }
     }
+  },
   computed: {
     classList() {
       const { id, status } = this.value;

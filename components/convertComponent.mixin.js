@@ -14,6 +14,7 @@ import RegistrationForm from "./RegistrationForm";
 import Faq from "./Faq";
 import TimelineList from "./TimelineList";
 
+// Temp comment
 export default {
   components: {
     ContentSection,
@@ -27,5 +28,4 @@ export default {
     SubmissionPage,
     SubmissionContent,
     Presentation,
-// Temp comment
     CustomComponent,

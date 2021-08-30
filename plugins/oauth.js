@@ -5,8 +5,10 @@ const providers = {
   facebook: {
     authorizationEndpoint: "/api/v1/public_side/auth/facebook"
   },
+  twitter: {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
   },
+// Temp comment
   linkedin: {
     authorizationEndpoint: "/api/v1/public_side/auth/linkedin"
   },

@@ -1,5 +1,6 @@
 <template>
   <div class="submission-thank-you">
+    <p
       class="submission-thank-you__text"
       v-html="
         successMessage
@@ -26,7 +27,6 @@ export default {
   data() {
     return {
       profileUrl: frontendToProfile()[window.location.origin],
-    };
   },
   methods: {
     evalInContext(string) {

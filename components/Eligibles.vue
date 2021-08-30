@@ -6,7 +6,6 @@
       class="eligible"
       :class="[`eligible--${badge.slug}`]"
       :href="badgeInfoUrl"
-      target="_blank"
     >
       <div
         class="eligible-preview"
@@ -27,6 +26,7 @@ export default {
     return {
       badgeInfoUrl: frontendToProfile()[window.location.origin] + "/badge-info",
     };
+  },
 };
 </script>
 

@@ -21,7 +21,6 @@
         </v-btn>
         <v-btn
           v-if="nextId"
-          @click="openNext"
           @keyup.enter="openNext"
           icon
           class="slider-modal__arrow slider-modal__next"
@@ -110,6 +109,7 @@ export default {
   }
 };
 </script>
+
 <style lang="scss">
 .slider-modal {
   .v-btn.slider-modal__arrow:not(.v-btn--text):not(.v-btn--outlined):focus:before {

@@ -19,7 +19,6 @@
           :key="component.resource_id"
         >
           <component
-            :value="component.resource_id"
             :page="page"
             v-bind="component"
             :is="convertComponent(component.type)"
@@ -58,6 +57,7 @@ export default {
   },
   methods: {
     onFocus($event) {
+      this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
   computed: {

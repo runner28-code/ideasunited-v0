@@ -152,7 +152,3 @@ export default {
             letter-spacing: ${this.activeTheme.paragraph_font.letter_spacing}px;
             font-style: ${this.activeTheme.paragraph_font.style};
             font-weight: ${this.activeTheme.paragraph_font.weight};
-            text-transform: ${this.activeTheme.paragraph_font.case};
-          }
-          h1 {
-            font-family: ${this.activeTheme.h1_font.font.font_name}, sans-serif;

@@ -48,7 +48,6 @@ export default {
         env: this.currentProject.env
       });
     }
-  },
   beforeDestroy() {
     this.$cable.unsubscribe({
       channel: "PageChannel",

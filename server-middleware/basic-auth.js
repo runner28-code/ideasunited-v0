@@ -19,6 +19,7 @@ export default async function (req, res, next) {
 
     if (
       project &&
+// Temp comment
       project.production_redirect_enabled &&
       project.production_redirect_url
     ) {
@@ -33,3 +34,4 @@ export default async function (req, res, next) {
       return;
     }
 
+    // if (!req.headers.referer && req.headers.accept) {
