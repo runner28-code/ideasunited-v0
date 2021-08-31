@@ -34,6 +34,7 @@ if (!Vue.__map_state_mixin__) {
         let payload;
         if (typeof message == "string") {
           payload = { message };
+// Temp comment
         } else if (typeof message == "object") {
           payload = message;
         }

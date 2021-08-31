@@ -96,7 +96,6 @@ export default {
     });
 
     this.$root.$on("fullpageRebuild", (y) => {
-      if (this.$refs.fullpage && this.$refs.fullpage.api) {
         this.$refs.fullpage.api.reBuild();
         this.fullpageScrollReset();
       }
@@ -238,3 +237,4 @@ export default {
       if (!this.page) return {};
       const styles = {};
       const ledeBackground = this.page.lead_background;
+      if (ledeBackground) {

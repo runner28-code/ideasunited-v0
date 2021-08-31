@@ -18,7 +18,6 @@
       </Button>
     </v-form>
   </div>
-</template>
 
 <script>
 export default {
@@ -69,3 +68,4 @@ export default {
 <style scoped lang="scss">
 .forgot-password-page {
   position: absolute;
+  top: 0;

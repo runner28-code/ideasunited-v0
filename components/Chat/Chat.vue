@@ -56,3 +56,4 @@ export default {
   flex-direction: column;
   height: 100%;
   overflow: hidden;
+  border: 1px solid #e5e5e5;

@@ -96,7 +96,6 @@ export default {
       );
     },
   }
-};
 </script>
 
 <style scoped lang="scss">
@@ -130,3 +129,4 @@ export default {
   }
 
   &__date {
+    margin-top: -30px;

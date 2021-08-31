@@ -14,6 +14,7 @@ export default {
     chat: Object
   },
   data() {
+    return { status: "Connecting" };
   },
   channels: {
     ChatChannel: {

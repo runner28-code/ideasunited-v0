@@ -155,3 +155,4 @@ export default {
     margin: 0 20px;
     width: 60px;
   }
+

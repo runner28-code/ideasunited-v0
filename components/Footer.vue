@@ -33,7 +33,6 @@
         </div>
 
         <div class="footer__separator"></div>
-        <div class="footer__menu-item">
           <a target="_blank" href="https://ideasunited.com/privacy">Privacy</a>
         </div>
       </div>
@@ -134,3 +133,4 @@ export default {
       display: block;
       max-width: 100%;
       height: auto;
+    }

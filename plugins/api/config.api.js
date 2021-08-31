@@ -46,5 +46,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
 
         if (process.browser) {
           if (alert) {
-            $nuxt.$alert(alert, "success");
           }

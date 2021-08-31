@@ -2,7 +2,6 @@
   <v-app
     v-if="currentProject"
     class="root"
-    :class="{ authorized: currentUser, not_authorized: !currentUser }"
   >
     <client-only>
       <RootAppBar
@@ -152,3 +151,5 @@ export default {
             letter-spacing: ${this.activeTheme.paragraph_font.letter_spacing}px;
             font-style: ${this.activeTheme.paragraph_font.style};
             font-weight: ${this.activeTheme.paragraph_font.weight};
+            text-transform: ${this.activeTheme.paragraph_font.case};
+          }

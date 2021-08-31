@@ -5,7 +5,6 @@ const store = {
   namespaced: true,
   state: () => ({ data: {} }),
 
-// Temp comment
   mutations: {
     set(state, data) {
       state.data = data;
@@ -16,5 +15,6 @@ const store = {
       const { data } = await this.$api.Datasources.get();
       commit("set", data);
 
+// Temp comment
       return data;
     }

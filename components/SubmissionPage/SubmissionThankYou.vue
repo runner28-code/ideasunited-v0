@@ -27,6 +27,7 @@ export default {
   data() {
     return {
       profileUrl: frontendToProfile()[window.location.origin],
+    };
   },
   methods: {
     evalInContext(string) {

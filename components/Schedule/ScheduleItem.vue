@@ -1,6 +1,7 @@
 <template>
   <div
     @click="onclick"
+    class="schedule-item"
     :class="{ clickable: item.event, dark: item.dark }"
     :style="styles"
   >
@@ -9,7 +10,6 @@
         item.start_at | moment("timezone", currentTimezone, "h:mm a zz")
       }}
     </div>
-    <div class="schedule-item__content">
       <Title class="schedule-item__title">{{ item.title }}</Title>
       <div
         v-if="item.description"
@@ -60,3 +60,4 @@ export default {
   padding: 40px;
   display: flex;
   align-items: center;
+  background-size: cover;

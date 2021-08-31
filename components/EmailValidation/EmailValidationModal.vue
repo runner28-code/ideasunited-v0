@@ -13,6 +13,7 @@
       </div>
       <Button
         large
+        @click="yesImSure()"
         >Yes, I'm Sure</Button
       >
     </v-card>

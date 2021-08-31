@@ -257,3 +257,4 @@ export default {
 
   &__title,
   &__subtitle {
+    margin: 0 45px;

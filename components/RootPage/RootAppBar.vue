@@ -261,3 +261,4 @@ export default {
       max-height: 56px;
       overflow: hidden;
     }
+    &__actions {
