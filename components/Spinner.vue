@@ -4,6 +4,7 @@
       <HollowDotsSpinner
         :animation-duration="1000"
         :size="100"
+        :color="activeTheme.primary_color"
       />
     </div>
   </client-only>
@@ -21,6 +22,5 @@ export default {
 <style scope>
 .spinner {
   position: absolute;
-  left: 0;
   right: 0;
   top: 0;

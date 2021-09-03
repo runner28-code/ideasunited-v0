@@ -43,3 +43,4 @@ export default {
 
 <style scoped lang="scss">
 .marquee {
+  width: 100%;

@@ -142,3 +142,4 @@ export default {
     display: flex;
   }
 
+  &-h1 {

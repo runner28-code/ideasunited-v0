@@ -40,7 +40,6 @@ import { getHash } from "@/utils";
 export default {
   props: {
     item: Object,
-    prevId: String,
     nextId: String,
     layout: Object,
     previewLayout: Object
@@ -96,3 +95,4 @@ export default {
 
 <style scoped lang="scss">
 .submission-item {
+  cursor: pointer;

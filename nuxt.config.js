@@ -116,7 +116,6 @@ export default {
     icons: {
       iconfont: "mdi",
       values: {
-        dots_vertical: "mdi-dots-vertical",
         menu_down: "mdi-menu-down",
         menu_up: "mdi-menu-up",
         send: "mdi-send",

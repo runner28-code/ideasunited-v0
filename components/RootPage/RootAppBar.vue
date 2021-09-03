@@ -262,3 +262,4 @@ export default {
       overflow: hidden;
     }
     &__actions {
+      padding: 4px 4px 4px 0;

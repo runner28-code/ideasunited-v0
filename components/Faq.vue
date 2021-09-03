@@ -74,3 +74,4 @@ export default {
 
 <style lang="scss" scoped>
 .faqs {
+  display: flex;

@@ -39,7 +39,6 @@ export default {
       }
       if (this.newSlideSettings.state == "pause") {
         this.player.pauseVideo();
-      }
     }
   },
   computed: {
@@ -50,3 +49,4 @@ export default {
   watch: {
     presentation: {
       deep: true,
+      immediate: true,

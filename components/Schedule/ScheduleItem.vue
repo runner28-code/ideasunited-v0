@@ -10,6 +10,7 @@
         item.start_at | moment("timezone", currentTimezone, "h:mm a zz")
       }}
     </div>
+    <div class="schedule-item__content">
       <Title class="schedule-item__title">{{ item.title }}</Title>
       <div
         v-if="item.description"
@@ -22,7 +23,6 @@
 
 <script>
 export default {
-  props: {
     item: Object
   },
   methods: {
@@ -61,3 +61,4 @@ export default {
   display: flex;
   align-items: center;
   background-size: cover;
+  background-position: center;

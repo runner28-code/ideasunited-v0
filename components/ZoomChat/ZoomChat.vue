@@ -13,7 +13,6 @@
 
 <script>
 import { buildZoomLink } from "@/utils";
-export default {
   props: {
     chat: Object
   },

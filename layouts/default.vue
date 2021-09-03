@@ -92,6 +92,7 @@ export default {
         this.$WebFont.load({
           google: {
             families: _.uniq(
+              googleFonts.map((font) => font.font_name + ":300,400,500,700,900")
             ),
           },
         });
@@ -111,7 +112,6 @@ export default {
   mounted() {
     this.$root.$on("toggleDrawer", () => {
       this.drawer = !this.drawer;
-    });
     this.$root.$on("mobileScrollTo", (y) => {
       this.$refs.mobileScroll.scroll({
         top: y,
@@ -205,3 +205,4 @@ export default {
           margin-left: 0 !important;
         }
 
+        .opportunity-page {

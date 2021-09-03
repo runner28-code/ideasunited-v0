@@ -86,6 +86,7 @@
         v-ripple="false"
       >
         Logout
+      </v-list-item>
     </v-list>
     <div class="rightsidebar__bottom">
       <div @click="logoClick()" class="rightsidebar__logo" role="img text" alt="iU Community ™" aria-label="iU Community ™"></div>
@@ -115,7 +116,6 @@ export default {
     });
     setTimeout(() => {
       this.getOpportunityNotifications();
-    }, 1000);
   },
   methods: {
     bindProps(menuItem) {
