@@ -39,6 +39,7 @@ export default {
   margin: auto;
   align-items: center;
   justify-content: center;
+  width: 100%;
   background: whitesmoke;
   text-align: center;
   min-height: 100vh;

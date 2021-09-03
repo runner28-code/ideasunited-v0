@@ -1,6 +1,5 @@
 
 import cookies from "vue-cookies";
-/* eslint-disable */
 const store = {
   namespaced: true,
   state: () => ({}),
@@ -33,5 +32,4 @@ const store = {
     async oauth({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.oauth(params);
       commit("setToken", data.token);
-// Temp comment
 

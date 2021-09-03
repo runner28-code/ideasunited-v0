@@ -20,7 +20,6 @@ export default {
   },
   data() {
     return {
-      localValue: ""
     };
   },
   computed: {
@@ -50,6 +49,7 @@ export default {
 <style scoped lang="scss">
 .search-input {
   height: 46px;
+  position: relative;
   // max-width: 600px;
   padding: 0 20px;
   color: #181b23;

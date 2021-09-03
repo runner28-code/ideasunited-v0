@@ -40,6 +40,7 @@ import { getHash } from "@/utils";
 export default {
   props: {
     item: Object,
+    prevId: String,
     nextId: String,
     layout: Object,
     previewLayout: Object
@@ -67,7 +68,6 @@ export default {
     preview() {
       const t = this.item.formatted_data.find(
         t => t.uuid == this.previewLayout.preview
-      );
 
       return t?.value?.preview?.large?.url;
     },

@@ -112,6 +112,7 @@ export default {
   mounted() {
     this.$root.$on("toggleDrawer", () => {
       this.drawer = !this.drawer;
+    });
     this.$root.$on("mobileScrollTo", (y) => {
       this.$refs.mobileScroll.scroll({
         top: y,

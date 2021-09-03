@@ -37,7 +37,6 @@ export default {
         try {
           return eval(string);
         } catch (errorWithoutThis) {
-          console.warn("Error en script: " + string, errorWithoutThis);
           return null;
         }
       }
