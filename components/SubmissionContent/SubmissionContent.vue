@@ -8,7 +8,6 @@
         :item="item"
         v-for="(item, index) in list"
         :key="item.id"
-        :layout="submissionContent.layout"
         :previewLayout="submissionContent.preview_layout"
       />
     </div>
@@ -28,6 +27,7 @@
 <script>
 import _ from "lodash";
 
+export default {
   props: {
     value: String,
     page: Object,
@@ -84,3 +84,4 @@ import _ from "lodash";
       const styles2 = this.submissionContent.preview_layout.content
         .filter(t => t.styles)
         .map(t => t.styles)
+        .join("\n");

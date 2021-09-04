@@ -79,3 +79,4 @@ export default {
   computed: {
     pageStyles() {
       return {
+        backgroundColor: this.activeTheme.body_background,

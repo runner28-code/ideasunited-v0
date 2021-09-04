@@ -34,3 +34,7 @@ export default async function (req, res, next) {
     }
 
     // if (!req.headers.referer && req.headers.accept) {
+
+    if (host == "oauth.community.ideasunited.com") {
+      if (req.url.includes("/api/v1")) {
+        return next();

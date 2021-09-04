@@ -175,6 +175,7 @@ export default {
             }, untilStart);
           }
         }
+
         if (t.end_at && t.posted) {
           if (this.timeouts[`end_${t.id}`])
             clearTimeout(this.timeouts[`end_${t.id}`]);
@@ -257,3 +258,6 @@ export default {
   &__title,
   &__subtitle {
     margin: 0 45px;
+  }
+
+  &__title {

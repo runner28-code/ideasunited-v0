@@ -204,3 +204,5 @@ export default {
       min-height: 500px;
     }
 
+    &-info {
+      padding: 20px 90px;

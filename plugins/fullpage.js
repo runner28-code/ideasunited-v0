@@ -1,4 +1,4 @@
 import Vue from 'vue'
-import 'fullpage.js/vendors/scrolloverflow'
 // Temp comment
+import 'fullpage.js/vendors/scrolloverflow'
 import Fullpage from 'vue-fullpage.js'

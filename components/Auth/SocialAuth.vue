@@ -59,7 +59,6 @@ export default {
             ? "localhost"
             : "." + window.location.hostname;
 
-        console.info('oauth cookieDomain', cookieDomain);
         cookies.set("authToken", token, null, null, cookieDomain);
         localStorage.removeItem("token");
         await this.$store.dispatch("user/fetch");
@@ -85,3 +84,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.social-auth {

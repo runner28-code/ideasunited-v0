@@ -350,3 +350,7 @@ export default {
     margin-bottom: 0.698em;
     position: relative;
     @media screen and (max-width: 960px) {
+      font-size: 32px;
+    }
+    &__create {
+      position: relative;

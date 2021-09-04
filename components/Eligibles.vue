@@ -41,3 +41,4 @@ export default {
   align-items: center;
   margin-right: 20px;
   text-decoration: none;
+

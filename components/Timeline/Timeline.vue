@@ -178,3 +178,5 @@ export default {
         return !t.hidden_from_timeline;
       });
     }
+  },
+  watch: {

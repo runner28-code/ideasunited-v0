@@ -127,7 +127,6 @@ export default {
       mounted: false,
       drawer: false,
     };
-  },
   mounted() {
     this.mounted = true;
     this.$root.$on("drawerUpdate", (isOpen) => {

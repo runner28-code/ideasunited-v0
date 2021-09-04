@@ -11,6 +11,7 @@
         <v-responsive
           v-if="block.content_type == 'video_player'"
           class="slider-modal-content__video"
+          :aspect-ratio="16 / 9"
         >
           <VimeoPlayer
             v-if="block.video_player_type == 'vimeo'"
@@ -114,3 +115,5 @@ export default {
       if (instagramHandleRegexp.test(v))
         return `https://www.instagram.com/${v}`;
       if (atInstagramHandleRegexp.test(v))
+        return `https://www.instagram.com/${v.substr(1)}`;
+

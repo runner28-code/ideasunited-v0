@@ -35,3 +35,4 @@ export default {
         zoom_id,
         zoom_password,
         full_name,
+        email

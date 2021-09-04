@@ -74,3 +74,4 @@ export default {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;

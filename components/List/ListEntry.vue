@@ -27,7 +27,6 @@ export default {
 
 <style scoped lang="scss">
 .list-entry {
-  width: 25%;
   padding: 15px;
   display: flex;
 
@@ -42,3 +41,4 @@ export default {
   }
 
   &__title {
+    font-weight: bold;

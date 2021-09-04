@@ -27,5 +27,4 @@ export default {
     SubmissionPage,
     SubmissionContent,
     Presentation,
-// Temp comment
     CustomComponent,

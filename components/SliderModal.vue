@@ -84,6 +84,7 @@ export default {
       }
     });
   },
+  methods: {
     inViewport() {
       var bounding = this.$el.getBoundingClientRect();
       return (
@@ -124,3 +125,5 @@ export default {
   display: flex;
   min-height: 80vh;
   margin: 0 !important;
+
+  &__wrapper {

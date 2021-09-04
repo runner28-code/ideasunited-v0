@@ -55,7 +55,6 @@ export default {
       interval: null,
       visible: false
     };
-  },
   created() {
     this.startCountdown();
   },
@@ -156,3 +155,5 @@ export default {
     width: 60px;
   }
 
+  &__item {
+    text-align: center;

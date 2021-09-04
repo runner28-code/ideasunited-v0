@@ -34,6 +34,7 @@ export default {
     if (process.client) {
       this.checkPasswordToken();
     }
+  },
   methods: {
     async checkPasswordToken() {
       try {

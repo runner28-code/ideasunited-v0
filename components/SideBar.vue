@@ -237,3 +237,5 @@ export default {
   &__item {
     padding: 14px 0;
     font-size: 24px;
+    font-weight: 700;
+    justify-content: center;

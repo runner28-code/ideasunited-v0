@@ -14,6 +14,7 @@
       :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
       :value="!!alert"
       @input="alert = $event"
+    >
       <div
         :class="{ clickable: alert.onclick }"
         class="alert__message"
@@ -73,7 +74,6 @@ export default {
       cursor: pointer;
 
       &:hover {
-        background: rgba(255, 255, 255, 0.1);
       }
     }
   }
@@ -86,3 +86,4 @@ export default {
       align-items: center;
       justify-content: space-between;
       flex: 1;
+    }

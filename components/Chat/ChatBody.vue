@@ -22,7 +22,6 @@ export default {
   },
   data() {
     return { messages: [] };
-  },
   channels: {
     ChatChannel: {
       received({ type, payload }) {

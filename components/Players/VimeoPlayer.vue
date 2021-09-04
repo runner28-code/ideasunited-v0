@@ -4,7 +4,6 @@
     frameborder="0"
     allow="autoplay; fullscreen"
     allowfullscreen
-    class="vimeo-player"
     ref="vimeo"
   ></iframe>
 </template>
@@ -33,6 +32,7 @@ export default {
     this.player.getChapters().then(chapters => {
       this.chapters = chapters;
       if (this.vimeoChapter) this.goToChapter(this.vimeoChapter);
+    });
     this.player.on("timeupdate", data => {
       const live_seconds = (Date.now() - this.releaseTime) / 1000;
       if (data.seconds > live_seconds) {

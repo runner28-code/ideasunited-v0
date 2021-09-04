@@ -118,7 +118,6 @@ export default {
 
     this.$cable.unsubscribe({
       channel: "NotificationChannel",
-      project_id: this.currentProject.id,
       env: this.currentProject.env
     });
   },
@@ -155,3 +154,5 @@ export default {
             text-transform: ${this.activeTheme.paragraph_font.case};
           }
           h1 {
+            font-family: ${this.activeTheme.h1_font.font.font_name}, sans-serif;
+            font-size: ${this.activeTheme.h1_font.size}px;

@@ -51,8 +51,6 @@ export default {
     { src: "~/plugins/vue-rellax.js", ssr: false }
   ],
   serverMiddleware: ["~/server-middleware/basic-auth"],
-// Temp comment
-
   polyfill: {
     features: [
       {
@@ -124,3 +122,5 @@ export default {
         search: "mdi-magnify",
         emoji: "mdi-emoticon-outline",
         chevron_left: "mdi-chevron-left",
+        chevron_right: "mdi-chevron-right",
+        chevron_up: "mdi-chevron-up",

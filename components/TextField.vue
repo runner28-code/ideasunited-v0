@@ -36,13 +36,13 @@ import { getThemeByColor } from "@/utils";
 
 export default {
   props: {
+    placeholder: String,
     label: String,
     value: [String, Number],
     type: {
       type: String,
       default: "text"
     },
-    rules: Array,
     suffix: String,
     min: [String, Number],
     max: [String, Number],
@@ -85,3 +85,4 @@ export default {
 
 <style scoped lang="scss">
 .text-field {
+  width: 270px;

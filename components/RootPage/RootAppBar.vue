@@ -10,6 +10,7 @@
       <v-toolbar-title class="toolbar-title">
         <router-link to="/" class="logo-link">
           <img :src="isProduction() ? whiteLogo : redLogo" width="258" alt="Logo" />
+        </router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <transition name="fade">
@@ -262,3 +263,7 @@ export default {
     }
     &__actions {
       padding: 4px 4px 4px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }

@@ -22,4 +22,3 @@ export default {
 
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
-

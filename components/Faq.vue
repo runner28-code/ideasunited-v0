@@ -75,3 +75,4 @@ export default {
 <style lang="scss" scoped>
 .faqs {
   display: flex;
+  align-items: flex-start;

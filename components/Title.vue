@@ -23,6 +23,7 @@ export default {
         textTransform: font.case,
         letterSpacing: font.letter_spacing + "px"
       };
+    }
   }
 };
 </script>

@@ -43,3 +43,4 @@ export default {
 .commons-list {
   &__wrapper {
     padding: 40px 90px;
+  }

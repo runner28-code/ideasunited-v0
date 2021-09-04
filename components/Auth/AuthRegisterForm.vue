@@ -72,7 +72,6 @@
 <script>
 import registrationMixin from "../registration.mixin";
 
-export default {
   extends: registrationMixin,
   props: {
     dialogState: Object,
@@ -163,3 +162,4 @@ export default {
 
 <style lang="scss" scoped>
 .auth-register-form {
+  &__login {
