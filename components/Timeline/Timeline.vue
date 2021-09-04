@@ -103,7 +103,6 @@ export default {
             break;
 
           case "object":
-            this.$emit("input", active);
             break;
         }
 

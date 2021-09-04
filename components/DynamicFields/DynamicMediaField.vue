@@ -46,7 +46,6 @@
         ref="validation"
         class="uploader__validation"
         :value="value"
-        type="hidden"
         hide-details="auto"
         :rules="rules"
       />

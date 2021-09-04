@@ -55,6 +55,7 @@ export default {
       interval: null,
       visible: false
     };
+  },
   created() {
     this.startCountdown();
   },

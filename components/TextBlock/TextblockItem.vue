@@ -73,7 +73,6 @@ a.text-block__item-wrapper:hover {
       color: inherit;
       transition: 0.3s;
       opacity: 1;
-    }
 
     &-title {
       font-weight: 900;

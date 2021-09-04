@@ -31,7 +31,6 @@
         @click.stop.prevent="$emit('next')"
         v-if="idx < currentProject.menu_pages.length - 1"
         class="fullpage-next-arrow"
-        @focus.stop="onFocus($event)"
       ></button>
       <!-- <div
         @click.stop.prevent="$emit('top')"

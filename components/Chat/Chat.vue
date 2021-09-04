@@ -52,8 +52,3 @@ export default {
 <style scoped lang="scss">
 .chat {
   color: black;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow: hidden;
-  border: 1px solid #e5e5e5;

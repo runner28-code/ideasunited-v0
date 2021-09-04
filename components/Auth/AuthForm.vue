@@ -44,6 +44,7 @@
   </div>
 </template>
 
+<script>
 import _ from "lodash";
 import Title from "@/components/Title";
 import { frontendToProfile } from "@/utils";
@@ -58,7 +59,6 @@ export default {
   data() {
     return {
       loginForm: {},
-      registerForm: {},
       areYouSureDialog: false,
       emailValidationSuggestions: {}
     };

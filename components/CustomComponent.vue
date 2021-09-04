@@ -16,7 +16,6 @@ import { v4 as uuidv4 } from "uuid";
 export default {
   props: {
     value: String,
-    page: Object,
   },
   data() {
     return {
@@ -57,6 +56,7 @@ export default {
               style.setAttribute("sfc", sfc_name);
 
               const ref =
+                document.head.getElementsByTagName("style")[0] || null;
               document.head.insertBefore(style, ref);
 
               if (styleExist) styleExist.remove();

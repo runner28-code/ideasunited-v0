@@ -43,7 +43,6 @@ export default {
     showLabel: Boolean
   },
 };
-</script>
 
 <style scoped lang="scss">
 .uploader {
@@ -70,6 +69,7 @@ export default {
   }
 
   &__delete {
+    position: absolute;
     right: 10px;
     top: 10px;
     z-index: 1;

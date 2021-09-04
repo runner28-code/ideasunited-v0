@@ -5183,6 +5183,7 @@ mississippi@^3.0.0:
   dependencies:
     concat-stream "^1.5.0"
     duplexify "^3.4.2"
+    end-of-stream "^1.1.0"
     flush-write-stream "^1.0.0"
     from2 "^2.1.0"
     parallel-transform "^1.1.0"

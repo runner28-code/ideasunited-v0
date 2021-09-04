@@ -43,6 +43,7 @@ export default {
       type: String,
       default: "text"
     },
+    rules: Array,
     suffix: String,
     min: [String, Number],
     max: [String, Number],

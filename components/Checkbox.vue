@@ -25,7 +25,6 @@ export default {
     value: Boolean,
     rules: {
       type: Array,
-      default: () => [],
     },
     disabled: Boolean,
   },

@@ -72,6 +72,7 @@
 <script>
 import registrationMixin from "../registration.mixin";
 
+export default {
   extends: registrationMixin,
   props: {
     dialogState: Object,

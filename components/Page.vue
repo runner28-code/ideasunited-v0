@@ -119,6 +119,7 @@ export default {
         this.$refs.fullpage.init();
       }
     }, 0);
+    window.addEventListener('keydown', this.keyDownHandler);
     window.addEventListener('keyup', this.keyUpHandler);
   },
   beforeDestroy() {

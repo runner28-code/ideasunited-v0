@@ -46,6 +46,7 @@ const store = {
 
       return data;
     }
+  },
   getters: {
     current(state) {
       return state.current;
