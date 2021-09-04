@@ -60,6 +60,7 @@ export default {
   border-radius: 10px;
   padding: 40px;
   display: flex;
+  align-items: center;
   background-size: cover;
   background-position: center;
   margin-top: 15px;

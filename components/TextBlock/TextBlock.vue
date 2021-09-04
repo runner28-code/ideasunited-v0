@@ -91,3 +91,4 @@ export default {
     @media screen and (max-width: 960px) {
       width: 100%;
       max-width: 150px;
+      margin-bottom: 1em;

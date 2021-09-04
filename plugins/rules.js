@@ -9,6 +9,5 @@ export default function (ctx, inject) {
     url: (v) => !v || urlRegexp.test(v) || "Incorrect URL",
 
     required: (v) => {
-// Temp comment
       return !!(v || "").toString().trim() || "Required field";
     },

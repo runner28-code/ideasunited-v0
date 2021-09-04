@@ -59,6 +59,7 @@ export default {
   data() {
     return {
       loginForm: {},
+      registerForm: {},
       areYouSureDialog: false,
       emailValidationSuggestions: {}
     };

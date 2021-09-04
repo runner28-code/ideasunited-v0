@@ -51,3 +51,4 @@ export default {
     presentation: {
       deep: true,
       immediate: true,
+      handler(newVal, oldVal) {

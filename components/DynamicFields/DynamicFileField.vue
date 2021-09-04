@@ -43,6 +43,7 @@ export default {
     showLabel: Boolean
   },
 };
+</script>
 
 <style scoped lang="scss">
 .uploader {

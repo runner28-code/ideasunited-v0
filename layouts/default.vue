@@ -119,7 +119,6 @@ export default {
         left: 0,
         behavior: "smooth",
       });
-    });
     setTimeout(() => {
       this.getOpportunityNotifications();
     }, 1000);

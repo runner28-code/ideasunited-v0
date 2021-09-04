@@ -52,3 +52,4 @@ export default {
 <style scoped lang="scss">
 .chat {
   color: black;
+  display: flex;

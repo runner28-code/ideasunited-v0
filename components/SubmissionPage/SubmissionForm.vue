@@ -85,7 +85,6 @@ export default {
       this.$nextTick(() => {
         this.$root.$emit("fullpageRebuild");
       });
-    },
 
     initForm() {
       this.form = {

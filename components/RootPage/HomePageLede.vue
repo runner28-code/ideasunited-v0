@@ -346,7 +346,6 @@ export default {
     text-transform: uppercase;
     line-height: 1.067;
     letter-spacing: .07em;
-    font-weight: 900;
     margin-bottom: 0.698em;
     position: relative;
     @media screen and (max-width: 960px) {

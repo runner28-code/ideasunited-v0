@@ -40,6 +40,7 @@ export default {
     this.$store.dispatch("application/init");
 
     if (process.client) {
+      this.$cable.subscribe({
         channel: "ProjectChannel",
         project_id: this.currentProject.id,
         env: this.currentProject.env
@@ -156,3 +157,4 @@ export default {
           h1 {
             font-family: ${this.activeTheme.h1_font.font.font_name}, sans-serif;
             font-size: ${this.activeTheme.h1_font.size}px;
+            letter-spacing: ${this.activeTheme.h1_font.letter_spacing}px;

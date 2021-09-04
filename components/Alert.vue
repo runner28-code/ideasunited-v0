@@ -88,3 +88,4 @@ export default {
       justify-content: space-between;
       flex: 1;
     }
+
