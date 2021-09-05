@@ -23,7 +23,6 @@
             label="Password"
             type="password"
             name="password"
-          />
           <div class="auth-footer">
             <div><Button block :refs="$refs" type="submit">Log In</Button></div>
             <nuxt-link to="/forgot-password" class="forgot-password-link">

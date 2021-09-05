@@ -125,7 +125,6 @@ export default {
     },
     backToLogin() {
       this.chooseSignUp = false;
-      this.updateDialogState();
     },
     clickRegister() {
       this.loginFormRequest = true;

@@ -111,6 +111,7 @@ export default {
   height: 100%;
   border-radius: 10px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   position: relative;

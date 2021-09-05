@@ -119,6 +119,7 @@ export default {
         left: 0,
         behavior: "smooth",
       });
+    });
     setTimeout(() => {
       this.getOpportunityNotifications();
     }, 1000);
@@ -138,7 +139,6 @@ export default {
   },
   channels: {
     ProjectChannel: {
-      received({ payload, type }) {
         switch (type) {
           case "update_project_params":
             this.$store.commit("project/set", payload);

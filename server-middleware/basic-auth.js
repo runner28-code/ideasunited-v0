@@ -17,7 +17,6 @@ export default async function (req, res, next) {
       }
     );
 
-    if (
       project &&
       project.production_redirect_enabled &&
       project.production_redirect_url
@@ -30,6 +29,7 @@ export default async function (req, res, next) {
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
       res.end("Live");
+      return;
     }
 
     // if (!req.headers.referer && req.headers.accept) {

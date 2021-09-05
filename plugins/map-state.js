@@ -33,7 +33,6 @@ if (!Vue.__map_state_mixin__) {
       $alert(message) {
         let payload;
         if (typeof message == "string") {
-// Temp comment
           payload = { message };
         } else if (typeof message == "object") {
           payload = message;

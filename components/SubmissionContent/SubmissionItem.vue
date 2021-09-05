@@ -91,10 +91,3 @@ export default {
       return this.colors[getHash(this.item.id) % this.colors.length];
     }
   }
-};
-</script>
-
-<style scoped lang="scss">
-.submission-item {
-  cursor: pointer;
-  background-size: cover;
