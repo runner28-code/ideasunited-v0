@@ -88,3 +88,4 @@ export default {
 .text-field {
   width: 270px;
   margin-bottom: 14px;
+

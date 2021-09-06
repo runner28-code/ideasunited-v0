@@ -50,7 +50,6 @@ export default {
       align-items: center;
       justify-content: center;
       text-align: center;
-      font-weight: bold;
       background: rgba(0, 0, 0, 0.1);
       text-decoration: none;
       transition: 0.3s;

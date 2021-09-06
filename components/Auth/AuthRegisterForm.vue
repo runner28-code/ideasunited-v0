@@ -166,3 +166,5 @@ export default {
   &__login {
     max-width: 300px;
     margin: 0 auto;
+  }
+  &__not-registered {

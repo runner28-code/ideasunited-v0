@@ -245,3 +245,4 @@ export default {
         } else {
           styles.backgroundImage = `url(${src})`;
         }
+      }

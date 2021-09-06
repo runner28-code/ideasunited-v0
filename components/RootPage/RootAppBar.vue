@@ -72,7 +72,6 @@
           </v-btn>
           <v-btn
             icon
-            class="app-bar__new-opps-details__eye"
             small
           >
             <v-icon size="20" color="white">$eye</v-icon>
@@ -271,3 +270,6 @@ export default {
     }
   }
   &__full-name {
+    line-height: 1.1;
+    margin-bottom: -2px;
+    font-size: 13px;

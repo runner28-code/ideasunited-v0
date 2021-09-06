@@ -93,3 +93,4 @@ export default {
         data: {},
         timestamp: new Date(),
       };
+    },

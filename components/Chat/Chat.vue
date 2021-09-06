@@ -48,9 +48,9 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .chat {
   color: black;
   display: flex;
   flex-direction: column;
+  height: 100%;

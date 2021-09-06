@@ -121,7 +121,6 @@ export default {
           field.conditional_value == this.form.data[field.conditional_uuid]
         );
       } else {
-        const conditionalFormValue = this.form.data[field.conditional_uuid];
         const validValues = field.conditional_value.split(",").map((v) => {
           const value = v.trim();
           switch (value) {

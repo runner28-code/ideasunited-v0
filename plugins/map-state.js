@@ -32,6 +32,7 @@ if (!Vue.__map_state_mixin__) {
       },
       $alert(message) {
         let payload;
+        if (typeof message == "string") {
           payload = { message };
         } else if (typeof message == "object") {
           payload = message;
@@ -49,3 +50,4 @@ if (!Vue.__map_state_mixin__) {
         currentTimezone(state) {
           if (state.project.current.display_local_timezone)
             return moment.tz.guess(true);
+          else return state.project.current.timezone;

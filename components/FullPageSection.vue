@@ -80,6 +80,7 @@ export default {
 
 <style lang="scss" scoped>
 .page {
+  background-color: #56565a;
   overflow-y: scroll;
   overflow-anchor: none;
   scrollbar-width: none;
@@ -112,3 +113,4 @@ export default {
 
 .mobile-bglede {
   display: none;
+  @media screen and (max-width: 944px) {

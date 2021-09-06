@@ -128,3 +128,4 @@ export default {
 
   &__wrapper {
     padding: 0 40px !important;
+    display: flex;

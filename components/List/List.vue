@@ -10,6 +10,7 @@
         <ListEntry v-for="entry in entries" :key="entry.id" :entry="entry" />
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -43,3 +44,4 @@ export default {
   &__wrapper {
     padding: 40px 90px;
   }
+  &__items {

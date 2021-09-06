@@ -88,3 +88,4 @@ export default {
 .social-auth {
   display: flex;
   justify-content: center;
+  align-items: center;

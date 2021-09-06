@@ -32,10 +32,10 @@ export default function(ctx, inject) {
       authorizationEndpoint =
         authorizationEndpoint + "?domain=" + location.hostname;
 
+// Temp comment
       const w = window.open(
         authorizationEndpoint,
         "Auth",
         "width=580,height=730"
-// Temp comment
       );
       const interval = setInterval(() => {

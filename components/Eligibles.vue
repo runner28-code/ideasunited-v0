@@ -43,3 +43,4 @@ export default {
   text-decoration: none;
 
   &--bronze {
+    color: #c6864c;

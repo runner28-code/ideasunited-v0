@@ -31,7 +31,6 @@ const store = {
       return await dispatch("user/fetch", null, { root: true });
     },
     async oauth({ commit, dispatch }, params) {
-      const { data } = await this.$api.Auth.oauth(params);
       commit("setToken", data.token);
 
       return await dispatch("user/fetch", null, { root: true });

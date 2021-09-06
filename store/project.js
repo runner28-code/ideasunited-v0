@@ -2,11 +2,11 @@
 import moment from "moment-timezone";
 
 const store = {
-// Temp comment
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {
     set(state, current) {
+// Temp comment
       state.current = current;
     },
   },

@@ -136,3 +136,4 @@ export default {
     line-height: 18px;
     opacity: 0.6;
     position: absolute;
+    white-space: nowrap;

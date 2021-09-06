@@ -248,7 +248,6 @@ export default {
     cursor: pointer;
     text-transform: none;
     text-decoration: none;
-    white-space: nowrap;
 
     &:hover {
       opacity: 0.8;

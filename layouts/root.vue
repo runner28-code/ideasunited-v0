@@ -94,6 +94,7 @@ export default {
             id: fontkitId
           }
         });
+      });
     }
   },
   mounted() {
@@ -160,3 +161,5 @@ export default {
             font-style: ${this.activeTheme.h1_font.style};
             font-weight: ${this.activeTheme.h1_font.weight};
             text-transform: ${this.activeTheme.h1_font.case};
+          }
+          h2 {

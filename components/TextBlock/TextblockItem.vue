@@ -55,7 +55,6 @@ a.text-block__item-wrapper:hover {
     }
 
     &.with-preview {
-      &:before {
         content: "";
         position: absolute;
         left: 0;

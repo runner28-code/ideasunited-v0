@@ -45,3 +45,4 @@ export default {
 .page-lead {
   background-size: cover;
   background-position: center;
+

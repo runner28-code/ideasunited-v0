@@ -80,3 +80,4 @@ export default {
     pageStyles() {
       return {
         backgroundColor: this.activeTheme.body_background,
+        color: this.activeTheme.body_color

@@ -104,6 +104,7 @@ export default {
   },
   mounted() {
     if(this.$route.query.signup) {
+      this.chooseSignUp = true;
     }
   },
   methods: {
@@ -131,3 +132,4 @@ export default {
     }
   },
   computed: {
+    registrationForm() {

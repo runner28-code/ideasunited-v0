@@ -55,7 +55,6 @@ export default {
         $api: this.$api,
         zoom_id,
         zoom_password,
-        full_name,
         email
       });
     }
@@ -75,3 +74,4 @@ export default {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  border-bottom: 1px solid #e5e5e5;

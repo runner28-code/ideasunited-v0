@@ -208,3 +208,5 @@ export default {
       padding: 20px 90px;
     }
 
+    &-description {
+      font-size: 16px;

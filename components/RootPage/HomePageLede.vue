@@ -358,3 +358,5 @@ export default {
   }
 
   &__content {
+    pointer-events: none;
+  }
