@@ -68,6 +68,7 @@
           @click="resendConfirmationEmail()"
         >
           Resend Confirmation Email
+        </Button>
       </div>
     </div>
     <EmailValidationModal
@@ -103,7 +104,6 @@ export default {
   },
   mounted() {
     if(this.$route.query.signup) {
-      this.chooseSignUp = true;
     }
   },
   methods: {
@@ -130,3 +130,4 @@ export default {
       this.chooseSignUp = false;
     }
   },
+  computed: {

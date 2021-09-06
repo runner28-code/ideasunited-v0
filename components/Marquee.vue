@@ -5,7 +5,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   data() {
@@ -43,3 +42,5 @@ export default {
 
 <style scoped lang="scss">
 .marquee {
+  width: 100%;
+  will-change: transform, margin-left;

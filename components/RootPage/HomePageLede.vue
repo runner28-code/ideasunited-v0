@@ -355,3 +355,6 @@ export default {
     &__create {
       position: relative;
     }
+  }
+
+  &__content {

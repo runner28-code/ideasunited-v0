@@ -60,3 +60,4 @@ export default {
       &:hover {
         background: transparent;
       }
+    }

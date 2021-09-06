@@ -86,3 +86,4 @@ export default {
         .filter(t => t.styles)
         .map(t => t.styles)
         .join("\n");
+      const styles = [styles1, styles2].join("\n");

@@ -120,6 +120,7 @@ export default {
       }
     }, 0);
     window.addEventListener('keydown', this.keyDownHandler);
+    window.addEventListener('keyup', this.keyUpHandler);
   },
   beforeDestroy() {
     window.removeEventListener("keydown", this.keyDownHandler);
@@ -241,3 +242,6 @@ export default {
         const src = ledeBackground.large.url || ledeBackground.url;
         if (this.preloadedImgBase64s[src]) {
           styles.backgroundImage = `url(${this.preloadedImgBase64s[src]})`;
+        } else {
+          styles.backgroundImage = `url(${src})`;
+        }

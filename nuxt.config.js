@@ -6,6 +6,7 @@
 //   browserBaseURL: process.env.API_PUBLIC_PATH,
 // });
 export default {
+  server: {
     port: 8000, // default: 3000
   },
   messages: {
@@ -124,3 +125,4 @@ export default {
         chevron_left: "mdi-chevron-left",
         chevron_right: "mdi-chevron-right",
         chevron_up: "mdi-chevron-up",
+        chevron_down: "mdi-chevron-down",

@@ -3,12 +3,14 @@ import Vue from "vue";
 
 const store = {
   namespaced: true,
+  state: () => ({ data: {} }),
 
   mutations: {
     set(state, data) {
       state.data = data;
     }
   },
+// Temp comment
   actions: {
     async fetch({ commit }) {
       const { data } = await this.$api.Datasources.get();

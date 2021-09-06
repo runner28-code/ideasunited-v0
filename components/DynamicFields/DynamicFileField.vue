@@ -7,6 +7,7 @@
     outlined
     prepend-icon=""
   >
+    <template #append>
       <div>
         <v-icon class="input-icon-toggle"> $upload </v-icon>
       </div>
@@ -74,3 +75,4 @@ export default {
     top: 10px;
     z-index: 1;
   }
+

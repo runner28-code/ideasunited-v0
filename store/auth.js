@@ -34,3 +34,4 @@ const store = {
       const { data } = await this.$api.Auth.oauth(params);
       commit("setToken", data.token);
 
+      return await dispatch("user/fetch", null, { root: true });

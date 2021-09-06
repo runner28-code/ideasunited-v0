@@ -269,3 +269,5 @@ export default {
     }
     &__close {
     }
+  }
+  &__full-name {

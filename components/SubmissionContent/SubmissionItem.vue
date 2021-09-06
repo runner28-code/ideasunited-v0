@@ -76,6 +76,7 @@ export default {
       const styles = {
         backgroundColor: this.color
       };
+
       if (this.preview) {
         styles.backgroundImage = `url(${this.preview})`;
       }
@@ -91,3 +92,4 @@ export default {
     }
   }
 };
+</script>

@@ -43,3 +43,4 @@ export default {
     font-weight: bold;
     font-size: 12px;
     line-height: 1.2;
+  }

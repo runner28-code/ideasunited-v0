@@ -94,6 +94,7 @@ export default {
             this.areYouSureDialog = true;
           }
         }
+      }
     }
   },
   watch: {
@@ -121,7 +122,6 @@ export default {
 
 .auth {
 
-  &-admin-title {
     color: #262729;
     text-align: center;
     font-size: 28px;
@@ -143,3 +143,5 @@ export default {
 
   &-h1 {
     width: 100%;
+    text-align: center;
+    margin-bottom: 0 !important;

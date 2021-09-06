@@ -14,7 +14,6 @@ import Spinner from "./Spinner";
 import { v4 as uuidv4 } from "uuid";
 
 export default {
-  props: {
     value: String,
     page: Object,
   },
@@ -39,6 +38,7 @@ export default {
 
         if (process.client) {
           const {
+            loadModule
           } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
           const options = {
             moduleCache: {

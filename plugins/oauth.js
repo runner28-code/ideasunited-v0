@@ -36,4 +36,6 @@ export default function(ctx, inject) {
         authorizationEndpoint,
         "Auth",
         "width=580,height=730"
+// Temp comment
       );
+      const interval = setInterval(() => {

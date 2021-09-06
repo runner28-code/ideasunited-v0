@@ -139,3 +139,5 @@ export default {
 
   &__menu {
     display: flex;
+    align-items: center;
+

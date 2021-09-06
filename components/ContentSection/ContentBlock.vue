@@ -123,3 +123,4 @@ export default {
   }
 
   &:hover {
+    opacity: 0.9;

@@ -92,3 +92,4 @@ export default {
       width: 100%;
       max-width: 150px;
       margin-bottom: 1em;
+    }

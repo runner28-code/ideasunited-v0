@@ -12,13 +12,13 @@ const store = {
   actions: {
     async fetch({ commit }) {
       const token = this.$cookies.get("authToken");
+
       if (token && process.client) {
         const { data } = await this.$api.User.current();
         commit("set", data);
         const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"
-            : "." + window.location.hostname;
         var d = new Date();
         d.setDate(d.getDate() + 7);
         this.$cookies.set(

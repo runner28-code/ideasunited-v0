@@ -153,7 +153,6 @@ export default {
       window.location.href = "/";
       this.$emit('input', false);
     },
-    async getOpportunityNotifications() {
       const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
     },
@@ -240,3 +239,4 @@ export default {
     font-weight: 700;
     justify-content: center;
     text-transform: uppercase;
+    &::v-deep.theme--light.v-list-item:not(.v-list-item--disabled) {

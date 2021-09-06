@@ -9,7 +9,6 @@
     @focus.stop="onFocus($event)"
   >
     <template #label>
-      <slot>
         <span
           @click.stop
           v-html="label + (required && markRequired ? ' *' : '')"
@@ -35,3 +34,4 @@ export default {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
+  },

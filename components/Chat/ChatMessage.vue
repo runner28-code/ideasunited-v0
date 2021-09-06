@@ -29,7 +29,6 @@
       v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"
     >
       <template v-slot:activator="{ on }">
-        <v-btn v-on="on" icon class="message-actions">
           <v-icon size="18">$dots_vertical</v-icon>
         </v-btn>
       </template>
@@ -90,3 +89,4 @@ export default {
 
 <style scoped lang="scss">
 .message {
+  margin-bottom: 15px;

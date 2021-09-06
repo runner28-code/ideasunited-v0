@@ -87,3 +87,4 @@ export default {
 <style scoped lang="scss">
 .social-auth {
   display: flex;
+  justify-content: center;

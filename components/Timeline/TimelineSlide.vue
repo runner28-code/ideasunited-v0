@@ -134,3 +134,5 @@ export default {
     font-weight: 800;
     font-size: 16px;
     line-height: 18px;
+    opacity: 0.6;
+    position: absolute;

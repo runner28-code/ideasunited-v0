@@ -127,3 +127,4 @@ export default {
   margin: 0 !important;
 
   &__wrapper {
+    padding: 0 40px !important;

@@ -65,3 +65,4 @@ export default {
   },
   methods: {
     closeSidebar() {
+      this.sidebar = false;

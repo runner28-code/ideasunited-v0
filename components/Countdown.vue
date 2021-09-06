@@ -138,6 +138,7 @@ export default {
   padding: 0 85px;
 }
 
+.countdown__text {
   font-weight: bold;
   font-size: 18px;
   width: 100%;
@@ -157,3 +158,4 @@ export default {
 
   &__item {
     text-align: center;
+  }

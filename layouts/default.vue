@@ -209,3 +209,5 @@ export default {
         .opportunity-page {
           width: 100% !important;
           left: 0 !important;
+        }
+

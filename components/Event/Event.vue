@@ -207,3 +207,4 @@ export default {
     &-info {
       padding: 20px 90px;
     }
+
