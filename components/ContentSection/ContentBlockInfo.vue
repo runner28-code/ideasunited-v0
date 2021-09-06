@@ -37,7 +37,6 @@
     <div class="slider-modal-content__side slider-modal-content__content">
       <div>
         <Title
-          :style="{ color: activeTheme.primary_color }"
           class="slider-modal-content__title"
           >{{ block.title }}</Title
         >

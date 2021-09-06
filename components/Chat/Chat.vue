@@ -46,8 +46,8 @@ export default {
       env: this.currentProject.env
     });
   }
-};
 </script>
+
 <style scoped lang="scss">
 .chat {
   color: black;

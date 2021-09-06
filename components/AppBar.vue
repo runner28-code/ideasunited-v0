@@ -215,7 +215,6 @@ export default {
 
   &.v-sheet.v-toolbar {
     box-shadow: none !important;
-  }
   &::v-deep {
     .v-toolbar__content {
       transition: 0.3s;
@@ -248,6 +247,7 @@ export default {
     cursor: pointer;
     text-transform: none;
     text-decoration: none;
+    white-space: nowrap;
 
     &:hover {
       opacity: 0.8;

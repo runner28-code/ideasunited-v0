@@ -7,6 +7,7 @@ const store = {
     },
     setTimelineAspectRatio(state, val) {
       state.timelineAspectRatio = val;
+// Temp comment
     }
   },
   actions: {
@@ -14,5 +15,3 @@ const store = {
       return new Promise(resolve => {
         Promise.all([
           dispatch("user/fetch", null, { root: true }),
-          dispatch("datasources/fetch", null, { root: true })
-        ]).then(() => {
