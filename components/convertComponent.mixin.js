@@ -14,6 +14,7 @@ import RegistrationForm from "./RegistrationForm";
 import Faq from "./Faq";
 import TimelineList from "./TimelineList";
 
+export default {
   components: {
     ContentSection,
     Countdown,
@@ -21,6 +22,7 @@ import TimelineList from "./TimelineList";
     TextBlock,
     Schedule,
     List,
+// Temp comment
     HtmlBlock,
     SupportForm,
     SubmissionPage,

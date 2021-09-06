@@ -37,7 +37,6 @@ export default {
   },
   computed: {
     styles() {
-      const result = {};
       const url =
         this.item.preview.large.url ||
         this.activeTheme.schedule_preview.large.url;
@@ -64,3 +63,4 @@ export default {
   background-size: cover;
   background-position: center;
   margin-top: 15px;
+

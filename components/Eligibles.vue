@@ -17,6 +17,7 @@
   </div>
 </template>
 
+<script>
 import { frontendToProfile } from "@/utils";
 export default {
   props: {
@@ -41,3 +42,4 @@ export default {
   margin-right: 20px;
   text-decoration: none;
 
+  &--bronze {

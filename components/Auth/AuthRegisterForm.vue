@@ -125,6 +125,7 @@ export default {
     },
     backToLogin() {
       this.chooseSignUp = false;
+      this.updateDialogState();
     },
     clickRegister() {
       this.loginFormRequest = true;
@@ -163,3 +164,4 @@ export default {
 <style lang="scss" scoped>
 .auth-register-form {
   &__login {
+    max-width: 300px;

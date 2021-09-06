@@ -53,6 +53,7 @@ export default {
     isStatic: Boolean,
   },
   data() {
+    return {
       year: new Date().getFullYear(),
       supportDialog: false,
       supportForm: null,
@@ -137,3 +138,4 @@ export default {
   }
 
   &__menu {
+    display: flex;

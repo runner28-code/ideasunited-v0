@@ -138,7 +138,6 @@ export default {
   padding: 0 85px;
 }
 
-.countdown__text {
   font-weight: bold;
   font-size: 18px;
   width: 100%;

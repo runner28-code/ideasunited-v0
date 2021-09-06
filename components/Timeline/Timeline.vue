@@ -180,3 +180,4 @@ export default {
     }
   },
   watch: {
+    events: {

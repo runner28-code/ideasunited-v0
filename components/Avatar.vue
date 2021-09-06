@@ -29,7 +29,6 @@ export default {
         "#455a64",
         "#1b5e20",
         "#1a237e"
-      ]
     };
   },
   computed: {

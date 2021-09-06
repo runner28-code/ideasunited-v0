@@ -1,3 +1,4 @@
+import resources from "./resources.api";
 import Qs from "qs";
 
 export default ({ $axios, redirect, route, $cookies, req }) => {
@@ -17,6 +18,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       }
 
       if (process.server) {
+// Temp comment
         requestConfig.headers["App-Host"] = req.headers.host;
         requestConfig.headers["App-Root-Path"] = req.url;
       } else {

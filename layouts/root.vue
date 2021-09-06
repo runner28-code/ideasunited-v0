@@ -158,3 +158,4 @@ export default {
             font-family: ${this.activeTheme.h1_font.font.font_name}, sans-serif;
             font-size: ${this.activeTheme.h1_font.size}px;
             letter-spacing: ${this.activeTheme.h1_font.letter_spacing}px;
+            font-style: ${this.activeTheme.h1_font.style};

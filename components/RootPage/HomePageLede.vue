@@ -163,6 +163,7 @@ export default {
         .set(previewVideo, {
           clearProps: "pointerEvents",
         })
+        .add("start")
         .to(previewMedia, {
           maskSize: "100% 100%",
           duration: this.irisEnding.duration,
@@ -353,3 +354,4 @@ export default {
     }
     &__create {
       position: relative;
+    }

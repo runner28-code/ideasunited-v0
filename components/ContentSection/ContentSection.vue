@@ -63,7 +63,6 @@
       <v-btn
         :class="{ visible: visibleControls }"
         class="content-section__control content-section__control-next"
-        icon
         @click="swiperInstance.slideNext()"
       >
         <v-icon size="40">$chevron_right</v-icon>
@@ -261,3 +260,4 @@ export default {
   }
 
   &__title {
+    margin-bottom: 0;

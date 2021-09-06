@@ -36,3 +36,4 @@ export default {
         zoom_password,
         full_name,
         email
+      });

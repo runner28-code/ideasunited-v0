@@ -67,6 +67,7 @@ export default {
 
   &__1 &__side {
     width: 100%;
+  }
 
   &__3 &__side-double &__item-wrapper {
     height: 50%;

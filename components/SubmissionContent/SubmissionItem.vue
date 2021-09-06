@@ -76,7 +76,6 @@ export default {
       const styles = {
         backgroundColor: this.color
       };
-
       if (this.preview) {
         styles.backgroundImage = `url(${this.preview})`;
       }
@@ -91,3 +90,4 @@ export default {
       return this.colors[getHash(this.item.id) % this.colors.length];
     }
   }
+};

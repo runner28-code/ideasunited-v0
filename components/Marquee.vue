@@ -17,6 +17,7 @@ export default {
   computed: {
     animStyle() {
       if (!this.animating) return ''
+      return `
         animation: marquee-animation ${this.seconds}s linear infinite;
       `
     }
@@ -42,4 +43,3 @@ export default {
 
 <style scoped lang="scss">
 .marquee {
-  width: 100%;

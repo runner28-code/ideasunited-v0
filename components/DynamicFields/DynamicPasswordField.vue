@@ -11,7 +11,6 @@
 
 <script>
 export default {
-  props: {
     label: String,
     value: String,
     rules: {
@@ -19,3 +18,4 @@ export default {
       default: () => []
     },
     required: Boolean,
+    markRequired: Boolean

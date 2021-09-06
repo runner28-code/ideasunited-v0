@@ -68,7 +68,6 @@ export default {
     },
     async syncMessages() {
       const { data } = await this.$api.Message.query({
-        chat_id: this.chat.id,
         first_message_date: this.messages[this.messages.length - 1]?.created_at
       });
 

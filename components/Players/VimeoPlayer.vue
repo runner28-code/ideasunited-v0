@@ -58,3 +58,4 @@ export default {
       this.goToChapter(this.vimeoChapter);
     }
   },
+  methods: {

@@ -8,4 +8,3 @@ export default {
     value: String,
     page: Object,
   },
-  computed: {
