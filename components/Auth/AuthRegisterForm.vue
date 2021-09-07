@@ -129,7 +129,6 @@ export default {
     },
     clickRegister() {
       this.loginFormRequest = true;
-      this.chooseSignUp = true;
       this.updateDialogState();
     },
     loginFormResponse(res) {

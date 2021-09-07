@@ -122,17 +122,3 @@ export default {
   &--bg {
     position: absolute;
     left: -0px;
-    right: -0px;
-    top: -0px;
-    bottom: -0px;
-    background: rgba(16, 24, 32, 0.6);
-    border-radius: 6px;
-  }
-
-  &__date {
-    margin-top: -30px;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 18px;
-    position: absolute;
-    white-space: nowrap;

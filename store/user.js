@@ -21,6 +21,7 @@ const store = {
             ? "localhost"
             : "." + window.location.hostname;
         var d = new Date();
+        d.setDate(d.getDate() + 7);
         this.$cookies.set(
           "authToken",
           token,

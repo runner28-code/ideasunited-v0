@@ -1,7 +1,7 @@
 {
   "server": "deploy@community.ideasunited.com",
   "port": 22,
+  "server_dir": "/home/deploy/production/frontend",
   "repo": "git@gitlab.com:iu-evp/frontend.git",
   "prj_git_relative_dir": "",
   "branch": "master",
-  "force_regenerate_git_dir": true,

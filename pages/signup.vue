@@ -3,7 +3,6 @@
     <AuthRegisterForm v-if="!currentUser" />
     <div 
       v-if="currentUser"
-      >
       <div>You are logged in.<br/><br/></div>
       <v-btn
         @click.prevent="logout()"
@@ -25,6 +24,7 @@ export default {
     }
   },
   mounted() {
+    this.$root.$on('leaveSignup', () => {
       window.location.href = frontendToProfile()[window.location.origin];
     });
   },

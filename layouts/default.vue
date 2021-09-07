@@ -91,6 +91,7 @@ export default {
       if (googleFonts.length) {
         this.$WebFont.load({
           google: {
+            families: _.uniq(
               googleFonts.map((font) => font.font_name + ":300,400,500,700,900")
             ),
           },

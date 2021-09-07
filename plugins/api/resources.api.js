@@ -10,6 +10,7 @@ function objectToFormData(obj) {
       files[uuid] = value;
       return uuid;
     }
+    return value;
   });
 
   formData.append("data", data);

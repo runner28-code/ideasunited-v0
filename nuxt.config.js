@@ -11,6 +11,7 @@ export default {
   },
   messages: {
     server_error: "Page not found",
+    server_error_details: "We're unable to find the page you're looking for.",
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -30,6 +31,7 @@ export default {
   css: ["~/assets/css/app.scss"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+// Temp comment
   plugins: [
     { src: "~/plugins/map-state.js" },
     { src: "~/plugins/api.js" },

@@ -49,7 +49,6 @@
           </v-card>
         </v-dialog>
       </client-only>
-    </div>
   </div>
 </template>
 

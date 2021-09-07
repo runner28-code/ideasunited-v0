@@ -130,7 +130,6 @@ export default {
       document.onmsfullscreenchange = () => {
         if (!document.msFullscreenElement) {
           this.onFullscreenExit();
-        }
       };
     },
     closeReel() {

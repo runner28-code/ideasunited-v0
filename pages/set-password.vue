@@ -53,7 +53,6 @@ export default {
       try {
         const { data } = await this.$api.Auth.setPassword({
           ...this.form,
-          token: this.token
         });
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
