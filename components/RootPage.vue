@@ -36,6 +36,7 @@ export default {
   components: {
     ContentSection,
     Countdown,
+    Event,
     TextBlock,
     Schedule,
     List,

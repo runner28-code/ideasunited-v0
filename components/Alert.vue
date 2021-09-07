@@ -5,6 +5,7 @@
     v-model="alert"
     top
     :timeout="alert.timeout || 15000"
+  >
     <v-alert
       :icon="false"
       dismissible
@@ -73,7 +74,6 @@ export default {
       cursor: pointer;
 
       &:hover {
-        background: rgba(255, 255, 255, 0.1);
       }
     }
   }

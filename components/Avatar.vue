@@ -45,3 +45,4 @@ export default {
         .join("")
         .substr(0, 2)
         .toUpperCase();
+    },

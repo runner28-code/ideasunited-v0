@@ -14,6 +14,7 @@
     :href="href"
     :target="target"
     :disabled="disabled"
+    @focus.stop="onFocus($event)"
   >
     <slot></slot>
   </v-btn>
@@ -22,7 +23,6 @@
 <script>
 import { getThemeByColor } from "@/utils";
 
-export default {
   props: {
     color: String,
     large: Boolean,

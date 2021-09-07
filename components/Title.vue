@@ -20,7 +20,6 @@ export default {
         fontWeight: font.weight,
         fontStyle: font.style,
         fontSize: font.size + "px",
-        textTransform: font.case,
         letterSpacing: font.letter_spacing + "px"
       };
     }

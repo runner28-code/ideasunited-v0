@@ -12,7 +12,6 @@
         :previewLayout="submissionContent.preview_layout"
       />
     </div>
-    <client-only>
       <infinite-loading :identifier="infiniteId" @infinite="fetchSubmissions">
         <div slot="no-more"></div>
         <div slot="no-results" class="no-results">Nothing found</div>
@@ -59,6 +58,7 @@ export default {
       const ids = this.list.map(t => t.id);
       const newData = data.filter(t => !ids.includes(t.id));
 
+      this.list.push(...newData);
 
       if (data.length) {
         $state.loaded();

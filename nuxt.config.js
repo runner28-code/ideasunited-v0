@@ -11,7 +11,6 @@ export default {
   },
   messages: {
     server_error: "Page not found",
-    server_error_details: "We're unable to find the page you're looking for.",
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -118,6 +117,7 @@ export default {
       values: {
         dots_vertical: "mdi-dots-vertical",
         menu_down: "mdi-menu-down",
+        menu_up: "mdi-menu-up",
         send: "mdi-send",
         search: "mdi-magnify",
         emoji: "mdi-emoticon-outline",

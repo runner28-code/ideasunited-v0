@@ -49,6 +49,5 @@ if (!Vue.__map_state_mixin__) {
         datasources: (state) => state.datasources.data,
         currentTimezone(state) {
           if (state.project.current.display_local_timezone)
-// Temp comment
             return moment.tz.guess(true);
           else return state.project.current.timezone;

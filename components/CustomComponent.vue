@@ -60,7 +60,6 @@ export default {
                 document.head.getElementsByTagName("style")[0] || null;
               document.head.insertBefore(style, ref);
 
-              if (styleExist) styleExist.remove();
             }
           };
 

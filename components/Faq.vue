@@ -24,7 +24,6 @@
           :key="index"
         >
           <div class="faq__section-header" v-if="item.header">
-            {{ item.header }}
           </div>
           <v-expansion-panel-header v-if="item.question">
             {{ item.question }}
@@ -43,6 +42,7 @@
 export default {
   name: "Faq",
   props: {
+    value: String,
     page: Object,
   },
   computed: {
@@ -66,14 +66,3 @@ export default {
       } else {
         return false;
       }
-    },
-  }
-}
-</script>
-
-<style lang="scss" scoped>
-.faqs {
-  display: flex;
-  align-items: flex-start;
-  margin-top: 60px;
-  @media screen and (max-width: 960px) {
