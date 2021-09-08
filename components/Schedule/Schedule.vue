@@ -25,6 +25,7 @@
 <script>
 import _ from "lodash";
 
+export default {
   props: {
     value: String,
     page: Object,
@@ -35,7 +36,6 @@ import _ from "lodash";
     },
     groupedItems() {
       const groups = _.groupBy(this.schedule.items, t =>
-        this.$moment
           .tz(t.start_at, this.currentTimezone)
           .format("YYYY/MM/DD")
       );
@@ -55,3 +55,4 @@ import _ from "lodash";
 </script>
 
 <style scoped lang="scss">
+.schedule {

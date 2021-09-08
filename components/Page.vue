@@ -246,3 +246,6 @@ export default {
           styles.backgroundImage = `url(${src})`;
         }
       }
+      const posX = this.page.lead_background_styles.backgroundPositionX;
+      if (posX) styles.backgroundPositionX = `${posX}%`;
+      const posY = this.page.lead_background_styles.backgroundPositionY;

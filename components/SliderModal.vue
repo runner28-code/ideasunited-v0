@@ -10,6 +10,7 @@
       <div class="slider-modal__wrapper" @click="close">
         <v-btn
           v-if="prevId"
+          @click="openPrev"
           @keyup.enter="openPrev"
           icon
           class="slider-modal__arrow slider-modal__prev"
@@ -128,3 +129,4 @@ export default {
   &__wrapper {
     padding: 0 40px !important;
     display: flex;
+    width: 100%;

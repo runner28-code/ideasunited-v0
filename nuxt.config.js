@@ -31,7 +31,6 @@ export default {
   css: ["~/assets/css/app.scss"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-// Temp comment
   plugins: [
     { src: "~/plugins/map-state.js" },
     { src: "~/plugins/api.js" },
@@ -103,6 +102,7 @@ export default {
     //   target: process.env.API_URL,
     //   changeOrigin: true
     // },
+// Temp comment
     // "/cable": {
     //   target: process.env.WS_HOST,
     //   logLevel: "debug",

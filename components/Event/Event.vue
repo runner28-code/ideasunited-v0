@@ -161,6 +161,7 @@ export default {
     font-weight: bold;
     padding: 24px 40px;
   }
+
   &.show-event {
     margin-bottom: -45px;
   }
@@ -209,3 +210,5 @@ export default {
 
     &-description {
       font-size: 16px;
+      line-height: 1.2;
+      margin-top: 10px;

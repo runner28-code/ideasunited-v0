@@ -28,7 +28,6 @@ export default {
       type: Array,
       default: () => []
     },
-    required: Boolean,
     markRequired: Boolean
   },
   methods: {
@@ -36,3 +35,4 @@ export default {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
+};

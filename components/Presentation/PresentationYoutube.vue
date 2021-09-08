@@ -37,6 +37,7 @@ export default {
       if (this.newSlideSettings.state == "play") {
         this.player.playVideo();
       }
+      if (this.newSlideSettings.state == "pause") {
         this.player.pauseVideo();
       }
     }
@@ -52,3 +53,4 @@ export default {
       immediate: true,
       handler(newVal, oldVal) {
         if (this.newSlideSettings.started && this.player) {
+          this.play();

@@ -67,3 +67,4 @@ export default {
     font-weight: bold;
     font-size: 12px;
     text-transform: uppercase;
+

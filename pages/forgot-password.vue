@@ -14,13 +14,13 @@
     <div v-else>
       Email instructions successfully sent
     </div>
-  </div>
 </template>
 
 <script>
 export default {
   layout: 'simple',
   data() {
+    return {
       formModel: null,
       form: {},
       submitted: false
@@ -51,3 +51,4 @@ export default {
   width: 100%;
   background: whitesmoke;
 
+  &__title {

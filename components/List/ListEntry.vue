@@ -30,15 +30,16 @@ export default {
   width: 25%;
   padding: 15px;
   display: flex;
-
   &__preview {
     width: 40px;
     height: 40px;
     border-radius: 40px;
     margin-top: 8px;
+    margin-right: 10px;
     background-size: cover;
     background-position: center;
   }
 
   &__title {
     font-weight: bold;
+    font-size: 24px;

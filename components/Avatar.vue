@@ -7,7 +7,6 @@
 <script>
 import { getHash } from "@/utils";
 
-export default {
   props: {
     name: String,
     id: String
@@ -46,3 +45,4 @@ export default {
         .substr(0, 2)
         .toUpperCase();
     },
+    color() {

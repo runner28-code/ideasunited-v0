@@ -6,7 +6,6 @@ const store = {
   state: () => ({ data: {} }),
 
   mutations: {
-// Temp comment
     set(state, data) {
       state.data = data;
     }
@@ -18,3 +17,4 @@ const store = {
 
       return data;
     }
+  },

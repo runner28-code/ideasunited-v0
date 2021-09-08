@@ -82,3 +82,4 @@ a.text-block__item-wrapper:hover {
     }
     &-description {
       font-size: 16px;
+      line-height: 16px;

@@ -114,6 +114,7 @@ export default {
     this.$root.$on('updateAccountSideBar', (isOpen) => {
       this.accountSideBar = isOpen;
     });
+    setTimeout(() => {
       this.getOpportunityNotifications();
     }, 1000);
   },
@@ -241,3 +242,6 @@ export default {
     text-transform: uppercase;
     &::v-deep.theme--light.v-list-item:not(.v-list-item--disabled) {
       &:not(.v-list-item--active),
+      &.v-list-item--active {
+        color: #56565A !important;
+        @media screen and (max-width: 944px) {

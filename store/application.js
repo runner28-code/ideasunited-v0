@@ -2,6 +2,7 @@ const store = {
   namespaced: true,
   state: () => ({ loaded: false, timelineAspectRatio: null }),
   mutations: {
+// Temp comment
     setLoaded(state, val) {
       state.loaded = val;
     },
@@ -14,3 +15,4 @@ const store = {
       return new Promise(resolve => {
         Promise.all([
           dispatch("user/fetch", null, { root: true }),
+          dispatch("datasources/fetch", null, { root: true })

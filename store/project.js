@@ -1,4 +1,3 @@
-/* eslint-disable */
 import moment from "moment-timezone";
 
 const store = {
@@ -9,7 +8,6 @@ const store = {
       state.current = current;
     },
   },
-// Temp comment
   actions: {
     async fetch({ commit }) {
       const { data } = await this.$api.Project.current({
@@ -20,3 +18,4 @@ const store = {
       commit("set", data);
 
       return data;
+    },

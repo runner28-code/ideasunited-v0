@@ -4,6 +4,7 @@ import cookies from "vue-cookies";
 const store = {
   namespaced: true,
   state: () => ({}),
+  mutations: {
     setToken(state, token) {
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
       const cookieDomain =
@@ -15,6 +16,7 @@ const store = {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
+// Temp comment
       }
     }
   },

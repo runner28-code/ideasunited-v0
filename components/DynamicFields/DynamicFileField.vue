@@ -76,3 +76,4 @@ export default {
     z-index: 1;
   }
 
+  &__validation {

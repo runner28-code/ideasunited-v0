@@ -53,6 +53,7 @@ export default {
       try {
         const { data } = await this.$api.Auth.setPassword({
           ...this.form,
+          token: this.token
         });
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
@@ -71,3 +72,4 @@ export default {
   top: 0;
   left: 0;
   bottom: 0;
+  right: 0;

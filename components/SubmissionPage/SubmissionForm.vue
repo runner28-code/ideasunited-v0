@@ -20,7 +20,6 @@
             </div>
             <div>
               <br />
-              <Button @click="supportDialog = true">Contact Us</Button>
             </div>
           </div>
           <div v-else>
@@ -49,6 +48,7 @@
           </v-card>
         </v-dialog>
       </client-only>
+    </div>
   </div>
 </template>
 
@@ -93,3 +93,4 @@ export default {
         timestamp: new Date(),
       };
     },
+    close() {

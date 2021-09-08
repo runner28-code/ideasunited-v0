@@ -114,3 +114,4 @@ export default {
 .mobile-bglede {
   display: none;
   @media screen and (max-width: 944px) {
+    display: flex;

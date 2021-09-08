@@ -100,6 +100,7 @@
             >{{ menuItem.footer_menu_title }}</a
           >
           <a
+            @click.prevent="menuItem.onclick"
             v-else-if="menuItem.url_type == 'click'"
           >
             {{ menuItem.footer_menu_title }}
@@ -289,3 +290,4 @@ export default {
     display: flex;
     flex-direction: column;
     width: 100%;
+

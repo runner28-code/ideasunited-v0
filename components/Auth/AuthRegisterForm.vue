@@ -129,6 +129,7 @@ export default {
     },
     clickRegister() {
       this.loginFormRequest = true;
+      this.chooseSignUp = true;
       this.updateDialogState();
     },
     loginFormResponse(res) {
@@ -167,3 +168,4 @@ export default {
     margin: 0 auto;
   }
   &__not-registered {
+    text-align: center;

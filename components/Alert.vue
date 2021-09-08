@@ -91,3 +91,5 @@ export default {
 
     .v-alert__content {
     }
+
+    a {

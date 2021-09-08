@@ -59,3 +59,4 @@ export default {
     }
   },
   methods: {
+    goToChapter(c) {

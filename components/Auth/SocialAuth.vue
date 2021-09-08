@@ -21,6 +21,7 @@
         <v-icon color="white" size="24">${{ item.provider }}</v-icon>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -88,3 +89,4 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;

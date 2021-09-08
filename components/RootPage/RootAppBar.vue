@@ -236,3 +236,10 @@ export default {
       display: flex;
       align-items: center;
     }
+    &__thumb {
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+      background-position: center;
+      margin-right: 10px;
+      flex-shrink: 0;

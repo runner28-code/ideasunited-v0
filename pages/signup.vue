@@ -3,6 +3,7 @@
     <AuthRegisterForm v-if="!currentUser" />
     <div 
       v-if="currentUser"
+      >
       <div>You are logged in.<br/><br/></div>
       <v-btn
         @click.prevent="logout()"
@@ -52,3 +53,4 @@ export default {
 
   &__form {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+    background: white;

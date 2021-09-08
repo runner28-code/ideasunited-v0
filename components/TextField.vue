@@ -38,7 +38,6 @@ export default {
   props: {
     placeholder: String,
     label: String,
-    value: [String, Number],
     type: {
       type: String,
       default: "text"
@@ -89,3 +88,4 @@ export default {
   width: 270px;
   margin-bottom: 14px;
 
+  &.block {

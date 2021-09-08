@@ -158,6 +158,7 @@ export default {
         .map(t => {
           const startAt = this.$moment
             .tz(t.start_at, this.currentTimezone)
+            .format("YYYY/MM/DD");
           if (
             dates[startAt] ||
             !this.availableEvent(t) ||
@@ -183,3 +184,5 @@ export default {
       deep: true,
       handler() {
         const ids = this.events.map(t => t.id);
+        const { id } = this.value;
+        if (ids.includes(id)) {

@@ -161,3 +161,4 @@ export default {
   }
   &__item-label {
     font-weight: normal;
+    font-size: 16px;

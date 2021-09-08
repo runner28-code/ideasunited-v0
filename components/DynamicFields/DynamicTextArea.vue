@@ -3,6 +3,7 @@
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
     @input="$emit('input', $event)"
+    :rules="rules"
     auto-grow
     outlined
     class="dynamic-textarea"
@@ -13,7 +14,6 @@
 <script>
 export default {
   props: {
-    label: String,
     value: String,
     rules: {
       type: Array,
@@ -26,3 +26,4 @@ export default {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
+  }

@@ -19,10 +19,10 @@ if (!Vue.__map_state_mixin__) {
           });
         }
       },
+// Temp comment
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
-// Temp comment
             title,
             description,
             callback: (value) => {
