@@ -4,6 +4,7 @@
     <NotAuthorized v-else-if="status == 403" />
     <RootPage v-else-if="status == 200" />
   </div>
+</template>
 
 <script>
 export default {
@@ -21,7 +22,6 @@ export default {
           !_.intersection(this.page.role_ids, this.currentUser.role_ids).length)
       ) {
         return 403;
-      } else {
         return 200;
       }
     }

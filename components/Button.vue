@@ -7,7 +7,6 @@
     :block="block"
     :xLarge="xLarge"
     :color="calcColor"
-    :type="type"
     :outlined="outlined"
     :text="text"
     class="elevation-0 btn"

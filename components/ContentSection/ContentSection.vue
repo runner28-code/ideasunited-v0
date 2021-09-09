@@ -268,3 +268,4 @@ export default {
   }
 
   &:not(.disable_scroll) {
+    &::v-deep {

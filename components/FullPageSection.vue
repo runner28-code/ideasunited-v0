@@ -115,3 +115,4 @@ export default {
   display: none;
   @media screen and (max-width: 944px) {
     display: flex;
+    background-position: center;

@@ -4,7 +4,6 @@
     :style="{
       backgroundImage: activeTheme.splash_screen.url
         ? `url(${activeTheme.splash_screen.url})`
-        : null
     }"
   >
     <AuthForm @disableAuth="$emit('disableAuth', $event)" />
@@ -14,6 +13,7 @@
 <script>
 export default {};
 </script>
+
 <style scoped lang="scss">
 .auth-page {
   width: 100%;

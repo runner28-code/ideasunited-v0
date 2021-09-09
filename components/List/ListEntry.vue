@@ -18,7 +18,6 @@
 </template>
 
 <script>
-export default {
   props: {
     entry: Object
   }
@@ -30,6 +29,7 @@ export default {
   width: 25%;
   padding: 15px;
   display: flex;
+
   &__preview {
     width: 40px;
     height: 40px;

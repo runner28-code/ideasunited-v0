@@ -12,6 +12,7 @@
   </v-app>
 </template>
 
+<script>
 export default {
   layout: 'empty',
   props: {
@@ -21,7 +22,6 @@ export default {
     }
   },
   data () {
-    return {
       pageNotFound: '404 Not Found',
       otherError: 'An error occurred'
     }

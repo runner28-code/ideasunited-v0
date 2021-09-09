@@ -17,6 +17,7 @@ export default {
   props: {
     value: String,
     page: Object,
+  },
   data() {
     return {
       loaded: false,
@@ -64,3 +65,4 @@ export default {
           };
 
           const t = loadModule(
+            sfc_name + "_" + component.updated_at + ".vue",

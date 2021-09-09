@@ -130,3 +130,4 @@ export default {
     padding: 0 40px !important;
     display: flex;
     width: 100%;
+  }

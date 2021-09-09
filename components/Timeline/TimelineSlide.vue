@@ -125,3 +125,5 @@ export default {
     right: -0px;
     top: -0px;
     bottom: -0px;
+    background: rgba(16, 24, 32, 0.6);
+    border-radius: 6px;

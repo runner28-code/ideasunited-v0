@@ -7,6 +7,7 @@
 <script>
 import { getHash } from "@/utils";
 
+export default {
   props: {
     name: String,
     id: String
@@ -30,7 +31,6 @@ import { getHash } from "@/utils";
         "#1a237e"
       ]
     };
-  },
   computed: {
     styles() {
       return {

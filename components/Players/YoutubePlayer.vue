@@ -17,4 +17,5 @@ export default {
     youtubeId: String
   }
 };
+</script>
 

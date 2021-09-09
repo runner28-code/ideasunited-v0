@@ -16,10 +16,10 @@ const store = {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
-// Temp comment
       }
     }
   },
+// Temp comment
   actions: {
     async login({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.login(params);

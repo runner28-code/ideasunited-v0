@@ -16,7 +16,6 @@ export default async function (req, res, next) {
         },
       }
     );
-// Temp comment
 
     if (
       project &&

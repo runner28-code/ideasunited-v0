@@ -53,6 +53,7 @@ export default {
     isStatic: Boolean,
   },
   data() {
+    return {
       year: new Date().getFullYear(),
       supportDialog: false,
       supportForm: null,
@@ -130,3 +131,5 @@ export default {
     width: 277px;
     height: 52px;
     img {
+      display: block;
+      max-width: 100%;

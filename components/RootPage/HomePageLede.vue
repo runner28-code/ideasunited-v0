@@ -364,3 +364,4 @@ export default {
   &__text-wrapper {
     width: 100%;
     height: 100%;
+    padding: 30px 120px calc(10.4167% + 30px);

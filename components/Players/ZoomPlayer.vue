@@ -14,6 +14,7 @@
       <div class="zoom-player__title">{{ event.title }}</div>
       <div class="zoom-player__subtitle" v-if="event.start_at">
         {{
+          event.start_at
             | moment("timezone", currentTimezone, "dddd M/D/YYYY")
         }}
         at
@@ -45,7 +46,6 @@ export default {
   methods: {
     openZoomLink() {
       window.open(this.event.zoom_url, "_blank");
-    },
     async fetchSignature() {
       const { zoom_id, zoom_password } = this.event;
       const { full_name, email } = this.currentUser || {};

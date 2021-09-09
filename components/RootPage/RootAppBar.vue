@@ -243,3 +243,8 @@ export default {
       background-position: center;
       margin-right: 10px;
       flex-shrink: 0;
+    }
+    &__new {
+      color: white;
+      opacity: 0.7;
+      font-size: 11px;

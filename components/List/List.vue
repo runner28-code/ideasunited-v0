@@ -44,4 +44,4 @@ export default {
   &__wrapper {
     padding: 40px 90px;
   }
-  &__items {
+    display: flex;
