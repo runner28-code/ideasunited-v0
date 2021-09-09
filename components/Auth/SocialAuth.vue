@@ -72,9 +72,9 @@ export default {
   computed: {
     items() {
       const intersection = _.intersection(this.currentProject.addons, [
+        "Addon::TwitterLogin",
         "Addon::FacebookLogin",
         "Addon::LinkedinLogin",
-        "Addon::GoogleLogin"
       ]).map(t => this.authParams[t.replace("Addon::", "")]);
 
       return intersection;

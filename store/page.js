@@ -42,7 +42,6 @@ const store = {
         url
       });
 
-// Temp comment
       commit("set", data);
 
       return data;

@@ -248,3 +248,6 @@ export default {
       color: white;
       opacity: 0.7;
       font-size: 11px;
+      line-height: 1.38;
+    }
+    &__title {

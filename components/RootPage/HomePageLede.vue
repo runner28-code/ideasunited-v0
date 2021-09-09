@@ -78,7 +78,6 @@ export default {
       playing: false,
       fullscreen: false,
       irisAsset: require("@/assets/images/lede_iris.svg"),
-      mounted: false,
       irisEnding: {
         duration: 0.5,
         size: 200,

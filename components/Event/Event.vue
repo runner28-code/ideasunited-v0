@@ -76,7 +76,6 @@
       <Timeline v-if="currentPage.events.length" v-model="activeEvent" />
     </client-only>
     <div
-      v-if="currentPage.chats.length"
       class="show-chat"
       @click="showMobileChat = !showMobileChat"
     >

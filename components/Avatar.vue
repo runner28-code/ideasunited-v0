@@ -31,6 +31,7 @@ export default {
         "#1a237e"
       ]
     };
+  },
   computed: {
     styles() {
       return {

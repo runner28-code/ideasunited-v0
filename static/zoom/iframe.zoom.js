@@ -15,6 +15,7 @@ ZoomMtg.init({
   debug: true,
   leaveUrl: "https://zoom.us"
 });
+
 const joinParams = {
   meetingNumber,
   userName,

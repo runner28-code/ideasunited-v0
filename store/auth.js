@@ -19,10 +19,10 @@ const store = {
       }
     }
   },
-// Temp comment
   actions: {
     async login({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.login(params);
+// Temp comment
       commit("setToken", data.token);
       return await dispatch("user/fetch", null, { root: true });
     },

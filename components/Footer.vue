@@ -110,7 +110,6 @@ export default {
     display: flex;
     width: 100%;
     align-items: stretch;
-    justify-content: space-between;
   }
 
   &__start {
@@ -133,3 +132,16 @@ export default {
     img {
       display: block;
       max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+
+    &-item {
+      margin: 0 11px;
+      font-weight: 700;
+
+      a {

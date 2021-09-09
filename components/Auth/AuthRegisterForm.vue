@@ -64,7 +64,6 @@
             </Button>
           </div>
         </div> <!-- v-if="!currentUser.confirmed" -->
-      </div> <!-- v-if="currentUser" -->
     </div> <!-- v-if="registrationForm" -->
   </div>
 </template>

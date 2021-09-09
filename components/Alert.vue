@@ -58,7 +58,6 @@ export default {
   margin: 0 !important;
   width: 100%;
   padding: 0;
-  height: 100%;
   font-size: 1em;
   flex: 1;
   display: flex;

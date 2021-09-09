@@ -32,6 +32,7 @@ export default {
     ChatChannel: {
       received({ type, payload }) {
         switch (type) {
+          case "update_chat_params":
             this.$store.commit("page/updateChat", payload);
             break;
         }
@@ -55,3 +56,4 @@ export default {
   flex-direction: column;
   height: 100%;
   overflow: hidden;
+  border: 1px solid #e5e5e5;

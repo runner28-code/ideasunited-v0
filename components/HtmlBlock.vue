@@ -1,5 +1,6 @@
 <template>
   <div v-html="htmlBlock.html"></div>
+</template>
 
 <script>
 export default {
@@ -7,5 +8,4 @@ export default {
     value: String,
     page: Object,
   },
-  computed: {
     htmlBlock() {
