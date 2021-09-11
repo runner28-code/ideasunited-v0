@@ -145,7 +145,6 @@ export default {
   letter-spacing: 0.2em;
   white-space: pre-line;
   line-height: 1.2;
-}
 
 .countdown-timer {
   display: flex;

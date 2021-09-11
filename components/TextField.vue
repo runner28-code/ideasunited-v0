@@ -85,6 +85,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.text-field {
   width: 270px;
   margin-bottom: 14px;
 

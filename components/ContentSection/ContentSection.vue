@@ -189,7 +189,6 @@ export default {
             }, untilEnd);
           }
         }
-      });
     },
     toggleViewMore() {
       this.viewMore = !this.viewMore;

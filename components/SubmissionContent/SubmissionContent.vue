@@ -35,7 +35,6 @@ export default {
   },
   data() {
     return {
-      list: [],
       infiniteId: +new Date(),
       page: 1,
       search: ""

@@ -18,7 +18,6 @@
   >
     <slot></slot>
   </v-btn>
-</template>
 
 <script>
 import { getThemeByColor } from "@/utils";
@@ -30,6 +29,7 @@ export default {
     xLarge: Boolean,
     outlined: Boolean,
     block: Boolean,
+    to: String,
     type: String,
     refs: Object,
     text: Boolean,

@@ -126,7 +126,6 @@ export default {
         chevron_right: "mdi-chevron-right",
         chevron_up: "mdi-chevron-up",
         chevron_down: "mdi-chevron-down",
-// Temp comment
         arrow_left: "mdi-arrow-left",
         arrow_right: "mdi-arrow-right",
         google: "mdi-google-plus",

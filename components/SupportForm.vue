@@ -36,6 +36,7 @@ export default {
   },
   mounted(){
     this.$root.$on('resetSupportForm', () => {
+      if(this.submitted) {
         setTimeout(() => {
           this.form.data = {};
           this.submitted = false;

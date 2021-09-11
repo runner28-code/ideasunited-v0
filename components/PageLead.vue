@@ -26,7 +26,6 @@ export default {
     styles() {
       const styles = {};
       const { lead_text_color, lead_background } = this.currentPage;
-
       if (lead_background) {
         styles.backgroundImage = `url(${lead_background.large.url})`;
       }
