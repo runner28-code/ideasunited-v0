@@ -11,7 +11,6 @@ export default {
   data() {
     return {
       seconds: 25,
-      animating: false
     }
   },
   computed: {
@@ -45,3 +44,4 @@ export default {
 .marquee {
   width: 100%;
   will-change: transform, margin-left;
+  overflow-x: hidden;

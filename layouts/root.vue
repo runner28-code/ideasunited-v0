@@ -86,7 +86,7 @@ export default {
         });
       }
 
-
+      const fontkitIds = _.uniq(typekitFonts.map(font => font.typekit_id));
       fontkitIds.forEach(fontkitId => {
         this.$WebFont.load({
           typekit: {
@@ -165,3 +165,4 @@ export default {
             font-family: ${this.activeTheme.h2_font.font.font_name}, sans-serif;
             font-size: ${this.activeTheme.h2_font.size}px;
             letter-spacing: ${this.activeTheme.h2_font.letter_spacing}px;
+            font-style: ${this.activeTheme.h2_font.style};

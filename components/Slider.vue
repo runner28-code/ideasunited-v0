@@ -51,3 +51,4 @@ export default {
 
 <style lang="scss" scoped>
 .slider {
+  &-wrapper {

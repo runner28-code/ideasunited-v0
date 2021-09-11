@@ -77,6 +77,7 @@ export default {
       preloadedImgBase64s: {},
       scrollDelayCounter: 0,
       scrollDelay: 5,
+      clickingToSection: false,
       keyIsDown: false,
     };
   },
@@ -249,3 +250,4 @@ export default {
       if (posX) styles.backgroundPositionX = `${posX}%`;
       const posY = this.page.lead_background_styles.backgroundPositionY;
       if (posY) styles.backgroundPositionY = `${posY}%`;
+      return styles;

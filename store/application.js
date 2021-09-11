@@ -3,7 +3,6 @@ const store = {
   state: () => ({ loaded: false, timelineAspectRatio: null }),
   mutations: {
     setLoaded(state, val) {
-      state.loaded = val;
     },
     setTimelineAspectRatio(state, val) {
       state.timelineAspectRatio = val;
@@ -15,3 +14,4 @@ const store = {
         Promise.all([
           dispatch("user/fetch", null, { root: true }),
           dispatch("datasources/fetch", null, { root: true })
+        ]).then(() => {

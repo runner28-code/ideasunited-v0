@@ -170,3 +170,4 @@ export default {
   &__not-registered {
     text-align: center;
   }
+}

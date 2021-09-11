@@ -291,3 +291,4 @@ export default {
     flex-direction: column;
     width: 100%;
 
+    & > &-item:last-child.app-bar__nav-item--button {

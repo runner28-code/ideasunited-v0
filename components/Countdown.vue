@@ -60,7 +60,6 @@ export default {
     this.startCountdown();
   },
   computed: {
-    styles() {
       const color = this.countdown.text_color;
       const data = { color };
       if (this.countdown.bg_color)
@@ -145,6 +144,7 @@ export default {
   letter-spacing: 0.2em;
   white-space: pre-line;
   line-height: 1.2;
+}
 
 .countdown-timer {
   display: flex;
@@ -162,3 +162,4 @@ export default {
     font-weight: normal;
     font-size: 16px;
     line-height: 16px;
+  }

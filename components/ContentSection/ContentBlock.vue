@@ -126,3 +126,4 @@ export default {
     opacity: 0.9;
   }
 
+  &__icon {

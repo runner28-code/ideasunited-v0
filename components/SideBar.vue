@@ -245,3 +245,4 @@ export default {
       &.v-list-item--active {
         color: #56565A !important;
         @media screen and (max-width: 944px) {
+          color: white !important;

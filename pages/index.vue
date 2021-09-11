@@ -14,6 +14,7 @@ export default {
       if (!this.page && !this.currentProject) return 404;
 
       if (this.currentProject) return 200;
+
       if (
         (this.page.authorized && !this.currentUser) ||
         (this.currentUser &&

@@ -24,6 +24,7 @@
             }}
           </div>
           <div class="timeline-slide__text-name">
+            {{ value.short_title || value.title }}
           </div>
         </div>
 
@@ -128,3 +129,5 @@ export default {
     border-radius: 6px;
   }
 
+  &__date {
+    margin-top: -30px;

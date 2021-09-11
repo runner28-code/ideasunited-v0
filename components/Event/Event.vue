@@ -212,3 +212,5 @@ export default {
       font-size: 16px;
       line-height: 1.2;
       margin-top: 10px;
+      color: #4a4a4a;
+    }

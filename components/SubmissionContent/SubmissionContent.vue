@@ -35,6 +35,7 @@ export default {
   },
   data() {
     return {
+      list: [],
       infiniteId: +new Date(),
       page: 1,
       search: ""
@@ -87,3 +88,4 @@ export default {
         .join("\n");
       const styles = [styles1, styles2].join("\n");
       return `<style>${styles || ""}</style>`;
+    }

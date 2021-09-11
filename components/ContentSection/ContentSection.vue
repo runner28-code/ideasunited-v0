@@ -189,6 +189,7 @@ export default {
             }, untilEnd);
           }
         }
+      });
     },
     toggleViewMore() {
       this.viewMore = !this.viewMore;
@@ -268,3 +269,5 @@ export default {
 
   &:not(.disable_scroll) {
     &::v-deep {
+      .content-section-item__text {
+        // position: absolute;

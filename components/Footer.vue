@@ -146,3 +146,4 @@ export default {
       font-weight: 700;
 
       a {
+        text-decoration: none;

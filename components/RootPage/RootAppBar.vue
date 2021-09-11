@@ -12,7 +12,6 @@
           <img :src="isProduction() ? whiteLogo : redLogo" width="258" alt="Logo" />
         </router-link>
       </v-toolbar-title>
-      <v-spacer></v-spacer>
       <transition name="fade">
         <div
           class="app-bar__new-opps"
@@ -71,6 +70,7 @@
             <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
           <v-btn
+            icon
             class="app-bar__new-opps-details__eye"
             small
           >
@@ -253,3 +253,7 @@ export default {
       color: white;
       font-weight: 700;
     }
+    &__description {
+      margin-top: 8px;
+      font-size: 12px;
+      line-height: 14px;

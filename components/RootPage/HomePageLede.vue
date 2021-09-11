@@ -1,5 +1,4 @@
 <template>
-  <div class="root-lede" :class="{fullscreen, playing}">
     <div class="root-lede__preview">
       <div class="root-lede__preview-content">
         <div class="root-lede__preview-media-wrapper">
@@ -365,3 +364,5 @@ export default {
     width: 100%;
     height: 100%;
     padding: 30px 120px calc(10.4167% + 30px);
+    display: flex;
+    align-items: center;

@@ -68,7 +68,6 @@ a.text-block__item-wrapper:hover {
 
     &-wrapper {
       padding: 10px;
-      display: block;
       text-decoration: none;
       color: inherit;
       transition: 0.3s;
@@ -83,3 +82,4 @@ a.text-block__item-wrapper:hover {
     &-description {
       font-size: 16px;
       line-height: 16px;
+      margin-top: 20px;

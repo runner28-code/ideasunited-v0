@@ -45,3 +45,4 @@ export default {
     line-height: 1.2;
   }
 
+  &__status {

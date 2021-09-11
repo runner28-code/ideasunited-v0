@@ -215,3 +215,4 @@ export default {
           visibility: visible !important;
         }
       `;
+    },

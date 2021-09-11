@@ -13,7 +13,6 @@ export default async function (req, res, next) {
           Nuxt: process.env.NUXT_ID,
           "App-Host": host,
           "App-Root-Path": req.url,
-        },
       }
     );
 

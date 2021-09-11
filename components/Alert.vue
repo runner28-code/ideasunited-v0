@@ -93,3 +93,4 @@ export default {
     }
 
     a {
+      text-decoration: underline;
