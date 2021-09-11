@@ -61,8 +61,3 @@ export default {
               document.head.insertBefore(style, ref);
 
               if (styleExist) styleExist.remove();
-            }
-          };
-
-          const t = loadModule(
-            sfc_name + "_" + component.updated_at + ".vue",

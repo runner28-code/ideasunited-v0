@@ -80,6 +80,7 @@ export default {
 
       this.interval = setInterval(() => {
         this.calc();
+      }, 1000);
     },
     daysWithoutMonths(ms) {
       return Math.floor(ms / 1000 / 60 / 60 / 24);

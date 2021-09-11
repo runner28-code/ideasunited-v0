@@ -4176,7 +4176,6 @@ htmlparser2@^6.1.0:
   integrity sha512-gyyPk6rgonLFEDGoeRgQNaEUvdJ4ktTmmUh/h2t7s+M8oPpIPxgNACWa+6ESR57kXstwqPiCut0V8NRpcwgU7A==
   dependencies:
     domelementtype "^2.0.1"
-    domhandler "^4.0.0"
     domutils "^2.5.2"
     entities "^2.0.0"
 

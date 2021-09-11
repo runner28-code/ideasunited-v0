@@ -251,3 +251,4 @@ export default {
       line-height: 1.38;
     }
     &__title {
+      color: white;

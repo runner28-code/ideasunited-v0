@@ -73,6 +73,7 @@ export default {
             t => t.type == "Event"
           );
           if (hasEventBlock) {
+            const event_type = this.block.video_player_type;
             this.$root.$emit("setActiveEvent", {
               ...this.block,
               event_type,

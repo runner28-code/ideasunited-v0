@@ -75,6 +75,7 @@ export default {
         "Addon::TwitterLogin",
         "Addon::FacebookLogin",
         "Addon::LinkedinLogin",
+        "Addon::GoogleLogin"
       ]).map(t => this.authParams[t.replace("Addon::", "")]);
 
       return intersection;

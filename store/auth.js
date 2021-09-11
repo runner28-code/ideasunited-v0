@@ -10,6 +10,7 @@ const store = {
       const cookieDomain =
         process.env.NODE_ENV === "development"
           ? "localhost"
+// Temp comment
           : "." + window.location.hostname;
       console.info('auth cookieDomain', cookieDomain);
       if (token) {
@@ -22,7 +23,6 @@ const store = {
   actions: {
     async login({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.login(params);
-// Temp comment
       commit("setToken", data.token);
       return await dispatch("user/fetch", null, { root: true });
     },

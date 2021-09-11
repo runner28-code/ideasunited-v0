@@ -19,6 +19,7 @@
         :value="item.uuid"
         @focus.stop="onFocus($event)"
       ></v-radio>
+    </v-radio-group>
   </div>
 </template>
 
@@ -27,7 +28,6 @@ export default {
   props: {
     title: String,
     value: [String, Object, Number, Boolean],
-    options: {
       type: Array,
       default: () => []
     },

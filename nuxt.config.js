@@ -101,6 +101,7 @@ export default {
     // "/uploads": {
     //   target: process.env.API_URL,
     //   changeOrigin: true
+    // },
     // "/cable": {
     //   target: process.env.WS_HOST,
     //   logLevel: "debug",
@@ -125,6 +126,7 @@ export default {
         chevron_right: "mdi-chevron-right",
         chevron_up: "mdi-chevron-up",
         chevron_down: "mdi-chevron-down",
+// Temp comment
         arrow_left: "mdi-arrow-left",
         arrow_right: "mdi-arrow-right",
         google: "mdi-google-plus",

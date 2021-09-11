@@ -17,7 +17,6 @@
     </template>
   </v-checkbox>
 </template>
-
 <script>
 export default {
   props: {

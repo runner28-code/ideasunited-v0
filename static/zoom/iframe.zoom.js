@@ -16,7 +16,6 @@ ZoomMtg.init({
   leaveUrl: "https://zoom.us"
 });
 
-const joinParams = {
   meetingNumber,
   userName,
   apiKey,

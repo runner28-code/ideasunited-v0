@@ -31,6 +31,7 @@ export default {
       const { full_name, email } = this.currentUser || {};
 
       this.zoomUrl = await buildZoomLink({
+        $api: this.$api,
         zoom_id,
         zoom_password,
         full_name,

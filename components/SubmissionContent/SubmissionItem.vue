@@ -25,7 +25,6 @@
       :prevId="prevId"
       :nextId="nextId"
       :id="item.id"
-      name="article"
       scrollToElement
       v-model="dialog"
     >
@@ -93,7 +92,3 @@ export default {
   }
 };
 </script>
-
-<style scoped lang="scss">
-.submission-item {
-  cursor: pointer;
