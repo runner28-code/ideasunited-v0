@@ -112,22 +112,3 @@ export default {
 .file-input {
   cursor: pointer;
   &__icon {
-    cursor: pointer;
-  }
-  &::v-deep.v-text-field--enclosed .v-input__append-inner {
-    margin-top: 12px;
-  }
-}
-.uploader {
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.2s;
-  border: 2px dashed rgba(0, 0, 0, 0.38);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  height: 100px;

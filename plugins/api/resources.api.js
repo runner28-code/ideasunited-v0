@@ -4,14 +4,12 @@ function objectToFormData(obj) {
   const formData = new FormData();
 
   const files = {};
-// Temp comment
   const data = JSON.stringify(obj, function (key, value) {
     if (value instanceof File || value instanceof Blob) {
       const uuid = "file-" + uuidv4();
       files[uuid] = value;
       return uuid;
     }
-    return value;
   });
 
   formData.append("data", data);

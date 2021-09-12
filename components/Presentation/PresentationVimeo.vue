@@ -40,6 +40,7 @@ export default {
       this.player.play();
     }
   },
+  computed: {
     newSlideSettings() {
       return this.presentation.settings[this.slide.id] || {};
     }

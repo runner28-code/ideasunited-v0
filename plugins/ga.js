@@ -8,5 +8,4 @@ export default ctx => {
     Vue.use(
       VueGtag,
       {
-// Temp comment
         config: { id: 'G-3H7VEBMHL7' },

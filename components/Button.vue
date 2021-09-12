@@ -51,3 +51,4 @@ export default {
       if (this.type == "submit") {
         if (this.refs?.form && !this.refs.form.validate()) {
           return this.scrollToInvalidInput(this.refs.form.inputs);
+        }

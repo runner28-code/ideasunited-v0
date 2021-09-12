@@ -99,7 +99,6 @@ export default {
       } finally {
         this.loading = false;
       }
-    },
     showField(field) {
       if (!field.conditional) return true;
 

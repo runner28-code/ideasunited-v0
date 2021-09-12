@@ -3,7 +3,6 @@
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
     @input="$emit('input', $event)"
-    :rules="rules"
     auto-grow
     outlined
     class="dynamic-textarea"
@@ -19,6 +18,7 @@ export default {
     rules: {
       type: Array,
       default: () => []
+    },
     required: Boolean,
     markRequired: Boolean
   },
