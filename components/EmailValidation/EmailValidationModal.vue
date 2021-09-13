@@ -41,6 +41,7 @@ export default {
         this.$set(suggestion, 'accepted', true);
       }
       if(this.suggestions.filter((s) => !s.accepted).length == 0) {
+        this.$emit('close');
         this.form.email_validation_options = {};
         this.$emit('submit');
       }

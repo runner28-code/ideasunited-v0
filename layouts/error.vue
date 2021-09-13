@@ -10,7 +10,6 @@
       Home page
     </NuxtLink>
   </v-app>
-</template>
 
 <script>
 export default {

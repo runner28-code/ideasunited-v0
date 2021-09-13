@@ -40,7 +40,6 @@
               label + (required && markRequired ? " *" : "")
           }}
         </div>
-        <input @change="handleChange" class="uploader__input" type="file" />
       </label>
       <v-text-field
         ref="validation"
@@ -112,3 +111,4 @@ export default {
 .file-input {
   cursor: pointer;
   &__icon {
+    cursor: pointer;

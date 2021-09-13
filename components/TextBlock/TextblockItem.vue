@@ -74,6 +74,7 @@ a.text-block__item-wrapper:hover {
       transition: 0.3s;
       opacity: 1;
     }
+
     &-title {
       font-weight: 900;
       font-size: 48px;

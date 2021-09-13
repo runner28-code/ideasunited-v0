@@ -74,6 +74,7 @@ export default {
       cursor: pointer;
 
       &:hover {
+        background: rgba(255, 255, 255, 0.1);
       }
     }
   }

@@ -258,3 +258,5 @@ export default {
       margin-top: 8px;
       font-size: 12px;
       line-height: 14px;
+      max-height: 56px;
+      overflow: hidden;

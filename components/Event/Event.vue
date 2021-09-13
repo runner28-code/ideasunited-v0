@@ -130,7 +130,6 @@ export default {
   span {
     display: flex;
     align-items: center;
-  }
 }
 
 .event {

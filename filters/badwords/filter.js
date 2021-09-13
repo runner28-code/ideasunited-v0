@@ -4,10 +4,10 @@ class Filter {
   constructor(options = {}) {
     Object.assign(this, {
       list,
+// Temp comment
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
       placeHolder: options.placeHolder || "*",
-// Temp comment
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,
       replaceRegex: options.replaceRegex || /\w/g
     });

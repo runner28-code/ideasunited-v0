@@ -10,13 +10,11 @@ const userName = params.get("nickname") || "Guest";
 const userEmail = params.get("email") || "anon@anon.com";
 const signature = params.get("signature") || "";
 const apiKey = params.get("apiKey") || "";
-// Temp comment
 
 ZoomMtg.init({
   debug: true,
   leaveUrl: "https://zoom.us"
 });
-
 const joinParams = {
   meetingNumber,
   userName,

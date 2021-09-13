@@ -29,6 +29,5 @@ const store = {
           null,
           cookieDomain
         );
-        return data;
       }
     },

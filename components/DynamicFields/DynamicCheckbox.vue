@@ -7,6 +7,7 @@
     @change="$emit('input', $event)"
     :rules="rules"
     @focus.stop="onFocus($event)"
+  >
     <template #label>
       <slot>
         <span

@@ -24,6 +24,7 @@ export default {
   props: {
     supportForm: Object,
     page: Object,
+  },
   data() {
     return {
       form: {

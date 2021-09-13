@@ -4,6 +4,7 @@
       <slot></slot>
     </div>
   </div>
+</template>
 
 <script>
 export default {
@@ -13,7 +14,6 @@ export default {
       animating: false
     }
   },
-  computed: {
     animStyle() {
       if (!this.animating) return ''
       return `

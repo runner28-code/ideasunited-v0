@@ -102,7 +102,6 @@ export default {
   },
   methods: {
     signUp() {
-      this.$root.$emit("authModal/open/register");
     },
     preloadVideo() {
       const { videoElem } = this.$refs;

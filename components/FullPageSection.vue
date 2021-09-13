@@ -90,6 +90,7 @@ export default {
     height: 0;
   }
   &-inner {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;

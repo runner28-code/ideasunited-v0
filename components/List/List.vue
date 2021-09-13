@@ -13,6 +13,7 @@
   </div>
 </template>
 
+<script>
 export default {
   props: {
     value: String,
@@ -36,7 +37,6 @@ export default {
     }
   }
 };
-</script>
 
 <style scoped lang="scss">
 .commons-list {

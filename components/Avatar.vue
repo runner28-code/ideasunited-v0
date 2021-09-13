@@ -28,7 +28,6 @@ export default {
         "#5d4037",
         "#455a64",
         "#1b5e20",
-        "#1a237e"
       ]
     };
   },
@@ -41,6 +40,7 @@ export default {
     initals() {
       return (this.name || "Anon")
         .split(" ")
+        .map(n => n[0])
         .join("")
         .substr(0, 2)
         .toUpperCase();
