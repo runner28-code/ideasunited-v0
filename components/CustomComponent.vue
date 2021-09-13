@@ -34,6 +34,7 @@ export default {
   },
   methods: {
     compile(component, callback) {
+      return new Promise(resolve => {
         const { sfc_name } = component;
 
         if (process.client) {

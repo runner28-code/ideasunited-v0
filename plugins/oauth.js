@@ -29,7 +29,6 @@ export default function(ctx, inject) {
           `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }
 
-      authorizationEndpoint =
         authorizationEndpoint + "?domain=" + location.hostname;
 
       const w = window.open(

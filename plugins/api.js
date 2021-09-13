@@ -1,4 +1,4 @@
 import resources from "./api/config.api";
-// Temp comment
 
+// Temp comment
 export default function(ctx, inject) {

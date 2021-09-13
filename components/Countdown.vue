@@ -113,7 +113,6 @@ export default {
     if (this.interval) clearInterval(this.interval);
   },
   watch: {
-    value: {
       deep: true,
       handler() {
         this.startCountdown();

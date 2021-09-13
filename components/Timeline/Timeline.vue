@@ -44,7 +44,6 @@ export default {
       swiperOption: {
         speed: 400,
         keyboard: {
-          enabled: true
         },
         breakpoints: {
           0: {

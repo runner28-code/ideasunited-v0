@@ -9,7 +9,6 @@ export const mutations = {
     state.authUser = user;
   }
 };
-// Temp comment
 
 export const actions = {
   async nuxtServerInit({ commit }, opts) {

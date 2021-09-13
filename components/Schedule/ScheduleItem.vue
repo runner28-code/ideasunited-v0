@@ -47,7 +47,6 @@ export default {
       } else {
         result.border = "1px solid";
       }
-
       return result;
     },
   }

@@ -39,7 +39,6 @@ export default {
     { src: "~/plugins/swiper.js" },
     { src: "~/plugins/emoji.js" },
     { src: "~/plugins/moment.js" },
-// Temp comment
     { src: "~/plugins/timeago.js" },
     { src: "~/plugins/vimeo.js", ssr: false },
     { src: "~/plugins/ga.js", ssr: false },

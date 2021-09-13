@@ -14,6 +14,7 @@
     validate-on-blur
     :suffix="suffix"
     :min="min"
+    :max="max"
     :class="{ block }"
     :name="name"
     :dark="calcTheme == 'dark'"
@@ -75,7 +76,6 @@ export default {
       this.$root.$emit("fullpageScrollFocus", this.$el);
     }
   },
-  watch: {
     type() {
       this.localType = this.type;
     }

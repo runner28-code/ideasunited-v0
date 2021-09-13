@@ -48,6 +48,7 @@ export default {
     deleteMessage(messageId) {
       this.messages = this.messages.filter(m => m.id != messageId);
       this.scrollBottom();
+    },
     updateMessage(payload) {
       this.messages = this.messages.map(m => {
         if (m.id == payload.id) {

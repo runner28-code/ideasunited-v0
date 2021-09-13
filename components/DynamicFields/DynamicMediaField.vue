@@ -40,6 +40,7 @@
               label + (required && markRequired ? " *" : "")
           }}
         </div>
+        <input @change="handleChange" class="uploader__input" type="file" />
       </label>
       <v-text-field
         ref="validation"
@@ -65,7 +66,6 @@ export default {
       default: 580 / 320
     },
     circle: Boolean,
-    position: {
       type: String,
       default: "center"
     },

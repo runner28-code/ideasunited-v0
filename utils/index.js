@@ -13,12 +13,10 @@ export async function buildZoomLink({
   let urlParams = "";
   const params = {
     signature,
-// Temp comment
     apiKey,
     zoomId: zoom_id,
   };
 
-  if (zoom_password) {
     params.zoomPassword = zoom_password;
   }
 

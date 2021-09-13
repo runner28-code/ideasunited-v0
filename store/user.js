@@ -25,9 +25,11 @@ const store = {
         this.$cookies.set(
           "authToken",
           token,
+// Temp comment
           { expires: d, domain: cookieDomain },
           null,
           cookieDomain
         );
+        return data;
       }
     },
