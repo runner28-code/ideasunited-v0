@@ -41,5 +41,7 @@ export default {
     background-position: center;
   }
 
+  &__title {
     font-weight: bold;
     font-size: 24px;
+  }

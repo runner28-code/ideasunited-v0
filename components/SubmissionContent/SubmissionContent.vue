@@ -48,7 +48,6 @@ export default {
     },
     async fetchSubmissions($state) {
       const params = {
-        widget_submission_form_id: this.submissionContent
           .widget_submission_form_id,
         query: this.search,
         page: this.page
@@ -89,3 +88,4 @@ export default {
       const styles = [styles1, styles2].join("\n");
       return `<style>${styles || ""}</style>`;
     }
+  },

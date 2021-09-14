@@ -113,6 +113,7 @@ export default {
     if (this.interval) clearInterval(this.interval);
   },
   watch: {
+    value: {
       deep: true,
       handler() {
         this.startCountdown();
@@ -163,3 +164,4 @@ export default {
     font-size: 16px;
     line-height: 16px;
   }
+  &__item-value {

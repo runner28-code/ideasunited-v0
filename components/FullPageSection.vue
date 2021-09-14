@@ -22,6 +22,7 @@
             :value="component.resource_id"
             :page="page"
             v-bind="component"
+            :is="convertComponent(component.type)"
             :disabled="formsDisabled"
           ></component>
         </div>
@@ -115,3 +116,5 @@ export default {
   @media screen and (max-width: 944px) {
     display: flex;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;

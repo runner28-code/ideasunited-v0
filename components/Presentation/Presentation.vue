@@ -20,7 +20,6 @@
       v-if="presentation.active_slide.slide_type == 'youtube'"
     />
   </div>
-</template>
 
 <script>
 export default {
@@ -28,3 +27,4 @@ export default {
     value: String,
     page: Object,
   },
+  computed: {

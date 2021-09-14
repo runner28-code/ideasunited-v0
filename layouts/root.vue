@@ -22,6 +22,7 @@
   </v-app>
 </template>
 
+<script>
 import _ from "lodash";
 import HomePageLede from "@/components/RootPage/HomePageLede";
 import RootAppBar from "@/components/RootPage/RootAppBar";
@@ -166,3 +167,5 @@ export default {
             font-size: ${this.activeTheme.h2_font.size}px;
             letter-spacing: ${this.activeTheme.h2_font.letter_spacing}px;
             font-style: ${this.activeTheme.h2_font.style};
+            font-weight: ${this.activeTheme.h2_font.weight};
+            text-transform: ${this.activeTheme.h2_font.case};

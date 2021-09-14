@@ -66,6 +66,7 @@ export default {
       default: 580 / 320
     },
     circle: Boolean,
+    position: {
       type: String,
       default: "center"
     },
@@ -112,3 +113,6 @@ export default {
   cursor: pointer;
   &__icon {
     cursor: pointer;
+  }
+  &::v-deep.v-text-field--enclosed .v-input__append-inner {
+    margin-top: 12px;

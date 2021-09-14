@@ -84,3 +84,4 @@ a.text-block__item-wrapper:hover {
       font-size: 16px;
       line-height: 16px;
       margin-top: 20px;
+    }

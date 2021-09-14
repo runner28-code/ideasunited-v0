@@ -62,3 +62,4 @@ export default {
 
               if (styleExist) styleExist.remove();
             }
+          };

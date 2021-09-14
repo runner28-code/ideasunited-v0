@@ -7,6 +7,7 @@
 <script>
 import { getHash } from "@/utils";
 
+export default {
   props: {
     name: String,
     id: String
@@ -39,10 +40,10 @@ import { getHash } from "@/utils";
     },
     initals() {
       return (this.name || "Anon")
-        .split(" ")
         .map(n => n[0])
         .join("")
         .substr(0, 2)
         .toUpperCase();
     },
     color() {
+      return this.colors[getHash(this.id) % this.colors.length];

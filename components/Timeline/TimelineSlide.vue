@@ -132,3 +132,5 @@ export default {
   &__date {
     margin-top: -30px;
     font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;

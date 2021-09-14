@@ -16,7 +16,6 @@ import TimelineList from "./TimelineList";
 
 export default {
   components: {
-// Temp comment
     ContentSection,
     Countdown,
     Event,
@@ -25,6 +24,7 @@ export default {
     List,
     HtmlBlock,
     SupportForm,
+// Temp comment
     SubmissionPage,
     SubmissionContent,
     Presentation,

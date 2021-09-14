@@ -271,3 +271,5 @@ export default {
     &::v-deep {
       .content-section-item__text {
         // position: absolute;
+      }
+    }

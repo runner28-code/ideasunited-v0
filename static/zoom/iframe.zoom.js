@@ -21,3 +21,4 @@ const joinParams = {
   userName,
   apiKey,
   signature,
+  userEmail,

@@ -260,3 +260,8 @@ export default {
       line-height: 14px;
       max-height: 56px;
       overflow: hidden;
+    }
+    &__actions {
+      padding: 4px 4px 4px 0;
+      display: flex;
+      flex-direction: column;

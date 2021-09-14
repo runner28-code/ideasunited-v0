@@ -57,3 +57,4 @@ export default {
   height: 100%;
   overflow: hidden;
   border: 1px solid #e5e5e5;
+}

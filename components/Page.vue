@@ -86,7 +86,6 @@ export default {
       if (item.url_type == "relative") {
         this.fullPageMoveTo(idx);
       }
-    });
 
     this.$root.$on("mobileScroll", (y) => {
       const i = this.$refs.sections.findIndex((s) => s.$el.offsetTop > y);
@@ -251,3 +250,5 @@ export default {
       const posY = this.page.lead_background_styles.backgroundPositionY;
       if (posY) styles.backgroundPositionY = `${posY}%`;
       return styles;
+    },
+    fullpageReady() {

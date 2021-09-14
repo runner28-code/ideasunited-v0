@@ -54,9 +54,9 @@ export default {
     });
   },
   watch: {
-    vimeoChapter() {
       this.goToChapter(this.vimeoChapter);
     }
   },
   methods: {
     goToChapter(c) {
+      this.player.getCurrentChapter().then(current_chapter => {

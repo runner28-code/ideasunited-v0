@@ -75,7 +75,7 @@ export default {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", this.$el);
     }
-  },
+  watch: {
     type() {
       this.localType = this.type;
     }
@@ -89,3 +89,4 @@ export default {
   margin-bottom: 14px;
 
   &.block {
+    width: 100%;

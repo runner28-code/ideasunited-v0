@@ -214,3 +214,4 @@ export default {
       margin-top: 10px;
       color: #4a4a4a;
     }
+

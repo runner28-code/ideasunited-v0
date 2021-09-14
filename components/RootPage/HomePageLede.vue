@@ -367,3 +367,6 @@ export default {
     padding: 30px 120px calc(10.4167% + 30px);
     display: flex;
     align-items: center;
+    pointer-events: none;
+    @media screen and (max-width: 960px) {
+      padding: 30px;

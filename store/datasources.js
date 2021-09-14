@@ -3,7 +3,6 @@ import Vue from "vue";
 
 const store = {
   namespaced: true,
-  state: () => ({ data: {} }),
 
   mutations: {
     set(state, data) {
@@ -15,5 +14,6 @@ const store = {
       const { data } = await this.$api.Datasources.get();
       commit("set", data);
 
+      return data;
     }
   },

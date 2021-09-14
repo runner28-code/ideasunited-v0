@@ -161,3 +161,4 @@ export default {
             rules.push( value => {
               return !value || value.type.startsWith('video/') || `File type must be a video.`;
             });
+            break;

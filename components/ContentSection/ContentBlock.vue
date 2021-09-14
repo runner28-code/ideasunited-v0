@@ -127,3 +127,4 @@ export default {
   }
 
   &__icon {
+    position: absolute;

@@ -3,6 +3,7 @@ export default {
     return {
       resending: false,
     }
+  },
   methods: {
     async resendConfirmationEmail() {
       this.resending = true;
@@ -11,3 +12,4 @@ export default {
         setTimeout(() => {
           this.resending = false;
         }, 120000);
+      } catch (e) {

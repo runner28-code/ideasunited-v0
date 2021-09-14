@@ -38,6 +38,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+    margin: 10px 0 20px 0;
   }
 
   .swiper-container {
@@ -56,3 +57,4 @@
     overflow: auto;
 
     &__slider {
+      position: absolute !important;

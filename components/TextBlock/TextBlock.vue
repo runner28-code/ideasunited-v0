@@ -69,7 +69,6 @@ export default {
     width: 100%;
   }
 
-  &__3 &__side-double &__item-wrapper {
     height: 50%;
   }
   
@@ -97,3 +96,4 @@ export default {
 }
 
 @media screen and (max-width: 960px) {
+  .text-block {

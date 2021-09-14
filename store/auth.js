@@ -17,6 +17,7 @@ const store = {
       } else {
         cookies.remove("authToken", null, cookieDomain);
       }
+// Temp comment
     }
   },
   actions: {

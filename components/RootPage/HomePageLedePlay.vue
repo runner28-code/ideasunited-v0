@@ -103,3 +103,4 @@
       margin-top: 5.5%;
     }
 
+    &::before {

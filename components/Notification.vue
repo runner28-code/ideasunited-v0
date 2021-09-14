@@ -61,9 +61,9 @@ export default {
           this.sidebar = true;
           break;
       }
-    });
   },
   methods: {
     closeSidebar() {
       this.sidebar = false;
       this.data = null;
+    },

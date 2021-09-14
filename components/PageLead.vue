@@ -46,3 +46,4 @@ export default {
   background-size: cover;
   background-position: center;
 
+  &__content {

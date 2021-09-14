@@ -44,6 +44,7 @@ export default {
       swiperOption: {
         speed: 400,
         keyboard: {
+          enabled: true
         },
         breakpoints: {
           0: {
@@ -111,7 +112,6 @@ export default {
 
       this.$root.$on("nextEvent", () => this.nextEvent());
       this.$root.$on("nextEventIfPlaying", id => {
-        console.info("nextEventIfPlaying id", id);
         this.$root.$emit("checkPosted");
         if (this.value.id == id) this.nextEvent();
       });
@@ -186,3 +186,5 @@ export default {
         const { id } = this.value;
         if (ids.includes(id)) {
           this.setActive(id);
+        }
+      }

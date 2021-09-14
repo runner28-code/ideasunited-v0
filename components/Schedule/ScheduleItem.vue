@@ -47,6 +47,7 @@ export default {
       } else {
         result.border = "1px solid";
       }
+
       return result;
     },
   }
@@ -68,3 +69,4 @@ export default {
     cursor: pointer;
   }
 
+  &.dark {
