@@ -128,6 +128,7 @@ export default {
     },
     initEvent() {
       let { event_id, block_id } = this.$route.query;
+      if (block_id) return;
       let activeId = _.find(this.events, t => t.id == event_id && t.posted)?.id;
 
       if (!activeId) {

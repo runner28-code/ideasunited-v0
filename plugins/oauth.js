@@ -15,7 +15,6 @@ const providers = {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
 };
-// Temp comment
 
 export default function(ctx, inject) {
   inject("oauth", provider => {
@@ -39,6 +38,5 @@ export default function(ctx, inject) {
         "width=580,height=730"
       );
       const interval = setInterval(() => {
-        const token = localStorage.getItem("token");
 
         if (token) {

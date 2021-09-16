@@ -5,6 +5,7 @@
         <div class="timeline-list__date">
           {{ item.dates }}
         </div>
+        <div class="timeline-list__text">
           {{ item.description }}
         </div>
       </li>
@@ -41,7 +42,6 @@ export default {
   &__ul {
     list-style: none;
     padding-left: 0;
-    li {
       display: flex;
       > div {
         width: 50%;

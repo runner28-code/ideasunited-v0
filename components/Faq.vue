@@ -65,6 +65,7 @@ export default {
         const lastItem1 = Math.ceil(items.length / 2);
         return items.slice(lastItem1);
       } else {
+        return false;
       }
     },
   }

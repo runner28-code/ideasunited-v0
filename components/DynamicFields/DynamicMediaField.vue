@@ -5,6 +5,7 @@
         class="file-input"
         :placeholder="label + (required && markRequired ? ' *' : '')"
         :value="value"
+        @input="$emit('input', $event)"
         :rules="rules"
         outlined
         prepend-icon=""
@@ -43,7 +44,6 @@
       </label>
       <v-text-field
         ref="validation"
-        class="uploader__validation"
         :value="value"
         type="hidden"
         hide-details="auto"

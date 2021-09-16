@@ -1,5 +1,4 @@
 /* eslint-disable */
-// Temp comment
 import Vue from "vue";
 
 const store = {
@@ -18,4 +17,3 @@ const store = {
 
       return data;
     }
-  },

@@ -138,7 +138,6 @@ export default {
         this.form.data[emailUuid] = res.email;
         if(res.password) {
           const passwordUuid = this.registrationForm.registration_form.find((field) => field.short_name == "password").uuid;
-          this.form.data[passwordUuid] = res.password;
         }
       }
       this.loginFormRequest = false;

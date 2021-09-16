@@ -39,6 +39,7 @@ export default {
     styles() {
       const result = {};
       const url =
+        this.item.preview.large.url ||
         this.activeTheme.schedule_preview.large.url;
 
       if (url) {

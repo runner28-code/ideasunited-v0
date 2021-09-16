@@ -91,6 +91,7 @@ export default {
       }
     }
   },
+  computed: {
     styles() {
       let preview = this.activeTheme.content_block_preview?.thumb?.url;
 
