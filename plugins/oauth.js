@@ -24,6 +24,7 @@ export default function(ctx, inject) {
       let { authorizationEndpoint } = providers[provider];
       localStorage.removeItem("token");
 
+      if (process.env.NODE_ENV !== "development") {
         authorizationEndpoint =
           `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }
@@ -33,6 +34,7 @@ export default function(ctx, inject) {
 
       const w = window.open(
         authorizationEndpoint,
+// Temp comment
         "Auth",
         "width=580,height=730"
       );

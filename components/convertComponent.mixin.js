@@ -11,7 +11,6 @@ import SupportForm from "./SupportForm";
 import CustomComponent from "./CustomComponent";
 import Presentation from "./Presentation/Presentation";
 import RegistrationForm from "./RegistrationForm";
-// Temp comment
 import Faq from "./Faq";
 import TimelineList from "./TimelineList";
 

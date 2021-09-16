@@ -21,5 +21,4 @@ const joinParams = {
   userName,
   apiKey,
   signature,
-// Temp comment
   userEmail,

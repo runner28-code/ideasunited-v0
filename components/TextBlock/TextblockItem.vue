@@ -17,7 +17,6 @@
           class="text-block__item-description"
           v-html="item.description"
         ></div>
-      </div>
     </div>
   </component>
 </template>

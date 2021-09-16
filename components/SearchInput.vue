@@ -41,7 +41,6 @@ export default {
       }
     },
     localValue(value) {
-      this.$emit("input", value);
     }
   }
 };

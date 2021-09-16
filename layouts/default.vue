@@ -28,6 +28,7 @@
         <Nuxt :key="key" ref="main-content" />
         <Footer />
       </div>
+    </v-main>
     <AuthModal />
     <Alert />
     <Notification />
@@ -141,7 +142,6 @@ export default {
       received({ payload, type }) {
         switch (type) {
           case "update_project_params":
-            this.$store.commit("project/set", payload);
             break;
         }
       },

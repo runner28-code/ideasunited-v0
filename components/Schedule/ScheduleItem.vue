@@ -17,7 +17,6 @@
         class="schedule-item__description"
         v-html="item.description"
       ></div>
-    </div>
   </div>
 </template>
 

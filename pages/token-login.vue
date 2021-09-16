@@ -1,5 +1,6 @@
 <template>
   <div></div>
+</template>
 
 <script>
 export default {
@@ -13,7 +14,6 @@ export default {
         this.$router.push("/");
       }
     }
-  },
   methods: {
     async login(token) {
       try {
