@@ -5,7 +5,6 @@
         class="file-input"
         :placeholder="label + (required && markRequired ? ' *' : '')"
         :value="value"
-        @input="$emit('input', $event)"
         :rules="rules"
         outlined
         prepend-icon=""
@@ -108,6 +107,7 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
 .file-input {
   cursor: pointer;
   &__icon {
@@ -118,3 +118,5 @@ export default {
   }
 }
 .uploader {
+  border-radius: 10px;
+  cursor: pointer;

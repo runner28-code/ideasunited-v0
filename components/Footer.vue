@@ -150,3 +150,4 @@ export default {
         color: inherit;
 
         &:hover {
+          text-decoration: underline;

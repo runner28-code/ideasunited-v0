@@ -72,7 +72,6 @@ export default {
           this.$root.$emit('fullpageRebuild');
           this.$root.$emit("authModal/close");
           this.$root.$emit('leaveSignup');
-          if(this.$route.name == 'index') window.location.href = frontendToProfile()[window.location.origin];
         } catch {}
       }
     },
@@ -152,3 +151,5 @@ export default {
   &-tab {
     height: 75px;
     display: flex;
+    align-items: center;
+    text-align: center;

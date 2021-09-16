@@ -91,7 +91,6 @@ export default {
       }
     }
   },
-  computed: {
     styles() {
       let preview = this.activeTheme.content_block_preview?.thumb?.url;
 
@@ -130,3 +129,4 @@ export default {
     position: absolute;
     top: 8px;
     left: 8px;
+    width: 28px;

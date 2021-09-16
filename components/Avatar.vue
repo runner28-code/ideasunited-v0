@@ -4,6 +4,7 @@
   </div>
 </template>
 
+<script>
 import { getHash } from "@/utils";
 
 export default {
@@ -47,3 +48,4 @@ export default {
     },
     color() {
       return this.colors[getHash(this.id) % this.colors.length];
+    }

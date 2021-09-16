@@ -42,7 +42,6 @@ export default {
   beforeDestroy() {
     this.$cable.unsubscribe({
       channel: "ChatChannel",
-      id: this.chat.id,
       env: this.currentProject.env
     });
   }
@@ -59,3 +58,4 @@ export default {
   border: 1px solid #e5e5e5;
 }
 
+.chat-item {

@@ -28,6 +28,7 @@
 
   &__content {
     overflow-y: auto;
+    padding: 50px;
   }
 
   &__title {
@@ -57,3 +58,4 @@
 
     &__slider {
       position: absolute !important;
+      left: 0;

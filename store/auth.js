@@ -36,3 +36,4 @@ const store = {
 
       return await dispatch("user/fetch", null, { root: true });
     },
+    async logout({ commit }) {

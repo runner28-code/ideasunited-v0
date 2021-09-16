@@ -64,3 +64,4 @@ export default {
             }
           };
 
+          const t = loadModule(

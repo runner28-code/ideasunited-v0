@@ -53,6 +53,7 @@ export default {
   border: 2px dashed rgba(0, 0, 0, 0.38);
   background-size: cover;
   background-position: center;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;

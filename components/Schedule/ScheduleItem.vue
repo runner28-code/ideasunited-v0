@@ -17,6 +17,7 @@
         class="schedule-item__description"
         v-html="item.description"
       ></div>
+    </div>
   </div>
 </template>
 
@@ -38,7 +39,6 @@ export default {
     styles() {
       const result = {};
       const url =
-        this.item.preview.large.url ||
         this.activeTheme.schedule_preview.large.url;
 
       if (url) {
@@ -70,3 +70,4 @@ export default {
 
   &.dark {
     color: white;
+  }

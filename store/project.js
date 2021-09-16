@@ -1,3 +1,4 @@
+/* eslint-disable */
 import moment from "moment-timezone";
 
 const store = {
@@ -6,6 +7,7 @@ const store = {
   mutations: {
     set(state, current) {
       state.current = current;
+// Temp comment
     },
   },
   actions: {

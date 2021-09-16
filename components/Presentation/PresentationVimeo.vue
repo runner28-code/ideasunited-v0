@@ -10,7 +10,6 @@
     <div class="vimeo-player-overlay" @click="started ? null : play()"></div>
   </div>
 </template>
-
 <script>
 import Player from "@vimeo/player";
 
@@ -58,3 +57,4 @@ export default {
   }
 };
 </script>
+

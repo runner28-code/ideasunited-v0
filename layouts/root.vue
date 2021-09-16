@@ -129,6 +129,7 @@ export default {
           case "update_project_params":
             this.$store.commit("project/set", payload);
             break;
+        }
       }
     },
     NotificationChannel: {
@@ -170,3 +171,5 @@ export default {
             text-transform: ${this.activeTheme.h2_font.case};
           }
           ${this.activeTheme?.css}
+        </style>
+      `;

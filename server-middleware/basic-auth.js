@@ -24,7 +24,6 @@ export default async function (req, res, next) {
     ) {
       console.log("Redirect");
       res.writeHead(302, { Location: project.production_redirect_url });
-      return res.end();
     }
 
     if (req.url == "/k8s/health") {
@@ -32,3 +31,4 @@ export default async function (req, res, next) {
       res.end("Live");
       return;
     }
+

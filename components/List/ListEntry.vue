@@ -45,3 +45,4 @@ export default {
     font-weight: bold;
     font-size: 24px;
   }
+  &__subtitle {

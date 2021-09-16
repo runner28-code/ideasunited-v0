@@ -54,7 +54,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .schedule {
   padding: 40px 90px;

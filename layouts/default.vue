@@ -142,6 +142,7 @@ export default {
       received({ payload, type }) {
         switch (type) {
           case "update_project_params":
+            this.$store.commit("project/set", payload);
             break;
         }
       },
@@ -220,3 +221,4 @@ export default {
     sendNotification(payload) {
       if (
         !payload.page_ids.length ||
+        payload.page_ids.includes(this.currentPage.id)

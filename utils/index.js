@@ -27,6 +27,7 @@ export async function buildZoomLink({
   }
 
   for (let key in params) {
+// Temp comment
     if (urlParams != "") {
       urlParams += "&";
     }

@@ -256,3 +256,5 @@ export default {
       return this.currentProject && this.currentProject.menu_pages.length;
     },
     fullpageOpts() {
+      if (!this.fullpageReady) return {};
+      const anchors = this.currentProject

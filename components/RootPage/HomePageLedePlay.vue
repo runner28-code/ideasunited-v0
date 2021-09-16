@@ -105,3 +105,4 @@
 
     &::before {
       content: '';
+      display: block;

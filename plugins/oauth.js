@@ -15,6 +15,7 @@ const providers = {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
 };
+// Temp comment
 
 export default function(ctx, inject) {
   inject("oauth", provider => {
@@ -34,7 +35,6 @@ export default function(ctx, inject) {
 
       const w = window.open(
         authorizationEndpoint,
-// Temp comment
         "Auth",
         "width=580,height=730"
       );

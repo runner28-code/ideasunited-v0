@@ -167,3 +167,4 @@ export default {
   &__item-value {
     font-weight: bold;
     font-weight: 900;
+    font-size: 52px;

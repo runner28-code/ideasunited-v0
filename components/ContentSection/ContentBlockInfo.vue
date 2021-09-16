@@ -124,3 +124,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.content-block-info {

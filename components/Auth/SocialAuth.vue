@@ -93,3 +93,4 @@ export default {
   margin-top: 40px;
 
   &__item {
+    height: 40px;

@@ -115,6 +115,7 @@ export default {
   background-size: cover;
   background-position: center;
   position: relative;
+  color: white;
   box-sizing: border-box;
   border: 4px solid rgba(16, 24, 32, 0.6);
 
@@ -136,3 +137,5 @@ export default {
     opacity: 0.6;
     position: absolute;
     white-space: nowrap;
+  }
+

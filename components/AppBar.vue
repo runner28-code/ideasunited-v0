@@ -294,3 +294,5 @@ export default {
     & > &-item:last-child.app-bar__nav-item--button {
       margin-right: 0;
     }
+
+    &-item {

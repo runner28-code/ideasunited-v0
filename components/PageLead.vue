@@ -30,6 +30,7 @@ export default {
       if (lead_background) {
         styles.backgroundImage = `url(${lead_background.large.url})`;
       }
+
       if (lead_text_color) {
         styles.color = lead_text_color;
       }
@@ -38,7 +39,6 @@ export default {
     }
   }
 };
-</script>
 
 <style scoped lang="scss">
 .page-lead {
@@ -46,3 +46,4 @@ export default {
   background-position: center;
 
   &__content {
+    text-align: center;

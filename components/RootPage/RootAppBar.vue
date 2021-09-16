@@ -270,3 +270,7 @@ export default {
     &__close {
     }
   }
+  &__full-name {
+    line-height: 1.1;
+    margin-bottom: -2px;
+    font-size: 13px;

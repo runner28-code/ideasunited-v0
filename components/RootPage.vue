@@ -44,3 +44,4 @@ export default {
     HtmlBlock,
     SupportForm,
     SubmissionContent,
+    Presentation,
