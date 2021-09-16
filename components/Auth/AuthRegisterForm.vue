@@ -172,3 +172,5 @@ export default {
   }
 }
 
+.register {
+  &__title {

@@ -112,6 +112,7 @@ export default {
 
       this.$root.$on("nextEvent", () => this.nextEvent());
       this.$root.$on("nextEventIfPlaying", id => {
+        console.info("nextEventIfPlaying id", id);
         this.$root.$emit("checkPosted");
         if (this.value.id == id) this.nextEvent();
       });
@@ -154,7 +155,6 @@ export default {
     events() {
       const dates = {};
       return this.currentPage.events
-        .map(t => {
           const startAt = this.$moment
             .tz(t.start_at, this.currentTimezone)
             .format("YYYY/MM/DD");
@@ -188,3 +188,5 @@ export default {
           this.setActive(id);
         }
       }
+    },
+    value: {

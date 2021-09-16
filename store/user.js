@@ -1,4 +1,3 @@
-/* eslint-disable */
 import Vue from "vue";
 
 const store = {
@@ -32,3 +31,4 @@ const store = {
         return data;
       }
     },
+    async update({ commit }, params) {

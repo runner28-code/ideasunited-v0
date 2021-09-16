@@ -30,3 +30,4 @@ export default {
     disabled: Boolean,
   },
 };
+</script>

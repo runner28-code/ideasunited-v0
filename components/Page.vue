@@ -86,6 +86,7 @@ export default {
       if (item.url_type == "relative") {
         this.fullPageMoveTo(idx);
       }
+    });
 
     this.$root.$on("mobileScroll", (y) => {
       const i = this.$refs.sections.findIndex((s) => s.$el.offsetTop > y);
@@ -252,3 +253,6 @@ export default {
       return styles;
     },
     fullpageReady() {
+      return this.currentProject && this.currentProject.menu_pages.length;
+    },
+    fullpageOpts() {

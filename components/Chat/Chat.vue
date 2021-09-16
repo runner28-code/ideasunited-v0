@@ -58,3 +58,4 @@ export default {
   overflow: hidden;
   border: 1px solid #e5e5e5;
 }
+

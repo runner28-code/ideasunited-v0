@@ -94,3 +94,4 @@ export default {
   position: relative;
 }
 
+.message-wrapper {

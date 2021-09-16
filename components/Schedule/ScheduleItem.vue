@@ -70,3 +70,4 @@ export default {
   }
 
   &.dark {
+    color: white;

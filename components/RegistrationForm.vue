@@ -135,3 +135,17 @@ export default {
     registrationForm() {
       return (
         (this.page || this.currentPage).registration_forms[this.value] || {}
+      );
+    }
+  }
+};
+</script>
+
+<style scoped lang="scss">
+.registration-form {
+  max-width: 800px;
+  margin: auto;
+  width: 100%;
+  background: white;
+
+  &__form {

@@ -15,6 +15,7 @@
 
 <script>
 export default {
+  props: {
     value: String,
     page: Object,
   },
@@ -45,3 +46,4 @@ export default {
   }
   &__items {
     display: flex;
+    align-items: flex-start;

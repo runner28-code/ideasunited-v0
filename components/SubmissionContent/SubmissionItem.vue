@@ -97,3 +97,4 @@ export default {
 <style scoped lang="scss">
 .submission-item {
   cursor: pointer;
+  background-size: cover;

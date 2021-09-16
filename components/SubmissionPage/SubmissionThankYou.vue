@@ -27,6 +27,7 @@ export default {
   data() {
     return {
       profileUrl: frontendToProfile()[window.location.origin],
+    };
   },
   methods: {
     evalInContext(string) {
@@ -51,3 +52,4 @@ export default {
   computed: {
     firstName() {
       return this.currentUser.first_name;
+    },

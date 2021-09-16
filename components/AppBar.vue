@@ -208,7 +208,6 @@ export default {
 .app-bar {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
   transition: 0.3s;
-  min-height: calc(100vh - 72px) !important;
   overflow: auto;
   width: 232px;
   position: absolute;
@@ -292,3 +291,5 @@ export default {
     width: 100%;
 
     & > &-item:last-child.app-bar__nav-item--button {
+      margin-right: 0;
+    }

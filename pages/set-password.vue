@@ -50,7 +50,6 @@ export default {
       }
     },
     async submit() {
-      try {
         const { data } = await this.$api.Auth.setPassword({
           ...this.form,
           token: this.token
@@ -74,3 +73,4 @@ export default {
   bottom: 0;
   right: 0;
   display: flex;
+  margin: auto;

@@ -21,7 +21,6 @@
 
 <script>
 export default {
-  props: {
     slides: Array
   },
   data() {
@@ -52,3 +51,4 @@ export default {
 <style lang="scss" scoped>
 .slider {
   &-wrapper {
+    height: 100%;

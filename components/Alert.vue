@@ -65,7 +65,6 @@ export default {
   width: 100%;
   flex-direction: column;
   align-items: stretch;
-  justify-content: stretch;
 
   &__message {
     padding: 15px;
@@ -95,3 +94,4 @@ export default {
     a {
       text-decoration: underline;
       font-weight: bold;
+    }

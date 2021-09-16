@@ -215,3 +215,6 @@ export default {
       color: #4a4a4a;
     }
 
+    &-timestamp {
+      text-transform: uppercase;
+      font-weight: bold;

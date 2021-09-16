@@ -1,4 +1,5 @@
 <template>
+  <v-text-field
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
     @input="$emit('input', $event)"
@@ -10,7 +11,6 @@
 
 <script>
 export default {
-  props: {
     label: String,
     value: String,
     rules: {

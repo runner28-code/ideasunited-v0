@@ -30,3 +30,4 @@ export default {
 
 <style scoped lang="scss">
 .h2,
+.h1 {

@@ -55,7 +55,6 @@ export function copyToClipboard(str) {
   const selected =
     document.getSelection().rangeCount > 0
       ? document.getSelection().getRangeAt(0)
-      : false;
   el.select();
   document.execCommand("copy");
   document.body.removeChild(el);

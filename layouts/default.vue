@@ -218,3 +218,6 @@ export default {
     },
   },
   methods: {
+    sendNotification(payload) {
+      if (
+        !payload.page_ids.length ||

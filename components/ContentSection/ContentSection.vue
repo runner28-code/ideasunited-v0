@@ -273,3 +273,6 @@ export default {
         // position: absolute;
       }
     }
+  }
+
+  &__more {

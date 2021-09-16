@@ -55,3 +55,4 @@ export default {
       return result;
     },
     value() {
+      const t = this.item.formatted_data.find(

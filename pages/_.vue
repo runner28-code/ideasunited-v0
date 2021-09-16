@@ -83,3 +83,4 @@ export default {
         color: this.activeTheme.body_color
       };
     },
+    status() {

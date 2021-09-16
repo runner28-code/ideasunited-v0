@@ -104,3 +104,4 @@
     }
 
     &::before {
+      content: '';

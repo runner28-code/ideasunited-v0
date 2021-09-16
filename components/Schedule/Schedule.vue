@@ -30,6 +30,7 @@ export default {
     value: String,
     page: Object,
   },
+  computed: {
     schedule() {
       return (this.page || this.currentPage).schedules[this.value];
     },
@@ -57,3 +58,4 @@ export default {
 <style scoped lang="scss">
 .schedule {
   padding: 40px 90px;
+  &__description {

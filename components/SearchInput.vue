@@ -34,7 +34,6 @@ export default {
     }
   },
   watch: {
-    value: {
       immediate: true,
       handler(value) {
         this.localValue = value;
@@ -69,3 +68,4 @@ export default {
     text-transform: uppercase;
 
     &::v-deep {
+      .v-icon {

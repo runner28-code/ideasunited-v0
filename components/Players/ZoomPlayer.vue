@@ -42,7 +42,6 @@ export default {
   },
   created() {
     this.fetchSignature();
-  },
   methods: {
     openZoomLink() {
       window.open(this.event.zoom_url, "_blank");
@@ -78,3 +77,4 @@ export default {
   border-bottom: 1px solid #e5e5e5;
 
   &__title {
+    font-weight: 500;

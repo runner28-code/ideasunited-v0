@@ -169,3 +169,5 @@ export default {
             font-style: ${this.activeTheme.h2_font.style};
             font-weight: ${this.activeTheme.h2_font.weight};
             text-transform: ${this.activeTheme.h2_font.case};
+          }
+          ${this.activeTheme?.css}

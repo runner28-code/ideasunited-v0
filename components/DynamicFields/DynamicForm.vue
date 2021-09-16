@@ -162,3 +162,4 @@ export default {
               return !value || value.type.startsWith('video/') || `File type must be a video.`;
             });
             break;
+          case 'images_or_videos':

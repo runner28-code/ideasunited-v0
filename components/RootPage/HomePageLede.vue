@@ -370,3 +370,43 @@ export default {
     pointer-events: none;
     @media screen and (max-width: 960px) {
       padding: 30px;
+    }
+    @media screen and (min-width: 1905px) {
+      padding: 30px 240px calc(10.4167% + 30px);
+    }
+  }
+
+  &__text {
+    width: 40%;
+    pointer-events: all;
+    z-index: 2;
+    @media screen and (max-width: 960px) {
+      width: auto;
+    }
+  }
+
+  &__intro {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1.5em;
+    max-width: 830px;
+  }
+
+  &::v-deep .root-lede__cta-btn {
+    text-transform: none;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-size: 22px;
+    color: #E12D1B;
+    min-width: 190px !important;
+    height: 55px !important;
+  }
+
+  &__preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    @media screen and (max-width: 960px) {
+      position: relative;

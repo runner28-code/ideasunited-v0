@@ -76,3 +76,4 @@ export default {
       this.scrollBottom();
     },
     async fetchMessages($state) {
+      const { data } = await this.$api.Message.query({

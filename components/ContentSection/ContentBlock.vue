@@ -128,3 +128,5 @@ export default {
 
   &__icon {
     position: absolute;
+    top: 8px;
+    left: 8px;

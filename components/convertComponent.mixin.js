@@ -24,9 +24,9 @@ export default {
     List,
     HtmlBlock,
     SupportForm,
-// Temp comment
     SubmissionPage,
     SubmissionContent,
     Presentation,
     CustomComponent,
     RegistrationForm,
+    Faq,

@@ -69,6 +69,7 @@ export default {
       triggerName: `open-${this.name}`
     };
   },
+  mounted() {
     this.$root.$on(this.triggerName, id => {
       if (this.id == id) {
         this.$emit("input", true);
@@ -132,3 +133,4 @@ export default {
   }
 
   &__content {
+    width: 100%;

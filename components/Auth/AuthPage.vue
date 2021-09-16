@@ -1,5 +1,4 @@
 <template>
-  <div
     class="auth-page"
     :style="{
       backgroundImage: activeTheme.splash_screen.url
@@ -22,3 +21,4 @@ export default {};
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
