@@ -26,6 +26,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.list-entry {
   width: 25%;
   padding: 15px;
   display: flex;

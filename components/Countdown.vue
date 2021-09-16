@@ -48,7 +48,6 @@ export default {
   },
   data() {
     return {
-      days: 0,
       hours: 0,
       minutes: 0,
       seconds: 0,
@@ -141,6 +140,7 @@ export default {
 .countdown__text {
   font-weight: bold;
   font-size: 18px;
+  width: 100%;
   letter-spacing: 0.2em;
   white-space: pre-line;
   line-height: 1.2;

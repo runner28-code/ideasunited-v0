@@ -28,7 +28,6 @@
         <Nuxt :key="key" ref="main-content" />
         <Footer />
       </div>
-    </v-main>
     <AuthModal />
     <Alert />
     <Notification />

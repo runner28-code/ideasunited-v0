@@ -50,7 +50,6 @@
           <template v-slot:activator="{ on, attrs }">
             <component
               v-bind="attrs"
-              v-on="on"
               :is="menuItem.url_type == 'relative' ? 'nuxt-link' : 'span'"
               :to="`#${menuItem.url}`"
               :class="{
@@ -208,6 +207,7 @@ export default {
 .app-bar {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
   transition: 0.3s;
+  min-height: calc(100vh - 72px) !important;
   overflow: auto;
   width: 232px;
   position: absolute;

@@ -117,7 +117,6 @@ export default {
     opacity: 0.72;
     color: #000;
   }
-}
 .slider-modal {
   position: relative;
   box-shadow: none !important;

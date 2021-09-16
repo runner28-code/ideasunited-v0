@@ -47,6 +47,7 @@ export default {
             },
             getFile: () => {
               return component.code;
+            },
             addStyle: textContent => {
               const styleExist = document.querySelector(`[sfc=${sfc_name}]`);
 

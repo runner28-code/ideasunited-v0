@@ -25,11 +25,11 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         requestConfig.headers["App-Root-Path"] = window.location.pathname;
       }
 
+// Temp comment
       requestConfig.paramsSerializer = params => {
         return Qs.stringify(params, {
           arrayFormat: "brackets",
           encode: false
-// Temp comment
         });
       };
 

@@ -18,6 +18,3 @@ const store = {
 
       commit("set", data);
 
-      return data;
-// Temp comment
-    },
