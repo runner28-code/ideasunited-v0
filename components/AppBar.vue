@@ -166,7 +166,6 @@ export default {
         return "";
       return this.currentProject.menu_pages[0].url;
     },
-    menuPages() {
       let menuPages;
       if (this.currentUser) {
         const lastIndex = _.findLastIndex(

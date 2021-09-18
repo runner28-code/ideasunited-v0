@@ -23,6 +23,7 @@ export default {
       default: () => []
     },
     required: Boolean,
+    markRequired: Boolean,
     addonData: {
       type: [Object, Boolean],
       default: false
@@ -39,3 +40,4 @@ export default {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
+  watch: {

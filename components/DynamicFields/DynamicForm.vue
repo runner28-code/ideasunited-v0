@@ -15,6 +15,7 @@
         :mark-required="markRequired"
         v-show="showField(field)"
         :label="field.label"
+        :show-label="showLabel"
         :addon-data="addonData(field)"
         :file-input="field.file_input"
       ></component>
@@ -59,7 +60,6 @@ import DynamicRadio from "./DynamicRadio";
 import DynamicTextArea from "./DynamicTextArea";
 import DynamicTextField from "./DynamicTextField";
 import DynamicMediaField from "./DynamicMediaField";
-import DynamicPasswordField from "./DynamicPasswordField";
 import DynamicLinkField from "./DynamicLinkField";
 import DynamicFileField from "./DynamicFileField";
 

@@ -12,6 +12,7 @@ export default {
       default: "h2"
     }
   },
+  computed: {
     styles() {
       if(!this.activeTheme) return {};
       const font = this.activeTheme[`${this.tag}_font`];

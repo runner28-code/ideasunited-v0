@@ -47,7 +47,6 @@ export default {
     return {
       dialog: false,
       sidebar: false,
-      data: null
     };
   },
   created() {

@@ -33,7 +33,6 @@ export default {
         '--dot-color': this.timelineList?.settings?.dot_color || "currentColor",
       }
     }
-  }
 }
 </script>
 

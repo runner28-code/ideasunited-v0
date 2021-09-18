@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import _ from "lodash";
 export default {
   head() {
     let meta = [
@@ -83,3 +84,4 @@ export default {
       };
     },
     status() {
+      if (!this.page && !this.currentProject) return 404;

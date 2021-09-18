@@ -10,6 +10,7 @@
       >
         <v-responsive
           v-if="block.content_type == 'video_player'"
+          class="slider-modal-content__video"
           :aspect-ratio="16 / 9"
         >
           <VimeoPlayer
@@ -103,7 +104,6 @@ export default {
         /^http(s)?:\/\/?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
 
       /* eslint-disable no-useless-escape */
-      const instagramHandleRegexp =
         /^([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
 
       /* eslint-disable no-useless-escape */

@@ -278,3 +278,4 @@ export default {
   &__more {
     font-size: 20px;
     text-decoration: none;
+  }

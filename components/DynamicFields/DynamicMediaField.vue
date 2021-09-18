@@ -78,7 +78,6 @@ export default {
       type: String,
       default: "cover"
     },
-    required: Boolean,
     markRequired: Boolean,
     label: String,
     showLabel: Boolean,
@@ -121,3 +120,5 @@ export default {
 .uploader {
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.2s;
+  border: 2px dashed rgba(0, 0, 0, 0.38);

@@ -8,6 +8,7 @@
       <RootAppBar
         @toggleSidebar="drawer = !drawer"
       />
+      <SideBar v-model="drawer" />
     </client-only>
     <v-main>
       <HomePageLede />
@@ -71,7 +72,6 @@ export default {
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,
         this.activeTheme.paragraph_font?.font,
-        this.activeTheme.header_font?.font,
         this.activeTheme.footer_font?.font
       ].filter(f => f && f.src_type == "typekit");
 
@@ -172,3 +172,4 @@ export default {
           ${this.activeTheme?.css}
         </style>
       `;
+    }

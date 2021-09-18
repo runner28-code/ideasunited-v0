@@ -145,6 +145,7 @@ export default {
     },
     updateDialogState() {
       if(this.dialogState) this.dialogState.chooseSignUp = this.chooseSignUp;
+    }
   },
   watch: {
     dialogState: {

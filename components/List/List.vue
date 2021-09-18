@@ -47,3 +47,4 @@ export default {
   &__items {
     display: flex;
     align-items: flex-start;
+    margin: 0 -15px;

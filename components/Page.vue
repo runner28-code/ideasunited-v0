@@ -235,3 +235,6 @@ export default {
       return this.currentProject.menu_pages[this.currentSlide];
     },
     backgroundLedeStyles() {
+      if (!this.page) return {};
+      const styles = {};
+      const ledeBackground = this.page.lead_background;

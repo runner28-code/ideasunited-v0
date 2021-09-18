@@ -274,3 +274,6 @@ export default {
     line-height: 1.1;
     margin-bottom: -2px;
     font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }

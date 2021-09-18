@@ -119,6 +119,7 @@ export default {
   position: relative;
 
   &--no-content {
+    cursor: default;
   }
 
   &:hover {

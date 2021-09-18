@@ -13,7 +13,6 @@
       dense
       :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
       :value="!!alert"
-      @input="alert = $event"
     >
       <div
         :class="{ clickable: alert.onclick }"
@@ -97,3 +96,4 @@ export default {
       font-weight: bold;
     }
 
+    .v-icon {

@@ -11,3 +11,4 @@ export default function (ctx, inject) {
     required: (v) => {
       return !!(v || "").toString().trim() || "Required field";
     },
+    password: (v) =>

@@ -105,7 +105,6 @@ export default {
   flex: none;
 }
 .timeline-slide {
-  background: black;
   max-width: 220px;
   width: 100%;
   height: 100%;
@@ -139,3 +138,4 @@ export default {
     white-space: nowrap;
   }
 
+  &__text {

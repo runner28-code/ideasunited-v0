@@ -61,6 +61,7 @@ export default {
           window.__forceSmoothScrollPolyfill__ !== true,
         install: (smoothscroll) => {
           smoothscroll.polyfill();
+        },
       },
     ],
   },

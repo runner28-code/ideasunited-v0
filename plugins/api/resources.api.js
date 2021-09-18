@@ -9,9 +9,9 @@ function objectToFormData(obj) {
       const uuid = "file-" + uuidv4();
       files[uuid] = value;
       return uuid;
-// Temp comment
     }
     return value;
+// Temp comment
   });
 
   formData.append("data", data);

@@ -118,7 +118,6 @@ export default {
         top: y,
         left: 0,
         behavior: "smooth",
-      });
     });
     setTimeout(() => {
       this.getOpportunityNotifications();
@@ -222,3 +221,4 @@ export default {
       if (
         !payload.page_ids.length ||
         payload.page_ids.includes(this.currentPage.id)
+      ) {
