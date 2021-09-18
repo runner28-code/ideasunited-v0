@@ -10,7 +10,6 @@
       >
         <v-responsive
           v-if="block.content_type == 'video_player'"
-          class="slider-modal-content__video"
           :aspect-ratio="16 / 9"
         >
           <VimeoPlayer

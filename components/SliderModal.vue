@@ -105,7 +105,6 @@ export default {
     },
     openNext() {
       this.$root.$emit(this.triggerName, this.nextId);
-      this.close();
     }
   }
 };

@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import _ from "lodash";
 export default {
   head() {
     let meta = [
@@ -46,6 +45,7 @@ export default {
         channel: "PageChannel",
         page_id: this.page?.id,
         env: this.currentProject.env
+      });
     }
   },
   beforeDestroy() {

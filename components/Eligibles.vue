@@ -39,6 +39,7 @@ export default {
 .eligible {
   display: flex;
   align-items: center;
+  margin-right: 20px;
   text-decoration: none;
 
   &--bronze {

@@ -42,6 +42,7 @@ export default {
   &__ul {
     list-style: none;
     padding-left: 0;
+    li {
       display: flex;
       > div {
         width: 50%;

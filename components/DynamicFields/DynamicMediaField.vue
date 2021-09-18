@@ -44,6 +44,7 @@
       </label>
       <v-text-field
         ref="validation"
+        class="uploader__validation"
         :value="value"
         type="hidden"
         hide-details="auto"

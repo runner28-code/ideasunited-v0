@@ -8,7 +8,6 @@
       <RootAppBar
         @toggleSidebar="drawer = !drawer"
       />
-      <SideBar v-model="drawer" />
     </client-only>
     <v-main>
       <HomePageLede />
@@ -102,6 +101,7 @@ export default {
       this.drawer = !this.drawer;
     });
     this.$root.$on("mobileScrollTo", y => {
+      this.$refs.mobileScroll.scroll({
         top: y,
         left: 0,
         behavior: "smooth"

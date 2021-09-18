@@ -235,26 +235,3 @@ export default {
       return this.currentProject.menu_pages[this.currentSlide];
     },
     backgroundLedeStyles() {
-      if (!this.page) return {};
-      const styles = {};
-      const ledeBackground = this.page.lead_background;
-      if (ledeBackground) {
-        const src = ledeBackground.large.url || ledeBackground.url;
-        if (this.preloadedImgBase64s[src]) {
-          styles.backgroundImage = `url(${this.preloadedImgBase64s[src]})`;
-        } else {
-          styles.backgroundImage = `url(${src})`;
-        }
-      }
-      const posX = this.page.lead_background_styles.backgroundPositionX;
-      if (posX) styles.backgroundPositionX = `${posX}%`;
-      const posY = this.page.lead_background_styles.backgroundPositionY;
-      if (posY) styles.backgroundPositionY = `${posY}%`;
-      return styles;
-    },
-    fullpageReady() {
-      return this.currentProject && this.currentProject.menu_pages.length;
-    },
-    fullpageOpts() {
-      if (!this.fullpageReady) return {};
-      const anchors = this.currentProject

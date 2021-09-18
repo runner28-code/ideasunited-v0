@@ -32,6 +32,7 @@ export default {
       return (this.page || this.currentPage).custom_components[this.value];
     }
   },
+  methods: {
     compile(component, callback) {
       return new Promise(resolve => {
         const { sfc_name } = component;

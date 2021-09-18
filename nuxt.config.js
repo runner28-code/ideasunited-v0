@@ -61,7 +61,6 @@ export default {
           window.__forceSmoothScrollPolyfill__ !== true,
         install: (smoothscroll) => {
           smoothscroll.polyfill();
-        },
       },
     ],
   },
@@ -106,6 +105,7 @@ export default {
     //   target: process.env.WS_HOST,
     //   logLevel: "debug",
     //   secure: false,
+    //   ws: true
     // }
   },
 
