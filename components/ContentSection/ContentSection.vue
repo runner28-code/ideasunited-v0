@@ -279,3 +279,5 @@ export default {
     font-size: 20px;
     text-decoration: none;
   }
+
+  &__blocks {

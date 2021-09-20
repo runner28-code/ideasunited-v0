@@ -277,3 +277,41 @@ export default {
     font-weight: bold;
     text-transform: capitalize;
   }
+  &__item {
+    padding: 0 30px !important;
+    display: flex;
+    align-items: center;
+    color: white;
+
+    &-menu {
+      margin-top: 5px;
+
+      &-item {
+        padding: 7px 15px;
+        line-height: 1.1;
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        color: var(--v-text-base);
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .v-divider {
+        margin: 8px 0 !important;
+      }
+
+      &-label {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 0 15px;
+        margin-top: 10px;
+      }
+
+      &__new-team {
+        color: var(--v-primary-base);
+      }
+    }
+

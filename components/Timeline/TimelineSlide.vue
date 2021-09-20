@@ -29,7 +29,6 @@
         </div>
 
         <div class="timeline-slide__now-playing">
-          <div class="timeline-slide__now-playing__dot"></div>
           <span>
             now playing
           </span>
@@ -105,6 +104,7 @@ export default {
   flex: none;
 }
 .timeline-slide {
+  background: black;
   max-width: 220px;
   width: 100%;
   height: 100%;
@@ -139,3 +139,5 @@ export default {
   }
 
   &__text {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;

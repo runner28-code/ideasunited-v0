@@ -45,6 +45,7 @@ export default {
     layout: Object,
     previewLayout: Object
   },
+  data() {
     return {
       colors: ["#1E1818", "#171313", "#140808", "#8F7878", "#8F7E7E"],
       dialog: false
@@ -99,3 +100,5 @@ export default {
   background-size: cover;
   display: flex;
   align-items: flex-end;
+  padding: 20px;
+  position: absolute;

@@ -1,3 +1,4 @@
+<template>
   <div class="slider-modal-content submission-item-content">
     <div
       v-if="value && (value.preview.url || value.youtube_id || value.vimeo_id)"
@@ -55,3 +56,4 @@ export default {
     },
     value() {
       const t = this.item.formatted_data.find(
+        t => t.uuid == this.layout.preview

@@ -120,3 +120,5 @@ export default {
     background-repeat: no-repeat;
     width: 100%;
   }
+}
+

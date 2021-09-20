@@ -53,3 +53,4 @@ export default {
           return this.scrollToInvalidInput(this.refs.form.inputs);
         }
       }
+

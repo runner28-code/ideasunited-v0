@@ -118,6 +118,7 @@ export default {
         top: y,
         left: 0,
         behavior: "smooth",
+      });
     });
     setTimeout(() => {
       this.getOpportunityNotifications();
@@ -222,3 +223,5 @@ export default {
         !payload.page_ids.length ||
         payload.page_ids.includes(this.currentPage.id)
       ) {
+        switch (payload.notification_type) {
+          case "banner":

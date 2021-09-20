@@ -78,6 +78,7 @@ export default {
       type: String,
       default: "cover"
     },
+    required: Boolean,
     markRequired: Boolean,
     label: String,
     showLabel: Boolean,
@@ -122,3 +123,5 @@ export default {
   cursor: pointer;
   transition: 0.2s;
   border: 2px dashed rgba(0, 0, 0, 0.38);
+  background-size: cover;
+  background-position: center;

@@ -238,3 +238,7 @@ export default {
       if (!this.page) return {};
       const styles = {};
       const ledeBackground = this.page.lead_background;
+      if (ledeBackground) {
+        const src = ledeBackground.large.url || ledeBackground.url;
+        if (this.preloadedImgBase64s[src]) {
+          styles.backgroundImage = `url(${this.preloadedImgBase64s[src]})`;

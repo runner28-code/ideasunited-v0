@@ -78,7 +78,6 @@
           >{{ block.link_text }}</Button
         >
       </div>
-    </div>
   </div>
 </template>
 
@@ -104,6 +103,7 @@ export default {
         /^http(s)?:\/\/?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
 
       /* eslint-disable no-useless-escape */
+      const instagramHandleRegexp =
         /^([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
 
       /* eslint-disable no-useless-escape */
@@ -124,3 +124,4 @@ export default {
 
 <style scoped lang="scss">
 .content-block-info {
+  max-height: 100vh;

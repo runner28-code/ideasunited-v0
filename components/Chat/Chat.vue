@@ -60,3 +60,4 @@ export default {
 }
 
 .chat-item {
+  display: flex;

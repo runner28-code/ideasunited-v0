@@ -13,6 +13,7 @@ const providers = {
   },
   cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
+  }
 };
 
 export default function(ctx, inject) {
@@ -26,6 +27,7 @@ export default function(ctx, inject) {
       if (process.env.NODE_ENV !== "development") {
         authorizationEndpoint =
           `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
+// Temp comment
       }
 
       authorizationEndpoint =

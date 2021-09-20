@@ -77,3 +77,4 @@ export default {
     },
     async fetchMessages($state) {
       const { data } = await this.$api.Message.query({
+        chat_id: this.chat.id,

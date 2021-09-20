@@ -69,6 +69,7 @@ export default {
           token: cookies.get("authToken")
           
         };
+        console.info('sendMessage data', data);
         console.info('sendMessage this.chat.id', this.chat.id);
 
         this.$cable.perform({
@@ -88,3 +89,4 @@ export default {
 <style scoped lang="scss">
 .chat-footer {
   box-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
+  display: flex;

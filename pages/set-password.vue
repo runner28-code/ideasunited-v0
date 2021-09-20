@@ -59,7 +59,6 @@ export default {
         this.$store.dispatch("user/fetch");
         this.$router.push("/").catch(() => {});
       } catch (e) {
-        console.error(e);
       }
     }
   }
@@ -68,3 +67,4 @@ export default {
 
 <style scoped lang="scss">
 .forgot-password-page {
+  position: absolute;

@@ -96,3 +96,4 @@ export default {
 
 .message-wrapper {
   display: flex;
+}

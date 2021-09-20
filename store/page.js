@@ -40,6 +40,7 @@ const store = {
     async fetch({ commit }, { url }) {
       const { data } = await this.$api.Page.get({
         url
+// Temp comment
       });
 
       commit("set", data);
@@ -47,6 +48,7 @@ const store = {
       return data;
     }
   },
+  getters: {
     current(state) {
       return state.current;
     }

@@ -274,6 +274,7 @@ export default {
       }
     },
     fullscreenToggle() {
+      if (document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
         // If there's currently an element fullscreen, exit fullscreen
         if (document.exitFullscreen) {
           document.exitFullscreen();
@@ -339,3 +340,10 @@ export default {
     padding-bottom: 17%;
   }
   
+  &__header {
+    color: white;
+    font-size: 42px;
+    text-transform: uppercase;
+    line-height: 1.067;
+    letter-spacing: .07em;
+    font-weight: 900;

@@ -76,10 +76,10 @@ export default {
 .faqs {
   display: flex;
   align-items: flex-start;
-  margin-top: 60px;
   @media screen and (max-width: 960px) {
     flex-direction: column;
   }
   &__column {
     flex-basis: 50%;
     flex-grow: 1;
+    @media screen and (max-width: 960px) {

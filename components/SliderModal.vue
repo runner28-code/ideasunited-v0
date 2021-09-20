@@ -120,7 +120,6 @@ export default {
 }
 .slider-modal {
   position: relative;
-  box-shadow: none !important;
   overflow: hidden;
   display: flex;
   min-height: 80vh;
@@ -135,3 +134,5 @@ export default {
   &__content {
     width: 100%;
     display: flex;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),

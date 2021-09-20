@@ -131,3 +131,4 @@ export default {
     top: 8px;
     left: 8px;
     width: 28px;
+    height: 28px;

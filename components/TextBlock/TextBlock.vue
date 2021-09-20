@@ -13,6 +13,7 @@
         :item="calcList[2]"
         v-if="textBlock.layout == 4"
       />
+      <TextblockItem
         :item="calcList[3]"
         v-if="textBlock.layout == 4"
       />
@@ -99,3 +100,4 @@ export default {
   .text-block {
     display: block;
     margin: 0;
+

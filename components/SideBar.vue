@@ -253,3 +253,4 @@ export default {
       display: none;
     }
     &-mobile {
+      display: none;

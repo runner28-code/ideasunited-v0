@@ -61,7 +61,6 @@ export default {
             spaceBetween: 20
           }
         }
-      },
       timeouts: {}
     };
   },
@@ -193,3 +192,5 @@ export default {
     value: {
       deep: true,
       handler() {
+        if (this.value) {
+          const path =

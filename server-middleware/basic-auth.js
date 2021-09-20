@@ -33,3 +33,4 @@ export default async function (req, res, next) {
       return;
     }
 
+    // if (!req.headers.referer && req.headers.accept) {

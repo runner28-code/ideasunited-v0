@@ -47,6 +47,7 @@ export default {
     return {
       dialog: false,
       sidebar: false,
+      data: null
     };
   },
   created() {
@@ -68,3 +69,4 @@ export default {
       this.data = null;
     },
     closeDialog() {
+      this.dialog = false;

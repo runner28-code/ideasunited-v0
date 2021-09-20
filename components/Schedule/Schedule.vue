@@ -59,3 +59,4 @@ export default {
 .schedule {
   padding: 40px 90px;
   &__description {
+    white-space: pre-line;

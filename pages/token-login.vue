@@ -3,6 +3,7 @@
 </template>
 
 <script>
+export default {
   layout: 'simple',
   created() {
     if (process.client) {
@@ -23,3 +24,4 @@
         this.$store.dispatch("user/fetch");
 
         this.$router.push("/");
+      } catch (e) {

@@ -26,7 +26,6 @@ export default {
     message: {
       immediate: true,
       handler() {
-        this.$nextTick(() => {
           if (this.$refs.marqueetext) {
             this.seconds = this.$refs.marqueetext
               ? this.$refs.marqueetext.offsetWidth / 50
@@ -47,3 +46,4 @@ export default {
   will-change: transform, margin-left;
   overflow-x: hidden;
   overflow-y: hidden;
+  &-text {
