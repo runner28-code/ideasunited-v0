@@ -53,6 +53,7 @@ export default {
       this.$emit('close');
       if(!this.form.email_validation_options) this.form.email_validation_options = {};
       this.form.email_validation_options.yes_i_am_sure = true;
+      this.$emit('submit');
     },
   }
 };

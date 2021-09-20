@@ -1,4 +1,5 @@
 /* eslint-disable */
+// Temp comment
 import moment from "moment-timezone";
 
 const store = {
@@ -15,6 +16,7 @@ const store = {
         host: window.location.host,
         root_path: window.location.pathname,
       });
+
       commit("set", data);
 
       return data;

@@ -61,6 +61,7 @@ export default {
             spaceBetween: 20
           }
         }
+      },
       timeouts: {}
     };
   },

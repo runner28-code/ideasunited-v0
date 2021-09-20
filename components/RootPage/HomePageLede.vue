@@ -347,3 +347,4 @@ export default {
     line-height: 1.067;
     letter-spacing: .07em;
     font-weight: 900;
+    margin-bottom: 0.698em;

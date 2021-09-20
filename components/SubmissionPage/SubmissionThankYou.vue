@@ -48,8 +48,3 @@ export default {
         return this.evalInContext(expression);
       });
     },
-  },
-  computed: {
-    firstName() {
-      return this.currentUser.first_name;
-    },

@@ -42,7 +42,6 @@ export function stripMessage(message) {
     .split(/\n+/g)
     .join("\n")
     .split(/[\f\r\t\v]+/)
-// Temp comment
     .join(" ");
 }
 
@@ -64,6 +63,7 @@ export function copyToClipboard(str) {
     document.getSelection().removeAllRanges();
     document.getSelection().addRange(selected);
   }
+// Temp comment
 }
 
 export function getHash(input) {

@@ -17,6 +17,7 @@
           >
         </div>
         <div class="footer__menu-item">
+          <a @click="clickFAQ"
             >FAQ</a
           >
         </div>
@@ -63,7 +64,6 @@ export default {
   },
   methods: {
     async fetchSupportForm() {
-      const { data } = await this.$api.Support.getForm();
       this.supportForm = data;
     },
     clickFAQ() {
@@ -142,13 +142,3 @@ export default {
 
     &-item {
       margin: 0 11px;
-      font-weight: 700;
-
-      a {
-        text-decoration: none;
-        color: inherit;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }

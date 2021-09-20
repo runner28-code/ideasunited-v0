@@ -3,7 +3,6 @@
     class="event"
     :class="{
       show_event: currentPage.events.length,
-      with_events: currentPage.events.length > 1,
       with_chat: currentPage.chats.length,
       chat_is_text: currentPage.chats.length
         ? currentPage.chats[0].chat_type == 'text'
@@ -173,6 +172,7 @@ export default {
     &.with_chat {
       width: calc(100% - 300px);
     }
+
     &-player {
       border-top: 1px solid #e5e5e5;
     }

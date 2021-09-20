@@ -16,6 +16,7 @@ const store = {
       updateCollection({ collection, id, payload });
     },
     unpublishEvent(state, id) {
+// Temp comment
       const collection = state.current?.events;
       const payload = { posted: false };
       updateCollection({ collection, id, payload });
@@ -40,7 +41,6 @@ const store = {
     async fetch({ commit }, { url }) {
       const { data } = await this.$api.Page.get({
         url
-// Temp comment
       });
 
       commit("set", data);

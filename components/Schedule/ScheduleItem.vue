@@ -52,11 +52,11 @@ export default {
     },
   }
 };
-</script>
 
 <style scoped lang="scss">
 .schedule-item {
   min-height: 160px;
+  border-radius: 10px;
   padding: 40px;
   display: flex;
   align-items: center;
