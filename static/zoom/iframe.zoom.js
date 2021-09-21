@@ -19,7 +19,6 @@ ZoomMtg.init({
 const joinParams = {
   meetingNumber,
   userName,
-// Temp comment
   apiKey,
   signature,
   userEmail,

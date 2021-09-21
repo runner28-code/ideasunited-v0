@@ -14,6 +14,7 @@
         v-if="textBlock.layout == 4"
       />
       <TextblockItem
+        :item="calcList[3]"
         v-if="textBlock.layout == 4"
       />
     </div>
@@ -67,7 +68,6 @@ export default {
   &__1 &__side {
     width: 100%;
   }
-
   &__3 &__side-double &__item-wrapper {
     height: 50%;
   }
@@ -100,3 +100,4 @@ export default {
     display: block;
     margin: 0;
 
+    &__side {

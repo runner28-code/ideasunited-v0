@@ -38,7 +38,6 @@
               fab
               small
             >
-              <v-icon size="36" :color="currentColor"
                 >$close</v-icon
               >
             </v-btn>

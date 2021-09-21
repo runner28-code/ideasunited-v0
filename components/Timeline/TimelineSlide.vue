@@ -142,3 +142,4 @@ export default {
   &__text {
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    font-weight: 600;

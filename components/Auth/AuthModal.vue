@@ -25,6 +25,7 @@ export default {
       dialogState: {
         chooseSignUp: false,
       }
+    };
   },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
@@ -57,3 +58,4 @@ export default {
     }
   },
   watch: {
+    opened(newValue) {

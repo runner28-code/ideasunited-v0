@@ -50,7 +50,6 @@
       >
         <swiper-slide
           class="content-section__swiper-slide"
-          v-for="(block, index) in filteredBlocks"
           :key="block.id"
         >
           <ContentBlock
@@ -281,3 +280,4 @@ export default {
   }
 
   &__blocks {
+    display: flex;

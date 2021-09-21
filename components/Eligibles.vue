@@ -1,3 +1,4 @@
+<template>
   <div class="eligibles">
     <a
       v-for="badge in value"
@@ -32,7 +33,6 @@ export default {
 
 <style scoped lang="scss">
 .eligibles {
-  display: flex;
   justify-content: center;
 }
 .eligible {

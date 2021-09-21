@@ -32,6 +32,7 @@ export default {
   },
   created() {
     if (process.client) {
+      this.checkPasswordToken();
     }
   },
   methods: {
@@ -52,7 +53,6 @@ export default {
       try {
         const { data } = await this.$api.Auth.setPassword({
           ...this.form,
-          token: this.token
         });
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
@@ -68,3 +68,4 @@ export default {
 <style scoped lang="scss">
 .forgot-password-page {
   position: absolute;
+  top: 0;

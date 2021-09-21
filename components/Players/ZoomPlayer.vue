@@ -69,7 +69,6 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,3 +79,4 @@ export default {
   &__title {
     font-weight: 500;
     font-size: 48px;
+    margin-bottom: 10px;

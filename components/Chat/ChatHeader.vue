@@ -48,3 +48,4 @@ export default {
   &__status {
     width: 5px;
     min-width: 5px;
+    height: 5px;

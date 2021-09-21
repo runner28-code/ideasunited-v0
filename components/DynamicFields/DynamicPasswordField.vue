@@ -7,7 +7,6 @@
     type="password"
     outlined
   />
-</template>
 
 <script>
 export default {

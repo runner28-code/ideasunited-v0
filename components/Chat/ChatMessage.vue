@@ -55,7 +55,6 @@ import badwords from "@/filters/badwords";
 export default {
   name: "ChatMessage",
   props: {
-    message: Object,
     chat: Object
   },
   methods: {

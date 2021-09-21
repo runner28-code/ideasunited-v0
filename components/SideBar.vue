@@ -22,7 +22,6 @@
         v-ripple="false"
       >
         <span @click="menuClick(menuItem, idx)">
-          {{ menuItem.menu_title }}
         </span>
       </v-list-item>
       <v-list-item
@@ -254,3 +253,4 @@ export default {
     }
     &-mobile {
       display: none;
+      @media screen and (max-width: 944px) {

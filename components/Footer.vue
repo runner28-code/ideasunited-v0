@@ -64,6 +64,7 @@ export default {
   },
   methods: {
     async fetchSupportForm() {
+      const { data } = await this.$api.Support.getForm();
       this.supportForm = data;
     },
     clickFAQ() {
@@ -142,3 +143,5 @@ export default {
 
     &-item {
       margin: 0 11px;
+      font-weight: 700;
+

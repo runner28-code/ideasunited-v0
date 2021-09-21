@@ -242,3 +242,6 @@ export default {
         const src = ledeBackground.large.url || ledeBackground.url;
         if (this.preloadedImgBase64s[src]) {
           styles.backgroundImage = `url(${this.preloadedImgBase64s[src]})`;
+        } else {
+          styles.backgroundImage = `url(${src})`;
+        }

@@ -155,3 +155,4 @@ export default {
     align-items: center;
     text-align: center;
     justify-content: center;
+    text-transform: uppercase;

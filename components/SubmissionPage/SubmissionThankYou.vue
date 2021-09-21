@@ -48,3 +48,4 @@ export default {
         return this.evalInContext(expression);
       });
     },
+  },

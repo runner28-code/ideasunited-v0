@@ -63,7 +63,6 @@ export function copyToClipboard(str) {
     document.getSelection().removeAllRanges();
     document.getSelection().addRange(selected);
   }
-// Temp comment
 }
 
 export function getHash(input) {
