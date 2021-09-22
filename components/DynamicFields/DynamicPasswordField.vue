@@ -7,6 +7,7 @@
     type="password"
     outlined
   />
+</template>
 
 <script>
 export default {
@@ -18,3 +19,4 @@ export default {
       default: () => []
     },
     required: Boolean,
+    markRequired: Boolean

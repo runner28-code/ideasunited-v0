@@ -41,6 +41,7 @@ const store = {
       const { data } = await this.$api.Page.get({
         url
       });
+
       commit("set", data);
 
       return data;

@@ -55,6 +55,7 @@ import badwords from "@/filters/badwords";
 export default {
   name: "ChatMessage",
   props: {
+    message: Object,
     chat: Object
   },
   methods: {
@@ -82,7 +83,6 @@ export default {
       let body = stripMessage(this.message.body);
       body = badwords(body);
       return body;
-    }
   }
 };
 </script>

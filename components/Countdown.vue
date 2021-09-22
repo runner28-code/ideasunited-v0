@@ -79,7 +79,6 @@ export default {
       if (this.interval) clearInterval(this.interval);
 
       this.interval = setInterval(() => {
-        this.calc();
       }, 1000);
     },
     daysWithoutMonths(ms) {

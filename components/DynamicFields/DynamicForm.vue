@@ -78,7 +78,6 @@ export default {
   },
   data() {
     return {
-      valid: true,
       loading: false,
       form: { ...this.value },
       pdfOrDocTypes: [

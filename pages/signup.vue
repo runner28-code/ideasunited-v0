@@ -29,6 +29,7 @@ export default {
       window.location.href = frontendToProfile()[window.location.origin];
     });
   },
+};
 </script>
 
 <style scoped lang="scss">

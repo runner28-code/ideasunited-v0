@@ -353,3 +353,4 @@ export default {
       font-size: 32px;
     }
     &__create {
+      position: relative;

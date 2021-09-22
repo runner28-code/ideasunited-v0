@@ -17,4 +17,3 @@ const store = {
 
       return data;
     }
-  },
