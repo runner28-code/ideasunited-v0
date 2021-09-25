@@ -24,7 +24,6 @@ export default {
   props: {
     slides: Array
   },
-  data() {
     return {
       swiperOption: {
         slidesPerView: 1,

@@ -31,6 +31,5 @@ export default {
       this.authDisabled = val;
     }
   }
-};
 </script>
 

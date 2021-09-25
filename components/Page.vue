@@ -73,7 +73,6 @@ export default {
   components: { FullPageSection },
   data() {
     return {
-      currentSlide: 0,
       preloadedImgBase64s: {},
       scrollDelayCounter: 0,
       scrollDelay: 5,
@@ -245,3 +244,4 @@ export default {
         } else {
           styles.backgroundImage = `url(${src})`;
         }
+      }

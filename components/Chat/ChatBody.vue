@@ -5,6 +5,7 @@
         <div slot="no-more"></div>
         <div slot="no-results"></div>
       </infinite-loading>
+    </client-only>
     <ChatMessage
       :chat="chat"
       :message="message"
@@ -62,7 +63,6 @@ export default {
       if (!el) return;
       if (el.scrollTop == el.scrollHeight - el.clientHeight)
         this.$nextTick(function() {
-          el.scrollTop = el.scrollHeight;
         });
     },
     async syncMessages() {

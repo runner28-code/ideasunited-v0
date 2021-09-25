@@ -13,7 +13,6 @@
         <span
           @click.stop
           v-html="label + (required && markRequired ? ' *' : '')"
-        ></span>
       </slot>
     </template>
   </v-checkbox>

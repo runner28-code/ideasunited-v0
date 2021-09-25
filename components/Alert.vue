@@ -77,7 +77,6 @@ export default {
         background: rgba(255, 255, 255, 0.1);
       }
     }
-  }
 
   &::v-deep {
     .v-alert__wrapper {

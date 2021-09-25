@@ -6,6 +6,7 @@
     :rules="rules"
     outlined
     @focus.stop="onFocus($event)"
+  />
 </template>
 
 <script>
@@ -19,4 +20,3 @@ export default {
     },
     required: Boolean,
     markRequired: Boolean
-  },

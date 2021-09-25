@@ -47,6 +47,7 @@
     </v-menu>
   </div>
 </template>
+
 <script>
 import stripMessage from "@/filters/stripMessage";
 import badwords from "@/filters/badwords";

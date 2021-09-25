@@ -29,6 +29,7 @@ export default {
       window.location.href = frontendToProfile()[window.location.origin];
     });
   },
+};
 </script>
 
 <style scoped lang="scss">
@@ -54,5 +55,4 @@ export default {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
     background: white;
     padding: 30px;
-    max-width: 400px;
     width: 100%;

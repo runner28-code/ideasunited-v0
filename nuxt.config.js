@@ -32,6 +32,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+// Temp comment
     { src: "~/plugins/map-state.js" },
     { src: "~/plugins/api.js" },
     { src: "~/plugins/filters.js" },
