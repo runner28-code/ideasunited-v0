@@ -35,6 +35,7 @@ export default {
     refs: Object,
     text: Boolean,
     href: String,
+    target: String,
     disabled: Boolean
   },
   computed: {

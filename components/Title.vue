@@ -27,7 +27,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .h2,
 .h1 {

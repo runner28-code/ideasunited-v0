@@ -6,7 +6,6 @@
     :rules="rules"
     outlined
     @focus.stop="onFocus($event)"
-  />
 </template>
 
 <script>
@@ -15,6 +14,7 @@ export default {
     label: String,
     value: String,
     rules: {
+      type: Array,
       default: () => []
     },
     required: Boolean,

@@ -24,7 +24,6 @@ export default {
   },
   created() {
     this.fetchSignature();
-  },
   methods: {
     async fetchSignature() {
       const { zoom_id, zoom_password } = this.chat;

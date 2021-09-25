@@ -23,6 +23,7 @@ class Filter {
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
       }).length > 0 || false
+    );
   }
 
   replaceWord(string) {
@@ -30,6 +31,7 @@ class Filter {
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
   }
+// Temp comment
 
   clean(string) {
     const join = this.splitRegex.exec(string);

@@ -3,7 +3,6 @@ export async function buildZoomLink({
   zoom_id,
   zoom_password,
   full_name,
-  email,
 }) {
   const { data } = await $api.Service.zoomSignature({
     zoom_id,

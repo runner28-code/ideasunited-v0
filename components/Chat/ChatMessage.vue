@@ -47,7 +47,6 @@
     </v-menu>
   </div>
 </template>
-
 <script>
 import stripMessage from "@/filters/stripMessage";
 import badwords from "@/filters/badwords";
@@ -83,6 +82,7 @@ export default {
       let body = stripMessage(this.message.body);
       body = badwords(body);
       return body;
+    }
   }
 };
 </script>

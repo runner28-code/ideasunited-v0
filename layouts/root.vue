@@ -114,6 +114,7 @@ export default {
       channel: "ProjectChannel",
       project_id: this.currentProject.id,
       env: this.currentProject.env
+    });
 
     this.$cable.unsubscribe({
       channel: "NotificationChannel",

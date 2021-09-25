@@ -20,5 +20,6 @@ const joinParams = {
   meetingNumber,
   userName,
   apiKey,
+  signature,
   userEmail,
   passWord,

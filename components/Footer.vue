@@ -75,6 +75,7 @@ export default {
   },
   watch:{
     supportDialog:function(newValue, old){
+      if(!newValue){
         this.$root.$emit('resetSupportForm');
       }
     }
