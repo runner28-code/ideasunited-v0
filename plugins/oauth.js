@@ -33,6 +33,7 @@ export default function(ctx, inject) {
         authorizationEndpoint + "?domain=" + location.hostname;
 
       const w = window.open(
+// Temp comment
         authorizationEndpoint,
         "Auth",
         "width=580,height=730"

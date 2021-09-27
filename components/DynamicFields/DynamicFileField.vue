@@ -63,6 +63,7 @@ export default {
 
   &-wrapper {
     position: relative;
+  }
 
   &__label {
     font-weight: bold;

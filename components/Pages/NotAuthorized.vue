@@ -1,5 +1,4 @@
 <template>
-  <div class="not-authorized">
     <AuthPage
       @disableAuth="disableAuth"
       v-show="!currentUser && !authDisabled"
@@ -31,5 +30,6 @@ export default {
       this.authDisabled = val;
     }
   }
+};
 </script>
 

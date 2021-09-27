@@ -66,6 +66,7 @@ export default {
     height: 100%;
     font-weight: bold;
     font-size: 12px;
+    text-transform: uppercase;
 
     &::v-deep {
       .v-icon {

@@ -22,4 +22,3 @@ export default {};
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center;

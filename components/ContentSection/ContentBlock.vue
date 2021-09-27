@@ -59,6 +59,7 @@ export default {
     const { block_id } = this.$route.query;
 
     if (block_id == this.block.id && this.block.content_type != "new_tab") {
+      this.openDialog();
     }
   },
   methods: {

@@ -40,7 +40,6 @@ export default {
     TextBlock,
     Schedule,
     List,
-    SubmissionPage,
     HtmlBlock,
     SupportForm,
     SubmissionContent,

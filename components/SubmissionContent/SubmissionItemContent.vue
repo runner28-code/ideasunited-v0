@@ -53,7 +53,6 @@ export default {
       const result = {};
       this.item.formatted_data.forEach(t => (result[t.uuid] = t));
       return result;
-    },
     value() {
       const t = this.item.formatted_data.find(
         t => t.uuid == this.layout.preview

@@ -21,7 +21,6 @@ const store = {
       updateCollection({ collection, id, payload });
     },
     hideEvent(state, id) {
-      const collection = state.current?.events;
       const payload = { hidden_from_timeline: true };
       updateCollection({ collection, id, payload });
     },
@@ -39,7 +38,6 @@ const store = {
   actions: {
     async fetch({ commit }, { url }) {
       const { data } = await this.$api.Page.get({
-// Temp comment
         url
       });
 

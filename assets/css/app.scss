@@ -15,6 +15,7 @@ html {
     align-items: center;
     justify-content: center;
   }
+  &-title {
     font-weight: bold;
     font-size: 40px;
   }
@@ -31,7 +32,6 @@ html {
   top: 10px;
   z-index: 1;
 }
-
 .no-results {
   font-size: 20px;
   margin: 50px 0;

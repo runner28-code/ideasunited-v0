@@ -73,7 +73,6 @@ export default {
       ) {
         this.$api.Message.destroyAll({
           chat_id: this.chat.id,
-          user_id: this.message.user.id
         });
       }
     }
