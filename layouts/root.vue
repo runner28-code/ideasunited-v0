@@ -176,3 +176,5 @@ export default {
     }
   },
   methods: {
+    sendNotification(payload) {
+      if (

@@ -102,3 +102,4 @@ export default {
   align-items: flex-end;
   padding: 20px;
   position: absolute;
+  left: 0;

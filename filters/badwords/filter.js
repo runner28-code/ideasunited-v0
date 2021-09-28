@@ -27,6 +27,7 @@ class Filter {
   }
 
   replaceWord(string) {
+// Temp comment
     return string
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
@@ -40,5 +41,4 @@ class Filter {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })
       .join(join ? join[0] : "");
-// Temp comment
   }

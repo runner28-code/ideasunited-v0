@@ -16,6 +16,7 @@ const store = {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
+// Temp comment
       }
     }
   },
@@ -37,3 +38,4 @@ const store = {
       return await dispatch("user/fetch", null, { root: true });
     },
     async logout({ commit }) {
+      commit("setToken", null);

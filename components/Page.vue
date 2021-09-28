@@ -118,7 +118,6 @@ export default {
       if (this.$refs.fullpage) {
         this.$refs.fullpage.init();
       }
-    }, 0);
     window.addEventListener('keydown', this.keyDownHandler);
     window.addEventListener('keyup', this.keyUpHandler);
   },
@@ -246,3 +245,6 @@ export default {
           styles.backgroundImage = `url(${src})`;
         }
       }
+      const posX = this.page.lead_background_styles.backgroundPositionX;
+      if (posX) styles.backgroundPositionX = `${posX}%`;
+      const posY = this.page.lead_background_styles.backgroundPositionY;

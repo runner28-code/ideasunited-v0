@@ -115,6 +115,7 @@ export default {
     cursor: pointer;
   }
   &::v-deep.v-text-field--enclosed .v-input__append-inner {
+    margin-top: 12px;
   }
 }
 .uploader {
@@ -125,3 +126,5 @@ export default {
   background-size: cover;
   background-position: center;
   display: flex;
+  align-items: center;
+  justify-content: center;

@@ -29,3 +29,5 @@ export default {
     Presentation,
     CustomComponent,
     RegistrationForm,
+    Faq,
+    TimelineList

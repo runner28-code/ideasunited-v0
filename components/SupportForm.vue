@@ -10,6 +10,7 @@
       :submit="submit"
       :fields="supportForm.support_form"
       v-model="form"
+      v-if="!submitted"
       :btn-text="supportForm.btn_text"
     />
     <div v-else class="support-form__submitted">
@@ -60,3 +61,4 @@ export default {
 .support-form {
   max-width: 800px;
   margin: auto;
+  width: 100%;

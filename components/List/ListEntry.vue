@@ -46,3 +46,4 @@ export default {
     font-size: 24px;
   }
   &__subtitle {
+    font-size: 14px;

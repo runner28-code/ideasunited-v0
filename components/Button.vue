@@ -54,3 +54,6 @@ export default {
         }
       }
 
+      this.$emit("click");
+    },
+    onFocus($event) {

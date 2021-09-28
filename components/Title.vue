@@ -31,3 +31,4 @@ export default {
 <style scoped lang="scss">
 .h2,
 .h1 {
+  line-height: 1.1;

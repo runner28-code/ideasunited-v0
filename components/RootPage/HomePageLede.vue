@@ -150,6 +150,7 @@ export default {
         .set(previewMedia, {
           position: "fixed",
           top: 0,
+          left: 0,
           y: fixedStart.top,
           x: fixedStart.left,
           width: fixedStart.width,
@@ -354,3 +355,8 @@ export default {
     &__create {
       position: relative;
     }
+  }
+
+  &__content {
+    pointer-events: none;
+  }

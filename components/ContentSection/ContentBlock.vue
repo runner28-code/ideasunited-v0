@@ -95,7 +95,6 @@ export default {
     styles() {
       let preview = this.activeTheme.content_block_preview?.thumb?.url;
 
-      const original = this.block.preview?.url;
 
       if (original) {
         if (original.match("\.gif$") || original.match("\.svg$")) {
@@ -132,3 +131,4 @@ export default {
     left: 8px;
     width: 28px;
     height: 28px;
+    border-radius: 50%;

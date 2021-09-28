@@ -226,3 +226,4 @@ export default {
         switch (payload.notification_type) {
           case "banner":
             this.$alert({ message: payload.title, timeout: 200000 });
+            break;

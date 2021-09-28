@@ -59,3 +59,4 @@ export default {
   },
   watch: {
     opened(newValue) {
+      if(!newValue) setTimeout(() => this.backToLogin(), 500);

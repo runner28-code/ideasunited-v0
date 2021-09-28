@@ -30,10 +30,10 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
           arrayFormat: "brackets",
           encode: false
         });
-// Temp comment
       };
 
       return requestConfig;
+// Temp comment
     },
     function(error) {
       return Promise.reject(error);

@@ -145,3 +145,5 @@ export default {
       margin: 0 11px;
       font-weight: 700;
 
+      a {
+        text-decoration: none;

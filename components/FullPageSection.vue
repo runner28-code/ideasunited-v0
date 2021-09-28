@@ -114,6 +114,7 @@ export default {
 .mobile-bglede {
   display: none;
   @media screen and (max-width: 944px) {
+    display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,3 +122,4 @@ export default {
   }
 }
 
+.components {

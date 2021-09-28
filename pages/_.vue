@@ -13,6 +13,7 @@ export default {
     let meta = [
       ...this.currentProject.meta_tags,
       {
+        hid: "og-title",
         property: "og:title",
         content: this.currentProject?.headline
       },
@@ -49,7 +50,6 @@ export default {
     }
   },
   beforeDestroy() {
-    this.$cable.unsubscribe({
       channel: "PageChannel",
       page_id: this.page?.id,
       env: this.currentProject.env

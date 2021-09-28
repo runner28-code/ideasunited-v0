@@ -40,7 +40,6 @@ export default {
       page: 1,
       search: ""
     };
-  },
   methods: {
     getId(index) {
       const item = this.list[index];

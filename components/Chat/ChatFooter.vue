@@ -8,7 +8,6 @@
       Chat is temporarily locked
     </div>
 
-    <div v-else-if="currentUser.blocked && currentUser.blocked">
       You are blocked
     </div>
 
@@ -90,3 +89,4 @@ export default {
 .chat-footer {
   box-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
   display: flex;
+  align-items: center;

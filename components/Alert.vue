@@ -41,7 +41,6 @@ export default {
     });
   },
   methods: {
-    onclick() {
       if (this.alert.onclick) {
         this.alert.onclick();
         this.alert = false;
@@ -99,3 +98,4 @@ export default {
 
     .v-icon {
       align-self: center;
+      font-size: 20px;

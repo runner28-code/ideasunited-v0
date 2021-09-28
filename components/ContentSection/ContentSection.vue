@@ -268,7 +268,6 @@ export default {
   }
 
   &:not(.disable_scroll) {
-    &::v-deep {
       .content-section-item__text {
         // position: absolute;
       }
@@ -282,3 +281,5 @@ export default {
 
   &__blocks {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;

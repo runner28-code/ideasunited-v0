@@ -20,7 +20,6 @@
     </swiper>
 
     <v-btn
-      :class="{ visible: visibleControls }"
       class="timeline__control"
       icon
       @click="swiperInstance.slideNext()"
@@ -195,3 +194,5 @@ export default {
       handler() {
         if (this.value) {
           const path =
+            this.value.type == "content_block" ? "block_id" : "event_id";
+          history.pushState({}, "", `?${path}=${this.value.id}`);

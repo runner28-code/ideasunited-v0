@@ -18,7 +18,6 @@
           />
           <TextField
             :rules="[$rules.required]"
-            v-model="loginForm.password"
             block
             label="Password"
             type="password"
@@ -156,3 +155,4 @@ export default {
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
+    font-size: 14px;

@@ -171,3 +171,4 @@ export default {
     line-height: 52px;
     text-align: center;
     text-transform: uppercase;
+  }

@@ -8,3 +8,4 @@ export default ctx => {
     Vue.use(
       VueGtag,
       {
+        config: { id: 'G-3H7VEBMHL7' },

@@ -93,3 +93,16 @@ export default {
         data: {},
         timestamp: new Date(),
       };
+    },
+    close() {
+      this.$emit("close");
+    },
+    async submit() {
+      try {
+        await this.$api.Submission.create(this.form);
+        this.initForm();
+        this.close();
+        this.submitted = true;
+        this.$root.$emit("fullpageRebuild");
+      } catch {}
+    },

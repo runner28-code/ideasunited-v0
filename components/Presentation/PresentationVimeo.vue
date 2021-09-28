@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import Player from "@vimeo/player";
 
 export default {
   props: {
@@ -38,7 +39,6 @@ export default {
       this.player.setVolume(0.6);
       this.player.play();
     }
-  },
   computed: {
     newSlideSettings() {
       return this.presentation.settings[this.slide.id] || {};

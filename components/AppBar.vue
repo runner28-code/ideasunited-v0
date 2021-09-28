@@ -297,3 +297,4 @@ export default {
 
     &-item {
       font-size: 24px;
+      margin-top: 40px;

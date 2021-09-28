@@ -16,6 +16,7 @@ const providers = {
   }
 };
 
+// Temp comment
 export default function(ctx, inject) {
   inject("oauth", provider => {
     return new Promise((resolve, reject) => {
@@ -33,7 +34,6 @@ export default function(ctx, inject) {
         authorizationEndpoint + "?domain=" + location.hostname;
 
       const w = window.open(
-// Temp comment
         authorizationEndpoint,
         "Auth",
         "width=580,height=730"
@@ -42,3 +42,4 @@ export default function(ctx, inject) {
         const token = localStorage.getItem("token");
 
         if (token) {
+          resolve({ token });

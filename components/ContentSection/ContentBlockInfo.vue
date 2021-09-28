@@ -78,7 +78,6 @@
           >{{ block.link_text }}</Button
         >
       </div>
-    </div>
   </div>
 </template>
 
@@ -126,3 +125,4 @@ export default {
 <style scoped lang="scss">
 .content-block-info {
   max-height: 100vh;
+  .slider-modal-content {

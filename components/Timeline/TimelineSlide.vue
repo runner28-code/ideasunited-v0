@@ -4,6 +4,7 @@
       {{
         (value.display_time || value.start_at)
           | moment("timezone", currentTimezone, "dddd MMM Do")
+      }}
     </div>
     <v-responsive
       @click="setActive"
@@ -140,3 +141,5 @@ export default {
 
   &__text {
     letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
