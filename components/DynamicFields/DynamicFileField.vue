@@ -66,7 +66,6 @@ export default {
   }
 
   &__label {
-    font-weight: bold;
   }
 
   &__delete {

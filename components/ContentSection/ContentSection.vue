@@ -268,6 +268,7 @@ export default {
   }
 
   &:not(.disable_scroll) {
+    &::v-deep {
       .content-section-item__text {
         // position: absolute;
       }

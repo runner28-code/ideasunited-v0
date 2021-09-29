@@ -6,6 +6,7 @@
     outlined
     class="text-field"
     :placeholder="placeholder"
+    :label="label"
     :type="localType"
     :rules="rules"
     @change="$emit('change')"

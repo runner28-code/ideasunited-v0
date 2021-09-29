@@ -1,4 +1,3 @@
-// console.log("====================++");
 // console.log(`${process.env.API_URL}${process.env.API_PUBLIC_PATH}`);
 // console.log("====================++");
 // console.log({
@@ -58,7 +57,6 @@ export default {
         require: "smoothscroll-polyfill",
         detect: () =>
           "scrollBehavior" in document.documentElement.style &&
-// Temp comment
           window.__forceSmoothScrollPolyfill__ !== true,
         install: (smoothscroll) => {
           smoothscroll.polyfill();

@@ -78,6 +78,7 @@
           >{{ block.link_text }}</Button
         >
       </div>
+    </div>
   </div>
 </template>
 

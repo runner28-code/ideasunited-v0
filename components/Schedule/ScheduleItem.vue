@@ -67,6 +67,7 @@ export default {
 
   &.clickable {
     cursor: pointer;
+  }
 
   &.dark {
     color: white;

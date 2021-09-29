@@ -18,6 +18,7 @@
           />
           <TextField
             :rules="[$rules.required]"
+            v-model="loginForm.password"
             block
             label="Password"
             type="password"

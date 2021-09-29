@@ -59,7 +59,6 @@
               <div class="app-bar__new-opps-details__title">{{ newOppDetail.title }}</div>
             </div>
           </div>
-          <div class="app-bar__new-opps-details__description">{{ newOppDetail.og_description }}</div>
         </div>
         <div class="app-bar__new-opps-details__actions">
           <v-btn
@@ -68,6 +67,7 @@
             @click.prevent="showNewOppDetails = false"
             small
           >
+            <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
           <v-btn
             icon

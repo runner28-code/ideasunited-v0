@@ -60,7 +60,7 @@ export default {
     },
     scrollBottom() {
       const el = this.$refs.messages;
-      if (!el) return;
+      if (el.scrollTop == el.scrollHeight - el.clientHeight)
         this.$nextTick(function() {
           el.scrollTop = el.scrollHeight;
         });

@@ -165,6 +165,7 @@ export default {
   &.show-event {
     margin-bottom: -45px;
   }
+
   &.with_chat &__video-player {
   }
 

@@ -41,6 +41,7 @@ export default {
     });
   },
   methods: {
+    onclick() {
       if (this.alert.onclick) {
         this.alert.onclick();
         this.alert = false;

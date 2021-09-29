@@ -22,7 +22,6 @@
       <div class="fullpage-outer-container">
         <div class="fullpage-container">
           <no-ssr>
-            <full-page
               :options="fullpageOpts"
               ref="fullpage"
               id="fullpage"
@@ -118,6 +117,7 @@ export default {
       if (this.$refs.fullpage) {
         this.$refs.fullpage.init();
       }
+    }, 0);
     window.addEventListener('keydown', this.keyDownHandler);
     window.addEventListener('keyup', this.keyUpHandler);
   },
