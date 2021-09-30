@@ -44,7 +44,6 @@ export default {
     padding-left: 0;
     li {
       display: flex;
-      > div {
         width: 50%;
       }
       &:not(:last-child) {

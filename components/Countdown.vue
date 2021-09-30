@@ -141,6 +141,7 @@ export default {
 .countdown__text {
   font-weight: bold;
   font-size: 18px;
+  width: 100%;
   letter-spacing: 0.2em;
   white-space: pre-line;
   line-height: 1.2;
@@ -155,7 +156,6 @@ export default {
     width: 60px;
   }
 
-  &__item {
     text-align: center;
   }
   &__item-label {

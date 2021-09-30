@@ -23,7 +23,6 @@
       v-if="[2, 3].includes(textBlock.layout)"
     >
       <TextblockItem
-        :item="calcList[1]"
         v-if="[2, 3].includes(textBlock.layout)"
       />
       <TextblockItem

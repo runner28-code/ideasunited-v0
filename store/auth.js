@@ -35,6 +35,5 @@ const store = {
       commit("setToken", data.token);
 
       return await dispatch("user/fetch", null, { root: true });
-    },
     async logout({ commit }) {
       commit("setToken", null);

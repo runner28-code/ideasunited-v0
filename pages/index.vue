@@ -12,13 +12,13 @@ export default {
   computed: {
     status() {
       if (!this.page && !this.currentProject) return 404;
+
       if (this.currentProject) return 200;
 
       if (
         (this.page.authorized && !this.currentUser) ||
         (this.currentUser &&
           this.page.role_ids.length &&
-          !_.intersection(this.page.role_ids, this.currentUser.role_ids).length)
       ) {
         return 403;
       } else {

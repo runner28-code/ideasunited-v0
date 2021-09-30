@@ -24,6 +24,7 @@ export default {
         "#689f38",
         "#afb42b",
         "#fbc02d",
+        "#f57c00",
         "#5d4037",
         "#455a64",
         "#1b5e20",
@@ -48,4 +49,3 @@ export default {
     color() {
       return this.colors[getHash(this.id) % this.colors.length];
     }
-  }

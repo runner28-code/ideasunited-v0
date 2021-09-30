@@ -16,4 +16,3 @@ const store = {
           dispatch("user/fetch", null, { root: true }),
           dispatch("datasources/fetch", null, { root: true })
         ]).then(() => {
-          commit("setLoaded", true);

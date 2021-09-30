@@ -22,6 +22,7 @@
       <div class="fullpage-outer-container">
         <div class="fullpage-container">
           <no-ssr>
+            <full-page
               :options="fullpageOpts"
               ref="fullpage"
               id="fullpage"
@@ -69,7 +70,6 @@ import FullPageSection from "@/components/FullPageSection";
 
 export default {
   mixins: [mixin, isMobileMixin],
-  components: { FullPageSection },
   data() {
     return {
       currentSlide: 0,

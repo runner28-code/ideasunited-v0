@@ -16,7 +16,6 @@ export default async function (req, res, next) {
         },
       }
     );
-
     if (
       project &&
       project.production_redirect_enabled &&

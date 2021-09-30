@@ -6,7 +6,6 @@ if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
 
   Vue.mixin({
-    methods: {
       scrollToInvalidInput(inputs) {
         const inputError = inputs.find((input) => input.hasError);
         if (inputError) {
@@ -48,7 +47,6 @@ if (!Vue.__map_state_mixin__) {
         currentPage: (state) => state.page.current,
         datasources: (state) => state.datasources.data,
         currentTimezone(state) {
-// Temp comment
           if (state.project.current.display_local_timezone)
             return moment.tz.guess(true);
           else return state.project.current.timezone;
