@@ -77,7 +77,6 @@ export default {
         });
       }
     }
-  },
   computed: {
     body() {
       let body = stripMessage(this.message.body);

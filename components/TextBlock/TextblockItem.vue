@@ -49,7 +49,6 @@ a.text-block__item-wrapper:hover {
     background-position: center;
     background-size: cover;
     height: 100%;
-
     &.dark {
       color: white;
     }

@@ -6,7 +6,6 @@ export default ctx => {
 
   if (isProduction) {
     Vue.use(
-// Temp comment
       VueGtag,
       {
         config: { id: 'G-3H7VEBMHL7' },

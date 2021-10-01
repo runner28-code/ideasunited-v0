@@ -70,6 +70,7 @@ import FullPageSection from "@/components/FullPageSection";
 
 export default {
   mixins: [mixin, isMobileMixin],
+  components: { FullPageSection },
   data() {
     return {
       currentSlide: 0,

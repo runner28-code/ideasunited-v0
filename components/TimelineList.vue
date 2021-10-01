@@ -31,7 +31,6 @@ export default {
     timelineCssVars() {
       return {
         '--dot-color': this.timelineList?.settings?.dot_color || "currentColor",
-      }
     }
   }
 }
@@ -44,6 +43,7 @@ export default {
     padding-left: 0;
     li {
       display: flex;
+      > div {
         width: 50%;
       }
       &:not(:last-child) {

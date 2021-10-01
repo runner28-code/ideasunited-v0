@@ -118,6 +118,7 @@ export default {
         return `https://www.instagram.com/${v.substr(1)}`;
 
       return v;
+    },
   },
 };
 </script>

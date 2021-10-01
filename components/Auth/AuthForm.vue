@@ -14,6 +14,7 @@
             :rules="[$rules.required]"
             label="Email"
             type="email"
+            name="email"
           />
           <TextField
             :rules="[$rules.required]"

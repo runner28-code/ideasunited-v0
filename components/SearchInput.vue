@@ -28,7 +28,6 @@ export default {
       return {
         color: this.calcTheme == "dark" ? "white" : "#333"
       };
-    },
     calcTheme() {
       return getThemeByColor(this.activeTheme.primary_color);
     }

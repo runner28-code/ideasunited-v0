@@ -7,7 +7,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
   $axios.interceptors.request.use(
     requestConfig => {
       if (requestConfig.jwt) {
-// Temp comment
         const authToken = $cookies.get("authToken");
         if (authToken) {
           requestConfig.headers["Auth"] = authToken;
@@ -35,6 +34,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
 
       return requestConfig;
     },
+// Temp comment
     function(error) {
       return Promise.reject(error);
     }

@@ -80,6 +80,7 @@ export default {
               type: "content_block"
             });
             window.scroll({ top: 0, left: 0, behavior: "smooth" });
+          } else {
             this.dialog = true;
           }
         }
@@ -115,7 +116,6 @@ export default {
 <style scoped lang="scss">
 .content-section-item {
   cursor: pointer;
-  position: relative;
 
   &--no-content {
     cursor: default;

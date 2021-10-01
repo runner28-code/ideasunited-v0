@@ -52,7 +52,6 @@ export default {
         if (this.refs?.form && !this.refs.form.validate()) {
           return this.scrollToInvalidInput(this.refs.form.inputs);
         }
-      }
 
       this.$emit("click");
     },

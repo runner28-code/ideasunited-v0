@@ -23,6 +23,7 @@
               <Button @click="supportDialog = true">Contact Us</Button>
             </div>
           </div>
+          <div v-else>
             <DynamicForm
               :key="form.timestamp.toDateString()"
               :submit="submit"
@@ -68,7 +69,6 @@ export default {
   data() {
     return {
       form: null,
-      submitted: false,
       supportDialog: false,
       supportForm: null,
     };
