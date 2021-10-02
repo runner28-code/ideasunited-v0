@@ -249,7 +249,6 @@ export default {
             opacity: 0,
           }, "start")
           .add("fullwindow")
-          .set(previewMedia, {
             width: "100%",
             height: "100%",
             maskSize: "100% 100%"

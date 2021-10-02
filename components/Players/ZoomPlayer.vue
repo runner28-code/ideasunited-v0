@@ -21,7 +21,6 @@
         {{
           event.start_at
             | moment("timezone", currentTimezone, "h:mm A")
-        }}
       </div>
       <Button large @click="openZoomLink">Click to Connect</Button>
     </div>
@@ -43,6 +42,7 @@ export default {
   created() {
     this.fetchSignature();
   },
+  methods: {
     openZoomLink() {
       window.open(this.event.zoom_url, "_blank");
     },

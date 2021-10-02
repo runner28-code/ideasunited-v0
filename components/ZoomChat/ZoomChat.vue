@@ -10,6 +10,7 @@
     />
   </div>
 </template>
+
 <script>
 import { buildZoomLink } from "@/utils";
 export default {

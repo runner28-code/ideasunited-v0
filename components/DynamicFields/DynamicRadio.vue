@@ -6,7 +6,6 @@
     <v-radio-group
       class="radio-group__control"
       row
-      :value="value"
       hide-details="auto"
       @change="$emit('input', $event)"
       :rules="rules"
@@ -25,6 +24,7 @@
 
 <script>
 export default {
+  props: {
     title: String,
     value: [String, Object, Number, Boolean],
     options: {

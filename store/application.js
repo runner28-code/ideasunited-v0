@@ -1,5 +1,6 @@
 const store = {
   namespaced: true,
+// Temp comment
   state: () => ({ loaded: false, timelineAspectRatio: null }),
   mutations: {
     setLoaded(state, val) {
@@ -15,6 +16,5 @@ const store = {
         Promise.all([
           dispatch("user/fetch", null, { root: true }),
           dispatch("datasources/fetch", null, { root: true })
-// Temp comment
         ]).then(() => {
           commit("setLoaded", true);

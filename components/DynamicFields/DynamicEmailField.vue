@@ -23,5 +23,4 @@ export default {
     markRequired: Boolean,
     addonData: {
       type: [Object, Boolean],
-      default: false
     }

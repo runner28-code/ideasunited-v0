@@ -17,7 +17,6 @@
     @focus.stop="onFocus($event)"
   >
     <slot></slot>
-  </v-btn>
 </template>
 
 <script>
@@ -52,6 +51,7 @@ export default {
         if (this.refs?.form && !this.refs.form.validate()) {
           return this.scrollToInvalidInput(this.refs.form.inputs);
         }
+      }
 
       this.$emit("click");
     },

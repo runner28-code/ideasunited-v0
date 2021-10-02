@@ -31,7 +31,6 @@
     >
       <SubmissionItemContent :layout="layout" :item="item" />
     </SliderModal>
-  </div>
 </template>
 
 <script>

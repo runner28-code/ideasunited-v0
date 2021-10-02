@@ -34,7 +34,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
 
       return requestConfig;
     },
-// Temp comment
     function(error) {
       return Promise.reject(error);
     }

@@ -69,6 +69,7 @@ export default {
   data() {
     return {
       form: null,
+      submitted: false,
       supportDialog: false,
       supportForm: null,
     };

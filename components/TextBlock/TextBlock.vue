@@ -52,7 +52,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.text-block {
   margin: -10px;
   display: flex;
   flex-wrap: wrap;

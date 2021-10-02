@@ -12,7 +12,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   props: {
@@ -28,6 +27,7 @@ export default {
     list() {
       return (this.page || this.currentPage).lists[this.value];
     },
+    entries() {
       return this.list.entries.filter(
         t =>
           !this.search ||

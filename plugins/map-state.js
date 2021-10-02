@@ -1,4 +1,3 @@
-// Temp comment
 import Vue from "vue";
 import { mapState } from "vuex";
 import moment from "moment-timezone";
@@ -45,7 +44,6 @@ if (!Vue.__map_state_mixin__) {
     computed: {
       ...mapState({
         currentUser: (state) => state.user.current,
-        currentProject: (state) => state.project.current,
         currentPage: (state) => state.page.current,
         datasources: (state) => state.datasources.data,
         currentTimezone(state) {

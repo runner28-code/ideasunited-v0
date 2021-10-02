@@ -116,6 +116,7 @@ export default {
 <style scoped lang="scss">
 .content-section-item {
   cursor: pointer;
+  position: relative;
 
   &--no-content {
     cursor: default;

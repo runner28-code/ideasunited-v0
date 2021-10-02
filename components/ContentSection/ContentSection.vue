@@ -251,6 +251,7 @@ export default {
     &-wrapper {
       display: flex;
       align-items: center;
+      width: 100%;
     }
   }
 

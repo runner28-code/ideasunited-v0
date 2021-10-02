@@ -205,7 +205,6 @@ export default {
         .page-wrapper {
           margin-left: 0 !important;
         }
-
         .opportunity-page {
           width: 100% !important;
           left: 0 !important;
