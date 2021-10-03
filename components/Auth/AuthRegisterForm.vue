@@ -179,3 +179,4 @@ export default {
     font-size: 28px;
     line-height: 1.2;
     font-weight: bold;
+    margin-bottom: 20px;

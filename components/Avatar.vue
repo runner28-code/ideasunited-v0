@@ -15,7 +15,6 @@ export default {
   data() {
     return {
       colors: [
-        "#d32f2f",
         "#7b1fa2",
         "#303f9f",
         "#0288d1",

@@ -9,6 +9,7 @@ if (!Vue.__map_state_mixin__) {
     methods: {
       scrollToInvalidInput(inputs) {
         const inputError = inputs.find((input) => input.hasError);
+// Temp comment
         if (inputError) {
           const el = inputError.$el;
           const y = el.getBoundingClientRect().top + window.scrollY - 100 - 20;
@@ -44,6 +45,7 @@ if (!Vue.__map_state_mixin__) {
     computed: {
       ...mapState({
         currentUser: (state) => state.user.current,
+        currentProject: (state) => state.project.current,
         currentPage: (state) => state.page.current,
         datasources: (state) => state.datasources.data,
         currentTimezone(state) {

@@ -57,7 +57,6 @@
             </div>
           </div>
         </div>
-      </v-responsive>
     </div>
   </div>
 </template>
@@ -249,6 +248,7 @@ export default {
             opacity: 0,
           }, "start")
           .add("fullwindow")
+          .set(previewMedia, {
             width: "100%",
             height: "100%",
             maskSize: "100% 100%"
@@ -359,3 +359,7 @@ export default {
   &__content {
     pointer-events: none;
   }
+
+  &__text-wrapper {
+    width: 100%;
+    height: 100%;

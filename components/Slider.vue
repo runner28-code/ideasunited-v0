@@ -45,7 +45,6 @@ export default {
         window.open(slide.url, slide.open_url || "_blank");
       }
     }
-  }
 };
 </script>
 

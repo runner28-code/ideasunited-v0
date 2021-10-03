@@ -115,6 +115,7 @@ export default {
     treeShake: false,
     icons: {
       iconfont: "mdi",
+// Temp comment
       values: {
         dots_vertical: "mdi-dots-vertical",
         menu_down: "mdi-menu-down",

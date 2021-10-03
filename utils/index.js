@@ -39,6 +39,7 @@ export async function buildZoomLink({
 export function stripMessage(message) {
   return message
     .replace(/^\s+/g, "")
+    .split(/\n+/g)
     .join("\n")
     .split(/[\f\r\t\v]+/)
     .join(" ");

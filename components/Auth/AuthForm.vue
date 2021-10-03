@@ -138,7 +138,6 @@ export default {
     max-width: 590px;
   }
 
-  &-tabs {
     display: flex;
   }
 

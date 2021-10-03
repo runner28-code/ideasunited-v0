@@ -67,3 +67,4 @@ export default {
           const t = loadModule(
             sfc_name + "_" + component.updated_at + ".vue",
             options
+          ).then(compiledComponent => {

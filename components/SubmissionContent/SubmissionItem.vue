@@ -31,6 +31,7 @@
     >
       <SubmissionItemContent :layout="layout" :item="item" />
     </SliderModal>
+  </div>
 </template>
 
 <script>
@@ -102,3 +103,4 @@ export default {
   padding: 20px;
   position: absolute;
   left: 0;
+  right: 0;

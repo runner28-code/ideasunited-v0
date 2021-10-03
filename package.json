@@ -20,6 +20,7 @@
     "@nuxtjs/proxy": "^2.1.0",
     "@nuxtjs/vuetify": "^1.12.3",
     "@vimeo/player": "^2.15.0",
+    "actioncable-vue": "^2.4.2",
     "add": "^2.0.6",
     "axios": "^0.21.1",
     "cookie-universal-nuxt": "^2.1.4",

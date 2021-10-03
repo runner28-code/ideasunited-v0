@@ -6,6 +6,7 @@
     <v-radio-group
       class="radio-group__control"
       row
+      :value="value"
       hide-details="auto"
       @change="$emit('input', $event)"
       :rules="rules"
@@ -36,7 +37,6 @@ export default {
     markRequired: Boolean
   },
   methods: {
-    onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },

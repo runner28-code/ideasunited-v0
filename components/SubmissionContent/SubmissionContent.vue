@@ -71,7 +71,6 @@ export default {
       this.page = 1;
       this.list = [];
       this.infiniteId += 1;
-    }, 300)
   },
   computed: {
     submissionContent() {
@@ -93,3 +92,4 @@ export default {
   watch: {
     search() {
       this.setInfiniteId();
+    }

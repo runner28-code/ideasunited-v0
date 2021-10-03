@@ -27,7 +27,6 @@ export default {
         env: this.currentProject.env
       });
     }
-  },
   channels: {
     ChatChannel: {
       received({ type, payload }) {
@@ -61,3 +60,4 @@ export default {
 
 .chat-item {
   display: flex;
+  margin-bottom: 10px;

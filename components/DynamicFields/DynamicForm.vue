@@ -31,6 +31,7 @@
         :refs="$refs"
         v-if="showBackToLogin && !currentUser"
         @click="$emit('backToLogin')"
+      >
         Already a member?
       </Button>
       <Button :refs="$refs" type="submit" :disabled="!valid || loading">

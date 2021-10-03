@@ -32,7 +32,6 @@
       />
     </div>
   </div>
-</template>
 
 <script>
 export default {
@@ -52,6 +51,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.text-block {
   margin: -10px;
   display: flex;
   flex-wrap: wrap;
@@ -101,3 +101,4 @@ export default {
     margin: 0;
 
     &__side {
+      min-height: 200px;

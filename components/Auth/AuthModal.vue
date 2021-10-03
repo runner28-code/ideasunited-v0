@@ -10,7 +10,6 @@
       <v-card-text>
         <AuthRegisterForm
           :dialog-state="dialogState"
-        />
       </v-card-text>
     </v-card>
   </v-dialog>
@@ -60,3 +59,4 @@ export default {
   watch: {
     opened(newValue) {
       if(!newValue) setTimeout(() => this.backToLogin(), 500);
+    }

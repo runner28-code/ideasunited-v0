@@ -42,7 +42,6 @@ export default {
   },
   methods: {
     newMessage(payload) {
-      this.messages.push(payload);
       this.scrollBottom();
     },
     deleteMessage(messageId) {
@@ -64,6 +63,7 @@ export default {
       if (el.scrollTop == el.scrollHeight - el.clientHeight)
         this.$nextTick(function() {
           el.scrollTop = el.scrollHeight;
+        });
     },
     async syncMessages() {
       const { data } = await this.$api.Message.query({

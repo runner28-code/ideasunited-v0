@@ -78,7 +78,6 @@
       @close="areYouSureDialog = false"
       @submit="submit"
     />
-  </div>
 </template>
 
 <script>

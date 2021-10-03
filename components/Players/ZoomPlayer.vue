@@ -18,9 +18,9 @@
             | moment("timezone", currentTimezone, "dddd M/D/YYYY")
         }}
         at
-        {{
           event.start_at
             | moment("timezone", currentTimezone, "h:mm A")
+        }}
       </div>
       <Button large @click="openZoomLink">Click to Connect</Button>
     </div>
@@ -80,3 +80,4 @@ export default {
     font-weight: 500;
     font-size: 48px;
     margin-bottom: 10px;
+  }
