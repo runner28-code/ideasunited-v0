@@ -257,3 +257,6 @@ export default {
       @media screen and (max-width: 944px) {
         display: flex;
       }
+    }
+    &__subitem {
+      color: #56565a;

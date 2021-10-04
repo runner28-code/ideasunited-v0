@@ -95,3 +95,12 @@ export default {
 
   .input-icon-toggle {
     cursor: pointer;
+  }
+
+  &::v-deep {
+    fieldset {
+      border-color: var(--v-border-base);
+      background: white;
+    }
+
+    .v-input__append-inner {

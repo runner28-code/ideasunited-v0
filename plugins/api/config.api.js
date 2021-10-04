@@ -36,7 +36,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
     },
     function(error) {
       return Promise.reject(error);
-// Temp comment
     }
   );
 
@@ -44,6 +43,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
     responseConfig => {
       if (responseConfig.data) {
         const { alert, redirect_to } = responseConfig.data;
+// Temp comment
 
         if (process.browser) {
           if (alert) {
@@ -55,3 +55,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
           }
         }
       }
+

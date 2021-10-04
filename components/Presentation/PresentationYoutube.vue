@@ -7,6 +7,7 @@
 
 <script>
 import YouTubePlayer from "youtube-player";
+export default {
   props: {
     slide: Object,
     presentation: Object
@@ -52,3 +53,4 @@ import YouTubePlayer from "youtube-player";
       immediate: true,
       handler(newVal, oldVal) {
         if (this.newSlideSettings.started && this.player) {
+          this.play();

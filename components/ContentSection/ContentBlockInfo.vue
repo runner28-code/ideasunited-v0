@@ -128,3 +128,4 @@ export default {
   max-height: 100vh;
   .slider-modal-content {
 
+    &__content {

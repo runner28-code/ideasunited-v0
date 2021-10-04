@@ -35,3 +35,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.submission-page {

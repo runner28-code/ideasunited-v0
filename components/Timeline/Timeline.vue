@@ -202,3 +202,5 @@ export default {
             this.swiperInstance.slideTo(idx);
           }
         }
+      }
+    }

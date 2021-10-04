@@ -45,6 +45,7 @@ export default {
         window.open(slide.url, slide.open_url || "_blank");
       }
     }
+  }
 };
 </script>
 
@@ -53,3 +54,4 @@ export default {
   &-wrapper {
     height: 100%;
     width: 100%;
+    position: absolute;

@@ -30,8 +30,8 @@
         :item="calcList[2]"
         v-if="[3].includes(textBlock.layout)"
       />
-    </div>
   </div>
+</template>
 
 <script>
 export default {
@@ -102,3 +102,4 @@ export default {
 
     &__side {
       min-height: 200px;
+      width: 100%;

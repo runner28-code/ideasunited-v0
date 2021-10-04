@@ -123,3 +123,5 @@ export default {
 }
 
 .components {
+  width: 100%;
+  flex-grow: 1;

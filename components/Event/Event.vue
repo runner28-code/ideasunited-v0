@@ -225,3 +225,5 @@ export default {
   &-player {
     &.sticky-video {
       position: fixed;
+      top: 60px;
+      width: 400px;

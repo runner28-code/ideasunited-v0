@@ -145,7 +145,6 @@ export default {
   computed: {
     styles() {
       return `
-        <style rel="stylesheet" type="text/css">
           .v-application {
             font-family: ${this.activeTheme.paragraph_font.font.font_name}, sans-serif;
             font-size: ${this.activeTheme.paragraph_font.size}px;
@@ -178,3 +177,5 @@ export default {
   methods: {
     sendNotification(payload) {
       if (
+        !payload.page_ids.length ||
+        payload.page_ids.includes(this.currentPage.id)

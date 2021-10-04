@@ -106,6 +106,7 @@ export default {
             id: fontkitId,
           },
         });
+      });
     }
   },
   mounted() {
@@ -227,3 +228,5 @@ export default {
             this.$alert({ message: payload.title, timeout: 200000 });
             break;
           default:
+            this.$root.$emit("showNotification", payload);
+            break;

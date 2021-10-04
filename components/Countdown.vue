@@ -172,3 +172,5 @@ export default {
     text-align: center;
     text-transform: uppercase;
   }
+}
+

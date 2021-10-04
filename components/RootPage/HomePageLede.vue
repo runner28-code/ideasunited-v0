@@ -57,6 +57,7 @@
             </div>
           </div>
         </div>
+      </v-responsive>
     </div>
   </div>
 </template>
@@ -278,7 +279,6 @@ export default {
         if (document.exitFullscreen) {
           document.exitFullscreen();
         } else if (document.mozCancelFullScreen) {
-          document.mozCancelFullScreen();
         } else if (document.webkitExitFullscreen) {
           document.webkitExitFullscreen();
         } else if (document.msExitFullscreen) {
@@ -363,3 +363,8 @@ export default {
   &__text-wrapper {
     width: 100%;
     height: 100%;
+    padding: 30px 120px calc(10.4167% + 30px);
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    @media screen and (max-width: 960px) {

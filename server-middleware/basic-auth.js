@@ -1,6 +1,5 @@
 import axios from "axios";
 export default async function (req, res, next) {
-// Temp comment
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
   const { host } = req.headers;
@@ -36,3 +35,4 @@ export default async function (req, res, next) {
 
     // if (!req.headers.referer && req.headers.accept) {
 
+    if (host == "oauth.community.ideasunited.com") {

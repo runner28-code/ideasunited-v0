@@ -29,13 +29,13 @@
 <script>
 export default {
   props: {
+    event: Object
   },
   computed: {
     styles() {
       const url =
         this.event.background?.large?.url ||
         this.activeTheme.event_background.large.url;
-      return {
         backgroundImage: `url(${url})`
       };
     }

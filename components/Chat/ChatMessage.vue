@@ -98,3 +98,4 @@ export default {
   display: flex;
 }
 .message__avatar {
+  margin-right: 10px;

@@ -7,6 +7,7 @@
       class="forgot-password-page__form"
     >
       <div class="forgot-password-page__title">New Password</div>
+      <TextField label="Password" v-model="form.password" type="password" />
       <TextField
         label="Password Confirmation"
         v-model="form.password_confirmation"
@@ -55,7 +56,6 @@ export default {
           token: this.token
         });
         this.$store.commit("auth/setToken", data.token);
-        this.$store.dispatch("user/fetch");
         this.$router.push("/").catch(() => {});
       } catch (e) {
         console.error(e);
@@ -71,3 +71,5 @@ export default {
   top: 0;
   left: 0;
   bottom: 0;
+  right: 0;
+  display: flex;

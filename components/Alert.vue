@@ -100,3 +100,4 @@ export default {
     .v-icon {
       align-self: center;
       font-size: 20px;
+    }

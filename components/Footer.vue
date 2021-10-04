@@ -63,7 +63,6 @@ export default {
     this.fetchSupportForm();
   },
   methods: {
-    async fetchSupportForm() {
       const { data } = await this.$api.Support.getForm();
       this.supportForm = data;
     },
@@ -148,3 +147,6 @@ export default {
       a {
         text-decoration: none;
         color: inherit;
+
+        &:hover {
+          text-decoration: underline;

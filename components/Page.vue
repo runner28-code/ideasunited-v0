@@ -201,6 +201,7 @@ export default {
       const fpScrollable = document.querySelector('.fp-scrollable');
       if(fpScrollable) fpScrollable.scrollTo(0, 0);
     },
+    fullpageScrollFocus(elem) {
       if(!process.client) return;
       const fpScrollable = document.querySelector('.fp-scrollable');
       if(fpScrollable) {
@@ -250,3 +251,7 @@ export default {
       const posY = this.page.lead_background_styles.backgroundPositionY;
       if (posY) styles.backgroundPositionY = `${posY}%`;
       return styles;
+    },
+    fullpageReady() {
+      return this.currentProject && this.currentProject.menu_pages.length;
+    },

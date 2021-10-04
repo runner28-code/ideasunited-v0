@@ -138,6 +138,7 @@ export default {
     max-width: 590px;
   }
 
+  &-tabs {
     display: flex;
   }
 
@@ -156,3 +157,5 @@ export default {
     justify-content: center;
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: bold;
+    width: 100%;

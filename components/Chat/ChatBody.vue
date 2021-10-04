@@ -42,6 +42,7 @@ export default {
   },
   methods: {
     newMessage(payload) {
+      this.messages.push(payload);
       this.scrollBottom();
     },
     deleteMessage(messageId) {
@@ -77,3 +78,4 @@ export default {
     async fetchMessages($state) {
       const { data } = await this.$api.Message.query({
         chat_id: this.chat.id,
+        last_message_date: this.messages[0]?.created_at

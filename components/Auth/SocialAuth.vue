@@ -48,6 +48,7 @@ export default {
     };
   },
   methods: {
+    async oauth(provider) {
       // try {
       const { token } = await this.$oauth(provider);
 
@@ -92,3 +93,5 @@ export default {
   margin-top: 40px;
 
   &__item {
+    height: 40px;
+    width: 40px;

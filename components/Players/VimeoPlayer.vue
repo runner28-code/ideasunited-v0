@@ -16,7 +16,6 @@ export default {
     vimeoId: [String, Number],
     vimeoH: [String, Number],
     vimeoChapter: [String, Number],
-    firstStartAt: {
       type: Number,
       default: 0
     },
@@ -63,3 +62,4 @@ export default {
       this.player.getCurrentChapter().then(current_chapter => {
         if (c != current_chapter && this.chapters[c]) {
           this.player.setCurrentTime(this.chapters[c].startTime + 1);
+        }

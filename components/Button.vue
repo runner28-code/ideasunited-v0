@@ -57,3 +57,4 @@ export default {
       this.$emit("click");
     },
     onFocus($event) {
+      this.$root.$emit("fullpageScrollFocus", $event.srcElement);
