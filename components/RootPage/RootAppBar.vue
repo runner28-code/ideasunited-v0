@@ -153,6 +153,7 @@ export default {
     },
     goToOpp(opp) {
       
+    },
   }
 };
 </script>
@@ -315,3 +316,5 @@ export default {
     }
 
     &-create {
+      height: 40px !important;
+      letter-spacing: 1px;

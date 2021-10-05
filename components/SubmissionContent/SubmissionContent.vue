@@ -94,3 +94,5 @@ export default {
     search() {
       this.setInfiniteId();
     }
+  }
+};

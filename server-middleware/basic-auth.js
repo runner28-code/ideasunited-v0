@@ -11,7 +11,6 @@ export default async function (req, res, next) {
       {
         headers: {
           Nuxt: process.env.NUXT_ID,
-          "App-Host": host,
           "App-Root-Path": req.url,
         },
       }
@@ -36,3 +35,4 @@ export default async function (req, res, next) {
     // if (!req.headers.referer && req.headers.accept) {
 
     if (host == "oauth.community.ideasunited.com") {
+      if (req.url.includes("/api/v1")) {

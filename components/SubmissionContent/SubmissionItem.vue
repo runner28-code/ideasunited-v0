@@ -37,7 +37,6 @@
 <script>
 import { getHash } from "@/utils";
 
-export default {
   props: {
     item: Object,
     prevId: String,
@@ -105,3 +104,5 @@ export default {
   left: 0;
   right: 0;
   top: 0;
+  bottom: 0;
+

@@ -94,6 +94,7 @@ export default {
           (window.innerHeight || document.documentElement.clientHeight) &&
         bounding.right <=
           (window.innerWidth || document.documentElement.clientWidth)
+      );
     },
     close() {
       this.$emit("input", false);
@@ -139,3 +140,4 @@ export default {
       0px 9px 46px 8px rgba(0, 0, 0, 0.12);
 
     &-wrapper {
+      width: 100%;

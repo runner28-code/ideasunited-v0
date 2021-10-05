@@ -58,3 +58,4 @@ export default {
       const t = this.item.formatted_data.find(
         t => t.uuid == this.layout.preview
       );
+      return t?.value;

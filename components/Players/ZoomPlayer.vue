@@ -13,6 +13,7 @@
     <div class="zoom-player" v-else-if="event.zoom_player_type == 'desktop'">
       <div class="zoom-player__title">{{ event.title }}</div>
       <div class="zoom-player__subtitle" v-if="event.start_at">
+        {{
           event.start_at
             | moment("timezone", currentTimezone, "dddd M/D/YYYY")
         }}
@@ -62,7 +63,6 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .zoom-player {
   position: absolute;
   top: 0;
@@ -81,3 +81,4 @@ export default {
     font-size: 48px;
     margin-bottom: 10px;
   }
+  &__subtitle {

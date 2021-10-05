@@ -2,6 +2,7 @@ import list from "./stopwords.json";
 
 class Filter {
   constructor(options = {}) {
+    Object.assign(this, {
       list,
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
@@ -32,6 +33,7 @@ class Filter {
   }
 
   clean(string) {
+// Temp comment
     const join = this.splitRegex.exec(string);
     return string
       .split(this.splitRegex)

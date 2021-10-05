@@ -230,3 +230,5 @@ export default {
           default:
             this.$root.$emit("showNotification", payload);
             break;
+        }
+      }

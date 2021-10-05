@@ -166,3 +166,5 @@ export default {
             rules.push( value => {
               return !value || value.type.startsWith('image/') || value.type.startsWith('video/') || `File type must be an image or video.`;
             });
+            break;
+          case 'pdf_or_doc':

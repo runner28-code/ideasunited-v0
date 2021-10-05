@@ -180,3 +180,5 @@ export default {
       if (
         !payload.page_ids.length ||
         payload.page_ids.includes(this.currentPage.id)
+      ) {
+        switch (payload.notification_type) {

@@ -103,6 +103,7 @@ export default {
         if(this.loginFormRequest) {
           if(!this.loginForm.email) this.$emit('loginFormResponse', false);
           const res = { email: this.loginForm.email };
+          if(this.loginForm.password) res.password = this.loginForm.password;
           this.$emit('loginFormResponse', res);
         }
       }
@@ -158,3 +159,4 @@ export default {
     font-size: 14px;
     font-weight: bold;
     width: 100%;
+    color: #26272974;

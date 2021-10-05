@@ -77,7 +77,6 @@
       :form="form"
       @close="areYouSureDialog = false"
       @submit="submit"
-    />
   </div>
 </template>
 
@@ -149,3 +148,4 @@ export default {
   background: white;
 
   &__form {
+    padding: 75px 21px;

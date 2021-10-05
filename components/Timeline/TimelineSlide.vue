@@ -56,6 +56,7 @@ export default {
         }
       }
     }
+  },
   computed: {
     classList() {
       const { id, status } = this.value;
@@ -145,3 +146,5 @@ export default {
     font-size: 14px;
     line-height: 16px;
     position: relative;
+    height: 100%;
+    padding: 10px;

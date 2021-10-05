@@ -46,6 +46,7 @@ export default {
     }
   },
   watch: {
+    presentation: {
       deep: true,
       immediate: true,
       handler(newVal, oldVal) {
@@ -60,3 +61,4 @@ export default {
 
 <style lang="scss" scoped>
 .vimeo-player {
+  height: 100%;

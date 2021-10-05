@@ -75,3 +75,4 @@ export default {
 
   &__title {
     font-weight: bold;
+    font-size: 50px;

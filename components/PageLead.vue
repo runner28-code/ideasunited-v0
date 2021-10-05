@@ -49,3 +49,4 @@ export default {
   &__content {
     text-align: center;
     padding: 65px;
+    display: flex;

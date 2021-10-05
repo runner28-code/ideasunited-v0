@@ -58,3 +58,4 @@ export default {
     max-width: 400px;
     width: 100%;
 
+    &::v-deep {

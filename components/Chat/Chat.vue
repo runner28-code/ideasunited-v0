@@ -62,3 +62,4 @@ export default {
 .chat-item {
   display: flex;
   margin-bottom: 10px;
+  padding: 0 40px;

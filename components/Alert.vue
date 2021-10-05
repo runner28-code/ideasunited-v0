@@ -17,6 +17,7 @@
     >
       <div
         :class="{ clickable: alert.onclick }"
+        class="alert__message"
         v-html="alert.message"
         @click="onclick"
       ></div>
@@ -100,3 +101,5 @@ export default {
       align-self: center;
       font-size: 20px;
     }
+
+    .v-alert__dismissible {

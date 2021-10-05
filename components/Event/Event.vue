@@ -173,6 +173,7 @@ export default {
     &.with_chat {
       width: calc(100% - 300px);
     }
+
     &-player {
       border-top: 1px solid #e5e5e5;
     }
@@ -191,7 +192,6 @@ export default {
     position: relative;
     min-height: calc(100vh - 200px);
     width: 100%;
-
     &-container {
       display: flex;
       flex-direction: column;
@@ -226,3 +226,5 @@ export default {
       position: fixed;
       top: 60px;
       width: 400px;
+      height: auto;
+      transition: top 1s;

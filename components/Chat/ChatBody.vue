@@ -79,3 +79,4 @@ export default {
       const { data } = await this.$api.Message.query({
         chat_id: this.chat.id,
         last_message_date: this.messages[0]?.created_at
+      });

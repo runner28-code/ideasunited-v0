@@ -131,3 +131,5 @@ export default {
   text-align: center;
   position: relative;
   height: 100px;
+
+  &-wrapper {

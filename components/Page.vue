@@ -255,3 +255,7 @@ export default {
     fullpageReady() {
       return this.currentProject && this.currentProject.menu_pages.length;
     },
+    fullpageOpts() {
+      if (!this.fullpageReady) return {};
+      const anchors = this.currentProject
+        ? this.currentProject.menu_pages.map((p) => p.url)

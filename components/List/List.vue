@@ -49,3 +49,4 @@ export default {
     align-items: flex-start;
     margin: 0 -15px;
     flex-wrap: wrap;
+  }

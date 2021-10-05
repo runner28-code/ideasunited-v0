@@ -2,6 +2,7 @@
   <iframe
     :src="`https://player.vimeo.com/video/${vimeoId}?autoplay=${autoplay ? '1' : '0'}${vimeoH ? '&h=' + vimeoH : ''}`"
     frameborder="0"
+    allow="autoplay; fullscreen"
     allowfullscreen
     class="vimeo-player"
     ref="vimeo"
@@ -63,3 +64,4 @@ export default {
         if (c != current_chapter && this.chapters[c]) {
           this.player.setCurrentTime(this.chapters[c].startTime + 1);
         }
+      });

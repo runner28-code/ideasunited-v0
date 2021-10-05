@@ -59,9 +59,11 @@ export default {
 
       &:hover {
         background: transparent;
+      }
     }
   }
 }
 
 @media screen and (max-width: 1100px) {
   .grid-menu {
+    &__item {

@@ -227,6 +227,7 @@ export default {
 
   &__close {
     position: absolute;
+    right: 20px;
     top: 20px;
     .theme--light.v-icon {
       color: black;
@@ -259,3 +260,5 @@ export default {
     }
     &__subitem {
       color: #56565a;
+      font-size: 20px;
+      justify-content: center;

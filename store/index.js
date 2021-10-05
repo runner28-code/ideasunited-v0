@@ -10,6 +10,7 @@ export const mutations = {
   }
 };
 
+export const actions = {
   async nuxtServerInit({ commit }, opts) {
     const { req } = opts;
 
@@ -17,3 +18,4 @@ export const mutations = {
       host: req.headers.host,
       root_path: req.url
     });
+

@@ -62,3 +62,4 @@ export default {
       if(!newValue) setTimeout(() => this.backToLogin(), 500);
     }
   },
+};

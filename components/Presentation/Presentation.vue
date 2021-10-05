@@ -30,3 +30,4 @@ export default {
   },
   computed: {
     presentation() {
+      return (this.page || this.currentPage).presentations[this.value];

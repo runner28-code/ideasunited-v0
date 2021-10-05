@@ -14,6 +14,7 @@
           :href="data.link_to"
           >{{ data.link_text }}</Button
         >
+      </v-card>
     </v-dialog>
     <v-navigation-drawer
       right

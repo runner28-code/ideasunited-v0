@@ -75,7 +75,6 @@ export default {
 <style lang="scss" scoped>
 .faqs {
   display: flex;
-  align-items: flex-start;
   margin-top: 60px;
   @media screen and (max-width: 960px) {
     flex-direction: column;
@@ -86,3 +85,4 @@ export default {
     @media screen and (max-width: 960px) {
       flex-basis: unset;
       width: 100%;
+    }

@@ -6,6 +6,7 @@
     :input-value="value"
     @change="$emit('input', $event)"
     off-icon="$checkbox_off"
+    on-icon="$checkbox_on"
     :rules="rules"
     :disabled="disabled"
   >
@@ -17,7 +18,6 @@
   </v-checkbox>
 </template>
 
-<script>
 export default {
   props: {
     label: String,

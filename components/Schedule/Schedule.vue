@@ -46,7 +46,6 @@ export default {
           return {
             items: _.sortBy(groups[k], t => t.start_at),
             date: groups[k][0].start_at
-          };
         }),
         t => t.date
       );
@@ -61,3 +60,4 @@ export default {
   &__description {
     white-space: pre-line;
   }
+
