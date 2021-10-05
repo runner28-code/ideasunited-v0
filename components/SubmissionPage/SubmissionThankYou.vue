@@ -48,5 +48,6 @@ export default {
         return this.evalInContext(expression);
       });
     },
+  },
   computed: {
     firstName() {

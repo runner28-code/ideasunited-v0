@@ -120,7 +120,6 @@ export default {
       this.$root.$on("chapterChange", data => {
         const event = this.events.find(
           t =>
-            t.vimeo_id == data.vimeo_id && t.vimeo_chapter == data.vimeo_chapter
         );
 
         this.setActive(event?.id);

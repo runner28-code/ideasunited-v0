@@ -86,6 +86,7 @@ export default {
         this.$root.$emit("fullpageRebuild");
       });
     },
+
     initForm() {
       this.form = {
         widget_submission_form_id: this.id,

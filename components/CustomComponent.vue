@@ -55,6 +55,7 @@ export default {
                 textContent
               });
               style.setAttribute("sfc", sfc_name);
+
               const ref =
                 document.head.getElementsByTagName("style")[0] || null;
               document.head.insertBefore(style, ref);

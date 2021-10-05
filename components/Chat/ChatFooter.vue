@@ -37,7 +37,6 @@
             </div>
           </v-menu>
         </div>
-        <div>
           <span>{{ message.length }}/200</span>
           <v-btn icon @click="sendMessage">
             <v-icon>$send</v-icon>
@@ -88,6 +87,7 @@ export default {
 
 <style scoped lang="scss">
 .chat-footer {
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
   display: flex;
   align-items: center;
   justify-content: center;

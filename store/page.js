@@ -1,4 +1,3 @@
-// Temp comment
 /* eslint-disable */
 
 const store = {
@@ -54,6 +53,7 @@ const store = {
     }
   }
 };
+// Temp comment
 
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;

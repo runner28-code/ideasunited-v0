@@ -19,7 +19,6 @@ export default {
   name: "Timeline",
   props: {
     value: String,
-    page: Object,
   },
   computed: {
     timelineList() {
@@ -63,4 +62,5 @@ export default {
   }
 
   &__date {
+    text-align: right;
     font-weight: 900;

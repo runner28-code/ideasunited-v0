@@ -13,7 +13,6 @@ export default {
     slide: Object
   }
 };
-</script>
 
 <style lang="scss" scoped>
 .presentation-image {

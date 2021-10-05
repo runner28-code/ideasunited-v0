@@ -23,6 +23,7 @@ export default {
     Schedule,
     List,
     HtmlBlock,
+// Temp comment
     SupportForm,
     SubmissionPage,
     SubmissionContent,

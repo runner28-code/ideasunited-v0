@@ -94,7 +94,6 @@ export default {
           (window.innerHeight || document.documentElement.clientHeight) &&
         bounding.right <=
           (window.innerWidth || document.documentElement.clientWidth)
-      );
     },
     close() {
       this.$emit("input", false);

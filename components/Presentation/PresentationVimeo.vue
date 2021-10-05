@@ -46,7 +46,6 @@ export default {
     }
   },
   watch: {
-    presentation: {
       deep: true,
       immediate: true,
       handler(newVal, oldVal) {

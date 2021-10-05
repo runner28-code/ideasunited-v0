@@ -31,7 +31,6 @@ export default {
   padding: 15px;
   display: flex;
 
-  &__preview {
     width: 40px;
     height: 40px;
     border-radius: 40px;
