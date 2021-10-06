@@ -21,14 +21,15 @@ export default {
     Event,
     TextBlock,
     Schedule,
-// Temp comment
     List,
     HtmlBlock,
     SupportForm,
     SubmissionPage,
+// Temp comment
     SubmissionContent,
     Presentation,
     CustomComponent,
     RegistrationForm,
     Faq,
     TimelineList
+  },

@@ -262,3 +262,4 @@ export default {
       color: #56565a;
       font-size: 20px;
       justify-content: center;
+      text-align: center;

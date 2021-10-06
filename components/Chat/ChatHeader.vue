@@ -50,3 +50,4 @@ export default {
     min-width: 5px;
     height: 5px;
     display: inline-block;
+    border-radius: 50%;

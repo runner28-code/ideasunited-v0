@@ -182,3 +182,4 @@ export default {
         payload.page_ids.includes(this.currentPage.id)
       ) {
         switch (payload.notification_type) {
+          case "banner":

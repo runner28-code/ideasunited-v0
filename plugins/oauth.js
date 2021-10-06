@@ -7,6 +7,7 @@ const providers = {
   },
   twitter: {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
+// Temp comment
   },
   linkedin: {
     authorizationEndpoint: "/api/v1/public_side/auth/linkedin"

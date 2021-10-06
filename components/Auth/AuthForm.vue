@@ -160,3 +160,4 @@ export default {
     font-weight: bold;
     width: 100%;
     color: #26272974;
+    background: rgba(0, 0, 0, 0.05);

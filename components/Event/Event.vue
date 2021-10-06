@@ -22,7 +22,6 @@
         <div class="event__video-player">
           <EventPlayer
             v-if="
-              !activeEvent.require_auth ||
                 (activeEvent.require_auth && currentUser)
             "
             :event="activeEvent"
@@ -192,6 +191,7 @@ export default {
     position: relative;
     min-height: calc(100vh - 200px);
     width: 100%;
+
     &-container {
       display: flex;
       flex-direction: column;
@@ -228,3 +228,4 @@ export default {
       width: 400px;
       height: auto;
       transition: top 1s;
+      z-index: 10;

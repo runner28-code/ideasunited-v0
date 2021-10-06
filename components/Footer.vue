@@ -85,6 +85,7 @@ export default {
 
 <style scoped lang="scss">
 .footer {
+  position: fixed;
   z-index: 7;
   padding: 10px 19px 10px 14px;
   background-color: #56565a;
@@ -152,3 +153,4 @@ export default {
           text-decoration: underline;
         }
       }
+    }

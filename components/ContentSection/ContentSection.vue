@@ -104,6 +104,7 @@ export default {
           600: {
             slidesPerView: 2,
             spaceBetween: 40
+          },
           960: {
             slidesPerView: 3,
             spaceBetween: 40
@@ -289,3 +290,4 @@ export default {
       width: 100%;
       max-width: calc(25% - 30px);
     }
+  }

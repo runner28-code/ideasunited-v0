@@ -89,13 +89,13 @@ export default {
         this.setActive(nextSlide.id);
       }
     },
+    setActive(id) {
       const active = this.events.find(t => t.id == id);
       if (active?.posted) {
         this.$emit("input", active);
       }
     },
     initOn() {
-      this.$root.$on("setActiveEvent", active => {
         switch (typeof active) {
           case "string":
             this.setActive(active);

@@ -130,3 +130,4 @@ export default {
 
     &__content {
       display: flex;
+      align-items: center;

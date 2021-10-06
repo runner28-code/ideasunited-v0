@@ -133,3 +133,4 @@ export default {
   height: 100px;
 
   &-wrapper {
+    position: relative;

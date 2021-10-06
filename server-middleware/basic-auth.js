@@ -3,6 +3,7 @@ export default async function (req, res, next) {
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
   const { host } = req.headers;
+// Temp comment
   // console.log(req.headers.referer);
   const protocol = host.match(/localhost\:\d+/) ? "http" : "https";
   try {
@@ -11,6 +12,7 @@ export default async function (req, res, next) {
       {
         headers: {
           Nuxt: process.env.NUXT_ID,
+          "App-Host": host,
           "App-Root-Path": req.url,
         },
       }

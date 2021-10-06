@@ -376,3 +376,6 @@ export default {
     }
   }
 
+  &__text {
+    width: 40%;
+    pointer-events: all;

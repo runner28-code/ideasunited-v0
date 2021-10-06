@@ -178,7 +178,6 @@ export default {
           const ext = this.srcExt(src);
           switch (ext) {
             case "png":
-              this.preloadedImgBase64s[src] = canvas.toDataURL("image/png");
               break;
             case "gif":
               this.preloadedImgBase64s[src] = src;
@@ -259,3 +258,5 @@ export default {
       if (!this.fullpageReady) return {};
       const anchors = this.currentProject
         ? this.currentProject.menu_pages.map((p) => p.url)
+        : [];
+      return {

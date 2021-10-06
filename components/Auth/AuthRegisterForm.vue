@@ -110,7 +110,6 @@ export default {
         this.emailValidationSuggestions = [];
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
-        if (this.registrationForm.destination_page_id)
           this.$router.push("/" + this.registrationForm.destination_url);
       } catch (e) {
         if (!e.response.data) return;
@@ -127,6 +126,7 @@ export default {
       this.chooseSignUp = false;
       this.updateDialogState();
     },
+    clickRegister() {
       this.loginFormRequest = true;
       this.chooseSignUp = true;
       this.updateDialogState();
@@ -182,3 +182,9 @@ export default {
   }
 
   &__thank-you {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    max-width: 274px;
+    margin: auto;
+    color: #262729;
