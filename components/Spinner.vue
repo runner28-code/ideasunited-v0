@@ -1,4 +1,3 @@
-<template>
   <client-only>
     <div class="spinner" :class="{ relative }">
       <HollowDotsSpinner
@@ -28,3 +27,4 @@ export default {
   bottom: 0;
   display: flex;
   justify-content: center;
+  align-items: center;

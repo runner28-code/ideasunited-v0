@@ -96,3 +96,5 @@ export default {
     height: 40px;
     width: 40px;
     border-radius: 5px;
+    margin: 0 10px;
+    font-size: 10px;

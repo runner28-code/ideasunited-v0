@@ -15,8 +15,10 @@ export default {
     label: String,
     value: String,
     rules: {
+      type: Array,
       default: () => []
     },
     required: Boolean,
     markRequired: Boolean
   },
+  methods: {

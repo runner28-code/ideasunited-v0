@@ -7,7 +7,6 @@
             iU Creator Login
           </span>
         </div>
-        <v-form @submit.prevent="login" ref="form" :disabled="disabled">
           <TextField
             v-model="loginForm.email"
             block
@@ -161,3 +160,4 @@ export default {
     width: 100%;
     color: #26272974;
     background: rgba(0, 0, 0, 0.05);
+

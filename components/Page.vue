@@ -178,6 +178,7 @@ export default {
           const ext = this.srcExt(src);
           switch (ext) {
             case "png":
+              this.preloadedImgBase64s[src] = canvas.toDataURL("image/png");
               break;
             case "gif":
               this.preloadedImgBase64s[src] = src;
@@ -260,3 +261,6 @@ export default {
         ? this.currentProject.menu_pages.map((p) => p.url)
         : [];
       return {
+        licenseKey: "DA96DFEC-B925450B-86C1417F-BD01833B",
+        duration: 200,
+        scrollingSpeed: 500,

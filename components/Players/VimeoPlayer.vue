@@ -65,3 +65,4 @@ export default {
           this.player.setCurrentTime(this.chapters[c].startTime + 1);
         }
       });
+    },

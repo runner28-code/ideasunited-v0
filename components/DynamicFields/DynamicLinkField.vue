@@ -42,3 +42,4 @@ export default {
   },
   watch: {
     localValue: {
+      deep: true,

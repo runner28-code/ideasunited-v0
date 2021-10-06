@@ -318,3 +318,4 @@ export default {
     &-create {
       height: 40px !important;
       letter-spacing: 1px;
+      font-weight: normal;

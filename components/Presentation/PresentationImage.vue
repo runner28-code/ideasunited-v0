@@ -1,4 +1,3 @@
-<template>
   <div
     class="presentation-image"
     :style="{
@@ -13,6 +12,7 @@ export default {
     slide: Object
   }
 };
+</script>
 
 <style lang="scss" scoped>
 .presentation-image {

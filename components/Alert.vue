@@ -41,6 +41,7 @@ export default {
     });
   },
   methods: {
+    onclick() {
       if (this.alert.onclick) {
         this.alert.onclick();
         this.alert = false;
@@ -102,3 +103,4 @@ export default {
     }
 
     .v-alert__dismissible {
+      margin-left: 5px;

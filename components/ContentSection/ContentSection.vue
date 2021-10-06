@@ -291,3 +291,6 @@ export default {
       max-width: calc(25% - 30px);
     }
   }
+
+  &__view-more {
+    display: none;

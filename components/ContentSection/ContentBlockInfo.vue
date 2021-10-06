@@ -97,7 +97,6 @@ export default {
       this.sliderInited = true;
     }, 300);
   },
-  methods: {
     instagram(v) {
       /* eslint-disable no-useless-escape */
       const urlRegexp =
@@ -131,3 +130,4 @@ export default {
     &__content {
       display: flex;
       align-items: center;
+      overflow: auto;

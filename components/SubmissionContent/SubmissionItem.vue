@@ -66,7 +66,6 @@ export default {
       return result;
     },
     preview() {
-      const t = this.item.formatted_data.find(
         t => t.uuid == this.previewLayout.preview
       );
 
@@ -107,3 +106,4 @@ export default {
   top: 0;
   bottom: 0;
 
+  &:after {

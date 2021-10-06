@@ -157,6 +157,7 @@ export default {
   }
 
   &__item {
+    text-align: center;
   }
   &__item-label {
     font-weight: normal;
@@ -175,3 +176,5 @@ export default {
 
 @media screen and (max-width: 944px) {
   .countdown-wrapper {
+    padding: 20px 50px;
+  }

@@ -233,3 +233,5 @@ export default {
         }
       }
     },
+    availableEvent(event) {
+      return (

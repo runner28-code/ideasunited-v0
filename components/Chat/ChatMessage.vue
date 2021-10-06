@@ -100,3 +100,4 @@ export default {
 .message__avatar {
   margin-right: 10px;
   min-width: 30px;
+  width: 30px;

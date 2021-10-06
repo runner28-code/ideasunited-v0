@@ -21,7 +21,6 @@ export default {
         animation: marquee-animation ${this.seconds}s linear infinite;
       `
     }
-  },
   watch: {
     message: {
       immediate: true,
@@ -37,6 +36,7 @@ export default {
         })
       }
     }
+  }
 }
 </script>
 
@@ -48,3 +48,4 @@ export default {
   overflow-y: hidden;
   &-text {
     width: max-content;
+  }

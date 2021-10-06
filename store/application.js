@@ -4,7 +4,6 @@ const store = {
   mutations: {
     setLoaded(state, val) {
       state.loaded = val;
-// Temp comment
     },
     setTimelineAspectRatio(state, val) {
       state.timelineAspectRatio = val;
@@ -17,5 +16,6 @@ const store = {
           dispatch("user/fetch", null, { root: true }),
           dispatch("datasources/fetch", null, { root: true })
         ]).then(() => {
+// Temp comment
           commit("setLoaded", true);
           resolve();

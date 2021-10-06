@@ -44,11 +44,11 @@
   .swiper-container {
     height: 100%;
     width: 100%;
-  }
 
   .v-responsive__content {
     height: 100%;
   }
+}
 
 @media screen and (max-width: 944px) {
   .slider-modal-content {
@@ -61,3 +61,4 @@
       right: 0;
       top: 0;
       bottom: 0;
+    }

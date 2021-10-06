@@ -145,7 +145,6 @@ export default {
         (item && item.url == this.$route.path)
       ) {
         this.$emit("changeKey");
-      } else {
         this.$emit('input', false);
       }
     },
@@ -263,3 +262,5 @@ export default {
       font-size: 20px;
       justify-content: center;
       text-align: center;
+      margin-top: -10px;
+    }

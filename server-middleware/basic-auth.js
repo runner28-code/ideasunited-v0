@@ -3,7 +3,6 @@ export default async function (req, res, next) {
   console.log("Date: ", new Date());
   console.log("URL: ", req.url);
   const { host } = req.headers;
-// Temp comment
   // console.log(req.headers.referer);
   const protocol = host.match(/localhost\:\d+/) ? "http" : "https";
   try {
@@ -28,6 +27,7 @@ export default async function (req, res, next) {
       return res.end();
     }
 
+// Temp comment
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
       res.end("Live");
@@ -38,3 +38,4 @@ export default async function (req, res, next) {
 
     if (host == "oauth.community.ideasunited.com") {
       if (req.url.includes("/api/v1")) {
+        return next();

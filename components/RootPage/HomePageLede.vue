@@ -379,3 +379,8 @@ export default {
   &__text {
     width: 40%;
     pointer-events: all;
+    z-index: 2;
+    @media screen and (max-width: 960px) {
+      width: auto;
+    }
+  }

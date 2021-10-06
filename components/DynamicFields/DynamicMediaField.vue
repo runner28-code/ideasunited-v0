@@ -134,3 +134,19 @@ export default {
 
   &-wrapper {
     position: relative;
+    margin-bottom: 30px;
+  }
+
+  &__label {
+    font-weight: bold;
+  }
+
+  &__delete {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+  }
+
+  &__validation {
+    &:not(.v-input--has-state) {

@@ -101,7 +101,7 @@ export default {
     display: block;
     margin: 0;
 
-    &__side {
       min-height: 200px;
       width: 100%;
     }
+  }

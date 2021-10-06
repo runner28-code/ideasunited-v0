@@ -83,3 +83,4 @@ export default {
     margin-bottom: 10px;
   }
   &__subtitle {
+    font-weight: 500;

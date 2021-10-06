@@ -12,3 +12,4 @@ export default {
         setTimeout(() => {
           this.resending = false;
         }, 120000);
+      } catch (e) {

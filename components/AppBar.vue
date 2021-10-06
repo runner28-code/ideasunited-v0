@@ -304,3 +304,5 @@ export default {
         text-align: center;
         transition: 0.3s;
 
+        &:hover {
+          filter: brightness(105%);

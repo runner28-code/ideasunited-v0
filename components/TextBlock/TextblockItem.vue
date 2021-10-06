@@ -64,7 +64,6 @@ a.text-block__item-wrapper:hover {
         bottom: 0;
         // background: rgba(0, 0, 0, 0.3);
       }
-    }
 
     &-wrapper {
       padding: 10px;
@@ -90,3 +89,4 @@ a.text-block__item-wrapper:hover {
       height: 100%;
       position: relative;
       padding: 20px;
+      text-align: center;

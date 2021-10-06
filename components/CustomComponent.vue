@@ -29,6 +29,7 @@ export default {
   },
   computed: {
     customComponent() {
+      return (this.page || this.currentPage).custom_components[this.value];
     }
   },
   methods: {
@@ -69,3 +70,4 @@ export default {
           ).then(compiledComponent => {
             Vue.component(sfc_name, compiledComponent);
 
+            if (callback) callback();

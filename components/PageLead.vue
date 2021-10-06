@@ -50,3 +50,4 @@ export default {
     text-align: center;
     padding: 65px;
     display: flex;
+    align-items: center;

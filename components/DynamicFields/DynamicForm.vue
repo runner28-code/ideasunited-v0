@@ -72,7 +72,6 @@ export default {
     markRequired: Boolean,
     showLabel: Boolean,
     description: String,
-    btnText: String,
     disabled: Boolean,
     showBackToLogin: Boolean,
   },
@@ -158,6 +157,7 @@ export default {
             });
             break;
           case 'videos':
+            rules.push( value => {
               return !value || value.type.startsWith('video/') || `File type must be a video.`;
             });
             break;
@@ -167,3 +167,4 @@ export default {
             });
             break;
           case 'pdf_or_doc':
+            rules.push( value => {

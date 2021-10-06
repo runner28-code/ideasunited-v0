@@ -59,3 +59,4 @@ export default {
         t => t.uuid == this.layout.preview
       );
       return t?.value;
+    }

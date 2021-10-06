@@ -96,6 +96,7 @@ export default {
       }
     },
     initOn() {
+      this.$root.$on("setActiveEvent", active => {
         switch (typeof active) {
           case "string":
             this.setActive(active);
@@ -204,3 +205,5 @@ export default {
       }
     }
   }
+};
+</script>

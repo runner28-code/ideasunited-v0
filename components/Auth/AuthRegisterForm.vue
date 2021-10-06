@@ -105,11 +105,11 @@ export default {
       this.form.register_url = window.location.href;
     },
     async submit() {
-      try {
         const { data } = await this.$api.RegistrationForm.submit(this.form);
         this.emailValidationSuggestions = [];
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
+        if (this.registrationForm.destination_page_id)
           this.$router.push("/" + this.registrationForm.destination_url);
       } catch (e) {
         if (!e.response.data) return;
@@ -188,3 +188,4 @@ export default {
     max-width: 274px;
     margin: auto;
     color: #262729;
+    &_title {

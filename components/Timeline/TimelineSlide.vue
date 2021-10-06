@@ -104,6 +104,7 @@ export default {
   overflow: visible;
   flex: none;
 }
+.timeline-slide {
   background: black;
   max-width: 220px;
   width: 100%;
@@ -148,3 +149,5 @@ export default {
     height: 100%;
     padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;

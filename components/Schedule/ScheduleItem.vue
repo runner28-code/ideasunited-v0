@@ -53,7 +53,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .schedule-item {
   min-height: 160px;
@@ -76,3 +75,4 @@ export default {
   &__title {
     font-weight: bold;
     font-size: 50px;
+  }

@@ -22,6 +22,7 @@
         <div class="event__video-player">
           <EventPlayer
             v-if="
+              !activeEvent.require_auth ||
                 (activeEvent.require_auth && currentUser)
             "
             :event="activeEvent"
@@ -229,3 +230,5 @@ export default {
       height: auto;
       transition: top 1s;
       z-index: 10;
+      &::before {
+        content: "";

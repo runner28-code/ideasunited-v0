@@ -3,6 +3,7 @@
     <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
     <ChatFooter :chat="chat" />
+  </div>
 </template>
 
 <script>
@@ -62,3 +63,4 @@ export default {
   display: flex;
   margin-bottom: 10px;
   padding: 0 40px;
+

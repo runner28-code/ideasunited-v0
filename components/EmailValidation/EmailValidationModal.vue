@@ -19,6 +19,7 @@
     </v-card>
   </v-dialog>
 </template>
+
 <script>
 export default {
   props: {
@@ -59,3 +60,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+.email-validation {
+  &__content {
+    white-space: pre-line;
+  }
+  &__dialog {
