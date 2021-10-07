@@ -286,7 +286,6 @@ export default {
           document.msExitFullscreen();
         }
 
-        const { videoElem } = this.$refs;
         videoElem.pause();
 
       } else {

@@ -12,7 +12,6 @@
       v-model="form"
       v-if="!submitted"
       :btn-text="supportForm.btn_text"
-    />
     <div v-else class="support-form__submitted">
       Thank you! We will process your request and reply to you shortly.
     </div>

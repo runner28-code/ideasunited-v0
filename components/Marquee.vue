@@ -21,6 +21,7 @@ export default {
         animation: marquee-animation ${this.seconds}s linear infinite;
       `
     }
+  },
   watch: {
     message: {
       immediate: true,

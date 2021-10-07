@@ -17,9 +17,9 @@ export default {
     value: String,
     rules: {
       type: Array,
-      default: () => []
     },
     required: Boolean,
     markRequired: Boolean
+  },
   methods: {
     onFocus($event) {

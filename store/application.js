@@ -16,6 +16,5 @@ const store = {
           dispatch("user/fetch", null, { root: true }),
           dispatch("datasources/fetch", null, { root: true })
         ]).then(() => {
-// Temp comment
           commit("setLoaded", true);
           resolve();

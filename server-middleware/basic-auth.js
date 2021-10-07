@@ -27,7 +27,6 @@ export default async function (req, res, next) {
       return res.end();
     }
 
-// Temp comment
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
       res.end("Live");
@@ -35,6 +34,7 @@ export default async function (req, res, next) {
     }
 
     // if (!req.headers.referer && req.headers.accept) {
+// Temp comment
 
     if (host == "oauth.community.ideasunited.com") {
       if (req.url.includes("/api/v1")) {

@@ -145,6 +145,7 @@ export default {
         (item && item.url == this.$route.path)
       ) {
         this.$emit("changeKey");
+      } else {
         this.$emit('input', false);
       }
     },

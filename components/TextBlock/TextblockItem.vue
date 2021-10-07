@@ -64,6 +64,7 @@ a.text-block__item-wrapper:hover {
         bottom: 0;
         // background: rgba(0, 0, 0, 0.3);
       }
+    }
 
     &-wrapper {
       padding: 10px;

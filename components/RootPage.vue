@@ -34,11 +34,11 @@ import RegistrationForm from "./RegistrationForm";
 
 export default {
   components: {
+    ContentSection,
     Countdown,
     Event,
     TextBlock,
     Schedule,
-    List,
     SubmissionPage,
     HtmlBlock,
     SupportForm,
