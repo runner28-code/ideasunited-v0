@@ -104,3 +104,4 @@ export default {
 
     .v-alert__dismissible {
       margin-left: 5px;
+    }

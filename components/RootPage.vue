@@ -39,6 +39,7 @@ export default {
     Event,
     TextBlock,
     Schedule,
+    List,
     SubmissionPage,
     HtmlBlock,
     SupportForm,
@@ -46,3 +47,4 @@ export default {
     Presentation,
     CustomComponent,
     RegistrationForm
+  },

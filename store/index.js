@@ -1,7 +1,6 @@
 import moment from "moment-timezone";
 
 export const state = () => ({
-  authUser: null
 });
 
 export const mutations = {
@@ -18,3 +17,4 @@ export const actions = {
       host: req.headers.host,
       root_path: req.url
     });
+

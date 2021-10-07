@@ -306,3 +306,5 @@ export default {
 
         &:hover {
           filter: brightness(105%);
+        }
+

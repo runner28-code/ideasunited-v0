@@ -39,7 +39,6 @@
         <ContentBlockInfo :block="block" />
       </SliderModal>
     </div>
-  </transition>
 </template>
 
 <script>

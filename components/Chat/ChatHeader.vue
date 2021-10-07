@@ -51,3 +51,4 @@ export default {
     height: 5px;
     display: inline-block;
     border-radius: 50%;
+    margin-right: 5px;

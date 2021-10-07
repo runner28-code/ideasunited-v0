@@ -50,3 +50,4 @@ export default {
     margin: 0 -15px;
     flex-wrap: wrap;
   }
+

@@ -26,7 +26,6 @@
 
 <script>
 import _ from "lodash";
-import cookies from "vue-cookies";
 
 export default {
   data() {
@@ -98,3 +97,4 @@ export default {
     border-radius: 5px;
     margin: 0 10px;
     font-size: 10px;
+    display: flex;

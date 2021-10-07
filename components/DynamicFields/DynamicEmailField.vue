@@ -26,3 +26,4 @@ export default {
       default: false
     }
   },
+  methods: {

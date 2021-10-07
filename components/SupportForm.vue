@@ -12,6 +12,7 @@
       v-model="form"
       v-if="!submitted"
       :btn-text="supportForm.btn_text"
+    />
     <div v-else class="support-form__submitted">
       Thank you! We will process your request and reply to you shortly.
     </div>
@@ -62,3 +63,4 @@ export default {
   margin: auto;
   width: 100%;
   padding: 20px;
+  font-family: Source Sans Pro, sans-serif;

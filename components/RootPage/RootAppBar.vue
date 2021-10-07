@@ -319,3 +319,5 @@ export default {
       height: 40px !important;
       letter-spacing: 1px;
       font-weight: normal;
+      padding: 0 20px !important;
+      margin-right: 20px;

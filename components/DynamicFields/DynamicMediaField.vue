@@ -74,6 +74,7 @@ export default {
       type: Array,
       default: () => []
     },
+    size: {
       type: String,
       default: "cover"
     },
@@ -149,3 +150,4 @@ export default {
 
   &__validation {
     &:not(.v-input--has-state) {
+      display: none !important;

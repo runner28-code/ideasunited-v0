@@ -150,3 +150,4 @@ export default {
 
   &__form {
     padding: 75px 21px;
+    min-height: 605px;

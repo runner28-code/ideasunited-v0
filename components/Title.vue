@@ -10,7 +10,6 @@ export default {
     tag: {
       type: String,
       default: "h2"
-    }
   },
   computed: {
     styles() {

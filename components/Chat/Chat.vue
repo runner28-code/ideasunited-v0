@@ -64,3 +64,4 @@ export default {
   margin-bottom: 10px;
   padding: 0 40px;
 
+  &-logo {

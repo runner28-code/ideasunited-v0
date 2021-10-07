@@ -65,6 +65,7 @@ export default {
     }
   },
   data() {
+    return {
       triggerName: `open-${this.name}`
     };
   },
@@ -142,3 +143,4 @@ export default {
       width: 100%;
       display: flex;
       .close {
+        z-index: 2;

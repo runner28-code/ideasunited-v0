@@ -64,7 +64,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.zoom-player {
   position: absolute;
   top: 0;
   left: 0;
@@ -84,3 +83,4 @@ export default {
   }
   &__subtitle {
     font-weight: 500;
+    font-size: 28px;

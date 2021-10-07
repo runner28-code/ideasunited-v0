@@ -156,3 +156,5 @@ export default {
     }
   }
 
+  &__separator {
+    width: 2px;

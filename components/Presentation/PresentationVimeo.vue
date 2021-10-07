@@ -62,3 +62,4 @@ export default {
 <style lang="scss" scoped>
 .vimeo-player {
   height: 100%;
+  position: relative;

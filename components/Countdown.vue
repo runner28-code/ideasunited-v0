@@ -35,6 +35,7 @@
       </div>
     </div>
   </div>
+</template>
 
 <script>
 import moment from "moment-timezone";
@@ -177,3 +178,5 @@ export default {
   .countdown-wrapper {
     padding: 20px 50px;
   }
+  .countdown-timer {
+    margin: 15px 0;

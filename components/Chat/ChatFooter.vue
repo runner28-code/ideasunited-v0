@@ -85,6 +85,7 @@ export default {
   }
 };
 </script>
+
 <style scoped lang="scss">
 .chat-footer {
   box-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
@@ -93,3 +94,4 @@ export default {
   justify-content: center;
   padding: 10px 30px;
   min-height: 80px;
+  position: relative;

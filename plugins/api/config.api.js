@@ -56,3 +56,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       }
 
       return responseConfig;
+    },

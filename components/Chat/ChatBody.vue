@@ -19,7 +19,6 @@
 export default {
   props: {
     chat: Object
-  },
   data() {
     return { messages: [] };
   },
@@ -52,6 +51,7 @@ export default {
     updateMessage(payload) {
       this.messages = this.messages.map(m => {
         if (m.id == payload.id) {
+          m.body = payload.body;
         }
         return m;
       });
@@ -79,3 +79,4 @@ export default {
         chat_id: this.chat.id,
         last_message_date: this.messages[0]?.created_at
       });
+      this.messages.unshift(...data.reverse());

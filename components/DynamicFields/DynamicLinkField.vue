@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import urlFormatter from "@/filters/url";
 
 export default {
   props: {

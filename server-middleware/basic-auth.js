@@ -25,7 +25,6 @@ export default async function (req, res, next) {
       console.log("Redirect");
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();
-    }
 
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
@@ -34,7 +33,6 @@ export default async function (req, res, next) {
     }
 
     // if (!req.headers.referer && req.headers.accept) {
-// Temp comment
 
     if (host == "oauth.community.ideasunited.com") {
       if (req.url.includes("/api/v1")) {

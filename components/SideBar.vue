@@ -265,3 +265,6 @@ export default {
       text-align: center;
       margin-top: -10px;
     }
+  }
+  
+  &__item-small {

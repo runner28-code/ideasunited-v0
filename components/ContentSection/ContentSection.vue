@@ -294,3 +294,5 @@ export default {
 
   &__view-more {
     display: none;
+    cursor: pointer;
+    text-align: center;

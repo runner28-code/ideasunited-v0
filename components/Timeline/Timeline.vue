@@ -84,7 +84,6 @@ export default {
       const idx = this.events.findIndex(t => t.id == this.value?.id);
       console.info("nextEvent idx", idx);
       const nextSlide = this.events[idx + 1];
-      console.info("nextEvent nextSlide", nextSlide);
       if (nextSlide) {
         this.setActive(nextSlide.id);
       }
@@ -207,3 +206,4 @@ export default {
   }
 };
 </script>
+

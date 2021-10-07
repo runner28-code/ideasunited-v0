@@ -169,3 +169,5 @@ export default {
             break;
           case 'pdf_or_doc':
             rules.push( value => {
+              return !value || this.pdfOrDocTypes.includes(value.type)|| `File type must be a pdf or Word doc.`;
+            });

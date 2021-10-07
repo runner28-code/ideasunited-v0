@@ -84,6 +84,7 @@ export default {
   mounted() {
     this.$root.$on("menuClick", (item, idx) => {
       if (item.url_type == "relative") {
+        this.fullPageMoveTo(idx);
       }
     });
 
@@ -263,3 +264,7 @@ export default {
         licenseKey: "DA96DFEC-B925450B-86C1417F-BD01833B",
         duration: 200,
         scrollingSpeed: 500,
+        scrollOverflow: true,
+        scrollOverflowOptions: {
+          preventDefault: false
+        },

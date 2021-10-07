@@ -3,7 +3,6 @@
     <div class="auth">
       <div>
         <div class="auth-admin-title">
-          <span >
             iU Creator Login
           </span>
         </div>
@@ -162,3 +161,5 @@ export default {
     color: #26272974;
     background: rgba(0, 0, 0, 0.05);
 
+    &:not(.active):hover {
+      background: rgba(0, 0, 0, 0.1);

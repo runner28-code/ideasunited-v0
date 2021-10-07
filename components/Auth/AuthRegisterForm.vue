@@ -85,7 +85,6 @@ export default {
         data: {}
       },
       areYouSureDialog: false,
-      emailValidationSuggestions: [],
       chooseSignUp: false,
       registrationForm: null,
       loginFormRequest: false,
@@ -160,6 +159,7 @@ export default {
   }
 }
 </script>
+
 <style lang="scss" scoped>
 .auth-register-form {
   &__login {
@@ -189,3 +189,5 @@ export default {
     margin: auto;
     color: #262729;
     &_title {
+      font-size: 28px !important;
+      margin-bottom: 0.5em;

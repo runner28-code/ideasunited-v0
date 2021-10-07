@@ -286,6 +286,7 @@ export default {
           document.msExitFullscreen();
         }
 
+        const { videoElem } = this.$refs;
         videoElem.pause();
 
       } else {
@@ -383,3 +384,8 @@ export default {
       width: auto;
     }
   }
+
+  &__intro {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1.5em;

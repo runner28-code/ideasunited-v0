@@ -232,3 +232,5 @@ export default {
       z-index: 10;
       &::before {
         content: "";
+        display: block;
+        width: 100%;

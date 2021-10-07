@@ -50,7 +50,6 @@ export default {
     click() {
       if (this.type == "submit") {
         if (this.refs?.form && !this.refs.form.validate()) {
-          return this.scrollToInvalidInput(this.refs.form.inputs);
         }
       }
 
@@ -58,3 +57,4 @@ export default {
     },
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
+    }

@@ -15,6 +15,7 @@
               field.value.length > 100
                 ? field.value.substr(0, 100) + "..."
                 : field.value
+            }}</span>
           </div>
         </div>
       </div>
@@ -107,3 +108,4 @@ export default {
   bottom: 0;
 
   &:after {
+    content: "";
