@@ -35,6 +35,7 @@ export default {
           (t.title + " " + t.subtitle).toLowerCase().includes(this.search)
       );
     }
+  }
 };
 </script>
 

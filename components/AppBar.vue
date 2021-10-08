@@ -272,7 +272,6 @@ export default {
   &__logo {
     color: inherit;
     text-decoration: none;
-    display: block;
 
     img {
       display: block;

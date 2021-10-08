@@ -90,7 +90,6 @@ export default {
     }
 
     .v-alert__content {
-    }
 
     a {
       text-decoration: underline;

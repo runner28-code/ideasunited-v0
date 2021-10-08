@@ -48,7 +48,6 @@ export default {
     { src: "~/plugins/actioncable.js", ssr: false },
     { src: "~/plugins/infinite-loader.js", ssr: false },
     { src: "~/plugins/fullpage", mode: "client" },
-// Temp comment
     { src: "~/plugins/vue-rellax.js", ssr: false }
   ],
   serverMiddleware: ["~/server-middleware/basic-auth"],

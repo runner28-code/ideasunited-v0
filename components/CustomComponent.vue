@@ -3,6 +3,7 @@
     <component
       :key="key"
       v-if="loaded"
+      :is="customComponent.sfc_name"
     ></component>
   </div>
 </template>
@@ -23,7 +24,6 @@ export default {
       key: 1
     };
   },
-  created() {
     Vue.component("Spinner", Spinner);
   },
   computed: {

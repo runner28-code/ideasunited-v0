@@ -50,6 +50,7 @@ export default {
       this.$root.$emit("chapterChange", {
         vimeo_id: this.vimeoId,
         vimeo_chapter: data.index - 1
+      });
     });
   },
   watch: {

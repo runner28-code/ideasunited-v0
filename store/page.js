@@ -44,6 +44,7 @@ const store = {
 
       commit("set", data);
 
+      return data;
     }
   },
   getters: {
@@ -57,5 +58,4 @@ const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
   const item = collection.find(t => t.id == id);
   if (item) {
-    Object.assign(item, payload);
   }

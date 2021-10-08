@@ -17,7 +17,6 @@
   </div>
 </template>
 
-<script>
 import ContentSection from "./ContentSection/ContentSection";
 import Event from "./Event/Event";
 import Countdown from "./Countdown";
@@ -40,3 +39,4 @@ export default {
     TextBlock,
     Schedule,
     List,
+    SubmissionPage,

@@ -10,6 +10,7 @@ const store = {
     }
   },
   actions: {
+// Temp comment
     async init({ dispatch, commit }) {
       return new Promise(resolve => {
         Promise.all([

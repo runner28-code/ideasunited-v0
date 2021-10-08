@@ -49,4 +49,3 @@ export default {
   overflow-y: hidden;
   &-text {
     width: max-content;
-  }

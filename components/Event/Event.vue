@@ -203,13 +203,13 @@ export default {
       height: calc(100vh - 200px);
       min-height: 500px;
     }
-
     &-info {
       padding: 20px 90px;
     }
 
     &-description {
       font-size: 16px;
+      line-height: 1.2;
       margin-top: 10px;
       color: #4a4a4a;
     }
