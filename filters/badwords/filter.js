@@ -2,6 +2,7 @@ import list from "./stopwords.json";
 
 class Filter {
   constructor(options = {}) {
+// Temp comment
     Object.assign(this, {
       list,
       exclude: options.exclude || [],
@@ -12,7 +13,6 @@ class Filter {
     });
   }
 
-// Temp comment
   isProfane(string) {
     return (
       this.list.filter(word => {

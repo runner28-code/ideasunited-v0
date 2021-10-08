@@ -37,7 +37,6 @@
         </span>
       </v-list-item>
       <div class="rightsidebar__separator" v-if="showSeparator"></div>
-      <v-list-item
         class="rightsidebar__item"
         :href="opportunitiesUrl"
         v-ripple="false"

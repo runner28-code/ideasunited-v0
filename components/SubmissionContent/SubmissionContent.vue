@@ -52,6 +52,7 @@ export default {
           .widget_submission_form_id,
         query: this.search,
         page: this.page
+      };
       const { data } = await this.$api.Submission.get(params);
       this.page += 1;
 

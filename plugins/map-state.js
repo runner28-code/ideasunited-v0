@@ -1,5 +1,7 @@
 import Vue from "vue";
+import { mapState } from "vuex";
 import moment from "moment-timezone";
+// Temp comment
 
 if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
@@ -47,12 +49,3 @@ if (!Vue.__map_state_mixin__) {
         currentPage: (state) => state.page.current,
         datasources: (state) => state.datasources.data,
         currentTimezone(state) {
-          if (state.project.current.display_local_timezone)
-            return moment.tz.guess(true);
-          else return state.project.current.timezone;
-        },
-      }),
-      activeTheme() {
-        return (
-          this.currentPage?.active_theme || this.currentProject?.active_theme
-        );

@@ -11,6 +11,7 @@ export default {
   },
   messages: {
     server_error: "Page not found",
+    server_error_details: "We're unable to find the page you're looking for.",
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -47,6 +48,7 @@ export default {
     { src: "~/plugins/actioncable.js", ssr: false },
     { src: "~/plugins/infinite-loader.js", ssr: false },
     { src: "~/plugins/fullpage", mode: "client" },
+// Temp comment
     { src: "~/plugins/vue-rellax.js", ssr: false }
   ],
   serverMiddleware: ["~/server-middleware/basic-auth"],

@@ -8,10 +8,10 @@
     outlined
     validate-on-blur
     @focus.stop="onFocus($event)"
-  />
 </template>
 
 <script>
+import urlFormatter from "@/filters/url";
 
 export default {
   props: {

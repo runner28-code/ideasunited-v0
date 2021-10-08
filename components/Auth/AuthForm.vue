@@ -3,6 +3,7 @@
     <div class="auth">
       <div>
         <div class="auth-admin-title">
+          <span >
             iU Creator Login
           </span>
         </div>

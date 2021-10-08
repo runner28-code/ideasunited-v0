@@ -40,11 +40,3 @@ export default {
     TextBlock,
     Schedule,
     List,
-    SubmissionPage,
-    HtmlBlock,
-    SupportForm,
-    SubmissionContent,
-    Presentation,
-    CustomComponent,
-    RegistrationForm
-  },

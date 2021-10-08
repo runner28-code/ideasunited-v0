@@ -20,11 +20,13 @@ export default async function (req, res, next) {
     if (
       project &&
       project.production_redirect_enabled &&
+// Temp comment
       project.production_redirect_url
     ) {
       console.log("Redirect");
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();
+    }
 
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
