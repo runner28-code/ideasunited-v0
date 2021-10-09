@@ -59,6 +59,7 @@ import DynamicNumberField from "./DynamicNumberField";
 import DynamicRadio from "./DynamicRadio";
 import DynamicTextArea from "./DynamicTextArea";
 import DynamicTextField from "./DynamicTextField";
+import DynamicMediaField from "./DynamicMediaField";
 import DynamicPasswordField from "./DynamicPasswordField";
 import DynamicLinkField from "./DynamicLinkField";
 import DynamicFileField from "./DynamicFileField";
@@ -159,7 +160,6 @@ export default {
           case 'videos':
             rules.push( value => {
               return !value || value.type.startsWith('video/') || `File type must be a video.`;
-            });
             break;
           case 'images_or_videos':
             rules.push( value => {

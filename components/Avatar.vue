@@ -1,4 +1,3 @@
-<template>
   <div class="avatar" :style="styles" v-bind="$attrs">
     {{ initals }}
   </div>
@@ -49,3 +48,4 @@ export default {
     color() {
       return this.colors[getHash(this.id) % this.colors.length];
     }
+  }

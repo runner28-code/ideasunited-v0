@@ -77,6 +77,7 @@ export default {
   props: {
     dialogState: Object,
   },
+  data() {
     return {
       form: {
         registration_form_id: null,

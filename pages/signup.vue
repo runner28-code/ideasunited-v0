@@ -21,7 +21,6 @@ export default {
   methods: {
     logout() {
       this.$store.dispatch("auth/logout");
-      this.$emit('input', false)
     }
   },
   mounted() {
@@ -38,6 +37,7 @@ export default {
   flex-direction: column;
   margin: auto;
   align-items: center;
+  justify-content: center;
   width: 100%;
   background: whitesmoke;
   text-align: center;

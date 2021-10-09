@@ -56,7 +56,6 @@ export default {
   white-space: pre-line;
   line-height: 1.3;
   margin: 0 !important;
-  width: 100%;
   padding: 0;
   height: 100%;
   font-size: 1em;
@@ -90,6 +89,7 @@ export default {
     }
 
     .v-alert__content {
+    }
 
     a {
       text-decoration: underline;

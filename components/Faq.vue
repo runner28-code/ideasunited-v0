@@ -48,7 +48,6 @@ export default {
   },
   computed: {
     faq() {
-      return (this.page || this.currentPage).faqs[this.value];
     },
     items1() {
       const { two_column, items } = this.faq.settings;

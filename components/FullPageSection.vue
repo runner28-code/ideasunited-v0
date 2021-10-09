@@ -14,6 +14,7 @@
           </div>
         </div>
         <div
+          class="component"
           v-for="component in page.components"
           :key="component.resource_id"
         >
@@ -51,7 +52,6 @@ import mixin from "./convertComponent.mixin";
 export default {
   extends: mixin,
   props: {
-    page: Object,
     idx: Number,
     formsDisabled: Boolean,
   },
@@ -124,3 +124,4 @@ export default {
 .components {
   width: 100%;
   flex-grow: 1;
+  display: flex;

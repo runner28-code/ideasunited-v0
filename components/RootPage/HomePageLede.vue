@@ -389,3 +389,4 @@ export default {
     color: white;
     font-size: 20px;
     margin-bottom: 1.5em;
+    max-width: 830px;

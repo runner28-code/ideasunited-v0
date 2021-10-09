@@ -64,7 +64,6 @@
               </a>
             </div>
           </div>
-        </div>
         <div
           v-html="block.description"
           class="slider-modal-content__description"

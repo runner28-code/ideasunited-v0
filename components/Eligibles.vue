@@ -36,7 +36,6 @@ export default {
   display: flex;
   justify-content: center;
 }
-.eligible {
   display: flex;
   align-items: center;
   margin-right: 20px;

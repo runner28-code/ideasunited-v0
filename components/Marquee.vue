@@ -26,7 +26,6 @@ export default {
     message: {
       immediate: true,
       handler() {
-        this.$nextTick(() => {
           if (this.$refs.marqueetext) {
             this.seconds = this.$refs.marqueetext
               ? this.$refs.marqueetext.offsetWidth / 50

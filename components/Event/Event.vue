@@ -203,6 +203,7 @@ export default {
       height: calc(100vh - 200px);
       min-height: 500px;
     }
+
     &-info {
       padding: 20px 90px;
     }

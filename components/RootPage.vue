@@ -17,6 +17,7 @@
   </div>
 </template>
 
+<script>
 import ContentSection from "./ContentSection/ContentSection";
 import Event from "./Event/Event";
 import Countdown from "./Countdown";
@@ -31,7 +32,6 @@ import CustomComponent from "./CustomComponent";
 import Presentation from "./Presentation/Presentation";
 import RegistrationForm from "./RegistrationForm";
 
-export default {
   components: {
     ContentSection,
     Countdown,
@@ -40,3 +40,4 @@ export default {
     Schedule,
     List,
     SubmissionPage,
+    HtmlBlock,

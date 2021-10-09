@@ -86,7 +86,6 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .chat-footer {
   box-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
   display: flex;

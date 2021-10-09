@@ -47,7 +47,6 @@ export default {
     openZoomLink() {
       window.open(this.event.zoom_url, "_blank");
     },
-    async fetchSignature() {
       const { zoom_id, zoom_password } = this.event;
       const { full_name, email } = this.currentUser || {};
 
@@ -68,6 +67,7 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
