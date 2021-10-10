@@ -38,5 +38,4 @@ const store = {
     },
     async logout({ commit }) {
       commit("setToken", null);
-// Temp comment
       commit("user/set", null, { root: true });

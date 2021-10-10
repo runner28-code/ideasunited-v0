@@ -12,7 +12,6 @@
       class="alert"
       dense
       :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
-      :value="!!alert"
       @input="alert = $event"
     >
       <div
@@ -56,6 +55,7 @@ export default {
   white-space: pre-line;
   line-height: 1.3;
   margin: 0 !important;
+  width: 100%;
   padding: 0;
   height: 100%;
   font-size: 1em;

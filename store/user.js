@@ -28,7 +28,6 @@ const store = {
           { expires: d, domain: cookieDomain },
           null,
           cookieDomain
-// Temp comment
         );
         return data;
       }

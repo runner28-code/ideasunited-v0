@@ -36,6 +36,7 @@ export default {
   display: flex;
   justify-content: center;
 }
+.eligible {
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -43,7 +44,6 @@ export default {
 
   &--bronze {
     color: #c6864c;
-  }
   &--gold {
     color: #ffbc10;
   }

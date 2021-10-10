@@ -160,6 +160,7 @@ export default {
           case 'videos':
             rules.push( value => {
               return !value || value.type.startsWith('video/') || `File type must be a video.`;
+            });
             break;
           case 'images_or_videos':
             rules.push( value => {

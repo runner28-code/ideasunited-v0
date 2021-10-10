@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueGtag from "vue-gtag";
 
-// Temp comment
 export default ctx => {
+// Temp comment
   const isProduction = window.location.hostname == 'community.ideasunited.com';
 
   if (isProduction) {

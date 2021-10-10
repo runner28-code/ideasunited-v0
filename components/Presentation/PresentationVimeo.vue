@@ -5,6 +5,7 @@
       frameborder="0"
       allow="fullscreen"
       allowfullscreen
+      ref="vimeo"
     ></iframe>
     <div class="vimeo-player-overlay" @click="started ? null : play()"></div>
   </div>
@@ -25,7 +26,6 @@ export default {
   },
   mounted() {
     this.player = new Player(this.$refs.vimeo);
-
     this.player.on("play", async () => {
       this.started = true;
     });
