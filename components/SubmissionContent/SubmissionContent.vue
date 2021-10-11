@@ -83,3 +83,5 @@ export default {
         .map(t => t.styles)
         .join("\n");
       const styles2 = this.submissionContent.preview_layout.content
+        .filter(t => t.styles)
+        .map(t => t.styles)

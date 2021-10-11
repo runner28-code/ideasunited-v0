@@ -237,6 +237,7 @@ export default {
     width: 100%;
     padding: 40px 10px 0;
 
+    &:not(.swiper-container-initialized) {
       .content-section__swiper-slide {
         max-width: 320px;
         margin-right: 20px;
@@ -295,3 +296,17 @@ export default {
     display: none;
     cursor: pointer;
     text-align: center;
+    .v-icon {
+      &::v-deep {
+        .v-icon {
+          color: inherit;
+        }
+      }
+    }
+  }
+
+  &.disable_scroll {
+    .content-section__blocks {
+      margin: 40px 45px;
+      padding: 0;
+

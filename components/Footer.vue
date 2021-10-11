@@ -158,3 +158,4 @@ export default {
 
   &__separator {
     width: 2px;
+    height: 42px;

@@ -5,7 +5,6 @@ const urlRegexp =
 
 export default function (ctx, inject) {
   inject("rules", {
-// Temp comment
     email: (v) => !v || emailRegexp.test(v) || "Incorrect email",
     url: (v) => !v || urlRegexp.test(v) || "Incorrect URL",
 
@@ -13,3 +12,4 @@ export default function (ctx, inject) {
       return !!(v || "").toString().trim() || "Required field";
     },
     password: (v) =>
+      (v && v.length >= 6) || "Password must be at least 6 characters long",

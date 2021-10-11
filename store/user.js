@@ -35,3 +35,4 @@ const store = {
     async update({ commit }, params) {
       const { data } = await this.$api.User.update(params);
       commit("set", data);
+      return data;

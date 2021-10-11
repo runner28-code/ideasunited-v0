@@ -268,3 +268,4 @@ export default {
   }
   
   &__item-small {
+    font-size: 14px;

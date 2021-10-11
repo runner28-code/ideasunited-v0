@@ -83,7 +83,6 @@ export default {
         }
       }
     });
-  },
   methods: {
     inViewport() {
       var bounding = this.$el.getBoundingClientRect();
@@ -131,6 +130,7 @@ export default {
     display: flex;
     width: 100%;
   }
+
   &__content {
     width: 100%;
     display: flex;
@@ -143,3 +143,4 @@ export default {
       display: flex;
       .close {
         z-index: 2;
+      }

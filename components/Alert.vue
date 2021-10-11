@@ -79,7 +79,6 @@ export default {
     }
   }
 
-  &::v-deep {
     .v-alert__wrapper {
       padding-right: 15px;
       display: flex;
@@ -105,3 +104,4 @@ export default {
     .v-alert__dismissible {
       margin-left: 5px;
     }
+  }

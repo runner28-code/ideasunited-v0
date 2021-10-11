@@ -42,6 +42,7 @@ export default {
   beforeDestroy() {
     this.$cable.unsubscribe({
       channel: "ChatChannel",
+      id: this.chat.id,
       env: this.currentProject.env
     });
   }

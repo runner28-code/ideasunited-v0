@@ -84,3 +84,4 @@ export default {
     &::v-deep {
       .v-input__slot {
         display: none !important;
+      }

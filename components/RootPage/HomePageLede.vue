@@ -390,3 +390,6 @@ export default {
     font-size: 20px;
     margin-bottom: 1.5em;
     max-width: 830px;
+  }
+
+  &::v-deep .root-lede__cta-btn {

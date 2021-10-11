@@ -92,3 +92,4 @@ a.text-block__item-wrapper:hover {
       padding: 20px;
       text-align: center;
       display: flex;
+      align-items: center;

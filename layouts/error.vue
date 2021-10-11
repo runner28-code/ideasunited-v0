@@ -19,6 +19,7 @@ export default {
     error: {
       type: Object,
       default: null
+    }
   },
   data () {
     return {

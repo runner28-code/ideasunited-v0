@@ -9,5 +9,4 @@ export default {
     page: Object,
   },
   computed: {
-    htmlBlock() {
       return (this.page || this.currentPage).html_blocks[this.value];

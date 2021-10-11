@@ -24,4 +24,3 @@ export default {
         this.$store.dispatch("user/fetch");
 
         this.$router.push("/");
-      } catch (e) {

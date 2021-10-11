@@ -22,7 +22,6 @@
 </template>
 
 <script>
-export default {
   props: {
     item: Object
   },
@@ -77,3 +76,4 @@ export default {
     font-weight: bold;
     font-size: 50px;
   }
+  &__description {

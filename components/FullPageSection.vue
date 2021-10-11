@@ -84,6 +84,7 @@ export default {
   overflow-y: scroll;
   overflow-anchor: none;
   scrollbar-width: none;
+  -ms-overflow-style: none;
   &::-webkit-scrollbar {
     width: 0;
     height: 0;
@@ -125,3 +126,4 @@ export default {
   width: 100%;
   flex-grow: 1;
   display: flex;
+  flex-direction: column;

@@ -112,3 +112,4 @@
       background-position: 55% 50%;
       background-size: 25.56%;
     }
+  }

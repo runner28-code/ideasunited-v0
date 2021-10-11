@@ -268,3 +268,5 @@ export default {
         scrollOverflowOptions: {
           preventDefault: false
         },
+        anchors,
+        responsiveWidth: 945,

@@ -164,3 +164,4 @@ export default {
 
     &:not(.active):hover {
       background: rgba(0, 0, 0, 0.1);
+    }

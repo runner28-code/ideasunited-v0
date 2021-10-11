@@ -17,7 +17,6 @@ export default {
       colors: [
         "#d32f2f",
         "#7b1fa2",
-        "#303f9f",
         "#0288d1",
         "#0097a7",
         "#00796b",
@@ -45,6 +44,7 @@ export default {
         .join("")
         .substr(0, 2)
         .toUpperCase();
+    },
     color() {
       return this.colors[getHash(this.id) % this.colors.length];
     }

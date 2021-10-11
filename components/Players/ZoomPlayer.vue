@@ -55,6 +55,7 @@ export default {
         $api: this.$api,
         zoom_id,
         zoom_password,
+        full_name,
         email
       });
     }

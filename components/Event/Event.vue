@@ -50,7 +50,6 @@
       </div>
       <div
         v-else
-        class="event__placeholder"
         :style="{
           backgroundImage: `url(${activeTheme.event_background.large.url})`
         }"
@@ -234,3 +233,4 @@ export default {
         content: "";
         display: block;
         width: 100%;
+        padding-bottom: 56.7%;

@@ -9,6 +9,7 @@ const store = {
       state.timelineAspectRatio = val;
     }
   },
+  actions: {
     async init({ dispatch, commit }) {
       return new Promise(resolve => {
         Promise.all([
@@ -17,3 +18,4 @@ const store = {
         ]).then(() => {
           commit("setLoaded", true);
           resolve();
+        });

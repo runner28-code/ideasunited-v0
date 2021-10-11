@@ -36,7 +36,6 @@
 
 <script>
 import { getHash } from "@/utils";
-
 export default {
   props: {
     item: Object,
@@ -108,3 +107,5 @@ export default {
   bottom: 0;
 
   &:after {
+    content: "";
+    position: absolute;

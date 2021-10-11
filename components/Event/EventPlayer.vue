@@ -28,7 +28,6 @@
 
 <script>
 export default {
-  props: {
     event: Object
   },
   computed: {
@@ -43,3 +42,4 @@ export default {
   }
 };
 </script>
+

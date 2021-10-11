@@ -45,7 +45,6 @@ export default {
   min-height: 100vh;
 
   &__title {
-    font-weight: bold;
     font-size: 24px;
     text-align: center;
     padding-bottom: 15px;
@@ -60,3 +59,4 @@ export default {
 
     &::v-deep {
       .text-field {
+        margin-bottom: 20px;
