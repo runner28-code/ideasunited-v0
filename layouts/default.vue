@@ -96,7 +96,6 @@ export default {
             ),
           },
         });
-      }
 
       const fontkitIds = _.uniq(typekitFonts.map((font) => font.typekit_id));
 
@@ -116,6 +115,7 @@ export default {
     this.$root.$on("mobileScrollTo", (y) => {
       this.$refs.mobileScroll.scroll({
         top: y,
+        left: 0,
         behavior: "smooth",
       });
     });

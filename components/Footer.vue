@@ -110,7 +110,6 @@ export default {
     display: flex;
     width: 100%;
     align-items: stretch;
-    justify-content: space-between;
   }
 
   &__start {
@@ -159,3 +158,4 @@ export default {
   &__separator {
     width: 2px;
     height: 42px;
+    margin: 0 20px;

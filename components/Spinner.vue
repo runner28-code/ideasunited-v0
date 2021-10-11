@@ -18,7 +18,6 @@ export default {
   created() {}
 };
 </script>
-
 <style scope>
 .spinner {
   position: absolute;

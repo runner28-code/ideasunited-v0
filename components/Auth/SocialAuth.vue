@@ -99,3 +99,4 @@ export default {
     margin: 0 10px;
     font-size: 10px;
     display: flex;
+    align-items: center;

@@ -21,6 +21,7 @@
     <div
       class="text-block__side text-block__side-double"
       v-if="[2, 3].includes(textBlock.layout)"
+    >
       <TextblockItem
         :item="calcList[1]"
         v-if="[2, 3].includes(textBlock.layout)"
@@ -86,7 +87,6 @@ export default {
   }
   &__4 &__item-wrapper {
     width: 13.54%;
-    padding: 0;
     @media screen and (max-width: 960px) {
       width: 100%;
       max-width: 150px;

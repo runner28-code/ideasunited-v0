@@ -25,3 +25,4 @@ export default {
 
         this.$router.push("/");
       } catch (e) {
+        this.$router.push("/");

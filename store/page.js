@@ -35,7 +35,6 @@ const store = {
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
     }
-  },
   actions: {
     async fetch({ commit }, { url }) {
       const { data } = await this.$api.Page.get({

@@ -13,7 +13,6 @@ export default {
     presentation: Object
   },
   data() {
-    return { started: false };
   },
   mounted() {
     this.player = new YouTubePlayer("youtube-player", {
@@ -58,3 +57,4 @@ export default {
       }
     }
   }
+};

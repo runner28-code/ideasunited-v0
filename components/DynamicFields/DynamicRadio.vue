@@ -32,6 +32,7 @@ export default {
       type: Array,
       default: () => []
     },
+    rules: Array,
     required: Boolean,
     markRequired: Boolean
   },

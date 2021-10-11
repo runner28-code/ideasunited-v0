@@ -28,5 +28,6 @@ export default {
     value: String,
     page: Object,
   },
+  computed: {
     presentation() {
       return (this.page || this.currentPage).presentations[this.value];

@@ -23,6 +23,7 @@ export default {
     return {
       opened: false,
       dialogState: {
+        chooseSignUp: false,
       }
     };
   },

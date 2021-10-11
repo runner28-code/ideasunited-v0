@@ -270,3 +270,4 @@ export default {
         },
         anchors,
         responsiveWidth: 945,
+        scrollBar: false,

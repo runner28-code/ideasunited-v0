@@ -6,7 +6,6 @@
     />
     <div class="error-page" v-show="currentUser || authDisabled">
       <div class="error-content">
-        <div class="error-title">
           Restrict access...
         </div>
         <div class="error-description">
@@ -25,6 +24,7 @@ export default {
     return {
       authDisabled: false
     };
+  },
   methods: {
     disableAuth(val) {
       this.authDisabled = val;

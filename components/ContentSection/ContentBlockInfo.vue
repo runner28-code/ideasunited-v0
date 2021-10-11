@@ -31,7 +31,6 @@
         <Slider
           :slides="block.slides"
           v-else-if="block.content_type == 'popup' && sliderInited"
-        />
       </v-responsive>
     </div>
     <div class="slider-modal-content__side slider-modal-content__content">
@@ -60,6 +59,7 @@
             </div>
             <div class="slider-modal-content__creator-socials__item" v-if="block.creator.linkedin">
               <a :href="block.creator.linkedin" target="_blank">
+                <v-icon color="currentColor" size="24">$linkedin_profile</v-icon>
               </a>
             </div>
           </div>
@@ -119,3 +119,4 @@ export default {
       return v;
     },
   },
+};
