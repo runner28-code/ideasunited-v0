@@ -24,5 +24,6 @@ export default {
     addonData: {
       type: [Object, Boolean],
       default: false
+    }
   },
   methods: {

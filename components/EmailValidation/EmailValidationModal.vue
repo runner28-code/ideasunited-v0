@@ -27,7 +27,6 @@ export default {
     suggestions: [Array, Object],
     form: Object
   },
-  methods: {
     useSuggestion(suggestion) {
       const suggested_email = `${suggestion.local}@${suggestion.suggestion}`
       for (var key in this.form.data){

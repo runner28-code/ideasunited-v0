@@ -108,4 +108,3 @@ export default {
   bottom: 0;
 
   &:after {
-    content: "";

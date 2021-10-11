@@ -222,6 +222,7 @@ export default {
     visibility: hidden;
     pointer-events: none;
     margin-top: 15px;
+    @media screen and (max-width: 960px) {
       width: 0;
     }
 
@@ -236,7 +237,6 @@ export default {
     width: 100%;
     padding: 40px 10px 0;
 
-    &:not(.swiper-container-initialized) {
       .content-section__swiper-slide {
         max-width: 320px;
         margin-right: 20px;

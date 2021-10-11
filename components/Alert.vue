@@ -12,6 +12,7 @@
       class="alert"
       dense
       :color="activeTheme ? activeTheme.primary_color : '#E12D1B'"
+      :value="!!alert"
       @input="alert = $event"
     >
       <div

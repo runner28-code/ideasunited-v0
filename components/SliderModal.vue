@@ -131,7 +131,6 @@ export default {
     display: flex;
     width: 100%;
   }
-
   &__content {
     width: 100%;
     display: flex;
