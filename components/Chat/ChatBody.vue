@@ -13,7 +13,6 @@
       :key="message.uuid"
     />
   </div>
-</template>
 
 <script>
 export default {

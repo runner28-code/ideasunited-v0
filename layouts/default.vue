@@ -116,7 +116,6 @@ export default {
     this.$root.$on("mobileScrollTo", (y) => {
       this.$refs.mobileScroll.scroll({
         top: y,
-        left: 0,
         behavior: "smooth",
       });
     });

@@ -9,7 +9,6 @@
       v-if="zoomUrl"
     />
   </div>
-</template>
 
 <script>
 import { buildZoomLink } from "@/utils";
@@ -23,6 +22,7 @@ export default {
     };
   },
   created() {
+    this.fetchSignature();
   },
   methods: {
     async fetchSignature() {

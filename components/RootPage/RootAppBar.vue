@@ -107,6 +107,7 @@ export default {
       this.getOpportunityNotifications();
     }, 1000);
   },
+  methods: {
     async logout() {
       await this.$store.dispatch("auth/logout");
     },

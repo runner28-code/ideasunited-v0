@@ -49,7 +49,6 @@ export default {
     this.player.on("chapterchange", data => {
       this.$root.$emit("chapterChange", {
         vimeo_id: this.vimeoId,
-        vimeo_chapter: data.index - 1
       });
     });
   },

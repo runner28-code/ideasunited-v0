@@ -77,7 +77,6 @@
 
   @media screen and (max-width: 960px) {
     width: 100%;
-    height: 100%;
     margin-top: 0;
     padding-bottom: 0;
     right: 0;

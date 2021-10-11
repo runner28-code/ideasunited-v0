@@ -140,6 +140,7 @@ export default {
       if (field.tpe == "EmailField")
         return this.currentProject.addon_emailpasswordlogin_data;
       else return false;
+    },
     rulesForField(field) {
       const rules = field.required ? [this.$rules.required] : [];
       if(field.file_size_limit) {

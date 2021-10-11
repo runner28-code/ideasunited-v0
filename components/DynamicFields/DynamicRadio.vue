@@ -32,7 +32,6 @@ export default {
       type: Array,
       default: () => []
     },
-    rules: Array,
     required: Boolean,
     markRequired: Boolean
   },
@@ -41,8 +40,3 @@ export default {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
-};
-</script>
-
-<style scoped lang="scss">
-.radio-group {
