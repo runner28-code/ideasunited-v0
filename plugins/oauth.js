@@ -34,10 +34,10 @@ export default function(ctx, inject) {
 
       const w = window.open(
         authorizationEndpoint,
-// Temp comment
         "Auth",
         "width=580,height=730"
       );
+// Temp comment
       const interval = setInterval(() => {
         const token = localStorage.getItem("token");
 

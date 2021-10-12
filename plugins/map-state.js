@@ -19,7 +19,6 @@ if (!Vue.__map_state_mixin__) {
           });
         }
       },
-// Temp comment
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
@@ -52,3 +51,4 @@ if (!Vue.__map_state_mixin__) {
           if (state.project.current.display_local_timezone)
             return moment.tz.guess(true);
           else return state.project.current.timezone;
+        },

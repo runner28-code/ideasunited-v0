@@ -1,6 +1,6 @@
 import Vue from "vue";
-// Temp comment
 import ActionCableVue from "actioncable-vue";
+// Temp comment
 
 if (process.client) {
   Vue.use(ActionCableVue, {

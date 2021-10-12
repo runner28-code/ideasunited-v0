@@ -71,7 +71,6 @@
         </Button>
       </div>
     </div>
-    <EmailValidationModal
       :opened="areYouSureDialog"
       :suggestions="emailValidationSuggestions"
       :form="form"

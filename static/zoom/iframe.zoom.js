@@ -1,3 +1,4 @@
+ZoomMtg.setZoomJSLib("https://source.zoom.us/1.9.1/lib", "/av");
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareJssdk();
 
@@ -17,7 +18,6 @@ ZoomMtg.init({
 
 const joinParams = {
   meetingNumber,
-  userName,
   apiKey,
   signature,
   userEmail,

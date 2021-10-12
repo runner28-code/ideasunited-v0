@@ -26,6 +26,7 @@ export default {
   },
   mounted() {
     this.player = new Player(this.$refs.vimeo);
+
     this.player.on("play", async () => {
       this.started = true;
     });
