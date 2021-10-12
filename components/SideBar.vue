@@ -108,6 +108,7 @@ export default {
     return {
       year: new Date().getFullYear(),
       newOpps: [],
+    }
   },
   mounted(){
     this.$root.$on('updateAccountSideBar', (isOpen) => {
@@ -185,7 +186,6 @@ export default {
       return this.currentProject.menu_footer_pages;
     },
     drawerWidth() {
-      return this.isMobile ? '100%' : '302px';
     },
     showSeparator() {
       return this.isMobile && this.menuPages.length;

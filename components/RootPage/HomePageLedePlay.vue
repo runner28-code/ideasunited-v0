@@ -90,7 +90,6 @@
     position: absolute;
     width: 57.7%;
     border-radius: 50%;
-    top: 25%;
     left: 25%;
     background: white;
     filter: drop-shadow(2px 3px 12px rgba(0, 0, 0, 0.15));

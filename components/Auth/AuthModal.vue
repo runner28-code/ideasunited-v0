@@ -61,7 +61,6 @@ export default {
     opened(newValue) {
       if(!newValue) setTimeout(() => this.backToLogin(), 500);
     }
-  },
 };
 </script>
 

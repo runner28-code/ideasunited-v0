@@ -154,6 +154,7 @@ export default {
   &__item {
     margin: 0 20px;
     width: 60px;
+  }
 
   &__item {
     text-align: center;

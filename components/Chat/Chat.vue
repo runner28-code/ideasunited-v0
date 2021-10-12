@@ -14,6 +14,7 @@ export default {
   data() {
     return {
       message: "",
+      status: "Connected",
       messages: []
     };
   },

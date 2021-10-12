@@ -35,6 +35,7 @@ const store = {
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
     }
+  },
   actions: {
     async fetch({ commit }, { url }) {
       const { data } = await this.$api.Page.get({
@@ -56,6 +57,7 @@ const store = {
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
   const item = collection.find(t => t.id == id);
+// Temp comment
   if (item) {
     Object.assign(item, payload);
   }

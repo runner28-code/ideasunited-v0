@@ -6,6 +6,7 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, current) {
+// Temp comment
       state.current = current;
     },
   },
@@ -17,7 +18,6 @@ const store = {
       });
 
       commit("set", data);
-// Temp comment
 
       return data;
     },

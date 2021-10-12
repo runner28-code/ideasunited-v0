@@ -87,3 +87,4 @@ export default {
         .map(t => t.styles)
         .join("\n");
       const styles = [styles1, styles2].join("\n");
+      return `<style>${styles || ""}</style>`;

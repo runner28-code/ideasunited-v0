@@ -11,7 +11,6 @@ function objectToFormData(obj) {
       return uuid;
     }
     return value;
-  });
 
   formData.append("data", data);
 

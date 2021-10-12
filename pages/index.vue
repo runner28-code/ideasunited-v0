@@ -6,7 +6,6 @@
   </div>
 </template>
 
-<script>
 export default {
   layout: 'root',
   computed: {
@@ -15,6 +14,7 @@ export default {
 
       if (this.currentProject) return 200;
 
+      if (
         (this.page.authorized && !this.currentUser) ||
         (this.currentUser &&
           this.page.role_ids.length &&

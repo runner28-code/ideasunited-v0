@@ -58,6 +58,7 @@ export default {
           this.dialog = true;
           break;
         case "sidebar":
+          this.sidebar = true;
           break;
       }
     });

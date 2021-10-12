@@ -87,6 +87,7 @@ export default {
   }
   &__4 &__item-wrapper {
     width: 13.54%;
+    padding: 0;
     @media screen and (max-width: 960px) {
       width: 100%;
       max-width: 150px;

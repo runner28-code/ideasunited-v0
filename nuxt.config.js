@@ -6,7 +6,6 @@
 //   browserBaseURL: process.env.API_PUBLIC_PATH,
 // });
 export default {
-// Temp comment
   server: {
     port: 8000, // default: 3000
   },

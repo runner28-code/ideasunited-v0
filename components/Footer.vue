@@ -110,6 +110,7 @@ export default {
     display: flex;
     width: 100%;
     align-items: stretch;
+    justify-content: space-between;
   }
 
   &__start {

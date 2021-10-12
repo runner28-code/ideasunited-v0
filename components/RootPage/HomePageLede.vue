@@ -370,6 +370,7 @@ export default {
     pointer-events: none;
     @media screen and (max-width: 960px) {
       padding: 30px;
+    }
     @media screen and (min-width: 1905px) {
       padding: 30px 240px calc(10.4167% + 30px);
     }

@@ -55,6 +55,7 @@
 
 <script>
 import _ from "lodash";
+
 export default {
   props: {
     id: String,
@@ -81,7 +82,6 @@ export default {
     async fetchSupportForm() {
       const { data } = await this.$api.Support.getForm();
       this.supportForm = data;
-      this.$nextTick(() => {
         this.$root.$emit("fullpageRebuild");
       });
     },
