@@ -7,6 +7,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Runtime data
 pids
 *.pid
 *.seed
@@ -60,5 +61,3 @@ typings/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
-
-# next.js build output

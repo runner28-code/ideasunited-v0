@@ -25,6 +25,7 @@
       </div>
     </div>
     <v-menu
+      offset-y
       v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"
     >
       <template v-slot:activator="{ on }">

@@ -22,7 +22,6 @@ export default {
     logout() {
       this.$store.dispatch("auth/logout");
       this.$emit('input', false)
-    }
   },
   mounted() {
     this.$root.$on('leaveSignup', () => {

@@ -103,6 +103,7 @@
       margin-top: 5.5%;
     }
 
+    &::before {
       content: '';
       display: block;
       width: 100%;

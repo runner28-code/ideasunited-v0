@@ -8,7 +8,6 @@ const store = {
     set(state, user) {
       state.current = user;
     },
-// Temp comment
   },
   actions: {
     async fetch({ commit }) {
@@ -29,7 +28,6 @@ const store = {
           { expires: d, domain: cookieDomain },
           null,
           cookieDomain
-        );
         return data;
       }
     },

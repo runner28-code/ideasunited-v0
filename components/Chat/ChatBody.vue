@@ -41,7 +41,6 @@ export default {
     }
   },
   methods: {
-    newMessage(payload) {
       this.messages.push(payload);
       this.scrollBottom();
     },

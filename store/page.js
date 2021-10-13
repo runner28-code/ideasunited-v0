@@ -34,7 +34,6 @@ const store = {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
-    }
   },
   actions: {
     async fetch({ commit }, { url }) {
@@ -53,6 +52,7 @@ const store = {
     }
   }
 };
+
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
   const item = collection.find(t => t.id == id);

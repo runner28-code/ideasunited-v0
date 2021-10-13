@@ -1,5 +1,6 @@
 <template>
   <div class="page-wrapper">
+    <NotFound v-if="status == 404" />
     <NotAuthorized v-else-if="status == 403" />
     <RootPage v-else-if="status == 200" />
   </div>
@@ -27,7 +28,6 @@ export default {
     }
   },
   async asyncData({ $api, route, store }) {
-    await store.dispatch("user/fetch");
     const page = await store.dispatch("page/fetch", {
       url: route.params.pathMatch
     });

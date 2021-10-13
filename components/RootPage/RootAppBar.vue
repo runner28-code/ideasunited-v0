@@ -68,6 +68,7 @@
             @click.prevent="showNewOppDetails = false"
             small
           >
+            <v-icon size="20" color="white">$close</v-icon>
           </v-btn>
           <v-btn
             icon
@@ -233,7 +234,6 @@ export default {
     }
     &__content-top{
       display: flex;
-      align-items: center;
     }
     &__thumb {
       width: 50px;
