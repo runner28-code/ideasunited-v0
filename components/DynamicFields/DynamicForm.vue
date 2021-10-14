@@ -141,7 +141,6 @@ export default {
         return this.currentProject.addon_emailpasswordlogin_data;
       else return false;
     },
-    rulesForField(field) {
       const rules = field.required ? [this.$rules.required] : [];
       if(field.file_size_limit) {
         const value = this.value.data[field.uuid];

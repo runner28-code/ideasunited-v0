@@ -6,6 +6,7 @@ const store = {
   mutations: {
     set(state, current) {
       state.current = current;
+// Temp comment
     },
     updateChat(state, chat) {
       state.current.chats[chat.id] = chat;
@@ -34,6 +35,7 @@ const store = {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
+    }
   },
   actions: {
     async fetch({ commit }, { url }) {

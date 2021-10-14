@@ -28,6 +28,7 @@ const store = {
           { expires: d, domain: cookieDomain },
           null,
           cookieDomain
+        );
         return data;
       }
     },

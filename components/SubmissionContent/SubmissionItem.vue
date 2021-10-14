@@ -74,6 +74,7 @@ export default {
     },
     styles() {
       const styles = {
+        backgroundColor: this.color
       };
 
       if (this.preview) {

@@ -7,7 +7,6 @@ export default async function (req, res, next) {
   const protocol = host.match(/localhost\:\d+/) ? "http" : "https";
   try {
     const { data: project } = await axios.get(
-// Temp comment
       `${process.env.API_URL}${process.env.API_PUBLIC_PATH}/projects/get_auth`,
       {
         headers: {
@@ -27,6 +26,7 @@ export default async function (req, res, next) {
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();
     }
+// Temp comment
 
     if (req.url == "/k8s/health") {
       res.statusCode = 200;

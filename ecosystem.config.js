@@ -1,6 +1,6 @@
 module.exports = {
-// Temp comment
   apps: [
+// Temp comment
     {
       name: "SaaS Frontend",
       exec_mode: "cluster",

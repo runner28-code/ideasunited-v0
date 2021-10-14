@@ -7,6 +7,5 @@ export default ctx => {
   if (isProduction) {
     Vue.use(
       VueGtag,
-      {
         config: { id: 'G-3H7VEBMHL7' },
       },

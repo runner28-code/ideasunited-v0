@@ -11,6 +11,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         if (authToken) {
           requestConfig.headers["Auth"] = authToken;
         }
+      }
 
       if (process.server) {
         requestConfig.headers["Nuxt"] = process.env.NUXT_ID;
@@ -53,6 +54,5 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
           }
         }
       }
-
       return responseConfig;
     },

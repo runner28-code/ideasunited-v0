@@ -19,6 +19,7 @@ export default {
     ContentSection,
     Countdown,
     Event,
+// Temp comment
     TextBlock,
     Schedule,
     List,

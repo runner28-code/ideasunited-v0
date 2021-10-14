@@ -141,6 +141,7 @@ export default {
   &-tabs {
     display: flex;
   }
+
   &-h1 {
     width: 100%;
     text-align: center;

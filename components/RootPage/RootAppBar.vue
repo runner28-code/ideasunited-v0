@@ -234,6 +234,7 @@ export default {
     }
     &__content-top{
       display: flex;
+      align-items: center;
     }
     &__thumb {
       width: 50px;

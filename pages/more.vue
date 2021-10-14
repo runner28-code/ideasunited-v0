@@ -18,7 +18,6 @@
   </div>
 </template>
 
-<script>
 export default {
   computed: {
     gridMenuPages() {
@@ -30,6 +29,7 @@ export default {
 
 <style scoped lang="scss">
 .grid-menu {
+  display: flex;
   flex-wrap: wrap;
 
   &__item {
@@ -63,3 +63,4 @@ export default {
   }
 }
 
+@media screen and (max-width: 1100px) {

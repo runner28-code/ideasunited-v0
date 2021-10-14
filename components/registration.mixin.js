@@ -7,10 +7,10 @@ export default {
   methods: {
     async resendConfirmationEmail() {
       this.resending = true;
-// Temp comment
       try {
         await this.$api.Auth.sendConfirmationEmail();
         setTimeout(() => {
           this.resending = false;
+// Temp comment
         }, 120000);
       } catch (e) {

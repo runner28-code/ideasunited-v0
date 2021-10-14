@@ -12,7 +12,6 @@
           :key="currentSlide"
         >
           <div
-            class="background-lede__logo"
             v-if="opportunityLogo && !currentProject.hide_frontend_logo"
           >
             <img :src="opportunityLogo" alt="Logo" />

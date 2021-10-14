@@ -137,6 +137,7 @@ export default {
     &::v-deep {
       .v-icon {
         position: relative;
+        z-index: 1;
       }
     }
     &:after {

@@ -77,7 +77,6 @@ export default {
     submissionContent() {
       return (this.page || this.currentPage).submission_contents[this.value];
     },
-    css() {
       const styles1 = this.submissionContent.layout.content
         .filter(t => t.styles)
         .map(t => t.styles)
@@ -88,3 +87,4 @@ export default {
         .join("\n");
       const styles = [styles1, styles2].join("\n");
       return `<style>${styles || ""}</style>`;
+    }

@@ -159,7 +159,6 @@ export default {
     },
   },
   computed: {
-    logo() {
       if (!this.activeTheme) return false;
 
       return (

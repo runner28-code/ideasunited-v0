@@ -1,4 +1,5 @@
 <template>
+  <div class="submission-thank-you">
     <p
       class="submission-thank-you__text"
       v-html="
@@ -38,7 +39,6 @@ export default {
         } catch (errorWithoutThis) {
           console.warn("Error en script: " + string, errorWithoutThis);
           return null;
-        }
       }
     },
     parseMessage(string) {

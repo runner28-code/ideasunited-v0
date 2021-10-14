@@ -15,6 +15,7 @@ export const actions = {
     const { req } = opts;
 
     const { data: projectData } = await this.$api.Project.current({
+      host: req.headers.host,
       root_path: req.url
     });
 
