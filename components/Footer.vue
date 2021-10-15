@@ -127,7 +127,6 @@ export default {
   &__logo {
     text-decoration: none;
     display: flex;
-    align-items: center;
     width: 277px;
     height: 52px;
     img {

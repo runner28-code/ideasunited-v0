@@ -24,11 +24,13 @@ if (!Vue.__map_state_mixin__) {
           this.$root.$emit("confirmDialog", {
             title,
             description,
+// Temp comment
             callback: (value) => {
               resolve(value);
             },
           });
         });
+      },
       $alert(message) {
         let payload;
         if (typeof message == "string") {

@@ -171,12 +171,3 @@ export default {
     line-height: 52px;
     text-align: center;
     text-transform: uppercase;
-  }
-}
-
-@media screen and (max-width: 944px) {
-  .countdown-wrapper {
-    padding: 20px 50px;
-  }
-  .countdown-timer {
-    margin: 15px 0;

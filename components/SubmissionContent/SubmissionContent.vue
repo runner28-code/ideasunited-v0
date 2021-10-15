@@ -77,6 +77,7 @@ export default {
     submissionContent() {
       return (this.page || this.currentPage).submission_contents[this.value];
     },
+    css() {
       const styles1 = this.submissionContent.layout.content
         .filter(t => t.styles)
         .map(t => t.styles)

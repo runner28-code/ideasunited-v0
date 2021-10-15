@@ -62,7 +62,6 @@ export default {
       if(!newValue) setTimeout(() => this.backToLogin(), 500);
     }
   },
-};
 </script>
 
 <style scoped lang="scss">

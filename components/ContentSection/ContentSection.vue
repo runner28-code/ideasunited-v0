@@ -222,6 +222,7 @@ export default {
     visibility: hidden;
     pointer-events: none;
     margin-top: 15px;
+    @media screen and (max-width: 960px) {
       width: 0;
     }
 

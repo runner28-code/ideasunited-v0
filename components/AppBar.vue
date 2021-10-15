@@ -264,7 +264,6 @@ export default {
       &::v-deep {
         .v-icon {
           color: inherit;
-        }
       }
     }
   }

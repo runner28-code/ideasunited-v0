@@ -45,6 +45,7 @@ export default {
       this.messages.push(payload);
       this.scrollBottom();
     },
+    deleteMessage(messageId) {
       this.messages = this.messages.filter(m => m.id != messageId);
       this.scrollBottom();
     },
@@ -71,7 +72,6 @@ export default {
         first_message_date: this.messages[this.messages.length - 1]?.created_at
       });
 
-      this.messages.push(...data.reverse());
       this.scrollBottom();
     },
     async fetchMessages($state) {

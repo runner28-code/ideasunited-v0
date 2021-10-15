@@ -6,7 +6,6 @@ const store = {
   mutations: {
     set(state, current) {
       state.current = current;
-// Temp comment
     },
     updateChat(state, chat) {
       state.current.chats[chat.id] = chat;
@@ -32,7 +31,6 @@ const store = {
       updateCollection({ collection, id: blockId, payload });
     },
     unpublishContentBlock(state, { sectionId, blockId }) {
-      const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
     }

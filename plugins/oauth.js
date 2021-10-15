@@ -5,7 +5,6 @@ const providers = {
   facebook: {
     authorizationEndpoint: "/api/v1/public_side/auth/facebook"
   },
-  twitter: {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
   },
   linkedin: {

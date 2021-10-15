@@ -14,6 +14,7 @@ export default {
   name: "VimeoPlayer",
   props: {
     vimeoId: [String, Number],
+    vimeoH: [String, Number],
     vimeoChapter: [String, Number],
     firstStartAt: {
       type: Number,

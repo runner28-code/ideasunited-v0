@@ -15,6 +15,7 @@ const store = {
 
       if (token && process.client) {
         const { data } = await this.$api.User.current();
+// Temp comment
         commit("set", data);
         const cookieDomain =
           process.env.NODE_ENV === "development"

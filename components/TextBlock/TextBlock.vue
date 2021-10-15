@@ -96,15 +96,8 @@ export default {
   }
 }
 
-@media screen and (max-width: 960px) {
   .text-block {
     display: block;
     margin: 0;
 
     &__side {
-      min-height: 200px;
-      width: 100%;
-    }
-  }
-}
-</style>
