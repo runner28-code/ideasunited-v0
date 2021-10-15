@@ -26,7 +26,6 @@ export default {
         chooseSignUp: false,
       }
     };
-  },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
       this.backToLogin();
@@ -62,6 +61,7 @@ export default {
       if(!newValue) setTimeout(() => this.backToLogin(), 500);
     }
   },
+};
 </script>
 
 <style scoped lang="scss">

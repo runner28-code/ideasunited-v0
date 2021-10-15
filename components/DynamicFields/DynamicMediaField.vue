@@ -97,6 +97,7 @@ export default {
       file.uuid = uuidv4();
       if (file) this.$emit("input", file);
     },
+    drop(event) {
       const file = event.dataTransfer.files[0];
       this.$emit("input", file);
     },

@@ -72,6 +72,7 @@ export default {
         first_message_date: this.messages[this.messages.length - 1]?.created_at
       });
 
+      this.messages.push(...data.reverse());
       this.scrollBottom();
     },
     async fetchMessages($state) {

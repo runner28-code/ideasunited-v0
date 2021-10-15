@@ -77,7 +77,6 @@ export default {
     showBackToLogin: Boolean,
   },
   data() {
-    return {
       valid: true,
       loading: false,
       form: { ...this.value },

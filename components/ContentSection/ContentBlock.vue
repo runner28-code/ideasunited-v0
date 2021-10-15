@@ -134,6 +134,7 @@ export default {
     height: 28px;
     border-radius: 50%;
 
+    &::v-deep {
       .v-icon {
         position: relative;
         z-index: 1;

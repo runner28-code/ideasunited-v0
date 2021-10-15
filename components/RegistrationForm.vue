@@ -107,7 +107,6 @@ export default {
       this.chooseSignUp = true;
     }
   },
-  methods: {
     async submit() {
       try {
         const { data } = await this.$api.RegistrationForm.submit(this.form);

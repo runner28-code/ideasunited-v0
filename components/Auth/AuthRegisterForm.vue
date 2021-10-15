@@ -35,6 +35,7 @@
           <DynamicForm
             :submit="submit"
             :fields="registrationForm.registration_form"
+            v-model="form"
             :mark-required="registrationForm.mark_required"
             show-label
             :btn-text="registrationForm.btn_text"
@@ -170,7 +171,6 @@ export default {
     text-align: center;
   }
 }
-
 .register {
   &__title {
     color: #262729;

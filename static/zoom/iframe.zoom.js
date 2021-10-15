@@ -13,7 +13,6 @@ const apiKey = params.get("apiKey") || "";
 
 ZoomMtg.init({
   debug: true,
-// Temp comment
   leaveUrl: "https://zoom.us"
 });
 
@@ -21,6 +20,7 @@ const joinParams = {
   meetingNumber,
   userName,
   apiKey,
+// Temp comment
   signature,
   userEmail,
   passWord,

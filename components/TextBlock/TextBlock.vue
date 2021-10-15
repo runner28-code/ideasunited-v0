@@ -96,6 +96,7 @@ export default {
   }
 }
 
+@media screen and (max-width: 960px) {
   .text-block {
     display: block;
     margin: 0;
