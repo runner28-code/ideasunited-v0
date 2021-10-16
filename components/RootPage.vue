@@ -6,6 +6,7 @@
         class="component"
         v-for="(component, idx) in currentPage.components"
         :key="idx"
+      >
         <component
           :value="component.resource_id"
           v-bind="component"
@@ -43,3 +44,4 @@ export default {
     HtmlBlock,
     SupportForm,
     SubmissionContent,
+    Presentation,

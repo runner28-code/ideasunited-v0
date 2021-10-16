@@ -321,3 +321,4 @@ export default {
       font-weight: normal;
       padding: 0 20px !important;
       margin-right: 20px;
+      color: #333 !important;

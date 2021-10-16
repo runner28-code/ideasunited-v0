@@ -54,3 +54,4 @@ export default {
       return this.currentUser.first_name;
     },
     lastName() {
+      return this.currentUser.last_name;

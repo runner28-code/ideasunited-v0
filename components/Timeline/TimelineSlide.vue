@@ -154,3 +154,4 @@ export default {
     justify-content: center;
 
     &-timestamp {
+      margin-bottom: 5px;

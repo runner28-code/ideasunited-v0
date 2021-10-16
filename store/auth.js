@@ -39,3 +39,4 @@ const store = {
     async logout({ commit }) {
       commit("setToken", null);
       commit("user/set", null, { root: true });
+    },

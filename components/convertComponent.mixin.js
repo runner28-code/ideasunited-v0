@@ -32,3 +32,4 @@ export default {
     Faq,
     TimelineList
   },
+  methods: {

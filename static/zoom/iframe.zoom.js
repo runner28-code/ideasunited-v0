@@ -20,7 +20,6 @@ const joinParams = {
   meetingNumber,
   userName,
   apiKey,
-// Temp comment
   signature,
   userEmail,
   passWord,

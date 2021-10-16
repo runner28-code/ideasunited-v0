@@ -50,3 +50,4 @@ export default {
       return this.colors[getHash(this.id) % this.colors.length];
     }
   }
+};

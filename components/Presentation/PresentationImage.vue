@@ -1,3 +1,4 @@
+<template>
   <div
     class="presentation-image"
     :style="{
@@ -16,3 +17,4 @@ export default {
 
 <style lang="scss" scoped>
 .presentation-image {
+  width: 100%;

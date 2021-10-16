@@ -14,6 +14,7 @@
           @click.stop
           v-html="label + (required && markRequired ? ' *' : '')"
         ></span>
+      </slot>
     </template>
   </v-checkbox>
 </template>
@@ -41,3 +42,4 @@ export default {
 <style scoped lang="scss">
 .checkbox {
   margin-top: 2px;
+  margin-bottom: 13px;

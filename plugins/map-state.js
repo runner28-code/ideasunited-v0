@@ -11,7 +11,6 @@ if (!Vue.__map_state_mixin__) {
         const inputError = inputs.find((input) => input.hasError);
         if (inputError) {
           const el = inputError.$el;
-// Temp comment
           const y = el.getBoundingClientRect().top + window.scrollY - 100 - 20;
 
           window.scroll({
@@ -53,3 +52,4 @@ if (!Vue.__map_state_mixin__) {
             return moment.tz.guess(true);
           else return state.project.current.timezone;
         },
+      }),

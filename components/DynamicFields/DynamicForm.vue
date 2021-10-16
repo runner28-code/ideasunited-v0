@@ -77,6 +77,7 @@ export default {
     showBackToLogin: Boolean,
   },
   data() {
+    return {
       valid: true,
       loading: false,
       form: { ...this.value },
@@ -170,3 +171,4 @@ export default {
             rules.push( value => {
               return !value || this.pdfOrDocTypes.includes(value.type)|| `File type must be a pdf or Word doc.`;
             });
+            break;

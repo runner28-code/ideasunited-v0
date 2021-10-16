@@ -19,7 +19,6 @@
         :key="menuItem.id"
         class="rightsidebar__item rightsidebar__item-mobile"
         :to="`#${menuItem.url}`"
-        v-ripple="false"
       >
         <span @click="menuClick(menuItem, idx)">
           {{ menuItem.menu_title }}
@@ -269,3 +268,4 @@ export default {
   
   &__item-small {
     font-size: 14px;
+    font-weight: 700;

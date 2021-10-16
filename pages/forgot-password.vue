@@ -58,3 +58,4 @@ export default {
     text-align: center;
     padding-bottom: 15px;
   }
+

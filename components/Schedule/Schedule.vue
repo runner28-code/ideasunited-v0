@@ -49,7 +49,6 @@ export default {
           };
         }),
         t => t.date
-      );
     },
   }
 };

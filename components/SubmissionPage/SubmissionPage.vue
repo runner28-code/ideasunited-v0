@@ -11,6 +11,7 @@
         :btn-text="submissionForm.btn_text"
         :success-message="submissionForm.success_message"
       />
+    </div>
   </div>
 </template>
 

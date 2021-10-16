@@ -110,3 +110,4 @@ export default {
   &:after {
     content: "";
     position: absolute;
+    top: 0;

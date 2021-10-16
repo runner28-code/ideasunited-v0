@@ -238,3 +238,5 @@ export default {
         !event.role_ids.length ||
         _.intersection(event.role_ids, this.currentUser?.role_ids).length
       );
+    },
+    mobileScroll(e) {

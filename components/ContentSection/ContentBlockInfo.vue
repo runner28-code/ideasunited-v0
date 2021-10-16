@@ -31,6 +31,7 @@
         <Slider
           :slides="block.slides"
           v-else-if="block.content_type == 'popup' && sliderInited"
+        />
       </v-responsive>
     </div>
     <div class="slider-modal-content__side slider-modal-content__content">
@@ -101,7 +102,6 @@ export default {
       /* eslint-disable no-useless-escape */
       const urlRegexp =
         /^http(s)?:\/\/?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
-
       /* eslint-disable no-useless-escape */
       const instagramHandleRegexp =
         /^([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
@@ -123,3 +123,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.content-block-info {

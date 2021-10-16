@@ -171,6 +171,7 @@ export default {
     text-align: center;
   }
 }
+
 .register {
   &__title {
     color: #262729;
@@ -191,3 +192,4 @@ export default {
     &_title {
       font-size: 28px !important;
       margin-bottom: 0.5em;
+    }

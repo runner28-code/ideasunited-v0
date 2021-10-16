@@ -63,3 +63,4 @@ export default {
 .vimeo-player {
   height: 100%;
   position: relative;
+  background: black;

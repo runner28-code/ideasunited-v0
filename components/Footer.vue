@@ -160,3 +160,4 @@ export default {
     width: 2px;
     height: 42px;
     margin: 0 20px;
+    background-color: white;

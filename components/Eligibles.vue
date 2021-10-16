@@ -45,3 +45,4 @@ export default {
   &--bronze {
     color: #c6864c;
   }
+  &--gold {

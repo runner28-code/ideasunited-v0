@@ -6,7 +6,6 @@
     <div class="text-block__side">
       <TextblockItem :item="calcList[0]" />
       <TextblockItem
-        :item="calcList[1]"
         v-if="textBlock.layout == 4"
       />
       <TextblockItem
@@ -102,3 +101,16 @@ export default {
     margin: 0;
 
     &__side {
+      min-height: 200px;
+      width: 100%;
+    }
+  }
+}
+</style>
+
+
+<style lang="scss">
+
+.text-block__4 {
+  .text-block__side {
+    min-height: unset;

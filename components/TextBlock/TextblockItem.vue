@@ -86,6 +86,7 @@ a.text-block__item-wrapper:hover {
       margin-top: 20px;
     }
 
+    &-container {
       height: 100%;
       position: relative;
       padding: 20px;

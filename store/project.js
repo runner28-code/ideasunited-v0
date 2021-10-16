@@ -11,7 +11,6 @@ const store = {
   },
   actions: {
     async fetch({ commit }) {
-// Temp comment
       const { data } = await this.$api.Project.current({
         host: window.location.host,
         root_path: window.location.pathname,
@@ -22,3 +21,4 @@ const store = {
       return data;
     },
   },
+  getters: {

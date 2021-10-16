@@ -235,3 +235,4 @@ export default {
         display: block;
         width: 100%;
         padding-bottom: 56.7%;
+      }

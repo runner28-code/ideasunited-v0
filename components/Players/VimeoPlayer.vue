@@ -64,3 +64,4 @@ export default {
         if (c != current_chapter && this.chapters[c]) {
           this.player.setCurrentTime(this.chapters[c].startTime + 1);
         }
+      });

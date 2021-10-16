@@ -104,9 +104,9 @@ export default {
   },
   mounted() {
     if(this.$route.query.signup) {
-      this.chooseSignUp = true;
     }
   },
+  methods: {
     async submit() {
       try {
         const { data } = await this.$api.RegistrationForm.submit(this.form);
@@ -150,3 +150,4 @@ export default {
   &__form {
     padding: 75px 21px;
     min-height: 605px;
+    display: flex;

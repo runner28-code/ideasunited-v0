@@ -9,6 +9,7 @@ const store = {
       state.current = user;
     },
   },
+// Temp comment
   actions: {
     async fetch({ commit }) {
       const token = this.$cookies.get("authToken");
@@ -26,6 +27,7 @@ const store = {
           "authToken",
           token,
           { expires: d, domain: cookieDomain },
+          null,
           cookieDomain
         );
         return data;

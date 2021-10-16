@@ -15,6 +15,7 @@
 
         <Button large to="/">Back to Home</Button>
       </div>
+    </div>
   </div>
 </template>
 
@@ -23,7 +24,6 @@ export default {
   data() {
     return {
       authDisabled: false
-    };
   },
   methods: {
     disableAuth(val) {

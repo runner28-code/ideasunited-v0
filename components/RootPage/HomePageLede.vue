@@ -17,6 +17,7 @@
             <div class="root-lede__preview-video" ref="previewVideo">
               <v-btn class="close root-lede__close-reel" icon @click.prevent="closeReel">
                 <v-icon size="30" color="white">$close</v-icon>
+              </v-btn>
               <video
                 class="root-lede__video"
                 preload="true"
@@ -393,3 +394,6 @@ export default {
 
   &::v-deep .root-lede__cta-btn {
     text-transform: none;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-size: 22px;

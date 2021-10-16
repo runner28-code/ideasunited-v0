@@ -16,6 +16,7 @@
           <v-expansion-panel-content v-if="item.answer" v-html="item.answer">
           </v-expansion-panel-content>
         </v-expansion-panel>
+      </v-expansion-panels>
       <v-expansion-panels v-if="items2" class="faqs__column" accordion flat>
         <v-expansion-panel
           elevation-0
@@ -40,7 +41,6 @@
 <script>
 
 export default {
-  name: "Faq",
   props: {
     value: String,
     page: Object,
@@ -83,3 +83,4 @@ export default {
     flex-basis: 50%;
     flex-grow: 1;
     @media screen and (max-width: 960px) {
+      flex-basis: unset;

@@ -165,3 +165,13 @@ export default {
     &:not(.active):hover {
       background: rgba(0, 0, 0, 0.1);
     }
+
+    &:not(.active) {
+      cursor: pointer;
+    }
+
+    &.active {
+      cursor: default;
+      color: #262729;
+      background: white;
+    }

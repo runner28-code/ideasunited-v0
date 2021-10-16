@@ -3,6 +3,7 @@
     <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
     <ChatFooter :chat="chat" />
+  </div>
 </template>
 
 <script>
@@ -64,3 +65,4 @@ export default {
   padding: 0 40px;
 
   &-logo {
+    height: 32px;

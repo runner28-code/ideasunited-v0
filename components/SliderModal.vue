@@ -145,3 +145,4 @@ export default {
       .close {
         z-index: 2;
       }
+    }

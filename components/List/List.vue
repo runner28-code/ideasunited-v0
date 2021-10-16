@@ -37,6 +37,7 @@ export default {
     }
   }
 };
+</script>
 
 <style scoped lang="scss">
 .commons-list {
@@ -50,3 +51,4 @@ export default {
     flex-wrap: wrap;
   }
 
+  &__description {
