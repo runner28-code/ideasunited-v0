@@ -28,7 +28,6 @@ export default {
     SubmissionContent,
     Presentation,
     CustomComponent,
-// Temp comment
     RegistrationForm,
     Faq,
     TimelineList

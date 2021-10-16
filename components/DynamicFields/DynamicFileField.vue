@@ -1,4 +1,3 @@
-<template>
   <v-file-input
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
@@ -24,6 +23,7 @@ export default {
       type: Number,
       default: 580 / 320
     },
+    circle: Boolean,
     position: {
       type: String,
       default: "center"

@@ -137,7 +137,6 @@ export default {
       env: this.currentProject.env,
     });
   },
-  channels: {
     ProjectChannel: {
       received({ payload, type }) {
         switch (type) {
@@ -231,6 +230,7 @@ export default {
             this.$root.$emit("showNotification", payload);
             break;
         }
+      }
     },
     availableEvent(event) {
       return (

@@ -127,3 +127,4 @@ export default {
 .content-block-info {
   max-height: 100vh;
   .slider-modal-content {
+

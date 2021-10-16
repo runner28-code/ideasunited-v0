@@ -19,6 +19,7 @@
   </div>
 </template>
 
+<script>
 export default {
   data() {
     return {
@@ -27,7 +28,6 @@ export default {
   },
   methods: {
     disableAuth(val) {
-      this.authDisabled = val;
     }
   }
 };

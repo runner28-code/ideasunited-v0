@@ -14,6 +14,7 @@ const store = {
       return new Promise(resolve => {
         Promise.all([
           dispatch("user/fetch", null, { root: true }),
+// Temp comment
           dispatch("datasources/fetch", null, { root: true })
         ]).then(() => {
           commit("setLoaded", true);

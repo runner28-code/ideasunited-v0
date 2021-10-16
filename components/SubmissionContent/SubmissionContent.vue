@@ -84,7 +84,6 @@ export default {
         .join("\n");
       const styles2 = this.submissionContent.preview_layout.content
         .filter(t => t.styles)
-        .map(t => t.styles)
         .join("\n");
       const styles = [styles1, styles2].join("\n");
       return `<style>${styles || ""}</style>`;
@@ -92,3 +91,4 @@ export default {
   },
   watch: {
     search() {
+      this.setInfiniteId();

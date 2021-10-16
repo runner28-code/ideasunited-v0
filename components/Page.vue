@@ -74,6 +74,7 @@ export default {
   data() {
     return {
       currentSlide: 0,
+      preloadedImgBase64s: {},
       scrollDelayCounter: 0,
       scrollDelay: 5,
       clickingToSection: false,
@@ -188,7 +189,6 @@ export default {
         };
         img.src = src;
       } else {
-        console.info("image already preloaed");
       }
     },
     goToHash(hash) {
