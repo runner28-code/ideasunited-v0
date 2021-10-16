@@ -93,3 +93,4 @@ a.text-block__item-wrapper:hover {
       text-align: center;
       display: flex;
       align-items: center;
+      flex-direction: column;

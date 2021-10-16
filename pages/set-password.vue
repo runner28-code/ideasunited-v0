@@ -79,3 +79,4 @@ export default {
   justify-content: center;
   width: 100%;
   background: whitesmoke;
+

@@ -24,7 +24,6 @@ export default {
       type: Number,
       default: 580 / 320
     },
-    circle: Boolean,
     position: {
       type: String,
       default: "center"
@@ -85,3 +84,4 @@ export default {
       .v-input__slot {
         display: none !important;
       }
+    }

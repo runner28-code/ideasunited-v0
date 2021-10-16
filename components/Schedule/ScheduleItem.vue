@@ -78,3 +78,4 @@ export default {
     font-size: 50px;
   }
   &__description {
+    margin-top: 10px;

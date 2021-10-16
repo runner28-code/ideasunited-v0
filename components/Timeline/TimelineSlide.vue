@@ -155,3 +155,4 @@ export default {
 
     &-timestamp {
       margin-bottom: 5px;
+      font-size: 12px;

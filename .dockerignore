@@ -1,2 +1,4 @@
+push_image
 .git
 .nuxt
+node_modules/

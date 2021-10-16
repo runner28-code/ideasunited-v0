@@ -10,7 +10,6 @@
         outlined
         prepend-icon=""
         @change="handleFileChange"
-        ref="fileInput"
         append-icon="$upload"
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
       >
@@ -67,6 +66,7 @@ export default {
     },
     circle: Boolean,
     position: {
+      type: String,
       default: "center"
     },
     rules: {

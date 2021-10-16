@@ -103,3 +103,4 @@ export default {
   width: 30px;
   height: 30px;
 }
+

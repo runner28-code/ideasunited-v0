@@ -45,3 +45,4 @@ export default {
     SupportForm,
     SubmissionContent,
     Presentation,
+    CustomComponent,

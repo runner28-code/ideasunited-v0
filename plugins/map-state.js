@@ -16,6 +16,7 @@ if (!Vue.__map_state_mixin__) {
           window.scroll({
             top: y,
             behavior: "smooth",
+// Temp comment
           });
         }
       },
@@ -53,3 +54,4 @@ if (!Vue.__map_state_mixin__) {
           else return state.project.current.timezone;
         },
       }),
+      activeTheme() {

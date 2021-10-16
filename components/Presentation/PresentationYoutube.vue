@@ -5,6 +5,7 @@
   </div>
 </template>
 
+<script>
 import YouTubePlayer from "youtube-player";
 export default {
   props: {
@@ -58,3 +59,4 @@ export default {
     }
   }
 };
+</script>

@@ -74,7 +74,6 @@ export default {
   data() {
     return {
       currentSlide: 0,
-      preloadedImgBase64s: {},
       scrollDelayCounter: 0,
       scrollDelay: 5,
       clickingToSection: false,
@@ -273,3 +272,5 @@ export default {
         scrollBar: false,
         onLeave: (origin, destination, direction) => {
           this.scrollDelayCounter++;
+          if (
+            !this.clickingToSection &&

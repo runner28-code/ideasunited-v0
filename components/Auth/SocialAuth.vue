@@ -1,6 +1,7 @@
 <template>
   <div>
     <div
+      @click="oauth('cas')"
       class="social-auth__cas"
       v-if="currentProject.addons.includes('Addon::CasLogin')"
     >
@@ -99,3 +100,4 @@ export default {
     font-size: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;

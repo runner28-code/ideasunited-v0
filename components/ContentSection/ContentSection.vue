@@ -310,3 +310,4 @@ export default {
       margin: 40px 45px;
       padding: 0;
 
+      @media screen and (max-width: 960px) {

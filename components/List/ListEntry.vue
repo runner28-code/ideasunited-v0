@@ -49,3 +49,4 @@ export default {
     font-size: 14px;
     color: black;
     white-space: pre-line;
+  }

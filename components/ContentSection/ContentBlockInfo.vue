@@ -102,6 +102,7 @@ export default {
       /* eslint-disable no-useless-escape */
       const urlRegexp =
         /^http(s)?:\/\/?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
+
       /* eslint-disable no-useless-escape */
       const instagramHandleRegexp =
         /^([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
@@ -124,3 +125,5 @@ export default {
 
 <style scoped lang="scss">
 .content-block-info {
+  max-height: 100vh;
+  .slider-modal-content {

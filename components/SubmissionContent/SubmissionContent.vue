@@ -91,3 +91,4 @@ export default {
     }
   },
   watch: {
+    search() {

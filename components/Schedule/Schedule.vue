@@ -49,6 +49,7 @@ export default {
           };
         }),
         t => t.date
+      );
     },
   }
 };
@@ -63,3 +64,4 @@ export default {
 
   &__items {
     margin-top: 70px;
+  }

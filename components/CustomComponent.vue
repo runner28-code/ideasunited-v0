@@ -72,3 +72,4 @@ export default {
 
             if (callback) callback();
             this.key = component.updated_at;
+          });

@@ -161,3 +161,4 @@ export default {
     height: 42px;
     margin: 0 20px;
     background-color: white;
+    border-radius: 1px;

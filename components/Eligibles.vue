@@ -46,3 +46,4 @@ export default {
     color: #c6864c;
   }
   &--gold {
+    color: #ffbc10;

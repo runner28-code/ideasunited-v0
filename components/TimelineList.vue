@@ -67,3 +67,4 @@ export default {
     font-weight: 900;
     position: relative;
     padding-right: 21px;
+    &::after {

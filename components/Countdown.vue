@@ -88,6 +88,7 @@ export default {
     calc() {
       const release = this.$moment(this.countdown.countdown_to);
       const today = this.$moment(new Date());
+      const diff = release.diff(today);
       const duration = this.$moment.duration(diff, "milliseconds");
 
       const days = this.daysWithoutMonths(diff);
@@ -112,7 +113,6 @@ export default {
     if (this.interval) clearInterval(this.interval);
   },
   watch: {
-    value: {
       deep: true,
       handler() {
         this.startCountdown();
@@ -172,3 +172,5 @@ export default {
     text-transform: uppercase;
   }
 }
+
+@media screen and (max-width: 944px) {

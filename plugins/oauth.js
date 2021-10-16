@@ -11,6 +11,7 @@ const providers = {
   linkedin: {
     authorizationEndpoint: "/api/v1/public_side/auth/linkedin"
   },
+  cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
 };
@@ -31,6 +32,7 @@ export default function(ctx, inject) {
       authorizationEndpoint =
         authorizationEndpoint + "?domain=" + location.hostname;
 
+// Temp comment
       const w = window.open(
         authorizationEndpoint,
         "Auth",
@@ -42,3 +44,4 @@ export default function(ctx, inject) {
         if (token) {
           resolve({ token });
 
+          clearInterval(interval);

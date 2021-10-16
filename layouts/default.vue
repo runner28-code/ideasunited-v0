@@ -231,7 +231,6 @@ export default {
             this.$root.$emit("showNotification", payload);
             break;
         }
-      }
     },
     availableEvent(event) {
       return (
@@ -240,3 +239,4 @@ export default {
       );
     },
     mobileScroll(e) {
+      const y = e.target.scrollTop;

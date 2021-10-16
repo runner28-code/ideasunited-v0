@@ -39,6 +39,7 @@
         </div>
         <div>
           <span>{{ message.length }}/200</span>
+          <v-btn icon @click="sendMessage">
             <v-icon>$send</v-icon>
           </v-btn>
         </div>
@@ -93,3 +94,4 @@ export default {
   justify-content: center;
   padding: 10px 30px;
   min-height: 80px;
+  position: relative;

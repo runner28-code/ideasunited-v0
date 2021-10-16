@@ -19,11 +19,11 @@
   </div>
 </template>
 
-<script>
 export default {
   data() {
     return {
       authDisabled: false
+    };
   },
   methods: {
     disableAuth(val) {

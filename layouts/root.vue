@@ -189,3 +189,4 @@ export default {
             this.$root.$emit("showNotification", payload);
             break;
         }
+      }

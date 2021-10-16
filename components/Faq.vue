@@ -41,6 +41,7 @@
 <script>
 
 export default {
+  name: "Faq",
   props: {
     value: String,
     page: Object,
@@ -84,3 +85,4 @@ export default {
     flex-grow: 1;
     @media screen and (max-width: 960px) {
       flex-basis: unset;
+      width: 100%;

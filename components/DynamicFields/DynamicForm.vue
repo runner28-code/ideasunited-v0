@@ -172,3 +172,4 @@ export default {
               return !value || this.pdfOrDocTypes.includes(value.type)|| `File type must be a pdf or Word doc.`;
             });
             break;
+        }

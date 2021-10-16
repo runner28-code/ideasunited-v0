@@ -7,7 +7,6 @@
         :color="activeTheme.primary_color"
       />
     </div>
-  </client-only>
 </template>
 
 <script>
@@ -29,3 +28,4 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;

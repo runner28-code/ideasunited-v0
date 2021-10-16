@@ -4,4 +4,3 @@ export default item => {
   if (match) {
     return item;
   } else {
-    return `https://${item}`;

@@ -21,3 +21,4 @@ export default {
 
 <style scoped lang="scss">
 .youtube-player {
+  position: absolute;

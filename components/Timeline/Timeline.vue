@@ -210,3 +210,4 @@ export default {
 
 <style scoped lang="scss">
 .timeline {
+  display: flex;

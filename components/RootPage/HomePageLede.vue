@@ -397,3 +397,6 @@ export default {
     font-weight: 700;
     letter-spacing: -0.02em;
     font-size: 22px;
+    color: #E12D1B;
+    min-width: 190px !important;
+    height: 55px !important;
