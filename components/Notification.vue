@@ -55,7 +55,6 @@ export default {
       this.data = payload;
       switch (payload.notification_type) {
         case "popup":
-          this.dialog = true;
           break;
         case "sidebar":
           this.sidebar = true;

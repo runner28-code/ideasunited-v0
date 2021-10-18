@@ -62,7 +62,6 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
 .root-lede-play {
   width: 10.83%;
   padding-bottom: 10.83%;

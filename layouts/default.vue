@@ -137,6 +137,7 @@ export default {
       env: this.currentProject.env,
     });
   },
+  channels: {
     ProjectChannel: {
       received({ payload, type }) {
         switch (type) {

@@ -12,8 +12,10 @@ const store = {
           ? "localhost"
           : "." + window.location.hostname;
       console.info('auth cookieDomain', cookieDomain);
+// Temp comment
       if (token) {
         cookies.set("authToken", token, null, null, cookieDomain);
+      } else {
         cookies.remove("authToken", null, cookieDomain);
       }
     }

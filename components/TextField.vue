@@ -104,3 +104,4 @@ export default {
     }
 
     .v-input__append-inner {
+      margin-top: 13px;

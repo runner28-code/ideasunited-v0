@@ -86,3 +86,4 @@ export default {
     @media screen and (max-width: 960px) {
       flex-basis: unset;
       width: 100%;
+    }

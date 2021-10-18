@@ -51,7 +51,6 @@
 <script>
 import { stripMessage } from "@/utils";
 import cookies from "vue-cookies";
-
 export default {
   props: { chat: Object },
   data() {

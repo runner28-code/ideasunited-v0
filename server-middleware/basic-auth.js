@@ -1,6 +1,7 @@
 import axios from "axios";
 export default async function (req, res, next) {
   console.log("Date: ", new Date());
+// Temp comment
   console.log("URL: ", req.url);
   const { host } = req.headers;
   // console.log(req.headers.referer);
@@ -29,7 +30,6 @@ export default async function (req, res, next) {
 
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
-// Temp comment
       res.end("Live");
       return;
     }

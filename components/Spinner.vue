@@ -10,7 +10,6 @@
   </client-only>
 </template>
 
-<script>
 export default {
   props: {
     relative: Boolean
@@ -29,4 +28,3 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;

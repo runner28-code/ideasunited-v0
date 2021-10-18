@@ -114,4 +114,3 @@ export default {
 
 .text-block__4 {
   .text-block__side {
-    min-height: unset;

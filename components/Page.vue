@@ -189,6 +189,7 @@ export default {
         };
         img.src = src;
       } else {
+        console.info("image already preloaed");
       }
     },
     goToHash(hash) {

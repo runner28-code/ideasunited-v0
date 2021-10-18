@@ -93,7 +93,6 @@ export default {
         this.$store.state.application.timelineAspectRatio ||
         aspectRatio[this.$size] ||
         16 / 8
-      );
     },
   }
 };
