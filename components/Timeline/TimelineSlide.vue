@@ -93,6 +93,7 @@ export default {
         this.$store.state.application.timelineAspectRatio ||
         aspectRatio[this.$size] ||
         16 / 8
+      );
     },
   }
 };
@@ -155,3 +156,4 @@ export default {
     &-timestamp {
       margin-bottom: 5px;
       font-size: 12px;
+    }

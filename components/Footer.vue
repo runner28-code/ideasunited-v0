@@ -121,7 +121,6 @@ export default {
 
   .copyright {
     text-transform: none;
-    font-weight: 700;
   }
 
   &__logo {
@@ -162,3 +161,4 @@ export default {
     margin: 0 20px;
     background-color: white;
     border-radius: 1px;
+  }

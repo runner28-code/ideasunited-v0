@@ -68,7 +68,6 @@ export default {
   &__1 &__side {
     width: 100%;
   }
-
   &__3 &__side-double &__item-wrapper {
     height: 50%;
   }
@@ -114,3 +113,4 @@ export default {
 
 .text-block__4 {
   .text-block__side {
+    min-height: unset;

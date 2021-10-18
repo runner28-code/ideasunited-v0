@@ -28,6 +28,7 @@ export default {
     };
   },
   mounted() {
+    this.$root.$on(`authModal/open`, () => {
       this.backToLogin();
       this.opened = true;
     });
@@ -59,10 +60,10 @@ export default {
   watch: {
     opened(newValue) {
       if(!newValue) setTimeout(() => this.backToLogin(), 500);
-    }
   },
 };
 </script>
 
 <style scoped lang="scss">
 
+.auth-modal-content {

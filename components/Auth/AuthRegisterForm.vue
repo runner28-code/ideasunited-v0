@@ -146,6 +146,7 @@ export default {
     updateDialogState() {
       if(this.dialogState) this.dialogState.chooseSignUp = this.chooseSignUp;
     }
+  },
   watch: {
     dialogState: {
       deep: true,
@@ -183,7 +184,6 @@ export default {
 
   &__thank-you {
     text-align: center;
-    font-weight: bold;
     font-size: 14px;
     max-width: 274px;
     margin: auto;

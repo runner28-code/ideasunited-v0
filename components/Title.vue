@@ -22,6 +22,7 @@ export default {
         fontSize: font.size + "px",
         textTransform: font.case,
         letterSpacing: font.letter_spacing + "px"
+      };
     }
   }
 };

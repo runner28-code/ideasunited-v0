@@ -172,5 +172,6 @@ export default {
 
     &.active {
       cursor: default;
+      color: #262729;
       background: white;
     }

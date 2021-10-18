@@ -38,7 +38,6 @@
               fab
               small
             >
-              <v-icon size="36" :color="currentColor"
                 >$close</v-icon
               >
             </v-btn>
@@ -146,3 +145,4 @@ export default {
         z-index: 2;
       }
     }
+  }

@@ -54,3 +54,4 @@ if (!Vue.__map_state_mixin__) {
         },
       }),
       activeTheme() {
+        return (

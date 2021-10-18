@@ -400,3 +400,5 @@ export default {
     color: #E12D1B;
     min-width: 190px !important;
     height: 55px !important;
+  }
+

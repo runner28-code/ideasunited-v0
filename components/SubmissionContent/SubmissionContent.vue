@@ -93,3 +93,4 @@ export default {
   watch: {
     search() {
       this.setInfiniteId();
+    }

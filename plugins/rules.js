@@ -8,6 +8,7 @@ export default function (ctx, inject) {
     email: (v) => !v || emailRegexp.test(v) || "Incorrect email",
     url: (v) => !v || urlRegexp.test(v) || "Incorrect URL",
 
+    required: (v) => {
       return !!(v || "").toString().trim() || "Required field";
     },
     password: (v) =>

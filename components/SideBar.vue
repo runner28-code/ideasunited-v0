@@ -182,6 +182,7 @@ export default {
       const menuPages = this.currentProject.menu_pages;
       return menuPages.filter(t => !t.parent_menu_id);
     },
+    menuFooterPages() {
       return this.currentProject.menu_footer_pages;
     },
     drawerWidth() {
