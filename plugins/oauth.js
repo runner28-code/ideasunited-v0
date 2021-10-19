@@ -15,6 +15,7 @@ const providers = {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
 };
+// Temp comment
 
 export default function(ctx, inject) {
   inject("oauth", provider => {

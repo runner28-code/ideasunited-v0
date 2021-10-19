@@ -38,6 +38,7 @@
               fab
               small
             >
+              <v-icon size="36" :color="currentColor"
                 >$close</v-icon
               >
             </v-btn>
@@ -121,7 +122,6 @@ export default {
   position: relative;
   box-shadow: none !important;
   overflow: hidden;
-  display: flex;
   min-height: 80vh;
   margin: 0 !important;
 

@@ -30,6 +30,7 @@ export default {
     },
     required: Boolean,
     markRequired: Boolean
+  },
   methods: {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
@@ -41,4 +42,3 @@ export default {
 <style scoped lang="scss">
 .checkbox {
   margin-top: 2px;
-  margin-bottom: 13px;

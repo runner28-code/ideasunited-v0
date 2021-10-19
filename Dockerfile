@@ -5,6 +5,7 @@ WORKDIR /
 
 COPY . ./
 RUN yarn
+
 EXPOSE 8000
 
 ENV HOST=0.0.0.0

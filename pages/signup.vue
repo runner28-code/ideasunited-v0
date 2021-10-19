@@ -5,7 +5,6 @@
       v-if="currentUser"
       >
       <div>You are logged in.<br/><br/></div>
-      <v-btn
         @click.prevent="logout()"
       >
         Logout
@@ -23,6 +22,7 @@ export default {
       this.$store.dispatch("auth/logout");
       this.$emit('input', false)
     }
+  },
   mounted() {
     this.$root.$on('leaveSignup', () => {
       window.location.href = frontendToProfile()[window.location.origin];
@@ -60,3 +60,4 @@ export default {
     &::v-deep {
       .text-field {
         margin-bottom: 20px;
+        width: 100%;

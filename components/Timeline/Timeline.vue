@@ -98,6 +98,7 @@ export default {
     initOn() {
       this.$root.$on("setActiveEvent", active => {
         switch (typeof active) {
+          case "string":
             this.setActive(active);
             break;
 
@@ -210,3 +211,4 @@ export default {
 <style scoped lang="scss">
 .timeline {
   display: flex;
+  width: 100%;

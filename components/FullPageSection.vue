@@ -72,7 +72,6 @@ export default {
       if (posX) styles.backgroundPositionX = `${posX}%`;
       const posY = this.page.lead_background_styles.backgroundPositionY;
       if (posY) styles.backgroundPositionY = `${posY}%`;
-      return styles;
     },
   },
 };
@@ -129,3 +128,4 @@ export default {
   flex-direction: column;
 }
 
+.fullpage-next-arrow,

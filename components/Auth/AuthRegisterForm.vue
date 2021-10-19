@@ -184,6 +184,7 @@ export default {
 
   &__thank-you {
     text-align: center;
+    font-weight: bold;
     font-size: 14px;
     max-width: 274px;
     margin: auto;
@@ -192,3 +193,4 @@ export default {
       font-size: 28px !important;
       margin-bottom: 0.5em;
     }
+    &_message {

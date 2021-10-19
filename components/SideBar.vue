@@ -272,3 +272,4 @@ export default {
     font-weight: 700;
     justify-content: center;
     min-height: 30px;
+    &::v-deep.theme--light.v-list-item:not(.v-list-item--disabled) {

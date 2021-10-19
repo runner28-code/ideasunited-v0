@@ -402,3 +402,5 @@ export default {
     height: 55px !important;
   }
 
+  &__preview {
+    position: absolute;

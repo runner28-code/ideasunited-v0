@@ -95,3 +95,4 @@ export default {
   padding: 10px 30px;
   min-height: 80px;
   position: relative;
+

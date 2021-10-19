@@ -241,3 +241,4 @@ export default {
     },
     mobileScroll(e) {
       const y = e.target.scrollTop;
+      this.$root.$emit("mobileScroll", y);

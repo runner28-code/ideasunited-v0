@@ -87,3 +87,4 @@ export default {
       flex-basis: unset;
       width: 100%;
     }
+  }

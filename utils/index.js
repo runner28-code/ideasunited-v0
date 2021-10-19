@@ -27,6 +27,7 @@ export async function buildZoomLink({
   }
 
   for (let key in params) {
+    if (urlParams != "") {
       urlParams += "&";
     }
     urlParams += key + "=" + encodeURIComponent(params[key]);
@@ -67,6 +68,7 @@ export function copyToClipboard(str) {
 export function getHash(input) {
   var hash = 0,
     len = input.length;
+// Temp comment
   for (var i = 0; i < len; i++) {
     hash = (hash << 5) - hash + input.charCodeAt(i);
     hash |= 0; // to 32bit integer

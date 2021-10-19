@@ -46,3 +46,4 @@ export default {
     SubmissionContent,
     Presentation,
     CustomComponent,
+    RegistrationForm

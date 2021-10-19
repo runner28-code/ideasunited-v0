@@ -50,3 +50,4 @@ export default {
   &-text {
     width: max-content;
   }
+}
