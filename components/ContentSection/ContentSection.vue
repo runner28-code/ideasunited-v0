@@ -200,6 +200,7 @@ export default {
         "xs" == this.$size &&
         idx >= 4 &&
         !this.viewMore
+      );
     }
   }
 };

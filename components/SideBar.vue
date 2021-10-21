@@ -117,7 +117,6 @@ export default {
     setTimeout(() => {
       this.getOpportunityNotifications();
     }, 1000);
-  },
   methods: {
     bindProps(menuItem) {
       if (menuItem.url_type == "absolute") {

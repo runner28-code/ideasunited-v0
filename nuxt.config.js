@@ -29,6 +29,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["~/assets/css/app.scss"],
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: "~/plugins/map-state.js" },
@@ -117,7 +118,6 @@ export default {
       values: {
         dots_vertical: "mdi-dots-vertical",
         menu_down: "mdi-menu-down",
-        menu_up: "mdi-menu-up",
         send: "mdi-send",
         search: "mdi-magnify",
         emoji: "mdi-emoticon-outline",

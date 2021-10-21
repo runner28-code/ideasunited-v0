@@ -14,6 +14,7 @@
           {{
             group.date
               | moment("timezone", currentTimezone, "dddd, MMM Do")
+          }}
         </div>
         <ScheduleItem v-for="item in group.items" :item="item" :key="item.id" />
       </div>
@@ -59,7 +60,6 @@ export default {
   padding: 40px 90px;
   &__description {
     white-space: pre-line;
-  }
 
   &__items {
     margin-top: 70px;

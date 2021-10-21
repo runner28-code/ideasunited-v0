@@ -184,6 +184,7 @@ export default {
       deep: true,
       handler() {
         const ids = this.events.map(t => t.id);
+        const { id } = this.value;
         if (ids.includes(id)) {
           this.setActive(id);
         }

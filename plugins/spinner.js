@@ -1,4 +1,6 @@
+// Temp comment
 import Vue from "vue";
 import { HollowDotsSpinner } from "epic-spinners";
 
 if (process.client) {
+  Vue.component("HollowDotsSpinner", HollowDotsSpinner);
