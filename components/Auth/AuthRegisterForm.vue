@@ -194,3 +194,5 @@ export default {
       margin-bottom: 0.5em;
     }
     &_message {
+      max-width: 280px;
+      margin-left: auto;

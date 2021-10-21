@@ -5,3 +5,4 @@
 <script>
 export default {
   props: {
+    html: String

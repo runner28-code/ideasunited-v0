@@ -40,7 +40,6 @@ export default {
     position: relative;
 
     &-overlay {
-      position: absolute;
       left: 0;
       right: 0;
       top: 0;
@@ -67,3 +66,4 @@ export default {
 @media screen and (max-width: 1100px) {
   .grid-menu {
     &__item {
+      max-width: 33.333%;

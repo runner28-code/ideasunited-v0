@@ -52,3 +52,4 @@ export default {
   }
 
   &__description {
+    color: #4a4a4a;

@@ -152,3 +152,4 @@ export default {
     padding: 75px 21px;
     min-height: 605px;
     display: flex;
+    align-items: center;

@@ -18,6 +18,7 @@
 </template>
 
 <script>
+export default {
   layout: 'simple',
   data() {
     return {
@@ -58,3 +59,4 @@
     padding-bottom: 15px;
   }
 
+  &__form {

@@ -68,3 +68,4 @@ export default {
 <style scoped lang="scss">
 
 .auth-modal-content {
+  text-align: center;

@@ -1,5 +1,4 @@
 <template>
-  <v-app
     v-if="currentProject"
     class="evp-app"
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
@@ -242,3 +241,6 @@ export default {
     mobileScroll(e) {
       const y = e.target.scrollTop;
       this.$root.$emit("mobileScroll", y);
+    },
+    accountMenuClick() {
+      this.drawer = !this.drawer;

@@ -157,3 +157,5 @@ export default {
       margin-bottom: 5px;
       font-size: 12px;
     }
+    &-timestamp,
+    &-name {

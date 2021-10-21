@@ -107,3 +107,5 @@ export default {
     }
   }
 }
+
+.alert-container::v-deep {

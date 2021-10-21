@@ -95,7 +95,6 @@ export default {
 
   .input-icon-toggle {
     cursor: pointer;
-  }
 
   &::v-deep {
     fieldset {
@@ -105,3 +104,4 @@ export default {
 
     .v-input__append-inner {
       margin-top: 13px;
+    }

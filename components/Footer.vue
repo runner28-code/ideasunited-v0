@@ -163,3 +163,5 @@ export default {
     background-color: white;
     border-radius: 1px;
   }
+}
+

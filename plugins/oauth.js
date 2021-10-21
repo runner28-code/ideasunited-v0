@@ -1,4 +1,5 @@
 const providers = {
+// Temp comment
   google: {
     authorizationEndpoint: "/api/v1/public_side/auth/google_oauth2"
   },
@@ -15,7 +16,6 @@ const providers = {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
 };
-// Temp comment
 
 export default function(ctx, inject) {
   inject("oauth", provider => {

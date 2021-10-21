@@ -173,3 +173,5 @@ export default {
             });
             break;
         }
+      }
+      return rules;

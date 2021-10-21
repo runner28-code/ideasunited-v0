@@ -323,3 +323,6 @@ export default {
       margin-right: 20px;
       color: #333 !important;
     }
+
+    &-profile {
+      cursor: pointer;

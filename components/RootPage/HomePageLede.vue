@@ -404,3 +404,8 @@ export default {
 
   &__preview {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    @media screen and (max-width: 960px) {

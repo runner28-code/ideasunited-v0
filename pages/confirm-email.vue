@@ -21,3 +21,4 @@ export default {
       } catch (e) {
         this.$router.push("/");
         console.error(e);
+      }

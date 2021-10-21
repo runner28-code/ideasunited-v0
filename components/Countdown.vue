@@ -184,3 +184,5 @@ export default {
 
     &__item {
       margin: 0 10px;
+
+      &-value {

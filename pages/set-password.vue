@@ -62,7 +62,6 @@ export default {
         console.error(e);
       }
     }
-  }
 };
 </script>
 
@@ -81,3 +80,4 @@ export default {
   background: whitesmoke;
 
   &__title {
+    font-weight: bold;

@@ -148,3 +148,4 @@ export default {
       transform: translate(-50%, -50%);
       width: 50%;
       height: 50%;
+      background: white;

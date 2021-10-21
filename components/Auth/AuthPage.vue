@@ -1,5 +1,6 @@
 <template>
   <div
+    class="auth-page"
     :style="{
       backgroundImage: activeTheme.splash_screen.url
         ? `url(${activeTheme.splash_screen.url})`
@@ -9,7 +10,6 @@
     <AuthForm @disableAuth="$emit('disableAuth', $event)" />
   </div>
 </template>
-
 <script>
 export default {};
 </script>
@@ -24,3 +24,4 @@ export default {};
   justify-content: center;
   padding: 40px;
   background-size: cover;
+}

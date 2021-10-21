@@ -96,3 +96,4 @@ export default {
   min-height: 80px;
   position: relative;
 
+  &__actions {

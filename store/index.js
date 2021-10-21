@@ -13,8 +13,10 @@ export const mutations = {
 export const actions = {
   async nuxtServerInit({ commit }, opts) {
     const { req } = opts;
+
     const { data: projectData } = await this.$api.Project.current({
       host: req.headers.host,
       root_path: req.url
     });
 
+    commit("project/set", projectData);

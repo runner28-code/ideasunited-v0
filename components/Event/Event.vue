@@ -157,6 +157,7 @@ export default {
   }
 
   &__title {
+    font-size: 12px;
     font-weight: bold;
     padding: 24px 40px;
   }
@@ -238,3 +239,5 @@ export default {
     }
   }
 
+  &.show_event &__chat {
+    width: 300px;

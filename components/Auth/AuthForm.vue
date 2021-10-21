@@ -175,3 +175,4 @@ export default {
       color: #262729;
       background: white;
     }
+  }

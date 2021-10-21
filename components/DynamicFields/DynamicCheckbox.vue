@@ -42,3 +42,5 @@ export default {
 <style scoped lang="scss">
 .checkbox {
   margin-top: 2px;
+  margin-bottom: 13px;
+

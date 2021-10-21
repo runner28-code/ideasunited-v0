@@ -151,6 +151,7 @@ export default {
   },
   methods: {
     getId(index) {
+      const block = this.filteredBlocks[index];
       return block?.posted ? block.id : null;
     },
     checkPosted() {
@@ -186,7 +187,6 @@ export default {
                 sectionId: this.contentSection.id
               });
             }, untilEnd);
-          }
         }
       });
     },
@@ -310,3 +310,5 @@ export default {
       padding: 0;
 
       @media screen and (max-width: 960px) {
+        margin: 40px 10px;
+      }

@@ -1,5 +1,6 @@
 <template>
   <div class="not-authorized">
+    <AuthPage
       @disableAuth="disableAuth"
       v-show="!currentUser && !authDisabled"
     />
@@ -34,3 +35,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.not-authorized {

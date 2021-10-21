@@ -72,6 +72,7 @@ export default {
       if (posX) styles.backgroundPositionX = `${posX}%`;
       const posY = this.page.lead_background_styles.backgroundPositionY;
       if (posY) styles.backgroundPositionY = `${posY}%`;
+      return styles;
     },
   },
 };
@@ -102,7 +103,6 @@ export default {
       width: 100%;
     }
     @media screen and (max-width: 944px) {
-      padding: 20px 30px;
     }
   }
   @media screen and (max-width: 944px) {
@@ -129,3 +129,5 @@ export default {
 }
 
 .fullpage-next-arrow,
+.fullpage-top-arrow {
+  width: 69px;

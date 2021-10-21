@@ -25,6 +25,7 @@ export default {
         channel: "ChatChannel",
         chat_id: this.chat.id,
         env: this.currentProject.env
+      });
     }
   },
   channels: {
@@ -65,3 +66,4 @@ export default {
 
   &-logo {
     height: 32px;
+    width: 32px;

@@ -12,6 +12,7 @@
             :key="field.id"
           >
             <span>{{
+              field.value.length > 100
                 ? field.value.substr(0, 100) + "..."
                 : field.value
             }}</span>
@@ -85,7 +86,6 @@ export default {
       }
 
       return styles;
-    },
     color() {
       return this.colors[getHash(this.item.id) % this.colors.length];
     }
@@ -111,3 +111,17 @@ export default {
     position: absolute;
     top: 0;
     right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(26, 26, 26, 0) 0%,
+      rgba(26, 26, 26, 0.85) 100%
+    );
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    color: white;
+

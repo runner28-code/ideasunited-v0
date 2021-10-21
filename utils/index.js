@@ -2,7 +2,6 @@ export async function buildZoomLink({
   $api,
   zoom_id,
   zoom_password,
-  full_name,
   email,
 }) {
   const { data } = await $api.Service.zoomSignature({
@@ -68,7 +67,6 @@ export function copyToClipboard(str) {
 export function getHash(input) {
   var hash = 0,
     len = input.length;
-// Temp comment
   for (var i = 0; i < len; i++) {
     hash = (hash << 5) - hash + input.charCodeAt(i);
     hash |= 0; // to 32bit integer

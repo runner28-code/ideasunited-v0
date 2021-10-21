@@ -273,3 +273,6 @@ export default {
     justify-content: center;
     min-height: 30px;
     &::v-deep.theme--light.v-list-item:not(.v-list-item--disabled) {
+      &:not(.v-list-item--active),
+      &.v-list-item--active {
+        color: white !important;
