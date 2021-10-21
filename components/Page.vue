@@ -281,3 +281,6 @@ export default {
           } else {
             this.scrollDelayCounter = 0;
             this.clickingToSection = false;
+          }
+          this.currentSlide = destination.index;
+        },

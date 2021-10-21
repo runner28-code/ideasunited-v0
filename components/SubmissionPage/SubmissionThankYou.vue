@@ -56,3 +56,4 @@ export default {
     lastName() {
       return this.currentUser.last_name;
     },
+    opportunityName() {

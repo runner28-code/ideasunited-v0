@@ -184,7 +184,6 @@ export default {
       deep: true,
       handler() {
         const ids = this.events.map(t => t.id);
-        const { id } = this.value;
         if (ids.includes(id)) {
           this.setActive(id);
         }
@@ -214,3 +213,4 @@ export default {
   width: 100%;
   align-items: center;
   padding: 20px 40px;
+  border-top: 1px solid #e5e5e5;

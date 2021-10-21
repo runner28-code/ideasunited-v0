@@ -186,3 +186,5 @@ export default {
       margin: 0 10px;
 
       &-value {
+        font-size: 3em;
+      }

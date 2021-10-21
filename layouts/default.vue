@@ -1,4 +1,5 @@
 <template>
+  <v-app
     v-if="currentProject"
     class="evp-app"
     :class="{ authorized: currentUser, not_authorized: !currentUser }"
@@ -244,3 +245,5 @@ export default {
     },
     accountMenuClick() {
       this.drawer = !this.drawer;
+      this.$nextTick(() => {
+        this.$root.$emit("fullpageRebuild");

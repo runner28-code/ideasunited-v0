@@ -80,3 +80,4 @@ export default {
   &__description {
     margin-top: 10px;
   }
+  &__start-at {

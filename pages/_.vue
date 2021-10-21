@@ -93,3 +93,4 @@ export default {
         (this.currentUser &&
           this.page.role_ids.length &&
           !_.intersection(this.page.role_ids, this.currentUser.role_ids).length)
+      ) {

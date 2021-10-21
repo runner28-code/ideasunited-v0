@@ -22,6 +22,7 @@ export default {
   data() {
     return {
       started: false
+    };
   },
   mounted() {
     this.player = new Player(this.$refs.vimeo);
@@ -64,3 +65,4 @@ export default {
   position: relative;
   background: black;
 
+  &-overlay {

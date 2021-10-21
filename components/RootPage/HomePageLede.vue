@@ -409,3 +409,7 @@ export default {
     width: 100%;
     pointer-events: none;
     @media screen and (max-width: 960px) {
+      position: relative;
+    }
+
+    &-content {

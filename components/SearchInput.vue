@@ -77,3 +77,4 @@ export default {
     span {
       margin-left: 5px;
     }
+  }

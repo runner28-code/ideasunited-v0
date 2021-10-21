@@ -97,3 +97,4 @@ export default {
   position: relative;
 
   &__actions {
+    width: 100%;

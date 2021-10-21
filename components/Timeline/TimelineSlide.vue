@@ -159,3 +159,5 @@ export default {
     }
     &-timestamp,
     &-name {
+      width: 100%;
+    }

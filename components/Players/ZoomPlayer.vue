@@ -76,6 +76,7 @@ export default {
   text-align: center;
   flex-direction: column;
   border-bottom: 1px solid #e5e5e5;
+
   &__title {
     font-weight: 500;
     font-size: 48px;
@@ -87,3 +88,4 @@ export default {
     line-height: 1.143;
     margin-bottom: 10px;
   }
+

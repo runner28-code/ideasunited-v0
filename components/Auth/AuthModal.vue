@@ -69,3 +69,4 @@ export default {
 
 .auth-modal-content {
   text-align: center;
+  padding: 58px;

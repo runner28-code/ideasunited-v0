@@ -118,3 +118,4 @@
     position: absolute;
     top: -10.26%;
     left: -10.26%;
+    width: 128.2%;

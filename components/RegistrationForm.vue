@@ -114,7 +114,6 @@ export default {
         this.emailValidationSuggestions = [];
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
-        if (this.registrationForm.destination_page_id)
           this.$router.push("/" + this.registrationForm.destination_url);
       } catch (e) {
         if (!e.response.data) return;
@@ -153,3 +152,4 @@ export default {
     min-height: 605px;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 944px) {

@@ -103,3 +103,4 @@ export default {
     justify-content: center;
     cursor: pointer;
     position: relative;
+    transition: 0.3s;

@@ -86,6 +86,7 @@ export default {
       }
 
       return styles;
+    },
     color() {
       return this.colors[getHash(this.item.id) % this.colors.length];
     }

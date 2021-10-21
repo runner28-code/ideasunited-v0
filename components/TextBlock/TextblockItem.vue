@@ -95,3 +95,4 @@ a.text-block__item-wrapper:hover {
       align-items: center;
       flex-direction: column;
       justify-content: center;
+    }

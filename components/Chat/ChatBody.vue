@@ -82,4 +82,4 @@ export default {
       });
       this.messages.unshift(...data.reverse());
 
-      if ($state) {
+        if (data.length) {

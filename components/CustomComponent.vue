@@ -74,3 +74,4 @@ export default {
             this.key = component.updated_at;
           });
         }
+      });

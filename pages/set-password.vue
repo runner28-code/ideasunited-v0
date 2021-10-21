@@ -62,6 +62,7 @@ export default {
         console.error(e);
       }
     }
+  }
 };
 </script>
 
@@ -81,3 +82,4 @@ export default {
 
   &__title {
     font-weight: bold;
+    font-size: 24px;

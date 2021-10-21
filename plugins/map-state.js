@@ -4,7 +4,6 @@ import moment from "moment-timezone";
 
 if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
-
   Vue.mixin({
     methods: {
       scrollToInvalidInput(inputs) {
@@ -56,3 +55,4 @@ if (!Vue.__map_state_mixin__) {
       activeTheme() {
         return (
           this.currentPage?.active_theme || this.currentProject?.active_theme
+        );

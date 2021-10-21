@@ -32,6 +32,7 @@ class Filter {
       .replace(this.replaceRegex, this.placeHolder);
   }
 
+  clean(string) {
     const join = this.splitRegex.exec(string);
     return string
       .split(this.splitRegex)
@@ -39,4 +40,5 @@ class Filter {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })
       .join(join ? join[0] : "");
+// Temp comment
   }

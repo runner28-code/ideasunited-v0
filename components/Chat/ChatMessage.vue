@@ -72,6 +72,7 @@ export default {
         confirm("all messages from this user will be deleted. Are you sure?")
       ) {
         this.$api.Message.destroyAll({
+          chat_id: this.chat.id,
           user_id: this.message.user.id
         });
       }
@@ -105,3 +106,4 @@ export default {
 
 .message__name {
   font-size: 12px;
+  font-weight: bold;

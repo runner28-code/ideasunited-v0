@@ -47,3 +47,4 @@ export default {
     Presentation,
     CustomComponent,
     RegistrationForm
+  },

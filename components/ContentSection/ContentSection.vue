@@ -187,6 +187,7 @@ export default {
                 sectionId: this.contentSection.id
               });
             }, untilEnd);
+          }
         }
       });
     },
@@ -199,7 +200,6 @@ export default {
         "xs" == this.$size &&
         idx >= 4 &&
         !this.viewMore
-      );
     }
   }
 };
@@ -312,3 +312,5 @@ export default {
       @media screen and (max-width: 960px) {
         margin: 40px 10px;
       }
+
+      &::v-deep .content-section-item {

@@ -14,6 +14,7 @@
           @keyup.enter="openPrev"
           icon
           class="slider-modal__arrow slider-modal__prev"
+          tabindex="0"
           role="button"
         >
           <v-icon color="#ffffff" size="50">$chevron_left</v-icon>
@@ -148,3 +149,4 @@ export default {
   }
 
   &__prev,
+  &__next {

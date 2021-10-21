@@ -56,7 +56,6 @@ export default {
   watch: {
     vimeoChapter() {
       this.goToChapter(this.vimeoChapter);
-    }
   },
   methods: {
     goToChapter(c) {
@@ -67,3 +66,4 @@ export default {
       });
     },
     play() {
+      this.player.play();

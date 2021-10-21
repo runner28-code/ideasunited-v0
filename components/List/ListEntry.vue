@@ -14,6 +14,7 @@
       </div>
       <div class="list-entry__subtitle" v-html="entry.subtitle"></div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -49,3 +50,4 @@ export default {
     color: black;
     white-space: pre-line;
   }
+}

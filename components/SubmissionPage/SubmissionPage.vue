@@ -1,5 +1,6 @@
 <template>
   <div class="submission-page">
+    <div class="submission-page__container">
       <SubmissionForm
         @close="formDialog = false"
         :id="submissionForm.id"
@@ -17,7 +18,6 @@
 <script>
 export default {
   props: {
-    value: String,
     page: Object,
   },
   data() {
@@ -37,3 +37,4 @@ export default {
 .submission-page {
   &__container {
     max-width: 900px;
+    margin: auto;

@@ -65,3 +65,4 @@ export default {
   padding: 20px;
   font-family: Source Sans Pro, sans-serif;
 
+  &__title {

@@ -4,7 +4,6 @@
       <div class="footer__start">
         <a href="/" class="footer__logo">
           <img src="~/assets/images/logo.png" alt="iU Community ™" />
-        </a>
 
         <div class="footer__separator"></div>
 
@@ -165,3 +164,5 @@ export default {
   }
 }
 
+.support__dialog {
+  font-family: Source Sans Pro, sans-serif;

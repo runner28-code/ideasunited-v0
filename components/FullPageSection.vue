@@ -103,6 +103,7 @@ export default {
       width: 100%;
     }
     @media screen and (max-width: 944px) {
+      padding: 20px 30px;
     }
   }
   @media screen and (max-width: 944px) {
@@ -131,3 +132,4 @@ export default {
 .fullpage-next-arrow,
 .fullpage-top-arrow {
   width: 69px;
+  min-height: 34.5px;

@@ -276,3 +276,5 @@ export default {
       &:not(.v-list-item--active),
       &.v-list-item--active {
         color: white !important;
+      }
+    }

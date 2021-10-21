@@ -42,7 +42,6 @@
             ></timeago>
           </div>
           <div
-            v-if="activeEvent.description"
             class="event__video-description"
             v-html="activeEvent.description"
           ></div>
@@ -241,3 +240,6 @@ export default {
 
   &.show_event &__chat {
     width: 300px;
+  }
+
+  &.chat_is_text &__chat {

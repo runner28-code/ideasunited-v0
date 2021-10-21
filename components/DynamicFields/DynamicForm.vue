@@ -46,7 +46,6 @@
         <span v-else>
           {{ btnText || "Submit" }}
         </span>
-      </Button>
     </div>
   </v-form>
 </template>
@@ -175,3 +174,4 @@ export default {
         }
       }
       return rules;
+    }

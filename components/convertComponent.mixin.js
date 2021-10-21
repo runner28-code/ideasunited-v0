@@ -1,6 +1,5 @@
 import ContentSection from "./ContentSection/ContentSection";
 import Event from "./Event/Event";
-// Temp comment
 import Countdown from "./Countdown";
 import TextBlock from "./TextBlock/TextBlock";
 import Schedule from "./Schedule/Schedule";
@@ -9,6 +8,7 @@ import HtmlBlock from "./HtmlBlock";
 import SubmissionPage from "./SubmissionPage/SubmissionPage";
 import SubmissionContent from "./SubmissionContent/SubmissionContent";
 import SupportForm from "./SupportForm";
+// Temp comment
 import CustomComponent from "./CustomComponent";
 import Presentation from "./Presentation/Presentation";
 import RegistrationForm from "./RegistrationForm";
@@ -34,3 +34,4 @@ export default {
     TimelineList
   },
   methods: {
+    convertComponent(type) {
