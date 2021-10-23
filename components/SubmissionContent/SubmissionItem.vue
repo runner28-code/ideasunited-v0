@@ -83,6 +83,7 @@ export default {
 
       if (this.backgroundImage) {
         styles.backgroundImage = this.item.background_image.large.url;
+      }
 
       return styles;
     },

@@ -80,6 +80,7 @@
       </div>
     </div>
   </div>
+</template>
 
 <script>
 export default {
@@ -133,3 +134,4 @@ export default {
       overflow: auto;
       max-height: 100%;
       flex-basis: 500px;
+

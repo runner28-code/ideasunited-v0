@@ -69,3 +69,4 @@ export default {
     &__item {
       max-width: 33.333%;
     }
+  }

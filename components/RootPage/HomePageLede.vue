@@ -240,7 +240,6 @@ export default {
             ease: Power1.easeIn,
             duration: 0.5,
           })
-          .to(playBtn, {
             duration: 0.5,
             opacity: 0,
           }, "start")
@@ -413,3 +412,4 @@ export default {
     }
 
     &-content {
+      width: 100%;

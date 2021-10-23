@@ -284,3 +284,4 @@ export default {
           }
           this.currentSlide = destination.index;
         },
+        afterRender: () => {

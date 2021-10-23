@@ -29,7 +29,6 @@ export default {
       default: false
     }
   },
-  data() {
     return {
       localValue: this.value,
       localRules: [...this.rules, this.$rules.url]

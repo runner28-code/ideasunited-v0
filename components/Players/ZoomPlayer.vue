@@ -64,6 +64,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.zoom-player {
   position: absolute;
   top: 0;
   left: 0;

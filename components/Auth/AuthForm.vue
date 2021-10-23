@@ -31,6 +31,7 @@
             </nuxt-link>
           </div>
         </v-form>
+      </div>
     </div>
 
     <EmailValidationModal

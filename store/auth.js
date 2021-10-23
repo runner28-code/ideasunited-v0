@@ -36,7 +36,6 @@ const store = {
 
       return await dispatch("user/fetch", null, { root: true });
     },
-    async logout({ commit }) {
       commit("setToken", null);
       commit("user/set", null, { root: true });
     },

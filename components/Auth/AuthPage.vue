@@ -1,7 +1,6 @@
 <template>
   <div
     class="auth-page"
-    :style="{
       backgroundImage: activeTheme.splash_screen.url
         ? `url(${activeTheme.splash_screen.url})`
         : null
@@ -16,6 +15,7 @@ export default {};
 </script>
 
 <style scoped lang="scss">
+.auth-page {
   width: 100%;
   min-height: 100%;
   margin: auto;

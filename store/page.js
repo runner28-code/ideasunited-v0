@@ -21,7 +21,6 @@ const store = {
       updateCollection({ collection, id, payload });
     },
     hideEvent(state, id) {
-// Temp comment
       const collection = state.current?.events;
       const payload = { hidden_from_timeline: true };
       updateCollection({ collection, id, payload });

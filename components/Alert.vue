@@ -24,6 +24,7 @@
     </v-alert>
   </v-snackbar>
 </template>
+
 <script>
 export default {
   name: "Alert",

@@ -41,9 +41,9 @@ export default {
       };
     }
   }
-};
 </script>
 
 <style scoped lang="scss">
 .event-player {
   position: relative;
+  height: 100%;

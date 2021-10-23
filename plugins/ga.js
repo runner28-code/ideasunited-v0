@@ -9,5 +9,4 @@ export default ctx => {
       VueGtag,
       {
         config: { id: 'G-3H7VEBMHL7' },
-      },
       ctx.app.router

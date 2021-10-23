@@ -28,7 +28,6 @@ import _ from "lodash";
 export default {
   props: {
     value: String,
-    page: Object,
   },
   computed: {
     schedule() {
@@ -60,6 +59,7 @@ export default {
   padding: 40px 90px;
   &__description {
     white-space: pre-line;
+  }
 
   &__items {
     margin-top: 70px;

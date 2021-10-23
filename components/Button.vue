@@ -36,7 +36,6 @@ export default {
     text: Boolean,
     href: String,
     target: String,
-    disabled: Boolean
   },
   computed: {
     calcColor() {

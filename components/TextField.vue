@@ -63,7 +63,6 @@ export default {
   },
   methods: {
     togglePassword() {
-      if (this.localType == "password") {
         this.localType = "text";
       } else {
         this.localType = "password";

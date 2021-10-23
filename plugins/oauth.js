@@ -36,13 +36,11 @@ export default function(ctx, inject) {
         authorizationEndpoint,
         "Auth",
         "width=580,height=730"
-      );
       const interval = setInterval(() => {
         const token = localStorage.getItem("token");
 
         if (token) {
           resolve({ token });
-// Temp comment
 
           clearInterval(interval);
           w.close();

@@ -46,7 +46,6 @@ export default {
     },
     calcList() {
       return this.textBlock.items.slice(0, this.textBlock.layout);
-    }
   }
 };
 </script>

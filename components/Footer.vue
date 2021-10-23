@@ -167,3 +167,4 @@ export default {
 
 .support__dialog {
   font-family: Source Sans Pro, sans-serif;
+}
