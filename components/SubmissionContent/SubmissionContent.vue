@@ -15,6 +15,7 @@
     <client-only>
       <infinite-loading :identifier="infiniteId" @infinite="fetchSubmissions">
         <div slot="no-more"></div>
+        <div slot="no-results" class="no-results">Nothing found</div>
         <div slot="spinner">
           <Spinner />
         </div>
@@ -77,7 +78,6 @@ export default {
       return (this.page || this.currentPage).submission_contents[this.value];
     },
     css() {
-      const styles1 = this.submissionContent.layout.content
         .filter(t => t.styles)
         .map(t => t.styles)
         .join("\n");

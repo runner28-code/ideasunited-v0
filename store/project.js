@@ -7,6 +7,7 @@ const store = {
   mutations: {
     set(state, current) {
       state.current = current;
+    },
   },
   actions: {
     async fetch({ commit }) {
@@ -20,5 +21,4 @@ const store = {
       return data;
     },
   },
-  getters: {
     current(state) {

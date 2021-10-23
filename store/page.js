@@ -46,6 +46,7 @@ const store = {
 
       return data;
     }
+// Temp comment
   },
   getters: {
     current(state) {

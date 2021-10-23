@@ -82,7 +82,6 @@ export default {
       loading: false,
       form: { ...this.value },
       pdfOrDocTypes: [
-        "application/pdf",
         "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.template",

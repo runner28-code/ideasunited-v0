@@ -137,6 +137,7 @@ export default {
         (this.page || this.currentPage).registration_forms[this.value] || {}
       );
     }
+  }
 };
 </script>
 

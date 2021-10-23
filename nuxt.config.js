@@ -100,6 +100,7 @@ export default {
     },
     // "/uploads": {
     //   target: process.env.API_URL,
+    //   changeOrigin: true
     // },
     // "/cable": {
     //   target: process.env.WS_HOST,
@@ -107,6 +108,7 @@ export default {
     //   secure: false,
     //   ws: true
     // }
+// Temp comment
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify

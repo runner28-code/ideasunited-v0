@@ -70,7 +70,6 @@ export default {
     },
     closeDialog() {
       this.dialog = false;
-      this.data = null;
     }
   }
 };

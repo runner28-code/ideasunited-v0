@@ -90,3 +90,4 @@ export default {
   }
   &::v-deep {
     .theme--light.v-expansion-panels .v-expansion-panel-header {
+      padding: 0 0.75em 0.75em 0;

@@ -16,6 +16,7 @@ export default {
     relative: Boolean
   },
   created() {}
+};
 </script>
 
 <style scope>

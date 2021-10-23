@@ -33,7 +33,6 @@
           class="countdown__text text-right"
         ></div>
       </div>
-    </div>
   </div>
 </template>
 

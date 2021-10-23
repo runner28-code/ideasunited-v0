@@ -99,6 +99,7 @@
             :href="menuItem.absolute_url"
             >{{ menuItem.footer_menu_title }}</a
           >
+          <a
             @click.prevent="menuItem.onclick"
             v-else-if="menuItem.url_type == 'click'"
           >

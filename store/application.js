@@ -11,7 +11,7 @@ const store = {
   },
   actions: {
     async init({ dispatch, commit }) {
-        Promise.all([
+      return new Promise(resolve => {
           dispatch("user/fetch", null, { root: true }),
           dispatch("datasources/fetch", null, { root: true })
         ]).then(() => {
