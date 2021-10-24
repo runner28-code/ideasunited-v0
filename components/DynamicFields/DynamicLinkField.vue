@@ -15,6 +15,7 @@
 import urlFormatter from "@/filters/url";
 
 export default {
+  props: {
     label: String,
     value: String,
     rules: {
@@ -30,7 +31,6 @@ export default {
   },
   data() {
     return {
-      localValue: this.value,
       localRules: [...this.rules, this.$rules.url]
     };
   },

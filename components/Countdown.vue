@@ -33,6 +33,7 @@
           class="countdown__text text-right"
         ></div>
       </div>
+    </div>
   </div>
 </template>
 
@@ -40,7 +41,6 @@
 import moment from "moment-timezone";
 
 export default {
-  name: "Countdown",
   props: {
     value: String,
     page: Object,

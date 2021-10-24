@@ -21,4 +21,5 @@ const store = {
       return data;
     },
   },
+  getters: {
     current(state) {

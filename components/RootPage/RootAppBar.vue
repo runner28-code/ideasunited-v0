@@ -225,7 +225,6 @@ export default {
       right: 0;
       left: 0;
       bottom: 0;
-      border-radius: 0;
       border-width: 2px 0 0 0;
     }
     &__content {

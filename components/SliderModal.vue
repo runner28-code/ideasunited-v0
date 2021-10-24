@@ -96,7 +96,6 @@ export default {
           (window.innerWidth || document.documentElement.clientWidth)
       );
     },
-    close() {
       this.$emit("input", false);
     },
     openPrev() {

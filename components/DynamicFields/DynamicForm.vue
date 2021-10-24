@@ -82,6 +82,7 @@ export default {
       loading: false,
       form: { ...this.value },
       pdfOrDocTypes: [
+        "application/pdf",
         "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
@@ -118,7 +119,6 @@ export default {
       } else if (conditionalField.type == "Checkbox") {
         return (
           field.conditional_value == this.form.data[field.conditional_uuid]
-        );
       } else {
         const conditionalFormValue = this.form.data[field.conditional_uuid];
         const validValues = field.conditional_value.split(",").map((v) => {

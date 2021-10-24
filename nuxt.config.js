@@ -108,7 +108,6 @@ export default {
     //   secure: false,
     //   ws: true
     // }
-// Temp comment
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify

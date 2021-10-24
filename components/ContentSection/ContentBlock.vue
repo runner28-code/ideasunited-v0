@@ -83,6 +83,7 @@ export default {
           } else {
             this.dialog = true;
           }
+        }
       } else if (this.block.content_type == "new_tab") {
         if (this.block.link_url) window.open(this.block.link_url, "_blank");
       } else {
@@ -135,16 +136,3 @@ export default {
 
     &::v-deep {
       .v-icon {
-        position: relative;
-        z-index: 1;
-      }
-    }
-    &:after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      width: 50%;
-      height: 50%;
-      background: white;

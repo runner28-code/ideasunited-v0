@@ -38,6 +38,7 @@ export default {
       link: [
         { rel: "icon", href: this.currentProject?.favicon.url || this.activeTheme.favicon.url || "/favicon.ico" }
       ]
+    };
   },
   created() {
     if (process.client) {
@@ -67,7 +68,6 @@ export default {
     }
   },
   async asyncData({ $api, route, store }) {
-    await store.dispatch("user/fetch");
     const page = await store.dispatch("page/fetch", {
       url: route.params.pathMatch
     });

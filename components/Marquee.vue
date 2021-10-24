@@ -48,7 +48,6 @@ export default {
   overflow-x: hidden;
   overflow-y: hidden;
   &-text {
-    width: max-content;
   }
 }
 </style>

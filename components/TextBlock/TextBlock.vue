@@ -20,6 +20,7 @@
     </div>
     <div
       class="text-block__side text-block__side-double"
+      v-if="[2, 3].includes(textBlock.layout)"
     >
       <TextblockItem
         :item="calcList[1]"
@@ -62,7 +63,6 @@ export default {
     .text-block__item-wrapper {
       height: 100%;
     }
-  }
 
   &__1 &__side {
     width: 100%;

@@ -56,6 +56,7 @@ export default {
     background: white;
     padding: 30px;
     max-width: 400px;
+    width: 100%;
 
     &::v-deep {
       .text-field {
