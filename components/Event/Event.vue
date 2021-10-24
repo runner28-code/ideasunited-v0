@@ -68,6 +68,7 @@
       />
 
       <ZoomChat
+        v-if="currentPage.chats[0].chat_type == 'zoom'"
         :chat="currentPage.chats[0]"
       />
     </div>
@@ -163,7 +164,6 @@ export default {
 
   &.show-event {
     margin-bottom: -45px;
-  }
 
   &.with_chat &__video-player {
   }

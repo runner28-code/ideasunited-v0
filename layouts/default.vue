@@ -191,6 +191,7 @@ export default {
       `;
     },
     staticCss() {
+      const pages = this.currentProject.menu_pages.filter(
         (t) => t.menu_style != "home_logo" && !t.parent_menu_id
       );
       if (pages.length > 0) return "";

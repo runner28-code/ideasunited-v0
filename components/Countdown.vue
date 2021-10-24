@@ -7,7 +7,6 @@
           <div class="countdown-timer__item" v-if="days">
             <div class="countdown-timer__item-value">{{ days }}</div>
             <div class="countdown-timer__item-label">days</div>
-          </div>
           <div class="countdown-timer__item">
             <div class="countdown-timer__item-value">
               {{ hours }}
@@ -41,6 +40,7 @@
 import moment from "moment-timezone";
 
 export default {
+  name: "Countdown",
   props: {
     value: String,
     page: Object,

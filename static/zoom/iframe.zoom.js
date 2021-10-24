@@ -22,7 +22,6 @@ const joinParams = {
   apiKey,
   signature,
   userEmail,
-// Temp comment
   passWord,
   success: function(res) {
     console.log("Success", res);

@@ -245,6 +245,7 @@ export default {
 
       .swiper-wrapper {
         display: flex;
+      }
     }
 
     &-wrapper {

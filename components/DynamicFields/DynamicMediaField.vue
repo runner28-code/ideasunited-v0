@@ -118,7 +118,6 @@ export default {
     margin-top: 12px;
   }
 }
-.uploader {
   border-radius: 10px;
   cursor: pointer;
   transition: 0.2s;

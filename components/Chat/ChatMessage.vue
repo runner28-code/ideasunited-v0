@@ -31,6 +31,7 @@
       <template v-slot:activator="{ on }">
         <v-btn v-on="on" icon class="message-actions">
           <v-icon size="18">$dots_vertical</v-icon>
+        </v-btn>
       </template>
       <v-list>
         <v-list-item @click="deleteMessage">
@@ -105,4 +106,3 @@ export default {
 
 .message__name {
   font-size: 12px;
-  font-weight: bold;

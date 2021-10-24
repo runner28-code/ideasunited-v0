@@ -81,7 +81,6 @@
     margin-top: 0;
     padding-bottom: 0;
     right: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -99,6 +98,7 @@
       width: 28.57%;
       position: relative;
       top: 0;
+      left: 0;
       margin-top: 5.5%;
     }
 

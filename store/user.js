@@ -34,6 +34,7 @@ const store = {
     },
     async update({ commit }, params) {
       const { data } = await this.$api.User.update(params);
+// Temp comment
       commit("set", data);
       return data;
     },

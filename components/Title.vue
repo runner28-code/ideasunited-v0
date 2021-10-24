@@ -1,3 +1,4 @@
+<template>
   <component :style="styles" :is="tag" :class="tag">
     <slot></slot>
   </component>
@@ -25,7 +26,6 @@ export default {
     }
   }
 };
-</script>
 
 <style scoped lang="scss">
 .h2,

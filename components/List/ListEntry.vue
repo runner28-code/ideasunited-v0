@@ -15,6 +15,7 @@
       <div class="list-entry__subtitle" v-html="entry.subtitle"></div>
     </div>
   </div>
+</template>
 
 <script>
 export default {
@@ -22,7 +23,6 @@ export default {
     entry: Object
   }
 };
-</script>
 
 <style scoped lang="scss">
 .list-entry {

@@ -9,6 +9,7 @@
           v-else-if="
             submissionForm.anon || (currentUser && currentUser.confirmed)
           "
+        >
           <div class="text-center" v-if="!eligible">
             <Eligibles :value="submissionForm.eligibilities" />
             <br />
@@ -103,10 +104,3 @@ export default {
         this.close();
         this.submitted = true;
         this.$root.$emit("fullpageRebuild");
-      } catch {}
-    },
-  },
-  computed: {
-    eligible() {
-      if (!this.currentUser) return false;
-      if (!this.submissionForm) return false;

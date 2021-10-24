@@ -40,6 +40,7 @@ export default {
         if (process.client) {
           const {
             loadModule
+          } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
           const options = {
             moduleCache: {
               vue: Vue

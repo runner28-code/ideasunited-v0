@@ -68,6 +68,7 @@ export default {
     }
   },
   async asyncData({ $api, route, store }) {
+    await store.dispatch("user/fetch");
     const page = await store.dispatch("page/fetch", {
       url: route.params.pathMatch
     });
@@ -80,7 +81,6 @@ export default {
       return {
         backgroundColor: this.activeTheme.body_background,
         color: this.activeTheme.body_color
-      };
     },
     status() {
       if (!this.page && !this.currentProject) return 404;

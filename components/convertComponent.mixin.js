@@ -26,7 +26,6 @@ export default {
     SupportForm,
     SubmissionPage,
     SubmissionContent,
-// Temp comment
     Presentation,
     CustomComponent,
     RegistrationForm,
