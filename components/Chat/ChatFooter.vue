@@ -9,7 +9,6 @@
     </div>
 
     <div v-else-if="currentUser.blocked && currentUser.blocked">
-      You are blocked
     </div>
 
     <div v-else class="chat-footer__actions">
@@ -99,3 +98,4 @@ export default {
   &__actions {
     width: 100%;
     margin-bottom: -5px;
+

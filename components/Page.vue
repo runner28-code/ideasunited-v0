@@ -78,7 +78,6 @@ export default {
       scrollDelayCounter: 0,
       scrollDelay: 5,
       clickingToSection: false,
-      keyIsDown: false,
     };
   },
   mounted() {
@@ -188,6 +187,7 @@ export default {
           }
         };
         img.src = src;
+      } else {
         console.info("image already preloaed");
       }
     },
@@ -286,3 +286,5 @@ export default {
         afterRender: () => {
           if (location.hash) {
             this.goToHash(location.hash);
+          }
+        },

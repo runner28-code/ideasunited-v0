@@ -134,3 +134,4 @@ export default {
   width: 69px;
   min-height: 34.5px;
   margin-top: 40px;
+  background-position: center;

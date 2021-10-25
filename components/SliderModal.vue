@@ -59,6 +59,7 @@ export default {
     id: String,
     prevId: String,
     nextId: String,
+    scrollToElement: {
       type: Boolean,
       default: false
     }
@@ -150,3 +151,4 @@ export default {
   &__prev,
   &__next {
     position: absolute;
+    top: 50%;

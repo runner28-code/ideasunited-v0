@@ -45,3 +45,4 @@ export default {
       deep: true,
       handler() {
         if (JSON.stringify(this.localValue) != this.value) {
+          this.$emit(

@@ -68,3 +68,4 @@ export default {
     },
     play() {
       this.player.play();
+    },

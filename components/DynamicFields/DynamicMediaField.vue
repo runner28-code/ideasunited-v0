@@ -57,6 +57,7 @@
 <script>
 import { v4 as uuidv4 } from "uuid";
 
+export default {
   props: {
     value: [typeof window === "undefined" ? Object : window.File, Object],
     placeholder: String,
@@ -140,7 +141,6 @@ import { v4 as uuidv4 } from "uuid";
     font-weight: bold;
   }
 
-  &__delete {
     position: absolute;
     right: 10px;
     top: 10px;

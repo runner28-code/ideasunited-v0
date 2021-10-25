@@ -62,7 +62,6 @@ export default {
       registerForm: {},
       areYouSureDialog: false,
       emailValidationSuggestions: {}
-    };
   },
   methods: {
     async login() {
@@ -177,3 +176,4 @@ export default {
     }
   }
 
+  &-separate {

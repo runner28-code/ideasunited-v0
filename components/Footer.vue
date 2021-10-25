@@ -169,3 +169,4 @@ export default {
   font-family: Source Sans Pro, sans-serif;
 }
 
+@media screen and (max-width: 944px) {

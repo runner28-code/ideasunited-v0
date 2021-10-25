@@ -59,3 +59,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
     },
     error => {
       const { errors, redirect_to } = error.response.data;
+      if (errors) {

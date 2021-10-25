@@ -189,3 +189,4 @@ export default {
         font-size: 3em;
       }
       &-label {
+        margin: 0 10px;

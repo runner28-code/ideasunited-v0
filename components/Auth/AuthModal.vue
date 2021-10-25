@@ -1,3 +1,4 @@
+<template>
   <v-dialog
     :width="dialogWidth"
     v-model="opened"
@@ -69,3 +70,4 @@ export default {
 .auth-modal-content {
   text-align: center;
   padding: 58px;
+  @media screen and (max-width: 960px) {

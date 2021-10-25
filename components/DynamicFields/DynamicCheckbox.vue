@@ -44,3 +44,4 @@ export default {
   margin-top: 2px;
   margin-bottom: 13px;
 
+  &::v-deep {

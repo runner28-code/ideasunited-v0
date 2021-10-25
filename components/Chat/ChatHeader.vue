@@ -54,3 +54,4 @@ export default {
     margin-right: 5px;
 
     &--Connecting {
+      background: rgb(238, 226, 226);

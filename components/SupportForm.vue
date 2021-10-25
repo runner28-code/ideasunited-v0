@@ -66,3 +66,4 @@ export default {
   font-family: Source Sans Pro, sans-serif;
 
   &__title {
+    font-family: Source Sans Pro, sans-serif;

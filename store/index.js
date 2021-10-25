@@ -6,6 +6,7 @@ export const state = () => ({
 
 export const mutations = {
   SET_USER: function(state, user) {
+// Temp comment
     state.authUser = user;
   }
 };
@@ -15,7 +16,6 @@ export const actions = {
     const { req } = opts;
 
     const { data: projectData } = await this.$api.Project.current({
-// Temp comment
       host: req.headers.host,
       root_path: req.url
     });

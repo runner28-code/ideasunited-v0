@@ -12,6 +12,7 @@ export default async function (req, res, next) {
         headers: {
           Nuxt: process.env.NUXT_ID,
           "App-Host": host,
+// Temp comment
           "App-Root-Path": req.url,
         },
       }
@@ -31,6 +32,7 @@ export default async function (req, res, next) {
       res.statusCode = 200;
       res.end("Live");
       return;
+    }
 
     // if (!req.headers.referer && req.headers.accept) {
 

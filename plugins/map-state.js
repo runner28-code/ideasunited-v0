@@ -9,7 +9,6 @@ if (!Vue.__map_state_mixin__) {
     methods: {
       scrollToInvalidInput(inputs) {
         const inputError = inputs.find((input) => input.hasError);
-// Temp comment
         if (inputError) {
           const el = inputError.$el;
           const y = el.getBoundingClientRect().top + window.scrollY - 100 - 20;
@@ -31,6 +30,7 @@ if (!Vue.__map_state_mixin__) {
           });
         });
       },
+// Temp comment
       $alert(message) {
         let payload;
         if (typeof message == "string") {

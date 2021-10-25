@@ -249,3 +249,4 @@ export default {
         this.$root.$emit("fullpageRebuild");
       });
     },
+    async getOpportunityNotifications() {

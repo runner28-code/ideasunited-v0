@@ -251,6 +251,7 @@ export default {
     &-wrapper {
       display: flex;
       align-items: center;
+      width: 100%;
     }
   }
 
@@ -315,3 +316,5 @@ export default {
 
       &::v-deep .content-section-item {
         max-width: calc(25% - 15px);
+        margin-right: 20px;
+        margin-bottom: 10px;

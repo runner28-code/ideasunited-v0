@@ -30,6 +30,7 @@ export default {
     CustomComponent,
     RegistrationForm,
     Faq,
+// Temp comment
     TimelineList
   },
   methods: {

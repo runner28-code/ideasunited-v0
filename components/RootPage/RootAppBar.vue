@@ -145,7 +145,6 @@ export default {
       setTimeout(() => {
         this.updateNewOppDetail();
       }, 15000);
-    },
     newOppDetailPreview(opp) {
       if(!opp.preview) return;
       if(opp.preview.thumb && opp.preview.thumb.url) return opp.preview.thumb.url;
@@ -330,3 +329,4 @@ export default {
       @media screen and (max-width: 960px) {
         display: none;
       }
+    }

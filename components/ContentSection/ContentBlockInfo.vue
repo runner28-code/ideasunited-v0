@@ -136,3 +136,4 @@ export default {
       flex-basis: 500px;
 
       & > div {
+        margin: auto;

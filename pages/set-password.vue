@@ -83,3 +83,4 @@ export default {
   &__title {
     font-weight: bold;
     font-size: 24px;
+    text-align: center;

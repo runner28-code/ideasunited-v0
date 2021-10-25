@@ -54,6 +54,7 @@ export default {
         if (m.id == payload.id) {
           m.body = payload.body;
         }
+        return m;
       });
       this.scrollBottom();
     },

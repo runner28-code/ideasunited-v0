@@ -89,7 +89,6 @@ export default {
       const fontkitIds = _.uniq(typekitFonts.map(font => font.typekit_id));
 
       fontkitIds.forEach(fontkitId => {
-        this.$WebFont.load({
           typekit: {
             id: fontkitId
           }
@@ -196,3 +195,4 @@ export default {
         !event.role_ids.length ||
         _.intersection(event.role_ids, this.currentUser?.role_ids).length
       );
+    },

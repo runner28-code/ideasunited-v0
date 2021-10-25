@@ -132,7 +132,6 @@ export default {
             default:
               return value;
           }
-        });
         return validValues.includes(conditionalFormValue);
       }
     },
@@ -178,3 +177,4 @@ export default {
     }
   },
   watch: {
+    form: {

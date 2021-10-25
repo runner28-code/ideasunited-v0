@@ -1,5 +1,4 @@
 <template>
-  <div class="list-entry">
     <div
       v-if="entry.preview.thumb.url"
       :style="{ backgroundImage: `url(${entry.preview.thumb.url})` }"
@@ -46,7 +45,9 @@ export default {
     font-size: 24px;
   }
   &__subtitle {
+    font-size: 14px;
     color: black;
     white-space: pre-line;
   }
 }
+

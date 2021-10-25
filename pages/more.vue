@@ -70,3 +70,4 @@ export default {
       max-width: 33.333%;
     }
   }
+}

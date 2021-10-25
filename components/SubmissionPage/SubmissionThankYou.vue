@@ -57,3 +57,4 @@ export default {
       return this.currentUser.last_name;
     },
     opportunityName() {
+      return this.currentProject.headline || "this opportunity";

@@ -42,6 +42,7 @@ export default {
   width: 100%;
   background: whitesmoke;
   text-align: center;
+  min-height: 100vh;
 
   &__title {
     font-weight: bold;
@@ -61,7 +62,6 @@ export default {
       .text-field {
         margin-bottom: 20px;
         width: 100%;
-      }
     }
   }
 }

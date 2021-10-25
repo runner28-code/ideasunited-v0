@@ -72,6 +72,7 @@
   top: 0;
   margin-top: 26.67%;
   z-index: 1;
+  pointer-events: all;
   cursor: pointer;
 
   @media screen and (max-width: 960px) {

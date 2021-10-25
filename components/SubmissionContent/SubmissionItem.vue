@@ -107,6 +107,7 @@ export default {
   top: 0;
   bottom: 0;
 
+  &:after {
     content: "";
     position: absolute;
     top: 0;

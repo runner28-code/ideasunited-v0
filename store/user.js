@@ -11,6 +11,7 @@ const store = {
   },
   actions: {
     async fetch({ commit }) {
+// Temp comment
       const token = this.$cookies.get("authToken");
 
       if (token && process.client) {
@@ -19,7 +20,6 @@ const store = {
         const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"
-// Temp comment
             : "." + window.location.hostname;
         var d = new Date();
         d.setDate(d.getDate() + 7);

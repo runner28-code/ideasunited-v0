@@ -29,7 +29,6 @@ import _ from "lodash";
 import cookies from "vue-cookies";
 
 export default {
-  data() {
     return {
       authParams: {
         TwitterLogin: {
@@ -105,3 +104,4 @@ export default {
     position: relative;
     transition: 0.3s;
 
+    &:hover {

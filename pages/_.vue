@@ -42,6 +42,7 @@ export default {
   },
   created() {
     if (process.client) {
+      this.$cable.subscribe({
         channel: "PageChannel",
         page_id: this.page?.id,
         env: this.currentProject.env
@@ -93,3 +94,4 @@ export default {
           this.page.role_ids.length &&
           !_.intersection(this.page.role_ids, this.currentUser.role_ids).length)
       ) {
+        return 403;

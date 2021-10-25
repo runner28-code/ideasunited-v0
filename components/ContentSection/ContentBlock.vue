@@ -138,3 +138,20 @@ export default {
       .v-icon {
         position: relative;
         z-index: 1;
+      }
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+      height: 50%;
+      background: white;
+    }
+  }
+  &__wrapper {
+    background-position: center;
+    background-size: cover;
+
