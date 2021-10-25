@@ -30,7 +30,6 @@ export default {
     value: String,
     page: Object,
   },
-  computed: {
     schedule() {
       return (this.page || this.currentPage).schedules[this.value];
     },
@@ -66,3 +65,4 @@ export default {
     margin-top: 70px;
   }
 
+  &__group {

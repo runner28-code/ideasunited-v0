@@ -6,7 +6,6 @@
     </div>
     <SearchInput v-model="search" />
     <div class="commons-list__wrapper">
-      <div class="commons-list__items">
         <ListEntry v-for="entry in entries" :key="entry.id" :entry="entry" />
       </div>
     </div>
@@ -53,3 +52,4 @@ export default {
 
   &__description {
     color: #4a4a4a;
+    padding: 25px 0;

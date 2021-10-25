@@ -64,6 +64,7 @@ export default {
       if (data.length) {
         $state.loaded();
       } else {
+        $state.complete();
       }
     },
     setInfiniteId: _.debounce(function() {
@@ -97,3 +98,4 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">

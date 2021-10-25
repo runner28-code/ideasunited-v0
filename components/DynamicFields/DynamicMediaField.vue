@@ -57,7 +57,6 @@
 <script>
 import { v4 as uuidv4 } from "uuid";
 
-export default {
   props: {
     value: [typeof window === "undefined" ? Object : window.File, Object],
     placeholder: String,
@@ -118,6 +117,7 @@ export default {
     margin-top: 12px;
   }
 }
+.uploader {
   border-radius: 10px;
   cursor: pointer;
   transition: 0.2s;
@@ -151,3 +151,4 @@ export default {
     &:not(.v-input--has-state) {
       display: none !important;
     }
+    padding: 0 !important;

@@ -48,3 +48,4 @@ export default {
 .event-player {
   position: relative;
   height: 100%;
+  background-color: black;

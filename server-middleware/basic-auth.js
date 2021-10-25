@@ -31,7 +31,6 @@ export default async function (req, res, next) {
       res.statusCode = 200;
       res.end("Live");
       return;
-    }
 
     // if (!req.headers.referer && req.headers.accept) {
 

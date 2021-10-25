@@ -241,7 +241,6 @@ export default {
             duration: 0.5,
           })
           .to(playBtn, {
-            duration: 0.5,
             opacity: 0,
           }, "start")
           .to(previewImage, {
@@ -414,3 +413,6 @@ export default {
 
     &-content {
       width: 100%;
+      @media screen and (max-width: 960px) {
+        padding-left: 30px;
+        padding-right: 30px;

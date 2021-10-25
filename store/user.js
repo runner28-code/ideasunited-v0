@@ -19,6 +19,7 @@ const store = {
         const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"
+// Temp comment
             : "." + window.location.hostname;
         var d = new Date();
         d.setDate(d.getDate() + 7);
@@ -34,7 +35,6 @@ const store = {
     },
     async update({ commit }, params) {
       const { data } = await this.$api.User.update(params);
-// Temp comment
       commit("set", data);
       return data;
     },

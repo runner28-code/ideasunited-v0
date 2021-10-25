@@ -93,7 +93,6 @@ export default {
         this.$store.state.application.timelineAspectRatio ||
         aspectRatio[this.$size] ||
         16 / 8
-      );
     },
   }
 };
@@ -161,3 +160,4 @@ export default {
     &-name {
       width: 100%;
     }
+  }

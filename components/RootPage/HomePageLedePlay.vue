@@ -72,7 +72,6 @@
   top: 0;
   margin-top: 26.67%;
   z-index: 1;
-  pointer-events: all;
   cursor: pointer;
 
   @media screen and (max-width: 960px) {
@@ -81,6 +80,7 @@
     margin-top: 0;
     padding-bottom: 0;
     right: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -118,3 +118,4 @@
     top: -10.26%;
     left: -10.26%;
     width: 128.2%;
+    height: 128.2%;

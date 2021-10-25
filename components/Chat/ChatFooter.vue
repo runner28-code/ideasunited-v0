@@ -98,3 +98,4 @@ export default {
 
   &__actions {
     width: 100%;
+    margin-bottom: -5px;

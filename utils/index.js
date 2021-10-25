@@ -71,6 +71,5 @@ export function getHash(input) {
   for (var i = 0; i < len; i++) {
     hash = (hash << 5) - hash + input.charCodeAt(i);
     hash |= 0; // to 32bit integer
-// Temp comment
   }
   return Math.abs(hash);

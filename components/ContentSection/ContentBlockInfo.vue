@@ -135,3 +135,4 @@ export default {
       max-height: 100%;
       flex-basis: 500px;
 
+      & > div {

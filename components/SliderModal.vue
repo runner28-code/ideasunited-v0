@@ -59,7 +59,6 @@ export default {
     id: String,
     prevId: String,
     nextId: String,
-    scrollToElement: {
       type: Boolean,
       default: false
     }
@@ -92,6 +91,7 @@ export default {
         bounding.left >= 0 &&
         bounding.bottom <=
           (window.innerHeight || document.documentElement.clientHeight) &&
+        bounding.right <=
           (window.innerWidth || document.documentElement.clientWidth)
       );
     },
@@ -149,3 +149,4 @@ export default {
 
   &__prev,
   &__next {
+    position: absolute;

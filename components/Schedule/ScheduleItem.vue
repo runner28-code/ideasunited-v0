@@ -81,3 +81,4 @@ export default {
     margin-top: 10px;
   }
   &__start-at {
+    margin-right: 50px;

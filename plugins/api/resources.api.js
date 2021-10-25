@@ -7,7 +7,6 @@ function objectToFormData(obj) {
   const data = JSON.stringify(obj, function (key, value) {
     if (value instanceof File || value instanceof Blob) {
       const uuid = "file-" + uuidv4();
-// Temp comment
       files[uuid] = value;
       return uuid;
     }
@@ -16,6 +15,7 @@ function objectToFormData(obj) {
 
   formData.append("data", data);
 
+// Temp comment
   Object.keys(files).forEach((k) => {
     formData.append(`files[${k}]`, files[k]);
   });

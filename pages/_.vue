@@ -42,7 +42,6 @@ export default {
   },
   created() {
     if (process.client) {
-      this.$cable.subscribe({
         channel: "PageChannel",
         page_id: this.page?.id,
         env: this.currentProject.env
@@ -81,6 +80,7 @@ export default {
       return {
         backgroundColor: this.activeTheme.body_background,
         color: this.activeTheme.body_color
+      };
     },
     status() {
       if (!this.page && !this.currentProject) return 404;

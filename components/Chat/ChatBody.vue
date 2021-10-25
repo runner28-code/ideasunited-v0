@@ -54,7 +54,6 @@ export default {
         if (m.id == payload.id) {
           m.body = payload.body;
         }
-        return m;
       });
       this.scrollBottom();
     },
@@ -80,3 +79,4 @@ export default {
         chat_id: this.chat.id,
         last_message_date: this.messages[0]?.created_at
       });
+      this.messages.unshift(...data.reverse());

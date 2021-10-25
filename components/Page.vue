@@ -188,7 +188,6 @@ export default {
           }
         };
         img.src = src;
-      } else {
         console.info("image already preloaed");
       }
     },
@@ -285,3 +284,5 @@ export default {
           this.currentSlide = destination.index;
         },
         afterRender: () => {
+          if (location.hash) {
+            this.goToHash(location.hash);

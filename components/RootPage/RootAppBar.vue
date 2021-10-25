@@ -328,3 +328,5 @@ export default {
       cursor: pointer;
       text-decoration: none;
       @media screen and (max-width: 960px) {
+        display: none;
+      }

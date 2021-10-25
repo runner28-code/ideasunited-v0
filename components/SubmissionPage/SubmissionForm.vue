@@ -104,3 +104,4 @@ export default {
         this.close();
         this.submitted = true;
         this.$root.$emit("fullpageRebuild");
+      } catch {}

@@ -7,6 +7,7 @@
           <div class="countdown-timer__item" v-if="days">
             <div class="countdown-timer__item-value">{{ days }}</div>
             <div class="countdown-timer__item-label">days</div>
+          </div>
           <div class="countdown-timer__item">
             <div class="countdown-timer__item-value">
               {{ hours }}
@@ -187,3 +188,4 @@ export default {
       &-value {
         font-size: 3em;
       }
+      &-label {

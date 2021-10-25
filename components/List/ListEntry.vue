@@ -23,6 +23,7 @@ export default {
     entry: Object
   }
 };
+</script>
 
 <style scoped lang="scss">
 .list-entry {
@@ -45,7 +46,6 @@ export default {
     font-size: 24px;
   }
   &__subtitle {
-    font-size: 14px;
     color: black;
     white-space: pre-line;
   }

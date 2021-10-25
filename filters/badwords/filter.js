@@ -2,6 +2,7 @@ import list from "./stopwords.json";
 
 class Filter {
   constructor(options = {}) {
+// Temp comment
     Object.assign(this, {
       list,
       exclude: options.exclude || [],

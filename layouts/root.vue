@@ -96,6 +96,7 @@ export default {
         });
       });
     }
+  },
   mounted() {
     this.$root.$on("toggleDrawer", () => {
       this.drawer = !this.drawer;
@@ -194,3 +195,4 @@ export default {
       return (
         !event.role_ids.length ||
         _.intersection(event.role_ids, this.currentUser?.role_ids).length
+      );

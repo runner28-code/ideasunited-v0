@@ -69,3 +69,4 @@ export default {
     padding-right: 21px;
     &::after {
       display: block;
+      content: "";

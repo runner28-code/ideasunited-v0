@@ -278,7 +278,6 @@ export default {
       display: block;
       width: 120px;
       transition: 0.3s;
-      @media screen and (max-width: 944px) {
         max-height: 50px;
         width: auto;
         max-width: 100%;
@@ -319,3 +318,5 @@ export default {
         }
       }
 
+      a {
+        color: inherit;

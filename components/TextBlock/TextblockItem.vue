@@ -96,3 +96,4 @@ a.text-block__item-wrapper:hover {
       flex-direction: column;
       justify-content: center;
     }
+  }

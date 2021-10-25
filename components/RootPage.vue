@@ -48,3 +48,4 @@ export default {
     CustomComponent,
     RegistrationForm
   },
+  methods: {

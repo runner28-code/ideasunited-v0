@@ -14,8 +14,8 @@
 export default {
   props: {
     relative: Boolean
+  },
   created() {}
-};
 </script>
 
 <style scope>

@@ -47,6 +47,7 @@ export default {
       bottom: 0;
       color: white;
       display: flex;
+      align-items: center;
       justify-content: center;
       text-align: center;
       font-weight: bold;

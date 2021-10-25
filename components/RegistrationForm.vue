@@ -46,7 +46,6 @@
           :show-back-to-login="true"
         />
       </div>
-    </div>
     <div
       v-else-if="!currentUser.confirmed"
       class="registration-form__not-confirmed"
@@ -154,3 +153,4 @@ export default {
     display: flex;
     align-items: center;
     @media screen and (max-width: 944px) {
+      padding: 20px;

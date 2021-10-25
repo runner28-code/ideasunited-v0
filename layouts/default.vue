@@ -247,3 +247,5 @@ export default {
       this.drawer = !this.drawer;
       this.$nextTick(() => {
         this.$root.$emit("fullpageRebuild");
+      });
+    },

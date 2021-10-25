@@ -60,3 +60,4 @@ export default {
     .swiper-button-prev:after, .swiper-button-next:after {
       display: none;
     }
+  }

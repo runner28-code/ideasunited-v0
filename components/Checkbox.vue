@@ -16,6 +16,7 @@
       </slot>
     </template>
   </v-checkbox>
+</template>
 
 <script>
 export default {
@@ -33,3 +34,4 @@ export default {
 
 <style scoped lang="scss">
 .checkbox {
+  margin: 8px 0;

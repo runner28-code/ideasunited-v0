@@ -116,3 +116,4 @@ export default {
   .text-block__side {
     min-height: unset;
   }
+  .text-block__item.with-preview {

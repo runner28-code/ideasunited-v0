@@ -36,7 +36,6 @@
           <Title class="event__video-title">{{ activeEvent.title }}</Title>
 
           <div class="event__video-timestamp" v-if="activeEvent.start_at">
-            <timeago
               :auto-update="60"
               :datetime="activeEvent.start_at"
             ></timeago>
@@ -164,6 +163,7 @@ export default {
 
   &.show-event {
     margin-bottom: -45px;
+  }
 
   &.with_chat &__video-player {
   }
@@ -243,3 +243,4 @@ export default {
   }
 
   &.chat_is_text &__chat {
+    min-width: 300px;

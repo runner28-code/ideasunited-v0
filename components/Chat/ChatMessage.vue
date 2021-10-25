@@ -106,3 +106,4 @@ export default {
 
 .message__name {
   font-size: 12px;
+  font-weight: bold;
