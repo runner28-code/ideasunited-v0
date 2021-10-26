@@ -66,6 +66,7 @@ export default {
     ],
   },
 
+  // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
     {
       path: "~/components",
@@ -107,6 +108,7 @@ export default {
     //   secure: false,
     //   ws: true
     // }
+// Temp comment
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify

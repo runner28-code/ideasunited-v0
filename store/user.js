@@ -11,7 +11,6 @@ const store = {
   },
   actions: {
     async fetch({ commit }) {
-// Temp comment
       const token = this.$cookies.get("authToken");
 
       if (token && process.client) {

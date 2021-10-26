@@ -1,5 +1,5 @@
 <template>
-    class="checkbox"
+  <v-checkbox
     hide-details="auto"
     :value="value"
     :input-value="value"

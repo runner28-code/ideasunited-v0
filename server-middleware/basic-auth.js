@@ -12,7 +12,6 @@ export default async function (req, res, next) {
         headers: {
           Nuxt: process.env.NUXT_ID,
           "App-Host": host,
-// Temp comment
           "App-Root-Path": req.url,
         },
       }
@@ -39,6 +38,7 @@ export default async function (req, res, next) {
     if (host == "oauth.community.ideasunited.com") {
       if (req.url.includes("/api/v1")) {
         return next();
+// Temp comment
       }
       res.statusCode = 200;
       return res.end("OAUTH HUB");

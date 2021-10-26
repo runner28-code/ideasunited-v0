@@ -62,6 +62,7 @@ export default {
       registerForm: {},
       areYouSureDialog: false,
       emailValidationSuggestions: {}
+    };
   },
   methods: {
     async login() {
@@ -160,20 +161,3 @@ export default {
     width: 100%;
     color: #26272974;
     background: rgba(0, 0, 0, 0.05);
-
-    &:not(.active):hover {
-      background: rgba(0, 0, 0, 0.1);
-    }
-
-    &:not(.active) {
-      cursor: pointer;
-    }
-
-    &.active {
-      cursor: default;
-      color: #262729;
-      background: white;
-    }
-  }
-
-  &-separate {

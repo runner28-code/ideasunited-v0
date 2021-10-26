@@ -132,6 +132,7 @@ export default {
             default:
               return value;
           }
+        });
         return validValues.includes(conditionalFormValue);
       }
     },

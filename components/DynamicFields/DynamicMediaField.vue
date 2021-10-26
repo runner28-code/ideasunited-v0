@@ -141,6 +141,7 @@ export default {
     font-weight: bold;
   }
 
+  &__delete {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -148,7 +149,6 @@ export default {
   }
 
   &__validation {
-    &:not(.v-input--has-state) {
       display: none !important;
     }
     padding: 0 !important;

@@ -78,6 +78,7 @@ export default {
       scrollDelayCounter: 0,
       scrollDelay: 5,
       clickingToSection: false,
+      keyIsDown: false,
     };
   },
   mounted() {

@@ -47,7 +47,6 @@ export default {
   right: 0;
   display: flex;
   margin: auto;
-  align-items: center;
   justify-content: center;
   width: 100%;
   background: whitesmoke;

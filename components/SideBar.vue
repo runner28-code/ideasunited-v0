@@ -23,6 +23,7 @@
       >
         <span @click="menuClick(menuItem, idx)">
           {{ menuItem.menu_title }}
+        </span>
       </v-list-item>
       <v-list-item
         v-for="(menuItem, idx) in menuFooterPages"
