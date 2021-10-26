@@ -108,7 +108,6 @@ export default {
   }
 }
 
-.alert-container::v-deep {
   background: transparent;
   padding-top: 54px !important;
 

@@ -28,7 +28,6 @@ export default {
     this.player.on("stateChange", async event => {
       if (!this.started && event.data == 1) {
         this.started = true;
-      }
     });
   },
   methods: {
@@ -49,6 +48,7 @@ export default {
   },
   watch: {
     presentation: {
+      deep: true,
       immediate: true,
       handler(newVal, oldVal) {
         if (this.newSlideSettings.started && this.player) {

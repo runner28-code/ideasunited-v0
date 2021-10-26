@@ -106,7 +106,6 @@ export default {
     position: relative;
   }
 
-  &-container {
     display: flex;
     width: 100%;
     align-items: stretch;

@@ -149,6 +149,7 @@ export default {
   }
 
   &__validation {
+    &:not(.v-input--has-state) {
       display: none !important;
     }
     padding: 0 !important;

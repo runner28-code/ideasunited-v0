@@ -73,6 +73,7 @@ export default {
       supportDialog: false,
       supportForm: null,
     };
+  },
   created() {
     this.initForm();
     this.fetchSupportForm();

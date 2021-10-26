@@ -20,9 +20,9 @@
 </template>
 
 <script>
-export default {
   props: {
     slides: Array
+  },
   data() {
     return {
       swiperOption: {

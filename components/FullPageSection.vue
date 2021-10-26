@@ -45,6 +45,7 @@
       </div> -->
     </div>
   </div>
+</template>
 
 <script>
 import mixin from "./convertComponent.mixin";
@@ -127,7 +128,6 @@ export default {
   display: flex;
   flex-direction: column;
 }
-
 .fullpage-next-arrow,
 .fullpage-top-arrow {
   width: 69px;

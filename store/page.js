@@ -53,6 +53,7 @@ const store = {
     }
   }
 };
+// Temp comment
 
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;

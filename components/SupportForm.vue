@@ -19,6 +19,7 @@
   </div>
 </template>
 
+<script>
 export default {
   props: {
     supportForm: Object,
@@ -29,7 +30,6 @@ export default {
       form: {
         support_form_id: null,
         data: {}
-      },
       submitted: false
     };
   },

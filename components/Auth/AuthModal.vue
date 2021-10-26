@@ -29,6 +29,7 @@ export default {
   },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
+      this.backToLogin();
       this.opened = true;
     });
 
