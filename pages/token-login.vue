@@ -3,6 +3,7 @@
 </template>
 
 <script>
+export default {
   layout: 'simple',
   created() {
     if (process.client) {
@@ -13,7 +14,6 @@
         this.$router.push("/");
       }
     }
-  },
   methods: {
     async login(token) {
       try {
@@ -26,3 +26,4 @@
       } catch (e) {
         this.$router.push("/");
         console.error(e);
+      }

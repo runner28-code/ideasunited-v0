@@ -103,6 +103,7 @@ export default {
     });
     this.$root.$on("mobileScrollTo", y => {
       this.$refs.mobileScroll.scroll({
+        top: y,
         left: 0,
         behavior: "smooth"
       });
@@ -184,7 +185,6 @@ export default {
           case "banner":
             this.$alert({ message: payload.title, timeout: 200000 });
             break;
-          default:
             this.$root.$emit("showNotification", payload);
             break;
         }
@@ -196,3 +196,6 @@ export default {
         _.intersection(event.role_ids, this.currentUser?.role_ids).length
       );
     },
+    mobileScroll(e) {
+      const y = e.target.scrollTop;
+      this.$root.$emit("mobileScroll", y);

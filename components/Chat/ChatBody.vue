@@ -1,4 +1,3 @@
-<template>
   <div class="chat-body" ref="messages">
     <client-only>
       <infinite-loading direction="top" @infinite="fetchMessages">
@@ -81,3 +80,5 @@ export default {
         last_message_date: this.messages[0]?.created_at
       });
       this.messages.unshift(...data.reverse());
+
+      if ($state) {

@@ -31,6 +31,7 @@ export default {
     customComponent() {
       return (this.page || this.currentPage).custom_components[this.value];
     }
+  },
   methods: {
     compile(component, callback) {
       return new Promise(resolve => {
@@ -41,7 +42,6 @@ export default {
             loadModule
           } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
           const options = {
-            moduleCache: {
               vue: Vue
             },
             getFile: () => {
@@ -75,3 +75,4 @@ export default {
         }
       });
     }
+  },

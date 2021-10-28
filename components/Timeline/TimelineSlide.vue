@@ -49,7 +49,6 @@ export default {
   methods: {
     setActive() {
       if (this.value.posted) {
-        this.$emit("setActive", this.value.id);
 
         if (this.value.url) {
           window.open(this.value.url, "_blank");
@@ -163,3 +162,5 @@ export default {
     }
   }
 
+  &__now-playing {
+    font-weight: bold;

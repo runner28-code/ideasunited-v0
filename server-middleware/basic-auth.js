@@ -25,6 +25,7 @@ export default async function (req, res, next) {
       console.log("Redirect");
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();
+    }
 
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
@@ -40,3 +41,8 @@ export default async function (req, res, next) {
       }
       res.statusCode = 200;
       return res.end("OAUTH HUB");
+    }
+
+    console.log("host: ", host);
+
+    next();

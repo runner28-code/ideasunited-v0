@@ -323,3 +323,6 @@ export default {
         color: inherit;
         text-decoration: none;
         transition: 0.3s;
+
+        &:hover {
+          opacity: 0.8;

@@ -39,7 +39,6 @@ export default {
     });
 
     this.$root.$on(`authModal/close`, () => {
-      this.cancel();
     });
   },
   methods: {
@@ -71,3 +70,4 @@ export default {
   text-align: center;
   padding: 58px;
   @media screen and (max-width: 960px) {
+    padding: 30px;

@@ -48,7 +48,6 @@ export function stripMessage(message) {
 export function copyToClipboard(str) {
   const el = document.createElement("textarea");
   el.value = str;
-// Temp comment
   el.setAttribute("readonly", "");
   el.style.position = "absolute";
   el.style.left = "-9999px";
@@ -74,3 +73,17 @@ export function getHash(input) {
     hash |= 0; // to 32bit integer
   }
   return Math.abs(hash);
+}
+
+export function getThemeByColor(color) {
+  const hex = color.replace("#", "");
+  const c_r = parseInt(hex.substr(0, 2), 16);
+  const c_g = parseInt(hex.substr(2, 2), 16);
+  const c_b = parseInt(hex.substr(4, 2), 16);
+  const brightness = (c_r * 299 + c_g * 587 + c_b * 114) / 1000;
+
+  if (brightness > 155) {
+    return "light";
+  } else {
+    return "dark";
+  }

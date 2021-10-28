@@ -152,7 +152,6 @@ export default {
   methods: {
     getId(index) {
       const block = this.filteredBlocks[index];
-      return block?.posted ? block.id : null;
     },
     checkPosted() {
       this.contentSection.blocks.forEach(t => {
@@ -318,3 +317,6 @@ export default {
         max-width: calc(25% - 15px);
         margin-right: 20px;
         margin-bottom: 10px;
+        &:nth-child(4n) {
+          margin-right: 0;
+        }

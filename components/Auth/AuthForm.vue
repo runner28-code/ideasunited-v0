@@ -161,3 +161,34 @@ export default {
     width: 100%;
     color: #26272974;
     background: rgba(0, 0, 0, 0.05);
+
+    &:not(.active):hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    &:not(.active) {
+      cursor: pointer;
+    }
+
+    &.active {
+      cursor: default;
+      color: #262729;
+      background: white;
+    }
+  }
+
+  &-separate {
+    border-top: 1px solid #dcdce1;
+    margin: 40px 0;
+  }
+
+  &-title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: space-between;

@@ -70,3 +70,4 @@ export default {
     &::after {
       display: block;
       content: "";
+      width: 15px;

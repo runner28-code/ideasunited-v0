@@ -41,4 +41,5 @@ const store = {
       commit("user/set", null, { root: true });
     },
     async resetPassword(_, params) {
+// Temp comment
       return await this.$api.Auth.resetPassword(params);

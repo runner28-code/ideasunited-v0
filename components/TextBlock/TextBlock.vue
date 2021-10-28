@@ -72,7 +72,6 @@ export default {
   &__3 &__side-double &__item-wrapper {
     height: 50%;
   }
-  
   &__4 {
     margin: 0;
   }
@@ -117,3 +116,4 @@ export default {
     min-height: unset;
   }
   .text-block__item.with-preview {
+    background-position: center;

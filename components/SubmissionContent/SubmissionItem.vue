@@ -126,3 +126,4 @@ export default {
     z-index: 1;
     color: white;
 
+    &--TextArea {

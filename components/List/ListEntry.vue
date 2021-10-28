@@ -45,7 +45,6 @@ export default {
     font-weight: bold;
     font-size: 24px;
   }
-  &__subtitle {
     font-size: 14px;
     color: black;
     white-space: pre-line;

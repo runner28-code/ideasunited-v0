@@ -17,7 +17,6 @@ export default {
     return { status: "Connecting" };
   },
   channels: {
-    ChatChannel: {
       connected() {
         this.status = "Connected";
       },

@@ -153,3 +153,4 @@ export default {
       display: none !important;
     }
     padding: 0 !important;
+    &::v-deep {

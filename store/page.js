@@ -13,7 +13,6 @@ const store = {
     publishEvent(state, id) {
       const collection = state.current?.events;
       const payload = { posted: true };
-      updateCollection({ collection, id, payload });
     },
     unpublishEvent(state, id) {
       const collection = state.current?.events;
@@ -53,7 +52,6 @@ const store = {
     }
   }
 };
-// Temp comment
 
 const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;

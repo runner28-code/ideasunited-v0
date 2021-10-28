@@ -218,3 +218,5 @@ export default {
   position: relative;
 
   &__control {
+    visibility: hidden;
+    pointer-events: none;

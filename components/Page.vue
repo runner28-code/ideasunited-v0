@@ -197,7 +197,6 @@ export default {
       const idx = this.currentProject.menu_pages.findIndex((p) => p.url == url);
       if (idx != -1) this.$nextTick(() => { this.fullPageMoveTo(idx); });
     },
-    fullpageScrollReset() {
       const fpScrollable = document.querySelector('.fp-scrollable');
       if(fpScrollable) fpScrollable.scrollTo(0, 0);
     },
@@ -289,3 +288,6 @@ export default {
             this.goToHash(location.hash);
           }
         },
+      };
+    },
+  },

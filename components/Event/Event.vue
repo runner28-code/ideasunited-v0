@@ -247,3 +247,6 @@ export default {
     min-width: 300px;
   }
   &.chat_is_zoom &__chat {
+    min-width: 50%;
+  }
+  &__chat {

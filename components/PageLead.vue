@@ -17,7 +17,6 @@
         >{{ currentPage.lead_button_text }}</Button
       >
     </div>
-  </div>
 </template>
 
 <script>
@@ -54,3 +53,4 @@ export default {
     justify-content: center;
     flex-direction: column;
   }
+

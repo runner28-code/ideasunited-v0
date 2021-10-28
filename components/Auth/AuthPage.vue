@@ -26,3 +26,4 @@ export default {};
   padding: 40px;
   background-size: cover;
 }
+

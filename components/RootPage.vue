@@ -35,6 +35,7 @@ import RegistrationForm from "./RegistrationForm";
 export default {
   components: {
     ContentSection,
+    Countdown,
     Event,
     TextBlock,
     Schedule,
@@ -48,3 +49,4 @@ export default {
     RegistrationForm
   },
   methods: {
+    convertComponent(type) {

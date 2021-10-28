@@ -34,7 +34,6 @@
 <script>
 import { getThemeByColor } from "@/utils";
 
-export default {
   props: {
     placeholder: String,
     label: String,
@@ -107,3 +106,4 @@ export default {
       margin-top: 13px;
     }
 
+    .v-input__slot {

@@ -106,3 +106,5 @@ export default {
         this.$root.$emit("fullpageRebuild");
       } catch {}
     },
+  },
+  computed: {

@@ -1,6 +1,7 @@
 /* eslint-disable */
 import Vue from "vue";
 
+// Temp comment
 const store = {
   namespaced: true,
   state: () => ({ current: null }),
@@ -37,3 +38,4 @@ const store = {
       commit("set", data);
       return data;
     },
+  },

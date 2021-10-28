@@ -50,6 +50,7 @@ export default {
       const params = {
         widget_submission_form_id: this.submissionContent
           .widget_submission_form_id,
+        query: this.search,
         page: this.page
       };
       const { data } = await this.$api.Submission.get(params);
@@ -99,3 +100,5 @@ export default {
 
 <style scoped lang="scss">
 .submission-content {
+  &__grid {
+    display: grid;

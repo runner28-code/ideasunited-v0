@@ -106,3 +106,4 @@ export default {
     transition: 0.3s;
 
     &:hover {
+      filter: brightness(110%);

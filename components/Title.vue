@@ -1,5 +1,6 @@
 <template>
   <component :style="styles" :is="tag" :class="tag">
+    <slot></slot>
   </component>
 </template>
 
@@ -33,3 +34,4 @@ export default {
   line-height: 1.1;
 }
 
+@media screen and (max-width: 944px) {

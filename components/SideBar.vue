@@ -282,3 +282,6 @@ export default {
       display: none;
     }
     &::after {
+      display: none;
+    }
+  }

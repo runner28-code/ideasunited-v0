@@ -137,3 +137,5 @@ export default {
 
       & > div {
         margin: auto;
+      }
+    }

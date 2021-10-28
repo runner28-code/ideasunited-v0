@@ -4,7 +4,6 @@
 
 <script>
 export default {
-  layout: 'simple',
   created() {
     if (process.client) this.confirm();
   },
@@ -22,3 +21,4 @@ export default {
         this.$router.push("/");
         console.error(e);
       }
+    }

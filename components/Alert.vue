@@ -108,6 +108,7 @@ export default {
   }
 }
 
+.alert-container::v-deep {
   background: transparent;
   padding-top: 54px !important;
 
@@ -117,3 +118,4 @@ export default {
 
   .v-snack__wrapper {
     display: flex;
+    flex-direction: column;

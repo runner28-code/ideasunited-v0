@@ -104,8 +104,8 @@ export default {
 
   @media screen and (max-width: 944px) {
     position: relative;
-  }
 
+  &-container {
     display: flex;
     width: 100%;
     align-items: stretch;
@@ -169,3 +169,5 @@ export default {
 }
 
 @media screen and (max-width: 944px) {
+  .footer {
+    position: static !important;

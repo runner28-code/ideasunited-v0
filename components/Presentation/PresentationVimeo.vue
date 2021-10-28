@@ -66,3 +66,4 @@ export default {
   background: black;
 
   &-overlay {
+    top: 0;

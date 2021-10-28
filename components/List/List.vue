@@ -54,3 +54,4 @@ export default {
   &__description {
     color: #4a4a4a;
     padding: 25px 0;
+    max-width: 800px;

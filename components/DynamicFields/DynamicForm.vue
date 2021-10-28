@@ -128,6 +128,7 @@ export default {
             case "true":
               return true;
             case "false":
+              return false;
             default:
               return value;
           }
@@ -162,7 +163,6 @@ export default {
             });
             break;
           case 'images_or_videos':
-            rules.push( value => {
               return !value || value.type.startsWith('image/') || value.type.startsWith('video/') || `File type must be an image or video.`;
             });
             break;
@@ -178,3 +178,4 @@ export default {
   },
   watch: {
     form: {
+      deep: true,
