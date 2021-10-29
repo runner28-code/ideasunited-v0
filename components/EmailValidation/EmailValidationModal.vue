@@ -59,6 +59,7 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
 
 .email-validation {
   &__content {

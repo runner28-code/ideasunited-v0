@@ -72,6 +72,7 @@ export default {
   &__3 &__side-double &__item-wrapper {
     height: 50%;
   }
+  
   &__4 {
     margin: 0;
   }
@@ -110,7 +111,6 @@ export default {
 
 
 <style lang="scss">
-
 .text-block__4 {
   .text-block__side {
     min-height: unset;

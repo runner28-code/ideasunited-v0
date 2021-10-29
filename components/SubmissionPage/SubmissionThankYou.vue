@@ -11,7 +11,6 @@
     <p class="submission-thank-you__buttons">
       <Button :refs="$refs" large :href="profileUrl">
         {{ btnText || "Account" }}
-      </Button>
     </p>
   </div>
 </template>
@@ -37,6 +36,7 @@ export default {
         try {
           return eval(string);
         } catch (errorWithoutThis) {
+          console.warn("Error en script: " + string, errorWithoutThis);
           return null;
         }
       }
@@ -57,3 +57,4 @@ export default {
     },
     opportunityName() {
       return this.currentProject.headline || "this opportunity";
+    },

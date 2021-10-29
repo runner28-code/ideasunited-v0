@@ -75,6 +75,7 @@ export default {
   },
   methods: {
     startCountdown() {
+      this.calc();
       if (this.interval) clearInterval(this.interval);
 
       this.interval = setInterval(() => {
@@ -191,3 +192,4 @@ export default {
         margin: 0 10px;
       }
     }
+  }

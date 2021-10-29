@@ -106,7 +106,6 @@ export default {
     if(this.$route.query.signup) {
       this.chooseSignUp = true;
     }
-  },
   methods: {
     async submit() {
       try {

@@ -31,7 +31,6 @@ const store = {
       return await dispatch("user/fetch", null, { root: true });
     },
     async oauth({ commit, dispatch }, params) {
-      const { data } = await this.$api.Auth.oauth(params);
       commit("setToken", data.token);
 
       return await dispatch("user/fetch", null, { root: true });
@@ -41,5 +40,4 @@ const store = {
       commit("user/set", null, { root: true });
     },
     async resetPassword(_, params) {
-// Temp comment
       return await this.$api.Auth.resetPassword(params);

@@ -8,7 +8,6 @@
           :key="index"
         >
           <div class="faq__section-header" v-if="item.header">
-            {{ item.header }}
           </div>
           <v-expansion-panel-header v-if="item.question">
             {{ item.question }}
@@ -93,3 +92,4 @@ export default {
       padding: 0 0.75em 0.75em 0;
     }
     .theme--light.v-expansion-panels:last-child .v-expansion-panel-header {
+      padding: 0 0 0.5em 0;

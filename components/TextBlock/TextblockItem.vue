@@ -23,6 +23,7 @@
 </template>
 
 <script>
+export default {
   props: {
     item: Object
   },
@@ -97,3 +98,4 @@ a.text-block__item-wrapper:hover {
     }
   }
 }
+

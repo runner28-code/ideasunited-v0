@@ -188,6 +188,7 @@ export default {
         }, "irisrestored")
         .add("sizerestored")
         .set(playBtn, {
+          clearProps: "opacity"
         })
         .set(previewImage, {
           clearProps: "opacity"
@@ -424,3 +425,4 @@ export default {
     &-video {
       position: absolute;
       width: 100%;
+      height: 100%;

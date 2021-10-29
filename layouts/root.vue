@@ -185,6 +185,7 @@ export default {
           case "banner":
             this.$alert({ message: payload.title, timeout: 200000 });
             break;
+          default:
             this.$root.$emit("showNotification", payload);
             break;
         }

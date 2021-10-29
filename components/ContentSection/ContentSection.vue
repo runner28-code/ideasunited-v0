@@ -152,6 +152,7 @@ export default {
   methods: {
     getId(index) {
       const block = this.filteredBlocks[index];
+      return block?.posted ? block.id : null;
     },
     checkPosted() {
       this.contentSection.blocks.forEach(t => {

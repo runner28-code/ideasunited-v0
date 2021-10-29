@@ -42,6 +42,7 @@ export default {
             loadModule
           } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
           const options = {
+            moduleCache: {
               vue: Vue
             },
             getFile: () => {
@@ -68,7 +69,6 @@ export default {
             options
           ).then(compiledComponent => {
             Vue.component(sfc_name, compiledComponent);
-
             if (callback) callback();
             this.key = component.updated_at;
           });

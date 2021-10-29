@@ -23,7 +23,6 @@ export default {
     return {
       search: ""
     };
-  },
   computed: {
     list() {
       return (this.page || this.currentPage).lists[this.value];
@@ -55,3 +54,4 @@ export default {
     color: #4a4a4a;
     padding: 25px 0;
     max-width: 800px;
+    font-size: 18px;

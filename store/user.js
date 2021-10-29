@@ -1,7 +1,6 @@
 /* eslint-disable */
 import Vue from "vue";
 
-// Temp comment
 const store = {
   namespaced: true,
   state: () => ({ current: null }),
@@ -30,7 +29,6 @@ const store = {
           null,
           cookieDomain
         );
-        return data;
       }
     },
     async update({ commit }, params) {

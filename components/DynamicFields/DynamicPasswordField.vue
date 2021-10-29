@@ -24,3 +24,4 @@ export default {
   methods: {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
+    }

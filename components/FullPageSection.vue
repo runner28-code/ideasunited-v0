@@ -86,7 +86,6 @@ export default {
   scrollbar-width: none;
   -ms-overflow-style: none;
   &::-webkit-scrollbar {
-    width: 0;
     height: 0;
   }
   &-inner {
@@ -127,6 +126,7 @@ export default {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+}
 
 .fullpage-next-arrow,
 .fullpage-top-arrow {

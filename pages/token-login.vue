@@ -11,9 +11,9 @@ export default {
       if (token) {
         this.login(token);
       } else {
-        this.$router.push("/");
       }
     }
+  },
   methods: {
     async login(token) {
       try {
