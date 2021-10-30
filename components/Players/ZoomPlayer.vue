@@ -57,12 +57,12 @@ export default {
         zoom_password,
         full_name,
         email
+      });
     }
   },
 };
 </script>
 
-<style scoped lang="scss">
 .zoom-player {
   position: absolute;
   top: 0;

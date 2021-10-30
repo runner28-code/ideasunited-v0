@@ -297,6 +297,7 @@ export default {
         &:hover {
           opacity: 0.8;
         }
+      }
 
       .v-divider {
         margin: 8px 0 !important;

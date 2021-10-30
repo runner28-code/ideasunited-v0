@@ -105,7 +105,6 @@
           >
             {{ menuItem.footer_menu_title }}
           </a>
-        </div>
       </div>
     </div>
     <div class="menu-toggle" v-if="menuPages.length">

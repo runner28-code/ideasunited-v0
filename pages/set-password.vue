@@ -49,7 +49,6 @@ export default {
         console.error(e);
       }
     },
-    async submit() {
       try {
         const { data } = await this.$api.Auth.setPassword({
           ...this.form,

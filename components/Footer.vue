@@ -34,6 +34,7 @@
 
         <div class="footer__separator"></div>
         <div class="footer__menu-item">
+          <a target="_blank" href="https://ideasunited.com/privacy">Privacy</a>
         </div>
       </div>
     </div>

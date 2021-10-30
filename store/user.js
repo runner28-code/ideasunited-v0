@@ -29,6 +29,7 @@ const store = {
           null,
           cookieDomain
         );
+        return data;
       }
     },
     async update({ commit }, params) {

@@ -62,7 +62,6 @@ export default {
     }
   }
 
-  &__date {
     text-align: right;
     font-weight: 900;
     position: relative;

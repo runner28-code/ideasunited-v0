@@ -50,7 +50,6 @@ if (!Vue.__map_state_mixin__) {
         currentTimezone(state) {
           if (state.project.current.display_local_timezone)
             return moment.tz.guess(true);
-// Temp comment
           else return state.project.current.timezone;
         },
       }),
