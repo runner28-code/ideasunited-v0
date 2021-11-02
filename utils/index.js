@@ -53,7 +53,6 @@ export function copyToClipboard(str) {
   el.style.left = "-9999px";
   document.body.appendChild(el);
   const selected =
-    document.getSelection().rangeCount > 0
       ? document.getSelection().getRangeAt(0)
       : false;
   el.select();
@@ -74,6 +73,7 @@ export function getHash(input) {
   }
   return Math.abs(hash);
 }
+
 export function getThemeByColor(color) {
   const hex = color.replace("#", "");
   const c_r = parseInt(hex.substr(0, 2), 16);

@@ -37,6 +37,7 @@
           >{{ data.link_text }}</Button
         >
       </div>
+    </v-navigation-drawer>
   </div>
 </template>
 
@@ -78,3 +79,4 @@ export default {
 <style scoped lang="scss">
 .notification {
   &-content {
+    white-space: pre-line;

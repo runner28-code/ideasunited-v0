@@ -191,6 +191,7 @@ export default {
       } else {
         console.info("image already preloaed");
       }
+    },
     goToHash(hash) {
       const url = hash.substring(1);
       const idx = this.currentProject.menu_pages.findIndex((p) => p.url == url);
@@ -292,3 +293,4 @@ export default {
     },
   },
 };
+</script>

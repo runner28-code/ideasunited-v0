@@ -154,3 +154,4 @@ export default {
     top: 50%;
     z-index: 2;
     transform: translateY(-50%);
+  }

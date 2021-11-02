@@ -21,6 +21,7 @@
         <v-icon color="white" size="24">${{ item.provider }}</v-icon>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -106,3 +107,4 @@ export default {
 
     &:hover {
       filter: brightness(110%);
+    }

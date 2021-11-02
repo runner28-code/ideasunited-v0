@@ -86,6 +86,7 @@ export default {
       width: 100%;
       align-items: center;
       justify-content: space-between;
+      flex: 1;
     }
 
     .v-alert__content {

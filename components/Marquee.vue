@@ -19,7 +19,6 @@ export default {
       if (!this.animating) return ''
       return `
         animation: marquee-animation ${this.seconds}s linear infinite;
-      `
     }
   },
   watch: {

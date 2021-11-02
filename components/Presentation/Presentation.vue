@@ -5,7 +5,6 @@
     :key="presentation.active_slide.id"
   >
     <PresentationImage
-      :presentation="presentation"
       :slide="presentation.active_slide"
       v-if="presentation.active_slide.slide_type == 'image'"
     />
@@ -34,3 +33,4 @@ export default {
     }
   }
 };
+</script>

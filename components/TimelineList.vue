@@ -26,6 +26,7 @@ export default {
       return (this.page || this.currentPage).timeline_lists[this.value];
     },
     items() {
+      return this.timelineList?.settings?.items;
     },
     timelineCssVars() {
       return {

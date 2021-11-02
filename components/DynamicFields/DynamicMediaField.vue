@@ -14,7 +14,6 @@
         append-icon="$upload"
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
       >
-      </v-file-input>
     </div>
     <div class="uploader-wrapper" v-else>
       <div class="uploader__label" v-if="showLabel && label">
@@ -134,6 +133,7 @@ export default {
 
   &-wrapper {
     position: relative;
+    margin-bottom: 30px;
   }
 
   &__label {
@@ -153,3 +153,4 @@ export default {
     }
     padding: 0 !important;
     &::v-deep {
+      .v-input__slot {

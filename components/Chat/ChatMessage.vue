@@ -109,3 +109,4 @@ export default {
   font-weight: bold;
   cursor: pointer;
 
+  span {

@@ -45,3 +45,4 @@ export default {
   margin-bottom: 13px;
 
   &::v-deep {
+    .v-input__slot {

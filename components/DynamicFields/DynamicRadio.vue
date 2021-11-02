@@ -6,7 +6,6 @@
     <v-radio-group
       class="radio-group__control"
       row
-      :value="value"
       hide-details="auto"
       @change="$emit('input', $event)"
       :rules="rules"
@@ -18,6 +17,7 @@
         :label="item.title"
         :value="item.uuid"
         @focus.stop="onFocus($event)"
+      ></v-radio>
     </v-radio-group>
   </div>
 </template>

@@ -50,3 +50,4 @@ export default {
   },
   methods: {
     convertComponent(type) {
+      const list = {

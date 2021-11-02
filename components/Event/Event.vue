@@ -67,6 +67,7 @@
         :chat="currentPage.chats[0]"
       />
 
+      <ZoomChat
         v-if="currentPage.chats[0].chat_type == 'zoom'"
         :chat="currentPage.chats[0]"
       />
@@ -249,3 +250,4 @@ export default {
     min-width: 50%;
   }
   &__chat {
+    width: 100%;

@@ -18,6 +18,7 @@ export default {
   props: {
     label: String,
     value: String,
+    rules: {
       type: Array,
       default: () => []
     },
@@ -45,3 +46,4 @@ export default {
       handler() {
         if (JSON.stringify(this.localValue) != this.value) {
           this.$emit(
+            "input", urlFormatter(this.localValue)

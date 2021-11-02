@@ -64,3 +64,4 @@ export default {
 .email-validation {
   &__content {
     white-space: pre-line;
+  }

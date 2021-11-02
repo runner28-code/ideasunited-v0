@@ -181,3 +181,4 @@ export default {
     form: {
       deep: true,
       handler() {
+        if (JSON.stringify(this.value) != JSON.stringify(this.form)) {

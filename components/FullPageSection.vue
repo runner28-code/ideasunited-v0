@@ -76,6 +76,7 @@ export default {
     },
   },
 };
+</script>
 
 <style lang="scss" scoped>
 .page {
@@ -136,3 +137,4 @@ export default {
   background-position: center;
   background-size: contain;
   background-image: url("data:image/svg+xml,%3Csvg width='73' height='38' viewBox='0 0 73 38' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M36.5 36.5L35.4393 37.5607C36.0251 38.1464 36.9749 38.1464 37.5607 37.5607L36.5 36.5ZM72.0607 3.06066C72.6464 2.47487 72.6464 1.52513 72.0607 0.93934C71.4749 0.353553 70.5251 0.353553 69.9393 0.93934L72.0607 3.06066ZM0.93934 3.06066L35.4393 37.5607L37.5607 35.4393L3.06066 0.93934L0.93934 3.06066ZM37.5607 37.5607L72.0607 3.06066L69.9393 0.93934L35.4393 35.4393L37.5607 37.5607Z' fill='white'/%3E%3C/svg%3E%0A");
+

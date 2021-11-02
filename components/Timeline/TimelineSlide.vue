@@ -34,6 +34,7 @@
             now playing
           </span>
         </div>
+      </div>
     </v-responsive>
   </div>
 </template>
@@ -165,3 +166,4 @@ export default {
   &__now-playing {
     font-weight: bold;
     font-size: 9px;
+    line-height: 1.2;

@@ -20,7 +20,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   props: {
@@ -73,6 +72,7 @@ export default {
     color: white;
   }
 
+  &__title {
     font-weight: bold;
     font-size: 50px;
   }
@@ -82,3 +82,4 @@ export default {
   &__start-at {
     margin-right: 50px;
     text-transform: uppercase;
+  }

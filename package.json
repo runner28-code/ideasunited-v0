@@ -21,6 +21,7 @@
     "@nuxtjs/vuetify": "^1.12.3",
     "@vimeo/player": "^2.15.0",
     "actioncable-vue": "^2.4.2",
+    "add": "^2.0.6",
     "axios": "^0.21.1",
     "cookie-universal-nuxt": "^2.1.4",
     "core-js": "^3.8.3",
@@ -44,3 +45,4 @@
     "vue-gtag": "^1.16.1",
     "vue-infinite-loading": "^2.4.5",
     "vue-moment": "^4.1.0",
+    "vue-rellax": "^0.2.0",

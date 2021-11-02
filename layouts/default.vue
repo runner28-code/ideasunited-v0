@@ -19,7 +19,6 @@
       <SideBar v-model="drawer" :no-root="true" />
     </client-only>
     <AppBar @changeKey="key = key + 1" />
-    <v-main>
       <div
         class="mobile-scroll"
         ref="mobileScroll"
@@ -253,3 +252,5 @@ export default {
       const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
     },
+  },
+  watch: {

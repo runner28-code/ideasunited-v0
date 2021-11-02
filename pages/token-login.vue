@@ -11,7 +11,6 @@ export default {
       if (token) {
         this.login(token);
       } else {
-        this.$router.push("/");
       }
     }
   },
@@ -23,6 +22,7 @@ export default {
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
 
+        this.$router.push("/");
       } catch (e) {
         this.$router.push("/");
         console.error(e);

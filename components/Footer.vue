@@ -172,3 +172,4 @@ export default {
 @media screen and (max-width: 944px) {
   .footer {
     position: static !important;
+    padding: 36px 22px;

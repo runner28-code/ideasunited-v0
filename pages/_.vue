@@ -91,3 +91,4 @@ export default {
       if (
         (this.page.authorized && !this.currentUser) ||
         (this.currentUser &&
+          this.page.role_ids.length &&

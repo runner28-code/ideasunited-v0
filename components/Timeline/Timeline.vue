@@ -69,7 +69,6 @@ export default {
     this.initOn();
     this.initEvent();
   },
-  mounted() {
     this.swiperInstance = this.$refs.swiper.swiperInstance;
   },
   beforeDestroy() {
@@ -180,6 +179,7 @@ export default {
     }
   },
   watch: {
+    events: {
       deep: true,
       handler() {
         const ids = this.events.map(t => t.id);
@@ -220,3 +220,4 @@ export default {
     visibility: hidden;
     pointer-events: none;
 
+    &.visible {

@@ -71,7 +71,6 @@
         ></div>
         <Button
           v-if="block.link_text"
-          class="slider-modal-content__link"
           :href="block.link_url | url"
           target="_blank"
           large
@@ -134,8 +133,10 @@ export default {
       overflow: auto;
       max-height: 100%;
       flex-basis: 500px;
+
       & > div {
         margin: auto;
       }
     }
     
+    &__creator {
