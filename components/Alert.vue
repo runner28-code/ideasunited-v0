@@ -7,6 +7,7 @@
     :timeout="alert.timeout || 15000"
   >
     <v-alert
+      :icon="false"
       dismissible
       class="alert"
       dense
@@ -85,7 +86,6 @@ export default {
       width: 100%;
       align-items: center;
       justify-content: space-between;
-      flex: 1;
     }
 
     .v-alert__content {

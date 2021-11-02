@@ -67,7 +67,6 @@ export default {
     submissionForm: Object,
   },
   data() {
-    return {
       form: null,
       submitted: false,
       supportDialog: false,

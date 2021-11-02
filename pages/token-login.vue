@@ -23,7 +23,6 @@ export default {
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
 
-        this.$router.push("/");
       } catch (e) {
         this.$router.push("/");
         console.error(e);

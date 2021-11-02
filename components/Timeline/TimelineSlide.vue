@@ -34,7 +34,6 @@
             now playing
           </span>
         </div>
-      </div>
     </v-responsive>
   </div>
 </template>

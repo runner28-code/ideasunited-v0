@@ -31,7 +31,6 @@ export async function buildZoomLink({
       urlParams += "&";
     }
     urlParams += key + "=" + encodeURIComponent(params[key]);
-// Temp comment
   }
 
   return "/zoom/iframe.zoom.html?" + urlParams;
@@ -75,7 +74,6 @@ export function getHash(input) {
   }
   return Math.abs(hash);
 }
-
 export function getThemeByColor(color) {
   const hex = color.replace("#", "");
   const c_r = parseInt(hex.substr(0, 2), 16);

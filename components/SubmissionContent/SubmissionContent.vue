@@ -11,6 +11,7 @@
         :layout="submissionContent.layout"
         :previewLayout="submissionContent.preview_layout"
       />
+    </div>
     <client-only>
       <infinite-loading :identifier="infiniteId" @infinite="fetchSubmissions">
         <div slot="no-more"></div>

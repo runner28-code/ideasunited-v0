@@ -30,10 +30,10 @@ export default {
     xLarge: Boolean,
     outlined: Boolean,
     block: Boolean,
+    to: String,
     type: String,
     refs: Object,
     text: Boolean,
-    href: String,
     target: String,
     disabled: Boolean
   },

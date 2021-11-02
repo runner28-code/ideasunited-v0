@@ -44,6 +44,7 @@
           <div
             v-if="activeEvent.description"
             class="event__video-description"
+            v-html="activeEvent.description"
           ></div>
         </div>
       </div>
@@ -66,7 +67,6 @@
         :chat="currentPage.chats[0]"
       />
 
-      <ZoomChat
         v-if="currentPage.chats[0].chat_type == 'zoom'"
         :chat="currentPage.chats[0]"
       />

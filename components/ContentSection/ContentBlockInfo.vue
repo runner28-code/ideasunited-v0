@@ -95,6 +95,7 @@ export default {
   mounted() {
     setTimeout(() => {
       this.sliderInited = true;
+    }, 300);
   },
   methods: {
     instagram(v) {
@@ -133,7 +134,6 @@ export default {
       overflow: auto;
       max-height: 100%;
       flex-basis: 500px;
-
       & > div {
         margin: auto;
       }

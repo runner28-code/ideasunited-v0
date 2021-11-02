@@ -17,6 +17,7 @@
       </v-card>
     </v-dialog>
     <v-navigation-drawer
+      right
       v-model="sidebar"
       fixed
       class="notification__sidebar"
@@ -36,7 +37,6 @@
           >{{ data.link_text }}</Button
         >
       </div>
-    </v-navigation-drawer>
   </div>
 </template>
 

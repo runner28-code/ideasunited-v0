@@ -134,7 +134,6 @@ export default {
 
   &-wrapper {
     position: relative;
-    margin-bottom: 30px;
   }
 
   &__label {

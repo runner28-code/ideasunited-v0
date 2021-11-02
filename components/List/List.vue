@@ -23,6 +23,7 @@ export default {
     return {
       search: ""
     };
+  },
   computed: {
     list() {
       return (this.page || this.currentPage).lists[this.value];
