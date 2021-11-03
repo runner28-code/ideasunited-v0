@@ -154,7 +154,6 @@ export default {
         switch (field.allowed_file_types) {
           case 'images':
             rules.push( value => {
-              return !value || value.type.startsWith('image/') || `File type must be an image.`;
             });
             break;
           case 'videos':

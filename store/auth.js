@@ -13,13 +13,13 @@ const store = {
           : "." + window.location.hostname;
       console.info('auth cookieDomain', cookieDomain);
       if (token) {
-        cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
       }
     }
   },
   actions: {
+    async login({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.login(params);
       commit("setToken", data.token);
       return await dispatch("user/fetch", null, { root: true });

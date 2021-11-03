@@ -34,7 +34,6 @@ export default {
   &__preview {
     width: 40px;
     height: 40px;
-    border-radius: 40px;
     margin-top: 8px;
     margin-right: 10px;
     background-size: cover;

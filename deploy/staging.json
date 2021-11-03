@@ -5,6 +5,5 @@
   "repo": "git@gitlab.com:iu-evp/frontend.git",
   "prj_git_relative_dir": "",
   "branch": "master",
-  "force_regenerate_git_dir": true,
   "history_releases_count": 5,
   "prerun": ["yarn install", "NODE_ENV=staging yarn run build"],

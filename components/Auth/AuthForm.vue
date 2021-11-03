@@ -136,7 +136,6 @@ export default {
     margin: auto;
     width: 100%;
     max-width: 590px;
-  }
 
   &-tabs {
     display: flex;
@@ -165,6 +164,7 @@ export default {
     &:not(.active):hover {
       background: rgba(0, 0, 0, 0.1);
     }
+
     &:not(.active) {
       cursor: pointer;
     }

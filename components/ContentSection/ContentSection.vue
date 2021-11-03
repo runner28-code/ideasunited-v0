@@ -216,7 +216,6 @@ export default {
 
   &__blocks {
     display: flex;
-  }
 
   &__control {
     visibility: hidden;

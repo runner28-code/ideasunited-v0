@@ -48,7 +48,6 @@ export default {
       setTimeout(() => this.backToLogin(), 500);
     },
     backToLogin() {
-      this.dialogState.chooseSignUp = false;
     },
   },
   computed: {

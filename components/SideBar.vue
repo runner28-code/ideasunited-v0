@@ -84,6 +84,7 @@
         class="rightsidebar__item"
         @click.prevent="logout()"
         v-ripple="false"
+      >
         Logout
       </v-list-item>
     </v-list>
@@ -176,7 +177,6 @@ export default {
     },
     creatorsUrl() {
       return this.profileUrl + "/creators"
-    },
     menuPages() {
       const menuPages = this.currentProject.menu_pages;
       return menuPages.filter(t => !t.parent_menu_id);

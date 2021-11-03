@@ -35,6 +35,7 @@ export default {
       if (this.vimeoChapter) this.goToChapter(this.vimeoChapter);
     });
     this.player.on("timeupdate", data => {
+      const live_seconds = (Date.now() - this.releaseTime) / 1000;
       if (data.seconds > live_seconds) {
         this.player.setCurrentTime(live_seconds - 1);
       }
@@ -50,7 +51,6 @@ export default {
         vimeo_id: this.vimeoId,
         vimeo_chapter: data.index - 1
       });
-    });
   },
   watch: {
     vimeoChapter() {
