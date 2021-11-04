@@ -65,3 +65,4 @@ export default {
 .youtube-player {
   width: 100%;
   height: 100%;
+  position: relative;

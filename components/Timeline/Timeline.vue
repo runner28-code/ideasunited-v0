@@ -224,3 +224,4 @@ export default {
     &.visible {
       visibility: visible;
       pointer-events: all;
+    }

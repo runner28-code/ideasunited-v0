@@ -325,3 +325,4 @@ export default {
         @media screen and (max-width: 1264px) {
           max-width: calc(33% - 11px);
 
+          &:nth-child(4n) {

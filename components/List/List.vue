@@ -1,3 +1,4 @@
+<template>
   <div class="commons-list">
     <div class="commons-list__wrapper text-center">
       <Title tag="h1">{{ list.headline }}</Title>
@@ -55,3 +56,4 @@ export default {
     padding: 25px 0;
     max-width: 800px;
     font-size: 18px;
+    margin: auto;

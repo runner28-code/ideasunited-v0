@@ -13,3 +13,4 @@ $ yarn dev
 $ yarn build
 $ yarn start
 
+# generate static project

@@ -146,7 +146,6 @@ export default {
     },
     dropdownClick() {
       this.$route.path == "/more"
-        ? this.$router.back()
         : this.$router.push("/more");
     },
     toggleDrawer() {
@@ -331,3 +330,5 @@ export default {
           color: #e12d1b;
         }
       }
+
+      &--home_logo {

@@ -175,3 +175,4 @@ export default {
     padding: 36px 22px;
     &-container {
       flex-direction: column-reverse;
+    }

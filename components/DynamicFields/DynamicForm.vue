@@ -14,6 +14,7 @@
         :rules="rulesForField(field)"
         :mark-required="markRequired"
         v-show="showField(field)"
+        :label="field.label"
         :show-label="showLabel"
         :addon-data="addonData(field)"
         :file-input="field.file_input"
@@ -182,3 +183,4 @@ export default {
       handler() {
         if (JSON.stringify(this.value) != JSON.stringify(this.form)) {
           this.$emit("input", { ...this.form });
+        }

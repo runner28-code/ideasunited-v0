@@ -4,8 +4,8 @@
       v-for="item in gridMenuPages"
       :key="item.id"
       class="grid-menu__item"
+      :aspect-ratio="320 / 180"
       :style="{
-        backgroundImage: item.grid_menu_image.url
           ? `url(${item.grid_menu_image.large.url})`
           : ''
       }"
@@ -72,3 +72,4 @@ export default {
 }
 
 @media screen and (max-width: 860px) {
+  .grid-menu {

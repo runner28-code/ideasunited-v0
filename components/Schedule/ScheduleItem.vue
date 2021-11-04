@@ -66,7 +66,6 @@ export default {
   margin-top: 15px;
 
   &.clickable {
-    cursor: pointer;
   }
 
   &.dark {

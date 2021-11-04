@@ -9,7 +9,6 @@
     >
       <div class="slider-modal__wrapper" @click="close">
         <v-btn
-          v-if="prevId"
           @click="openPrev"
           @keyup.enter="openPrev"
           icon
@@ -156,3 +155,4 @@ export default {
     transform: translateY(-50%);
   }
   &__prev {
+    left: 0px;

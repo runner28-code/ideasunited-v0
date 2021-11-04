@@ -132,7 +132,6 @@ export default {
       display: flex;
       align-items: center;
       overflow: auto;
-      max-height: 100%;
       flex-basis: 500px;
 
       & > div {
@@ -142,3 +141,4 @@ export default {
     
     &__creator {
       &-info {
+        font-size: 20px;

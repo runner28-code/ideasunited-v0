@@ -254,3 +254,4 @@ export default {
     height: calc(100vh - 200px);
     min-height: 500px;
   }
+}

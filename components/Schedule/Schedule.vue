@@ -69,3 +69,4 @@ export default {
   &__group {
     margin-bottom: 40px;
   }
+

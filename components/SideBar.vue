@@ -290,3 +290,4 @@ export default {
     margin-bottom: 2em;
   }
 
+  &__copyright {

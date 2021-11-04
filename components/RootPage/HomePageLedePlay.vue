@@ -119,7 +119,6 @@
     top: -10.26%;
     left: -10.26%;
     width: 128.2%;
-    height: 128.2%;
     > svg {
       width: 100%;
       height: 100%;

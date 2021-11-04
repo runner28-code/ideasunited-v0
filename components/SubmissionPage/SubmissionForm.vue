@@ -111,3 +111,4 @@ export default {
     eligible() {
       if (!this.currentUser) return false;
       if (!this.submissionForm) return false;
+      const eligibility_ids = _.uniq(this.submissionForm.eligibility_ids);

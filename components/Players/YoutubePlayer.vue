@@ -22,6 +22,5 @@ export default {
 <style scoped lang="scss">
 .youtube-player {
   position: absolute;
-  top: 0;
   left: 0;
   width: 100%;

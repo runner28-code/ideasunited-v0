@@ -80,3 +80,4 @@ export default {
 .notification {
   &-content {
     white-space: pre-line;
+  }

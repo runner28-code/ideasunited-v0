@@ -287,7 +287,6 @@ export default {
       margin-top: 5px;
 
       &-item {
-        padding: 7px 15px;
         line-height: 1.1;
         cursor: pointer;
         display: block;
@@ -339,3 +338,5 @@ export default {
   }
 }
 
+.account-item {
+  &-icon {

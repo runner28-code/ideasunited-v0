@@ -75,6 +75,7 @@ export default {
 <style lang="scss" scoped>
 .faqs {
   display: flex;
+  align-items: flex-start;
   margin-top: 60px;
   @media screen and (max-width: 960px) {
     flex-direction: column;
@@ -94,3 +95,4 @@ export default {
     .theme--light.v-expansion-panels:last-child .v-expansion-panel-header {
       padding: 0 0 0.5em 0;
     }
+    .theme--light.v-expansion-panels .v-expansion-panel-header,

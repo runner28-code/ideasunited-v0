@@ -109,3 +109,4 @@ export default {
 
     .v-input__slot {
       min-height: 50px;
+    }

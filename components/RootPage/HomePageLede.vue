@@ -433,3 +433,6 @@ export default {
       mask-size: 100% 100%;
       mask-repeat: no-repeat;
       mask-position: center;
+      position: absolute;
+      top:0;
+      bottom: 0;

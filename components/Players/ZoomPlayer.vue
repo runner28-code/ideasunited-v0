@@ -25,6 +25,7 @@
       </div>
       <Button large @click="openZoomLink">Click to Connect</Button>
     </div>
+  </div>
 </template>
 <script>
 import { buildZoomLink } from "@/utils";
@@ -91,3 +92,4 @@ export default {
   &__embedded {
     width: 100%;
     height: 100%;
+  }

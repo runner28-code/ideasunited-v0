@@ -111,3 +111,4 @@ export default {
 
   span {
     margin-left: 3px;
+  }

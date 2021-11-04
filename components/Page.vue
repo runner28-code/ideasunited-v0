@@ -298,3 +298,4 @@ export default {
 <style scoped lang="scss">
 .opportunity-page {
   position: fixed;
+  left: 232px;

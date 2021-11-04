@@ -71,3 +71,4 @@ export default {
     },
     pause() {
       this.player.pause();
+    },

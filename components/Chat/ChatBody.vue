@@ -17,7 +17,6 @@
 
 <script>
 export default {
-  props: {
     chat: Object
   },
   data() {
@@ -85,3 +84,4 @@ export default {
       if ($state) {
         if (data.length) {
           $state.loaded();
+        } else {

@@ -92,7 +92,6 @@ export default {
     disabled: Boolean
   },
   data() {
-    return {
       form: {
         registration_form_id: this.value,
         data: {}
@@ -118,6 +117,7 @@ export default {
           this.$router.push("/" + this.registrationForm.destination_url);
       } catch (e) {
         if (!e.response.data) return;
+        const data = e.response.data;
         if (data.email_validation_response == "are_you_sure") {
           if (data.email_suggestions)
             this.emailValidationSuggestions = data.email_suggestions;
@@ -158,3 +158,4 @@ export default {
   }
 
   &__description {
+    font-size: 18px;

@@ -45,7 +45,6 @@ export default {
           provider: "linkedin"
         }
       }
-    };
   },
   methods: {
     async oauth(provider) {
@@ -109,3 +108,4 @@ export default {
       filter: brightness(110%);
     }
 
+    &--facebook {

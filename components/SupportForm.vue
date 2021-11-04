@@ -55,7 +55,6 @@ export default {
     }
   }
 };
-</script>
 
 <style scoped lang="scss">
 .support-form {

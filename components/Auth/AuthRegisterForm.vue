@@ -11,6 +11,7 @@
             <p class="auth-register-form__not-registered-cta">
               {{ registrationForm.not_registered_cta || "Not a member yet? It’s easy to join!" }}
             </p>
+            <v-btn
               class="signup-btn"
               elevation="0"
               @click="clickRegister()"
@@ -203,3 +204,4 @@ export default {
 
 <style lang="scss">
 .register {
+  .v-form.dynamic-form {

@@ -20,7 +20,6 @@ export default {
 </script>
 
 <style scope>
-.spinner {
   position: absolute;
   left: 0;
   right: 0;
