@@ -29,7 +29,6 @@ html {
 .close {
   position: absolute !important;
   right: 10px;
-  top: 10px;
   z-index: 1;
 }
 
@@ -41,3 +40,4 @@ html {
 
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
+}

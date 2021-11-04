@@ -63,8 +63,8 @@ export default {
         margin-bottom: 20px;
         width: 100%;
       }
-    }
   }
 }
 </style>
 
+<style lang="scss">

@@ -84,3 +84,4 @@ export default {
 
       if ($state) {
         if (data.length) {
+          $state.loaded();

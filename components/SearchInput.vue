@@ -80,3 +80,4 @@ export default {
   }
 
   &__value {
+    position: absolute;

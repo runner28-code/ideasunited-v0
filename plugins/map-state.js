@@ -23,7 +23,6 @@ if (!Vue.__map_state_mixin__) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
             title,
-            description,
             callback: (value) => {
               resolve(value);
             },
@@ -60,3 +59,4 @@ if (!Vue.__map_state_mixin__) {
       },
       $size() {
         return this.$vuetify.breakpoint.name;
+      },

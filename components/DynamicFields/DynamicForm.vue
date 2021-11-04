@@ -14,7 +14,6 @@
         :rules="rulesForField(field)"
         :mark-required="markRequired"
         v-show="showField(field)"
-        :label="field.label"
         :show-label="showLabel"
         :addon-data="addonData(field)"
         :file-input="field.file_input"
@@ -154,6 +153,7 @@ export default {
         switch (field.allowed_file_types) {
           case 'images':
             rules.push( value => {
+              return !value || value.type.startsWith('image/') || `File type must be an image.`;
             });
             break;
           case 'videos':
@@ -181,3 +181,4 @@ export default {
       deep: true,
       handler() {
         if (JSON.stringify(this.value) != JSON.stringify(this.form)) {
+          this.$emit("input", { ...this.form });

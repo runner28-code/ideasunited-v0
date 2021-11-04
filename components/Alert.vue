@@ -119,3 +119,4 @@ export default {
   .v-snack__wrapper {
     display: flex;
     flex-direction: column;
+    align-items: stretch;

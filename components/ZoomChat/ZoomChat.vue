@@ -17,6 +17,7 @@ export default {
   props: {
     chat: Object
   },
+  data() {
     return {
       zoomUrl: null
     };
@@ -43,3 +44,4 @@ export default {
 
 <style lang="scss" scoped>
 .zoom-chat {
+  height: 100%;

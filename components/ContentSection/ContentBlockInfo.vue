@@ -141,3 +141,4 @@ export default {
     }
     
     &__creator {
+      &-info {

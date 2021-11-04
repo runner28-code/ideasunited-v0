@@ -68,6 +68,7 @@
       />
 
       <ZoomChat
+        v-if="currentPage.chats[0].chat_type == 'zoom'"
         :chat="currentPage.chats[0]"
       />
     </div>
@@ -250,3 +251,6 @@ export default {
   }
   &__chat {
     width: 100%;
+    height: calc(100vh - 200px);
+    min-height: 500px;
+  }

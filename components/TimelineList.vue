@@ -71,3 +71,4 @@ export default {
       display: block;
       content: "";
       width: 15px;
+      height: 15px;

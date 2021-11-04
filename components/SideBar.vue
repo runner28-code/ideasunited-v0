@@ -177,6 +177,7 @@ export default {
     },
     creatorsUrl() {
       return this.profileUrl + "/creators"
+    },
     menuPages() {
       const menuPages = this.currentProject.menu_pages;
       return menuPages.filter(t => !t.parent_menu_id);
@@ -286,3 +287,6 @@ export default {
   }
 
   &__bottom {
+    margin-bottom: 2em;
+  }
+

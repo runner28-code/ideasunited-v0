@@ -173,3 +173,5 @@ export default {
   .footer {
     position: static !important;
     padding: 36px 22px;
+    &-container {
+      flex-direction: column-reverse;

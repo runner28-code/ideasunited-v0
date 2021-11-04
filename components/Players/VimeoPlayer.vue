@@ -51,6 +51,7 @@ export default {
         vimeo_id: this.vimeoId,
         vimeo_chapter: data.index - 1
       });
+    });
   },
   watch: {
     vimeoChapter() {
@@ -69,3 +70,4 @@ export default {
       this.player.play();
     },
     pause() {
+      this.player.pause();

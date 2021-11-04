@@ -20,3 +20,4 @@ export const actions = {
     });
 
     commit("project/set", projectData);
+

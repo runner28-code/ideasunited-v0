@@ -216,6 +216,7 @@ export default {
 
   &__blocks {
     display: flex;
+  }
 
   &__control {
     visibility: hidden;
@@ -320,4 +321,7 @@ export default {
         &:nth-child(4n) {
           margin-right: 0;
         }
+
+        @media screen and (max-width: 1264px) {
+          max-width: calc(33% - 11px);
 

@@ -33,3 +33,4 @@ export default {
   z-index: 7;
 }
 
+.relative {

@@ -110,3 +110,4 @@ export default {
   cursor: pointer;
 
   span {
+    margin-left: 3px;

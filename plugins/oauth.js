@@ -11,7 +11,6 @@ const providers = {
   linkedin: {
     authorizationEndpoint: "/api/v1/public_side/auth/linkedin"
   },
-  cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
 };
@@ -38,6 +37,7 @@ export default function(ctx, inject) {
         "width=580,height=730"
       );
       const interval = setInterval(() => {
+        const token = localStorage.getItem("token");
 
         if (token) {
           resolve({ token });

@@ -99,3 +99,4 @@ a.text-block__item-wrapper:hover {
   }
 }
 
+@media screen and (max-width: 960px) {

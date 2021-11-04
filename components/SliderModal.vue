@@ -155,3 +155,4 @@ export default {
     z-index: 2;
     transform: translateY(-50%);
   }
+  &__prev {

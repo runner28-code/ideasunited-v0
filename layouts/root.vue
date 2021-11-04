@@ -201,3 +201,5 @@ export default {
       const y = e.target.scrollTop;
       this.$root.$emit("mobileScroll", y);
     }
+  },
+  watch: {

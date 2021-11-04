@@ -109,3 +109,5 @@ export default {
   },
   computed: {
     eligible() {
+      if (!this.currentUser) return false;
+      if (!this.submissionForm) return false;

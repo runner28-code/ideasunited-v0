@@ -41,7 +41,6 @@ export default {
           return null;
         }
       }
-    },
     parseMessage(string) {
       return string.replace(/{{.*?}}/g, (match) => {
         var expression = match.slice(2, -2);
@@ -59,3 +58,4 @@ export default {
     opportunityName() {
       return this.currentProject.headline || "this opportunity";
     },
+  },

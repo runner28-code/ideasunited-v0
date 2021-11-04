@@ -38,3 +38,4 @@ const store = {
       return data;
     },
   },
+  getters: {

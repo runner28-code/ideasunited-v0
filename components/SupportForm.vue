@@ -20,6 +20,7 @@
 </template>
 
 <script>
+export default {
   props: {
     supportForm: Object,
     page: Object,
@@ -67,3 +68,4 @@
   &__title {
     font-family: Source Sans Pro, sans-serif;
     font-size: 36px !important;
+    margin-bottom: 0.5em;

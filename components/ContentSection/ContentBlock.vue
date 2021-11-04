@@ -48,6 +48,7 @@ export default {
     block: Object,
     prevId: String,
     nextId: String,
+    hiding: Boolean
   },
   data() {
     return {
@@ -155,3 +156,4 @@ export default {
     background-size: cover;
 
     &--video {
+    }

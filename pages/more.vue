@@ -4,7 +4,6 @@
       v-for="item in gridMenuPages"
       :key="item.id"
       class="grid-menu__item"
-      :aspect-ratio="320 / 180"
       :style="{
         backgroundImage: item.grid_menu_image.url
           ? `url(${item.grid_menu_image.large.url})`
@@ -48,6 +47,7 @@ export default {
       color: white;
       display: flex;
       align-items: center;
+      justify-content: center;
       text-align: center;
       font-weight: bold;
       background: rgba(0, 0, 0, 0.1);

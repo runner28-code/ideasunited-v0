@@ -255,3 +255,5 @@ export default {
     },
   },
   watch: {
+    drawer: {
+      handler() {

@@ -48,6 +48,7 @@ export default {
       setTimeout(() => this.backToLogin(), 500);
     },
     backToLogin() {
+      this.dialogState.chooseSignUp = false;
     },
   },
   computed: {
@@ -71,3 +72,4 @@ export default {
   padding: 58px;
   @media screen and (max-width: 960px) {
     padding: 30px;
+  }

@@ -328,3 +328,6 @@ export default {
           opacity: 0.8;
         }
         &.nuxt-link-active {
+          color: #e12d1b;
+        }
+      }

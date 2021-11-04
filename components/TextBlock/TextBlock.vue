@@ -118,3 +118,4 @@ export default {
   }
   .text-block__item.with-preview {
     background-position: center;
+    background-size: contain;

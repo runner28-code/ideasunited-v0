@@ -35,3 +35,4 @@ export default {
 }
 
 @media screen and (max-width: 944px) {
+  .h1 {
