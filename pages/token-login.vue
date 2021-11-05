@@ -5,6 +5,7 @@
 <script>
 export default {
   layout: 'simple',
+  created() {
     if (process.client) {
       const { token } = this.$route.query;
       if (token) {
@@ -12,7 +13,6 @@ export default {
       } else {
         this.$router.push("/");
       }
-    }
   },
   methods: {
     async login(token) {
@@ -27,3 +27,5 @@ export default {
         this.$router.push("/");
         console.error(e);
       }
+    }
+  }

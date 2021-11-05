@@ -6,7 +6,6 @@
     @input="$emit('input', $event)"
     :rules="rules"
     outlined
-    @focus.stop="onFocus($event)"
   />
 </template>
 
@@ -26,3 +25,5 @@ export default {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
+  },
+};

@@ -225,3 +225,4 @@ export default {
       visibility: visible;
       pointer-events: all;
     }
+  }

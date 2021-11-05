@@ -96,3 +96,4 @@ export default {
       padding: 0 0 0.5em 0;
     }
     .theme--light.v-expansion-panels .v-expansion-panel-header,
+    .theme--light.v-expansion-panels .v-expansion-panel-content {

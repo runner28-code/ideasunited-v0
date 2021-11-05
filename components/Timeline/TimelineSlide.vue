@@ -169,3 +169,5 @@ export default {
     line-height: 1.2;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    background: white;
+    align-items: center;

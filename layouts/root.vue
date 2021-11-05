@@ -204,3 +204,5 @@ export default {
   },
   watch: {
     drawer: {
+      handler() {
+        this.$root.$emit("drawerUpdate", this.drawer);

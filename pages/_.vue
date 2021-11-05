@@ -5,6 +5,7 @@
     <Page v-else-if="status == 200" />
   </div>
 </template>
+
 <script>
 import _ from "lodash";
 export default {
@@ -74,7 +75,6 @@ export default {
     return {
       page
     };
-  },
   computed: {
     pageStyles() {
       return {
@@ -93,3 +93,4 @@ export default {
           this.page.role_ids.length &&
           !_.intersection(this.page.role_ids, this.currentUser.role_ids).length)
       ) {
+        return 403;

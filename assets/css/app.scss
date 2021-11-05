@@ -24,6 +24,7 @@ html {
     font-size: 24px;
     margin: 10px 0 25px 0;
   }
+}
 
 .close {
   position: absolute !important;
@@ -41,3 +42,4 @@ html {
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
 }
+.fade-enter, .fade-leave-to {

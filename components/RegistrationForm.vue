@@ -92,6 +92,7 @@ export default {
     disabled: Boolean
   },
   data() {
+    return {
       form: {
         registration_form_id: this.value,
         data: {}
@@ -159,3 +160,4 @@ export default {
 
   &__description {
     font-size: 18px;
+    margin: 10px 0 50px 0;

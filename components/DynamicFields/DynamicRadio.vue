@@ -17,6 +17,7 @@
         :key="item.uuid"
         :label="item.title"
         :value="item.uuid"
+        @focus.stop="onFocus($event)"
       ></v-radio>
     </v-radio-group>
   </div>
@@ -48,3 +49,4 @@ export default {
   margin-bottom: 30px;
   &__required {
     color: red;
+    margin-left: 3px;

@@ -19,5 +19,4 @@ export const actions = {
       root_path: req.url
     });
 
-    commit("project/set", projectData);
 

@@ -9,7 +9,6 @@
 <script>
 export default {
   props: {
-    chat: Object
   },
   data() {
     return {
@@ -68,5 +67,7 @@ export default {
     height: 32px;
     width: 32px;
     min-width: 32px;
+    background: #f7f7f7;
     border-radius: 32px;
     margin-right: 9px;
+  }

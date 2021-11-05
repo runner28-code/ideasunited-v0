@@ -12,11 +12,11 @@ const store = {
   actions: {
     async init({ dispatch, commit }) {
       return new Promise(resolve => {
-// Temp comment
         Promise.all([
           dispatch("user/fetch", null, { root: true }),
           dispatch("datasources/fetch", null, { root: true })
         ]).then(() => {
+// Temp comment
           commit("setLoaded", true);
           resolve();
         });

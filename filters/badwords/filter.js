@@ -1,6 +1,5 @@
 import list from "./stopwords.json";
 
-// Temp comment
 class Filter {
   constructor(options = {}) {
     Object.assign(this, {
@@ -14,6 +13,7 @@ class Filter {
   }
 
   isProfane(string) {
+// Temp comment
     return (
       this.list.filter(word => {
         const wordExp = new RegExp(

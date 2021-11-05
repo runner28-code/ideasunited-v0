@@ -66,3 +66,4 @@ export default {
 
 <style scoped lang="scss">
 .submission-item-content {
+  .slider-modal-content__content {

@@ -1,4 +1,3 @@
-<template>
   <v-textarea
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
@@ -33,3 +32,4 @@ export default {
 
 <style scoped lang="scss">
 .dynamic-textarea {
+  &::v-deep {

@@ -11,6 +11,7 @@
         prepend-icon=""
         @change="handleFileChange"
         ref="fileInput"
+        append-icon="$upload"
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
       >
       </v-file-input>
@@ -155,3 +156,4 @@ export default {
     &::v-deep {
       .v-input__slot {
         display: none !important;
+      }

@@ -53,3 +53,4 @@ export default {
     border-radius: 50%;
     margin-right: 5px;
 
+    &--Connecting {

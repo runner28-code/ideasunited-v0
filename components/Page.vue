@@ -299,3 +299,5 @@ export default {
 .opportunity-page {
   position: fixed;
   left: 232px;
+  top: 0;
+  height: 100%;

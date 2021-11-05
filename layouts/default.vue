@@ -258,3 +258,5 @@ export default {
     drawer: {
       handler() {
         this.$root.$emit("drawerUpdate", this.drawer);
+      },
+    },

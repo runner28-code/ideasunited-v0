@@ -112,3 +112,4 @@ export default {
       if (!this.currentUser) return false;
       if (!this.submissionForm) return false;
       const eligibility_ids = _.uniq(this.submissionForm.eligibility_ids);
+      if (eligibility_ids.length == 0) return true;

@@ -31,7 +31,6 @@ export default {
     required: Boolean,
     markRequired: Boolean
   },
-  methods: {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
@@ -46,3 +45,4 @@ export default {
 
   &::v-deep {
     .v-input__slot {
+      align-items: start !important;

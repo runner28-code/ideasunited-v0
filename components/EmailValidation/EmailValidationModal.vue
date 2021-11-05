@@ -16,6 +16,7 @@
         @click="yesImSure()"
         >Yes, I'm Sure</Button
       >
+    </v-card>
   </v-dialog>
 </template>
 
@@ -47,7 +48,6 @@ export default {
     },
     close(){
       this.$emit('close');
-    },
     yesImSure() {
       this.$emit('close');
       if(!this.form.email_validation_options) this.form.email_validation_options = {};
@@ -65,3 +65,4 @@ export default {
     white-space: pre-line;
   }
   &__dialog {
+    position: relative;

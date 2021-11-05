@@ -326,3 +326,5 @@ export default {
           max-width: calc(33% - 11px);
 
           &:nth-child(4n) {
+            margin-right: 20px;
+          }

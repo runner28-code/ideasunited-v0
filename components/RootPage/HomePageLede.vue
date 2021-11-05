@@ -120,7 +120,6 @@ export default {
       document.onwebkitfullscreenchange = () => {
         if (!document.webkitFullscreenElement) {
           this.onFullscreenExit();
-        }
       };
       document.onmozfullscreenchange = () => {
         if (!document.mozFullScreenElement) {
@@ -436,3 +435,6 @@ export default {
       position: absolute;
       top:0;
       bottom: 0;
+      left: 0;
+      right: 0;
+      &:not(.iris-loaded) {

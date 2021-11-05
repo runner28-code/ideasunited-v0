@@ -291,3 +291,5 @@ export default {
   }
 
   &__copyright {
+    color: #56565A;
+    font-size: 14px;

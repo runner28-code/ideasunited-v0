@@ -176,3 +176,4 @@ export default {
     &-container {
       flex-direction: column-reverse;
     }
+    &__start {

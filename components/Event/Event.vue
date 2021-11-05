@@ -255,3 +255,5 @@ export default {
     min-height: 500px;
   }
 }
+
+@media screen and (max-width: 960px) {

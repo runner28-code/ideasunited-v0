@@ -6,6 +6,7 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, user) {
+      state.current = user;
     },
   },
   actions: {
@@ -31,7 +32,6 @@ const store = {
         return data;
       }
     },
-    async update({ commit }, params) {
       const { data } = await this.$api.User.update(params);
       commit("set", data);
       return data;

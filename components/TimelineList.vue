@@ -72,3 +72,4 @@ export default {
       content: "";
       width: 15px;
       height: 15px;
+      position: absolute;

@@ -87,3 +87,4 @@ export default {
     padding-bottom: 15px;
   }
 
+  &__form {

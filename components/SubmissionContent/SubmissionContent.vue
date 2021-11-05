@@ -34,7 +34,6 @@ export default {
     page: Object,
   },
   data() {
-    return {
       list: [],
       infiniteId: +new Date(),
       page: 1,
@@ -105,3 +104,4 @@ export default {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+

@@ -146,6 +146,7 @@ export default {
     },
     dropdownClick() {
       this.$route.path == "/more"
+        ? this.$router.back()
         : this.$router.push("/more");
     },
     toggleDrawer() {
@@ -332,3 +333,5 @@ export default {
       }
 
       &--home_logo {
+        margin-top: 0;
+      }

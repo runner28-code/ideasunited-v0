@@ -51,6 +51,7 @@ export default {
     hiding: Boolean
   },
   data() {
+    return {
       dialog: false
     };
   },
