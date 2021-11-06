@@ -103,7 +103,6 @@ export default {
       width: 100%;
     }
     @media screen and (max-width: 944px) {
-      padding: 20px 30px;
     }
   }
   @media screen and (max-width: 944px) {
@@ -115,6 +114,7 @@ export default {
   display: none;
   @media screen and (max-width: 944px) {
     display: flex;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

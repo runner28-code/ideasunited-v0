@@ -275,29 +275,3 @@ export default {
           this.scrollDelayCounter++;
           if (
             !this.clickingToSection &&
-            this.scrollDelayCounter < this.scrollDelay
-          ) {
-            return false;
-          } else {
-            this.scrollDelayCounter = 0;
-            this.clickingToSection = false;
-          }
-          this.currentSlide = destination.index;
-        },
-        afterRender: () => {
-          if (location.hash) {
-            this.goToHash(location.hash);
-          }
-        },
-      };
-    },
-  },
-};
-</script>
-
-<style scoped lang="scss">
-.opportunity-page {
-  position: fixed;
-  left: 232px;
-  top: 0;
-  height: 100%;

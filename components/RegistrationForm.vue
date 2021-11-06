@@ -154,6 +154,7 @@ export default {
     display: flex;
     align-items: center;
     @media screen and (max-width: 944px) {
+      padding: 20px;
     }
   }
 

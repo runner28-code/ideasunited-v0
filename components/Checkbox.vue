@@ -1,7 +1,6 @@
 <template>
   <v-checkbox
     class="checkbox"
-    hide-details="auto"
     :value="value"
     :input-value="value"
     @change="$emit('input', $event)"
@@ -33,5 +32,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.checkbox {
   margin: 8px 0;
 

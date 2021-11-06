@@ -24,7 +24,6 @@ export default async function (req, res, next) {
     ) {
       console.log("Redirect");
       res.writeHead(302, { Location: project.production_redirect_url });
-// Temp comment
       return res.end();
     }
 

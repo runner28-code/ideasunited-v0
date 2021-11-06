@@ -16,7 +16,6 @@
               | moment("timezone", currentTimezone, "dddd, MMM Do")
           }}
         </div>
-        <ScheduleItem v-for="item in group.items" :item="item" :key="item.id" />
       </div>
     </div>
   </div>
@@ -47,6 +46,7 @@ export default {
             items: _.sortBy(groups[k], t => t.start_at),
             date: groups[k][0].start_at
           };
+        }),
         t => t.date
       );
     },

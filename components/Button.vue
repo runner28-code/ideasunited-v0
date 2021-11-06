@@ -14,7 +14,6 @@
     :href="href"
     :target="target"
     :disabled="disabled"
-    @focus.stop="onFocus($event)"
   >
     <slot></slot>
   </v-btn>
@@ -54,6 +53,7 @@ export default {
         }
       }
 
+      this.$emit("click");
     },
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);

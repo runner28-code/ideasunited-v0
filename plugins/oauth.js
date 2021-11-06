@@ -10,6 +10,7 @@ const providers = {
   },
   linkedin: {
     authorizationEndpoint: "/api/v1/public_side/auth/linkedin"
+// Temp comment
   },
   cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
@@ -44,5 +45,6 @@ export default function(ctx, inject) {
           resolve({ token });
 
           clearInterval(interval);
+          w.close();
           return;
         }

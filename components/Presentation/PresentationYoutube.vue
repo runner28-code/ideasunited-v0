@@ -54,6 +54,6 @@ export default {
       handler(newVal, oldVal) {
         if (this.newSlideSettings.started && this.player) {
           this.play();
-        }
       }
     }
+  }

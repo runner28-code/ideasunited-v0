@@ -62,6 +62,7 @@ export default {
   max-width: 800px;
   margin: auto;
   width: 100%;
+  padding: 20px;
   font-family: Source Sans Pro, sans-serif;
 
   &__title {
