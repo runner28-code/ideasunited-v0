@@ -35,7 +35,6 @@
         Already a member?
       </Button>
       <Button :refs="$refs" type="submit" :disabled="!valid || loading">
-        <span v-if="loading">
           <v-progress-circular
             :size="16"
             :width="2"
@@ -139,6 +138,7 @@ export default {
     addonData(field) {
       if (field.tpe == "EmailField")
         return this.currentProject.addon_emailpasswordlogin_data;
+      else return false;
     },
     rulesForField(field) {
       const rules = field.required ? [this.$rules.required] : [];

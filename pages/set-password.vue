@@ -34,7 +34,6 @@ export default {
     if (process.client) {
       this.checkPasswordToken();
     }
-  },
   methods: {
     async checkPasswordToken() {
       try {
@@ -58,6 +57,7 @@ export default {
         this.$store.commit("auth/setToken", data.token);
         this.$store.dispatch("user/fetch");
         this.$router.push("/").catch(() => {});
+      } catch (e) {
         console.error(e);
       }
     }

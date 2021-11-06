@@ -22,6 +22,7 @@
       v-if="content.length"
     >
       <div>
+        <div
           :class="'s-' + section.class_name"
           v-for="(section, idx) in content"
           :key="idx"
@@ -56,7 +57,6 @@ export default {
     value() {
       const t = this.item.formatted_data.find(
         t => t.uuid == this.layout.preview
-      );
       return t?.value;
     }
   }

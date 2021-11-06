@@ -8,6 +8,7 @@
     <VimeoPlayer
       :key="event.id"
       v-else-if="event.event_type == 'vimeo'"
+      :vimeoChapter="event.vimeo_chapter"
       :vimeoId="event.vimeo_id"
     />
     <ZoomPlayer
@@ -47,6 +48,5 @@ export default {
 .event-player {
   position: relative;
   height: 100%;
-  background-color: black;
   background-size: cover;
   background-position: center;

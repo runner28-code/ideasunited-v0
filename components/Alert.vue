@@ -96,7 +96,6 @@ export default {
       text-decoration: underline;
       font-weight: bold;
     }
-
     .v-icon {
       align-self: center;
       font-size: 20px;

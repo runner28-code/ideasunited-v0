@@ -93,7 +93,6 @@ export default {
   align-items: center;
   justify-content: center;
   padding: 10px 30px;
-  min-height: 80px;
   position: relative;
 
   &__actions {

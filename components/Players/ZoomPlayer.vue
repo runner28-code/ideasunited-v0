@@ -17,6 +17,7 @@
           event.start_at
             | moment("timezone", currentTimezone, "dddd M/D/YYYY")
         }}
+        at
         {{
           event.start_at
             | moment("timezone", currentTimezone, "h:mm A")

@@ -102,7 +102,6 @@ export default {
       this.$emit("input", file);
     },
     remove() {
-      this.$emit("input", null);
     }
   }
 };

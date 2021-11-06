@@ -191,7 +191,6 @@ export default {
     color: #262729;
     &_title {
       font-size: 28px !important;
-      margin-bottom: 0.5em;
     }
     &_message {
       max-width: 280px;

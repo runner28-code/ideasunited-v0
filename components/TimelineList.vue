@@ -9,6 +9,7 @@
           {{ item.description }}
         </div>
       </li>
+    </ul>
   </div>
 </template>
 

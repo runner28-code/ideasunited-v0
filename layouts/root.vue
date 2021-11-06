@@ -85,6 +85,7 @@ export default {
           }
         });
       }
+
       const fontkitIds = _.uniq(typekitFonts.map(font => font.typekit_id));
 
       fontkitIds.forEach(fontkitId => {
@@ -104,7 +105,6 @@ export default {
       this.$refs.mobileScroll.scroll({
         top: y,
         left: 0,
-        behavior: "smooth"
       });
     });
   },

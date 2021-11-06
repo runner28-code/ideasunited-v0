@@ -14,6 +14,7 @@
     :href="href"
     :target="target"
     :disabled="disabled"
+    @focus.stop="onFocus($event)"
   >
     <slot></slot>
   </v-btn>
@@ -32,7 +33,6 @@ export default {
     to: String,
     type: String,
     refs: Object,
-    text: Boolean,
     href: String,
     target: String,
     disabled: Boolean

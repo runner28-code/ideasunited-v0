@@ -62,3 +62,4 @@ export default {
     }
   }
   &__slide {
+    height: 100%;
