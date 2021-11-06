@@ -49,7 +49,6 @@ export default {
     { src: "~/plugins/infinite-loader.js", ssr: false },
     { src: "~/plugins/fullpage", mode: "client" },
     { src: "~/plugins/vue-rellax.js", ssr: false }
-  ],
   serverMiddleware: ["~/server-middleware/basic-auth"],
 
   polyfill: {

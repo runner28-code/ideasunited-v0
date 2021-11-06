@@ -1,7 +1,6 @@
 import resources from "./resources.api";
 import Qs from "qs";
 
-export default ({ $axios, redirect, route, $cookies, req }) => {
   $axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 
   $axios.interceptors.request.use(
@@ -46,7 +45,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
 
         if (process.browser) {
           if (alert) {
-// Temp comment
             $nuxt.$alert(alert, "success");
           }
 

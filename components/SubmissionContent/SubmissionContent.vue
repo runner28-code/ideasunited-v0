@@ -45,6 +45,7 @@ export default {
     getId(index) {
       const item = this.list[index];
       return item?.published ? item.id : null;
+    },
     async fetchSubmissions($state) {
       const params = {
         widget_submission_form_id: this.submissionContent

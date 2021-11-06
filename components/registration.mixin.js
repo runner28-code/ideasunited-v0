@@ -1,11 +1,11 @@
 export default {
   data() {
     return {
-// Temp comment
       resending: false,
     }
   },
   methods: {
+// Temp comment
     async resendConfirmationEmail() {
       this.resending = true;
       try {

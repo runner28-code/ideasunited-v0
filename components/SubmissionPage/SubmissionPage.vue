@@ -38,6 +38,5 @@ export default {
 .submission-page {
   &__container {
     max-width: 900px;
-    margin: auto;
     width: 100%;
   }

@@ -33,6 +33,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.checkbox {
   margin: 8px 0;
 

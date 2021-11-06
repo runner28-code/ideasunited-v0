@@ -4,6 +4,7 @@
       <v-card class="notification__dialog">
         <v-btn class="close" icon @click="closeDialog">
           <v-icon size="30">$close</v-icon>
+        </v-btn>
         <Title>{{ data.title }}</Title>
         <p class="notification-content" v-html="data.description"></p>
         <Button
@@ -27,7 +28,6 @@
       </v-btn>
       <div class="notification__sidebar-content">
         <Title>{{ data.title }}</Title>
-        <p class="notification-content" v-html="data.description"></p>
         <Button
           large
           target="_blank"

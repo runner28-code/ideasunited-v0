@@ -97,6 +97,7 @@ export default {
       this.sliderInited = true;
     }, 300);
   },
+  methods: {
     instagram(v) {
       /* eslint-disable no-useless-escape */
       const urlRegexp =
@@ -106,7 +107,6 @@ export default {
       const instagramHandleRegexp =
         /^([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
 
-      /* eslint-disable no-useless-escape */
       const atInstagramHandleRegexp =
         /^@([\w](?:(?:[\w]|(?:\.(?!\.))){0,28}(?:[\w]))?)$/;
 

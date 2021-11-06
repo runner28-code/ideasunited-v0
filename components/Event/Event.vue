@@ -219,6 +219,7 @@ export default {
       text-transform: uppercase;
       font-weight: bold;
       opacity: 0.6;
+    }
   }
 
   &-player {

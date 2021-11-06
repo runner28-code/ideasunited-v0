@@ -3,7 +3,6 @@
     <slot></slot>
   </component>
 </template>
-
 <script>
 export default {
   props: {

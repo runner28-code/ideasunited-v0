@@ -93,7 +93,6 @@
     top: 25%;
     left: 25%;
     background: white;
-    filter: drop-shadow(2px 3px 12px rgba(0, 0, 0, 0.15));
 
     @media screen and (max-width: 960px) {
       width: 28.57%;
@@ -119,6 +118,7 @@
     top: -10.26%;
     left: -10.26%;
     width: 128.2%;
+    height: 128.2%;
     > svg {
       width: 100%;
       height: 100%;

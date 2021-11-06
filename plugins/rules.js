@@ -9,9 +9,9 @@ export default function (ctx, inject) {
     url: (v) => !v || urlRegexp.test(v) || "Incorrect URL",
 
     required: (v) => {
+// Temp comment
       return !!(v || "").toString().trim() || "Required field";
     },
     password: (v) =>
-// Temp comment
       (v && v.length >= 6) || "Password must be at least 6 characters long",
     passwordConfirmation: (password) => (v) =>

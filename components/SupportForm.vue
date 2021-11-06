@@ -38,6 +38,7 @@ export default {
     this.$root.$on('resetSupportForm', () => {
       if(this.submitted) {
         setTimeout(() => {
+          this.form.data = {};
           this.submitted = false;
         }, 500);
       }
@@ -61,7 +62,6 @@ export default {
   max-width: 800px;
   margin: auto;
   width: 100%;
-  padding: 20px;
   font-family: Source Sans Pro, sans-serif;
 
   &__title {
