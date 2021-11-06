@@ -111,6 +111,7 @@ export default {
           return o.uuid == this.form.data[field.conditional_uuid];
         });
         const conditionalFormValue = conditionalFormOption
+          ? conditionalField.options.find((o) => {
               return o.uuid == this.form.data[field.conditional_uuid];
             }).uuid
           : "Option not found";

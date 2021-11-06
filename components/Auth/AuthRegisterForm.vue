@@ -192,6 +192,7 @@ export default {
     &_title {
       font-size: 28px !important;
       margin-bottom: 0.5em;
+    }
     &_message {
       max-width: 280px;
       margin-left: auto;

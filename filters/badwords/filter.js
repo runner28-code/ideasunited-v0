@@ -13,7 +13,6 @@ class Filter {
   }
 
   isProfane(string) {
-// Temp comment
     return (
       this.list.filter(word => {
         const wordExp = new RegExp(
@@ -37,6 +36,7 @@ class Filter {
     const join = this.splitRegex.exec(string);
     return string
       .split(this.splitRegex)
+// Temp comment
       .map(word => {
         return this.isProfane(word) ? this.replaceWord(word) : word;
       })

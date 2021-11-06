@@ -32,5 +32,4 @@ export default {
   flex-direction: column;
   z-index: 7;
 }
-
 .relative {

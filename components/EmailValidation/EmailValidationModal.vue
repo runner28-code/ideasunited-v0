@@ -48,6 +48,7 @@ export default {
     },
     close(){
       this.$emit('close');
+    },
     yesImSure() {
       this.$emit('close');
       if(!this.form.email_validation_options) this.form.email_validation_options = {};

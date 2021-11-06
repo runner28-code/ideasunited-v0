@@ -29,7 +29,6 @@ export default {
   methods: {
     disableAuth(val) {
       this.authDisabled = val;
-    }
   }
 };
 </script>

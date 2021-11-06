@@ -2,7 +2,6 @@ import moment from "moment-timezone";
 
 export const state = () => ({
   authUser: null
-});
 
 export const mutations = {
   SET_USER: function(state, user) {
@@ -19,4 +18,5 @@ export const actions = {
       root_path: req.url
     });
 
+    commit("project/set", projectData);
 

@@ -128,7 +128,6 @@ export default {
     background: rgba(16, 24, 32, 0.6);
     border-radius: 6px;
   }
-
   &__date {
     margin-top: -30px;
     font-weight: 800;

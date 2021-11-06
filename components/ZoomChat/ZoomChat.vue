@@ -18,6 +18,7 @@ export default {
     chat: Object
   },
   data() {
+    return {
       zoomUrl: null
     };
   },

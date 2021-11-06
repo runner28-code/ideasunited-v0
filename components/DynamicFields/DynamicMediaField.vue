@@ -74,7 +74,6 @@ export default {
       type: Array,
       default: () => []
     },
-    size: {
       type: String,
       default: "cover"
     },

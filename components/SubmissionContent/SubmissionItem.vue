@@ -30,6 +30,7 @@
       v-model="dialog"
     >
       <SubmissionItemContent :layout="layout" :item="item" />
+    </SliderModal>
   </div>
 </template>
 
@@ -80,7 +81,6 @@ export default {
         styles.backgroundImage = `url(${this.preview})`;
       }
 
-      if (this.backgroundImage) {
         styles.backgroundImage = this.item.background_image.large.url;
       }
 

@@ -15,7 +15,6 @@
   </v-file-input>
 </template>
 
-<script>
 export default {
   props: {
     value: [typeof window === "undefined" ? Object : window.File, Object],
@@ -79,17 +78,3 @@ export default {
   &__validation {
     &:not(.v-input--has-state) {
       display: none !important;
-    }
-    padding: 0 !important;
-    &::v-deep {
-      .v-input__slot {
-        display: none !important;
-      }
-    }
-  }
-
-  &:hover {
-    border-color: rgba(0, 0, 0, 0.3);
-  }
-
-  &__placeholder {

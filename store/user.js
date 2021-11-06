@@ -11,7 +11,6 @@ const store = {
   },
   actions: {
     async fetch({ commit }) {
-      const token = this.$cookies.get("authToken");
 
       if (token && process.client) {
         const { data } = await this.$api.User.current();
@@ -32,6 +31,7 @@ const store = {
         return data;
       }
     },
+    async update({ commit }, params) {
       const { data } = await this.$api.User.update(params);
       commit("set", data);
       return data;

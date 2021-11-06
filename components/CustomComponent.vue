@@ -71,7 +71,6 @@ export default {
             Vue.component(sfc_name, compiledComponent);
 
             if (callback) callback();
-            this.key = component.updated_at;
           });
         }
       });

@@ -97,7 +97,6 @@ export default {
       this.sliderInited = true;
     }, 300);
   },
-  methods: {
     instagram(v) {
       /* eslint-disable no-useless-escape */
       const urlRegexp =

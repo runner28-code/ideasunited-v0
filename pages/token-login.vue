@@ -13,6 +13,7 @@ export default {
       } else {
         this.$router.push("/");
       }
+    }
   },
   methods: {
     async login(token) {

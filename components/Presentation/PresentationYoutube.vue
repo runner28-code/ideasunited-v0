@@ -1,3 +1,4 @@
+<template>
   <div class="youtube-player">
     <div id="youtube-player"></div>
     <div class="youtube-player__after" @click="started ? null : play"></div>
@@ -56,12 +57,3 @@ export default {
         }
       }
     }
-  }
-};
-</script>
-
-<style scoped lang="scss">
-.youtube-player {
-  width: 100%;
-  height: 100%;
-  position: relative;

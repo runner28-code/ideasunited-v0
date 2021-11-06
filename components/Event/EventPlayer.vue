@@ -31,7 +31,6 @@ export default {
   props: {
     event: Object
   },
-  computed: {
     styles() {
       const url =
         this.event.background?.large?.url ||
@@ -45,6 +44,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.event-player {
   position: relative;
   height: 100%;
   background-color: black;

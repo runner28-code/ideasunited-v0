@@ -10,7 +10,6 @@
 <script>
 export default {
   props: {
-    slide: Object
   }
 };
 </script>
@@ -18,3 +17,4 @@ export default {
 <style lang="scss" scoped>
 .presentation-image {
   width: 100%;
+  height: 100%;
