@@ -105,6 +105,7 @@ export default {
       this.$refs.mobileScroll.scroll({
         top: y,
         left: 0,
+        behavior: "smooth"
       });
     });
   },

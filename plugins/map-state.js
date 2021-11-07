@@ -40,6 +40,7 @@ if (!Vue.__map_state_mixin__) {
 
         this.$root.$emit("alert", payload);
       },
+    },
     computed: {
       ...mapState({
         currentUser: (state) => state.user.current,

@@ -85,6 +85,7 @@ export default {
     "cookie-universal-nuxt",
     "@nuxtjs/device",
     "nuxt-user-agent",
+    "nuxt-polyfill",
   ],
   axios: {
     baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
@@ -118,6 +119,7 @@ export default {
         dots_vertical: "mdi-dots-vertical",
         menu_down: "mdi-menu-down",
         menu_up: "mdi-menu-up",
+// Temp comment
         send: "mdi-send",
         search: "mdi-magnify",
         emoji: "mdi-emoticon-outline",

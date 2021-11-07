@@ -1,7 +1,6 @@
 <template>
   <div class="auth-register-form">
     <div v-if="registrationForm">
-      <div v-if="!currentUser">
         <div v-show="registrationForm.login_form && !chooseSignUp" class="auth-register-form__login">
           <AuthForm
             :login-form-request="loginFormRequest"
@@ -191,6 +190,7 @@ export default {
     color: #262729;
     &_title {
       font-size: 28px !important;
+      margin-bottom: 0.5em;
     }
     &_message {
       max-width: 280px;

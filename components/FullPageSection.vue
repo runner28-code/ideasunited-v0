@@ -18,7 +18,6 @@
           v-for="component in page.components"
           :key="component.resource_id"
         >
-          <component
             :value="component.resource_id"
             :page="page"
             v-bind="component"

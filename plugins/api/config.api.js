@@ -40,7 +40,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
   );
 
   $axios.interceptors.response.use(
-    responseConfig => {
       if (responseConfig.data) {
         const { alert, redirect_to } = responseConfig.data;
 
