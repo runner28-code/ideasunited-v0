@@ -1,6 +1,5 @@
 .slider-modal-content {
   display: flex;
-  width: 100%;
 
   &__video {
     height: 100%;
@@ -60,6 +59,7 @@
       position: absolute !important;
       left: 0;
       right: 0;
+      top: 0;
       bottom: 0;
     }
 

@@ -151,6 +151,7 @@ export default {
       if(opp.preview.thumb && opp.preview.thumb.url) return opp.preview.thumb.url;
       return opp.preview.url;
     },
+    goToOpp(opp) {
       
     },
   }

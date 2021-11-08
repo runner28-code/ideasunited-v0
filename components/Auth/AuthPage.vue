@@ -21,6 +21,7 @@ export default {};
   min-height: 100%;
   margin: auto;
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: 40px;
   background-size: cover;

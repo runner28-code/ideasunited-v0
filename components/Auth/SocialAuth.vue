@@ -83,7 +83,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .social-auth {
   display: flex;

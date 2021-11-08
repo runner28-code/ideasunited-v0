@@ -50,6 +50,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.slider {
   &-wrapper {
     height: 100%;
     width: 100%;

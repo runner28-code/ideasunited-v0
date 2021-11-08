@@ -24,6 +24,7 @@ export default {
         letterSpacing: font.letter_spacing + "px"
       };
     }
+  }
 };
 </script>
 

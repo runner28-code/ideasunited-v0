@@ -26,7 +26,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       }
 
       requestConfig.paramsSerializer = params => {
-        return Qs.stringify(params, {
           arrayFormat: "brackets",
           encode: false
         });
@@ -40,6 +39,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
   );
 
   $axios.interceptors.response.use(
+    responseConfig => {
       if (responseConfig.data) {
         const { alert, redirect_to } = responseConfig.data;
 

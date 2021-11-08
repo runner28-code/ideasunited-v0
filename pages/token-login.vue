@@ -29,3 +29,4 @@ export default {
         console.error(e);
       }
     }
+  }

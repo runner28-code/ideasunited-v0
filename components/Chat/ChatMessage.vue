@@ -60,6 +60,7 @@ export default {
   },
   methods: {
     deleteMessage() {
+      this.$api.Message.destroy(this.message.id);
     },
     blockUser() {
       if (confirm("Are you sure?")) {
@@ -69,7 +70,6 @@ export default {
     deleteAllMessagesAndBlock() {
       if (
         confirm("all messages from this user will be deleted. Are you sure?")
-      ) {
         this.$api.Message.destroyAll({
           chat_id: this.chat.id,
           user_id: this.message.user.id

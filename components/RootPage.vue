@@ -46,6 +46,7 @@ export default {
     SubmissionContent,
     Presentation,
     CustomComponent,
+    RegistrationForm
   },
   methods: {
     convertComponent(type) {

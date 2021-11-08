@@ -29,7 +29,6 @@
         >
           {{ section.value }}
         </div>
-      </div>
     </div>
   </div>
 </template>

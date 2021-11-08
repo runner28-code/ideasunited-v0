@@ -164,7 +164,6 @@ export default {
           clearProps: "pointerEvents",
         })
         .add("start")
-        .to(previewMedia, {
           maskSize: "100% 100%",
           duration: this.irisEnding.duration,
           ease: Power1.easeIn,
