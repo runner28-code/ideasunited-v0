@@ -65,7 +65,6 @@ export default {
   &__items {
     margin-top: 70px;
   }
-
   &__group {
     margin-bottom: 40px;
   }

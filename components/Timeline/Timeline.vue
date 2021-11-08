@@ -32,7 +32,6 @@
 
 <script>
 import _ from "lodash";
-
 export default {
   props: {
     value: Object
@@ -210,19 +209,3 @@ export default {
 
 <style scoped lang="scss">
 .timeline {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  padding: 20px 40px;
-  border-top: 1px solid #e5e5e5;
-  position: relative;
-
-  &__control {
-    visibility: hidden;
-    pointer-events: none;
-
-    &.visible {
-      visibility: visible;
-      pointer-events: all;
-    }
-  }

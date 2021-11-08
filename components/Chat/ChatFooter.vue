@@ -34,7 +34,6 @@
             </template>
             <div>
               <VEmojiPicker @select="selectEmoji" />
-            </div>
           </v-menu>
         </div>
         <div>

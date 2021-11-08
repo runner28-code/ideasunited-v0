@@ -1,7 +1,6 @@
 /* eslint-disable */
 import Vue from "vue";
 
-const store = {
   namespaced: true,
   state: () => ({ data: {} }),
 
@@ -18,7 +17,6 @@ const store = {
       return data;
     }
   },
-// Temp comment
   getters: {
     current(state) {
       return state.current;

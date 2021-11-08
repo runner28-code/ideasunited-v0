@@ -21,7 +21,6 @@
     />
     <Slider
       v-else-if="event.event_type == 'slideshow'"
-      :slides="event.slides"
     />
   </div>
 </template>
@@ -43,6 +42,7 @@ export default {
   }
 };
 </script>
+
 <style scoped lang="scss">
 .event-player {
   position: relative;

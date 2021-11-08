@@ -277,3 +277,4 @@ export default {
             !this.clickingToSection &&
             this.scrollDelayCounter < this.scrollDelay
           ) {
+            return false;

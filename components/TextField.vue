@@ -44,7 +44,6 @@ export default {
       default: "text"
     },
     rules: Array,
-    suffix: String,
     min: [String, Number],
     max: [String, Number],
     block: Boolean,

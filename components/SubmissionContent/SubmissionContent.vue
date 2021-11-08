@@ -39,6 +39,7 @@ export default {
       infiniteId: +new Date(),
       page: 1,
       search: ""
+    };
   },
   methods: {
     getId(index) {

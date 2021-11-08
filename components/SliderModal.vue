@@ -152,6 +152,7 @@ export default {
   &__next {
     position: absolute;
     top: 50%;
+    z-index: 2;
     transform: translateY(-50%);
   }
   &__prev {

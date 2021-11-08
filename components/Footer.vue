@@ -23,6 +23,7 @@
         </div>
         <div class="footer__menu-item">
           <a target="_blank" href="mailto:community@ideasunited.com"
+            >Contact Us</a
           >
         </div>
         <div class="footer__menu-item">
@@ -56,7 +57,6 @@ export default {
       year: new Date().getFullYear(),
       supportDialog: false,
       supportForm: null,
-    };
   },
   created(){
     this.fetchSupportForm();

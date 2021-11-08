@@ -11,7 +11,6 @@
         </nuxt-link>
       </div>
     </v-toolbar-title>
-    <a
       href="/more"
       @click.prevent="dropdownClick"
       v-if="gridMenuPages.length"

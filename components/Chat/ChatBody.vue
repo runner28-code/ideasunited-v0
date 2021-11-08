@@ -1,5 +1,6 @@
 <template>
   <div class="chat-body" ref="messages">
+    <client-only>
       <infinite-loading direction="top" @infinite="fetchMessages">
         <div slot="no-more"></div>
         <div slot="no-results"></div>
@@ -33,7 +34,6 @@ export default {
             this.deleteMessage(payload.id);
             break;
           case "update_message":
-            this.updateMessage(payload);
             break;
         }
       }

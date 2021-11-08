@@ -12,6 +12,7 @@ const signature = params.get("signature") || "";
 const apiKey = params.get("apiKey") || "";
 
 ZoomMtg.init({
+  debug: true,
   leaveUrl: "https://zoom.us"
 });
 
@@ -21,7 +22,6 @@ const joinParams = {
   apiKey,
   signature,
   userEmail,
-  passWord,
   success: function(res) {
     console.log("Success", res);
   },

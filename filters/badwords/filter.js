@@ -16,6 +16,7 @@ class Filter {
     return (
       this.list.filter(word => {
         const wordExp = new RegExp(
+          `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
           "gi"
         );
         return (
@@ -31,6 +32,7 @@ class Filter {
       .replace(this.replaceRegex, this.placeHolder);
   }
 
+// Temp comment
   clean(string) {
     const join = this.splitRegex.exec(string);
     return string

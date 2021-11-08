@@ -78,7 +78,6 @@ export default {
         font_name: "Source Sans Pro",
         google_font_name: "Source Sans Pro",
         src_type: "google_fonts",
-      });
 
       const typekitFonts = [
         this.activeTheme.h1_font?.font,
