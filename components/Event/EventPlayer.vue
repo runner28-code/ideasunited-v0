@@ -15,12 +15,12 @@
       v-else-if="event.event_type == 'zoom'"
       :zoomLink="event.zoom_url"
       :startAt="event.start_at"
-      :event="event"
       :title="event.title"
       :key="event.id"
     />
     <Slider
       v-else-if="event.event_type == 'slideshow'"
+      :slides="event.slides"
     />
   </div>
 </template>
@@ -50,3 +50,4 @@ export default {
   background-color: black;
   background-size: cover;
   background-position: center;
+

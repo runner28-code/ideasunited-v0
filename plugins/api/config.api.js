@@ -62,3 +62,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       if (errors) {
         $nuxt.$alert(errors.join("\n"), "error");
       }
+

@@ -60,3 +60,4 @@ export default {
       return this.currentProject.headline || "this opportunity";
     },
   },
+};

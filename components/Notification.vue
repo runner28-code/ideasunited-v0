@@ -37,6 +37,7 @@
           >{{ data.link_text }}</Button
         >
       </div>
+    </v-navigation-drawer>
   </div>
 </template>
 
@@ -80,3 +81,4 @@ export default {
   &-content {
     white-space: pre-line;
   }
+  &__dialog {

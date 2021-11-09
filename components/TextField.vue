@@ -44,6 +44,7 @@ export default {
       default: "text"
     },
     rules: Array,
+    suffix: String,
     min: [String, Number],
     max: [String, Number],
     block: Boolean,
@@ -94,7 +95,6 @@ export default {
 
   .input-icon-toggle {
     cursor: pointer;
-  }
 
   &::v-deep {
     fieldset {
@@ -109,3 +109,4 @@ export default {
     .v-input__slot {
       min-height: 50px;
     }
+

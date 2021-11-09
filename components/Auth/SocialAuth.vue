@@ -110,3 +110,4 @@ export default {
     }
 
     &--facebook {
+      background: #4064ad;

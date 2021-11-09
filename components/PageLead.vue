@@ -20,6 +20,7 @@
   </div>
 </template>
 
+<script>
 export default {
   computed: {
     styles() {
@@ -32,7 +33,6 @@ export default {
 
       if (lead_text_color) {
         styles.color = lead_text_color;
-      }
 
       return styles;
     }

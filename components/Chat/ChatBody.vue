@@ -34,6 +34,7 @@ export default {
             this.deleteMessage(payload.id);
             break;
           case "update_message":
+            this.updateMessage(payload);
             break;
         }
       }
@@ -85,3 +86,4 @@ export default {
         if (data.length) {
           $state.loaded();
         } else {
+          $state.complete();

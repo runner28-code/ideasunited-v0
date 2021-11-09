@@ -11,6 +11,7 @@
         </nuxt-link>
       </div>
     </v-toolbar-title>
+    <a
       href="/more"
       @click.prevent="dropdownClick"
       v-if="gridMenuPages.length"
@@ -256,7 +257,6 @@ export default {
     &-title {
       font-size: 20px;
       font-weight: bold;
-      line-height: 1.1;
     }
     &-icon {
       margin-left: 5px;
@@ -334,3 +334,4 @@ export default {
       &--home_logo {
         margin-top: 0;
       }
+    }

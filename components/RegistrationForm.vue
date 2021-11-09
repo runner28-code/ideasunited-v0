@@ -161,3 +161,4 @@ export default {
   &__description {
     font-size: 18px;
     margin: 10px 0 50px 0;
+  }

@@ -47,6 +47,7 @@ export default {
     page: Object,
   },
   data() {
+    return {
       days: 0,
       hours: 0,
       minutes: 0,
@@ -196,3 +197,4 @@ export default {
 
 @media screen and (max-width: 700px) {
   .countdown-wrapper {
+    padding: 30px 12px;

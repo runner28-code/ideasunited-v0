@@ -44,7 +44,6 @@ if (!Vue.__map_state_mixin__) {
     computed: {
       ...mapState({
         currentUser: (state) => state.user.current,
-        currentProject: (state) => state.project.current,
         currentPage: (state) => state.page.current,
         datasources: (state) => state.datasources.data,
         currentTimezone(state) {

@@ -41,6 +41,7 @@
           class="slider-modal-content__title"
           >{{ block.title }}</Title
         >
+        <div v-if="block.creator">
           <div
             class="slider-modal-content__creator-info"
             v-if="block.creator.primary_working_location || block.creator.primary_role"
@@ -143,3 +144,4 @@ export default {
       &-info {
         font-size: 20px;
         font-weight: 900;
+        margin-bottom: 30px;

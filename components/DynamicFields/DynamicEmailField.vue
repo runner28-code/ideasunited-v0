@@ -3,7 +3,6 @@
     type="email"
     :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
-    @input="$emit('input', $event)"
     :rules="[...rules, $rules.email]"
     outlined
     @focus.stop="onFocus($event)"
@@ -29,3 +28,4 @@ export default {
   methods: {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
+    }

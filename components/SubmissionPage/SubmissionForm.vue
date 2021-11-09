@@ -9,6 +9,7 @@
           v-else-if="
             submissionForm.anon || (currentUser && currentUser.confirmed)
           "
+        >
           <div class="text-center" v-if="!eligible">
             <Eligibles :value="submissionForm.eligibilities" />
             <br />
@@ -42,7 +43,6 @@
         <div v-else>
           <AuthRegisterForm />
         </div>
-        <v-dialog width="800" v-model="supportDialog">
           <v-card class="support__dialog">
             <SupportForm :support-form="supportForm" />
           </v-card>

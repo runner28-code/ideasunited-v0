@@ -140,7 +140,6 @@ export default {
     },
     async menuClick(item, idx) {
       this.$root.$emit("menuClick", item, idx);
-      if (
         (!item && this.$route.path == "/") ||
         (item && item.url == this.$route.path)
       ) {
@@ -293,3 +292,4 @@ export default {
   &__copyright {
     color: #56565A;
     font-size: 14px;
+    font-weight: 700;

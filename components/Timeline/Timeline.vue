@@ -32,6 +32,7 @@
 
 <script>
 import _ from "lodash";
+
 export default {
   props: {
     value: Object
@@ -209,3 +210,6 @@ export default {
 
 <style scoped lang="scss">
 .timeline {
+  display: flex;
+  width: 100%;
+  align-items: center;
