@@ -43,6 +43,7 @@
         <div v-else>
           <AuthRegisterForm />
         </div>
+        <v-dialog width="800" v-model="supportDialog">
           <v-card class="support__dialog">
             <SupportForm :support-form="supportForm" />
           </v-card>
@@ -59,7 +60,6 @@ export default {
   props: {
     id: String,
     title: String,
-    description: String,
     btnText: String,
     successMessage: String,
     fields: Array,

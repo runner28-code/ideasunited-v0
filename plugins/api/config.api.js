@@ -53,7 +53,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
             redirect(redirect_to);
           }
         }
-      }
 
       return responseConfig;
     },

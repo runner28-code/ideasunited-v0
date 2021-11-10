@@ -95,6 +95,7 @@ export default {
 
   .input-icon-toggle {
     cursor: pointer;
+  }
 
   &::v-deep {
     fieldset {

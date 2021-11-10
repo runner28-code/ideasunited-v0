@@ -10,6 +10,7 @@
         <ListEntry v-for="entry in entries" :key="entry.id" :entry="entry" />
       </div>
     </div>
+  </div>
 </template>
 
 <script>

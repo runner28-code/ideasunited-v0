@@ -356,7 +356,6 @@ export default {
       position: relative;
     }
   }
-
   &__content {
     pointer-events: none;
   }

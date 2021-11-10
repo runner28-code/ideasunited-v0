@@ -16,7 +16,6 @@ const store = {
         root_path: window.location.pathname,
       });
 
-// Temp comment
       commit("set", data);
 
       return data;

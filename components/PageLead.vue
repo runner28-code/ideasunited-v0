@@ -23,7 +23,6 @@
 <script>
 export default {
   computed: {
-    styles() {
       const styles = {};
       const { lead_text_color, lead_background } = this.currentPage;
 
@@ -33,6 +32,7 @@ export default {
 
       if (lead_text_color) {
         styles.color = lead_text_color;
+      }
 
       return styles;
     }

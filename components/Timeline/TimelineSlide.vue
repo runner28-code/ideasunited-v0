@@ -52,6 +52,7 @@ export default {
         this.$emit("setActive", this.value.id);
 
         if (this.value.url) {
+          window.open(this.value.url, "_blank");
         }
       }
     }

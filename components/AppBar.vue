@@ -257,6 +257,7 @@ export default {
     &-title {
       font-size: 20px;
       font-weight: bold;
+      line-height: 1.1;
     }
     &-icon {
       margin-left: 5px;

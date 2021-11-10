@@ -99,7 +99,6 @@ export default {
       },
       areYouSureDialog: false,
       emailValidationSuggestions: [],
-      chooseSignUp: false,
     };
   },
   mounted() {

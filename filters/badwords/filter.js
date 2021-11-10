@@ -1,6 +1,5 @@
 import list from "./stopwords.json";
 
-// Temp comment
 class Filter {
   constructor(options = {}) {
     Object.assign(this, {
