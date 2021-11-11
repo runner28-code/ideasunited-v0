@@ -194,15 +194,3 @@ export default {
     availableEvent(event) {
       return (
         !event.role_ids.length ||
-        _.intersection(event.role_ids, this.currentUser?.role_ids).length
-      );
-    },
-    mobileScroll(e) {
-      const y = e.target.scrollTop;
-      this.$root.$emit("mobileScroll", y);
-    }
-  },
-  watch: {
-    drawer: {
-      handler() {
-        this.$root.$emit("drawerUpdate", this.drawer);

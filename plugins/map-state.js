@@ -10,7 +10,6 @@ if (!Vue.__map_state_mixin__) {
       scrollToInvalidInput(inputs) {
         const inputError = inputs.find((input) => input.hasError);
         if (inputError) {
-          const el = inputError.$el;
           const y = el.getBoundingClientRect().top + window.scrollY - 100 - 20;
 
           window.scroll({
@@ -42,6 +41,7 @@ if (!Vue.__map_state_mixin__) {
       },
     },
     computed: {
+      ...mapState({
         currentUser: (state) => state.user.current,
         currentProject: (state) => state.project.current,
         currentPage: (state) => state.page.current,
@@ -58,6 +58,3 @@ if (!Vue.__map_state_mixin__) {
         );
       },
       $size() {
-        return this.$vuetify.breakpoint.name;
-      },
-      opportunityLogo() {

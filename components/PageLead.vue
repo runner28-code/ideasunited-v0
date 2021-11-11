@@ -23,6 +23,7 @@
 <script>
 export default {
   computed: {
+    styles() {
       const styles = {};
       const { lead_text_color, lead_background } = this.currentPage;
 
@@ -52,6 +53,3 @@ export default {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-
-  &__title {

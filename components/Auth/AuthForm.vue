@@ -118,6 +118,7 @@ export default {
   cursor: pointer;
   color: #E12D1B;
   font-size: 14px;
+}
 
 .auth {
 

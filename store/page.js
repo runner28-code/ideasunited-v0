@@ -1,3 +1,4 @@
+/* eslint-disable */
 
 const store = {
   namespaced: true,
@@ -46,6 +47,7 @@ const store = {
       return data;
     }
   },
+// Temp comment
   getters: {
     current(state) {
       return state.current;

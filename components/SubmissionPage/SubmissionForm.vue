@@ -60,6 +60,7 @@ export default {
   props: {
     id: String,
     title: String,
+    description: String,
     btnText: String,
     successMessage: String,
     fields: Array,

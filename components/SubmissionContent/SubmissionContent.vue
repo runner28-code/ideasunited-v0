@@ -38,7 +38,6 @@ export default {
       list: [],
       infiniteId: +new Date(),
       page: 1,
-      search: ""
     };
   },
   methods: {

@@ -22,6 +22,7 @@
         @click="onclick"
       ></div>
     </v-alert>
+  </v-snackbar>
 </template>
 
 <script>
@@ -69,7 +70,6 @@ export default {
   &__message {
     padding: 15px;
 
-    &.clickable {
       cursor: pointer;
 
       &:hover {

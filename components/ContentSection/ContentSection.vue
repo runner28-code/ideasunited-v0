@@ -52,7 +52,6 @@
           class="content-section__swiper-slide"
           v-for="(block, index) in filteredBlocks"
           :key="block.id"
-        >
           <ContentBlock
             :nextId="getId(index + 1)"
             :prevId="getId(index - 1)"

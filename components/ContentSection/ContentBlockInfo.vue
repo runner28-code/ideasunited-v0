@@ -133,7 +133,6 @@ export default {
       align-items: center;
       overflow: auto;
       max-height: 100%;
-      flex-basis: 500px;
 
       & > div {
         margin: auto;

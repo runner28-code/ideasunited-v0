@@ -14,6 +14,7 @@
             <span>{{
               field.value.length > 100
                 ? field.value.substr(0, 100) + "..."
+                : field.value
             }}</span>
           </div>
         </div>
@@ -55,7 +56,6 @@ export default {
       return this.previewLayout.content
         .map(t => ({
           ...this.formattedData[t.field_id],
-          class_name: t.uuid
         }))
         .filter(t => t);
     },

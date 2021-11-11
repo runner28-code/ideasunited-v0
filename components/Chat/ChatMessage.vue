@@ -89,7 +89,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.message {
   margin-bottom: 15px;
   position: relative;
 }

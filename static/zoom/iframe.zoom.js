@@ -22,5 +22,4 @@ const joinParams = {
   apiKey,
   signature,
   userEmail,
-  passWord,
   success: function(res) {

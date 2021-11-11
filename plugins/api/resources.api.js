@@ -1,9 +1,9 @@
 import { v4 as uuidv4 } from "uuid";
 
 function objectToFormData(obj) {
-// Temp comment
   const formData = new FormData();
 
+// Temp comment
   const files = {};
   const data = JSON.stringify(obj, function (key, value) {
     if (value instanceof File || value instanceof Blob) {

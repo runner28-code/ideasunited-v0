@@ -18,7 +18,6 @@
     </div>
     <div class="uploader-wrapper" v-else>
       <div class="uploader__label" v-if="showLabel && label">
-        {{ label
         }}<span v-if="required && markRequired" class="radio-group__required"
           >*</span
         >

@@ -77,5 +77,6 @@ export default {
       });
     }
   },
+  watch: {
     customComponent: {
       deep: true,

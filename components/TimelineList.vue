@@ -59,7 +59,6 @@ export default {
           width: 3px;
         }
       }
-    }
   }
 
   &__date {

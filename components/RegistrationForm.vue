@@ -70,7 +70,6 @@
           Resend Confirmation Email
         </Button>
       </div>
-    </div>
     <EmailValidationModal
       :opened="areYouSureDialog"
       :suggestions="emailValidationSuggestions"
@@ -99,6 +98,7 @@ export default {
       },
       areYouSureDialog: false,
       emailValidationSuggestions: [],
+      chooseSignUp: false,
     };
   },
   mounted() {
