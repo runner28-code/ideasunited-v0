@@ -9,7 +9,6 @@
     <ChatMessage
       :chat="chat"
       :message="message"
-      v-for="message in messages"
       :key="message.uuid"
     />
   </div>
@@ -87,3 +86,4 @@ export default {
           $state.loaded();
         } else {
           $state.complete();
+        }

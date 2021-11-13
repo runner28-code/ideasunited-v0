@@ -151,7 +151,6 @@ export default {
           position: "fixed",
           top: 0,
           left: 0,
-          y: fixedStart.top,
           x: fixedStart.left,
           width: fixedStart.width,
           paddingBottom: 0,
@@ -441,3 +440,6 @@ export default {
       &:not(.iris-loaded) {
         display: none;
       }
+
+      &-wrapper {
+        position: relative;

@@ -48,7 +48,6 @@ export default {
   watch: {
     presentation: {
       deep: true,
-      immediate: true,
       handler(newVal, oldVal) {
         if (this.newSlideSettings.started && this.player) {
           this.play();
@@ -71,3 +70,4 @@ export default {
     right: 0;
     bottom: 0;
     position: absolute;
+    z-index: 1;

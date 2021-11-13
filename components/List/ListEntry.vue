@@ -48,7 +48,6 @@ export default {
   &__subtitle {
     font-size: 14px;
     color: black;
-    white-space: pre-line;
   }
 }
 

@@ -70,6 +70,7 @@ export default {
   &__message {
     padding: 15px;
 
+    &.clickable {
       cursor: pointer;
 
       &:hover {
@@ -119,3 +120,4 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    justify-content: stretch;

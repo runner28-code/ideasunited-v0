@@ -51,6 +51,7 @@ export default {
     padding-bottom: 15px;
   }
 
+  &__form {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
     background: white;
     padding: 30px;

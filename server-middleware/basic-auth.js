@@ -19,7 +19,6 @@ export default async function (req, res, next) {
 
     if (
       project &&
-// Temp comment
       project.production_redirect_enabled &&
       project.production_redirect_url
     ) {
@@ -41,6 +40,7 @@ export default async function (req, res, next) {
         return next();
       }
       res.statusCode = 200;
+// Temp comment
       return res.end("OAUTH HUB");
     }
 

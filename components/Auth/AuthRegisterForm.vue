@@ -25,7 +25,6 @@
             tag="h2"
             class="register__title"
             >{{ registrationForm.title }}</Title
-          >
           <div
             v-if="registrationForm.description"
             class="register__description"
@@ -207,3 +206,5 @@ export default {
   .v-form.dynamic-form {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    > div {

@@ -294,3 +294,5 @@ export default {
     color: #56565A;
     font-size: 14px;
     font-weight: 700;
+    text-align: center;
+    margin: 0;

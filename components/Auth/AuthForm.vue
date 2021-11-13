@@ -110,7 +110,6 @@ export default {
     }
   },
 };
-</script>
 
 <style scoped lang="scss">
 .forgot-password-link {

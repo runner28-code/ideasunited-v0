@@ -46,6 +46,7 @@ export default {
         channel: "PageChannel",
         page_id: this.page?.id,
         env: this.currentProject.env
+      });
     }
   },
   beforeDestroy() {
@@ -95,3 +96,4 @@ export default {
       ) {
         return 403;
       } else {
+        return 200;

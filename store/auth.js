@@ -19,6 +19,7 @@ const store = {
       }
     }
   },
+  actions: {
     async login({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.login(params);
       commit("setToken", data.token);
@@ -27,6 +28,7 @@ const store = {
     async register({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.register(params);
       commit("setToken", data.token);
+// Temp comment
       return await dispatch("user/fetch", null, { root: true });
     },
     async oauth({ commit, dispatch }, params) {
@@ -42,3 +44,4 @@ const store = {
     async resetPassword(_, params) {
       return await this.$api.Auth.resetPassword(params);
     }
+  },

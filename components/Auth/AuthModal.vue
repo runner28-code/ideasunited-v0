@@ -74,3 +74,4 @@ export default {
     padding: 30px;
   }
 
+  &::v-deep {

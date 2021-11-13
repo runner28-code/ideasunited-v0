@@ -36,7 +36,6 @@ export default {
 
 <style scoped lang="scss">
 .submission-page {
-  &__container {
     max-width: 900px;
     margin: auto;
     width: 100%;

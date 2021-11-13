@@ -63,7 +63,6 @@ export default {
   &__placeholder {
     display: flex;
     align-items: center;
-    height: 100%;
     font-weight: bold;
     font-size: 12px;
     text-transform: uppercase;

@@ -18,6 +18,7 @@
     </div>
     <div class="uploader-wrapper" v-else>
       <div class="uploader__label" v-if="showLabel && label">
+        {{ label
         }}<span v-if="required && markRequired" class="radio-group__required"
           >*</span
         >
@@ -85,7 +86,6 @@ export default {
   },
   methods: {
     handleChange(event) {
-      if(event.target.files.length == 0) return;
       const file = event.target.files[0];
       file.uuid = uuidv4();
 
@@ -156,3 +156,4 @@ export default {
       .v-input__slot {
         display: none !important;
       }
+    }

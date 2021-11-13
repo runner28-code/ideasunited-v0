@@ -31,7 +31,6 @@ export default {
     RegistrationForm,
     Faq,
     TimelineList
-  },
   methods: {
     convertComponent(type) {
       const list = {

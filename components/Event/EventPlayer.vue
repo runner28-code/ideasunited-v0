@@ -52,3 +52,4 @@ export default {
   background-size: cover;
   background-position: center;
 
+  &::v-deep {

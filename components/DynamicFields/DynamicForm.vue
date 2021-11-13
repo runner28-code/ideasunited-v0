@@ -72,7 +72,6 @@ export default {
     markRequired: Boolean,
     showLabel: Boolean,
     description: String,
-    btnText: String,
     disabled: Boolean,
     showBackToLogin: Boolean,
   },
@@ -104,6 +103,7 @@ export default {
       if (!field.conditional) return true;
 
       const conditionalField = this.fields.find(
+        (f) => f.uuid == field.conditional_uuid
       );
       if (conditionalField.type == "Radio") {
         const conditionalFormOption = conditionalField.options.find((o) => {
@@ -185,3 +185,4 @@ export default {
         }
       },
     },
+    value: {

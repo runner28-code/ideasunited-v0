@@ -159,3 +159,4 @@ export default {
     left: 0px;
   }
   &__next {
+    right: 0px;

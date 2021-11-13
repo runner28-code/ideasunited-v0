@@ -282,3 +282,7 @@ export default {
             this.scrollDelayCounter = 0;
             this.clickingToSection = false;
           }
+          this.currentSlide = destination.index;
+        },
+        afterRender: () => {
+          if (location.hash) {

@@ -38,9 +38,11 @@ export default {
         email
       });
     }
+  }
 };
 </script>
 
 <style lang="scss" scoped>
 .zoom-chat {
   height: 100%;
+  width: 100%;

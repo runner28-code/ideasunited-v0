@@ -72,3 +72,4 @@ export default {
     border-radius: 32px;
     margin-right: 9px;
   }
+  &-text {

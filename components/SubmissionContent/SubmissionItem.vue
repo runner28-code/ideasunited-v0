@@ -56,6 +56,7 @@ export default {
       return this.previewLayout.content
         .map(t => ({
           ...this.formattedData[t.field_id],
+          class_name: t.uuid
         }))
         .filter(t => t);
     },
@@ -126,3 +127,4 @@ export default {
     color: white;
 
     &--TextArea {
+      max-height: 3em;

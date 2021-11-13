@@ -178,3 +178,5 @@ export default {
     }
     &__start {
       flex-direction: column;
+      .footer__separator {
+        background: none;

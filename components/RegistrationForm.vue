@@ -70,6 +70,7 @@
           Resend Confirmation Email
         </Button>
       </div>
+    </div>
     <EmailValidationModal
       :opened="areYouSureDialog"
       :suggestions="emailValidationSuggestions"
@@ -102,7 +103,6 @@ export default {
     };
   },
   mounted() {
-    if(this.$route.query.signup) {
       this.chooseSignUp = true;
     }
   },
@@ -161,3 +161,4 @@ export default {
     font-size: 18px;
     margin: 10px 0 50px 0;
   }
+  &__not-confirmed {

@@ -1,6 +1,5 @@
 <template>
   <div class="submission-content">
-    <SearchInput v-model="search" />
     <div class="submission-content__grid">
       <SubmissionItem
         :prevId="getId(index - 1)"
@@ -38,6 +37,7 @@ export default {
       list: [],
       infiniteId: +new Date(),
       page: 1,
+      search: ""
     };
   },
   methods: {
@@ -105,3 +105,4 @@ export default {
   }
 }
 
+.no-submission {

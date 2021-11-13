@@ -1,3 +1,3 @@
 import Player from "@vimeo/player";
 
-  inject("Vimeo", Player);
+export default function(ctx, inject) {

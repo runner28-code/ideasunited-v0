@@ -113,3 +113,4 @@ export default {
       if (!this.submissionForm) return false;
       const eligibility_ids = _.uniq(this.submissionForm.eligibility_ids);
       if (eligibility_ids.length == 0) return true;
+      const badge_ids = _.uniq(this.currentUser.badge_ids);

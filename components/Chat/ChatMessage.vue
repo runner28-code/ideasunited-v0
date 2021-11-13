@@ -68,7 +68,6 @@ export default {
       }
     },
     deleteAllMessagesAndBlock() {
-      if (
         confirm("all messages from this user will be deleted. Are you sure?")
       ) {
         this.$api.Message.destroyAll({
@@ -89,6 +88,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.message {
   margin-bottom: 15px;
   position: relative;
 }
@@ -112,3 +112,4 @@ export default {
     margin-left: 3px;
   }
 }
+

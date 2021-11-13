@@ -120,3 +120,4 @@ export default {
     background-position: center;
     background-size: contain;
     position: relative;
+    min-height: unset;

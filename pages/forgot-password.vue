@@ -49,6 +49,7 @@ export default {
   margin: auto;
   align-items: center;
   justify-content: center;
+  width: 100%;
   background: whitesmoke;
 
   &__title {
@@ -63,3 +64,4 @@ export default {
     background: white;
     padding: 30px;
     max-width: 400px;
+    width: 100%;

@@ -38,7 +38,6 @@
             v-if="newOpps.length"
             class="app-bar__menu__opp-count"
           >{{ newOpps.length }}</div>
-        </transition>
       </v-btn>
 
     </v-app-bar>
@@ -335,6 +334,7 @@ export default {
     &-chevron_down {
       margin-top: 5px;
       margin-left: 5px;
+    }
   }
 }
 
@@ -343,3 +343,5 @@ export default {
     background: white;
     height: 36px;
     width: 36px;
+    border-radius: 50%;
+    display: flex;

@@ -50,7 +50,6 @@ export default {
   watch: {
     presentation: {
       deep: true,
-      immediate: true,
       handler(newVal, oldVal) {
         if (this.newSlideSettings.started && this.player) {
           this.play();
@@ -60,3 +59,5 @@ export default {
   }
 };
 </script>
+
+<style scoped lang="scss">

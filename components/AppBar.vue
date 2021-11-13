@@ -336,3 +336,6 @@ export default {
         margin-top: 0;
       }
     }
+
+    &-footer {
+      font-size: 14px;

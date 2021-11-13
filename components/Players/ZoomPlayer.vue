@@ -26,7 +26,6 @@
       <Button large @click="openZoomLink">Click to Connect</Button>
     </div>
   </div>
-</template>
 <script>
 import { buildZoomLink } from "@/utils";
 
@@ -97,3 +96,4 @@ export default {
 @media screen and (max-width: 960px) {
   .zoom-player {
     padding-bottom: 15%;
+    &__title {

@@ -198,3 +198,5 @@ export default {
 @media screen and (max-width: 700px) {
   .countdown-wrapper {
     padding: 30px 12px;
+    flex-direction: column;
+  }

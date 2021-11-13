@@ -59,6 +59,7 @@ export default {
           width: 3px;
         }
       }
+    }
   }
 
   &__date {
@@ -72,3 +73,4 @@ export default {
       width: 15px;
       height: 15px;
       position: absolute;
+      right: -7.5px;
