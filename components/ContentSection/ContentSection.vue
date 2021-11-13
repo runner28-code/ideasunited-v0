@@ -200,6 +200,7 @@ export default {
         "xs" == this.$size &&
         idx >= 4 &&
         !this.viewMore
+      );
     }
   }
 };
@@ -330,3 +331,5 @@ export default {
           &:nth-child(3n) {
             margin-right: 0;
           }
+        }
+        @media screen and (max-width: 960px) {

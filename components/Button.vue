@@ -50,7 +50,6 @@ export default {
     click() {
       if (this.type == "submit") {
         if (this.refs?.form && !this.refs.form.validate()) {
-          return this.scrollToInvalidInput(this.refs.form.inputs);
         }
       }
 
@@ -63,3 +62,4 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">

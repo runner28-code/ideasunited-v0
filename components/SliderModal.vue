@@ -160,3 +160,4 @@ export default {
   }
   &__next {
     right: 0px;
+  }

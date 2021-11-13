@@ -60,6 +60,7 @@ export function copyToClipboard(str) {
   document.execCommand("copy");
   document.body.removeChild(el);
   if (selected) {
+    document.getSelection().removeAllRanges();
     document.getSelection().addRange(selected);
   }
 }

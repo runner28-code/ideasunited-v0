@@ -28,5 +28,6 @@ export default {
         this.$router.push("/");
         console.error(e);
       }
+    }
   }
 };

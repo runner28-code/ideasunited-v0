@@ -50,3 +50,4 @@ export default {
   &__required {
     color: red;
     margin-left: 3px;
+  }

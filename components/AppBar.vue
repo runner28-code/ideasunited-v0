@@ -339,3 +339,6 @@ export default {
 
     &-footer {
       font-size: 14px;
+      font-weight: 400;
+      margin-top: 5.4em;
+      &-item {

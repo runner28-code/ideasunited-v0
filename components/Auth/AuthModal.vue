@@ -24,7 +24,6 @@ export default {
       opened: false,
       dialogState: {
         chooseSignUp: false,
-      }
     };
   },
   mounted() {
@@ -75,3 +74,4 @@ export default {
   }
 
   &::v-deep {
+    .v-card__text {

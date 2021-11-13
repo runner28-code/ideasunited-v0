@@ -71,7 +71,6 @@ export default {
     padding: 15px;
 
     &.clickable {
-      cursor: pointer;
 
       &:hover {
         background: rgba(255, 255, 255, 0.1);

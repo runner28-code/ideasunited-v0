@@ -125,3 +125,4 @@
       height: 100%;
     }
     @media screen and (max-width: 960px) {
+      display: none;

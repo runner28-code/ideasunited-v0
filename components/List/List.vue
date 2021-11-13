@@ -57,3 +57,4 @@ export default {
     max-width: 800px;
     font-size: 18px;
     margin: auto;
+  }

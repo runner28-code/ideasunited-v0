@@ -39,3 +39,4 @@ const store = {
     },
   },
   getters: {
+    current(state) {

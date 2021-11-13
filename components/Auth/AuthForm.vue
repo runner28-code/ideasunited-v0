@@ -110,6 +110,7 @@ export default {
     }
   },
 };
+</script>
 
 <style scoped lang="scss">
 .forgot-password-link {
@@ -191,3 +192,4 @@ export default {
   &-footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;

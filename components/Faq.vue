@@ -98,3 +98,4 @@ export default {
     .theme--light.v-expansion-panels .v-expansion-panel-header,
     .theme--light.v-expansion-panels .v-expansion-panel-content {
       font-size: 20px;
+      line-height: 1.2;

@@ -103,6 +103,7 @@ export default {
     };
   },
   mounted() {
+    if(this.$route.query.signup) {
       this.chooseSignUp = true;
     }
   },
@@ -162,3 +163,4 @@ export default {
     margin: 10px 0 50px 0;
   }
   &__not-confirmed {
+    background: white;

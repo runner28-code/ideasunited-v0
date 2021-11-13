@@ -286,3 +286,8 @@ export default {
         },
         afterRender: () => {
           if (location.hash) {
+            this.goToHash(location.hash);
+          }
+        },
+      };
+    },

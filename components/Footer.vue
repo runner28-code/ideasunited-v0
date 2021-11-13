@@ -180,3 +180,4 @@ export default {
       flex-direction: column;
       .footer__separator {
         background: none;
+        height: 15px;

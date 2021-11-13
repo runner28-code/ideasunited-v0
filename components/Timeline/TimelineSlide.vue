@@ -173,3 +173,4 @@ export default {
     align-items: center;
     position: absolute;
     color: #101820;
+    padding: 4px 11px;

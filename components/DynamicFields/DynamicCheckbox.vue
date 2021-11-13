@@ -38,7 +38,6 @@ export default {
   },
 };
 </script>
-
 <style scoped lang="scss">
 .checkbox {
   margin-top: 2px;
@@ -47,3 +46,4 @@ export default {
   &::v-deep {
     .v-input__slot {
       align-items: start !important;
+    }

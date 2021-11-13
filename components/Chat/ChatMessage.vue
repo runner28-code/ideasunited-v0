@@ -68,6 +68,7 @@ export default {
       }
     },
     deleteAllMessagesAndBlock() {
+      if (
         confirm("all messages from this user will be deleted. Are you sure?")
       ) {
         this.$api.Message.destroyAll({
@@ -113,3 +114,4 @@ export default {
   }
 }
 
+.message__body {

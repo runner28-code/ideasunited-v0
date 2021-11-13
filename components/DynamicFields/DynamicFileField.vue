@@ -86,3 +86,19 @@ export default {
         display: none !important;
       }
     }
+  }
+
+  &:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  &__placeholder {
+    font-size: 24px;
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: bold;
+  }
+
+  &__upload-btn {
+    background: #f5f5f5e0 !important;
+  }

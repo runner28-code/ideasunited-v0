@@ -71,3 +71,4 @@ export default {
   }
 
   &__date {
+    font-size: 30px;

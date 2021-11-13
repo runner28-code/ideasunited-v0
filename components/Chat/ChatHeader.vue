@@ -25,7 +25,6 @@ export default {
         this.status = "Disconnected";
       }
     }
-  }
 };
 </script>
 
@@ -55,3 +54,4 @@ export default {
 
     &--Connecting {
       background: rgb(238, 226, 226);
+    }

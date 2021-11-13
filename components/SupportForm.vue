@@ -70,3 +70,4 @@ export default {
     font-size: 36px !important;
     margin-bottom: 0.5em;
   }
+

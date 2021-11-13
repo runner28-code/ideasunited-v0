@@ -54,7 +54,6 @@ if (!Vue.__map_state_mixin__) {
         },
       }),
       activeTheme() {
-// Temp comment
         return (
           this.currentPage?.active_theme || this.currentProject?.active_theme
         );

@@ -197,7 +197,6 @@ export default {
       display: flex;
       flex-direction: column;
       height: 100%;
-    }
 
     &-player {
       height: calc(100vh - 200px);
@@ -260,3 +259,5 @@ export default {
   .show-chat {
     display: block;
   }
+
+  .event {

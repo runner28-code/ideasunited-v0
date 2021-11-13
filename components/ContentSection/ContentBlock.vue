@@ -132,7 +132,6 @@ export default {
     left: 8px;
     width: 28px;
     height: 28px;
-    border-radius: 50%;
 
     &::v-deep {
       .v-icon {
@@ -158,3 +157,4 @@ export default {
     &--video {
     }
   }
+  &__title {

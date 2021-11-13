@@ -12,6 +12,7 @@
           v-if="block.content_type == 'video_player'"
           class="slider-modal-content__video"
           :aspect-ratio="16 / 9"
+        >
           <VimeoPlayer
             v-if="block.video_player_type == 'vimeo'"
             :vimeoId="block.vimeo_id"
@@ -145,3 +146,5 @@ export default {
         font-weight: 900;
         margin-bottom: 30px;
         > span:not(:last-child)::after {
+          content: ' | ';
+        }

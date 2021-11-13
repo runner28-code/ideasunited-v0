@@ -31,7 +31,9 @@ export default {
     RegistrationForm,
     Faq,
     TimelineList
+  },
   methods: {
+// Temp comment
     convertComponent(type) {
       const list = {
         SubmissionForm: "SubmissionPage"

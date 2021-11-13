@@ -80,3 +80,4 @@ export default {
   watch: {
     customComponent: {
       deep: true,
+      immediate: true,

@@ -24,7 +24,6 @@
     <template #append>
       <div v-if="type == 'password'">
         <v-icon @click="togglePassword" class="input-icon-toggle" @focus="onFocus">{{
-          localType == "password" ? "$eye" : "$eye_off"
         }}</v-icon>
       </div>
     </template>
@@ -111,3 +110,4 @@ export default {
       min-height: 50px;
     }
 
+    .v-label {

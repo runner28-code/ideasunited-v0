@@ -38,6 +38,7 @@
             v-if="newOpps.length"
             class="app-bar__menu__opp-count"
           >{{ newOpps.length }}</div>
+        </transition>
       </v-btn>
 
     </v-app-bar>
@@ -345,3 +346,6 @@ export default {
     width: 36px;
     border-radius: 50%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;

@@ -31,3 +31,4 @@ export default {
   align-items: center;
   flex-direction: column;
   z-index: 7;
+}

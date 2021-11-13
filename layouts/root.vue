@@ -30,7 +30,6 @@ import RootAppBar from "@/components/RootPage/RootAppBar";
 export default {
   components: { HomePageLede, RootAppBar },
   data() {
-    return {
       drawer: false,
       timeouts: {},
       key: 0
@@ -197,3 +196,6 @@ export default {
         _.intersection(event.role_ids, this.currentUser?.role_ids).length
       );
     },
+    mobileScroll(e) {
+      const y = e.target.scrollTop;
+      this.$root.$emit("mobileScroll", y);

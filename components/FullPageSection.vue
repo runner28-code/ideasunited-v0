@@ -13,6 +13,7 @@
             <h2 v-if="page.content_subhead" v-html="page.content_subhead"></h2>
           </div>
         </div>
+        <div
           class="component"
           v-for="component in page.components"
           :key="component.resource_id"
@@ -78,7 +79,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.page {
   background-color: #56565a;
   overflow-y: scroll;
   overflow-anchor: none;

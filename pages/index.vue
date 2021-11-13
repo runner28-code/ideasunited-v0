@@ -5,7 +5,6 @@
     <RootPage v-else-if="status == 200" />
   </div>
 </template>
-
 <script>
 export default {
   layout: 'root',
@@ -41,3 +40,4 @@ export default {
 
 <style lang="scss" scoped>
 .page-wrapper {
+  position: relative;
