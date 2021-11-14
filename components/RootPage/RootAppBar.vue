@@ -129,6 +129,7 @@ export default {
     },
     updateNewOppDetail() {
       if(!this.newOpps || this.newOpps.length == 0) {
+        this.newOppDetail = null;
         return;
       }
       if(!this.newOppDetail) {

@@ -71,6 +71,5 @@ export default {
       display: block;
       content: "";
       width: 15px;
-      height: 15px;
       position: absolute;
       right: -7.5px;

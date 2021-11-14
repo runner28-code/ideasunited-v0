@@ -63,3 +63,4 @@ export default {
 
 <style scoped lang="scss">
 .youtube-player {
+  width: 100%;

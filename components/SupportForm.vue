@@ -51,7 +51,6 @@ export default {
         this.form.user_agent = this.$ua._parsed;
         await this.$api.Support.create(this.form);
         this.submitted = true;
-      } catch {}
     }
   }
 };

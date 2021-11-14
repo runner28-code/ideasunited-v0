@@ -128,7 +128,6 @@ export default {
   background-size: cover;
   background-position: center;
 }
-.countdown-wrapper {
   min-height: 120px;
   width: 100%;
   display: flex;

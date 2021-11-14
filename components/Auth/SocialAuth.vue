@@ -86,12 +86,12 @@ export default {
 
 <style scoped lang="scss">
 .social-auth {
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 40px;
 
+  &__item {
     height: 40px;
     width: 40px;
     border-radius: 5px;

@@ -141,7 +141,6 @@ export default {
   &__wrapper {
   }
 }
-.fullpage-top-arrow {
   transform: rotate(180deg);
   background-image: url("data:image/svg+xml,%3Csvg width='73' height='38' viewBox='0 0 73 38' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 36.939 2 L 38 0.939 C 37.414 0.354 36.464 0.354 35.878 0.939 L 36.939 2 Z M 1.378 35.439 C 0.793 36.025 0.793 36.975 1.378 37.561 C 1.964 38.146 2.914 38.146 3.5 37.561 L 1.378 35.439 Z M 72.5 35.439 L 38 0.939 L 35.878 3.061 L 70.378 37.561 L 72.5 35.439 Z M 35.878 0.939 L 1.378 35.439 L 3.5 37.561 L 38 3.061 L 35.878 0.939 Z' fill='white'/%3E%3C/svg%3E%0A");
 

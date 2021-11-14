@@ -1,4 +1,3 @@
-// Temp comment
 import moment from "moment-timezone";
 
 export const state = () => ({
@@ -18,6 +17,7 @@ export const actions = {
     const { data: projectData } = await this.$api.Project.current({
       host: req.headers.host,
       root_path: req.url
+// Temp comment
     });
 
     commit("project/set", projectData);

@@ -91,6 +91,7 @@ export default {
     return {
       sliderInited: false
     };
+  },
   mounted() {
     setTimeout(() => {
       this.sliderInited = true;

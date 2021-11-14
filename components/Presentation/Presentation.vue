@@ -9,7 +9,6 @@
       :slide="presentation.active_slide"
       v-if="presentation.active_slide.slide_type == 'image'"
     />
-    <PresentationVimeo
       :presentation="presentation"
       :slide="presentation.active_slide"
       v-if="presentation.active_slide.slide_type == 'vimeo'"
@@ -30,6 +29,7 @@ export default {
   },
   computed: {
     presentation() {
+      return (this.page || this.currentPage).presentations[this.value];
     }
   }
 };

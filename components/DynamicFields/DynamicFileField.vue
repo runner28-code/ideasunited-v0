@@ -26,7 +26,6 @@ export default {
     },
     circle: Boolean,
     position: {
-      type: String,
       default: "center"
     },
     rules: {

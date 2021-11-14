@@ -220,3 +220,7 @@ export default {
   &__control {
     visibility: hidden;
     pointer-events: none;
+
+    &.visible {
+      visibility: visible;
+      pointer-events: all;

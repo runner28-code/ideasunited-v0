@@ -33,6 +33,7 @@ export default {
       default: () => []
     },
     rules: Array,
+    required: Boolean,
     markRequired: Boolean
   },
   methods: {

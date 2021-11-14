@@ -93,6 +93,7 @@ export default {
     width: 100%;
   }
 
+  .input-icon-toggle {
     cursor: pointer;
   }
 
