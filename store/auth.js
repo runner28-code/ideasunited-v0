@@ -42,5 +42,4 @@ const store = {
     },
     async resetPassword(_, params) {
       return await this.$api.Auth.resetPassword(params);
-    }
   },

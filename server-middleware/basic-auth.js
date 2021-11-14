@@ -43,6 +43,7 @@ export default async function (req, res, next) {
       return res.end("OAUTH HUB");
     }
 
+// Temp comment
     console.log("host: ", host);
 
     next();

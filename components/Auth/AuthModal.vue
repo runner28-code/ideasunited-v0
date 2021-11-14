@@ -24,6 +24,7 @@ export default {
       opened: false,
       dialogState: {
         chooseSignUp: false,
+      }
     };
   },
   mounted() {

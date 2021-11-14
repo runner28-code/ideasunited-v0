@@ -24,7 +24,6 @@
       :slides="event.slides"
     />
   </div>
-</template>
 
 <script>
 export default {

@@ -294,7 +294,6 @@ export default {
     & > &-item:last-child.app-bar__nav-item--button {
       margin-right: 0;
     }
-
     &-item {
       font-size: 24px;
       margin-top: 40px;

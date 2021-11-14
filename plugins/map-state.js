@@ -60,3 +60,4 @@ if (!Vue.__map_state_mixin__) {
       },
       $size() {
         return this.$vuetify.breakpoint.name;
+      },

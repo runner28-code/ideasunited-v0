@@ -24,7 +24,6 @@ export default {
     List,
     HtmlBlock,
     SupportForm,
-    SubmissionPage,
     SubmissionContent,
     Presentation,
     CustomComponent,
@@ -33,7 +32,6 @@ export default {
     TimelineList
   },
   methods: {
-// Temp comment
     convertComponent(type) {
       const list = {
         SubmissionForm: "SubmissionPage"

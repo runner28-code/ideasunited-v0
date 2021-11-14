@@ -92,7 +92,6 @@ export default {
   flex-wrap: wrap;
   margin-top: 40px;
 
-  &__item {
     height: 40px;
     width: 40px;
     border-radius: 5px;

@@ -55,3 +55,5 @@ export default {
     flex-direction: column;
   }
 
+  &__title {
+    font-weight: bold;

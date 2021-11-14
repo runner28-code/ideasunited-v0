@@ -27,6 +27,7 @@ export default {
     },
     items() {
       return this.timelineList?.settings?.items;
+    },
     timelineCssVars() {
       return {
         '--dot-color': this.timelineList?.settings?.dot_color || "currentColor",

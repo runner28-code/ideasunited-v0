@@ -16,6 +16,7 @@ export default {
   props: {
     youtubeId: String
   }
+};
 </script>
 
 <style scoped lang="scss">

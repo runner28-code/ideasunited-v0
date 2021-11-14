@@ -11,6 +11,7 @@
     <swiper ref="swiper" class="timeline__swiper" :options="swiperOption">
       <swiper-slide
         class="timeline__swiper-slide"
+        v-for="event in timelineEvents"
         :key="event.id"
         :class="{ posted: event.posted }"
       >
@@ -218,3 +219,4 @@ export default {
 
   &__control {
     visibility: hidden;
+    pointer-events: none;

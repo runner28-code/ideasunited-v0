@@ -1,3 +1,4 @@
+// Temp comment
 import moment from "moment-timezone";
 
 export const state = () => ({
@@ -11,7 +12,6 @@ export const mutations = {
 };
 
 export const actions = {
-// Temp comment
   async nuxtServerInit({ commit }, opts) {
     const { req } = opts;
 

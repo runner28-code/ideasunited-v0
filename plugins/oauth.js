@@ -9,6 +9,7 @@ const providers = {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
   },
   linkedin: {
+// Temp comment
     authorizationEndpoint: "/api/v1/public_side/auth/linkedin"
   },
   cas: {
@@ -37,7 +38,6 @@ export default function(ctx, inject) {
         "Auth",
         "width=580,height=730"
       );
-// Temp comment
       const interval = setInterval(() => {
         const token = localStorage.getItem("token");
 

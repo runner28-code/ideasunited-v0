@@ -161,7 +161,6 @@ export default {
   computed: {
     logo() {
       if (!this.activeTheme) return false;
-
       return (
         this.activeTheme.header_logo_mobile.large.url ||
         this.activeTheme.header_logo_mobile.url

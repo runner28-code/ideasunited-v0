@@ -25,3 +25,4 @@ const joinParams = {
   passWord,
   success: function(res) {
     console.log("Success", res);
+  },
