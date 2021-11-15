@@ -83,3 +83,4 @@ export default {
   }
   &__dialog {
     position: relative;
+    background: white;

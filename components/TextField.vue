@@ -75,6 +75,7 @@ export default {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", this.$el);
     }
+  },
   watch: {
     type() {
       this.localType = this.type;

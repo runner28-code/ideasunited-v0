@@ -171,6 +171,7 @@ export default {
             text-transform: ${this.activeTheme.h2_font.case};
           }
           ${this.activeTheme?.css}
+        </style>
       `;
     }
   },
@@ -202,3 +203,5 @@ export default {
     }
   },
   watch: {
+    drawer: {
+        this.$root.$emit("drawerUpdate", this.drawer);

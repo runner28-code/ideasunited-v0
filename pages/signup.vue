@@ -15,7 +15,7 @@
 </template>
 
 <script>
-export default {
+import { frontendToProfile } from "@/utils";
   layout: 'simple',
   methods: {
     logout() {

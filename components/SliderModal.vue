@@ -32,6 +32,7 @@
         </v-btn>
         <v-card class="slider-modal__content">
           <div class="slider-modal__content-wrapper" @click.stop>
+            <v-btn
               @click="close"
               class="close elevation-0"
               fab
@@ -161,3 +162,5 @@ export default {
     right: 0px;
   }
 }
+
+@media screen and (max-width: 944px) {

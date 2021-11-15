@@ -29,6 +29,7 @@ export default {
 .list-entry {
   width: 25%;
   padding: 15px;
+  display: flex;
 
   &__preview {
     width: 40px;
@@ -54,3 +55,4 @@ export default {
 @media screen and (max-width: 960px) {
   .list-entry {
     width: 33%;
+  }

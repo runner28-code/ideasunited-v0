@@ -72,6 +72,7 @@ export default {
 
             if (callback) callback();
             this.key = component.updated_at;
+          });
         }
       });
     }
@@ -80,3 +81,4 @@ export default {
     customComponent: {
       deep: true,
       immediate: true,
+      handler(val) {

@@ -328,6 +328,7 @@ export default {
           opacity: 0.8;
         }
         &.nuxt-link-active {
+          color: #e12d1b;
         }
       }
 
@@ -342,3 +343,6 @@ export default {
       margin-top: 5.4em;
       &-item {
         text-transform: none;
+        margin: 1em 0;
+        a {
+          color: #e12d1b;

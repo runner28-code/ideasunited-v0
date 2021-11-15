@@ -121,3 +121,4 @@ export default {
     flex-direction: column;
     align-items: stretch;
     justify-content: stretch;
+  }

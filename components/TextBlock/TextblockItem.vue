@@ -1,4 +1,3 @@
-<template>
   <component
     :is="item.link ? 'a' : 'div'"
     :href="item.link"
@@ -104,3 +103,4 @@ a.text-block__item-wrapper:hover {
     &__item {
       min-height: 200px;
       display: flex;
+      align-items: center;

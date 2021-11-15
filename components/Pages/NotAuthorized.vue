@@ -36,4 +36,4 @@ export default {
 
 <style scoped lang="scss">
 .not-authorized {
-  display: flex;
+  justify-content: center;

@@ -63,7 +63,6 @@ export default {
     }
   },
   methods: {
-    openDialog() {
       if (this.block.content_type == "no_content") return;
       if (this.block.content_type == "video_player") {
         if (this.block.video_player_type == "event") {
@@ -160,3 +159,4 @@ export default {
   }
   &__title {
     font-weight: 900;
+    font-size: 18px;

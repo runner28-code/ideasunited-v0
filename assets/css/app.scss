@@ -1,8 +1,8 @@
+@import "./slider-modal-content.scss";
 
 html {
   scroll-behavior: smooth;
 }
-
 .error {
   &-page {
     position: absolute;
@@ -43,3 +43,4 @@ html {
 }
 .fade-enter, .fade-leave-to {
   opacity: 0;
+}

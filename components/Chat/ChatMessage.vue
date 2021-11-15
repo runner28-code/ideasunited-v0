@@ -115,3 +115,4 @@ export default {
 }
 
 .message__body {
+  font-size: 12px;

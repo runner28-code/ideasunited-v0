@@ -28,6 +28,7 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
 .h2,
 .h1 {
   line-height: 1.1;
@@ -36,3 +37,4 @@ export default {
 @media screen and (max-width: 944px) {
   .h1 {
     font-size: 30px !important;
+  }

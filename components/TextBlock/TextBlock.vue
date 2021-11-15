@@ -43,7 +43,6 @@ export default {
   computed: {
     textBlock() {
       return (this.page || this.currentPage).text_blocks[this.value];
-    },
     calcList() {
       return this.textBlock.items.slice(0, this.textBlock.layout);
     }
@@ -62,6 +61,7 @@ export default {
 
     .text-block__item-wrapper {
       height: 100%;
+    }
   }
 
   &__1 &__side {
@@ -108,3 +108,5 @@ export default {
 }
 </style>
 
+
+<style lang="scss">

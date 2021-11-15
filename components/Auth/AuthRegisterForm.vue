@@ -211,3 +211,5 @@ export default {
     > div {
       width: 100%;
     }
+    > div:nth-child(1),
+    > div:nth-child(2),

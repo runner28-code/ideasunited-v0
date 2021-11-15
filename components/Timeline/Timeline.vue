@@ -198,6 +198,7 @@ export default {
             this.value.type == "content_block" ? "block_id" : "event_id";
           history.pushState({}, "", `?${path}=${this.value.id}`);
           const idx = this.timelineEvents.findIndex(t => t.id == this.value.id);
+          if (idx != -1 && this.swiperInstance) {
             this.swiperInstance.slideTo(idx);
           }
         }
@@ -225,3 +226,6 @@ export default {
       pointer-events: all;
     }
   }
+
+  &__swiper {
+    padding: 40px 10px;

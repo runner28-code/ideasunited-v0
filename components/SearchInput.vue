@@ -18,7 +18,6 @@ export default {
   props: {
     value: String
   },
-  data() {
     return {
       localValue: ""
     };
@@ -82,3 +81,4 @@ export default {
   &__value {
     position: absolute;
     left: 0;
+    right: 0;

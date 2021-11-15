@@ -109,3 +109,4 @@ export default {
 .no-submission {
 }
 
+@media screen and (max-width: 960px) {

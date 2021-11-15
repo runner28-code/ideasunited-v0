@@ -42,6 +42,7 @@
 
 export default {
   name: "Faq",
+  props: {
     value: String,
     page: Object,
   },
@@ -99,3 +100,4 @@ export default {
       font-size: 20px;
       line-height: 1.2;
     }
+    .theme--light.v-expansion-panels .v-expansion-panel {

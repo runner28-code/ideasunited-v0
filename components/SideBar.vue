@@ -300,3 +300,6 @@ export default {
       color: white !important;
     }
   }
+
+  &__separator {
+    height: 3px;

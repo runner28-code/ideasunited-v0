@@ -57,3 +57,4 @@ export default {
       background: rgb(238, 226, 226);
     }
 
+    &--Connected {

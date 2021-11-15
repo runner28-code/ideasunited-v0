@@ -350,3 +350,6 @@ export default {
     justify-content: center;
     margin-right: 11px;
   }
+
+  &-preview {
+    height: 36px;

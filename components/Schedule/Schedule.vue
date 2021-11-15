@@ -63,7 +63,6 @@ export default {
   }
 
   &__items {
-    margin-top: 70px;
   }
 
   &__group {
@@ -72,3 +71,4 @@ export default {
 
   &__date {
     font-size: 30px;
+    font-weight: bold;

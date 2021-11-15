@@ -72,3 +72,4 @@ export default {
     bottom: 0;
     position: absolute;
     z-index: 1;
+    background: transparent;

@@ -68,3 +68,4 @@ export default {
 .submission-item-content {
   .slider-modal-content__content {
     display: flex;
+    align-items: center;

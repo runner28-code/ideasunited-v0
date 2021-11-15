@@ -170,6 +170,7 @@ export default {
             text-transform: ${this.activeTheme.paragraph_font.case};
           }
           h1 {
+            font-family: ${this.activeTheme.h1_font.font.font_name}, sans-serif;
             font-size: ${this.activeTheme.h1_font.size}px;
             letter-spacing: ${this.activeTheme.h1_font.letter_spacing}px;
             font-style: ${this.activeTheme.h1_font.style};
@@ -266,3 +267,5 @@ export default {
 <style lang="scss" scoped>
 .evp-app {
   overflow: unset;
+}
+.account-menu-toggle {

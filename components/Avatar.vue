@@ -57,3 +57,4 @@ export default {
 .avatar {
   margin-right: 10px;
   min-width: 30px;
+  width: 30px;

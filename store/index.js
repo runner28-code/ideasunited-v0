@@ -21,3 +21,4 @@ export const actions = {
 
     commit("project/set", projectData);
 
+    const { data: userData } = await this.$api.User.current();

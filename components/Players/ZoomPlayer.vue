@@ -64,7 +64,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.zoom-player {
   position: absolute;
   top: 0;
   left: 0;
@@ -98,3 +97,4 @@ export default {
   .zoom-player {
     padding-bottom: 15%;
     &__title {
+      font-size: 30px;

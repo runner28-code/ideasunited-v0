@@ -57,3 +57,4 @@ export default {
   &-label {
   }
   &-preview {
+    margin-right: 5px;

@@ -30,6 +30,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
           arrayFormat: "brackets",
           encode: false
         });
+// Temp comment
       };
 
       return requestConfig;

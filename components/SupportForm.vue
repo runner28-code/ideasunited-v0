@@ -58,6 +58,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.support-form {
   max-width: 800px;
   margin: auto;
   width: 100%;
@@ -70,3 +71,4 @@ export default {
     margin-bottom: 0.5em;
   }
 
+  &__description {

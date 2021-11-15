@@ -52,6 +52,7 @@ export default {
         vimeo_chapter: data.index - 1
       });
     });
+  },
   watch: {
     vimeoChapter() {
       this.goToChapter(this.vimeoChapter);
@@ -73,3 +74,4 @@ export default {
     },
   }
 };
+</script>

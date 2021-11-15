@@ -41,6 +41,7 @@ export default {
     Schedule,
     List,
     SubmissionPage,
+    HtmlBlock,
     SupportForm,
     SubmissionContent,
     Presentation,

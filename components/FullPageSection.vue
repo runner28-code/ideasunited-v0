@@ -153,3 +153,4 @@ export default {
     font-weight: 600;
     font-size: 20px;
   }
+}

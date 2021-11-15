@@ -51,3 +51,4 @@ export default {
     color: red;
     margin-left: 3px;
   }
+  &__control {

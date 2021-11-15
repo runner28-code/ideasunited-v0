@@ -105,7 +105,6 @@ export default {
     position: relative;
     transition: 0.3s;
 
-    &:hover {
       filter: brightness(110%);
     }
 
@@ -113,3 +112,4 @@ export default {
       background: #4064ad;
     }
     &--google {
+      background: #db3d29;

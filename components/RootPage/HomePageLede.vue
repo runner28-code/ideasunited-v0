@@ -450,3 +450,8 @@ export default {
         margin-top: 80px;
         z-index: 1;
         @media screen and (max-width: 960px) {
+          left: 0;
+          width: 100%;
+          padding-bottom: 83%;
+          margin-top: 0;
+        }
