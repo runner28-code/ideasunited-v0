@@ -2,6 +2,7 @@
   <v-btn
     @click="click"
     :to="to"
+    :dark="calcTheme == 'dark'"
     :large="large"
     :block="block"
     :xLarge="xLarge"
@@ -51,7 +52,6 @@ export default {
         if (this.refs?.form && !this.refs.form.validate()) {
           return this.scrollToInvalidInput(this.refs.form.inputs);
         }
-      }
 
       this.$emit("click");
     },

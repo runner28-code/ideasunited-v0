@@ -1,4 +1,3 @@
-// Temp comment
 import axios from "axios";
 export default async function (req, res, next) {
   console.log("Date: ", new Date());
@@ -40,7 +39,6 @@ export default async function (req, res, next) {
       if (req.url.includes("/api/v1")) {
         return next();
       }
-      res.statusCode = 200;
       return res.end("OAUTH HUB");
     }
 

@@ -15,7 +15,6 @@ if (!Vue.__map_state_mixin__) {
 
           window.scroll({
             top: y,
-            behavior: "smooth",
           });
         }
       },
@@ -41,6 +40,7 @@ if (!Vue.__map_state_mixin__) {
         this.$root.$emit("alert", payload);
       },
     },
+    computed: {
       ...mapState({
         currentUser: (state) => state.user.current,
         currentProject: (state) => state.project.current,

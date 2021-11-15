@@ -46,7 +46,6 @@ export default {
       display: flex;
       > div {
         width: 50%;
-      }
       &:not(:last-child) {
         .timeline-list__date::before {
           display: block;
@@ -71,5 +70,6 @@ export default {
       display: block;
       content: "";
       width: 15px;
+      height: 15px;
       position: absolute;
       right: -7.5px;

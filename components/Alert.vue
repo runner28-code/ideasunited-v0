@@ -88,7 +88,6 @@ export default {
       justify-content: space-between;
       flex: 1;
     }
-
     .v-alert__content {
     }
 

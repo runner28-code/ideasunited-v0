@@ -198,6 +198,7 @@ export default {
       return (
         this.contentSection.disable_scroll &&
         "xs" == this.$size &&
+        idx >= 4 &&
         !this.viewMore
       );
     }

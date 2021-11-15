@@ -68,7 +68,6 @@ export default {
     font-size: 12px;
     text-transform: uppercase;
 
-    &::v-deep {
       .v-icon {
         color: inherit;
       }

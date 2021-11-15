@@ -51,6 +51,7 @@ export default {
         this.form.user_agent = this.$ua._parsed;
         await this.$api.Support.create(this.form);
         this.submitted = true;
+      } catch {}
     }
   }
 };
@@ -63,7 +64,6 @@ export default {
   width: 100%;
   padding: 20px;
   font-family: Source Sans Pro, sans-serif;
-
   &__title {
     font-family: Source Sans Pro, sans-serif;
     font-size: 36px !important;

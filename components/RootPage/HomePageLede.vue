@@ -308,6 +308,7 @@ export default {
       }
     },
     onFullscreenExit() {
+      this.fullscreen = false;
       this.$refs.videoElem.pause();
     },
     slideChange() {

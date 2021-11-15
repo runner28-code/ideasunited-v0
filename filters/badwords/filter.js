@@ -19,7 +19,6 @@ class Filter {
           `\\b${word.replace(/(\W)/g, "\\$1")}\\b`,
           "gi"
         );
-        return (
           !this.exclude.includes(word.toLowerCase()) && wordExp.test(string)
         );
       }).length > 0 || false

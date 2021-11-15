@@ -21,7 +21,6 @@ export default {
     Event,
     TextBlock,
     Schedule,
-    List,
     HtmlBlock,
     SupportForm,
     SubmissionPage,
