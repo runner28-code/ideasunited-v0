@@ -56,7 +56,6 @@ export default {
   color: #181b23;
 
   &__wrapper {
-    border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
   }
 
@@ -68,6 +67,7 @@ export default {
     font-size: 12px;
     text-transform: uppercase;
 
+    &::v-deep {
       .v-icon {
         color: inherit;
       }

@@ -52,6 +52,7 @@ export default {
   }
 }
 </style>
+
 <style>
 @keyframes marquee-animation {
   0% {

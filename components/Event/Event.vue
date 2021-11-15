@@ -52,6 +52,7 @@
         v-else
         class="event__placeholder"
         :style="{
+          backgroundImage: `url(${activeTheme.event_background.large.url})`
         }"
       ></div>
       <!-- <Spinner v-else /> -->

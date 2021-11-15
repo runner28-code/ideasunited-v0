@@ -37,6 +37,7 @@ export default {
           prevEl: ".swiper-button-prev"
         }
       }
+    };
   },
   methods: {
     slideClick(slide) {

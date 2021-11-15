@@ -61,7 +61,6 @@
               @click="resendConfirmationEmail()"
             >
               Resend Confirmation Email
-            </Button>
           </div>
         </div> <!-- v-if="!currentUser.confirmed" -->
       </div> <!-- v-if="currentUser" -->

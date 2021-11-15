@@ -300,7 +300,6 @@ export default {
           videoElem.mozRequestFullScreen();
         } else if (videoElem.webkitRequestFullscreen) {
           videoElem.webkitRequestFullscreen();
-        } else if (videoElem.webkitEnterFullscreen) {
           videoElem.webkitEnterFullscreen();
         } else if (videoElem.msRequestFullscreen) {
           videoElem.msRequestFullscreen();

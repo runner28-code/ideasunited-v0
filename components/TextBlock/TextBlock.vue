@@ -107,18 +107,3 @@ export default {
     }
   }
 }
-</style>
-
-
-<style lang="scss">
-
-.text-block__4 {
-  .text-block__side {
-    min-height: unset;
-  }
-  .text-block__item.with-preview {
-    background-position: center;
-    background-size: contain;
-    position: relative;
-    min-height: unset;
-    &:before {

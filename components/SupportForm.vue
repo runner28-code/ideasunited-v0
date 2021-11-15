@@ -64,6 +64,7 @@ export default {
   width: 100%;
   padding: 20px;
   font-family: Source Sans Pro, sans-serif;
+
   &__title {
     font-family: Source Sans Pro, sans-serif;
     font-size: 36px !important;

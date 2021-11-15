@@ -22,7 +22,6 @@
         {{ activeGridMenuTitle || activeTheme.header_dropdown_placeholder }}
       </div>
       <div class="app-bar__dropdown-icon">
-        <v-icon>$menu_down</v-icon>
       </div>
     </a>
     <div class="app-bar__nav">
@@ -311,6 +310,7 @@ export default {
         a {
           padding: 0 30px;
           display: block;
+          height: 100%;
           width: 100%;
           display: flex;
           align-items: center;

@@ -132,6 +132,7 @@ export default {
     },
     logout() {
       this.$store.dispatch("auth/logout");
+      this.$emit('input', false);
       window.location.href = "/";
     },
     clickLogin(){

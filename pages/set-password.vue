@@ -43,6 +43,7 @@ export default {
         });
         if (!data) {
           this.$alert("Token not found", "error");
+          this.$router.push("/");
         }
       } catch (e) {
         console.error(e);

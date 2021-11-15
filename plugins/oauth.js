@@ -5,7 +5,6 @@ const providers = {
   facebook: {
     authorizationEndpoint: "/api/v1/public_side/auth/facebook"
   },
-// Temp comment
   twitter: {
     authorizationEndpoint: "/api/v1/public_side/auth/twitter"
   },
@@ -34,6 +33,7 @@ export default function(ctx, inject) {
         authorizationEndpoint + "?domain=" + location.hostname;
 
       const w = window.open(
+// Temp comment
         authorizationEndpoint,
         "Auth",
         "width=580,height=730"

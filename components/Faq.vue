@@ -41,7 +41,6 @@
 <script>
 
 export default {
-  name: "Faq",
   props: {
     value: String,
     page: Object,
