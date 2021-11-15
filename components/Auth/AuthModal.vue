@@ -75,4 +75,3 @@ export default {
   }
 
   &::v-deep {
-    .v-card__text {

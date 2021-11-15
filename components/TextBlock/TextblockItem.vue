@@ -73,6 +73,7 @@ a.text-block__item-wrapper:hover {
       color: inherit;
       transition: 0.3s;
       opacity: 1;
+    }
 
     &-title {
       font-weight: 900;
@@ -102,3 +103,4 @@ a.text-block__item-wrapper:hover {
   .text-block {
     &__item {
       min-height: 200px;
+      display: flex;

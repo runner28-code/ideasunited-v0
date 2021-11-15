@@ -151,6 +151,7 @@ export default {
       return (
         this.currentProject &&
         this.currentProject.production_domain == window.location.hostname
+      );
     },
     fullPageMoveNext(idx) {
       if (idx != -1 && idx + 1 < this.fullpageOpts.anchors.length) {
@@ -292,3 +293,6 @@ export default {
     },
   },
 };
+</script>
+
+<style scoped lang="scss">

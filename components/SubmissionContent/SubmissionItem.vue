@@ -18,6 +18,7 @@
             }}</span>
           </div>
         </div>
+      </div>
     </v-responsive>
 
     <SliderModal
@@ -127,3 +128,4 @@ export default {
 
     &--TextArea {
       max-height: 3em;
+      overflow: hidden;

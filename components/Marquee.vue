@@ -56,3 +56,4 @@ export default {
 <style>
 @keyframes marquee-animation {
   0% {
+    transform: translate(0, 0);

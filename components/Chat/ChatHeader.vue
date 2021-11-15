@@ -56,3 +56,4 @@ export default {
     &--Connecting {
       background: rgb(238, 226, 226);
     }
+

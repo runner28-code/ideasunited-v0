@@ -22,6 +22,7 @@
         {{ activeGridMenuTitle || activeTheme.header_dropdown_placeholder }}
       </div>
       <div class="app-bar__dropdown-icon">
+        <v-icon>$menu_down</v-icon>
       </div>
     </a>
     <div class="app-bar__nav">
@@ -327,7 +328,6 @@ export default {
           opacity: 0.8;
         }
         &.nuxt-link-active {
-          color: #e12d1b;
         }
       }
 
@@ -341,3 +341,4 @@ export default {
       font-weight: 400;
       margin-top: 5.4em;
       &-item {
+        text-transform: none;

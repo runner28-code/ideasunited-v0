@@ -164,3 +164,4 @@ export default {
   }
   &__not-confirmed {
     background: white;
+    padding: 58px;

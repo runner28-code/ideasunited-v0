@@ -14,6 +14,7 @@ export default {
   name: "VimeoPlayer",
   props: {
     vimeoId: [String, Number],
+    vimeoH: [String, Number],
     vimeoChapter: [String, Number],
     firstStartAt: {
       type: Number,
@@ -51,7 +52,6 @@ export default {
         vimeo_chapter: data.index - 1
       });
     });
-  },
   watch: {
     vimeoChapter() {
       this.goToChapter(this.vimeoChapter);

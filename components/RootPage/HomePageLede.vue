@@ -300,6 +300,7 @@ export default {
           videoElem.mozRequestFullScreen();
         } else if (videoElem.webkitRequestFullscreen) {
           videoElem.webkitRequestFullscreen();
+        } else if (videoElem.webkitEnterFullscreen) {
           videoElem.webkitEnterFullscreen();
         } else if (videoElem.msRequestFullscreen) {
           videoElem.msRequestFullscreen();
@@ -447,3 +448,5 @@ export default {
         width: 41.667%;
         padding-bottom: 34.72%;
         margin-top: 80px;
+        z-index: 1;
+        @media screen and (max-width: 960px) {

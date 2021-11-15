@@ -1,7 +1,6 @@
 <template>
   <div class="submission-page">
     <div class="submission-page__container">
-      <SubmissionForm
         @close="formDialog = false"
         :id="submissionForm.id"
         :submissionForm="submissionForm"
@@ -38,6 +37,7 @@ export default {
 .submission-page {
   &__container {
     max-width: 900px;
+    margin: auto;
     width: 100%;
   }
   &__description {

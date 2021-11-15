@@ -58,6 +58,7 @@ export default {
           right: -1.5px;
           width: 3px;
         }
+      }
     }
   }
 
@@ -73,3 +74,4 @@ export default {
       height: 15px;
       position: absolute;
       right: -7.5px;
+      border-radius: 7.5px;

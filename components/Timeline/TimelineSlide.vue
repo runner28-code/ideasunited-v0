@@ -174,3 +174,4 @@ export default {
     position: absolute;
     color: #101820;
     padding: 4px 11px;
+    border-radius: 20px;

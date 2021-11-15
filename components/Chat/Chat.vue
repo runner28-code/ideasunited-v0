@@ -65,3 +65,4 @@ export default {
   padding: 0 40px;
 
   &-logo {
+    height: 32px;

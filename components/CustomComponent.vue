@@ -72,11 +72,11 @@ export default {
 
             if (callback) callback();
             this.key = component.updated_at;
-          });
         }
       });
     }
   },
   watch: {
     customComponent: {
+      deep: true,
       immediate: true,

@@ -159,3 +159,4 @@ export default {
     }
   }
   &__title {
+    font-weight: 900;

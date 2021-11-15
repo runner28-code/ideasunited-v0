@@ -25,3 +25,4 @@ export default {};
   justify-content: center;
   padding: 40px;
   background-size: cover;
+}

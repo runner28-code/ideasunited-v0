@@ -1,3 +1,3 @@
 import WebFont from "webfontloader";
 
-  inject("WebFont", WebFont);
+export default function(ctx, inject) {

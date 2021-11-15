@@ -19,7 +19,6 @@ const store = {
       }
     }
   },
-  actions: {
     async login({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.login(params);
       commit("setToken", data.token);
@@ -31,7 +30,6 @@ const store = {
       return await dispatch("user/fetch", null, { root: true });
     },
     async oauth({ commit, dispatch }, params) {
-// Temp comment
       const { data } = await this.$api.Auth.oauth(params);
       commit("setToken", data.token);
 

@@ -34,3 +34,4 @@ export default {
 <style scoped lang="scss">
 .dynamic-textarea {
   &::v-deep {
+    textarea {

@@ -181,3 +181,4 @@ export default {
       .footer__separator {
         background: none;
         height: 15px;
+      }

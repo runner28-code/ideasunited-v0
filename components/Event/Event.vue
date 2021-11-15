@@ -139,7 +139,6 @@ export default {
   flex-wrap: wrap;
 
   &__placeholder {
-    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -262,3 +261,4 @@ export default {
   }
 
   .event {
+    &__video {

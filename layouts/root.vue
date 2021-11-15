@@ -171,7 +171,6 @@ export default {
             text-transform: ${this.activeTheme.h2_font.case};
           }
           ${this.activeTheme?.css}
-        </style>
       `;
     }
   },
@@ -201,3 +200,5 @@ export default {
       const y = e.target.scrollTop;
       this.$root.$emit("mobileScroll", y);
     }
+  },
+  watch: {

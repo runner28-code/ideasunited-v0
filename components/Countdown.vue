@@ -201,3 +201,4 @@ export default {
     flex-direction: column;
   }
   .countdown-timer {
+    margin: 15px 0;
