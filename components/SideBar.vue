@@ -303,3 +303,6 @@ export default {
 
   &__separator {
     height: 3px;
+    width: 100%;
+    background: black;
+    margin: 20px 0;

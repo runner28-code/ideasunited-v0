@@ -110,3 +110,4 @@ export default {
 }
 
 @media screen and (max-width: 960px) {
+  .submission-content {

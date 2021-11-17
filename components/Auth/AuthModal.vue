@@ -26,7 +26,6 @@ export default {
         chooseSignUp: false,
       }
     };
-  },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
       this.backToLogin();
@@ -77,3 +76,4 @@ export default {
   &::v-deep {
     .v-card__text {
       padding: 0;
+    }

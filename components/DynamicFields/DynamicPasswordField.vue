@@ -14,6 +14,7 @@ export default {
   props: {
     label: String,
     value: String,
+    rules: {
       type: Array,
       default: () => []
     },
@@ -25,3 +26,4 @@ export default {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
+};

@@ -265,7 +265,6 @@ export default {
         .v-icon {
           color: inherit;
         }
-      }
     }
   }
 
@@ -346,3 +345,6 @@ export default {
         margin: 1em 0;
         a {
           color: #e12d1b;
+          text-decoration: none;
+          &::hover {
+            text-decoration: underline;

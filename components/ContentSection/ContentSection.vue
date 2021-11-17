@@ -338,3 +338,6 @@ export default {
             margin-right: 20px;
           }
           &:nth-child(2n) {
+            margin-right: 0;
+          }
+        }

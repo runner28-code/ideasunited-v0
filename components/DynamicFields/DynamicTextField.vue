@@ -14,6 +14,7 @@ export default {
   props: {
     label: String,
     value: String,
+    rules: {
       type: Array,
       default: () => []
     },

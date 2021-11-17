@@ -16,7 +16,6 @@
 </template>
 
 <script>
-export default {
   props: {
     value: String,
     page: Object,
@@ -42,3 +41,4 @@ export default {
     width: 100%;
   }
   &__description {
+    font-size: 18px;

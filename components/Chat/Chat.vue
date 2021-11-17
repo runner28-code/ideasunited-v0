@@ -67,3 +67,5 @@ export default {
   &-logo {
     height: 32px;
     width: 32px;
+    min-width: 32px;
+    background: #f7f7f7;

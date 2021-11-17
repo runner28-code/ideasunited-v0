@@ -8,6 +8,7 @@
 
         <div class="footer__separator"></div>
 
+        <div class="copyright">© {{ year }} Ideas United</div>
       </div>
       <div class="footer__menu">
         <div class="footer__menu-item" v-if="supportForm">
@@ -183,3 +184,5 @@ export default {
       }
     }
     &__menu {
+      margin: 0 0 32px 0;
+      justify-content: center;

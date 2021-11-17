@@ -67,6 +67,7 @@ export default {
     },
     preview() {
       const t = this.item.formatted_data.find(
+        t => t.uuid == this.previewLayout.preview
       );
 
       return t?.value?.preview?.large?.url;
@@ -128,3 +129,4 @@ export default {
     &--TextArea {
       max-height: 3em;
       overflow: hidden;
+

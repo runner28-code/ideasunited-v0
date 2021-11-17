@@ -11,6 +11,7 @@
       ></div>
 
       <Button
+        v-if="currentPage.lead_button_text"
         x-large
         :href="currentPage.lead_button_link"
         >{{ currentPage.lead_button_text }}</Button
@@ -57,3 +58,4 @@ export default {
   &__title {
     font-weight: bold;
     font-size: 48px;
+  }

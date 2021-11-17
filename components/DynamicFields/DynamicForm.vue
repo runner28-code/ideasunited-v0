@@ -192,3 +192,4 @@ export default {
         this.form = { ...this.value };
       },
     },
+  },

@@ -108,3 +108,4 @@ export default {
       &::v-deep {
         .v-text-field__details {
           display: none;
+        }

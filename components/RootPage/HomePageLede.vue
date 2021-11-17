@@ -455,3 +455,7 @@ export default {
           padding-bottom: 83%;
           margin-top: 0;
         }
+        @media screen and (min-width: 1905px) {
+          width: 38%;
+        }
+        &-doodle {

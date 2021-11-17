@@ -301,3 +301,7 @@ export default {
   left: 232px;
   top: 0;
   height: 100%;
+  width: calc(100% - 232px);
+  @media screen and (max-width: 944px) {
+    left: 0;
+    width: 100%;

@@ -9,6 +9,7 @@
     >
       <div class="forgot-password-page__title">Forgot Password?</div>
       <TextField label="Email" v-model="form.email" type="email" />
+      <Button :refs="$refs" block x-large type="submit">Reset Password</Button>
     </v-form>
     <div v-else>
       Email instructions successfully sent
@@ -65,3 +66,4 @@ export default {
     max-width: 400px;
     width: 100%;
 
+    &::v-deep {

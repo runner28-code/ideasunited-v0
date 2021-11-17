@@ -75,3 +75,4 @@ export default {
       position: absolute;
       right: -7.5px;
       border-radius: 7.5px;
+      top: 8px;

@@ -69,3 +69,4 @@ export default {
   .slider-modal-content__content {
     display: flex;
     align-items: center;
+    overflow: auto;

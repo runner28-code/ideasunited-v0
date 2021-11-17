@@ -269,3 +269,5 @@ export default {
   overflow: unset;
 }
 .account-menu-toggle {
+  position: absolute;
+  top: 26px;

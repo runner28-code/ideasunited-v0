@@ -4,6 +4,7 @@
       <div class="countdown-wrapper">
         <div v-html="countdown.left_title" class="countdown__text"></div>
         <div class="countdown-timer">
+          <div class="countdown-timer__item" v-if="days">
             <div class="countdown-timer__item-value">{{ days }}</div>
             <div class="countdown-timer__item-label">days</div>
           </div>
@@ -203,3 +204,5 @@ export default {
     margin: 15px 0;
     height: 60px;
     padding: 15px 0;
+
+    &__item {

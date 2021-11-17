@@ -19,5 +19,5 @@ export default {
         if(data.register_url) window.location.href = data.register_url;
         else this.$router.push("/");
       } catch (e) {
+        this.$router.push("/");
         console.error(e);
-      }

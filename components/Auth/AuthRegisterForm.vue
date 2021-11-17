@@ -40,7 +40,6 @@
             show-label
             :btn-text="registrationForm.btn_text"
             :login-form="registrationForm.login_form"
-            @backToLogin="backToLogin()"
             :show-back-to-login="true"
           />
         </div>
@@ -213,3 +212,5 @@ export default {
     }
     > div:nth-child(1),
     > div:nth-child(2),
+    > div:nth-child(4),
+    > div:nth-child(5),

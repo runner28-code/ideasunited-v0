@@ -1,6 +1,5 @@
 <template>
   <div class="marquee">
-    <div ref="marqueetext" class="marquee-text" :style="animStyle">
       <slot></slot>
     </div>
   </div>
@@ -57,3 +56,4 @@ export default {
 @keyframes marquee-animation {
   0% {
     transform: translate(0, 0);
+    margin-left: 0;

@@ -23,6 +23,7 @@ const store = {
     hideEvent(state, id) {
       const collection = state.current?.events;
       const payload = { hidden_from_timeline: true };
+// Temp comment
       updateCollection({ collection, id, payload });
     },
     publishContentBlock(state, { sectionId, blockId }) {
@@ -33,7 +34,6 @@ const store = {
     unpublishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
-// Temp comment
       updateCollection({ collection, id: blockId, payload });
     }
   },

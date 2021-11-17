@@ -15,7 +15,6 @@
           </v-expansion-panel-header>
           <v-expansion-panel-content v-if="item.answer" v-html="item.answer">
           </v-expansion-panel-content>
-        </v-expansion-panel>
       </v-expansion-panels>
       <v-expansion-panels v-if="items2" class="faqs__column" accordion flat>
         <v-expansion-panel
@@ -101,3 +100,4 @@ export default {
       line-height: 1.2;
     }
     .theme--light.v-expansion-panels .v-expansion-panel {
+      background: transparent;

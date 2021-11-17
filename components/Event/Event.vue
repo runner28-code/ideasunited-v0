@@ -265,3 +265,6 @@ export default {
     &__video {
       width: 100% !important;
       border-right: none !important;
+      min-height: 0;
+
+      &-info {

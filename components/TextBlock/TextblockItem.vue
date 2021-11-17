@@ -1,3 +1,4 @@
+<template>
   <component
     :is="item.link ? 'a' : 'div'"
     :href="item.link"
@@ -51,7 +52,6 @@ a.text-block__item-wrapper:hover {
 
     &.dark {
       color: white;
-    }
 
     &.with-preview {
       &:before {
@@ -104,3 +104,4 @@ a.text-block__item-wrapper:hover {
       min-height: 200px;
       display: flex;
       align-items: center;
+      justify-content: center;

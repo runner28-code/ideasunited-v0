@@ -147,7 +147,6 @@ export default {
     top: 10px;
     z-index: 1;
   }
-
   &__validation {
     &:not(.v-input--has-state) {
       display: none !important;
@@ -161,3 +160,5 @@ export default {
   }
 
   &:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+  }

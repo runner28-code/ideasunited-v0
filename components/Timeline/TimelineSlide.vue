@@ -139,6 +139,7 @@ export default {
     white-space: nowrap;
   }
 
+  &__text {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 600;
@@ -176,3 +177,4 @@ export default {
     border-radius: 20px;
     left: 50%;
     bottom: -10px;
+    margin-left: -46px;

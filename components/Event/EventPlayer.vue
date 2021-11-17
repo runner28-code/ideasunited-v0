@@ -53,3 +53,4 @@ export default {
   background-position: center;
 
   &::v-deep {
+    .slider {

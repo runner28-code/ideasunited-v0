@@ -82,3 +82,4 @@ export default {
       deep: true,
       immediate: true,
       handler(val) {
+        for (let descendent of val.descendents) {

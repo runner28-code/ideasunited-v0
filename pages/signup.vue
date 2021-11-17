@@ -16,6 +16,7 @@
 
 <script>
 import { frontendToProfile } from "@/utils";
+export default {
   layout: 'simple',
   methods: {
     logout() {
@@ -69,3 +70,4 @@ import { frontendToProfile } from "@/utils";
 
 <style lang="scss">
 .signup-page {
+  .register {

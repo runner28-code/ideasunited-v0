@@ -49,3 +49,4 @@ export default {
             "input", urlFormatter(this.localValue)
           );
         }
+      },

@@ -42,3 +42,4 @@ export default {
 <style lang="scss" scoped>
 .page-wrapper {
   position: relative;
+  @media screen and (max-width: 944px) {

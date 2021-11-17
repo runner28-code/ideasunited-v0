@@ -30,7 +30,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
           arrayFormat: "brackets",
           encode: false
         });
-// Temp comment
       };
 
       return requestConfig;
@@ -65,3 +64,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       }
 
       if (redirect_to && route.path != redirect_to) {
+        redirect(redirect_to);

@@ -18,6 +18,7 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+
 # nyc test coverage
 .nyc_output
 
@@ -75,3 +76,4 @@ dist
 
 # Serverless directories
 .serverless
+

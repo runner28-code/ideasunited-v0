@@ -118,3 +118,4 @@ export default {
 
       return intersection.length > 0;
     },
+  },

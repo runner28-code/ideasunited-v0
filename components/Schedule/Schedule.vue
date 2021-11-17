@@ -63,6 +63,7 @@ export default {
   }
 
   &__items {
+    margin-top: 70px;
   }
 
   &__group {
