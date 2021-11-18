@@ -47,4 +47,5 @@ export default {
   &::v-deep {
     .v-input__slot {
       align-items: start !important;
+    }
 

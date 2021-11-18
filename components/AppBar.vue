@@ -265,6 +265,7 @@ export default {
         .v-icon {
           color: inherit;
         }
+      }
     }
   }
 

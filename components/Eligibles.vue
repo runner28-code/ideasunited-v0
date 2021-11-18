@@ -22,7 +22,6 @@ import { frontendToProfile } from "@/utils";
 export default {
   props: {
     value: Array,
-  },
   data() {
     return {
       badgeInfoUrl: frontendToProfile()[window.location.origin] + "/badge-info",

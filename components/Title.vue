@@ -9,7 +9,6 @@ export default {
   props: {
     tag: {
       type: String,
-      default: "h2"
     }
   },
   computed: {
@@ -35,5 +34,6 @@ export default {
 }
 
 @media screen and (max-width: 944px) {
+  .h1 {
     font-size: 30px !important;
   }

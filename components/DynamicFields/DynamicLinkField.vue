@@ -48,5 +48,4 @@ export default {
           this.$emit(
             "input", urlFormatter(this.localValue)
           );
-        }
       },

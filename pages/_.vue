@@ -82,7 +82,6 @@ export default {
         backgroundColor: this.activeTheme.body_background,
         color: this.activeTheme.body_color
       };
-    },
     status() {
       if (!this.page && !this.currentProject) return 404;
 

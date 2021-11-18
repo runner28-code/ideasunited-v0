@@ -72,6 +72,7 @@ export default {
           this.$root.$emit('fullpageRebuild');
           this.$root.$emit("authModal/close");
           this.$root.$emit('leaveSignup');
+          if(this.$route.name == 'index') window.location.href = frontendToProfile()[window.location.origin];
         } catch {}
       }
     },

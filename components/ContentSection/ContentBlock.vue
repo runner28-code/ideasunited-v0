@@ -141,6 +141,7 @@ export default {
       }
     }
     &:after {
+      content: "";
       position: absolute;
       left: 50%;
       top: 50%;

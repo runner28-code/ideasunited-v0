@@ -78,7 +78,6 @@ export default {
     this.initForm();
     this.fetchSupportForm();
   },
-  methods: {
     async fetchSupportForm() {
       const { data } = await this.$api.Support.getForm();
       this.supportForm = data;

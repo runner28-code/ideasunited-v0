@@ -1,7 +1,7 @@
 <template>
   <v-text-field
     type="number"
-    :value="value"
+    :placeholder="label + (required && markRequired ? ' *' : '')"
     @input="$emit('input', $event)"
     :rules="rules"
     outlined

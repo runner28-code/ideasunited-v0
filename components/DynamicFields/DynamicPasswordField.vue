@@ -19,7 +19,6 @@ export default {
       default: () => []
     },
     required: Boolean,
-    markRequired: Boolean
   },
   methods: {
     onFocus($event) {
