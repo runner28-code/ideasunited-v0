@@ -27,7 +27,6 @@ export default {
   },
   data() {
     return {
-      form: {
         support_form_id: null,
         data: {}
       },
@@ -41,6 +40,7 @@ export default {
           this.form.data = {};
           this.submitted = false;
         }, 500);
+      }
     });
   },
   methods: {

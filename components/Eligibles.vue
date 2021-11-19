@@ -40,6 +40,7 @@ export default {
   display: flex;
   align-items: center;
   margin-right: 20px;
+  text-decoration: none;
 
   &--bronze {
     color: #c6864c;

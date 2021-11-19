@@ -115,3 +115,4 @@ export default {
     &--google {
       background: #db3d29;
     }
+    &--linkedin {

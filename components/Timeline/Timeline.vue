@@ -231,3 +231,4 @@ export default {
     padding: 40px 10px;
     display: flex;
     width: 100%;
+

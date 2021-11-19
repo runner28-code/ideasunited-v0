@@ -1,4 +1,5 @@
 <template>
+  <component :style="styles" :is="tag" :class="tag">
     <slot></slot>
   </component>
 </template>
@@ -10,7 +11,6 @@ export default {
       type: String,
       default: "h2"
     }
-  },
   computed: {
     styles() {
       if(!this.activeTheme) return {};

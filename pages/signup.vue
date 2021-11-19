@@ -67,6 +67,7 @@ export default {
   }
 }
 </style>
+
 <style lang="scss">
 .signup-page {
   .register {

@@ -20,10 +20,10 @@ export default {
       default: () => []
     },
     required: Boolean,
+    markRequired: Boolean,
     addonData: {
       type: [Object, Boolean],
       default: false
-    }
   },
   methods: {
     onFocus($event) {

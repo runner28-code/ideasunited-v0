@@ -111,3 +111,5 @@
       background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAyMyAyNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggb3BhY2l0eT0iMC45NDU0MjYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMjMgMTIuNjVMMC4yNzI3MjggMjUuM1YwTDIzIDEyLjY1WiIgZmlsbD0iI0UxMkQxQiIvPgo8L3N2Zz4K");
       background-position: 55% 50%;
       background-size: 25.56%;
+    }
+  }

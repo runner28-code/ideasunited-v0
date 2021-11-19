@@ -28,6 +28,7 @@ export default {
     this.player = new Player(this.$refs.vimeo);
 
     this.player.on("play", async () => {
+      this.started = true;
     });
 
     this.play();
@@ -43,7 +44,6 @@ export default {
     newSlideSettings() {
       return this.presentation.settings[this.slide.id] || {};
     }
-  },
   watch: {
     presentation: {
       deep: true,

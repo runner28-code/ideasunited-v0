@@ -45,7 +45,6 @@ export default {
     SupportForm,
     SubmissionContent,
     Presentation,
-    CustomComponent,
     RegistrationForm
   },
   methods: {

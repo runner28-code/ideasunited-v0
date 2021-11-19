@@ -317,7 +317,6 @@ export default {
           align-items: center;
           color: inherit !important;
         }
-      }
 
       a {
         color: inherit;
@@ -349,3 +348,4 @@ export default {
           text-decoration: none;
           &::hover {
             text-decoration: underline;
+          }

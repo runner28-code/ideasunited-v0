@@ -271,3 +271,4 @@ export default {
 .account-menu-toggle {
   position: absolute;
   top: 26px;
+  right: 26px;

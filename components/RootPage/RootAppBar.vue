@@ -283,7 +283,6 @@ export default {
     align-items: center;
     color: white;
 
-    &-menu {
       margin-top: 5px;
 
       &-item {
@@ -356,3 +355,4 @@ export default {
     width: 36px;
     border-radius: 50%;
     background-position: center;
+    background-size: cover;

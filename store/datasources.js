@@ -2,6 +2,7 @@
 import Vue from "vue";
 
 const store = {
+// Temp comment
   namespaced: true,
   state: () => ({ data: {} }),
 
@@ -15,7 +16,6 @@ const store = {
       const { data } = await this.$api.Datasources.get();
       commit("set", data);
 
-// Temp comment
       return data;
     }
   },

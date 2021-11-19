@@ -15,7 +15,6 @@
 import urlFormatter from "@/filters/url";
 
 export default {
-  props: {
     label: String,
     value: String,
     rules: {
@@ -47,5 +46,6 @@ export default {
         if (JSON.stringify(this.localValue) != this.value) {
           this.$emit(
             "input", urlFormatter(this.localValue)
+          );
         }
       },

@@ -9,7 +9,6 @@ const store = {
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
       const cookieDomain =
         process.env.NODE_ENV === "development"
-          ? "localhost"
           : "." + window.location.hostname;
       console.info('auth cookieDomain', cookieDomain);
       if (token) {
@@ -30,7 +29,6 @@ const store = {
       commit("setToken", data.token);
       return await dispatch("user/fetch", null, { root: true });
     },
-// Temp comment
     async oauth({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.oauth(params);
       commit("setToken", data.token);
