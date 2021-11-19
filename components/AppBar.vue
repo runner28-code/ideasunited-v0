@@ -317,6 +317,7 @@ export default {
           align-items: center;
           color: inherit !important;
         }
+      }
 
       a {
         color: inherit;

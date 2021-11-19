@@ -113,3 +113,4 @@
       background-size: 25.56%;
     }
   }
+

@@ -69,3 +69,4 @@ export default {
     width: 32px;
     min-width: 32px;
     background: #f7f7f7;
+    border-radius: 32px;

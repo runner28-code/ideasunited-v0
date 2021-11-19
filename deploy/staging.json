@@ -4,6 +4,6 @@
   "server_dir": "/home/deploy/staging/frontend",
   "repo": "git@gitlab.com:iu-evp/frontend.git",
   "prj_git_relative_dir": "",
-  "force_regenerate_git_dir": true,
+  "branch": "master",
   "history_releases_count": 5,
   "prerun": ["yarn install", "NODE_ENV=staging yarn run build"],

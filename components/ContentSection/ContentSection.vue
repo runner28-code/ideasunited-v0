@@ -187,7 +187,6 @@ export default {
                 sectionId: this.contentSection.id
               });
             }, untilEnd);
-          }
         }
       });
     },

@@ -283,6 +283,7 @@ export default {
     align-items: center;
     color: white;
 
+    &-menu {
       margin-top: 5px;
 
       &-item {

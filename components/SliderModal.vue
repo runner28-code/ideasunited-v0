@@ -36,6 +36,7 @@
               @click="close"
               class="close elevation-0"
               fab
+              small
             >
               <v-icon size="36" :color="currentColor"
                 >$close</v-icon
@@ -66,7 +67,6 @@ export default {
   data() {
     return {
       triggerName: `open-${this.name}`
-    };
   },
   mounted() {
     this.$root.$on(this.triggerName, id => {

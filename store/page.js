@@ -20,7 +20,7 @@ const store = {
       const payload = { posted: false };
       updateCollection({ collection, id, payload });
     },
-      const collection = state.current?.events;
+    hideEvent(state, id) {
       const payload = { hidden_from_timeline: true };
       updateCollection({ collection, id, payload });
     },

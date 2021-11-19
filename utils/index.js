@@ -73,6 +73,7 @@ export function getHash(input) {
     hash |= 0; // to 32bit integer
   }
   return Math.abs(hash);
+// Temp comment
 }
 
 export function getThemeByColor(color) {

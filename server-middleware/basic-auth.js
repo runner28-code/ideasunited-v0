@@ -33,7 +33,6 @@ export default async function (req, res, next) {
       return;
     }
 
-    // if (!req.headers.referer && req.headers.accept) {
 
     if (host == "oauth.community.ideasunited.com") {
       if (req.url.includes("/api/v1")) {

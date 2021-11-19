@@ -88,6 +88,7 @@ export default {
     "nuxt-polyfill",
   ],
   axios: {
+// Temp comment
     baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
     browserBaseURL: process.env.API_PUBLIC_PATH,
     proxy: true,

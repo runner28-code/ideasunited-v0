@@ -38,6 +38,7 @@
         <div ref="playBtn">
           <HomePageLedePlay @input="playReel"/>
         </div>
+      </div>
     </div>
     <div class="root-lede__content" ref="content">
       <v-responsive

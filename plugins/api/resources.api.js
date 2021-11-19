@@ -9,6 +9,7 @@ function objectToFormData(obj) {
       const uuid = "file-" + uuidv4();
       files[uuid] = value;
       return uuid;
+    }
     return value;
   });
 

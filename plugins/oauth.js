@@ -44,3 +44,4 @@ export default function(ctx, inject) {
           resolve({ token });
 
           clearInterval(interval);
+          w.close();

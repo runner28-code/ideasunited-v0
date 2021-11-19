@@ -58,6 +58,7 @@ export default {
   justify-content: center;
   text-align: center;
   position: relative;
+  height: 100px;
   margin-bottom: 30px;
 
   &-wrapper {
