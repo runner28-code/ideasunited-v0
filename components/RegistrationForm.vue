@@ -132,6 +132,7 @@ export default {
     }
   },
   computed: {
+    registrationForm() {
       return (
         (this.page || this.currentPage).registration_forms[this.value] || {}
       );

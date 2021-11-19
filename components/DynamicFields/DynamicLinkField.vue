@@ -47,5 +47,5 @@ export default {
         if (JSON.stringify(this.localValue) != this.value) {
           this.$emit(
             "input", urlFormatter(this.localValue)
-          );
+        }
       },

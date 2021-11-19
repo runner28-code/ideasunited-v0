@@ -161,4 +161,3 @@ export default {
   &__title {
     font-weight: 900;
     font-size: 18px;
-    line-height: 26px;

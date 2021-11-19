@@ -72,6 +72,7 @@ export default {
     validate() {
       this.$refs.input.validate(true);
     },
+    onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", this.$el);
     }
   },

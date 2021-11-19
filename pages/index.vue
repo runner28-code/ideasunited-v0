@@ -36,6 +36,7 @@ export default {
       page
     };
   },
+}
 </script>
 
 <style lang="scss" scoped>

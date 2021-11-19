@@ -123,7 +123,6 @@ export default {
   line-height: 16px;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
-  width: 100%;
   cursor: pointer;
   display: none;
 

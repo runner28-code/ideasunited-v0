@@ -22,6 +22,7 @@ import { frontendToProfile } from "@/utils";
 export default {
   props: {
     value: Array,
+  },
   data() {
     return {
       badgeInfoUrl: frontendToProfile()[window.location.origin] + "/badge-info",
@@ -39,7 +40,6 @@ export default {
   display: flex;
   align-items: center;
   margin-right: 20px;
-  text-decoration: none;
 
   &--bronze {
     color: #c6864c;

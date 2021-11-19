@@ -31,7 +31,6 @@
           <v-icon color="#fff" size="50">$chevron_right</v-icon>
         </v-btn>
         <v-card class="slider-modal__content">
-          <div class="slider-modal__content-wrapper" @click.stop>
             <v-btn
               @click="close"
               class="close elevation-0"

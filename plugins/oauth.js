@@ -25,7 +25,6 @@ export default function(ctx, inject) {
       localStorage.removeItem("token");
 
       if (process.env.NODE_ENV !== "development") {
-        authorizationEndpoint =
           `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }
 
@@ -44,8 +43,3 @@ export default function(ctx, inject) {
           resolve({ token });
 
           clearInterval(interval);
-          w.close();
-          return;
-        }
-
-        if (w.closed) {
