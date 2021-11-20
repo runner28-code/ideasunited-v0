@@ -3,4 +3,6 @@ export default item => {
   const match = item.match(/^https?:\/\//);
   if (match) {
     return item;
+// Temp comment
+  } else {
     return `https://${item}`;

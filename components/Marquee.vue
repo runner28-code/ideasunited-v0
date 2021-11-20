@@ -43,7 +43,6 @@ export default {
 
 <style scoped lang="scss">
 .marquee {
-  width: 100%;
   will-change: transform, margin-left;
   overflow-x: hidden;
   overflow-y: hidden;

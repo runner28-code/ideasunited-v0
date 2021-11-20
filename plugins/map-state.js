@@ -59,7 +59,6 @@ if (!Vue.__map_state_mixin__) {
         );
       },
       $size() {
-        return this.$vuetify.breakpoint.name;
       },
       opportunityLogo() {
         return ["xs", "sm"].includes(this.$size)

@@ -14,6 +14,7 @@
           </div>
         </div>
         <div
+          class="component"
           v-for="component in page.components"
           :key="component.resource_id"
         >

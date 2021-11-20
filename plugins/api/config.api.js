@@ -1,4 +1,3 @@
-import resources from "./resources.api";
 import Qs from "qs";
 
 export default ({ $axios, redirect, route, $cookies, req }) => {
@@ -44,6 +43,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       if (responseConfig.data) {
         const { alert, redirect_to } = responseConfig.data;
 
+        if (process.browser) {
           if (alert) {
             $nuxt.$alert(alert, "success");
           }

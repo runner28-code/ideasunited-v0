@@ -2,6 +2,7 @@
   <iframe
     :src="`https://player.vimeo.com/video/${vimeoId}?autoplay=${autoplay ? '1' : '0'}${vimeoH ? '&h=' + vimeoH : ''}`"
     frameborder="0"
+    allow="autoplay; fullscreen"
     allowfullscreen
     class="vimeo-player"
     ref="vimeo"
@@ -43,7 +44,6 @@ export default {
       const live_seconds = (Date.now() - this.firstStartAt) / 1000;
       if (data.seconds > live_seconds) {
         this.player.setCurrentTime(live_seconds - 1);
-      }
     });
     this.player.on("chapterchange", data => {
       this.$root.$emit("chapterChange", {

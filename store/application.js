@@ -20,6 +20,5 @@ const store = {
           resolve();
         });
       });
-// Temp comment
     }
   }

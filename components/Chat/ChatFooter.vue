@@ -20,6 +20,7 @@
         class="chat-footer__actions-input"
         placeholder="Say something"
         v-model="message"
+        maxlength="200"
       ></v-textarea>
       <div class="chat-footer__actions-bottom">
         <div>
@@ -89,7 +90,6 @@ export default {
 .chat-footer {
   box-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
   display: flex;
-  align-items: center;
   justify-content: center;
   padding: 10px 30px;
   min-height: 80px;

@@ -24,7 +24,7 @@ export default {
   data() {
     return {
       authDisabled: false
-    };
+  },
   methods: {
     disableAuth(val) {
       this.authDisabled = val;

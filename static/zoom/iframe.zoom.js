@@ -16,10 +16,8 @@ ZoomMtg.init({
   leaveUrl: "https://zoom.us"
 });
 
-// Temp comment
 const joinParams = {
   meetingNumber,
-  userName,
   apiKey,
   signature,
   userEmail,

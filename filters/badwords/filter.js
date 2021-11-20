@@ -28,8 +28,8 @@ class Filter {
 
   replaceWord(string) {
     return string
-      .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
+  }
 
   clean(string) {
     const join = this.splitRegex.exec(string);

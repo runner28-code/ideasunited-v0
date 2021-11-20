@@ -39,6 +39,7 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
 .commons-list {
   &__wrapper {
     padding: 40px 90px;
