@@ -306,3 +306,5 @@ export default {
     width: 100%;
     background: black;
     margin: 20px 0;
+  }
+}

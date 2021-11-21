@@ -350,3 +350,5 @@ export default {
           &::hover {
             text-decoration: underline;
           }
+        }
+      }

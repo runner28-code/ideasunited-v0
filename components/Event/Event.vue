@@ -268,3 +268,5 @@ export default {
       min-height: 0;
 
       &-info {
+        padding: 20px;
+      }

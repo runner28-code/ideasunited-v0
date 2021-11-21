@@ -1,7 +1,6 @@
 
 import cookies from "vue-cookies";
 /* eslint-disable */
-// Temp comment
 const store = {
   namespaced: true,
   state: () => ({}),
@@ -46,3 +45,4 @@ const store = {
     }
   },
   getters: {
+    token: state => state.token,

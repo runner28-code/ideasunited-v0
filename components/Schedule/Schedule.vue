@@ -73,3 +73,4 @@ export default {
   &__date {
     font-size: 30px;
     font-weight: bold;
+  }

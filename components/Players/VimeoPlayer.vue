@@ -63,6 +63,7 @@ export default {
       this.player.getCurrentChapter().then(current_chapter => {
         if (c != current_chapter && this.chapters[c]) {
           this.player.setCurrentTime(this.chapters[c].startTime + 1);
+        }
       });
     },
     play() {

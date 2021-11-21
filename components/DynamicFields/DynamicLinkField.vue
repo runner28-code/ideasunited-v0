@@ -41,7 +41,6 @@ export default {
     }
   },
   watch: {
-    localValue: {
       deep: true,
       handler() {
         if (JSON.stringify(this.localValue) != this.value) {

@@ -8,3 +8,4 @@
   "force_regenerate_git_dir": true,
   "history_releases_count": 5,
   "prerun": ["yarn install", "NODE_ENV=staging yarn run build"],
+  "run_cmd": "NODE_ENV=staging yarn run restart-staging"

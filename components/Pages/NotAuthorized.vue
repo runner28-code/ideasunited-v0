@@ -38,3 +38,4 @@ export default {
 .not-authorized {
   display: flex;
   justify-content: center;
+  align-items: center;

@@ -130,3 +130,4 @@ export default {
       max-height: 3em;
       overflow: hidden;
 
+      &:before,

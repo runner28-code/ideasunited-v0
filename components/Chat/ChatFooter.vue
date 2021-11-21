@@ -109,3 +109,4 @@ export default {
         .v-text-field__details {
           display: none;
         }
+      }

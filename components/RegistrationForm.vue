@@ -151,6 +151,7 @@ export default {
   &__form {
     padding: 75px 21px;
     min-height: 605px;
+    display: flex;
     align-items: center;
     @media screen and (max-width: 944px) {
       padding: 20px;
@@ -167,3 +168,4 @@ export default {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+  }

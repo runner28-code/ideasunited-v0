@@ -46,4 +46,5 @@ export default async function (req, res, next) {
     console.log("host: ", host);
 
     next();
+// Temp comment
   } catch (e) {

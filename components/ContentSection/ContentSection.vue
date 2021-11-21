@@ -341,3 +341,5 @@ export default {
             margin-right: 0;
           }
         }
+        @media screen and (max-width: 600px) {
+          max-width: 100%;

@@ -72,3 +72,4 @@ export default {
   }
 
   &__description {
+    font-size: 18px;

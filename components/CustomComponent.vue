@@ -40,6 +40,7 @@ export default {
         if (process.client) {
           const {
             loadModule
+          } = require("vue3-sfc-loader/dist/vue2-sfc-loader");
           const options = {
             moduleCache: {
               vue: Vue
@@ -51,7 +52,6 @@ export default {
               const styleExist = document.querySelector(`[sfc=${sfc_name}]`);
 
               const style = Object.assign(document.createElement("style"), {
-                textContent
               });
               style.setAttribute("sfc", sfc_name);
 
@@ -82,3 +82,4 @@ export default {
       immediate: true,
       handler(val) {
         for (let descendent of val.descendents) {
+          this.compile(descendent);

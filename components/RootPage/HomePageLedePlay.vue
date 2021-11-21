@@ -117,3 +117,4 @@
   &__ring {
     position: absolute;
     top: -10.26%;
+    left: -10.26%;

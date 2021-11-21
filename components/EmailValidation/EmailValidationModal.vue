@@ -70,3 +70,4 @@ export default {
     background: white;
     padding: 25px;
     font-size: 16px;
+  }

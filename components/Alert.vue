@@ -123,3 +123,4 @@ export default {
     justify-content: stretch;
   }
 
+  .v-snack__content {

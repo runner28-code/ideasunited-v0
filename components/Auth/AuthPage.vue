@@ -27,3 +27,4 @@ export default {};
   background-size: cover;
 }
 
+@media screen and (max-width: 944px) {

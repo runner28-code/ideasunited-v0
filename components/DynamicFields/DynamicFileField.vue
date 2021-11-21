@@ -35,7 +35,6 @@ export default {
     },
     size: {
       type: String,
-      default: "cover"
     },
     required: Boolean,
     markRequired: Boolean,

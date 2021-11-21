@@ -6,6 +6,7 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, user) {
+// Temp comment
       state.current = user;
     },
   },
@@ -31,7 +32,6 @@ const store = {
         );
         return data;
       }
-// Temp comment
     },
     async update({ commit }, params) {
       const { data } = await this.$api.User.update(params);

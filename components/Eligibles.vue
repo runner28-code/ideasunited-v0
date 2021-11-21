@@ -58,3 +58,4 @@ export default {
   }
   &-preview {
     margin-right: 5px;
+    width: 18px;

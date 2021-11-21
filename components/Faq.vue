@@ -20,7 +20,6 @@
       <v-expansion-panels v-if="items2" class="faqs__column" accordion flat>
         <v-expansion-panel
           elevation-0
-          v-for="(item, index) in items2"
           :key="index"
         >
           <div class="faq__section-header" v-if="item.header">
@@ -76,6 +75,7 @@ export default {
 .faqs {
   display: flex;
   align-items: flex-start;
+  margin-top: 60px;
   @media screen and (max-width: 960px) {
     flex-direction: column;
   }

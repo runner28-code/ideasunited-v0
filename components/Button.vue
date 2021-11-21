@@ -65,3 +65,4 @@ export default {
 
 <style scoped lang="scss">
 .btn.v-btn.v-btn--disabled.v-btn--has-bg {
+  background: #e7e7e7 !important;

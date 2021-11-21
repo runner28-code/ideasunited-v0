@@ -31,6 +31,7 @@ export default {
         spaceBetween: 0,
         // autoplay: {
         //   delay: 5000
+        // },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
@@ -64,3 +65,4 @@ export default {
     height: 100%;
     width: 100%;
     background-position: center;
+    background-size: cover;

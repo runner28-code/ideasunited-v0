@@ -95,6 +95,7 @@ export default {
       this.setInfiniteId();
     }
   }
+};
 </script>
 
 <style scoped lang="scss">
@@ -110,3 +111,4 @@ export default {
 
 @media screen and (max-width: 960px) {
   .submission-content {
+    &__grid {

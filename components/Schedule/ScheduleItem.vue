@@ -21,7 +21,6 @@
   </div>
 </template>
 
-<script>
 export default {
   props: {
     item: Object
@@ -59,6 +58,7 @@ export default {
   min-height: 160px;
   border-radius: 10px;
   padding: 40px;
+  display: flex;
   align-items: center;
   background-size: cover;
   background-position: center;
@@ -88,3 +88,4 @@ export default {
 @media screen and (max-width: 960px) {
   .schedule-item {
     &__title {
+      font-size: 30px;

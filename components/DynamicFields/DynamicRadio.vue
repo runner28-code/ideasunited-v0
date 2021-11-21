@@ -52,3 +52,4 @@ export default {
     margin-left: 3px;
   }
   &__control {
+    margin-top: 0;

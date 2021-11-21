@@ -5,7 +5,6 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, current) {
-// Temp comment
       state.current = current;
     },
     updateChat(state, chat) {

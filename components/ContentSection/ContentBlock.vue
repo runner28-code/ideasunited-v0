@@ -41,6 +41,7 @@
     </div>
   </transition>
 </template>
+
 <script>
 export default {
   props: {
@@ -116,7 +117,6 @@ export default {
 .content-section-item {
   cursor: pointer;
   position: relative;
-
   &--no-content {
     cursor: default;
   }
@@ -161,3 +161,4 @@ export default {
     font-weight: 900;
     font-size: 18px;
     line-height: 26px;
+    margin: 10px 0 0 0;

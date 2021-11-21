@@ -28,7 +28,6 @@
       offset-y
       v-if="currentUser && currentUser.moderator_chat_ids.includes(chat.id)"
     >
-      <template v-slot:activator="{ on }">
         <v-btn v-on="on" icon class="message-actions">
           <v-icon size="18">$dots_vertical</v-icon>
         </v-btn>
@@ -117,3 +116,4 @@ export default {
 .message__body {
   font-size: 12px;
   white-space: pre-line;
+  word-break: break-word;

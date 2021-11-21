@@ -232,3 +232,5 @@ export default {
     display: flex;
     width: 100%;
 
+    &.swiper-container-initialized::v-deep {
+      .timeline-slide {

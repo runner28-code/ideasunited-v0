@@ -14,6 +14,7 @@ export async function buildZoomLink({
   const params = {
     signature,
     apiKey,
+    zoomId: zoom_id,
   };
 
   if (zoom_password) {

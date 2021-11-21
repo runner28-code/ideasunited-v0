@@ -114,3 +114,4 @@ export default {
     .v-label {
       margin-top: -3px;
     }
+
