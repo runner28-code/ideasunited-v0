@@ -219,7 +219,6 @@ export default {
         });
       }
     },
-    keyDownHandler(e) {
       if(!e.key) return;
       this.keyIsDown = true;
     },
@@ -306,3 +305,4 @@ export default {
     left: 0;
     width: 100%;
     height: auto;
+    position: relative;

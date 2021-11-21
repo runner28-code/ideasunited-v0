@@ -90,6 +90,7 @@ export default {
 .chat-footer {
   box-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: 10px 30px;
   min-height: 80px;

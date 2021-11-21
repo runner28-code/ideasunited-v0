@@ -73,7 +73,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.faqs {
   display: flex;
   align-items: flex-start;
   margin-top: 60px;

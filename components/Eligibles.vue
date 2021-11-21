@@ -53,6 +53,7 @@ export default {
   }
   &--campus {
     color: #7b61ff;
+  }
   &-label {
   }
   &-preview {

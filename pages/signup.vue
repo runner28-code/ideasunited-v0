@@ -48,6 +48,7 @@ export default {
     font-weight: bold;
     font-size: 24px;
     text-align: center;
+    padding-bottom: 15px;
   }
 
   &__form {

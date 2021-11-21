@@ -70,3 +70,4 @@ export default {
     min-width: 32px;
     background: #f7f7f7;
     border-radius: 32px;
+    margin-right: 9px;

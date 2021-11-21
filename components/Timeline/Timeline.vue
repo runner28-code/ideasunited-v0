@@ -181,7 +181,6 @@ export default {
   },
   watch: {
     events: {
-      deep: true,
       handler() {
         const ids = this.events.map(t => t.id);
         const { id } = this.value;
@@ -197,6 +196,7 @@ export default {
           const path =
             this.value.type == "content_block" ? "block_id" : "event_id";
           history.pushState({}, "", `?${path}=${this.value.id}`);
+          const idx = this.timelineEvents.findIndex(t => t.id == this.value.id);
           if (idx != -1 && this.swiperInstance) {
             this.swiperInstance.slideTo(idx);
           }

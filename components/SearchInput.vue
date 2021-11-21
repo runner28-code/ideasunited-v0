@@ -25,6 +25,7 @@ export default {
   },
   computed: {
     styles() {
+      return {
         color: this.calcTheme == "dark" ? "white" : "#333"
       };
     },
@@ -83,3 +84,4 @@ export default {
     left: 0;
     right: 0;
     top: 0;
+    bottom: 0;
