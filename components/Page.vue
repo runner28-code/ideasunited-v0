@@ -219,6 +219,7 @@ export default {
         });
       }
     },
+    keyDownHandler(e) {
       if(!e.key) return;
       this.keyIsDown = true;
     },
@@ -284,7 +285,6 @@ export default {
           this.currentSlide = destination.index;
         },
         afterRender: () => {
-          if (location.hash) {
             this.goToHash(location.hash);
           }
         },

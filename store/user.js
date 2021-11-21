@@ -22,6 +22,7 @@ const store = {
             : "." + window.location.hostname;
         var d = new Date();
         d.setDate(d.getDate() + 7);
+        this.$cookies.set(
           "authToken",
           token,
           { expires: d, domain: cookieDomain },
@@ -30,6 +31,7 @@ const store = {
         );
         return data;
       }
+// Temp comment
     },
     async update({ commit }, params) {
       const { data } = await this.$api.User.update(params);

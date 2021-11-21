@@ -181,6 +181,7 @@ export default {
   },
   watch: {
     events: {
+      deep: true,
       handler() {
         const ids = this.events.map(t => t.id);
         const { id } = this.value;

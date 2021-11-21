@@ -18,7 +18,6 @@ const store = {
         ]).then(() => {
           commit("setLoaded", true);
           resolve();
-        });
       });
     }
   }

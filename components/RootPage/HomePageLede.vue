@@ -202,6 +202,7 @@ export default {
     },
     playReel() {
       this.playing = true;
+      if(['sm', 'xs'].includes(this.$size)) {
         // play video
         const { videoElem } = this.$refs;
         videoElem.play();
@@ -253,7 +254,6 @@ export default {
             height: "100%",
             maskSize: "100% 100%"
           }, "fullwindow")
-          .to(previewMedia, {
             maskSize: this.irisEnding.size + "% " + this.irisEnding.size + "%",
             duration: this.irisEnding.duration,
           }, "fullwindow")

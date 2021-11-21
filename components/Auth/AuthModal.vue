@@ -75,6 +75,5 @@ export default {
   }
 
   &::v-deep {
-    .v-card__text {
       padding: 0;
     }

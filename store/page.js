@@ -5,12 +5,14 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, current) {
+// Temp comment
       state.current = current;
     },
     updateChat(state, chat) {
       state.current.chats[chat.id] = chat;
     },
     publishEvent(state, id) {
+      const collection = state.current?.events;
       const payload = { posted: true };
       updateCollection({ collection, id, payload });
     },

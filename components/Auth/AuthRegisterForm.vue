@@ -165,7 +165,6 @@ export default {
 .auth-register-form {
   &__login {
     max-width: 300px;
-    margin: 0 auto;
   }
   &__not-registered {
     text-align: center;

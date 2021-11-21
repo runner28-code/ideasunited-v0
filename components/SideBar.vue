@@ -297,6 +297,7 @@ export default {
     text-align: center;
     margin: 0;
     @media screen and (max-width: 944px) {
+      color: white !important;
     }
   }
 

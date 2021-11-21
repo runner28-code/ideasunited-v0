@@ -37,4 +37,3 @@ export default {
   margin: 8px 0;
 
   &::v-deep {
-    .v-label {

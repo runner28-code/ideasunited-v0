@@ -13,7 +13,6 @@
         ref="fileInput"
         append-icon="$upload"
         @click:append="$refs.fileInput.$el.querySelector('input').click()"
-      >
       </v-file-input>
     </div>
     <div class="uploader-wrapper" v-else>
@@ -56,6 +55,7 @@
 
 <script>
 import { v4 as uuidv4 } from "uuid";
+
 export default {
   props: {
     value: [typeof window === "undefined" ? Object : window.File, Object],
