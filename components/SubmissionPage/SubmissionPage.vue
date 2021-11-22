@@ -43,3 +43,4 @@ export default {
   }
   &__description {
     font-size: 18px;
+    margin: 25px 0;

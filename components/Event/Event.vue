@@ -273,3 +273,4 @@ export default {
 
       &-player {
         height: 400px;
+        min-height: 400px;

@@ -21,7 +21,6 @@
         </v-btn>
         <v-btn
           v-if="nextId"
-          @click="openNext"
           @keyup.enter="openNext"
           icon
           class="slider-modal__arrow slider-modal__next"
@@ -35,6 +34,7 @@
             <v-btn
               @click="close"
               class="close elevation-0"
+              fab
               small
             >
               <v-icon size="36" :color="currentColor"

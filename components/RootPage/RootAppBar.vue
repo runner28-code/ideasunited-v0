@@ -363,3 +363,4 @@ export default {
 
 .menu-toggle {
   display: none;
+}

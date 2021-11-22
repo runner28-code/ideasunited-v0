@@ -1,7 +1,6 @@
 <template>
   <v-form
     @submit.prevent="submitCallback"
-    v-model="valid"
     ref="form"
     class="dynamic-form"
     :disabled="disabled"
@@ -25,6 +24,7 @@
       v-if="description"
       v-html="description"
     ></div>
+    <div class="dynamic-form__buttons">
       <Button
         class="btn_back-to-login"
         :refs="$refs"

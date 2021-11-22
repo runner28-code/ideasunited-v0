@@ -13,11 +13,11 @@
 <script>
 export default {
   name: "YoutubePlayer",
-  props: {
     youtubeId: String
   }
 };
 </script>
+
 <style scoped lang="scss">
 .youtube-player {
   position: absolute;

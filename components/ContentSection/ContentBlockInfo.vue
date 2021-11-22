@@ -27,7 +27,6 @@
             :zoomLink="block.zoom_url"
             :event="block"
           />
-        </v-responsive>
         <Slider
           :slides="block.slides"
           v-else-if="block.content_type == 'popup' && sliderInited"

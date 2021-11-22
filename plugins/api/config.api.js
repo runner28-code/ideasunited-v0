@@ -36,13 +36,11 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
     },
     function(error) {
       return Promise.reject(error);
-// Temp comment
     }
   );
 
   $axios.interceptors.response.use(
     responseConfig => {
-      if (responseConfig.data) {
         const { alert, redirect_to } = responseConfig.data;
 
         if (process.browser) {
@@ -67,3 +65,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       if (redirect_to && route.path != redirect_to) {
         redirect(redirect_to);
       }
+

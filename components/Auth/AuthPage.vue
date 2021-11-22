@@ -1,4 +1,5 @@
 <template>
+  <div
     class="auth-page"
     :style="{
       backgroundImage: activeTheme.splash_screen.url
@@ -27,3 +28,4 @@ export default {};
 }
 
 @media screen and (max-width: 944px) {
+  .auth-page {

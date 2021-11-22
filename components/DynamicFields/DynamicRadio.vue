@@ -53,3 +53,4 @@ export default {
   }
   &__control {
     margin-top: 0;
+  }

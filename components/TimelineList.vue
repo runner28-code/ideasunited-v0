@@ -69,7 +69,6 @@ export default {
     padding-right: 21px;
     &::after {
       display: block;
-      content: "";
       width: 15px;
       height: 15px;
       position: absolute;

@@ -215,3 +215,4 @@ export default {
 <style lang="scss" scoped>
 .account-menu-toggle {
   position: absolute;
+  top: 26px;

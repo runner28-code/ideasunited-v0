@@ -4,7 +4,6 @@
     </div>
     <div class="root-lede-play__ring">
       <svg
-        viewBox="0 0 200 200"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -122,3 +121,4 @@
     height: 128.2%;
     > svg {
       width: 100%;
+      height: 100%;

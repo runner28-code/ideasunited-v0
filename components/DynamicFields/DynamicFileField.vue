@@ -83,6 +83,7 @@ export default {
     padding: 0 !important;
     &::v-deep {
       .v-input__slot {
+        display: none !important;
       }
     }
   }

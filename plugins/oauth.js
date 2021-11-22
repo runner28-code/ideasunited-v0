@@ -47,3 +47,4 @@ export default function(ctx, inject) {
           w.close();
           return;
         }
+

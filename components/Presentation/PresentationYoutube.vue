@@ -69,3 +69,4 @@ export default {
 
   &__after {
     top: 0;
+    left: 0;

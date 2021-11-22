@@ -1,3 +1,4 @@
+<template>
   <div class="chat">
     <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
@@ -72,3 +73,4 @@ export default {
     margin-right: 9px;
   }
   &-text {
+    width: 100%;

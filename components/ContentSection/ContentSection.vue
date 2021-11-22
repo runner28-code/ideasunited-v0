@@ -239,7 +239,6 @@ export default {
 
     &:not(.swiper-container-initialized) {
       .content-section__swiper-slide {
-        max-width: 320px;
         margin-right: 20px;
       }
 

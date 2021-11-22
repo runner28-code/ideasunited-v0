@@ -182,3 +182,6 @@ export default {
     display: none;
 
     &__dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;

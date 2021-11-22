@@ -66,6 +66,7 @@ export default {
     white-space: pre-line;
   }
   &__dialog {
+    position: relative;
     background: white;
     padding: 25px;
     font-size: 16px;

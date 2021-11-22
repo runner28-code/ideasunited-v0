@@ -45,7 +45,6 @@ export default {
         .join("")
         .substr(0, 2)
         .toUpperCase();
-    },
     color() {
       return this.colors[getHash(this.id) % this.colors.length];
     }
@@ -60,3 +59,4 @@ export default {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  color: white;

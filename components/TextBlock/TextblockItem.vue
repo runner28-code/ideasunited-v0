@@ -72,11 +72,11 @@ a.text-block__item-wrapper:hover {
       text-decoration: none;
       color: inherit;
       transition: 0.3s;
+      opacity: 1;
     }
 
     &-title {
       font-weight: 900;
-      font-size: 48px;
       line-height: 1.1;
     }
     &-description {

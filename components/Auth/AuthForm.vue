@@ -42,7 +42,6 @@
       @submit="register"
     />
   </div>
-</template>
 
 <script>
 import _ from "lodash";
@@ -183,6 +182,7 @@ export default {
   }
 
   &-title {
+    font-size: 28px;
     text-align: center;
     font-weight: bold;
     margin-bottom: 20px;

@@ -356,3 +356,4 @@ export default {
   }
 }
 
+.menu-caret {

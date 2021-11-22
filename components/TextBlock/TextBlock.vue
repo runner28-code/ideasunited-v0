@@ -18,6 +18,7 @@
         v-if="textBlock.layout == 4"
       />
     </div>
+    <div
       class="text-block__side text-block__side-double"
       v-if="[2, 3].includes(textBlock.layout)"
     >
@@ -92,7 +93,6 @@ export default {
       max-width: 150px;
       margin-bottom: 1em;
     }
-  }
 }
 
 @media screen and (max-width: 960px) {
@@ -120,3 +120,4 @@ export default {
     background-size: contain;
     position: relative;
     min-height: unset;
+    &:before {
