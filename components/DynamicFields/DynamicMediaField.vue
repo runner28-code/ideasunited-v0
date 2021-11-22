@@ -38,7 +38,6 @@
           {{
             (value && value.name) ||
               label + (required && markRequired ? " *" : "")
-          }}
         </div>
         <input @change="handleChange" class="uploader__input" type="file" />
       </label>

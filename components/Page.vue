@@ -111,6 +111,7 @@ export default {
     });
 
     this.currentProject.menu_pages.forEach((page) => {
+      const ledeBackground = page.lead_background;
       if (ledeBackground) this.preloadSlide(ledeBackground.large.url || ledeBackground.url);
     });
     setTimeout(() => {
@@ -309,3 +310,5 @@ export default {
   }
   > div {
     position: absolute;
+    top: 0;
+    width: 50%;

@@ -37,7 +37,6 @@ export default {
     ContentSection,
     Countdown,
     Event,
-    TextBlock,
     Schedule,
     List,
     SubmissionPage,
@@ -55,3 +54,4 @@ export default {
       };
 
       return list[type] || type;
+    }

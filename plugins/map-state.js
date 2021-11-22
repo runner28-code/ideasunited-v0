@@ -2,7 +2,6 @@ import Vue from "vue";
 import { mapState } from "vuex";
 import moment from "moment-timezone";
 
-// Temp comment
 if (!Vue.__map_state_mixin__) {
   Vue.__map_state_mixin__ = true;
 
@@ -39,7 +38,6 @@ if (!Vue.__map_state_mixin__) {
           payload = message;
         }
 
-        this.$root.$emit("alert", payload);
       },
     },
     computed: {
@@ -65,3 +63,4 @@ if (!Vue.__map_state_mixin__) {
       opportunityLogo() {
         return ["xs", "sm"].includes(this.$size)
           ? this.currentProject?.frontend_logo_mobile.large.url ||
+              this.activeTheme.header_logo_mobile.large.url ||

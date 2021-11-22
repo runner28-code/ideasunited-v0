@@ -107,7 +107,6 @@ export default {
           },
           960: {
             slidesPerView: 3,
-            spaceBetween: 40
           },
           1264: {
             slidesPerView: 4,
@@ -343,3 +342,4 @@ export default {
         }
         @media screen and (max-width: 600px) {
           max-width: 100%;
+          margin-right: 0;

@@ -39,7 +39,6 @@ export default {
         this.$moment
           .tz(t.start_at, this.currentTimezone)
           .format("YYYY/MM/DD")
-      );
 
       return _.sortBy(
         Object.keys(groups).map(k => {

@@ -4,7 +4,6 @@ class Filter {
   constructor(options = {}) {
     Object.assign(this, {
       list,
-      exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
       placeHolder: options.placeHolder || "*",
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,

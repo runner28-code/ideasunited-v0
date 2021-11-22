@@ -85,3 +85,4 @@ export default {
     position: relative;
     background: white;
     padding: 25px;
+    font-size: 16px;

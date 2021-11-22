@@ -33,7 +33,6 @@ export default {
 
 <style scoped lang="scss">
 .eligibles {
-  display: flex;
   justify-content: center;
 }
 .eligible {

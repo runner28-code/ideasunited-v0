@@ -75,7 +75,6 @@ export default {
         this.$cable.perform({
           channel: "ChatChannel",
           chat_id: this.chat.id,
-          action: "send_message",
           data
         });
 

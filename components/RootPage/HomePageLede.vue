@@ -462,3 +462,6 @@ export default {
           pointer-events: none;
           transition: opacity 0.5s;
         }
+      }
+    }
+    &-image {

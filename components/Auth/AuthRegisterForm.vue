@@ -216,3 +216,5 @@ export default {
     > div:nth-child(4),
     > div:nth-child(5),
     > div:nth-child(6),
+    > div:nth-child(7),
+    > div:nth-child(8),

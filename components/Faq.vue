@@ -20,6 +20,7 @@
       <v-expansion-panels v-if="items2" class="faqs__column" accordion flat>
         <v-expansion-panel
           elevation-0
+          v-for="(item, index) in items2"
           :key="index"
         >
           <div class="faq__section-header" v-if="item.header">
@@ -101,3 +102,4 @@ export default {
     }
     .theme--light.v-expansion-panels .v-expansion-panel {
       background: transparent;
+      color: white;

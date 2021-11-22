@@ -66,6 +66,7 @@ a.text-block__item-wrapper:hover {
       }
     }
 
+    &-wrapper {
       padding: 10px;
       display: block;
       text-decoration: none;
@@ -105,3 +106,4 @@ a.text-block__item-wrapper:hover {
       display: flex;
       align-items: center;
       justify-content: center;
+

@@ -32,6 +32,7 @@ export default function(ctx, inject) {
       authorizationEndpoint =
         authorizationEndpoint + "?domain=" + location.hostname;
 
+      const w = window.open(
         authorizationEndpoint,
         "Auth",
         "width=580,height=730"
@@ -45,3 +46,4 @@ export default function(ctx, inject) {
           clearInterval(interval);
           w.close();
           return;
+        }

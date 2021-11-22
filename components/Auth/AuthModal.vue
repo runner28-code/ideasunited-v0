@@ -56,6 +56,7 @@ export default {
       if(this.dialogState.chooseSignUp && !this.currentUser) return 700;
       else return 400;
     }
+  },
   watch: {
     opened(newValue) {
       if(!newValue) setTimeout(() => this.backToLogin(), 500);
@@ -77,3 +78,4 @@ export default {
     .v-card__text {
       padding: 0;
     }
+  }

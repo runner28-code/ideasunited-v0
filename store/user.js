@@ -6,7 +6,6 @@ const store = {
   state: () => ({ current: null }),
   mutations: {
     set(state, user) {
-// Temp comment
       state.current = user;
     },
   },

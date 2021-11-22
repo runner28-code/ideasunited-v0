@@ -76,3 +76,4 @@ export default {
       right: -7.5px;
       border-radius: 7.5px;
       top: 8px;
+      background: var(--dot-color);

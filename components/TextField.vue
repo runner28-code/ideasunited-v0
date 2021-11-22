@@ -115,3 +115,4 @@ export default {
       margin-top: -3px;
     }
 
+    .v-text-field__details {

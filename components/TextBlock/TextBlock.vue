@@ -64,6 +64,7 @@ export default {
       height: 100%;
     }
   }
+
   &__1 &__side {
     width: 100%;
   }
@@ -117,3 +118,4 @@ export default {
   }
   .text-block__item.with-preview {
     background-position: center;
+    background-size: contain;

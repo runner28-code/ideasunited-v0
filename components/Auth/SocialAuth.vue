@@ -116,3 +116,4 @@ export default {
       background: #db3d29;
     }
     &--linkedin {
+      background: #0173b1;

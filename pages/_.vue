@@ -74,6 +74,7 @@ export default {
     });
     return {
       page
+    };
   },
   computed: {
     pageStyles() {
@@ -101,3 +102,4 @@ export default {
   }
 };
 </script>
+

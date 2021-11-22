@@ -19,6 +19,7 @@
           @click.stop="goToOpps()"
           v-if="newOpps.length && showNewOpps"
         >
+          New opportunities just dropped!
           <v-btn
             icon
             class="app-bar__new-opps__close"
@@ -358,3 +359,4 @@ export default {
     background-size: cover;
     margin-right: 10px;
   }
+}

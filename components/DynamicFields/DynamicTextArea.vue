@@ -35,3 +35,4 @@ export default {
 .dynamic-textarea {
   &::v-deep {
     textarea {
+      line-height: 1.2;
