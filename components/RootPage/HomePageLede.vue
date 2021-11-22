@@ -465,3 +465,7 @@ export default {
       }
     }
     &-image {
+      background-position: center;
+      background-size: cover;
+      z-index: 2;
+      pointer-events: none;

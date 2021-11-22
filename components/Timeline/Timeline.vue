@@ -235,3 +235,6 @@ export default {
     &.swiper-container-initialized::v-deep {
       .timeline-slide {
         max-width: 100%;
+      }
+    }
+

@@ -100,3 +100,4 @@ export default {
     &__title {
       font-size: 30px;
       margin-bottom: 10px;
+    }

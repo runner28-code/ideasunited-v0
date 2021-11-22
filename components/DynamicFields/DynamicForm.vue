@@ -25,7 +25,6 @@
       v-if="description"
       v-html="description"
     ></div>
-    <div class="dynamic-form__buttons">
       <Button
         class="btn_back-to-login"
         :refs="$refs"
@@ -196,3 +195,4 @@ export default {
   components: {
     DynamicCheckbox,
     DynamicEmailField,
+    DynamicHtmlBlock,

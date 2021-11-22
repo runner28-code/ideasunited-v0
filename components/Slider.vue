@@ -66,3 +66,4 @@ export default {
     width: 100%;
     background-position: center;
     background-size: cover;
+

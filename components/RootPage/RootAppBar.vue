@@ -360,3 +360,6 @@ export default {
     margin-right: 10px;
   }
 }
+
+.menu-toggle {
+  display: none;

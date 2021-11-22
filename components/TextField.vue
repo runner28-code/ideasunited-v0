@@ -116,3 +116,12 @@ export default {
     }
 
     .v-text-field__details {
+      height: 0;
+      position: relative;
+      margin: 0 !important;
+      top: -5px;
+      left: 0;
+      min-height: 0;
+      overflow: visible;
+    }
+  }

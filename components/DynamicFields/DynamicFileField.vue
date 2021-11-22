@@ -83,7 +83,6 @@ export default {
     padding: 0 !important;
     &::v-deep {
       .v-input__slot {
-        display: none !important;
       }
     }
   }
@@ -102,3 +101,4 @@ export default {
   &__upload-btn {
     background: #f5f5f5e0 !important;
   }
+

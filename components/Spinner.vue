@@ -17,7 +17,6 @@ export default {
   },
   created() {}
 };
-</script>
 
 <style scope>
 .spinner {
@@ -33,3 +32,4 @@ export default {
   z-index: 7;
 }
 
+.relative {

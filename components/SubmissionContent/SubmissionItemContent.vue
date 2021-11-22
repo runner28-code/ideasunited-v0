@@ -70,3 +70,4 @@ export default {
     display: flex;
     align-items: center;
     overflow: auto;
+    max-height: 100%;

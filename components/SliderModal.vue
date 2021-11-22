@@ -35,7 +35,6 @@
             <v-btn
               @click="close"
               class="close elevation-0"
-              fab
               small
             >
               <v-icon size="36" :color="currentColor"
@@ -167,3 +166,5 @@ export default {
   .slider-modal {
     position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;

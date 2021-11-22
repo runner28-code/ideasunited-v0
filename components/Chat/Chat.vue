@@ -1,4 +1,3 @@
-<template>
   <div class="chat">
     <ChatHeader :chat="chat" :status="status" />
     <ChatBody :chat="chat" />
@@ -72,3 +71,4 @@ export default {
     border-radius: 32px;
     margin-right: 9px;
   }
+  &-text {

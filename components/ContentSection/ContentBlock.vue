@@ -58,6 +58,7 @@ export default {
   mounted() {
     const { block_id } = this.$route.query;
 
+    if (block_id == this.block.id && this.block.content_type != "new_tab") {
       this.openDialog();
     }
   },
@@ -162,3 +163,5 @@ export default {
     font-size: 18px;
     line-height: 26px;
     margin: 10px 0 0 0;
+  }
+

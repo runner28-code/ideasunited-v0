@@ -1,4 +1,3 @@
-<template>
   <component :style="styles" :is="tag" :class="tag">
     <slot></slot>
   </component>
@@ -38,3 +37,4 @@ export default {
   .h1 {
     font-size: 30px !important;
   }
+  .h2 {

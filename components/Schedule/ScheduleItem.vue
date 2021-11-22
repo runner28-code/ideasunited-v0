@@ -90,3 +90,4 @@ export default {
   .schedule-item {
     &__title {
       font-size: 30px;
+    }

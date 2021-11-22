@@ -93,3 +93,4 @@ export default {
     padding: 30px;
     max-width: 400px;
     width: 100%;
+

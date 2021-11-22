@@ -49,3 +49,4 @@ export default {
       align-items: start !important;
     }
 
+    .v-input--selection-controls__input {

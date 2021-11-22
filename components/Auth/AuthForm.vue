@@ -114,6 +114,7 @@ export default {
 
 <style scoped lang="scss">
 .forgot-password-link {
+  text-decoration: underline;
   cursor: pointer;
   color: #E12D1B;
   font-size: 14px;
@@ -182,7 +183,6 @@ export default {
   }
 
   &-title {
-    font-size: 28px;
     text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
@@ -194,3 +194,4 @@ export default {
     align-items: center;
     margin-top: 40px;
     margin-bottom: 20px;
+    flex-direction: column;

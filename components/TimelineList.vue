@@ -77,3 +77,4 @@ export default {
       border-radius: 7.5px;
       top: 8px;
       background: var(--dot-color);
+    }

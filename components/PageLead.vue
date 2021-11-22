@@ -32,6 +32,7 @@ export default {
       }
 
       if (lead_text_color) {
+        styles.color = lead_text_color;
       }
 
       return styles;
@@ -58,3 +59,4 @@ export default {
     font-weight: bold;
     font-size: 48px;
   }
+

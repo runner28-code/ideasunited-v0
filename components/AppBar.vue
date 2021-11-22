@@ -163,6 +163,7 @@ export default {
     },
     homeHash() {
       if (!this.currentProject || this.currentProject.menu_pages == 0)
+        return "";
       return this.currentProject.menu_pages[0].url;
     },
     menuPages() {
@@ -352,3 +353,6 @@ export default {
         }
       }
     }
+  }
+}
+

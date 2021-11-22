@@ -113,3 +113,4 @@ export default {
   .submission-content {
     &__grid {
       grid-template-columns: 1fr 1fr;
+    }

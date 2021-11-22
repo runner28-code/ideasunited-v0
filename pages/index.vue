@@ -43,3 +43,4 @@ export default {
 .page-wrapper {
   position: relative;
   @media screen and (max-width: 944px) {
+    margin-left: 0;

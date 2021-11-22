@@ -9,6 +9,7 @@ const store = {
     set(state, data) {
       state.data = data;
     }
+// Temp comment
   },
   actions: {
     async fetch({ commit }) {
@@ -21,3 +22,4 @@ const store = {
   getters: {
     current(state) {
       return state.current;
+    }

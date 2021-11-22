@@ -275,3 +275,5 @@ export default {
   z-index: 1;
   @media screen and (max-width: 944px) {
     display: none;
+  }
+}

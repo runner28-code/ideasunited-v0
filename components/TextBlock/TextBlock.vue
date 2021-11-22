@@ -18,7 +18,6 @@
         v-if="textBlock.layout == 4"
       />
     </div>
-    <div
       class="text-block__side text-block__side-double"
       v-if="[2, 3].includes(textBlock.layout)"
     >
@@ -119,3 +118,5 @@ export default {
   .text-block__item.with-preview {
     background-position: center;
     background-size: contain;
+    position: relative;
+    min-height: unset;

@@ -64,3 +64,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.submission-thank-you {

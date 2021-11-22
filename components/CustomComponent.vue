@@ -84,3 +84,4 @@ export default {
       handler(val) {
         for (let descendent of val.descendents) {
           this.compile(descendent);
+        }

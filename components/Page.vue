@@ -312,3 +312,7 @@ export default {
     position: absolute;
     top: 0;
     width: 50%;
+    @media screen and (max-width: 944px) {
+      position: relative;
+      width: 100%;
+    }

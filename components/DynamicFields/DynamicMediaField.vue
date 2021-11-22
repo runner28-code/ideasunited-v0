@@ -38,6 +38,7 @@
           {{
             (value && value.name) ||
               label + (required && markRequired ? " *" : "")
+          }}
         </div>
         <input @change="handleChange" class="uploader__input" type="file" />
       </label>
@@ -163,3 +164,5 @@ export default {
     border-color: rgba(0, 0, 0, 0.3);
   }
 
+  &__placeholder {
+    font-size: 24px;

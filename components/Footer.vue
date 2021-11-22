@@ -188,3 +188,4 @@ export default {
       justify-content: center;
       flex-wrap: wrap;
       .footer__separator {
+        display: none;

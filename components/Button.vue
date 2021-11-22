@@ -25,6 +25,7 @@ import { getThemeByColor } from "@/utils";
 
 export default {
   props: {
+    color: String,
     large: Boolean,
     xLarge: Boolean,
     outlined: Boolean,
@@ -65,3 +66,4 @@ export default {
 <style scoped lang="scss">
 .btn.v-btn.v-btn--disabled.v-btn--has-bg {
   background: #e7e7e7 !important;
+  color: #928d8d !important;

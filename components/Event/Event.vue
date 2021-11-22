@@ -271,3 +271,5 @@ export default {
         padding: 20px;
       }
 
+      &-player {
+        height: 400px;

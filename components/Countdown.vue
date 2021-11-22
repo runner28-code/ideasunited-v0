@@ -208,3 +208,5 @@ export default {
     &__item {
       margin: 0 10px;
       display: flex;
+      flex-direction: column;
+      align-items: center;

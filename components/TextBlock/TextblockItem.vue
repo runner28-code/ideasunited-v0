@@ -72,7 +72,6 @@ a.text-block__item-wrapper:hover {
       text-decoration: none;
       color: inherit;
       transition: 0.3s;
-      opacity: 1;
     }
 
     &-title {
@@ -107,3 +106,4 @@ a.text-block__item-wrapper:hover {
       align-items: center;
       justify-content: center;
 
+      &-wrapper {

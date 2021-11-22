@@ -68,3 +68,4 @@ export default {
   position: relative;
 
   &__after {
+    top: 0;

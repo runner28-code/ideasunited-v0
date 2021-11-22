@@ -15,3 +15,4 @@ $ yarn start
 
 # generate static project
 $ yarn generate
+```

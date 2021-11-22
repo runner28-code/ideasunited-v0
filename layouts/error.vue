@@ -11,7 +11,6 @@
     </NuxtLink>
   </v-app>
 </template>
-
 <script>
 export default {
   layout: 'empty',
@@ -37,3 +36,4 @@ export default {
 }
 </script>
 
+<style scoped>
