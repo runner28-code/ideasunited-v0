@@ -59,3 +59,4 @@ export default {
     transform: translate(0, 0);
     margin-left: 0;
   }
+  100% {

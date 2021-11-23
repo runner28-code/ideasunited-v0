@@ -217,3 +217,5 @@ export default {
   position: absolute;
   top: 26px;
   right: 26px;
+  z-index: 1;
+}

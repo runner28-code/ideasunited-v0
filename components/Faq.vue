@@ -104,3 +104,4 @@ export default {
       background: transparent;
       color: white;
     }
+    .v-expansion-panel::before {

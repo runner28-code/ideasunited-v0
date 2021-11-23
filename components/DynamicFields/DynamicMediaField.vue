@@ -156,6 +156,7 @@ export default {
     &::v-deep {
       .v-input__slot {
         display: none !important;
+      }
     }
   }
 
@@ -165,3 +166,4 @@ export default {
 
   &__placeholder {
     font-size: 24px;
+    text-transform: uppercase;

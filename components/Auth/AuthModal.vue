@@ -26,7 +26,6 @@ export default {
         chooseSignUp: false,
       }
     };
-  },
   mounted() {
     this.$root.$on(`authModal/open`, () => {
       this.backToLogin();

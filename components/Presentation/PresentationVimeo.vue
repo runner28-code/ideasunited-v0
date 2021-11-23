@@ -64,7 +64,6 @@ export default {
   height: 100%;
   position: relative;
   background: black;
-
   &-overlay {
     top: 0;
     left: 0;

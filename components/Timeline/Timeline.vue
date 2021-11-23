@@ -239,3 +239,5 @@ export default {
     }
 
     &:not(.swiper-container-initialized)::v-deep {
+      .timeline-slide__wrapper {
+        margin-right: 20px;

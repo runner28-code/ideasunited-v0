@@ -51,6 +51,7 @@ export default {
             addStyle: textContent => {
               const styleExist = document.querySelector(`[sfc=${sfc_name}]`);
 
+              const style = Object.assign(document.createElement("style"), {
                 textContent
               });
               style.setAttribute("sfc", sfc_name);
@@ -84,3 +85,4 @@ export default {
         for (let descendent of val.descendents) {
           this.compile(descendent);
         }
+        this.compile(val, () => (this.loaded = true));

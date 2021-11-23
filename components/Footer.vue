@@ -190,3 +190,5 @@ export default {
       .footer__separator {
         display: none;
       }
+      &::after {
+        content: "";

@@ -26,6 +26,7 @@ export default {
   },
   computed: {
     list() {
+      return (this.page || this.currentPage).lists[this.value];
     },
     entries() {
       return this.list.entries.filter(
@@ -60,3 +61,4 @@ export default {
 }
 
 @media screen and (max-width: 960px) {
+  .commons-list {

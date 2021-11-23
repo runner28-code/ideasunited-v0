@@ -118,3 +118,4 @@ export default {
     &--linkedin {
       background: #0173b1;
     }
+    &--twitter {

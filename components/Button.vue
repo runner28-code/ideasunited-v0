@@ -67,3 +67,7 @@ export default {
 .btn.v-btn.v-btn--disabled.v-btn--has-bg {
   background: #e7e7e7 !important;
   color: #928d8d !important;
+}
+
+.btn::v-deep span {
+  font-weight: bold;

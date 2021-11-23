@@ -13,7 +13,6 @@ export default {
     presentation: Object
   },
   data() {
-    return { started: false };
   },
   mounted() {
     this.player = new YouTubePlayer("youtube-player", {
@@ -46,6 +45,7 @@ export default {
     newSlideSettings() {
       return this.presentation.settings[this.slide.id] || {};
     }
+  },
   watch: {
     presentation: {
       deep: true,
@@ -69,3 +69,4 @@ export default {
   &__after {
     top: 0;
     left: 0;
+    right: 0;

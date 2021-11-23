@@ -105,7 +105,6 @@ export default {
 }
 
 .message__name {
-  font-size: 12px;
   font-weight: bold;
   cursor: pointer;
 
@@ -120,3 +119,4 @@ export default {
   word-break: break-word;
 }
 
+.message__timestamp {

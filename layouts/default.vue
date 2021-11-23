@@ -83,7 +83,6 @@ export default {
       const typekitFonts = [
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,
-        this.activeTheme.paragraph_font?.font,
         this.activeTheme.header_font?.font,
         this.activeTheme.footer_font?.font,
       ].filter((f) => f && f.src_type == "typekit");
@@ -278,3 +277,5 @@ export default {
   }
 }
 .mobile-scroll {
+  overflow-y: scroll;
+  overflow-anchor: none;

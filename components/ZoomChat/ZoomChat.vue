@@ -48,3 +48,4 @@ export default {
   width: 100%;
 
   iframe {
+    width: 100%;

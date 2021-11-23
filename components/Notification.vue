@@ -83,6 +83,8 @@ export default {
   }
   &__dialog {
     position: relative;
+    background: white;
     padding: 25px;
     font-size: 16px;
   }
+

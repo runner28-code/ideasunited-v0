@@ -171,3 +171,5 @@ export default {
   }
   &__buttons {
     padding: 1em 0;
+    text-align: center;
+  }

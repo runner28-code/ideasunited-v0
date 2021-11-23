@@ -165,3 +165,4 @@ export default {
     margin: 10px 0 0 0;
   }
 
+  &__subtitle {

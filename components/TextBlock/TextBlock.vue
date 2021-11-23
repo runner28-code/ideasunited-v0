@@ -122,3 +122,5 @@ export default {
     position: relative;
     min-height: unset;
     &:before {
+      display :block;
+      position: relative !important;

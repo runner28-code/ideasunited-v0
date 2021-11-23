@@ -358,3 +358,5 @@ export default {
 
 .menu-caret {
   font-size: 16px;
+  margin-left: 3px;
+}

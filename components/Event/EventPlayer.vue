@@ -17,6 +17,7 @@
       :startAt="event.start_at"
       :event="event"
       :title="event.title"
+      :key="event.id"
     />
     <Slider
       v-else-if="event.event_type == 'slideshow'"
@@ -53,3 +54,4 @@ export default {
 
   &::v-deep {
     .slider {
+      height: 100%;

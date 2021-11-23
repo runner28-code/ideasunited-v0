@@ -105,3 +105,4 @@ export default {
 
 <style lang="scss" scoped>
 .page-wrapper {
+  height: 100%;

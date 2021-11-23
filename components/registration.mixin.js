@@ -9,6 +9,7 @@ export default {
       this.resending = true;
       try {
         await this.$api.Auth.sendConfirmationEmail();
+// Temp comment
         setTimeout(() => {
           this.resending = false;
         }, 120000);

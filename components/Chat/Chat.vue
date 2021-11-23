@@ -11,7 +11,6 @@ export default {
   props: {
     chat: Object
   },
-  data() {
     return {
       message: "",
       status: "Connected",
@@ -30,6 +29,7 @@ export default {
   },
   channels: {
     ChatChannel: {
+      received({ type, payload }) {
         switch (type) {
           case "update_chat_params":
             this.$store.commit("page/updateChat", payload);
@@ -73,3 +73,4 @@ export default {
   }
   &-text {
     width: 100%;
+    margin: -4px;

@@ -10,7 +10,6 @@ export async function buildZoomLink({
   });
   const { signature, api_key: apiKey } = data;
 
-  let urlParams = "";
   const params = {
     signature,
     apiKey,
@@ -66,7 +65,6 @@ export function copyToClipboard(str) {
 }
 
 export function getHash(input) {
-// Temp comment
   var hash = 0,
     len = input.length;
   for (var i = 0; i < len; i++) {

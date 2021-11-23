@@ -8,6 +8,7 @@
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
   ></iframe>
+</template>
 
 <script>
 export default {
@@ -18,7 +19,6 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .youtube-player {
   position: absolute;
   top: 0;

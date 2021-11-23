@@ -78,6 +78,7 @@ export default {
       }
     }
   }
+
   &::v-deep {
     .v-alert__wrapper {
       padding-right: 15px;
@@ -124,3 +125,4 @@ export default {
 
   .v-snack__content {
     width: 100%;
+    display: flex;

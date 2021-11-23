@@ -75,3 +75,4 @@ export default {
     font-weight: bold;
   }
 }
+

@@ -164,7 +164,9 @@ export default {
 }
 
 @media screen and (max-width: 944px) {
+  .slider-modal {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    max-height: 100% !important;

@@ -141,6 +141,7 @@ export default {
           this.form.data[passwordUuid] = res.password;
         }
       }
+      this.loginFormRequest = false;
     },
     updateDialogState() {
       if(this.dialogState) this.dialogState.chooseSignUp = this.chooseSignUp;
@@ -219,3 +220,5 @@ export default {
     > div:nth-child(8),
     > div:nth-child(9) {
       @media screen and (min-width: 945px) {
+        width: calc(50% - 12px);
+      }

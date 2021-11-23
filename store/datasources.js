@@ -1,6 +1,5 @@
 /* eslint-disable */
 import Vue from "vue";
-// Temp comment
 
 const store = {
   namespaced: true,
@@ -15,7 +14,6 @@ const store = {
     async fetch({ commit }) {
       const { data } = await this.$api.Datasources.get();
       commit("set", data);
-
       return data;
     }
   },

@@ -47,7 +47,6 @@ export default {
       return item?.published ? item.id : null;
     },
     async fetchSubmissions($state) {
-      const params = {
         widget_submission_form_id: this.submissionContent
           .widget_submission_form_id,
         query: this.search,
@@ -113,4 +112,12 @@ export default {
   .submission-content {
     &__grid {
       grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .submission-content {
+    &__grid {
+      grid-template-columns: 1fr;
     }

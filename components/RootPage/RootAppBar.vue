@@ -330,6 +330,7 @@ export default {
       @media screen and (max-width: 960px) {
         display: none;
       }
+    }
 
     &-chevron_down {
       margin-top: 5px;
@@ -364,3 +365,5 @@ export default {
   display: none;
 }
 
+.logo-link {
+  &,

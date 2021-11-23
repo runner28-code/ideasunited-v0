@@ -471,3 +471,6 @@ export default {
       pointer-events: none;
       transition: background-image 0.5s;
       &__slide {
+        width: 100%;
+        height: 100%;
+        background-size: cover;

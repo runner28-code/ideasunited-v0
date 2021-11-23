@@ -62,7 +62,6 @@ a.text-block__item-wrapper:hover {
         right: 0;
         top: 0;
         bottom: 0;
-        // background: rgba(0, 0, 0, 0.3);
       }
     }
 
@@ -108,3 +107,4 @@ a.text-block__item-wrapper:hover {
       justify-content: center;
 
       &-wrapper {
+        padding: 0;
