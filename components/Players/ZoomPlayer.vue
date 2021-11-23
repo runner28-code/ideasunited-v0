@@ -38,6 +38,7 @@ export default {
   data() {
     return {
       zoomUrl: null
+    };
   },
   created() {
     this.fetchSignature();
@@ -57,7 +58,6 @@ export default {
         full_name,
         email
       });
-    }
   },
 };
 </script>

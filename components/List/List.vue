@@ -32,6 +32,7 @@ export default {
       return this.list.entries.filter(
         t =>
           !this.search ||
+          (t.title + " " + t.subtitle).toLowerCase().includes(this.search)
       );
     }
   }

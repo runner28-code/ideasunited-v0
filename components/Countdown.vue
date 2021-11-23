@@ -204,6 +204,7 @@ export default {
     margin: 15px 0;
     height: 60px;
     padding: 15px 0;
+
     &__item {
       margin: 0 10px;
       display: flex;
@@ -211,3 +212,4 @@ export default {
       align-items: center;
       width: 55px;
 
+      &-value {

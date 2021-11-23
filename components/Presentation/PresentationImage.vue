@@ -15,6 +15,7 @@ export default {
 };
 </script>
 
+<style lang="scss" scoped>
 .presentation-image {
   width: 100%;
   height: 100%;

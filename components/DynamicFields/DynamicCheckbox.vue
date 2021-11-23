@@ -35,7 +35,6 @@ export default {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
-  },
 };
 </script>
 
@@ -50,3 +49,4 @@ export default {
     }
 
     .v-input--selection-controls__input {
+      top: 1px;

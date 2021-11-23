@@ -360,3 +360,4 @@ export default {
   font-size: 16px;
   margin-left: 3px;
 }
+

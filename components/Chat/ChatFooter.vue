@@ -58,6 +58,7 @@ export default {
     return { message: "" };
   },
   methods: {
+    selectEmoji({ data }) {
       this.message += data;
     },
     sendMessage(event) {
@@ -99,7 +100,6 @@ export default {
     width: 100%;
     margin-bottom: -5px;
 
-    &-emoji {
     }
 
     &-input {

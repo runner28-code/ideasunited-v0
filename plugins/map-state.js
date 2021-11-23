@@ -66,3 +66,4 @@ if (!Vue.__map_state_mixin__) {
           ? this.currentProject?.frontend_logo_mobile.large.url ||
               this.activeTheme.header_logo_mobile.large.url ||
               this.activeTheme.header_logo_mobile.url
+          : this.currentProject?.frontend_logo.large.url ||

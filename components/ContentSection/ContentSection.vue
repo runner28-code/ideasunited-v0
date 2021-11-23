@@ -327,6 +327,7 @@ export default {
 
           &:nth-child(4n) {
             margin-right: 20px;
+          }
           &:nth-child(3n) {
             margin-right: 0;
           }
@@ -349,3 +350,4 @@ export default {
         }
       }
     }
+

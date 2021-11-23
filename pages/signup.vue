@@ -72,3 +72,4 @@ export default {
 .signup-page {
   .register {
     max-width: 590px;
+  }

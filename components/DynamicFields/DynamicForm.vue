@@ -16,7 +16,6 @@
         v-show="showField(field)"
         :label="field.label"
         :show-label="showLabel"
-        :addon-data="addonData(field)"
         :file-input="field.file_input"
       ></component>
     </div>
@@ -145,6 +144,7 @@ export default {
       const rules = field.required ? [this.$rules.required] : [];
       if(field.file_size_limit) {
         const value = this.value.data[field.uuid];
+        rules.push( value => {
           return !value || value.size < field.file_size_limit * 1000000 || `File size cannot exceed ${field.file_size_limit} MB.`;
         });
       }

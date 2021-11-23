@@ -7,6 +7,7 @@
 </template>
 
 <script>
+export default {
   props: {
     chat: Object
   },
@@ -74,3 +75,4 @@
   &-text {
     width: 100%;
     margin: -4px;
+    & > div {

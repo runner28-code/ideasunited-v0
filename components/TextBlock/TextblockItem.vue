@@ -46,6 +46,7 @@ a.text-block__item-wrapper:hover {
   &__item {
     position: relative;
     overflow: hidden;
+    background-position: center;
     background-size: cover;
     height: 100%;
 
@@ -100,7 +101,6 @@ a.text-block__item-wrapper:hover {
 
 @media screen and (max-width: 960px) {
   .text-block {
-    &__item {
       min-height: 200px;
       display: flex;
       align-items: center;

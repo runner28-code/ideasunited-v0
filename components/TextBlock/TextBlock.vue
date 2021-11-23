@@ -115,6 +115,7 @@ export default {
 .text-block__4 {
   .text-block__side {
     min-height: unset;
+  }
   .text-block__item.with-preview {
     background-position: center;
     background-size: contain;
@@ -123,3 +124,8 @@ export default {
     &:before {
       display :block;
       position: relative !important;
+      width: 100%;
+      padding-bottom: 100%;
+    }
+  }
+  .text-block__item-container {

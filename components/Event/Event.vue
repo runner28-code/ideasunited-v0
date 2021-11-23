@@ -276,3 +276,4 @@ export default {
         min-height: 400px;
       }
     }
+    &__chat {

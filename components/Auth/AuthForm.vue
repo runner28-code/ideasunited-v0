@@ -113,6 +113,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.forgot-password-link {
   text-decoration: underline;
   cursor: pointer;
   color: #E12D1B;
@@ -124,7 +125,6 @@ export default {
   &-admin-title {
     color: #262729;
     text-align: center;
-    font-size: 28px;
     line-height: 1.2;
     font-weight: bold;
     margin-bottom: 20px;

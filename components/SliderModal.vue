@@ -170,3 +170,4 @@ export default {
     left: 0;
     width: 100%;
     max-height: 100% !important;
+    max-width: 100vw !important;
