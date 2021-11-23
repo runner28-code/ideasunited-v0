@@ -25,7 +25,6 @@ export default {
     slides: Array
   },
   data() {
-    return {
       swiperOption: {
         slidesPerView: 1,
         spaceBetween: 0,

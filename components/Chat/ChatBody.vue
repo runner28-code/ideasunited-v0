@@ -88,6 +88,7 @@ export default {
         } else {
           $state.complete();
         }
+      }
     }
   }
 };

@@ -233,6 +233,7 @@ export default {
     }
   }
 
+  &__swiper {
     width: 100%;
     padding: 40px 10px 0;
 
@@ -326,7 +327,6 @@ export default {
 
           &:nth-child(4n) {
             margin-right: 20px;
-          }
           &:nth-child(3n) {
             margin-right: 0;
           }

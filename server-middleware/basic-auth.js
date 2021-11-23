@@ -34,6 +34,7 @@ export default async function (req, res, next) {
     }
 
     // if (!req.headers.referer && req.headers.accept) {
+// Temp comment
 
     if (host == "oauth.community.ideasunited.com") {
       if (req.url.includes("/api/v1")) {
@@ -46,5 +47,3 @@ export default async function (req, res, next) {
     console.log("host: ", host);
 
     next();
-  } catch (e) {
-    res.statusCode = 500;

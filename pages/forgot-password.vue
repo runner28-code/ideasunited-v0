@@ -57,6 +57,7 @@ export default {
     font-size: 24px;
     text-align: center;
     padding-bottom: 15px;
+  }
 
   &__form {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);

@@ -241,6 +241,7 @@ export default {
             duration: 0.5,
           })
           .to(playBtn, {
+            duration: 0.5,
             opacity: 0,
           }, "start")
           .to(previewImage, {

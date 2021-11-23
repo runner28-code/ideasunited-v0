@@ -64,6 +64,7 @@ export default {
         env: this.currentProject.env,
       });
     }
+
     if (process.client) {
       const googleFonts = [
         this.activeTheme.h1_font?.font,
@@ -251,7 +252,6 @@ export default {
     async getOpportunityNotifications() {
       const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
-    },
   },
   watch: {
     drawer: {

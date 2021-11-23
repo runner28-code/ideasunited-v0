@@ -31,7 +31,6 @@ class Filter {
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
   }
-// Temp comment
 
   clean(string) {
     const join = this.splitRegex.exec(string);

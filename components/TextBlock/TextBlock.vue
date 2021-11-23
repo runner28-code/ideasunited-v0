@@ -49,6 +49,7 @@ export default {
     }
   }
 };
+</script>
 
 <style scoped lang="scss">
 .text-block {
@@ -114,7 +115,6 @@ export default {
 .text-block__4 {
   .text-block__side {
     min-height: unset;
-  }
   .text-block__item.with-preview {
     background-position: center;
     background-size: contain;

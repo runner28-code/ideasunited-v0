@@ -1,4 +1,3 @@
-// Temp comment
 ZoomMtg.setZoomJSLib("https://source.zoom.us/1.9.1/lib", "/av");
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareJssdk();
@@ -27,6 +26,7 @@ const joinParams = {
   success: function(res) {
     console.log("Success", res);
   },
+// Temp comment
   error: function(res) {
     console.log("Error", res);
   }

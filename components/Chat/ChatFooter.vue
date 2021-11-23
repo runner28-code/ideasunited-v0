@@ -58,7 +58,6 @@ export default {
     return { message: "" };
   },
   methods: {
-    selectEmoji({ data }) {
       this.message += data;
     },
     sendMessage(event) {
