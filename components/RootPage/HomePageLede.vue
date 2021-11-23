@@ -469,3 +469,5 @@ export default {
       background-size: cover;
       z-index: 2;
       pointer-events: none;
+      transition: background-image 0.5s;
+      &__slide {

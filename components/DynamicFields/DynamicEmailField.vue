@@ -8,6 +8,7 @@
     outlined
     @focus.stop="onFocus($event)"
   />
+</template>
 
 <script>
 export default {
@@ -23,7 +24,6 @@ export default {
     addonData: {
       type: [Object, Boolean],
       default: false
-    }
   },
   methods: {
     onFocus($event) {

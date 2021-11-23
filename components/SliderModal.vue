@@ -21,6 +21,7 @@
         </v-btn>
         <v-btn
           v-if="nextId"
+          @click="openNext"
           @keyup.enter="openNext"
           icon
           class="slider-modal__arrow slider-modal__next"
@@ -163,7 +164,6 @@ export default {
 }
 
 @media screen and (max-width: 944px) {
-  .slider-modal {
     position: fixed;
     top: 0;
     left: 0;

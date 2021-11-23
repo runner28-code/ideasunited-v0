@@ -51,6 +51,7 @@ if (!Vue.__map_state_mixin__) {
           if (state.project.current.display_local_timezone)
             return moment.tz.guess(true);
           else return state.project.current.timezone;
+        },
       }),
       activeTheme() {
         return (
@@ -64,3 +65,4 @@ if (!Vue.__map_state_mixin__) {
         return ["xs", "sm"].includes(this.$size)
           ? this.currentProject?.frontend_logo_mobile.large.url ||
               this.activeTheme.header_logo_mobile.large.url ||
+              this.activeTheme.header_logo_mobile.url

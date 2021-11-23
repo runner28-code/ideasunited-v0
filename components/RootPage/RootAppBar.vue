@@ -330,7 +330,6 @@ export default {
       @media screen and (max-width: 960px) {
         display: none;
       }
-    }
 
     &-chevron_down {
       margin-top: 5px;
@@ -364,3 +363,4 @@ export default {
 .menu-toggle {
   display: none;
 }
+

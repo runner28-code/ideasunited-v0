@@ -12,6 +12,7 @@
       </v-btn>
     </div>
   </div>
+</template>
 
 <script>
 import { frontendToProfile } from "@/utils";

@@ -46,7 +46,6 @@ export default {
     newSlideSettings() {
       return this.presentation.settings[this.slide.id] || {};
     }
-  },
   watch: {
     presentation: {
       deep: true,

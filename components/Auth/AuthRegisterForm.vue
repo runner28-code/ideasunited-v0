@@ -141,7 +141,6 @@ export default {
           this.form.data[passwordUuid] = res.password;
         }
       }
-      this.loginFormRequest = false;
     },
     updateDialogState() {
       if(this.dialogState) this.dialogState.chooseSignUp = this.chooseSignUp;

@@ -42,6 +42,7 @@
       @submit="register"
     />
   </div>
+</template>
 
 <script>
 import _ from "lodash";
@@ -195,3 +196,4 @@ export default {
     margin-top: 40px;
     margin-bottom: 20px;
     flex-direction: column;
+

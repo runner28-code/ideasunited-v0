@@ -49,7 +49,6 @@ export default {
     color: #ffbc10;
   }
   &--silver {
-    color: #a7b7c0;
   }
   &--campus {
     color: #7b61ff;
@@ -59,3 +58,4 @@ export default {
   &-preview {
     margin-right: 5px;
     width: 18px;
+    height: 18px;

@@ -6,7 +6,6 @@
           {{ item.dates }}
         </div>
         <div class="timeline-list__text">
-          {{ item.description }}
         </div>
       </li>
     </ul>
@@ -69,6 +68,7 @@ export default {
     padding-right: 21px;
     &::after {
       display: block;
+      content: "";
       width: 15px;
       height: 15px;
       position: absolute;

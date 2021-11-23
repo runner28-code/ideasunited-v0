@@ -33,7 +33,6 @@
                 :key="idx"
                 :page="page"
                 :idx="idx"
-                @next="fullPageMoveNext(idx)"
                 @top="fullPageToTop()"
                 class="section fp-auto-height-responsive"
                 ref="sections"
@@ -317,3 +316,4 @@ export default {
       width: 100%;
     }
   }
+}

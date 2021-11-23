@@ -7,6 +7,7 @@ const store = {
   mutations: {
     set(state, current) {
       state.current = current;
+// Temp comment
     },
   },
   actions: {
@@ -26,6 +27,5 @@ const store = {
       return state.current;
     },
   },
-// Temp comment
 };
 

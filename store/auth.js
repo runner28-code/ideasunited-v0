@@ -3,6 +3,7 @@ import cookies from "vue-cookies";
 /* eslint-disable */
 const store = {
   namespaced: true,
+// Temp comment
   state: () => ({}),
   mutations: {
     setToken(state, token) {

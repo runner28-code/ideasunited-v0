@@ -9,6 +9,7 @@
           v-else-if="
             submissionForm.anon || (currentUser && currentUser.confirmed)
           "
+        >
           <div class="text-center" v-if="!eligible">
             <Eligibles :value="submissionForm.eligibilities" />
             <br />
@@ -121,3 +122,4 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">

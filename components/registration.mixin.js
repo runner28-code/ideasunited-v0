@@ -16,3 +16,4 @@ export default {
         this.resending = false;
       }
     }
+  },

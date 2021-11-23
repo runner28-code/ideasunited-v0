@@ -20,7 +20,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   props: {
@@ -91,3 +90,4 @@ export default {
     &__title {
       font-size: 30px;
     }
+    &__start-at {

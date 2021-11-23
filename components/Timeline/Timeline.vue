@@ -238,3 +238,4 @@ export default {
       }
     }
 
+    &:not(.swiper-container-initialized)::v-deep {
