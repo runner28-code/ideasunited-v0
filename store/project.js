@@ -16,7 +16,6 @@ const store = {
         root_path: window.location.pathname,
       });
 
-      commit("set", data);
 
       return data;
     },
@@ -25,7 +24,6 @@ const store = {
     current(state) {
       return state.current;
     },
-// Temp comment
   },
 };
 

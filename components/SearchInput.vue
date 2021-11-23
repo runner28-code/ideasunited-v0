@@ -53,7 +53,6 @@ export default {
   position: relative;
   // max-width: 600px;
   padding: 0 20px;
-  color: #181b23;
 
   &__wrapper {
     border-top: 1px solid #e5e5e5;

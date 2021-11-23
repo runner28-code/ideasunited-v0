@@ -42,7 +42,6 @@
                 >$close</v-icon
               >
             </v-btn>
-            <slot></slot>
           </div>
         </v-card>
       </div>

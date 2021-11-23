@@ -5,6 +5,7 @@
       v-if="currentUser"
       >
       <div>You are logged in.<br/><br/></div>
+      <v-btn
         @click.prevent="logout()"
       >
         Logout
@@ -31,7 +32,6 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .signup-page {
   display: flex;
   flex-direction: column;

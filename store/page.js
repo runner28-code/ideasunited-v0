@@ -33,11 +33,11 @@ const store = {
     unpublishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
+      updateCollection({ collection, id: blockId, payload });
     }
   },
   actions: {
     async fetch({ commit }, { url }) {
-      const { data } = await this.$api.Page.get({
         url
       });
 

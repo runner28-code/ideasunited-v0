@@ -161,6 +161,7 @@ export default {
     font-weight: bold;
     padding: 24px 40px;
   }
+
   &.show-event {
     margin-bottom: -45px;
   }

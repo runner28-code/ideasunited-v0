@@ -224,6 +224,7 @@ export default {
     margin-top: 15px;
     @media screen and (max-width: 960px) {
       width: 0;
+    }
 
     &.visible {
       visibility: visible;
@@ -232,7 +233,6 @@ export default {
     }
   }
 
-  &__swiper {
     width: 100%;
     padding: 40px 10px 0;
 
