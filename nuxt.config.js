@@ -120,6 +120,7 @@ export default {
         menu_down: "mdi-menu-down",
         menu_up: "mdi-menu-up",
         send: "mdi-send",
+        search: "mdi-magnify",
         emoji: "mdi-emoticon-outline",
         chevron_left: "mdi-chevron-left",
         chevron_right: "mdi-chevron-right",

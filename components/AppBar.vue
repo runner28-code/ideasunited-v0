@@ -237,7 +237,6 @@ export default {
 
     &::v-deep {
       .v-toolbar__content {
-        min-height: 100% !important;
       }
     }
   }

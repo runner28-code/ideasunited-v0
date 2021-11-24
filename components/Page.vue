@@ -215,7 +215,6 @@ export default {
               const iScrollInstance = fpScrollable.fp_iscrollInstance
               iScrollInstance.scrollToElement(elem);
             }
-          }
         });
       }
     },

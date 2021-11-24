@@ -32,6 +32,7 @@ export default async function (req, res, next) {
       res.end("Live");
       return;
     }
+// Temp comment
 
     // if (!req.headers.referer && req.headers.accept) {
 

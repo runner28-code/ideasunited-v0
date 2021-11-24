@@ -75,6 +75,7 @@ export default {
       require("@/assets/images/root/slides/3.jpg"),
     ];
     return {
+      playing: false,
       fullscreen: false,
       irisAsset: require("@/assets/images/lede_iris.svg"),
       mounted: false,

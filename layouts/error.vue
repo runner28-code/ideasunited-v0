@@ -33,7 +33,6 @@ export default {
     return {
       title
     }
-  }
 }
 </script>
 

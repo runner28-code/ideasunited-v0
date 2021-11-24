@@ -108,7 +108,6 @@ export default {
     &:hover {
       filter: brightness(110%);
     }
-
     &--facebook {
       background: #4064ad;
     }

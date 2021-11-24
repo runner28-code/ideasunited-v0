@@ -79,6 +79,7 @@ export default {
   &__validation {
     &:not(.v-input--has-state) {
       display: none !important;
+    }
     padding: 0 !important;
     &::v-deep {
       .v-input__slot {
@@ -96,7 +97,6 @@ export default {
     text-transform: uppercase;
     opacity: 0.4;
     font-weight: bold;
-  }
 
   &__upload-btn {
     background: #f5f5f5e0 !important;
