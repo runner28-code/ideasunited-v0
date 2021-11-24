@@ -32,6 +32,7 @@ export default {
     Faq,
     TimelineList
   },
+// Temp comment
   methods: {
     convertComponent(type) {
       const list = {

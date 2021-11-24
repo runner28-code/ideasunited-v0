@@ -19,6 +19,7 @@
         rows="1"
         class="chat-footer__actions-input"
         placeholder="Say something"
+        v-model="message"
         maxlength="200"
       ></v-textarea>
       <div class="chat-footer__actions-bottom">
@@ -81,7 +82,6 @@ export default {
         this.message = "";
       }
     }
-  }
 };
 </script>
 

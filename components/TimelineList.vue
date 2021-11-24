@@ -17,6 +17,7 @@
 
 export default {
   name: "Timeline",
+  props: {
     value: String,
     page: Object,
   },
@@ -63,7 +64,6 @@ export default {
 
   &__date {
     text-align: right;
-    font-weight: 900;
     position: relative;
     padding-right: 21px;
     &::after {

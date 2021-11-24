@@ -69,7 +69,6 @@ export default {
       this.data = null;
     },
     closeDialog() {
-      this.dialog = false;
       this.data = null;
     }
   }

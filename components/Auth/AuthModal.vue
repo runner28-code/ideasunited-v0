@@ -39,7 +39,6 @@ export default {
     });
 
     this.$root.$on(`authModal/close`, () => {
-      this.cancel();
     });
   },
   methods: {
@@ -77,5 +76,6 @@ export default {
   &::v-deep {
     .v-card__text {
       padding: 0;
+    }
   }
 }

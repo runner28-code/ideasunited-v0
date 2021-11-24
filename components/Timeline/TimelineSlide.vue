@@ -47,6 +47,7 @@ export default {
     active: Object
   },
   methods: {
+    setActive() {
       if (this.value.posted) {
         this.$emit("setActive", this.value.id);
 

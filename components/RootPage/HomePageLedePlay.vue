@@ -60,6 +60,7 @@
       </svg>
     </div>
   </div>
+</template>
 
 <style lang="scss" scoped>
 .root-lede-play {
@@ -121,7 +122,6 @@
     height: 128.2%;
     > svg {
       width: 100%;
-      height: 100%;
     }
     @media screen and (max-width: 960px) {
       display: none;

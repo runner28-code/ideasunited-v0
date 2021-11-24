@@ -146,7 +146,6 @@ export default {
         z-index: 2;
       }
     }
-  }
 
   &__prev,
   &__next {

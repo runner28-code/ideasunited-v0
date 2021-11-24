@@ -9,6 +9,7 @@
       <div v-if="suggestions && suggestions.length" class="email-validation__suggestions">
         <div v-for="(suggestion, sidx) in suggestions" :key="sidx" v-show="!suggestion.accepted">
           Did you mean {{`${suggestion.local}@${suggestion.suggestion}`}}? <a @click="useSuggestion(suggestion)">Use this email.</a>
+        </div>
       </div>
       <Button
         large
@@ -54,7 +55,6 @@ export default {
       this.form.email_validation_options.yes_i_am_sure = true;
       this.$emit('submit');
     },
-  }
 };
 </script>
 

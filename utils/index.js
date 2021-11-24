@@ -75,6 +75,7 @@ export function getHash(input) {
   return Math.abs(hash);
 }
 
+// Temp comment
 export function getThemeByColor(color) {
   const hex = color.replace("#", "");
   const c_r = parseInt(hex.substr(0, 2), 16);
