@@ -147,7 +147,6 @@ export default {
         const value = this.value.data[field.uuid];
         rules.push( value => {
           return !value || value.size < field.file_size_limit * 1000000 || `File size cannot exceed ${field.file_size_limit} MB.`;
-        });
       }
       if(field.allowed_file_types && field.allowed_file_types != "all") {
         const value = this.value.data[field.uuid];

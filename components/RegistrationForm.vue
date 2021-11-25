@@ -6,7 +6,6 @@
     }"
   >
     <div class="registration-form__form" v-if="!currentUser">
-      <div v-if="registrationForm.login_form && !chooseSignUp">
         <AuthForm :disabled="disabled" />
         <div class="registration-form__not-registered">
           <p class="registration-form__not-registered-cta">
@@ -33,6 +32,7 @@
         >
           {{ registrationForm.description }}
         </div>
+        <DynamicForm
           :submit="submit"
           :fields="registrationForm.registration_form"
           v-model="form"

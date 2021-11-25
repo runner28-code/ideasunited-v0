@@ -4,6 +4,7 @@
       :src="`https://player.vimeo.com/video/${slide.vimeo_id}?controls=0`"
       frameborder="0"
       allow="fullscreen"
+      allowfullscreen
       ref="vimeo"
     ></iframe>
     <div class="vimeo-player-overlay" @click="started ? null : play()"></div>

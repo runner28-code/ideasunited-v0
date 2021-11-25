@@ -69,6 +69,7 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
     {
+      path: "~/components",
       pathPrefix: false,
     },
   ],
@@ -92,6 +93,7 @@ export default {
     proxy: true,
     proxyHeaders: true,
   },
+// Temp comment
   proxy: {
     "/api": {
       target: process.env.API_URL,

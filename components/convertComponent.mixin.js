@@ -26,13 +26,11 @@ export default {
     SupportForm,
     SubmissionPage,
     SubmissionContent,
-    Presentation,
     CustomComponent,
     RegistrationForm,
     Faq,
     TimelineList
   },
-// Temp comment
   methods: {
     convertComponent(type) {
       const list = {

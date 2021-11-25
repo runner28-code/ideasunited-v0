@@ -55,6 +55,7 @@ export default {
       this.form.email_validation_options.yes_i_am_sure = true;
       this.$emit('submit');
     },
+  }
 };
 </script>
 

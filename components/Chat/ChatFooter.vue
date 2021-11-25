@@ -82,6 +82,7 @@ export default {
         this.message = "";
       }
     }
+  }
 };
 </script>
 

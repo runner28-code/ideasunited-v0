@@ -64,6 +64,7 @@ export default {
 
   &__date {
     text-align: right;
+    font-weight: 900;
     position: relative;
     padding-right: 21px;
     &::after {

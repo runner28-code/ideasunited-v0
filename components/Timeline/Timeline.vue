@@ -145,6 +145,7 @@ export default {
     }
   },
   computed: {
+    visibleControls() {
       return (
         (this.$size == "md" && this.timelineEvents.length > 4) ||
         (["lg", "xl"].includes(this.$size) && this.timelineEvents.length > 6) ||

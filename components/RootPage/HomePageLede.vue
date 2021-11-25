@@ -260,6 +260,7 @@ export default {
           }, "fullwindow")
           .set(previewMedia, {
             maskImage: 'none',
+          });
       }
     },
     updateIrisEndingFactor() {

@@ -91,6 +91,7 @@ export default {
           const data = e.response.data;
           if(data.email_validation_response == 'are_you_sure') {
             if(data.email_suggestion) this.emailValidationSuggestions = [data.email_suggestion];
+            this.areYouSureDialog = true;
           }
         }
       }
@@ -118,7 +119,6 @@ export default {
   color: #E12D1B;
   font-size: 14px;
 }
-
 .auth {
 
   &-admin-title {

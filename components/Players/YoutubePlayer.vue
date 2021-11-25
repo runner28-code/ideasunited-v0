@@ -20,7 +20,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.youtube-player {
   position: absolute;
   top: 0;
   left: 0;
