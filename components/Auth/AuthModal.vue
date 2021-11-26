@@ -1,7 +1,6 @@
 <template>
   <v-dialog
     :width="dialogWidth"
-    v-model="opened"
   >
     <v-card class="auth-modal-content">
       <v-btn class="dialog-close" icon @click="cancel">
@@ -45,6 +44,7 @@ export default {
   methods: {
     cancel() {
       this.opened = false;
+      setTimeout(() => this.backToLogin(), 500);
     },
     backToLogin() {
       this.dialogState.chooseSignUp = false;

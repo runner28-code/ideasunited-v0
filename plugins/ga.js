@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueGtag from "vue-gtag";
 
-// Temp comment
 export default ctx => {
   const isProduction = window.location.hostname == 'community.ideasunited.com';
 
@@ -9,7 +8,6 @@ export default ctx => {
     Vue.use(
       VueGtag,
       {
-        config: { id: 'G-3H7VEBMHL7' },
       },
       ctx.app.router
     );

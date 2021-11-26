@@ -18,6 +18,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       }
 
       if (process.server) {
+// Temp comment
         requestConfig.headers["App-Host"] = req.headers.host;
         requestConfig.headers["App-Root-Path"] = req.url;
       } else {
@@ -29,7 +30,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         return Qs.stringify(params, {
           arrayFormat: "brackets",
           encode: false
-// Temp comment
         });
       };
 

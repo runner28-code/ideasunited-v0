@@ -6,7 +6,6 @@
 
     <div class="schedule__items">
       <div
-        class="schedule__group"
         v-for="group in groupedItems"
         :key="group.date"
       >
@@ -66,6 +65,7 @@ export default {
     margin-top: 70px;
   }
 
+  &__group {
     margin-bottom: 40px;
   }
 

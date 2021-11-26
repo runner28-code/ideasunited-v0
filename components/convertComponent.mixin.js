@@ -26,6 +26,7 @@ export default {
     SupportForm,
     SubmissionPage,
     SubmissionContent,
+    Presentation,
     CustomComponent,
     RegistrationForm,
     Faq,

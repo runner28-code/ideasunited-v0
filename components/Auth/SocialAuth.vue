@@ -58,7 +58,6 @@ export default {
           process.env.NODE_ENV === "development"
             ? "localhost"
             : "." + window.location.hostname;
-
         console.info('oauth cookieDomain', cookieDomain);
         cookies.set("authToken", token, null, null, cookieDomain);
         localStorage.removeItem("token");

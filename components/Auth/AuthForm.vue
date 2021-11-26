@@ -119,6 +119,7 @@ export default {
   color: #E12D1B;
   font-size: 14px;
 }
+
 .auth {
 
   &-admin-title {

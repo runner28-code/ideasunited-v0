@@ -47,7 +47,6 @@ export default {
 
   &__status {
     width: 5px;
-    min-width: 5px;
     height: 5px;
     display: inline-block;
     border-radius: 50%;
@@ -60,3 +59,4 @@ export default {
     &--Connected {
       background: #00924e;
     }
+

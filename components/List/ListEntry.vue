@@ -1,7 +1,6 @@
 <template>
   <div class="list-entry">
     <div
-      v-if="entry.preview.thumb.url"
       :style="{ backgroundImage: `url(${entry.preview.thumb.url})` }"
       class="list-entry__preview"
     ></div>
@@ -31,6 +30,7 @@ export default {
   padding: 15px;
   display: flex;
 
+  &__preview {
     width: 40px;
     height: 40px;
     border-radius: 40px;

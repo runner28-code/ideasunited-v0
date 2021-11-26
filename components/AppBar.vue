@@ -351,6 +351,7 @@ export default {
             text-decoration: underline;
           }
         }
+      }
     }
   }
 }

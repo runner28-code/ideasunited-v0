@@ -169,6 +169,7 @@ export default {
       if (!this.preloadedImgBase64s[src]) {
         const img = new Image();
         img.crossOrigin = "anonymous";
+
         img.onload = () => {
           const canvas = document.createElement("canvas");
           canvas.width = img.naturalWidth;
