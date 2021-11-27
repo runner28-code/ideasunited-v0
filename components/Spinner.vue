@@ -34,3 +34,4 @@ export default {
 }
 
 .relative {
+  position: relative !important;

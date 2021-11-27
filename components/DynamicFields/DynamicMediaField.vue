@@ -81,6 +81,7 @@ export default {
     required: Boolean,
     markRequired: Boolean,
     label: String,
+    showLabel: Boolean,
     fileInput: Boolean
   },
   methods: {
@@ -166,3 +167,4 @@ export default {
   &__placeholder {
     font-size: 24px;
     text-transform: uppercase;
+    opacity: 0.4;

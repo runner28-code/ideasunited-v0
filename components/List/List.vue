@@ -1,4 +1,3 @@
-<template>
   <div class="commons-list">
     <div class="commons-list__wrapper text-center">
       <Title tag="h1">{{ list.headline }}</Title>
@@ -51,6 +50,7 @@ export default {
     flex-wrap: wrap;
   }
 
+  &__description {
     color: #4a4a4a;
     padding: 25px 0;
     max-width: 800px;

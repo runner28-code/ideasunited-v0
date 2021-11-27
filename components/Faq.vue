@@ -105,3 +105,4 @@ export default {
       color: white;
     }
     .v-expansion-panel::before {
+      box-shadow: none;

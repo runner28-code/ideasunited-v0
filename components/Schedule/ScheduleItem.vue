@@ -59,7 +59,6 @@ export default {
   min-height: 160px;
   border-radius: 10px;
   padding: 40px;
-  display: flex;
   align-items: center;
   background-size: cover;
   background-position: center;
@@ -92,3 +91,4 @@ export default {
       font-size: 30px;
     }
     &__start-at {
+      margin-right: 30px;

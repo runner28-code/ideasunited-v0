@@ -14,6 +14,7 @@ const providers = {
   cas: {
     authorizationEndpoint: "/api/v1/public_side/auth/cas"
   }
+};
 
 export default function(ctx, inject) {
   inject("oauth", provider => {
@@ -41,6 +42,7 @@ export default function(ctx, inject) {
 
         if (token) {
           resolve({ token });
+// Temp comment
 
           clearInterval(interval);
           w.close();

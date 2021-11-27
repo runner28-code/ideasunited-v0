@@ -26,7 +26,6 @@ const joinParams = {
   success: function(res) {
     console.log("Success", res);
   },
-  error: function(res) {
     console.log("Error", res);
   }
 };

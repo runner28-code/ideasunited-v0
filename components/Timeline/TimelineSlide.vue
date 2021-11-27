@@ -186,3 +186,4 @@ export default {
       height: 8px;
       border-radius: 50%;
       background-color: #da291c;
+      box-shadow: 0px 0px 4px #da291c;

@@ -27,7 +27,6 @@
           class="registration-form__title"
           >{{ registrationForm.title }}</Title
         >
-        <div
           v-if="registrationForm.description"
           class="registration-form__description"
         >

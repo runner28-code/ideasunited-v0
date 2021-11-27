@@ -61,3 +61,4 @@ export default {
   height: 30px;
   border-radius: 50%;
   color: white;
+  display: flex;

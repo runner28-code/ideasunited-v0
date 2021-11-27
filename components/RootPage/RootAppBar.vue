@@ -367,3 +367,4 @@ export default {
 
 .logo-link {
   &,
+  img {

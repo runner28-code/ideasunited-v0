@@ -322,3 +322,4 @@ export default {
 .background-lede {
   background-size: cover;
   background-position: center;
+  left: 0;

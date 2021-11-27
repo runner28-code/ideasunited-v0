@@ -361,3 +361,4 @@ export default {
   margin-left: 3px;
 }
 
+.menu-toggle {

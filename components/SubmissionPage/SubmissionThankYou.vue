@@ -65,3 +65,4 @@ export default {
 
 <style lang="scss" scoped>
 .submission-thank-you {
+  &__text,

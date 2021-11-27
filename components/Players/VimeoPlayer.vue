@@ -78,3 +78,4 @@ export default {
 
 <style scoped lang="scss">
 .vimeo-player {
+  position: absolute;

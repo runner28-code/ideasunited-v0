@@ -38,3 +38,4 @@ export default {
         SubmissionForm: "SubmissionPage"
       };
 
+      return list[type] || type;

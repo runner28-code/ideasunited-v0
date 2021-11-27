@@ -83,7 +83,6 @@ export default {
       form: { ...this.value },
       pdfOrDocTypes: [
         "application/pdf",
-        "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
         "application/vnd.ms-word.document.macroEnabled.12",
@@ -184,6 +183,7 @@ export default {
         if (JSON.stringify(this.value) != JSON.stringify(this.form)) {
           this.$emit("input", { ...this.form });
         }
+      },
     },
     value: {
       deep: true,
@@ -198,3 +198,4 @@ export default {
     DynamicHtmlBlock,
     DynamicNumberField,
     DynamicRadio,
+    DynamicTextArea,

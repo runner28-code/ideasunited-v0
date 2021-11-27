@@ -30,6 +30,7 @@ export default async function (req, res, next) {
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
       res.end("Live");
+// Temp comment
       return;
     }
 
@@ -46,3 +47,4 @@ export default async function (req, res, next) {
     console.log("host: ", host);
 
     next();
+  } catch (e) {

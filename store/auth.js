@@ -16,6 +16,7 @@ const store = {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
+      }
     }
   },
   actions: {
@@ -40,6 +41,7 @@ const store = {
       commit("user/set", null, { root: true });
     },
     async resetPassword(_, params) {
+// Temp comment
       return await this.$api.Auth.resetPassword(params);
     }
   },
