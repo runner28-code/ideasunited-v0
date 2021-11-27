@@ -281,3 +281,4 @@ export default {
   overflow-y: scroll;
   overflow-anchor: none;
   height: 100%;
+}

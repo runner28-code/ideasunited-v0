@@ -16,7 +16,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       if (process.server) {
         requestConfig.headers["Nuxt"] = process.env.NUXT_ID;
       }
-// Temp comment
 
       if (process.server) {
         requestConfig.headers["App-Host"] = req.headers.host;
@@ -52,7 +51,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
 
           if (redirect_to && route.path != redirect_to) {
             redirect(redirect_to);
-          }
         }
       }
 
@@ -68,3 +66,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         redirect(redirect_to);
       }
 
+      return Promise.reject(error);

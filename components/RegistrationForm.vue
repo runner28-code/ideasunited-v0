@@ -27,6 +27,7 @@
           class="registration-form__title"
           >{{ registrationForm.title }}</Title
         >
+        <div
           v-if="registrationForm.description"
           class="registration-form__description"
         >
@@ -107,7 +108,6 @@ export default {
     }
   },
   methods: {
-    async submit() {
       try {
         const { data } = await this.$api.RegistrationForm.submit(this.form);
         this.emailValidationSuggestions = [];
@@ -172,3 +172,4 @@ export default {
     padding: 1em 0;
     text-align: center;
   }
+  &__thank-you {

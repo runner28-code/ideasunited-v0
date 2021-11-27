@@ -317,3 +317,4 @@ export default {
 
 <style lang="scss">
 .rightsidebar {
+  .v-navigation-drawer__content {

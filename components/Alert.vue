@@ -126,3 +126,4 @@ export default {
   .v-snack__content {
     width: 100%;
     display: flex;
+    flex-direction: column;

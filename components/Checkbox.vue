@@ -30,7 +30,6 @@ export default {
     disabled: Boolean,
   },
 };
-</script>
 
 <style scoped lang="scss">
 .checkbox {
@@ -39,3 +38,4 @@ export default {
   &::v-deep {
     .v-label {
       display: block !important;
+    }

@@ -213,3 +213,4 @@ export default {
       width: 55px;
 
       &-value {
+        font-size: 3em;

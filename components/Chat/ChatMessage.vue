@@ -54,6 +54,7 @@ import badwords from "@/filters/badwords";
 
 export default {
   name: "ChatMessage",
+  props: {
     message: Object,
     chat: Object
   },
@@ -112,7 +113,6 @@ export default {
     margin-left: 3px;
   }
 }
-
 .message__body {
   font-size: 12px;
   white-space: pre-line;

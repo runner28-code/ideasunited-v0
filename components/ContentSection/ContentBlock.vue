@@ -166,3 +166,4 @@ export default {
   }
 
   &__subtitle {
+    color: #333;

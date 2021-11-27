@@ -24,6 +24,7 @@ const store = {
       const collection = state.current?.events;
       const payload = { hidden_from_timeline: true };
       updateCollection({ collection, id, payload });
+    },
     publishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: true };

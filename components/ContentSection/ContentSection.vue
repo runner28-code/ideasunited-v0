@@ -303,6 +303,7 @@ export default {
         }
       }
     }
+  }
 
   &.disable_scroll {
     .content-section__blocks {
@@ -345,3 +346,5 @@ export default {
           margin-right: 0;
           &:nth-child(3n) {
             margin-right: 0;
+          }
+        }

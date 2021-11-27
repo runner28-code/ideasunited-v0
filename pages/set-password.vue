@@ -95,3 +95,4 @@ export default {
     width: 100%;
 
     &::v-deep {
+      .text-field {

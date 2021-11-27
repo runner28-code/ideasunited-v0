@@ -109,7 +109,6 @@
       </div>
     </div>
     <div class="menu-toggle" v-if="menuPages.length">
-      <v-btn @click="toggleDrawer()" icon>
         <v-icon color="#E12D1B" size="32">{{
           drawer ? "$close" : "$account_menu"
         }}</v-icon>
@@ -362,3 +361,4 @@ export default {
 }
 
 .menu-toggle {
+  display: none;

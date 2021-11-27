@@ -23,6 +23,7 @@
 
     <SliderModal
       :prevId="prevId"
+      :nextId="nextId"
       :id="item.id"
       name="article"
       scrollToElement

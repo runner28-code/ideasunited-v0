@@ -277,3 +277,4 @@ export default {
       }
     }
     &__chat {
+      order: 3;

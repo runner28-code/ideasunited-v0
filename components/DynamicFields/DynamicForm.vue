@@ -83,6 +83,7 @@ export default {
       form: { ...this.value },
       pdfOrDocTypes: [
         "application/pdf",
+        "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
         "application/vnd.ms-word.document.macroEnabled.12",
@@ -199,3 +200,4 @@ export default {
     DynamicNumberField,
     DynamicRadio,
     DynamicTextArea,
+    DynamicTextField,

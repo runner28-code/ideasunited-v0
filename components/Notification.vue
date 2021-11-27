@@ -64,7 +64,6 @@ export default {
     });
   },
   methods: {
-    closeSidebar() {
       this.sidebar = false;
       this.data = null;
     },

@@ -31,6 +31,7 @@
 import { buildZoomLink } from "@/utils";
 
 export default {
+  name: "ZoomPlayer",
   props: {
     event: Object
   },

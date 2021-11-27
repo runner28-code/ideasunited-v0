@@ -192,3 +192,4 @@ export default {
       }
       &::after {
         content: "";
+        display: block;

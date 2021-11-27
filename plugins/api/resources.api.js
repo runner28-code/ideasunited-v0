@@ -16,7 +16,6 @@ function objectToFormData(obj) {
   formData.append("data", data);
 
   Object.keys(files).forEach((k) => {
-// Temp comment
     formData.append(`files[${k}]`, files[k]);
   });
   return formData;

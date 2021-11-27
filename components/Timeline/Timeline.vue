@@ -184,6 +184,7 @@ export default {
       deep: true,
       handler() {
         const ids = this.events.map(t => t.id);
+        const { id } = this.value;
         if (ids.includes(id)) {
           this.setActive(id);
         }
@@ -241,3 +242,4 @@ export default {
       .timeline-slide__wrapper {
         margin-right: 20px;
         min-height: 115px;
+        min-width: 185px;

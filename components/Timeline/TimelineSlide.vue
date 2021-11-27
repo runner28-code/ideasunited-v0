@@ -103,7 +103,6 @@ export default {
 .timeline-slide__wrapper {
   overflow: visible;
   flex: none;
-}
 .timeline-slide {
   background: black;
   max-width: 220px;

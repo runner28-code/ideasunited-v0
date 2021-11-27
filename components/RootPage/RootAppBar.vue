@@ -368,3 +368,4 @@ export default {
 .logo-link {
   &,
   img {
+    display: block;

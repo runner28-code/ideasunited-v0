@@ -53,6 +53,7 @@ export default {
       });
     }
 
+    if (process.client) {
       const googleFonts = [
         this.activeTheme.h1_font?.font,
         this.activeTheme.h2_font?.font,
@@ -219,3 +220,4 @@ export default {
   z-index: 1;
 }
 </style>
+

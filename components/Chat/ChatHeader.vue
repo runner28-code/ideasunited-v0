@@ -61,3 +61,4 @@ export default {
       background: #00924e;
     }
 
+    &--Disconnected {

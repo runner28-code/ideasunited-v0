@@ -29,7 +29,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.grid-menu {
   display: flex;
   flex-wrap: wrap;
 
@@ -81,3 +80,4 @@ export default {
 }
 
 @media screen and (max-width: 550px) {
+  .grid-menu {

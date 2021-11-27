@@ -42,11 +42,10 @@ export default function(ctx, inject) {
 
         if (token) {
           resolve({ token });
-// Temp comment
 
           clearInterval(interval);
           w.close();
-          return;
         }
 
         if (w.closed) {
+          reject();

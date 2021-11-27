@@ -24,7 +24,6 @@ const store = {
   getters: {
     current(state) {
       return state.current;
-// Temp comment
     },
   },
 };

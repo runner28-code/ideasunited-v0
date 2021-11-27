@@ -88,3 +88,4 @@ export default {
     z-index: 1;
     width: 100%;
     padding: 0 45px;
+    outline: none !important;
