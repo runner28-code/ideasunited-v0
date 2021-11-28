@@ -172,3 +172,4 @@ export default {
     max-height: 100% !important;
     max-width: 100vw !important;
     &__wrapper {
+      padding: 0 !important;

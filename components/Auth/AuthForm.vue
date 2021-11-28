@@ -198,3 +198,4 @@ export default {
     flex-direction: column;
 
     .v-btn {
+      margin-bottom: 10px;

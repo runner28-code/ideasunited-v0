@@ -6,7 +6,6 @@
     @input="$emit('input', $event)"
     :rules="[...rules, $rules.email]"
     outlined
-    @focus.stop="onFocus($event)"
   />
 </template>
 

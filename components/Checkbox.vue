@@ -30,6 +30,7 @@ export default {
     disabled: Boolean,
   },
 };
+</script>
 
 <style scoped lang="scss">
 .checkbox {

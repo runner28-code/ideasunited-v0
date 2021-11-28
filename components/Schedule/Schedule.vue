@@ -11,6 +11,7 @@
         :key="group.date"
       >
         <div class="schedule__date">
+          {{
             group.date
               | moment("timezone", currentTimezone, "dddd, MMM Do")
           }}
@@ -75,3 +76,4 @@ export default {
   }
 }
 
+@media screen and (max-width: 960px) {

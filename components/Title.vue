@@ -40,3 +40,6 @@ export default {
   }
   .h2 {
     font-size: 24px !important;
+  }
+}
+</style>

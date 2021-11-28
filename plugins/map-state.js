@@ -17,6 +17,7 @@ if (!Vue.__map_state_mixin__) {
             top: y,
             behavior: "smooth",
           });
+        }
       },
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
@@ -66,3 +67,4 @@ if (!Vue.__map_state_mixin__) {
               this.activeTheme.header_logo_mobile.large.url ||
               this.activeTheme.header_logo_mobile.url
           : this.currentProject?.frontend_logo.large.url ||
+              this.activeTheme.header_logo.large.url ||

@@ -113,3 +113,4 @@ export default {
     }
 
     &-bottom {
+      display: flex;

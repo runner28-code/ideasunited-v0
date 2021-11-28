@@ -193,3 +193,4 @@ export default {
       &::after {
         content: "";
         display: block;
+        width: 100%;

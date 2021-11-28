@@ -61,3 +61,4 @@ export default {
   }
 
   &__description {
+    padding: 30px 0;

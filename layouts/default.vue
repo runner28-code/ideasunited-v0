@@ -282,3 +282,5 @@ export default {
   overflow-anchor: none;
   height: 100%;
 }
+.opp-count {
+  position: absolute;

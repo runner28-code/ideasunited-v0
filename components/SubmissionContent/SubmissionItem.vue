@@ -133,3 +133,4 @@ export default {
       &:before,
       &:after {
         content: "“";
+      }

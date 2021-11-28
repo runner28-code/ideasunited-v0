@@ -113,6 +113,7 @@ export default {
     margin-left: 3px;
   }
 }
+
 .message__body {
   font-size: 12px;
   white-space: pre-line;
@@ -121,3 +122,4 @@ export default {
 
 .message__timestamp {
   font-size: 10px;
+  color: rgb(155, 155, 155);

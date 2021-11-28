@@ -45,6 +45,7 @@ export default function(ctx, inject) {
 
           clearInterval(interval);
           w.close();
+          return;
         }
 
         if (w.closed) {

@@ -50,6 +50,7 @@ export default {
             },
             addStyle: textContent => {
               const styleExist = document.querySelector(`[sfc=${sfc_name}]`);
+
               const style = Object.assign(document.createElement("style"), {
                 textContent
               });
@@ -85,3 +86,4 @@ export default {
           this.compile(descendent);
         }
         this.compile(val, () => (this.loaded = true));
+      }

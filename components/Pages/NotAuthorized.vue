@@ -40,3 +40,4 @@ export default {
   justify-content: center;
   align-items: center;
   overflow: auto;
+  margin: auto;

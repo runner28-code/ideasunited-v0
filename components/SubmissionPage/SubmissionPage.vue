@@ -15,7 +15,6 @@
   </div>
 </template>
 
-<script>
 export default {
   props: {
     value: String,
@@ -44,3 +43,4 @@ export default {
   &__description {
     font-size: 18px;
     margin: 25px 0;
+    color: #4a4a4a;

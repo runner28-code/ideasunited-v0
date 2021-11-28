@@ -19,7 +19,6 @@
             >
           </div>
         </div>
-        <div v-if="!registrationForm.login_form || chooseSignUp" class="register">
           <Title
             v-if="registrationForm.title"
             tag="h2"
@@ -218,3 +217,5 @@ export default {
     > div:nth-child(6),
     > div:nth-child(7),
     > div:nth-child(8),
+    > div:nth-child(9) {
+      @media screen and (min-width: 945px) {

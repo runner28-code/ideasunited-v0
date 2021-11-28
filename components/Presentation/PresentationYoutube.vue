@@ -4,7 +4,6 @@
     <div class="youtube-player__after" @click="started ? null : play"></div>
   </div>
 </template>
-
 <script>
 import YouTubePlayer from "youtube-player";
 export default {
@@ -71,3 +70,4 @@ export default {
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;

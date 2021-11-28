@@ -278,3 +278,5 @@ export default {
     }
     &__chat {
       order: 3;
+      width: 100% !important;
+      height: 0px;

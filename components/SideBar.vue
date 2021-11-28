@@ -206,7 +206,6 @@ export default {
     color: white;
   }
 
-  &__logo {
     display: block;
     height: 50px;
     max-width: 269px;
@@ -318,3 +317,5 @@ export default {
 <style lang="scss">
 .rightsidebar {
   .v-navigation-drawer__content {
+    padding: 4em 16px 20px 17px;
+    display: flex;

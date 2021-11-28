@@ -102,3 +102,4 @@ export default {
       margin-bottom: 10px;
     }
     &__subtitle {
+      font-size: 26px;

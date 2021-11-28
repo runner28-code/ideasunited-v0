@@ -28,7 +28,6 @@ export default {
       type: Array,
       default: () => []
     },
-    required: Boolean,
     markRequired: Boolean
   },
   methods: {
@@ -51,3 +50,4 @@ export default {
 
     .v-input--selection-controls__input {
       top: 1px;
+    }

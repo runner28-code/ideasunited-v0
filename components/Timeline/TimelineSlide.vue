@@ -103,6 +103,7 @@ export default {
 .timeline-slide__wrapper {
   overflow: visible;
   flex: none;
+}
 .timeline-slide {
   background: black;
   max-width: 220px;
@@ -186,3 +187,4 @@ export default {
       border-radius: 50%;
       background-color: #da291c;
       box-shadow: 0px 0px 4px #da291c;
+      margin-right: 5px;

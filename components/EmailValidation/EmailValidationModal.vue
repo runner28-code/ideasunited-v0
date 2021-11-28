@@ -73,3 +73,4 @@ export default {
   }
 
   &__suggestions {
+    > div {

@@ -214,3 +214,4 @@ export default {
 
       &-value {
         font-size: 3em;
+        line-height: 1;

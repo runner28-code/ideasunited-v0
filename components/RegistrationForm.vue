@@ -108,6 +108,7 @@ export default {
     }
   },
   methods: {
+    async submit() {
       try {
         const { data } = await this.$api.RegistrationForm.submit(this.form);
         this.emailValidationSuggestions = [];
@@ -173,3 +174,4 @@ export default {
     text-align: center;
   }
   &__thank-you {
+    text-align: center;

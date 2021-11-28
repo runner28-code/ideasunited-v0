@@ -369,3 +369,6 @@ export default {
   &,
   img {
     display: block;
+  }
+}
+

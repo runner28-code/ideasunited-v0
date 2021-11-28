@@ -64,6 +64,7 @@ export default {
     });
   },
   methods: {
+    closeSidebar() {
       this.sidebar = false;
       this.data = null;
     },
@@ -87,3 +88,4 @@ export default {
     font-size: 16px;
   }
 
+  &__sidebar {

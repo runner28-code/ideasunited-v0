@@ -135,6 +135,7 @@ export default {
       document.querySelectorAll(".page").forEach((el) => (el.scrollTop = 0)); // official fullpage breaks this. It can be fixed with the scrollOverflowReset extension, but it's pretty costly.
       if (this.isMobile) {
         this.$root.$emit(
+          "mobileScrollTo",
           this.$refs.sections[idx].$el.offsetTop
         );
       }
@@ -324,3 +325,5 @@ export default {
   left: 0;
   height: 100%;
   @media screen and (max-width: 944px) {
+    display: none;
+  }

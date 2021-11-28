@@ -168,3 +168,4 @@ export default {
     font-size: 24px;
     text-transform: uppercase;
     opacity: 0.4;
+    font-weight: bold;

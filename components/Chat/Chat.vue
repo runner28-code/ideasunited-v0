@@ -76,3 +76,4 @@ export default {
     width: 100%;
     margin: -4px;
     & > div {
+      height: 9px;

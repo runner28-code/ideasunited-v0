@@ -78,6 +78,7 @@ a.text-block__item-wrapper:hover {
     &-title {
       font-weight: 900;
       font-size: 48px;
+      line-height: 1.1;
     }
     &-description {
       font-size: 16px;
@@ -109,3 +110,4 @@ a.text-block__item-wrapper:hover {
       &-wrapper {
         padding: 0;
       }
+

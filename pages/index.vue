@@ -44,3 +44,4 @@ export default {
   position: relative;
   @media screen and (max-width: 944px) {
     margin-left: 0;
+    height: auto;

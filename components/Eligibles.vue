@@ -60,3 +60,4 @@ export default {
     margin-right: 5px;
     width: 18px;
     height: 18px;
+    background-size: cover;

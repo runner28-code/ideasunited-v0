@@ -17,7 +17,6 @@ export default {
   head: {
     titleTemplate: "%s",
     htmlAttrs: {
-      lang: "en",
     },
     meta: [
       { charset: "utf-8" },
@@ -86,6 +85,7 @@ export default {
     "@nuxtjs/device",
     "nuxt-user-agent",
     "nuxt-polyfill",
+  ],
   axios: {
     baseURL: `${process.env.API_URL}${process.env.API_PUBLIC_PATH}`,
     browserBaseURL: process.env.API_PUBLIC_PATH,
@@ -168,3 +168,4 @@ export default {
     },
   },
 
+  // Build Configuration: https://go.nuxtjs.dev/config-build

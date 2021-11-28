@@ -348,3 +348,6 @@ export default {
             margin-right: 0;
           }
         }
+      }
+    }
+

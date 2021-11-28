@@ -477,3 +477,7 @@ export default {
         background-position: center;
         background-repeat: no-repeat;
       }
+    }
+    &-video {
+      background: black;
+      z-index: 1;

@@ -54,7 +54,6 @@ export function copyToClipboard(str) {
   document.body.appendChild(el);
   const selected =
     document.getSelection().rangeCount > 0
-// Temp comment
       ? document.getSelection().getRangeAt(0)
       : false;
   el.select();
@@ -67,6 +66,7 @@ export function copyToClipboard(str) {
 }
 
 export function getHash(input) {
+// Temp comment
   var hash = 0,
     len = input.length;
   for (var i = 0; i < len; i++) {
