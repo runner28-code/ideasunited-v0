@@ -6,5 +6,4 @@ if (process.client) {
     debug: true,
     debugLevel: "error",
     connectImmediately: true,
-    connectionUrl: location.origin.replace("http", "ws") + "/cable"
   });

@@ -58,13 +58,13 @@ export default {
   }
 };
 </script>
-
 <style lang="scss" scoped>
 .vimeo-player {
   height: 100%;
   position: relative;
   background: black;
 
+  &-overlay {
     top: 0;
     left: 0;
     right: 0;

@@ -19,7 +19,6 @@ const store = {
       commit("set", data);
 
       return data;
-    },
   },
   getters: {
     current(state) {

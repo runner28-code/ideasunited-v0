@@ -1,5 +1,4 @@
 <template>
-  <div class="page-wrapper">
     <NotFound v-if="status == 404" />
     <NotAuthorized v-else-if="status == 403" />
     <RootPage v-else-if="status == 200" />
@@ -41,6 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .page-wrapper {
+  position: relative;
   @media screen and (max-width: 944px) {
     margin-left: 0;
     height: auto;

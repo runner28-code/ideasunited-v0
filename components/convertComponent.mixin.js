@@ -25,6 +25,7 @@ export default {
     HtmlBlock,
     SupportForm,
     SubmissionPage,
+    SubmissionContent,
     Presentation,
     CustomComponent,
     RegistrationForm,
@@ -33,7 +34,6 @@ export default {
   },
   methods: {
     convertComponent(type) {
-      const list = {
         SubmissionForm: "SubmissionPage"
       };
 

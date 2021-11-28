@@ -242,7 +242,6 @@ export default {
         max-width: 320px;
         margin-right: 20px;
       }
-
       .swiper-wrapper {
         display: flex;
       }

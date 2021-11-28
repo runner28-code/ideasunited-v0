@@ -52,6 +52,7 @@ export default {
   height: 46px;
   position: relative;
   // max-width: 600px;
+  padding: 0 20px;
   color: #181b23;
 
   &__wrapper {
@@ -80,7 +81,6 @@ export default {
 
   &__value {
     position: absolute;
-    left: 0;
     right: 0;
     top: 0;
     bottom: 0;

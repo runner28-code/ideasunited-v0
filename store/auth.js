@@ -40,7 +40,6 @@ const store = {
       commit("setToken", null);
       commit("user/set", null, { root: true });
     },
-    async resetPassword(_, params) {
       return await this.$api.Auth.resetPassword(params);
     }
   },

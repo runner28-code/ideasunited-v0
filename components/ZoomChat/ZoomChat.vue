@@ -21,6 +21,7 @@ export default {
     return {
       zoomUrl: null
     };
+  },
   created() {
     this.fetchSignature();
   },
@@ -37,7 +38,6 @@ export default {
         email
       });
     }
-  }
 };
 </script>
 

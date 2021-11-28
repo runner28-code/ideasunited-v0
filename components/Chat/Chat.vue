@@ -34,7 +34,6 @@ export default {
         switch (type) {
           case "update_chat_params":
             this.$store.commit("page/updateChat", payload);
-            break;
         }
       }
     }

@@ -68,7 +68,6 @@ export default {
         "timeline-slide": true
       };
     },
-    isActive() {
       return this.value.id == this.active?.id;
     },
     styles() {

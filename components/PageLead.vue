@@ -36,7 +36,6 @@ export default {
       }
 
       return styles;
-    }
   }
 };
 </script>
