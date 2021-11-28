@@ -74,7 +74,6 @@
   z-index: 1;
   pointer-events: all;
   cursor: pointer;
-
   @media screen and (max-width: 960px) {
     width: 100%;
     height: 100%;

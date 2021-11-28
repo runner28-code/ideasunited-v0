@@ -62,7 +62,6 @@ export default {
     scrollToElement: {
       type: Boolean,
       default: false
-    }
   },
   data() {
     return {

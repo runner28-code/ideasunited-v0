@@ -217,6 +217,7 @@ export default {
   border-top: 1px solid #e5e5e5;
   position: relative;
 
+  &__control {
     visibility: hidden;
     pointer-events: none;
 

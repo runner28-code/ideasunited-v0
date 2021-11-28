@@ -206,6 +206,7 @@ export default {
     color: white;
   }
 
+  &__logo {
     display: block;
     height: 50px;
     max-width: 269px;

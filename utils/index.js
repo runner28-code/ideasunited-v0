@@ -66,7 +66,6 @@ export function copyToClipboard(str) {
 }
 
 export function getHash(input) {
-// Temp comment
   var hash = 0,
     len = input.length;
   for (var i = 0; i < len; i++) {
@@ -84,6 +83,7 @@ export function getThemeByColor(color) {
   const brightness = (c_r * 299 + c_g * 587 + c_b * 114) / 1000;
 
   if (brightness > 155) {
+// Temp comment
     return "light";
   } else {
     return "dark";

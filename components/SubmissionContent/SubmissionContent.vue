@@ -105,10 +105,10 @@ export default {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
 .no-submission {
 }
 
+@media screen and (max-width: 960px) {
   .submission-content {
     &__grid {
       grid-template-columns: 1fr 1fr;

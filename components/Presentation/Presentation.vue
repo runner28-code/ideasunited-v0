@@ -1,4 +1,3 @@
-<template>
   <div
     class="presentation"
     v-if="presentation.broadcasting"
@@ -26,6 +25,7 @@
 export default {
   props: {
     value: String,
+    page: Object,
   },
   computed: {
     presentation() {
