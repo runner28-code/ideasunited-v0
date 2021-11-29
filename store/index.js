@@ -10,6 +10,7 @@ export const mutations = {
   }
 };
 
+// Temp comment
 export const actions = {
   async nuxtServerInit({ commit }, opts) {
     const { req } = opts;
@@ -18,6 +19,7 @@ export const actions = {
       host: req.headers.host,
       root_path: req.url
     });
+
     commit("project/set", projectData);
 
     const { data: userData } = await this.$api.User.current();

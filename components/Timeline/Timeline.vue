@@ -138,6 +138,7 @@ export default {
       this.setActive(activeId);
     },
     availableEvent(event) {
+      return (
         !event.role_ids.length ||
         _.intersection(event.role_ids, this.currentUser?.role_ids).length
       );

@@ -20,11 +20,11 @@ export default {};
   width: 100%;
   min-height: 100%;
   margin: auto;
-  display: flex;
   align-items: center;
   justify-content: center;
   padding: 40px;
   background-size: cover;
+}
 
 @media screen and (max-width: 944px) {
   .auth-page {

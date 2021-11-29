@@ -97,7 +97,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .submission-content {
   &__grid {
@@ -116,10 +115,3 @@ export default {
     }
   }
 }
-
-@media screen and (max-width: 600px) {
-  .submission-content {
-    &__grid {
-      grid-template-columns: 1fr;
-    }
-  }

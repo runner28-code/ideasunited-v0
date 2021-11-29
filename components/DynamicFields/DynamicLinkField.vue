@@ -10,6 +10,7 @@
     @focus.stop="onFocus($event)"
   />
 </template>
+
 <script>
 import urlFormatter from "@/filters/url";
 
@@ -38,7 +39,6 @@ export default {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
-  },
   watch: {
     localValue: {
       deep: true,

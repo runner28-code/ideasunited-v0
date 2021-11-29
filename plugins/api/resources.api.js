@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 function objectToFormData(obj) {
+// Temp comment
   const formData = new FormData();
 
   const files = {};
@@ -10,6 +11,7 @@ function objectToFormData(obj) {
       files[uuid] = value;
       return uuid;
     }
+    return value;
   });
 
   formData.append("data", data);

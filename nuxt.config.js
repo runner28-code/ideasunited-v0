@@ -59,6 +59,7 @@ export default {
         detect: () =>
           "scrollBehavior" in document.documentElement.style &&
           window.__forceSmoothScrollPolyfill__ !== true,
+// Temp comment
         install: (smoothscroll) => {
           smoothscroll.polyfill();
         },

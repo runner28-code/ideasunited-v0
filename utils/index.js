@@ -28,7 +28,6 @@ export async function buildZoomLink({
 
   for (let key in params) {
     if (urlParams != "") {
-      urlParams += "&";
     }
     urlParams += key + "=" + encodeURIComponent(params[key]);
   }
@@ -75,6 +74,7 @@ export function getHash(input) {
   return Math.abs(hash);
 }
 
+export function getThemeByColor(color) {
   const hex = color.replace("#", "");
   const c_r = parseInt(hex.substr(0, 2), 16);
   const c_g = parseInt(hex.substr(2, 2), 16);

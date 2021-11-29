@@ -18,7 +18,6 @@ export default {
         content: this.currentProject?.headline
       },
       {
-        hid: "og-description",
         property: "og:description",
         content: this.currentProject?.og_description || this.currentProject?.description
       },
@@ -83,6 +82,7 @@ export default {
         color: this.activeTheme.body_color
       };
     },
+    status() {
       if (!this.page && !this.currentProject) return 404;
 
       if (this.currentProject) return 200;

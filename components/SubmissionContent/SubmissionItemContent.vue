@@ -17,6 +17,7 @@
       </v-responsive>
       <img v-else :src="value.preview.large.url" width="100%" />
     </div>
+    <div
       class="slider-modal-content__side slider-modal-content__content"
       v-if="content.length"
     >

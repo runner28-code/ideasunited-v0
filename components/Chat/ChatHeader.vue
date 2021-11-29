@@ -27,6 +27,7 @@ export default {
     }
   }
 };
+</script>
 
 <style scoped lang="scss">
 .chat-header {

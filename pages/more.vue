@@ -1,6 +1,5 @@
 <template>
   <div class="grid-menu">
-    <v-responsive
       v-for="item in gridMenuPages"
       :key="item.id"
       class="grid-menu__item"
@@ -45,6 +44,7 @@ export default {
       right: 0;
       top: 0;
       bottom: 0;
+      color: white;
       display: flex;
       align-items: center;
       justify-content: center;

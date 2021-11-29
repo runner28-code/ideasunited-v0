@@ -23,7 +23,6 @@ const joinParams = {
   signature,
   userEmail,
   passWord,
-  success: function(res) {
     console.log("Success", res);
   },
   error: function(res) {
