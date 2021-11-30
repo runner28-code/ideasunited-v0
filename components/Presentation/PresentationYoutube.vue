@@ -66,7 +66,6 @@ export default {
   width: 100%;
   height: 100%;
   position: relative;
-
   &__after {
     top: 0;
     left: 0;

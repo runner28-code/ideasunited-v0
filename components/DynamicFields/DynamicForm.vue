@@ -44,6 +44,7 @@
           <span style="margin-left: 10px"> Uploading... </span>
         </span>
         <span v-else>
+          {{ btnText || "Submit" }}
         </span>
       </Button>
     </div>

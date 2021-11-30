@@ -9,6 +9,7 @@
       {{
         item.start_at | moment("timezone", currentTimezone, "h:mm a zz")
       }}
+    </div>
     <div class="schedule-item__content">
       <Title class="schedule-item__title">{{ item.title }}</Title>
       <div
@@ -38,7 +39,6 @@ export default {
     styles() {
       const result = {};
       const url =
-        this.item.preview.large.url ||
         this.activeTheme.schedule_preview.large.url;
 
       if (url) {

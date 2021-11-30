@@ -134,7 +134,6 @@ export default {
       if (!activeId) {
         activeId = _.findLast(this.events, t => t.posted)?.id;
       }
-
       this.setActive(activeId);
     },
     availableEvent(event) {
@@ -244,4 +243,8 @@ export default {
         min-height: 115px;
         min-width: 185px;
       }
+    }
+
+    &-slide {
+      width: auto;
     }

@@ -42,6 +42,7 @@ export default {
   methods: {
     slideClick(slide) {
       if (slide.url) {
+        window.open(slide.url, slide.open_url || "_blank");
       }
     }
   }

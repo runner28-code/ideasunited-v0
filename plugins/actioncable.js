@@ -1,8 +1,8 @@
 import Vue from "vue";
-// Temp comment
 import ActionCableVue from "actioncable-vue";
 
 if (process.client) {
+// Temp comment
   Vue.use(ActionCableVue, {
     debug: true,
     debugLevel: "error",

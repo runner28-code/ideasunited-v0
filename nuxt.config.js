@@ -59,7 +59,6 @@ export default {
         detect: () =>
           "scrollBehavior" in document.documentElement.style &&
           window.__forceSmoothScrollPolyfill__ !== true,
-// Temp comment
         install: (smoothscroll) => {
           smoothscroll.polyfill();
         },
@@ -104,7 +103,6 @@ export default {
     //   changeOrigin: true
     // },
     // "/cable": {
-    //   target: process.env.WS_HOST,
     //   logLevel: "debug",
     //   secure: false,
     //   ws: true

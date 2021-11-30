@@ -60,6 +60,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
     error => {
       const { errors, redirect_to } = error.response.data;
       if (errors) {
+// Temp comment
         $nuxt.$alert(errors.join("\n"), "error");
       }
 

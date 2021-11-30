@@ -10,6 +10,7 @@
       :chat="chat"
       :message="message"
       v-for="message in messages"
+      :key="message.uuid"
     />
   </div>
 </template>
@@ -20,7 +21,6 @@ export default {
     chat: Object
   },
   data() {
-    return { messages: [] };
   },
   channels: {
     ChatChannel: {

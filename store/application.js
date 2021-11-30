@@ -1,5 +1,4 @@
 const store = {
-// Temp comment
   namespaced: true,
   state: () => ({ loaded: false, timelineAspectRatio: null }),
   mutations: {
@@ -20,6 +19,7 @@ const store = {
           commit("setLoaded", true);
           resolve();
         });
+// Temp comment
       });
     }
   }

@@ -159,3 +159,4 @@ export default {
     }
 
     &__preview {
+      width: calc(100vw - 580px);

@@ -115,7 +115,6 @@ export default {
       if (eligibility_ids.length == 0) return true;
       const badge_ids = _.uniq(this.currentUser.badge_ids);
       const intersection = _.intersection(eligibility_ids, badge_ids);
-
       return intersection.length > 0;
     },
   },

@@ -14,7 +14,6 @@
 import { getThemeByColor } from "@/utils";
 
 export default {
-  name: "SearchInput",
   props: {
     value: String
   },
@@ -89,3 +88,4 @@ export default {
     width: 100%;
     padding: 0 45px;
     outline: none !important;
+    color: #181b23;

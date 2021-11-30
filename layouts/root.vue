@@ -195,7 +195,6 @@ export default {
       return (
         !event.role_ids.length ||
         _.intersection(event.role_ids, this.currentUser?.role_ids).length
-      );
     },
     mobileScroll(e) {
       const y = e.target.scrollTop;
@@ -217,6 +216,7 @@ export default {
   position: absolute;
   top: 26px;
   right: 26px;
+  z-index: 1;
 }
 </style>
 

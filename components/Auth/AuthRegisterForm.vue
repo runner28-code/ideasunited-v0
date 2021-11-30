@@ -194,7 +194,6 @@ export default {
       margin-bottom: 0.5em;
     }
     &_message {
-      max-width: 280px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -220,3 +219,4 @@ export default {
     > div:nth-child(8),
     > div:nth-child(9) {
       @media screen and (min-width: 945px) {
+        width: calc(50% - 12px);
