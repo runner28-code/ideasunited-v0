@@ -76,6 +76,7 @@
       :suggestions="emailValidationSuggestions"
       :form="form"
       @close="areYouSureDialog = false"
+      @submit="submit"
     />
   </div>
 </template>

@@ -7,5 +7,4 @@ module.exports = {
       script: "./node_modules/nuxt/bin/nuxt.js",
       args: "start"
     }
-// Temp comment
   ]

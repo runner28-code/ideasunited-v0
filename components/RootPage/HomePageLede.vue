@@ -90,7 +90,6 @@ export default {
   mounted() {
     this.preloadVideo();
     this.fullscreenExitEvents();
-    this.mounted = true;
     
     const timeline = new TimelineLite();
     timeline.set(this.$refs.previewMedia, {

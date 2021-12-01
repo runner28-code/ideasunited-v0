@@ -23,6 +23,7 @@ export async function buildZoomLink({
 
   if (full_name || email) {
     params.nickname = full_name;
+// Temp comment
     params.email = email;
   }
 

@@ -198,7 +198,6 @@ export default {
     DynamicEmailField,
     DynamicHtmlBlock,
     DynamicNumberField,
-    DynamicRadio,
     DynamicTextArea,
     DynamicTextField,
     DynamicMediaField,

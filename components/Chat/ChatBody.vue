@@ -21,6 +21,7 @@ export default {
     chat: Object
   },
   data() {
+    return { messages: [] };
   },
   channels: {
     ChatChannel: {
@@ -33,7 +34,6 @@ export default {
             this.deleteMessage(payload.id);
             break;
           case "update_message":
-            this.updateMessage(payload);
             break;
         }
       }

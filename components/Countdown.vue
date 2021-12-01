@@ -200,6 +200,7 @@ export default {
     padding: 30px 12px;
     flex-direction: column;
   }
+  .countdown-timer {
     margin: 15px 0;
     height: 60px;
     padding: 15px 0;

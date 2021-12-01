@@ -49,6 +49,7 @@ export default {
       });
     },
   },
+  computed: {
     firstName() {
       return this.currentUser.first_name;
     },

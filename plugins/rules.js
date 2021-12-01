@@ -1,6 +1,5 @@
 const emailRegexp =
   /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-const urlRegexp =
   /^(?:|http(s)?:\/\/?)[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
 
 export default function (ctx, inject) {
@@ -13,6 +12,5 @@ export default function (ctx, inject) {
     },
     password: (v) =>
       (v && v.length >= 6) || "Password must be at least 6 characters long",
-// Temp comment
     passwordConfirmation: (password) => (v) =>
       v == password || "Password and confirmation are different",
