@@ -97,7 +97,6 @@ export default {
           },
         });
       }
-
       const fontkitIds = _.uniq(typekitFonts.map((font) => font.typekit_id));
 
       fontkitIds.forEach((fontkitId) => {
@@ -284,3 +283,15 @@ export default {
 }
 .opp-count {
   position: absolute;
+  top: -8px;
+  right: -8px;
+  color: white;
+  background: #E12D1B;
+  font-size: 12px;
+  padding-top: 0.2em;
+  min-width: 21px;
+  height: 21px;
+  border-radius: 50%;
+}
+</style>
+<style lang="scss">

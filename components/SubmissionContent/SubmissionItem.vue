@@ -117,6 +117,7 @@ export default {
     background: linear-gradient(
       180deg,
       rgba(26, 26, 26, 0) 0%,
+      rgba(26, 26, 26, 0.85) 100%
     );
   }
 
@@ -133,3 +134,4 @@ export default {
       &:after {
         content: "“";
       }
+    }

@@ -96,3 +96,4 @@ export default {
 
     &::v-deep {
       .text-field {
+        margin-bottom: 20px;

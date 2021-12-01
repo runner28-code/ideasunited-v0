@@ -44,7 +44,6 @@
           </v-btn>
         </div>
       </div>
-    </div>
   </div>
 </template>
 
@@ -114,3 +113,4 @@ export default {
 
     &-bottom {
       display: flex;
+      align-items: center;

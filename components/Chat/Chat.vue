@@ -48,7 +48,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .chat {
   color: black;
@@ -77,3 +76,4 @@ export default {
     margin: -4px;
     & > div {
       height: 9px;
+      width: 100%;

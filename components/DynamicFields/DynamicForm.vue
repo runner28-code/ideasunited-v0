@@ -90,7 +90,6 @@ export default {
         "application/vnd.ms-word.template.macroEnabled.12",
       ]
     };
-  },
   methods: {
     async submitCallback() {
       this.loading = true;
@@ -198,6 +197,8 @@ export default {
     DynamicEmailField,
     DynamicHtmlBlock,
     DynamicNumberField,
+    DynamicRadio,
     DynamicTextArea,
     DynamicTextField,
     DynamicMediaField,
+    DynamicPasswordField,

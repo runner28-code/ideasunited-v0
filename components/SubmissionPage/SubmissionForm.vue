@@ -125,3 +125,4 @@ export default {
 <style scoped lang="scss">
 .submission-form {
   background: white;
+  color: black;

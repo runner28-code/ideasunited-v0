@@ -205,7 +205,6 @@ export default {
 <style lang="scss">
 .register {
   .v-form.dynamic-form {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     > div {
@@ -221,3 +220,4 @@ export default {
     > div:nth-child(9) {
       @media screen and (min-width: 945px) {
         width: calc(50% - 12px);
+      }

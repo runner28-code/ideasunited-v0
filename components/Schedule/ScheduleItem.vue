@@ -87,7 +87,6 @@ export default {
 }
 
 @media screen and (max-width: 960px) {
-  .schedule-item {
     &__title {
       font-size: 30px;
     }

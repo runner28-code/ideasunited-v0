@@ -31,3 +31,4 @@ export default {};
   .auth-page {
     padding: 10px;
   }
+}

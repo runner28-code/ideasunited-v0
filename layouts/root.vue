@@ -223,3 +223,4 @@ export default {
 
 <style lang="scss">
 body {
+  position: relative !important;

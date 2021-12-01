@@ -12,6 +12,7 @@
           :dialog-state="dialogState"
         />
       </v-card-text>
+    </v-card>
   </v-dialog>
 </template>
 
@@ -80,3 +81,4 @@ export default {
   }
 }
 
+.dialog-close {

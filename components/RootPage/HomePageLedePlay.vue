@@ -4,7 +4,6 @@
     </div>
     <div class="root-lede-play__ring">
       <svg
-        viewBox="0 0 200 200"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -64,6 +63,7 @@
 
 <style lang="scss" scoped>
 .root-lede-play {
+  width: 10.83%;
   padding-bottom: 10.83%;
   height: 0;
   position: absolute;

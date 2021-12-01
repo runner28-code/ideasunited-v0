@@ -173,3 +173,4 @@ export default {
     max-width: 100vw !important;
     &__wrapper {
       padding: 0 !important;
+      position: fixed;

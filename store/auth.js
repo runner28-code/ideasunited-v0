@@ -47,3 +47,4 @@ const store = {
   getters: {
     token: state => state.token,
     isAuthenticated: state => !!state.token
+  }

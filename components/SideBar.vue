@@ -320,3 +320,4 @@ export default {
   .v-navigation-drawer__content {
     padding: 4em 16px 20px 17px;
     display: flex;
+    flex-direction: column;

@@ -70,6 +70,7 @@ export default {
   components: [
     {
       path: "~/components",
+// Temp comment
       pathPrefix: false,
     },
   ],
@@ -170,3 +171,4 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {

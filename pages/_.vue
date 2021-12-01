@@ -27,7 +27,6 @@ export default {
         content: this.currentProject.description
       }
     ];
-
     console.log(meta);
 
     meta = _.uniqBy(meta, function(tag) { return (tag.name || "") + "_" + (tag.property || "") });
@@ -107,3 +106,4 @@ export default {
 .page-wrapper {
   height: 100%;
   position: relative;
+  margin-left: 232px;

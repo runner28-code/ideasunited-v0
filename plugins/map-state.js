@@ -42,6 +42,7 @@ if (!Vue.__map_state_mixin__) {
       },
     },
     computed: {
+// Temp comment
       ...mapState({
         currentUser: (state) => state.user.current,
         currentProject: (state) => state.project.current,

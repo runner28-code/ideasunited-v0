@@ -163,7 +163,6 @@ export default {
     font-weight: normal;
     font-size: 16px;
     line-height: 16px;
-  }
   &__item-value {
     font-weight: bold;
     font-weight: 900;
@@ -215,3 +214,4 @@ export default {
       &-value {
         font-size: 3em;
         line-height: 1;
+      }

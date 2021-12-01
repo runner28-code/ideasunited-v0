@@ -280,3 +280,5 @@ export default {
       order: 3;
       width: 100% !important;
       height: 0px;
+      min-height: 0;
+      overflow: hidden;

@@ -249,3 +249,4 @@ export default {
     &-slide {
       width: auto;
     }
+  }

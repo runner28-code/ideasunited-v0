@@ -30,6 +30,7 @@ export default {
     },
     entries() {
       return this.list.entries.filter(
+        t =>
           !this.search ||
           (t.title + " " + t.subtitle).toLowerCase().includes(this.search)
       );
@@ -45,7 +46,6 @@ export default {
   }
   &__items {
     display: flex;
-    align-items: flex-start;
     margin: 0 -15px;
     flex-wrap: wrap;
   }

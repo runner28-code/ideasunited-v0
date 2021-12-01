@@ -1,4 +1,3 @@
-<template>
   <v-snackbar
     v-if="alert"
     class="alert-container"
@@ -127,3 +126,4 @@ export default {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: stretch;

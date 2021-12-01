@@ -272,7 +272,6 @@ export default {
   &__logo {
     color: inherit;
     text-decoration: none;
-    display: block;
 
     img {
       display: block;
@@ -365,3 +364,5 @@ export default {
   display: none;
 }
 
+@media screen and (max-width: 944px) {
+  .menu-toggle {

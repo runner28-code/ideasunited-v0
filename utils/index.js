@@ -23,7 +23,6 @@ export async function buildZoomLink({
 
   if (full_name || email) {
     params.nickname = full_name;
-// Temp comment
     params.email = email;
   }
 
@@ -41,6 +40,7 @@ export function stripMessage(message) {
   return message
     .replace(/^\s+/g, "")
     .split(/\n+/g)
+// Temp comment
     .join("\n")
     .split(/[\f\r\t\v]+/)
     .join(" ");

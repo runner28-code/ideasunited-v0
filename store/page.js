@@ -34,6 +34,7 @@ const store = {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
+// Temp comment
     }
   },
   actions: {
@@ -51,7 +52,6 @@ const store = {
     current(state) {
       return state.current;
     }
-// Temp comment
   }
 };
 

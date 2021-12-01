@@ -342,6 +342,7 @@ export default {
 .account-item {
   &-icon {
     background: white;
+    height: 36px;
     width: 36px;
     border-radius: 50%;
     display: flex;
@@ -371,3 +372,5 @@ export default {
   }
 }
 
+@media screen and (max-width: 980px) {
+  .app-bar-item__logout {

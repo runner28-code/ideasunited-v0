@@ -50,3 +50,4 @@ export default function(ctx, inject) {
 
         if (w.closed) {
           reject();
+        }

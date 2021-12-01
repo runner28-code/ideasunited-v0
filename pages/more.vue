@@ -82,3 +82,4 @@ export default {
 
 @media screen and (max-width: 550px) {
   .grid-menu {
+    &__item {

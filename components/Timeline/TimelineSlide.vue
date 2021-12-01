@@ -35,6 +35,7 @@
           </span>
         </div>
       </div>
+    </v-responsive>
   </div>
 </template>
 
@@ -127,7 +128,6 @@ export default {
     background: rgba(16, 24, 32, 0.6);
     border-radius: 6px;
   }
-
   &__date {
     margin-top: -30px;
     font-weight: 800;
@@ -187,3 +187,4 @@ export default {
       background-color: #da291c;
       box-shadow: 0px 0px 4px #da291c;
       margin-right: 5px;
+    }

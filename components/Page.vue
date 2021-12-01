@@ -328,3 +328,4 @@ export default {
     display: none;
   }
 
+  &__logo {

@@ -46,6 +46,7 @@ export default {
         .substr(0, 2)
         .toUpperCase();
     },
+    color() {
       return this.colors[getHash(this.id) % this.colors.length];
     }
   }
@@ -57,7 +58,7 @@ export default {
   margin-right: 10px;
   min-width: 30px;
   width: 30px;
-  height: 30px;
   border-radius: 50%;
   color: white;
   display: flex;
+  align-items: center;
