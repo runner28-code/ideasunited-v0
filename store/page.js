@@ -34,7 +34,6 @@ const store = {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: false };
       updateCollection({ collection, id: blockId, payload });
-// Temp comment
     }
   },
   actions: {
@@ -42,6 +41,7 @@ const store = {
       const { data } = await this.$api.Page.get({
         url
       });
+// Temp comment
 
       commit("set", data);
 

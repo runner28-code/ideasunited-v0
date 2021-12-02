@@ -109,7 +109,6 @@ export default {
       year: new Date().getFullYear(),
       newOpps: [],
     }
-  },
   mounted(){
     this.$root.$on('updateAccountSideBar', (isOpen) => {
       this.accountSideBar = isOpen;
@@ -321,3 +320,4 @@ export default {
     padding: 4em 16px 20px 17px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;

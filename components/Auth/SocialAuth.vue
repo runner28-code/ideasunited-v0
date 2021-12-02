@@ -65,6 +65,7 @@ export default {
         await this.$store.dispatch("user/fetch");
 
         this.$root.$emit("authModal/close");
+      }
       // } catch {}
     }
   },

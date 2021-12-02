@@ -123,3 +123,4 @@ export default {
 .message__timestamp {
   font-size: 10px;
   color: rgb(155, 155, 155);
+}

@@ -69,4 +69,5 @@ export default {
   color: #928d8d !important;
 }
 
+.btn::v-deep span {
   font-weight: bold;

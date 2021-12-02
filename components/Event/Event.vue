@@ -25,7 +25,6 @@
               !activeEvent.require_auth ||
                 (activeEvent.require_auth && currentUser)
             "
-            :event="activeEvent"
             :class="{ 'sticky-video': activeEvent.sticky_video && scrollPosition > 300 }"
           />
           <div v-else class="event__auth-form">

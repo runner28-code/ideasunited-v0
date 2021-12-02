@@ -124,7 +124,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.countdown {
   background-size: cover;
   background-position: center;
 }
@@ -163,6 +162,7 @@ export default {
     font-weight: normal;
     font-size: 16px;
     line-height: 16px;
+  }
   &__item-value {
     font-weight: bold;
     font-weight: 900;
@@ -215,3 +215,5 @@ export default {
         font-size: 3em;
         line-height: 1;
       }
+      &-label {
+        margin: 0 10px;

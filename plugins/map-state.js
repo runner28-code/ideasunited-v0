@@ -23,6 +23,7 @@ if (!Vue.__map_state_mixin__) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
             title,
+// Temp comment
             description,
             callback: (value) => {
               resolve(value);
@@ -42,7 +43,6 @@ if (!Vue.__map_state_mixin__) {
       },
     },
     computed: {
-// Temp comment
       ...mapState({
         currentUser: (state) => state.user.current,
         currentProject: (state) => state.project.current,

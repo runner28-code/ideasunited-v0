@@ -70,7 +70,6 @@ export default {
   components: [
     {
       path: "~/components",
-// Temp comment
       pathPrefix: false,
     },
   ],

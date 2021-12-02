@@ -127,7 +127,6 @@ export default {
           this.onFullscreenExit();
         }
       };
-      document.onmsfullscreenchange = () => {
         if (!document.msFullscreenElement) {
           this.onFullscreenExit();
         }

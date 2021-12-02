@@ -195,3 +195,4 @@ export default {
         display: block;
         width: 100%;
         height: 2px;
+        background: white;

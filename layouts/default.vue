@@ -97,6 +97,7 @@ export default {
           },
         });
       }
+
       const fontkitIds = _.uniq(typekitFonts.map((font) => font.typekit_id));
 
       fontkitIds.forEach((fontkitId) => {
@@ -248,7 +249,6 @@ export default {
         this.$root.$emit("fullpageRebuild");
       });
     },
-    async getOpportunityNotifications() {
       const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
     },

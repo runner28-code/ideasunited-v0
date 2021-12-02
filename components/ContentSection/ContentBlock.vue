@@ -126,7 +126,6 @@ export default {
     opacity: 0.9;
   }
 
-  &__icon {
     position: absolute;
     top: 8px;
     left: 8px;

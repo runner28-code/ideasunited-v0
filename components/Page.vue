@@ -210,7 +210,6 @@ export default {
         this.$nextTick(() => {
           if(this.keyIsDown) {
 
-            const viewportOffset = elem.getBoundingClientRect();
             if(viewportOffset.y > window.innerHeight) {
               const iScrollInstance = fpScrollable.fp_iscrollInstance
               iScrollInstance.scrollToElement(elem);
@@ -329,3 +328,4 @@ export default {
   }
 
   &__logo {
+    padding: 30px;

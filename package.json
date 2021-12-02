@@ -26,7 +26,6 @@
     "cookie-universal-nuxt": "^2.1.4",
     "core-js": "^3.8.3",
     "epic-spinners": "^1.1.0",
-    "fs": "^0.0.1-security",
     "gsap": "^3.9.1",
     "lodash": "^4.17.21",
     "mina": "^1.0.9",
@@ -51,3 +50,4 @@
     "vue3-sfc-loader": "^0.7.3",
     "webfontloader": "^1.6.28",
     "yarn": "^1.22.10",
+    "youtube-player": "^5.5.2"

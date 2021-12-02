@@ -53,6 +53,7 @@ export default {
         this.submitted = true;
       } catch {}
     }
+  }
 };
 </script>
 

@@ -154,7 +154,6 @@ export default {
         margin-bottom: 30px;
         > div:not(:last-child) {
           margin-right: 30px;
-        }
       }
     }
 

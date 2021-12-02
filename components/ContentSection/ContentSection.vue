@@ -353,3 +353,4 @@ export default {
 
     @media screen and (max-width: 600px) {
       .content-section__view-more {
+        display: block;

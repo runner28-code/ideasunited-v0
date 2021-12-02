@@ -20,6 +20,7 @@ export default {
       return `
         animation: marquee-animation ${this.seconds}s linear infinite;
       `
+    }
   },
   watch: {
     message: {

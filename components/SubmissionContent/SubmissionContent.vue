@@ -73,6 +73,7 @@ export default {
       this.infiniteId += 1;
     }, 300)
   },
+  computed: {
     submissionContent() {
       return (this.page || this.currentPage).submission_contents[this.value];
     },
@@ -115,3 +116,4 @@ export default {
     }
   }
 }
+
