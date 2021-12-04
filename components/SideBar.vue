@@ -109,6 +109,7 @@ export default {
       year: new Date().getFullYear(),
       newOpps: [],
     }
+  },
   mounted(){
     this.$root.$on('updateAccountSideBar', (isOpen) => {
       this.accountSideBar = isOpen;

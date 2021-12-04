@@ -153,6 +153,7 @@ export default {
       );
     },
     events() {
+      const dates = {};
       return this.currentPage.events
         .map(t => {
           const startAt = this.$moment

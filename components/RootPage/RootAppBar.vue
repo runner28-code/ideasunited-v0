@@ -210,6 +210,7 @@ export default {
     position: fixed;
     bottom: 1em;
     right: 1em;
+    width: 240px;
     background-color: #262729;
     color: white;
     font-size: 14px;

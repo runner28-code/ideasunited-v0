@@ -141,7 +141,6 @@ export default {
     }
     
     &__creator {
-      &-info {
         font-size: 20px;
         font-weight: 900;
         margin-bottom: 30px;
@@ -154,6 +153,7 @@ export default {
         margin-bottom: 30px;
         > div:not(:last-child) {
           margin-right: 30px;
+        }
       }
     }
 

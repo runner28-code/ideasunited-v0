@@ -124,6 +124,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.countdown {
   background-size: cover;
   background-position: center;
 }

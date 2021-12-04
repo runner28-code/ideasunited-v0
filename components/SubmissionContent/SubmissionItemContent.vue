@@ -72,3 +72,4 @@ export default {
     overflow: auto;
     max-height: 100%;
 
+    & > div {

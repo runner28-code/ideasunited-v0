@@ -1,4 +1,3 @@
-<template>
   <div class="event-player" :style="styles">
     <YoutubePlayer
       v-if="event.event_type == 'youtube'"
@@ -16,6 +15,7 @@
       :zoomLink="event.zoom_url"
       :startAt="event.start_at"
       :event="event"
+      :title="event.title"
       :key="event.id"
     />
     <Slider

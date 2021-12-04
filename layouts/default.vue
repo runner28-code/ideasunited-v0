@@ -249,6 +249,7 @@ export default {
         this.$root.$emit("fullpageRebuild");
       });
     },
+    async getOpportunityNotifications() {
       const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
     },

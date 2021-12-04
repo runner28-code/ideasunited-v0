@@ -101,13 +101,3 @@ a.text-block__item-wrapper:hover {
 
 @media screen and (max-width: 960px) {
   .text-block {
-    &__item {
-      min-height: 200px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      &-wrapper {
-        padding: 0;
-      }
-

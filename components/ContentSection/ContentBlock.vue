@@ -19,7 +19,6 @@
       ></v-responsive>
       <div class="content-section-item__text">
         <div class="content-section-item__title">{{ block.title }}</div>
-        <div class="content-section-item__subtitle">{{ block.subtitle }}</div>
       </div>
 
       <div
@@ -126,6 +125,7 @@ export default {
     opacity: 0.9;
   }
 
+  &__icon {
     position: absolute;
     top: 8px;
     left: 8px;

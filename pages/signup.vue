@@ -32,7 +32,6 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .signup-page {
   display: flex;
   flex-direction: column;

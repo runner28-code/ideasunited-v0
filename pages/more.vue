@@ -21,7 +21,6 @@
 <script>
 export default {
   computed: {
-    gridMenuPages() {
       return this.currentProject.grid_menu_pages;
     }
   }

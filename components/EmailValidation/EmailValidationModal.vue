@@ -47,7 +47,6 @@ export default {
       }
     },
     close(){
-      this.$emit('close');
     },
     yesImSure() {
       this.$emit('close');

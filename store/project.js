@@ -15,9 +15,9 @@ const store = {
         host: window.location.host,
         root_path: window.location.pathname,
       });
+
       commit("set", data);
 
-      return data;
     },
   },
   getters: {

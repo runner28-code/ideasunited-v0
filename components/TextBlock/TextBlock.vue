@@ -65,7 +65,6 @@ export default {
     }
   }
 
-  &__1 &__side {
     width: 100%;
   }
 

@@ -40,7 +40,6 @@ export default async function (req, res, next) {
         return next();
       }
       res.statusCode = 200;
-// Temp comment
       return res.end("OAUTH HUB");
     }
 

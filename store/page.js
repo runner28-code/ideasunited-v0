@@ -41,7 +41,6 @@ const store = {
       const { data } = await this.$api.Page.get({
         url
       });
-// Temp comment
 
       commit("set", data);
 
@@ -60,4 +59,3 @@ const updateCollection = ({ collection, id, payload }) => {
   const item = collection.find(t => t.id == id);
   if (item) {
     Object.assign(item, payload);
-  }

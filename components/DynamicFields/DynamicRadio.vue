@@ -47,7 +47,6 @@ export default {
 <style scoped lang="scss">
 .radio-group {
   margin-bottom: 30px;
-  &__required {
     color: red;
     margin-left: 3px;
   }

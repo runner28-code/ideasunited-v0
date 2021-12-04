@@ -129,7 +129,6 @@ export default {
     },
     backToLogin() {
       this.chooseSignUp = false;
-    }
   },
   computed: {
     registrationForm() {
