@@ -56,6 +56,7 @@ export default {
       env: this.currentProject.env
     });
   },
+  channels: {
     PageChannel: {
       received({ payload, type }) {
         switch (type) {

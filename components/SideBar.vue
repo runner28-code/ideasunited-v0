@@ -77,7 +77,6 @@
         @click.prevent="clickLogin()"
         v-ripple="false"
       >
-        Login/Register
       </v-list-item>
       <v-list-item
         v-if="currentUser"

@@ -81,6 +81,7 @@ export default {
     font-weight: 500;
     font-size: 48px;
     margin-bottom: 10px;
+  }
   &__subtitle {
     font-weight: 500;
     font-size: 28px;

@@ -11,8 +11,8 @@ export const mutations = {
 };
 
 export const actions = {
-// Temp comment
   async nuxtServerInit({ commit }, opts) {
+// Temp comment
     const { req } = opts;
 
     const { data: projectData } = await this.$api.Project.current({

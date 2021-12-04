@@ -113,7 +113,6 @@ export default {
 
       if (urlRegexp.test(v)) return v;
       if (instagramHandleRegexp.test(v))
-        return `https://www.instagram.com/${v}`;
       if (atInstagramHandleRegexp.test(v))
         return `https://www.instagram.com/${v.substr(1)}`;
 
@@ -141,6 +140,7 @@ export default {
     }
     
     &__creator {
+      &-info {
         font-size: 20px;
         font-weight: 900;
         margin-bottom: 30px;

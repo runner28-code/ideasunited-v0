@@ -40,8 +40,3 @@ export default {
     max-width: 900px;
     margin: auto;
     width: 100%;
-  }
-  &__description {
-    font-size: 18px;
-    margin: 25px 0;
-    color: #4a4a4a;

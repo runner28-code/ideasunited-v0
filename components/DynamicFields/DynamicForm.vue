@@ -44,6 +44,7 @@
           <span style="margin-left: 10px"> Uploading... </span>
         </span>
         <span v-else>
+          {{ btnText || "Submit" }}
         </span>
       </Button>
     </div>
@@ -140,7 +141,6 @@ export default {
         return this.currentProject.addon_emailpasswordlogin_data;
       else return false;
     },
-    rulesForField(field) {
       const rules = field.required ? [this.$rules.required] : [];
       if(field.file_size_limit) {
         const value = this.value.data[field.uuid];

@@ -9,6 +9,7 @@
     @focus.stop="onFocus($event)"
   />
 </template>
+
 <script>
 export default {
   props: {
@@ -21,7 +22,6 @@ export default {
     required: Boolean,
     markRequired: Boolean,
     addonData: {
-      type: [Object, Boolean],
       default: false
     }
   },

@@ -110,6 +110,7 @@ export default {
 
 .alert-container::v-deep {
   background: transparent;
+  padding-top: 54px !important;
 
   .v-snack__action {
     display: none;
