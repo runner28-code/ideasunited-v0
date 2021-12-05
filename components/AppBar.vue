@@ -345,25 +345,3 @@ export default {
         text-transform: none;
         margin: 1em 0;
         a {
-          color: #e12d1b;
-          text-decoration: none;
-          &::hover {
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-  }
-}
-
-.menu-caret {
-  font-size: 16px;
-  margin-left: 3px;
-}
-
-.menu-toggle {
-  display: none;
-}
-
-@media screen and (max-width: 944px) {
-  .menu-toggle {

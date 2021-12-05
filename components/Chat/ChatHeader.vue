@@ -7,8 +7,8 @@
     <div class="chat-header__title">{{ chat.title || "Chat" }}</div>
   </div>
 </template>
+
 <script>
-export default {
   props: {
     chat: Object
   },

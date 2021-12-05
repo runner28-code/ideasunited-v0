@@ -16,6 +16,7 @@
   </v-dialog>
 </template>
 
+<script>
 
 export default {
   data() {

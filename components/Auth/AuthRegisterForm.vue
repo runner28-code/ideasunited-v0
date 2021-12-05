@@ -67,7 +67,6 @@
       </div> <!-- v-if="currentUser" -->
     </div> <!-- v-if="registrationForm" -->
   </div>
-</template>
 
 <script>
 import registrationMixin from "../registration.mixin";

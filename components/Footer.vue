@@ -174,6 +174,7 @@ export default {
     position: static !important;
     padding: 36px 22px;
     &-container {
+      flex-direction: column-reverse;
     }
     &__start {
       flex-direction: column;

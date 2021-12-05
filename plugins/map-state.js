@@ -62,7 +62,6 @@ if (!Vue.__map_state_mixin__) {
         return this.$vuetify.breakpoint.name;
       },
       opportunityLogo() {
-        return ["xs", "sm"].includes(this.$size)
           ? this.currentProject?.frontend_logo_mobile.large.url ||
               this.activeTheme.header_logo_mobile.large.url ||
               this.activeTheme.header_logo_mobile.url

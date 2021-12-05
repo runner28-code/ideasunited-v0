@@ -33,6 +33,7 @@ export default {
               : 25
             this.animating =
               this.$refs.marqueetext.offsetWidth > window.innerWidth
+          }
         })
       }
     }

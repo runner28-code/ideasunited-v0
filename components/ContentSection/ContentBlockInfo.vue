@@ -113,6 +113,7 @@ export default {
 
       if (urlRegexp.test(v)) return v;
       if (instagramHandleRegexp.test(v))
+        return `https://www.instagram.com/${v}`;
       if (atInstagramHandleRegexp.test(v))
         return `https://www.instagram.com/${v.substr(1)}`;
 
@@ -129,7 +130,6 @@ export default {
 
     &__content {
       display: flex;
-      align-items: center;
       overflow: auto;
       max-height: 100%;
       flex-basis: 500px;

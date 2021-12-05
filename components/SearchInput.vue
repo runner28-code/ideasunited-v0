@@ -78,7 +78,6 @@ export default {
       margin-left: 5px;
     }
   }
-
   &__value {
     position: absolute;
     left: 0;

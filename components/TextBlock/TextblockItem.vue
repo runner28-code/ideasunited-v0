@@ -49,7 +49,6 @@ a.text-block__item-wrapper:hover {
     background-position: center;
     background-size: cover;
     height: 100%;
-
     &.dark {
       color: white;
     }
@@ -101,3 +100,4 @@ a.text-block__item-wrapper:hover {
 
 @media screen and (max-width: 960px) {
   .text-block {
+    &__item {

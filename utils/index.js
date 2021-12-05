@@ -25,7 +25,6 @@ export async function buildZoomLink({
     params.nickname = full_name;
     params.email = email;
   }
-// Temp comment
 
   for (let key in params) {
     if (urlParams != "") {
@@ -64,7 +63,6 @@ export function copyToClipboard(str) {
     document.getSelection().removeAllRanges();
     document.getSelection().addRange(selected);
   }
-}
 
 export function getHash(input) {
   var hash = 0,

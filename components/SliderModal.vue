@@ -145,6 +145,7 @@ export default {
       .close {
         z-index: 2;
       }
+    }
   }
 
   &__prev,
