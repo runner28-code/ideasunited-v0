@@ -40,3 +40,4 @@ export default {
     max-width: 900px;
     margin: auto;
     width: 100%;
+  }

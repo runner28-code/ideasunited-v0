@@ -107,3 +107,4 @@ export default {
     .v-expansion-panel::before {
       box-shadow: none;
     }
+    .mdi-chevron-down::before,

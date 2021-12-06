@@ -177,3 +177,34 @@ export default {
     }
   }
 
+  &-separate {
+    border-top: 1px solid #dcdce1;
+    margin: 40px 0;
+  }
+
+  &-title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    flex-direction: column;
+
+    .v-btn {
+      margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 944px) {
+  .auth {
+    padding: 0;
+  }
+}
+</style>

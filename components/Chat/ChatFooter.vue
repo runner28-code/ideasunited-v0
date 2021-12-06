@@ -73,7 +73,6 @@ export default {
         console.info('sendMessage this.chat.id', this.chat.id);
 
         this.$cable.perform({
-          channel: "ChatChannel",
           chat_id: this.chat.id,
           action: "send_message",
           data
@@ -115,3 +114,4 @@ export default {
     &-bottom {
       display: flex;
       align-items: center;
+      justify-content: space-between;

@@ -130,6 +130,7 @@ export default {
 
     &__content {
       display: flex;
+      align-items: center;
       overflow: auto;
       max-height: 100%;
       flex-basis: 500px;
@@ -159,3 +160,4 @@ export default {
 
     &__preview {
       width: calc(100vw - 580px);
+      @media screen and (max-width: 960px) {

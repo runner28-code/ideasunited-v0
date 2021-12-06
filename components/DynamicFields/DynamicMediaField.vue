@@ -170,3 +170,4 @@ export default {
     opacity: 0.4;
     font-weight: bold;
   }
+

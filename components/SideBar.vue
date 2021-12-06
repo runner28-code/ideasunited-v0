@@ -322,3 +322,4 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }

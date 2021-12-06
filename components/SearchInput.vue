@@ -78,6 +78,7 @@ export default {
       margin-left: 5px;
     }
   }
+
   &__value {
     position: absolute;
     left: 0;
@@ -89,3 +90,4 @@ export default {
     padding: 0 45px;
     outline: none !important;
     color: #181b23;
+  }

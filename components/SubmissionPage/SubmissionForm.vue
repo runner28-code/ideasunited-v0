@@ -126,3 +126,4 @@ export default {
 .submission-form {
   background: white;
   color: black;
+  padding: 21px;

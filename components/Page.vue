@@ -330,3 +330,5 @@ export default {
 
   &__logo {
     padding: 30px;
+    visibility: hidden;
+    img {

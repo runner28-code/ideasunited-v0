@@ -67,6 +67,7 @@
       </div> <!-- v-if="currentUser" -->
     </div> <!-- v-if="registrationForm" -->
   </div>
+</template>
 
 <script>
 import registrationMixin from "../registration.mixin";
@@ -89,7 +90,6 @@ export default {
       registrationForm: null,
       loginFormRequest: false,
     };
-  },
   mounted() {
     this.fetchForm();
     if (this.dialogState) {
@@ -222,3 +222,4 @@ export default {
         width: calc(50% - 12px);
       }
     }
+  }

@@ -89,3 +89,4 @@ export default {
   }
 
   &__sidebar {
+    &-content {

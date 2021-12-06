@@ -11,6 +11,7 @@ class Filter {
       replaceRegex: options.replaceRegex || /\w/g
     });
   }
+
   isProfane(string) {
     return (
       this.list.filter(word => {
@@ -29,6 +30,7 @@ class Filter {
     return string
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
+// Temp comment
   }
 
   clean(string) {

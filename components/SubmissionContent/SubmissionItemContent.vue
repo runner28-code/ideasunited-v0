@@ -15,7 +15,6 @@
           :youtubeId="value.youtube_id"
         />
       </v-responsive>
-      <img v-else :src="value.preview.large.url" width="100%" />
     </div>
     <div
       class="slider-modal-content__side slider-modal-content__content"
@@ -73,3 +72,4 @@ export default {
     max-height: 100%;
 
     & > div {
+      margin: auto;

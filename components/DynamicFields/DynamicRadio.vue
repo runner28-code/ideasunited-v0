@@ -55,3 +55,4 @@ export default {
     margin-top: 0;
   }
   &__label {
+    font-weight: bold;

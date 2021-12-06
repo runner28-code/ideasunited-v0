@@ -189,3 +189,4 @@ export default {
       box-shadow: 0px 0px 4px #da291c;
       margin-right: 5px;
     }
+  }

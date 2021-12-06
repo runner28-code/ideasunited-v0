@@ -37,3 +37,4 @@ export default {
     textarea {
       line-height: 1.2;
     }
+  }

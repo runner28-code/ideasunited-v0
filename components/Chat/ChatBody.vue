@@ -97,3 +97,4 @@ export default {
 <style scoped lang="scss">
 .chat-body {
   height: 100%;
+  padding: 20px 15px;

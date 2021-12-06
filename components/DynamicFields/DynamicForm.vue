@@ -203,3 +203,4 @@ export default {
     DynamicTextField,
     DynamicMediaField,
     DynamicPasswordField,
+    DynamicLinkField,

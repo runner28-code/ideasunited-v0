@@ -286,7 +286,6 @@ export default {
     margin: 0 -15px;
     padding: 0 40px;
 
-    &::v-deep .content-section-item {
       width: 100%;
       max-width: calc(25% - 30px);
     }
@@ -354,3 +353,5 @@ export default {
     @media screen and (max-width: 600px) {
       .content-section__view-more {
         display: block;
+      }
+    }

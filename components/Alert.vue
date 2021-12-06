@@ -1,6 +1,7 @@
 <template>
   <v-snackbar
     v-if="alert"
+    class="alert-container"
     v-model="alert"
     top
     :timeout="alert.timeout || 15000"
@@ -79,7 +80,6 @@ export default {
   }
 
   &::v-deep {
-    .v-alert__wrapper {
       padding-right: 15px;
       display: flex;
       width: 100%;
@@ -127,3 +127,4 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    justify-content: stretch;

@@ -22,6 +22,7 @@ if (!Vue.__map_state_mixin__) {
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
+// Temp comment
             title,
             description,
             callback: (value) => {
@@ -62,8 +63,14 @@ if (!Vue.__map_state_mixin__) {
         return this.$vuetify.breakpoint.name;
       },
       opportunityLogo() {
+        return ["xs", "sm"].includes(this.$size)
           ? this.currentProject?.frontend_logo_mobile.large.url ||
               this.activeTheme.header_logo_mobile.large.url ||
               this.activeTheme.header_logo_mobile.url
           : this.currentProject?.frontend_logo.large.url ||
               this.activeTheme.header_logo.large.url ||
+              this.activeTheme.header_logo.url;
+      },
+    },
+  });
+}

@@ -18,6 +18,7 @@
 </template>
 
 <script>
+export default {
   layout: 'simple',
   data() {
     return {
@@ -69,3 +70,4 @@
       .text-field {
         margin-bottom: 20px;
         width: 100%;
+      }

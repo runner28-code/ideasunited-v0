@@ -1,5 +1,5 @@
 import badwords from "./badwords/filter";
-// Temp comment
 
 export default value => {
+// Temp comment
   return badwords.clean(value);

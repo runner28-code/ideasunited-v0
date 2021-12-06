@@ -74,3 +74,4 @@ export default {
 
   &__suggestions {
     > div {
+      padding-bottom: 1em;

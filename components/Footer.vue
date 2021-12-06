@@ -196,3 +196,4 @@ export default {
         width: 100%;
         height: 2px;
         background: white;
+        margin-top: 33px;
