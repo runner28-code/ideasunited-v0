@@ -1,2 +1,2 @@
-import VueTimeago from "vue-timeago";
+import Vue from "vue";
 

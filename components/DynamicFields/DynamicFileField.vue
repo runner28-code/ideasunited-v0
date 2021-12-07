@@ -6,6 +6,7 @@
     :rules="rules"
     outlined
     prepend-icon=""
+  >
     <template #append>
       <div>
         <v-icon class="input-icon-toggle"> $upload </v-icon>
@@ -74,7 +75,6 @@ export default {
     top: 10px;
     z-index: 1;
   }
-
   &__validation {
     &:not(.v-input--has-state) {
       display: none !important;

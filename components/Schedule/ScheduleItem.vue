@@ -72,7 +72,6 @@ export default {
   &.dark {
     color: white;
   }
-
   &__title {
     font-weight: bold;
     font-size: 50px;

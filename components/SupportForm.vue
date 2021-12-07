@@ -5,6 +5,7 @@
     }}</Title>
     <div v-if="supportForm.description" class="support-form__description">
       {{ supportForm.description }}
+    </div>
     <DynamicForm
       :submit="submit"
       :fields="supportForm.support_form"
@@ -68,7 +69,6 @@ export default {
     font-family: Source Sans Pro, sans-serif;
     font-size: 36px !important;
     margin-bottom: 0.5em;
-  }
 
   &__description {
     font-size: 18px;

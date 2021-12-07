@@ -15,7 +15,6 @@
           >{{ data.link_text }}</Button
         >
       </v-card>
-    </v-dialog>
     <v-navigation-drawer
       right
       v-model="sidebar"

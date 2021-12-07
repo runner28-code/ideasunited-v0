@@ -4041,7 +4041,6 @@ has-value@^1.0.0:
   dependencies:
     get-value "^2.0.6"
     has-values "^1.0.0"
-    isobject "^3.0.0"
 
 has-values@^0.1.4:
   version "0.1.4"

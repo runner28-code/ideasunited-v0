@@ -103,3 +103,4 @@ a.text-block__item-wrapper:hover {
   .text-block {
     &__item {
       min-height: 200px;
+      display: flex;

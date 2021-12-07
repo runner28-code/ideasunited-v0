@@ -484,5 +484,4 @@ export default {
     }
   }
 
-  &.playing &__preview {
     z-index: 6;

@@ -76,6 +76,7 @@ export default {
         this.value.preview?.thumb?.url ||
         this.activeTheme.event_preview?.thumb?.url;
 
+      return {
         backgroundImage: `url(${preview})`,
         borderColor: this.isActive
           ? this.activeTheme.primary_color

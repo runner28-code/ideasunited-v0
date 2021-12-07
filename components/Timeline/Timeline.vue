@@ -188,7 +188,6 @@ export default {
         if (ids.includes(id)) {
           this.setActive(id);
         }
-      }
     },
     value: {
       deep: true,

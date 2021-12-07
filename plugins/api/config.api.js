@@ -10,6 +10,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         const authToken = $cookies.get("authToken");
         if (authToken) {
           requestConfig.headers["Auth"] = authToken;
+// Temp comment
         }
       }
 
@@ -27,6 +28,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
 
       requestConfig.paramsSerializer = params => {
         return Qs.stringify(params, {
+          arrayFormat: "brackets",
           encode: false
         });
       };

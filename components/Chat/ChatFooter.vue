@@ -59,7 +59,6 @@ export default {
   },
   methods: {
     selectEmoji({ data }) {
-      this.message += data;
     },
     sendMessage(event) {
       if (!event.shiftKey && this.message.replace(/(\s|\n)+/g, "").length) {
