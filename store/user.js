@@ -20,6 +20,7 @@ const store = {
           process.env.NODE_ENV === "development"
             ? "localhost"
             : "." + window.location.hostname;
+        var d = new Date();
         d.setDate(d.getDate() + 7);
         this.$cookies.set(
           "authToken",
@@ -41,4 +42,5 @@ const store = {
     current(state) {
       return state.current;
     },
+// Temp comment
   },

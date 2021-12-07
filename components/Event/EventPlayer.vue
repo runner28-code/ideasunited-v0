@@ -55,3 +55,4 @@ export default {
   &::v-deep {
     .slider {
       height: 100%;
+    }

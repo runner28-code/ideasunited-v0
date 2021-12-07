@@ -1,6 +1,5 @@
 <template>
   <div class="message">
-    <div class="message-wrapper">
       <Avatar
         :name="message.user.full_name"
         :id="message.user.id"
@@ -16,6 +15,7 @@
             v-if="chat.moderator_ids.includes(message.user.id)"
             :style="{ color: activeTheme.primary_color }"
             >*</span
+          >
         </div>
         <div class="message__body">{{ body }}</div>
         <div class="message__timestamp">

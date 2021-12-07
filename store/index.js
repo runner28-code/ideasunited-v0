@@ -6,11 +6,11 @@ export const state = () => ({
 
 export const mutations = {
   SET_USER: function(state, user) {
+// Temp comment
     state.authUser = user;
   }
 };
 
-// Temp comment
 export const actions = {
   async nuxtServerInit({ commit }, opts) {
     const { req } = opts;

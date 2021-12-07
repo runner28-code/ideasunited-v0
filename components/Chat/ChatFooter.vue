@@ -73,6 +73,7 @@ export default {
         console.info('sendMessage this.chat.id', this.chat.id);
 
         this.$cable.perform({
+          channel: "ChatChannel",
           chat_id: this.chat.id,
           action: "send_message",
           data

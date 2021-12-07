@@ -17,6 +17,7 @@
     <PresentationYoutube
       :presentation="presentation"
       :slide="presentation.active_slide"
+      v-if="presentation.active_slide.slide_type == 'youtube'"
     />
   </div>
 </template>
@@ -33,7 +34,6 @@ export default {
     }
   }
 };
-</script>
 
 <style scoped lang="scss">
 .presentation {

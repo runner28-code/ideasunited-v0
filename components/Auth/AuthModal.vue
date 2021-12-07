@@ -28,7 +28,6 @@ export default {
     };
   },
   mounted() {
-    this.$root.$on(`authModal/open`, () => {
       this.backToLogin();
       this.opened = true;
     });
@@ -76,6 +75,7 @@ export default {
 
   &::v-deep {
     .v-card__text {
+      padding: 0;
     }
   }
 }

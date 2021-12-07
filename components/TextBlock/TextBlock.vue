@@ -109,6 +109,7 @@ export default {
 }
 </style>
 
+
 <style lang="scss">
 
 .text-block__4 {
@@ -128,6 +129,5 @@ export default {
     }
   }
   .text-block__item-container {
-    position: absolute !important;
     top: 0;
     bottom: 0;

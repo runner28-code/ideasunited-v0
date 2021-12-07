@@ -6,5 +6,6 @@ module.exports = {
       instances: "max", // Or a number of instances
       script: "./node_modules/nuxt/bin/nuxt.js",
       args: "start"
+// Temp comment
     }
   ]

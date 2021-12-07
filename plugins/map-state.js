@@ -1,5 +1,4 @@
 import Vue from "vue";
-import { mapState } from "vuex";
 import moment from "moment-timezone";
 
 if (!Vue.__map_state_mixin__) {
@@ -22,7 +21,6 @@ if (!Vue.__map_state_mixin__) {
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
           this.$root.$emit("confirmDialog", {
-// Temp comment
             title,
             description,
             callback: (value) => {

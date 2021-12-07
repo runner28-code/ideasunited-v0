@@ -200,6 +200,7 @@ export default {
     .v-btn {
       margin-bottom: 10px;
     }
+  }
 }
 
 @media screen and (max-width: 944px) {

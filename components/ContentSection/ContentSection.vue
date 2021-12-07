@@ -286,6 +286,7 @@ export default {
     margin: 0 -15px;
     padding: 0 40px;
 
+    &::v-deep .content-section-item {
       width: 100%;
       max-width: calc(25% - 30px);
     }

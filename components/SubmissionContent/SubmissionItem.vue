@@ -99,6 +99,7 @@ export default {
   cursor: pointer;
   background-size: cover;
   display: flex;
+  align-items: flex-end;
   padding: 20px;
   position: absolute;
   left: 0;

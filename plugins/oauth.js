@@ -41,6 +41,7 @@ export default function(ctx, inject) {
         const token = localStorage.getItem("token");
 
         if (token) {
+          resolve({ token });
 
           clearInterval(interval);
           w.close();

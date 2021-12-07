@@ -60,7 +60,6 @@ export default {
       return this.currentProject.headline || "this opportunity";
     },
   },
-};
 </script>
 
 <style lang="scss" scoped>

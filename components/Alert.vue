@@ -26,7 +26,6 @@
 </template>
 
 <script>
-export default {
   name: "Alert",
   data() {
     return {
@@ -80,6 +79,7 @@ export default {
   }
 
   &::v-deep {
+    .v-alert__wrapper {
       padding-right: 15px;
       display: flex;
       width: 100%;

@@ -35,6 +35,7 @@ export default {
 
   &__item {
     background-size: cover;
+    background-position: center;
     max-width: 25%;
     position: relative;
 

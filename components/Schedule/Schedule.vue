@@ -27,7 +27,6 @@ import _ from "lodash";
 
 export default {
   props: {
-    value: String,
     page: Object,
   },
   computed: {

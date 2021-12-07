@@ -5,6 +5,7 @@
     @input="$emit('input', $event)"
     :rules="rules"
     type="password"
+    outlined
   />
 </template>
 

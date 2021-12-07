@@ -86,4 +86,5 @@ export default {
           this.compile(descendent);
         }
         this.compile(val, () => (this.loaded = true));
+      }
     }
