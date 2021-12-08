@@ -185,7 +185,6 @@ export default {
           this.$emit("input", { ...this.form });
         }
       },
-    },
     value: {
       deep: true,
       handler() {
@@ -204,3 +203,4 @@ export default {
     DynamicMediaField,
     DynamicPasswordField,
     DynamicLinkField,
+    DynamicFileField,

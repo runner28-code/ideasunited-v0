@@ -12,5 +12,4 @@ export default ctx => {
       },
       ctx.app.router
     );
-// Temp comment
   }

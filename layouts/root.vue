@@ -226,3 +226,4 @@ body {
   position: relative !important;
 }
 .root {
+  .v-main {

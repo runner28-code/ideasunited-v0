@@ -175,3 +175,4 @@ export default {
       padding: 0 !important;
       position: fixed;
       width: 100vw;
+    }

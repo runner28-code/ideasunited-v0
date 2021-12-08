@@ -82,3 +82,4 @@ export default {
 }
 
 .dialog-close {
+  position: absolute;

@@ -43,6 +43,7 @@ export default {
       return this.color || (this.activeTheme ? this.activeTheme.primary_color : '#E12D1B');
     },
     calcTheme() {
+      return getThemeByColor(this.calcColor);
     }
   },
   methods: {
@@ -70,3 +71,4 @@ export default {
 
 .btn::v-deep span {
   font-weight: bold;
+}

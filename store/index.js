@@ -1,4 +1,3 @@
-// Temp comment
 import moment from "moment-timezone";
 
 export const state = () => ({
@@ -23,3 +22,4 @@ export const actions = {
     commit("project/set", projectData);
 
     const { data: userData } = await this.$api.User.current();
+    commit("user/set", userData);

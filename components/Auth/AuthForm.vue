@@ -61,6 +61,7 @@ export default {
       loginForm: {},
       registerForm: {},
       areYouSureDialog: false,
+      emailValidationSuggestions: {}
     };
   },
   methods: {

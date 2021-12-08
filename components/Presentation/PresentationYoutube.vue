@@ -73,3 +73,4 @@ export default {
     right: 0;
     bottom: 0;
     position: absolute;
+    z-index: 1;

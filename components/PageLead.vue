@@ -41,6 +41,7 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
 .page-lead {
   background-size: cover;
   background-position: center;
@@ -61,3 +62,4 @@ export default {
 
   &__description {
     padding: 30px 0;
+    max-width: 800px;

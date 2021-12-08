@@ -1,6 +1,5 @@
 # frontend
 
-## Build Setup
 
 ```bash
 # install dependencies
@@ -16,3 +15,4 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+

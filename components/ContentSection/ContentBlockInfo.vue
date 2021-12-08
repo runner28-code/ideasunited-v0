@@ -145,6 +145,7 @@ export default {
         font-size: 20px;
         font-weight: 900;
         margin-bottom: 30px;
+        > span:not(:last-child)::after {
           content: ' | ';
         }
       }
@@ -160,3 +161,4 @@ export default {
     &__preview {
       width: calc(100vw - 580px);
       @media screen and (max-width: 960px) {
+        width: 100%;

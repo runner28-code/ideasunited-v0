@@ -35,3 +35,4 @@ export default {
 
 .relative {
   position: relative !important;
+  min-height: 200px;

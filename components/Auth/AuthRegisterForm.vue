@@ -224,3 +224,5 @@ export default {
       }
     }
   }
+  .dynamic-form__buttons {
+    display: flex;

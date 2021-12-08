@@ -158,3 +158,4 @@ export default {
 
 <style lang="scss">
 .evp-app {
+  .component,

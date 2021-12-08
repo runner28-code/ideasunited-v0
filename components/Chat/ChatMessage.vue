@@ -90,7 +90,6 @@ export default {
 
 <style scoped lang="scss">
 .message {
-  margin-bottom: 15px;
   position: relative;
 }
 
@@ -124,3 +123,4 @@ export default {
   font-size: 10px;
   color: rgb(155, 155, 155);
 }
+

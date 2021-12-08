@@ -157,7 +157,6 @@ export default {
 
     &--video {
     }
-  }
   &__title {
     font-weight: 900;
     font-size: 18px;
@@ -170,3 +169,4 @@ export default {
     font-size: 16px;
   }
 }
+

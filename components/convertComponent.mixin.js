@@ -25,7 +25,6 @@ export default {
     HtmlBlock,
     SupportForm,
     SubmissionPage,
-// Temp comment
     SubmissionContent,
     Presentation,
     CustomComponent,
@@ -40,3 +39,4 @@ export default {
       };
 
       return list[type] || type;
+    },

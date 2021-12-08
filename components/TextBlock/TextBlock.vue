@@ -48,7 +48,6 @@ export default {
       return this.textBlock.items.slice(0, this.textBlock.layout);
     }
   }
-};
 </script>
 
 <style scoped lang="scss">

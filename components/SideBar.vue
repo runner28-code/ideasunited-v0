@@ -323,3 +323,5 @@ export default {
     flex-direction: column;
     justify-content: space-between;
   }
+
+  &__opp-count {

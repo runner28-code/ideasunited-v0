@@ -80,3 +80,4 @@ export default {
     }
   }
   &__text {
+    padding-left: 21px;

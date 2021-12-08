@@ -20,6 +20,7 @@
         at
         {{
           event.start_at
+            | moment("timezone", currentTimezone, "h:mm A")
         }}
       </div>
       <Button large @click="openZoomLink">Click to Connect</Button>

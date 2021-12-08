@@ -14,7 +14,6 @@ export default {
         }, 120000);
       } catch (e) {
         this.resending = false;
-// Temp comment
       }
     }
   },

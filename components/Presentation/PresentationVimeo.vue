@@ -14,6 +14,7 @@
 <script>
 import Player from "@vimeo/player";
 
+export default {
   props: {
     slide: Object,
     presentation: Object
@@ -42,7 +43,6 @@ import Player from "@vimeo/player";
   computed: {
     newSlideSettings() {
       return this.presentation.settings[this.slide.id] || {};
-    }
   },
   watch: {
     presentation: {
@@ -75,3 +75,4 @@ import Player from "@vimeo/player";
   }
 
   iframe {
+    height: 100%;

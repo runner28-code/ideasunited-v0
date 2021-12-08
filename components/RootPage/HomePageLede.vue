@@ -484,4 +484,7 @@ export default {
     }
   }
 
+  &.playing &__preview {
     z-index: 6;
+  }
+  &.playing &__preview-video {

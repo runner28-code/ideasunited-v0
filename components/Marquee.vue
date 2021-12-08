@@ -61,3 +61,4 @@ export default {
   }
   100% {
     transform: translate(-100%, 0);
+    margin-left: 100%;

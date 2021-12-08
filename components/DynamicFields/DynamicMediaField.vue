@@ -171,3 +171,4 @@ export default {
     font-weight: bold;
   }
 
+  &__upload-btn {

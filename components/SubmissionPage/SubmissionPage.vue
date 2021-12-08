@@ -33,7 +33,6 @@ export default {
   },
 };
 </script>
-
 <style scoped lang="scss">
 .submission-page {
   &__container {
@@ -41,3 +40,4 @@ export default {
     margin: auto;
     width: 100%;
   }
+  &__description {

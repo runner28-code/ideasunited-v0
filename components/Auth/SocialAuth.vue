@@ -122,3 +122,4 @@ export default {
       background: #059ced;
     }
 
+    &--cas {

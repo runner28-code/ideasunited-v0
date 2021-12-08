@@ -72,6 +72,7 @@ export default {
   &.dark {
     color: white;
   }
+
   &__title {
     font-weight: bold;
     font-size: 50px;
@@ -87,3 +88,4 @@ export default {
 
 @media screen and (max-width: 960px) {
   .schedule-item {
+    &__title {

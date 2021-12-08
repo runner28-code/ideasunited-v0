@@ -157,6 +157,7 @@ export default {
   }
 
   &__item {
+    text-align: center;
   }
   &__item-label {
     font-weight: normal;
@@ -218,3 +219,4 @@ export default {
       &-label {
         margin: 0 10px;
         font-size: 1em;
+      }

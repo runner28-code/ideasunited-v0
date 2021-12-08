@@ -32,7 +32,6 @@ export default {
       return {
         color: this.item.text_color
       };
-    }
   }
 };
 </script>
@@ -104,3 +103,4 @@ a.text-block__item-wrapper:hover {
     &__item {
       min-height: 200px;
       display: flex;
+      align-items: center;

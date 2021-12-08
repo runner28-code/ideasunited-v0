@@ -283,3 +283,5 @@ export default {
       min-height: 0;
       overflow: hidden;
       transition: 0.3s;
+
+      &.visible {

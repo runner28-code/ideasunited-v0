@@ -51,6 +51,7 @@ export default {
     flex-wrap: wrap;
   }
 
+  &__description {
     color: #4a4a4a;
     padding: 25px 0;
     max-width: 800px;

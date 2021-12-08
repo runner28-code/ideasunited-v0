@@ -39,3 +39,4 @@ export default {
     .v-label {
       display: block !important;
     }
+  }

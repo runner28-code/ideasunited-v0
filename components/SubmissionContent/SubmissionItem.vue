@@ -126,6 +126,7 @@ export default {
     z-index: 1;
     color: white;
 
+    &--TextArea {
       max-height: 3em;
       overflow: hidden;
 
@@ -134,3 +135,4 @@ export default {
         content: "“";
       }
     }
+  }

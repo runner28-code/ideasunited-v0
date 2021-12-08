@@ -22,7 +22,6 @@ export default {
   },
   data() {
     return { messages: [] };
-  },
   channels: {
     ChatChannel: {
       received({ type, payload }) {
@@ -82,6 +81,7 @@ export default {
       });
       this.messages.unshift(...data.reverse());
 
+      if ($state) {
         if (data.length) {
           $state.loaded();
         } else {
