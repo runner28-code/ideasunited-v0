@@ -305,6 +305,7 @@ export default {
   @media screen and (max-width: 944px) {
     left: 0;
     width: 100%;
+    height: auto;
     position: relative;
   }
   > div {
@@ -333,3 +334,4 @@ export default {
     img {
       max-width: 184px;
     }
+  }

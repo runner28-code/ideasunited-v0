@@ -23,6 +23,7 @@ export default {
   data() {
     return {
       formModel: null,
+      form: {},
       submitted: false
     };
   },
@@ -70,3 +71,4 @@ export default {
         margin-bottom: 20px;
         width: 100%;
       }
+    }

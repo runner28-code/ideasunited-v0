@@ -48,6 +48,7 @@ export default {
       return this.textBlock.items.slice(0, this.textBlock.layout);
     }
   }
+};
 </script>
 
 <style scoped lang="scss">
@@ -108,7 +109,6 @@ export default {
 }
 </style>
 
-
 <style lang="scss">
 
 .text-block__4 {
@@ -131,3 +131,4 @@ export default {
     position: absolute !important;
     top: 0;
     bottom: 0;
+    left: 0;

@@ -44,6 +44,7 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
 .radio-group {
   margin-bottom: 30px;
   &__required {

@@ -54,6 +54,7 @@ const store = {
   }
 };
 
+const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
   const item = collection.find(t => t.id == id);
   if (item) {

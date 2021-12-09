@@ -32,7 +32,6 @@
         class="app-bar__nav-item"
         :class="[
           `app-bar__nav-item--${menuItem.menu_style}`,
-          `app-bar__nav-item-${menuItem.id}`,
         ]"
         :style="
           menuItem.menu_style == 'button'
@@ -353,3 +352,6 @@ export default {
         }
       }
     }
+  }
+}
+

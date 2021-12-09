@@ -22,6 +22,7 @@ export default {
   },
   data() {
     return { messages: [] };
+  },
   channels: {
     ChatChannel: {
       received({ type, payload }) {
@@ -97,3 +98,4 @@ export default {
 .chat-body {
   height: 100%;
   padding: 20px 15px;
+  overflow: auto;

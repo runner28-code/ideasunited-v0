@@ -76,6 +76,7 @@ export default {
   .grid-menu {
     &__item {
       max-width: 50%;
+    }
   }
 }
 

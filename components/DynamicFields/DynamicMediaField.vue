@@ -172,3 +172,4 @@ export default {
   }
 
   &__upload-btn {
+    background: #f5f5f5e0 !important;

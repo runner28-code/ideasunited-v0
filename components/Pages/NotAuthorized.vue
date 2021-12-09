@@ -41,3 +41,4 @@ export default {
   align-items: center;
   overflow: auto;
   margin: auto;
+  height: 100%;

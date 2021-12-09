@@ -162,3 +162,4 @@ export default {
       width: calc(100vw - 580px);
       @media screen and (max-width: 960px) {
         width: 100%;
+      }

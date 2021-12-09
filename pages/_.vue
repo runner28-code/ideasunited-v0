@@ -109,3 +109,4 @@ export default {
   position: relative;
   margin-left: 232px;
 
+  @media screen and (max-width: 944px) {

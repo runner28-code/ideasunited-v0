@@ -28,7 +28,6 @@ export default {
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   z-index: 7;
 }

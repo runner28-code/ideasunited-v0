@@ -325,3 +325,4 @@ export default {
   }
 
   &__opp-count {
+    display: inline-block;

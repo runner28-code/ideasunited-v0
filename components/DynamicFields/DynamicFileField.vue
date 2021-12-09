@@ -4,7 +4,6 @@
     :value="value"
     @input="$emit('input', $event)"
     :rules="rules"
-    outlined
     prepend-icon=""
   >
     <template #append>
@@ -104,3 +103,4 @@ export default {
   }
 
   &__input {
+    display: none;

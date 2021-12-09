@@ -8,7 +8,6 @@
     outlined
     @focus.stop="onFocus($event)"
   />
-</template>
 
 <script>
 export default {
@@ -17,6 +16,7 @@ export default {
     value: String,
     rules: {
       type: Array,
+      default: () => []
     },
     required: Boolean,
     markRequired: Boolean
@@ -27,3 +27,4 @@ export default {
     }
   },
 };
+</script>

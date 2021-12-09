@@ -1,4 +1,4 @@
-ENV NODE_ENV production
+FROM node:14
 
 WORKDIR /
 

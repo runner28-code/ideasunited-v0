@@ -127,3 +127,4 @@ export default {
   background: white;
   color: black;
   padding: 21px;
+  position: relative;

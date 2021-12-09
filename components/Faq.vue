@@ -91,6 +91,7 @@ export default {
   &::v-deep {
     .theme--light.v-expansion-panels .v-expansion-panel-header {
       padding: 0 0.75em 0.75em 0;
+    }
     .theme--light.v-expansion-panels:last-child .v-expansion-panel-header {
       padding: 0 0 0.5em 0;
     }
@@ -107,3 +108,4 @@ export default {
       box-shadow: none;
     }
     .mdi-chevron-down::before,
+    .mdi-chevron-down::before {

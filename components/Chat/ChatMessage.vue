@@ -90,6 +90,7 @@ export default {
 
 <style scoped lang="scss">
 .message {
+  margin-bottom: 15px;
   position: relative;
 }
 
@@ -109,7 +110,6 @@ export default {
   cursor: pointer;
 
   span {
-    margin-left: 3px;
   }
 }
 

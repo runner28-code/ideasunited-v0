@@ -85,7 +85,6 @@ export default {
       },
       slides,
       currentSlideIndex: 0,
-    }
   },
   mounted() {
     this.preloadVideo();
@@ -488,3 +487,5 @@ export default {
     z-index: 6;
   }
   &.playing &__preview-video {
+    pointer-events: all;
+  }

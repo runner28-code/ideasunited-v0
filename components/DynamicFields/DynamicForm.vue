@@ -177,7 +177,6 @@ export default {
       return rules;
     }
   },
-  watch: {
     form: {
       deep: true,
       handler() {
@@ -185,6 +184,7 @@ export default {
           this.$emit("input", { ...this.form });
         }
       },
+    },
     value: {
       deep: true,
       handler() {
@@ -204,3 +204,4 @@ export default {
     DynamicPasswordField,
     DynamicLinkField,
     DynamicFileField,
+  },

@@ -67,7 +67,6 @@ export default {
   data() {
     return {
       triggerName: `open-${this.name}`
-    };
   },
   mounted() {
     this.$root.$on(this.triggerName, id => {

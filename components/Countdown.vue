@@ -169,7 +169,6 @@ export default {
     font-weight: 900;
     font-size: 52px;
     line-height: 52px;
-    text-align: center;
     text-transform: uppercase;
   }
 }
@@ -220,3 +219,4 @@ export default {
         margin: 0 10px;
         font-size: 1em;
       }
+    }

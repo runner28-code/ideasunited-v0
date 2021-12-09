@@ -59,7 +59,7 @@ export default {
 
     &--Connected {
       background: #00924e;
-    }
 
     &--Disconnected {
       background: red;
+    }

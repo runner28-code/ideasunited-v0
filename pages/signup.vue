@@ -34,7 +34,6 @@ export default {
 
 <style scoped lang="scss">
 .signup-page {
-  display: flex;
   flex-direction: column;
   margin: auto;
   align-items: center;
@@ -74,3 +73,4 @@ export default {
     max-width: 590px;
   }
   .signup-btn.theme--light.v-btn.v-btn--has-bg {
+    background-color: white;

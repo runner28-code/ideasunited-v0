@@ -1,5 +1,6 @@
 /* eslint-disable */
 import Vue from "vue";
+// Temp comment
 
 const store = {
   namespaced: true,
@@ -43,3 +44,4 @@ const store = {
       return state.current;
     },
   },
+};

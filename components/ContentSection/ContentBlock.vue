@@ -57,7 +57,6 @@ export default {
   },
   mounted() {
     const { block_id } = this.$route.query;
-
     if (block_id == this.block.id && this.block.content_type != "new_tab") {
       this.openDialog();
     }
@@ -157,6 +156,7 @@ export default {
 
     &--video {
     }
+  }
   &__title {
     font-weight: 900;
     font-size: 18px;

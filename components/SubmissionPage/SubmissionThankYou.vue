@@ -37,7 +37,6 @@ export default {
         try {
           return eval(string);
         } catch (errorWithoutThis) {
-          console.warn("Error en script: " + string, errorWithoutThis);
           return null;
         }
       }
@@ -67,3 +66,4 @@ export default {
 .submission-thank-you {
   &__text,
   &__buttons {
+    text-align: center;

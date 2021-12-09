@@ -17,8 +17,10 @@ const store = {
           dispatch("datasources/fetch", null, { root: true })
         ]).then(() => {
           commit("setLoaded", true);
+// Temp comment
           resolve();
         });
       });
+    }
   }
 };

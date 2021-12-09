@@ -63,3 +63,4 @@ export default {
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;

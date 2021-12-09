@@ -1,5 +1,4 @@
 <template>
-  <div class="submission-page">
     <div class="submission-page__container">
       <SubmissionForm
         @close="formDialog = false"
@@ -33,6 +32,7 @@ export default {
   },
 };
 </script>
+
 <style scoped lang="scss">
 .submission-page {
   &__container {
