@@ -15,6 +15,7 @@
         <span>
           {{ contentSection.more_link_text }}
         </span>
+        <v-icon size="30" :color="activeTheme.primary_color"
           >$chevron_right</v-icon
         >
       </a>
@@ -359,3 +360,5 @@ export default {
 }
 
 @media screen and (max-width: 960px) {
+  .content-section {
+    padding: 40px 20px 10px 20px;

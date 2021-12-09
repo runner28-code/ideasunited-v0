@@ -110,6 +110,7 @@ export default {
   cursor: pointer;
 
   span {
+    margin-left: 3px;
   }
 }
 
@@ -124,3 +125,4 @@ export default {
   color: rgb(155, 155, 155);
 }
 
+.message-actions {

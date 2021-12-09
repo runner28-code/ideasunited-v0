@@ -198,3 +198,4 @@ export default {
         background: white;
         margin-top: 33px;
       }
+    }

@@ -326,3 +326,5 @@ export default {
 
   &__opp-count {
     display: inline-block;
+    color: white;
+    background: #E12D1B;

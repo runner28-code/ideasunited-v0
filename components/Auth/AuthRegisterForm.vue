@@ -27,6 +27,7 @@
             >{{ registrationForm.title }}</Title
           >
           <div
+            v-if="registrationForm.description"
             class="register__description"
           >
             {{ registrationForm.description }}
@@ -226,3 +227,4 @@ export default {
   .dynamic-form__buttons {
     display: flex;
     justify-content: center;
+    align-items: center;

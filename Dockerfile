@@ -1,10 +1,10 @@
 FROM node:14
+ENV NODE_ENV production
 
 WORKDIR /
 
 COPY . ./
 RUN yarn
-
 EXPOSE 8000
 
 ENV HOST=0.0.0.0

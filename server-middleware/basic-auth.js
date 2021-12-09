@@ -23,6 +23,7 @@ export default async function (req, res, next) {
       project.production_redirect_url
     ) {
       console.log("Redirect");
+// Temp comment
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();
     }
@@ -46,3 +47,4 @@ export default async function (req, res, next) {
     console.log("host: ", host);
 
     next();
+  } catch (e) {

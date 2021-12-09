@@ -1,5 +1,4 @@
 <template>
-  <div v-if="currentPage" :class="`page-${currentPage.id}`">
     <PageLead v-if="currentPage.use_lead" />
     <div class="components">
       <div
@@ -24,6 +23,7 @@ import Countdown from "./Countdown";
 import TextBlock from "./TextBlock/TextBlock";
 import Schedule from "./Schedule/Schedule";
 import List from "./List/List";
+import HtmlBlock from "./HtmlBlock";
 import SubmissionPage from "./SubmissionPage/SubmissionPage";
 import SubmissionContent from "./SubmissionContent/SubmissionContent";
 import SupportForm from "./SupportForm";

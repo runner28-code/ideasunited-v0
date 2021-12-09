@@ -19,7 +19,6 @@
     </v-form>
   </div>
 </template>
-
 <script>
 export default {
   layout: 'simple',
@@ -98,3 +97,4 @@ export default {
       .text-field {
         margin-bottom: 20px;
         width: 100%;
+      }

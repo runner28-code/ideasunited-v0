@@ -1,5 +1,6 @@
 <template>
   <v-text-field
+    :placeholder="label + (required && markRequired ? ' *' : '')"
     :value="value"
     @input="$emit('input', $event)"
     :rules="rules"
@@ -23,7 +24,6 @@ export default {
   methods: {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
-    }
   }
 };
 </script>

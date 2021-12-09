@@ -228,3 +228,4 @@ body {
 .root {
   .v-main {
     padding-bottom: 0 !important;
+  }

@@ -27,7 +27,6 @@ export default {
   },
   data() {
     return {
-      form: {
         support_form_id: null,
         data: {}
       },
@@ -77,3 +76,4 @@ export default {
   }
 
   &__submitted {
+    font-size: 24px;

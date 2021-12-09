@@ -85,6 +85,7 @@ export default {
       },
       slides,
       currentSlideIndex: 0,
+    }
   },
   mounted() {
     this.preloadVideo();
@@ -203,7 +204,6 @@ export default {
       this.playing = true;
       if(['sm', 'xs'].includes(this.$size)) {
         // play video
-        const { videoElem } = this.$refs;
         videoElem.play();
         // enter full screen
         this.fullscreen = true;
@@ -489,3 +489,5 @@ export default {
   &.playing &__preview-video {
     pointer-events: all;
   }
+  &.playing &__preview-media-wrapper-doodle {
+    opacity: 0;

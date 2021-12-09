@@ -307,7 +307,6 @@ export default {
     width: 100%;
     height: auto;
     position: relative;
-  }
   > div {
     position: absolute;
     top: 0;
@@ -335,3 +334,5 @@ export default {
       max-width: 184px;
     }
   }
+}
+

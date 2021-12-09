@@ -55,6 +55,7 @@ export default {
   padding: 0 20px;
   color: #181b23;
 
+  &__wrapper {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
   }
@@ -90,3 +91,4 @@ export default {
     outline: none !important;
     color: #181b23;
   }
+  &__value:focus + &__placeholder {

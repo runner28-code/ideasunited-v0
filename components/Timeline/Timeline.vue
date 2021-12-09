@@ -147,7 +147,6 @@ export default {
   computed: {
     visibleControls() {
       return (
-        (this.$size == "md" && this.timelineEvents.length > 4) ||
         (["lg", "xl"].includes(this.$size) && this.timelineEvents.length > 6) ||
         (["sm", "xs"].includes(this.$size) && this.timelineEvents.length > 1)
       );
@@ -253,3 +252,4 @@ export default {
 }
 
 @media screen and (max-width: 960px) {
+  .timeline {

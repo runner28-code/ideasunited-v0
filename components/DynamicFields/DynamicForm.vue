@@ -177,6 +177,7 @@ export default {
       return rules;
     }
   },
+  watch: {
     form: {
       deep: true,
       handler() {
@@ -205,3 +206,4 @@ export default {
     DynamicLinkField,
     DynamicFileField,
   },
+};

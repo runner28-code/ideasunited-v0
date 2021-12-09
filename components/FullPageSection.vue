@@ -159,3 +159,4 @@ export default {
 <style lang="scss">
 .evp-app {
   .component,
+  .component > div:not(.text-block) {

@@ -379,3 +379,5 @@ export default {
 }
 
 @media screen and (max-width: 1263px) {
+  .menu-toggle {
+    display: block;

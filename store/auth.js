@@ -48,3 +48,4 @@ const store = {
     token: state => state.token,
     isAuthenticated: state => !!state.token
   }
+};

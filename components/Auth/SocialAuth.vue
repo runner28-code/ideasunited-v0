@@ -88,6 +88,7 @@ export default {
 .social-auth {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: 40px;
 
@@ -122,3 +123,4 @@ export default {
     }
 
     &--cas {
+      width: 100%;

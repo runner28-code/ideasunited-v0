@@ -10,7 +10,6 @@ export default function (ctx, inject) {
 
     required: (v) => {
       return !!(v || "").toString().trim() || "Required field";
-// Temp comment
     },
     password: (v) =>
       (v && v.length >= 6) || "Password must be at least 6 characters long",

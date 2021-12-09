@@ -131,6 +131,7 @@ export default {
     display: flex;
     align-items: center;
   }
+}
 
 .event {
   border-radius: 10px;
@@ -285,3 +286,4 @@ export default {
 
       &.visible {
         height: 500px;
+        min-height: 400px;

@@ -40,7 +40,6 @@ export default {
         backgroundImage: `url(${url})`
       };
     }
-  }
 };
 </script>
 
@@ -56,3 +55,4 @@ export default {
     .slider {
       height: 100%;
     }
+  }

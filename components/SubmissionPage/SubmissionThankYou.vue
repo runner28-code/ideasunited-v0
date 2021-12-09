@@ -37,6 +37,7 @@ export default {
         try {
           return eval(string);
         } catch (errorWithoutThis) {
+          console.warn("Error en script: " + string, errorWithoutThis);
           return null;
         }
       }
@@ -52,7 +53,6 @@ export default {
     firstName() {
       return this.currentUser.first_name;
     },
-    lastName() {
       return this.currentUser.last_name;
     },
     opportunityName() {

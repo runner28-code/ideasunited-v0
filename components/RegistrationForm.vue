@@ -178,3 +178,4 @@ export default {
     font-weight: bold;
     font-size: 14px;
     max-width: 274px;
+    margin: auto;
