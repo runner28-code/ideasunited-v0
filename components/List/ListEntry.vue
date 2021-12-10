@@ -54,9 +54,3 @@ export default {
 
 @media screen and (max-width: 960px) {
   .list-entry {
-    width: 33%;
-  }
-}
-@media screen and (max-width: 640px) {
-  .list-entry {
-    width: 50%;

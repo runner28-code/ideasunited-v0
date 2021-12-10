@@ -51,6 +51,7 @@ export default {
   &--silver {
     color: #a7b7c0;
   }
+  &--campus {
     color: #7b61ff;
   }
   &-label {

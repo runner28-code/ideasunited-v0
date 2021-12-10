@@ -88,7 +88,6 @@ export default {
         .join("\n");
       const styles = [styles1, styles2].join("\n");
       return `<style>${styles || ""}</style>`;
-    }
   },
   watch: {
     search() {

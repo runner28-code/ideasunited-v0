@@ -40,6 +40,7 @@ export default {
         backgroundImage: `url(${url})`
       };
     }
+  }
 };
 </script>
 

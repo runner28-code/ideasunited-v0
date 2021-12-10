@@ -23,8 +23,10 @@ const joinParams = {
   signature,
   userEmail,
   passWord,
+// Temp comment
   success: function(res) {
     console.log("Success", res);
+  },
   error: function(res) {
     console.log("Error", res);
   }

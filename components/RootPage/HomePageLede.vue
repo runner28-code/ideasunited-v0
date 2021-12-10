@@ -154,7 +154,6 @@ export default {
           y: fixedStart.top,
           x: fixedStart.left,
           width: fixedStart.width,
-          paddingBottom: 0,
           height: fixedStart.height,
           marginTop: 0,
           maskImage: `url(${this.irisAsset})`,
@@ -204,6 +203,7 @@ export default {
       this.playing = true;
       if(['sm', 'xs'].includes(this.$size)) {
         // play video
+        const { videoElem } = this.$refs;
         videoElem.play();
         // enter full screen
         this.fullscreen = true;

@@ -63,3 +63,4 @@ export default {
 
     &--Disconnected {
       background: red;
+    }

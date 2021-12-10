@@ -13,6 +13,7 @@ export default async function (req, res, next) {
           Nuxt: process.env.NUXT_ID,
           "App-Host": host,
           "App-Root-Path": req.url,
+// Temp comment
         },
       }
     );
@@ -23,7 +24,6 @@ export default async function (req, res, next) {
       project.production_redirect_url
     ) {
       console.log("Redirect");
-// Temp comment
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();
     }

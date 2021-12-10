@@ -120,6 +120,7 @@ export default {
       }
     }
   }
+};
 </script>
 
 <style scoped lang="scss">
@@ -155,7 +156,6 @@ export default {
     width: 60px;
   }
 
-  &__item {
     text-align: center;
   }
   &__item-label {

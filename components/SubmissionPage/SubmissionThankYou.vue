@@ -53,6 +53,7 @@ export default {
     firstName() {
       return this.currentUser.first_name;
     },
+    lastName() {
       return this.currentUser.last_name;
     },
     opportunityName() {

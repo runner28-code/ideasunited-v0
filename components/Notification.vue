@@ -88,6 +88,5 @@ export default {
     font-size: 16px;
   }
 
-  &__sidebar {
     &-content {
       padding: 100px 35px 25px 35px;

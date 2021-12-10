@@ -187,7 +187,6 @@ export default {
     },
     drawerWidth() {
       return this.isMobile ? '100%' : '302px';
-    },
     showSeparator() {
       return this.isMobile && this.menuPages.length;
     }

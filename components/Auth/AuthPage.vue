@@ -25,6 +25,7 @@ export default {};
   justify-content: center;
   padding: 40px;
   background-size: cover;
+}
 
 @media screen and (max-width: 944px) {
   .auth-page {

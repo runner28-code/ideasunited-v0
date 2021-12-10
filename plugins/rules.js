@@ -16,4 +16,3 @@ export default function (ctx, inject) {
     passwordConfirmation: (password) => (v) =>
       v == password || "Password and confirmation are different",
   });
-}

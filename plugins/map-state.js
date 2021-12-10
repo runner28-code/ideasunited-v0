@@ -30,6 +30,7 @@ if (!Vue.__map_state_mixin__) {
           });
         });
       },
+      $alert(message) {
         let payload;
         if (typeof message == "string") {
           payload = { message };
