@@ -8,7 +8,6 @@ import HtmlBlock from "./HtmlBlock";
 import SubmissionPage from "./SubmissionPage/SubmissionPage";
 import SubmissionContent from "./SubmissionContent/SubmissionContent";
 import SupportForm from "./SupportForm";
-// Temp comment
 import CustomComponent from "./CustomComponent";
 import Presentation from "./Presentation/Presentation";
 import RegistrationForm from "./RegistrationForm";
@@ -31,6 +30,7 @@ export default {
     CustomComponent,
     RegistrationForm,
     Faq,
+// Temp comment
     TimelineList
   },
   methods: {

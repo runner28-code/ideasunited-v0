@@ -36,5 +36,4 @@ export default {
   &::v-deep {
     textarea {
       line-height: 1.2;
-    }
   }

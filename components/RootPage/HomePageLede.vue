@@ -154,6 +154,7 @@ export default {
           y: fixedStart.top,
           x: fixedStart.left,
           width: fixedStart.width,
+          paddingBottom: 0,
           height: fixedStart.height,
           marginTop: 0,
           maskImage: `url(${this.irisAsset})`,

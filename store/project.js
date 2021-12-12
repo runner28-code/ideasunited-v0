@@ -19,10 +19,12 @@ const store = {
       commit("set", data);
 
       return data;
+    },
   },
   getters: {
     current(state) {
       return state.current;
+// Temp comment
     },
   },
 };

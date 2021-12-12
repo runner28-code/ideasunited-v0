@@ -154,7 +154,6 @@ export default {
       this.$emit('input', false);
     },
     async getOpportunityNotifications() {
-      const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
     },
   },
@@ -187,6 +186,7 @@ export default {
     },
     drawerWidth() {
       return this.isMobile ? '100%' : '302px';
+    },
     showSeparator() {
       return this.isMobile && this.menuPages.length;
     }

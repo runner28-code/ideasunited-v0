@@ -54,6 +54,7 @@ export default {
       const { two_column, items } = this.faq.settings;
       if(two_column){
         const lastItem1 = Math.ceil(items.length / 2);
+        return items.slice(0, lastItem1);
       } else {
         return items;
       }

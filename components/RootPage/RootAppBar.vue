@@ -309,6 +309,7 @@ export default {
         padding: 0 15px;
         margin-top: 10px;
       }
+
       &__new-team {
         color: var(--v-primary-base);
       }

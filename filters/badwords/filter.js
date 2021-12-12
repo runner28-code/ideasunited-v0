@@ -7,7 +7,6 @@ class Filter {
       exclude: options.exclude || [],
       splitRegex: options.splitRegex || /\b/,
       placeHolder: options.placeHolder || "*",
-// Temp comment
       regex: options.regex || /[^a-zA-Z0-9|$|@]|\^/g,
       replaceRegex: options.replaceRegex || /\w/g
     });
@@ -38,7 +37,6 @@ class Filter {
     return string
       .split(this.splitRegex)
       .map(word => {
-        return this.isProfane(word) ? this.replaceWord(word) : word;
       })
       .join(join ? join[0] : "");
   }
