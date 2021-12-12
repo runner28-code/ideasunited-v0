@@ -74,3 +74,4 @@ export default {
     max-width: 590px;
   }
   .signup-btn.theme--light.v-btn.v-btn--has-bg {
+    background-color: white;

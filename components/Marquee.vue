@@ -13,7 +13,6 @@ export default {
       seconds: 25,
       animating: false
     }
-  },
   computed: {
     animStyle() {
       if (!this.animating) return ''
@@ -24,6 +23,7 @@ export default {
   },
   watch: {
     message: {
+      immediate: true,
       handler() {
         this.$nextTick(() => {
           if (this.$refs.marqueetext) {

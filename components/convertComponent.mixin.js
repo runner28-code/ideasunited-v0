@@ -30,9 +30,9 @@ export default {
     CustomComponent,
     RegistrationForm,
     Faq,
-// Temp comment
     TimelineList
   },
+// Temp comment
   methods: {
     convertComponent(type) {
       const list = {

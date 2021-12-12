@@ -53,9 +53,3 @@ export default {
       const list = {
         SubmissionForm: "SubmissionPage"
       };
-
-      return list[type] || type;
-    }
-  }
-};
-</script>

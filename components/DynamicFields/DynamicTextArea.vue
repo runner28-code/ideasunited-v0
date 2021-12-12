@@ -18,7 +18,6 @@ export default {
     value: String,
     rules: {
       type: Array,
-      default: () => []
     },
     required: Boolean,
     markRequired: Boolean
@@ -36,4 +35,5 @@ export default {
   &::v-deep {
     textarea {
       line-height: 1.2;
+    }
   }

@@ -281,6 +281,7 @@ export default {
   overflow-y: scroll;
   overflow-anchor: none;
   height: 100%;
+}
 .opp-count {
   position: absolute;
   top: -8px;

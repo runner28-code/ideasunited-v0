@@ -84,7 +84,6 @@ export default {
     flex-basis: 50%;
     flex-grow: 1;
     @media screen and (max-width: 960px) {
-      flex-basis: unset;
       width: 100%;
     }
   }

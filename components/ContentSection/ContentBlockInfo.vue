@@ -90,6 +90,7 @@ export default {
   data() {
     return {
       sliderInited: false
+    };
   },
   mounted() {
     setTimeout(() => {

@@ -154,6 +154,7 @@ export default {
       this.$emit('input', false);
     },
     async getOpportunityNotifications() {
+      const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
     },
   },
@@ -165,7 +166,6 @@ export default {
         this.activeTheme.header_logo_mobile.large.url ||
         this.activeTheme.header_logo_mobile.url
       );
-    },
     profileUrl() {
       return process.env.NODE_ENV === "development" ?
         "http://localhost:8081" :

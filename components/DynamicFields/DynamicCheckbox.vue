@@ -16,7 +16,6 @@
         ></span>
       </slot>
     </template>
-  </v-checkbox>
 </template>
 
 <script>

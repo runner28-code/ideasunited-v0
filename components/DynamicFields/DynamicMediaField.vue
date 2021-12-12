@@ -109,7 +109,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.file-input {
   cursor: pointer;
   &__icon {
     cursor: pointer;
@@ -143,6 +142,7 @@ export default {
 
   &__delete {
     position: absolute;
+    right: 10px;
     top: 10px;
     z-index: 1;
   }

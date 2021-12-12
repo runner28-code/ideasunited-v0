@@ -124,7 +124,6 @@ export default {
         emoji: "mdi-emoticon-outline",
         chevron_left: "mdi-chevron-left",
         chevron_right: "mdi-chevron-right",
-// Temp comment
         chevron_up: "mdi-chevron-up",
         chevron_down: "mdi-chevron-down",
         arrow_left: "mdi-arrow-left",

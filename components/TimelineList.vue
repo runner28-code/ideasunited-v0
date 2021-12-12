@@ -31,7 +31,6 @@ export default {
     timelineCssVars() {
       return {
         '--dot-color': this.timelineList?.settings?.dot_color || "currentColor",
-      }
     }
   }
 }
@@ -54,6 +53,7 @@ export default {
           background: currentColor;
           position: absolute;
           top: 15px;
+          bottom: -16px;
           right: -1.5px;
           width: 3px;
         }

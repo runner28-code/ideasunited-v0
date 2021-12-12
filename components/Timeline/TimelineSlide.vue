@@ -156,6 +156,7 @@ export default {
     &-timestamp {
       margin-bottom: 5px;
       font-size: 12px;
+    }
     &-timestamp,
     &-name {
       width: 100%;

@@ -28,6 +28,7 @@ export default function(ctx, inject) {
         authorizationEndpoint =
           `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }
+// Temp comment
 
       authorizationEndpoint =
         authorizationEndpoint + "?domain=" + location.hostname;
@@ -51,3 +52,4 @@ export default function(ctx, inject) {
         if (w.closed) {
           reject();
         }
+      }, 250);

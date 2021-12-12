@@ -6,6 +6,7 @@
       allowfullscreen
       class="zoom-player__embedded"
       :src="zoomUrl"
+      v-if="zoomUrl"
     />
   </div>
 </template>

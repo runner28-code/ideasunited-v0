@@ -88,7 +88,6 @@ export default {
     line-height: 1.143;
     margin-bottom: 10px;
   }
-
   &__embedded {
     width: 100%;
     height: 100%;
