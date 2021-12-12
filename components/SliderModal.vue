@@ -177,3 +177,4 @@ export default {
       width: 100vw;
     }
 
+    &__next,

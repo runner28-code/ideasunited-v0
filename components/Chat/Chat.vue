@@ -28,7 +28,6 @@ export default {
       });
     }
   },
-  channels: {
     ChatChannel: {
       received({ type, payload }) {
         switch (type) {
@@ -47,6 +46,7 @@ export default {
     });
   }
 };
+</script>
 
 <style scoped lang="scss">
 .chat {

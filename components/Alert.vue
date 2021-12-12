@@ -130,3 +130,8 @@ export default {
     align-items: stretch;
     justify-content: stretch;
     height: 100%;
+    min-height: 100%;
+    padding: 0;
+  }
+}
+</style>

@@ -333,7 +333,6 @@ export default {
     }
 
     &-chevron_down {
-      margin-top: 5px;
       margin-left: 5px;
     }
   }
@@ -381,3 +380,4 @@ export default {
 @media screen and (max-width: 1263px) {
   .menu-toggle {
     display: block;
+    margin-left: 20px;

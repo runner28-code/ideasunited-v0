@@ -88,6 +88,7 @@ export default {
         "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
         "application/vnd.ms-word.document.macroEnabled.12",
         "application/vnd.ms-word.template.macroEnabled.12",
+      ]
     };
   },
   methods: {
@@ -100,7 +101,6 @@ export default {
       }
     },
     showField(field) {
-      if (!field.conditional) return true;
 
       const conditionalField = this.fields.find(
         (f) => f.uuid == field.conditional_uuid
@@ -206,3 +206,4 @@ export default {
     DynamicFileField,
   },
 };
+</script>

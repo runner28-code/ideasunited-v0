@@ -24,7 +24,6 @@ const joinParams = {
   userEmail,
   passWord,
   success: function(res) {
-// Temp comment
     console.log("Success", res);
   },
   error: function(res) {

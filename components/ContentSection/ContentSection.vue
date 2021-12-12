@@ -358,7 +358,7 @@ export default {
     }
   }
 }
-
 @media screen and (max-width: 960px) {
   .content-section {
     padding: 40px 20px 10px 20px;
+

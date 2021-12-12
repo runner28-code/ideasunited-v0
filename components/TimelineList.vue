@@ -31,6 +31,7 @@ export default {
     timelineCssVars() {
       return {
         '--dot-color': this.timelineList?.settings?.dot_color || "currentColor",
+      }
     }
   }
 }
@@ -39,7 +40,6 @@ export default {
 <style lang="scss" scoped>
 .timeline-list {
   &__ul {
-    list-style: none;
     padding-left: 0;
     li {
       display: flex;
@@ -80,3 +80,4 @@ export default {
   }
   &__text {
     padding-left: 21px;
+    margin-bottom: 1em;

@@ -76,6 +76,7 @@ export function getHash(input) {
 }
 
 export function getThemeByColor(color) {
+  const hex = color.replace("#", "");
   const c_r = parseInt(hex.substr(0, 2), 16);
   const c_g = parseInt(hex.substr(2, 2), 16);
   const c_b = parseInt(hex.substr(4, 2), 16);

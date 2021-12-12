@@ -4,7 +4,6 @@ import cookies from "vue-cookies";
 const store = {
   namespaced: true,
   state: () => ({}),
-// Temp comment
   mutations: {
     setToken(state, token) {
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
@@ -43,7 +42,6 @@ const store = {
     },
     async resetPassword(_, params) {
       return await this.$api.Auth.resetPassword(params);
-    }
   },
   getters: {
     token: state => state.token,

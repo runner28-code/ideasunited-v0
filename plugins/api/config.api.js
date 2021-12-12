@@ -68,5 +68,4 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       }
 
       return Promise.reject(error);
-    }
   );

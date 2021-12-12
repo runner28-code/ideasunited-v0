@@ -23,6 +23,7 @@ export default {
       localValue: ""
     };
   },
+  computed: {
     styles() {
       return {
         color: this.calcTheme == "dark" ? "white" : "#333"
@@ -45,7 +46,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .search-input {
   height: 46px;

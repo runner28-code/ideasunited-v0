@@ -91,3 +91,4 @@ export default {
     &__title {
       font-size: 30px;
     }
+    &__start-at {

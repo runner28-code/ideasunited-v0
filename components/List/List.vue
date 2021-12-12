@@ -63,3 +63,4 @@ export default {
 @media screen and (max-width: 960px) {
   .commons-list {
     padding: 40px 20px;
+  }

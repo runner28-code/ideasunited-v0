@@ -148,7 +148,6 @@ export default {
 }
 
 .countdown-timer {
-  display: flex;
   align-items: center;
 
   &__item {
@@ -221,3 +220,4 @@ export default {
         font-size: 1em;
       }
     }
+  }

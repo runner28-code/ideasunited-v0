@@ -492,3 +492,5 @@ export default {
   }
   &.playing &__preview-media-wrapper-doodle {
     opacity: 0;
+  }
+  &.fullscreen &__close-reel {

@@ -129,3 +129,8 @@ export default {
   padding: 21px;
   position: relative;
 
+  &__form {
+    margin-top: 20px;
+  }
+}
+</style>

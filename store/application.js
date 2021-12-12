@@ -22,6 +22,5 @@ const store = {
       });
     }
   }
-// Temp comment
 };
 

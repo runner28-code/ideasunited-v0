@@ -102,13 +102,13 @@ export default {
       this.$emit("input", file);
     },
     remove() {
-      this.$emit("input", null);
     }
   }
 };
 </script>
 
 <style scoped lang="scss">
+.file-input {
   cursor: pointer;
   &__icon {
     cursor: pointer;
@@ -172,3 +172,4 @@ export default {
 
   &__upload-btn {
     background: #f5f5f5e0 !important;
+  }

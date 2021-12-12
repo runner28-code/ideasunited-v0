@@ -61,7 +61,6 @@ export default {
     }
   }
 };
-</script>
 
 <style scoped lang="scss">
 .btn.v-btn.v-btn--disabled.v-btn--has-bg {

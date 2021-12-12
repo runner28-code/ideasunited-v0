@@ -118,6 +118,7 @@ export default {
       });
 
       this.$root.$on("chapterChange", data => {
+        const event = this.events.find(
           t =>
             t.vimeo_id == data.vimeo_id && t.vimeo_chapter == data.vimeo_chapter
         );
@@ -184,7 +185,6 @@ export default {
       handler() {
         const ids = this.events.map(t => t.id);
         const { id } = this.value;
-        if (ids.includes(id)) {
           this.setActive(id);
         }
       }

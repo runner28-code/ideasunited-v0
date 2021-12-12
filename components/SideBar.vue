@@ -166,6 +166,7 @@ export default {
         this.activeTheme.header_logo_mobile.large.url ||
         this.activeTheme.header_logo_mobile.url
       );
+    },
     profileUrl() {
       return process.env.NODE_ENV === "development" ?
         "http://localhost:8081" :
@@ -327,3 +328,4 @@ export default {
     display: inline-block;
     color: white;
     background: #E12D1B;
+    font-size: 14px;

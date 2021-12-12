@@ -243,7 +243,6 @@ export default {
   }
 
   &__dropdown {
-    display: inline-flex;
     align-items: center;
     cursor: pointer;
     text-transform: none;
@@ -360,3 +359,6 @@ export default {
   font-size: 16px;
   margin-left: 3px;
 }
+
+.menu-toggle {
+  display: none;

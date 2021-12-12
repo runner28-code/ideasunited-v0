@@ -140,7 +140,6 @@ export default {
 
   &__placeholder {
     position: absolute;
-    left: 0;
     right: 0;
     top: 0;
     bottom: 0;
@@ -287,3 +286,4 @@ export default {
       &.visible {
         height: 500px;
         min-height: 400px;
+      }

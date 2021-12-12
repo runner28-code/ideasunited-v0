@@ -1,3 +1,4 @@
+<template>
   <div class="slider-wrapper">
     <div class="swiper-button-prev">
       <v-icon color="#ffffff" size="50">$chevron_left</v-icon>
@@ -26,7 +27,6 @@ export default {
   data() {
     return {
       swiperOption: {
-        slidesPerView: 1,
         spaceBetween: 0,
         // autoplay: {
         //   delay: 5000

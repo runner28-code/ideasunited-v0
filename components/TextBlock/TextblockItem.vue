@@ -75,7 +75,6 @@ a.text-block__item-wrapper:hover {
       opacity: 1;
     }
 
-    &-title {
       font-weight: 900;
       font-size: 48px;
       line-height: 1.1;
@@ -108,3 +107,4 @@ a.text-block__item-wrapper:hover {
       justify-content: center;
 
       &-wrapper {
+        padding: 0;

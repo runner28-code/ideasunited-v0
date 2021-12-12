@@ -118,7 +118,6 @@ export default {
   font-size: 12px;
   white-space: pre-line;
   word-break: break-word;
-}
 
 .message__timestamp {
   font-size: 10px;
