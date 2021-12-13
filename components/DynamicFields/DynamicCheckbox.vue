@@ -43,11 +43,11 @@ export default {
 .checkbox {
   margin-top: 2px;
   margin-bottom: 13px;
+
   &::v-deep {
     .v-input__slot {
       align-items: start !important;
     }
-
     .v-input--selection-controls__input {
       top: 1px;
     }

@@ -333,6 +333,7 @@ export default {
     }
 
     &-chevron_down {
+      margin-top: 5px;
       margin-left: 5px;
     }
   }

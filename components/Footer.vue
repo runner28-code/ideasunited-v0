@@ -61,6 +61,7 @@ export default {
   },
   created(){
     this.fetchSupportForm();
+  },
   methods: {
     async fetchSupportForm() {
       const { data } = await this.$api.Support.getForm();

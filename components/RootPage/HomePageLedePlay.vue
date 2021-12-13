@@ -58,7 +58,6 @@
           </g>
         </g>
       </svg>
-    </div>
   </div>
 </template>
 
@@ -70,6 +69,7 @@
   position: absolute;
   right: 12.17%;
   top: 0;
+  margin-top: 26.67%;
   z-index: 1;
   pointer-events: all;
   cursor: pointer;

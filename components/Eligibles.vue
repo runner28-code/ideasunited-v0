@@ -27,6 +27,7 @@ export default {
     return {
       badgeInfoUrl: frontendToProfile()[window.location.origin] + "/badge-info",
     };
+  },
 };
 </script>
 

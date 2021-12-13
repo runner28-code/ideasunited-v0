@@ -28,7 +28,6 @@ export default {
       default: () => [],
     },
     disabled: Boolean,
-  },
 };
 </script>
 

@@ -28,6 +28,7 @@ export default {
       });
     }
   },
+  channels: {
     ChatChannel: {
       received({ type, payload }) {
         switch (type) {

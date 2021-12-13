@@ -3,7 +3,6 @@
     <v-form
       ref="form"
       v-model="formModel"
-      @submit.prevent="submit"
       class="forgot-password-page__form"
     >
       <div class="forgot-password-page__title">New Password</div>
@@ -89,6 +88,7 @@ export default {
 
   &__form {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+    background: white;
     padding: 30px;
     max-width: 400px;
     width: 100%;

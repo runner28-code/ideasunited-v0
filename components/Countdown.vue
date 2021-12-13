@@ -55,7 +55,6 @@ export default {
       interval: null,
       visible: false
     };
-  },
   created() {
     this.startCountdown();
   },
@@ -148,6 +147,7 @@ export default {
 }
 
 .countdown-timer {
+  display: flex;
   align-items: center;
 
   &__item {

@@ -26,7 +26,6 @@ export default {
         return 200;
       }
     }
-  },
   async asyncData({ $api, route, store }) {
     await store.dispatch("user/fetch");
     const page = await store.dispatch("page/fetch", {

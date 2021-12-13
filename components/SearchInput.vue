@@ -46,6 +46,7 @@ export default {
   }
 };
 </script>
+
 <style scoped lang="scss">
 .search-input {
   height: 46px;
@@ -89,5 +90,4 @@ export default {
     padding: 0 45px;
     outline: none !important;
     color: #181b23;
-  }
   &__value:focus + &__placeholder {
