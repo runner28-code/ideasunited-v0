@@ -33,7 +33,6 @@ export default {
   },
 };
 </script>
-
 <style scoped lang="scss">
 .submission-page {
   &__container {

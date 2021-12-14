@@ -90,4 +90,5 @@ export default {
     padding: 0 45px;
     outline: none !important;
     color: #181b23;
+  }
   &__value:focus + &__placeholder {

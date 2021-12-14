@@ -8,7 +8,6 @@
     :xLarge="xLarge"
     :color="calcColor"
     :type="type"
-    :outlined="outlined"
     :text="text"
     class="elevation-0 btn"
     :href="href"
@@ -16,6 +15,7 @@
     :disabled="disabled"
     @focus.stop="onFocus($event)"
   >
+    <slot></slot>
   </v-btn>
 </template>
 

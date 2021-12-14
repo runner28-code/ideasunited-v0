@@ -26,6 +26,7 @@ export default {
         return 200;
       }
     }
+  },
   async asyncData({ $api, route, store }) {
     await store.dispatch("user/fetch");
     const page = await store.dispatch("page/fetch", {
@@ -44,4 +45,3 @@ export default {
   @media screen and (max-width: 944px) {
     margin-left: 0;
     height: auto;
-  }

@@ -48,6 +48,7 @@ export default {
     .v-input__slot {
       align-items: start !important;
     }
+
     .v-input--selection-controls__input {
       top: 1px;
     }

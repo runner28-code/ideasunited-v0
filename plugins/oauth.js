@@ -47,7 +47,6 @@ export default function(ctx, inject) {
           w.close();
           return;
         }
-// Temp comment
 
         if (w.closed) {
           reject();

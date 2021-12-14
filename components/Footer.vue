@@ -181,7 +181,6 @@ export default {
       .footer__separator {
         background: none;
         height: 15px;
-      }
     }
     &__menu {
       margin: 0 0 32px 0;

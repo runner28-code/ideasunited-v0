@@ -58,6 +58,7 @@
                 <v-icon color="currentColor" size="24">$instagram_profile</v-icon>
               </a>
             </div>
+            <div class="slider-modal-content__creator-socials__item" v-if="block.creator.linkedin">
               <a :href="block.creator.linkedin" target="_blank">
                 <v-icon color="currentColor" size="24">$linkedin_profile</v-icon>
               </a>

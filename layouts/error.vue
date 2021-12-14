@@ -34,6 +34,7 @@ export default {
       title
     }
   }
+}
 </script>
 
 <style scoped>

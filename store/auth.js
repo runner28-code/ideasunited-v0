@@ -44,7 +44,6 @@ const store = {
       return await this.$api.Auth.resetPassword(params);
     }
   },
-// Temp comment
   getters: {
     token: state => state.token,
     isAuthenticated: state => !!state.token

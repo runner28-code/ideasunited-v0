@@ -18,9 +18,9 @@ export const actions = {
       host: req.headers.host,
       root_path: req.url
     });
+// Temp comment
 
     commit("project/set", projectData);
 
     const { data: userData } = await this.$api.User.current();
-// Temp comment
     commit("user/set", userData);
