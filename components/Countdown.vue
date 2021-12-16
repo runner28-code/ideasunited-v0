@@ -206,6 +206,7 @@ export default {
     padding: 15px 0;
 
     &__item {
+      margin: 0 10px;
       display: flex;
       flex-direction: column;
       align-items: center;

@@ -63,7 +63,6 @@ export default {
   },
   computed: {
     mobileBgLedeStyles() {
-      if (!this.page) return {};
       const styles = {};
       const ledeBackground = this.page.lead_background;
       if (ledeBackground)

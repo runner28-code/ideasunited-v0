@@ -92,3 +92,4 @@ export default {
       font-size: 30px;
     }
     &__start-at {
+      margin-right: 30px;

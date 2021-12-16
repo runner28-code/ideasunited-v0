@@ -15,7 +15,6 @@ const store = {
         host: window.location.host,
         root_path: window.location.pathname,
       });
-
       commit("set", data);
 
       return data;
@@ -24,7 +23,6 @@ const store = {
   getters: {
     current(state) {
       return state.current;
-// Temp comment
     },
   },
 };

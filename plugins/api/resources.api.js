@@ -9,7 +9,6 @@ function objectToFormData(obj) {
       const uuid = "file-" + uuidv4();
       files[uuid] = value;
       return uuid;
-    }
     return value;
   });
 
@@ -17,4 +16,5 @@ function objectToFormData(obj) {
 
   Object.keys(files).forEach((k) => {
     formData.append(`files[${k}]`, files[k]);
+  });
   return formData;

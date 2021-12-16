@@ -29,10 +29,10 @@ export default {
   computed: {
     submissionForm() {
       return (this.page || this.currentPage).submission_forms[this.value];
-    },
   },
 };
 </script>
+
 <style scoped lang="scss">
 .submission-page {
   &__container {

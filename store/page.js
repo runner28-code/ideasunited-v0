@@ -28,7 +28,6 @@ const store = {
     publishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
       const payload = { posted: true };
-      updateCollection({ collection, id: blockId, payload });
     },
     unpublishContentBlock(state, { sectionId, blockId }) {
       const collection = state.current.content_sections[sectionId].blocks;
@@ -54,6 +53,7 @@ const store = {
   }
 };
 
+const updateCollection = ({ collection, id, payload }) => {
   if (!collection) return;
   const item = collection.find(t => t.id == id);
   if (item) {

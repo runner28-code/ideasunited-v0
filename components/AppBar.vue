@@ -36,7 +36,6 @@
         ]"
         :style="
           menuItem.menu_style == 'button'
-            ? {
                 backgroundColor: menuItem.menu_button_background,
                 color: menuItem.menu_button_text_color,
               }
@@ -364,3 +363,4 @@ export default {
 .menu-toggle {
   display: none;
 }
+

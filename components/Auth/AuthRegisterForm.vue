@@ -112,7 +112,6 @@ export default {
         this.$store.dispatch("user/fetch");
         if (this.registrationForm.destination_page_id)
           this.$router.push("/" + this.registrationForm.destination_url);
-      } catch (e) {
         if (!e.response.data) return;
         const data = e.response.data;
         if (data.email_validation_response == "are_you_sure") {

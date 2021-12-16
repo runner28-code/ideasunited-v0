@@ -24,7 +24,6 @@ export default function(ctx, inject) {
       let { authorizationEndpoint } = providers[provider];
       localStorage.removeItem("token");
 
-      if (process.env.NODE_ENV !== "development") {
         authorizationEndpoint =
           `http://oauth.${process.env["ROOT_DOMAIN"]}` + authorizationEndpoint;
       }

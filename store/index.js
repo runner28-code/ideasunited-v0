@@ -8,7 +8,6 @@ export const mutations = {
   SET_USER: function(state, user) {
     state.authUser = user;
   }
-};
 
 export const actions = {
   async nuxtServerInit({ commit }, opts) {
@@ -18,7 +17,6 @@ export const actions = {
       host: req.headers.host,
       root_path: req.url
     });
-// Temp comment
 
     commit("project/set", projectData);
 

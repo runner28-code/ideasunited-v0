@@ -124,4 +124,5 @@ export default {
       min-height: 0;
       overflow: visible;
     }
+  }
 }

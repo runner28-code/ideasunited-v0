@@ -16,6 +16,7 @@
         >
       </v-card>
     </v-dialog>
+    <v-navigation-drawer
       right
       v-model="sidebar"
       fixed
@@ -80,7 +81,6 @@ export default {
   &-content {
     white-space: pre-line;
   }
-  &__dialog {
     position: relative;
     background: white;
     padding: 25px;
