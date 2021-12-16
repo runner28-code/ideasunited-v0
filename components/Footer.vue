@@ -37,7 +37,6 @@
           <a target="_blank" href="https://ideasunited.com/privacy">Privacy</a>
         </div>
       </div>
-    </div>
     <v-dialog width="800" v-model="supportDialog">
       <v-card class="support__dialog">
         <SupportForm :support-form="supportForm"/>
@@ -170,6 +169,7 @@ export default {
 }
 
 @media screen and (max-width: 944px) {
+  .footer {
     position: static !important;
     padding: 36px 22px;
     &-container {

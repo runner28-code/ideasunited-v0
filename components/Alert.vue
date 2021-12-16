@@ -68,6 +68,7 @@ export default {
   justify-content: stretch;
 
   &__message {
+    padding: 15px;
 
     &.clickable {
       cursor: pointer;

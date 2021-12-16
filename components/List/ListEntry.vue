@@ -56,3 +56,4 @@ export default {
   .list-entry {
     width: 33%;
   }
+}

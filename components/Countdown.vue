@@ -174,7 +174,6 @@ export default {
   }
 }
 
-@media screen and (max-width: 944px) {
   .countdown-wrapper {
     padding: 20px 50px;
   }

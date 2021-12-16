@@ -22,7 +22,6 @@ export default {
       `
     }
   },
-  watch: {
     message: {
       immediate: true,
       handler() {

@@ -24,7 +24,6 @@
     <div v-html="css"></div>
   </div>
 </template>
-
 <script>
 import _ from "lodash";
 
@@ -55,6 +54,7 @@ export default {
       };
       const { data } = await this.$api.Submission.get(params);
       this.page += 1;
+
       const ids = this.list.map(t => t.id);
       const newData = data.filter(t => !ids.includes(t.id));
 

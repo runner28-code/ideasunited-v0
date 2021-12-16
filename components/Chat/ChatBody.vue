@@ -43,6 +43,7 @@ export default {
   methods: {
     newMessage(payload) {
       this.messages.push(payload);
+      this.scrollBottom();
     },
     deleteMessage(messageId) {
       this.messages = this.messages.filter(m => m.id != messageId);

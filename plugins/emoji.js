@@ -1,2 +1,2 @@
-import VEmojiPicker from "v-emoji-picker";
+import Vue from "vue";
 

@@ -49,7 +49,6 @@ export default {
   position: relative;
   height: 100%;
   background-color: black;
-  background-size: cover;
   background-position: center;
 
   &::v-deep {

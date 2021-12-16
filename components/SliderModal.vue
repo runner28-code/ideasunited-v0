@@ -37,6 +37,7 @@
               class="close elevation-0"
               fab
               small
+            >
               <v-icon size="36" :color="currentColor"
                 >$close</v-icon
               >
@@ -167,7 +168,6 @@ export default {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     max-height: 100% !important;
     max-width: 100vw !important;
     &__wrapper {

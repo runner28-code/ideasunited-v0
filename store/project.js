@@ -15,11 +15,13 @@ const store = {
         host: window.location.host,
         root_path: window.location.pathname,
       });
+
       commit("set", data);
 
       return data;
     },
   },
+// Temp comment
   getters: {
     current(state) {
       return state.current;

@@ -87,7 +87,6 @@ export default {
           this.$root.$emit('fullpageRebuild');
           this.$emit("close");
         } catch(e) {
-          if(!e.response.data) return;
           const data = e.response.data;
           if(data.email_validation_response == 'are_you_sure') {
             if(data.email_suggestion) this.emailValidationSuggestions = [data.email_suggestion];

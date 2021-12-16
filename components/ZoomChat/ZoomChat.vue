@@ -37,7 +37,6 @@ export default {
         full_name,
         email
       });
-    }
   }
 };
 </script>
@@ -46,6 +45,7 @@ export default {
 .zoom-chat {
   height: 100%;
   width: 100%;
+
   iframe {
     width: 100%;
     height: 100%;

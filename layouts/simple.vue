@@ -5,4 +5,3 @@
     </v-main>
     <Alert />
   </v-app>
-</template>

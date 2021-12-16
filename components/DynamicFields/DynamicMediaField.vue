@@ -154,6 +154,7 @@ export default {
     }
     padding: 0 !important;
     &::v-deep {
+      .v-input__slot {
         display: none !important;
       }
     }
@@ -167,9 +168,3 @@ export default {
     font-size: 24px;
     text-transform: uppercase;
     opacity: 0.4;
-    font-weight: bold;
-  }
-
-  &__upload-btn {
-    background: #f5f5f5e0 !important;
-  }

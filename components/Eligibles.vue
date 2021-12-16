@@ -4,6 +4,7 @@
       v-for="badge in value"
       :key="badge.id"
       class="eligible"
+      :class="[`eligible--${badge.slug}`]"
       :href="badgeInfoUrl"
       target="_blank"
     >
@@ -57,7 +58,6 @@ export default {
   }
   &-preview {
     margin-right: 5px;
-    width: 18px;
     height: 18px;
     background-size: cover;
     background-position: center;

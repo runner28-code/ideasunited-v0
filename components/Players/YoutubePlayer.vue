@@ -15,6 +15,7 @@ export default {
   name: "YoutubePlayer",
   props: {
     youtubeId: String
+  }
 };
 </script>
 

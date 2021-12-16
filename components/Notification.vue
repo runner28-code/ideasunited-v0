@@ -78,9 +78,9 @@ export default {
 
 <style scoped lang="scss">
 .notification {
-  &-content {
     white-space: pre-line;
   }
+  &__dialog {
     position: relative;
     background: white;
     padding: 25px;
