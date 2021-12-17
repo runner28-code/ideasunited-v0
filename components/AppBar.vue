@@ -365,3 +365,5 @@ export default {
   display: none;
 }
 
+@media screen and (max-width: 944px) {
+  .menu-toggle {

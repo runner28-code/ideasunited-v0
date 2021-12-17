@@ -168,6 +168,7 @@ export default {
 .support__dialog {
   font-family: Source Sans Pro, sans-serif;
 }
+
 @media screen and (max-width: 944px) {
   .footer {
     position: static !important;
@@ -199,3 +200,4 @@ export default {
       }
     }
   }
+

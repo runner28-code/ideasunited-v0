@@ -164,3 +164,4 @@ export default {
         width: 100%;
       }
       &-square {
+        align-items: center;

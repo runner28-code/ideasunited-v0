@@ -34,6 +34,7 @@ export default function(ctx, inject) {
 
       const w = window.open(
         authorizationEndpoint,
+        "Auth",
         "width=580,height=730"
       );
       const interval = setInterval(() => {
@@ -51,3 +52,4 @@ export default function(ctx, inject) {
           reject();
         }
       }, 250);
+    });

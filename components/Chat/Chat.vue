@@ -37,6 +37,7 @@ export default {
             break;
         }
       }
+    }
   },
   beforeDestroy() {
     this.$cable.unsubscribe({
@@ -79,3 +80,4 @@ export default {
       width: 100%;
       background: #f7f7f7;
       margin: 4px;
+    }

@@ -25,7 +25,6 @@ export default {
       type: [Object, Boolean],
       default: false
     }
-  },
   methods: {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);

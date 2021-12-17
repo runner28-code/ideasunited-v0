@@ -382,3 +382,4 @@ export default {
   .menu-toggle {
     display: block;
     margin-left: 20px;
+  }

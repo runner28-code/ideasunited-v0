@@ -22,7 +22,6 @@
 
 <script>
 export default {
-  props: {
     opened: Boolean,
     suggestions: [Array, Object],
     form: Object
@@ -56,6 +55,7 @@ export default {
       this.$emit('submit');
     },
   }
+};
 </script>
 
 <style scoped lang="scss">

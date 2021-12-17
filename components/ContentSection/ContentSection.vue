@@ -363,3 +363,4 @@ export default {
   .content-section {
     padding: 40px 20px 10px 20px;
 
+    &__title,

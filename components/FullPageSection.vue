@@ -160,3 +160,4 @@ export default {
 .evp-app {
   .component,
   .component > div:not(.text-block) {
+    display: flex;

@@ -34,7 +34,7 @@
         <v-icon color="white">$close</v-icon>
       </v-btn>
       <label class="uploader" @drop.prevent="drop" @dragover.prevent>
-          {{
+        <div class="uploader__placeholder">
             (value && value.name) ||
               label + (required && markRequired ? " *" : "")
           }}
@@ -167,3 +167,5 @@ export default {
     font-size: 24px;
     text-transform: uppercase;
     opacity: 0.4;
+    font-weight: bold;
+  }

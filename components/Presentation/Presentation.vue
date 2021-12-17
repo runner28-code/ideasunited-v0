@@ -1,7 +1,6 @@
 <template>
   <div
     class="presentation"
-    v-if="presentation.broadcasting"
     :key="presentation.active_slide.id"
   >
     <PresentationImage
@@ -30,6 +29,7 @@ export default {
   },
   computed: {
     presentation() {
+      return (this.page || this.currentPage).presentations[this.value];
     }
   }
 };
@@ -37,3 +37,4 @@ export default {
 
 <style scoped lang="scss">
 .presentation {
+  height: 580px;

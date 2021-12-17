@@ -163,6 +163,7 @@ export default {
       if (!this.activeTheme) return false;
 
       return (
+        this.activeTheme.header_logo_mobile.large.url ||
         this.activeTheme.header_logo_mobile.url
       );
     },
@@ -303,7 +304,6 @@ export default {
   &__separator {
     height: 3px;
     width: 100%;
-    background: black;
     margin: 20px 0;
   }
 }
@@ -328,3 +328,4 @@ export default {
     color: white;
     background: #E12D1B;
     font-size: 14px;
+    min-width: 21px;

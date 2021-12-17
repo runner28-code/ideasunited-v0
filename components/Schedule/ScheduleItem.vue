@@ -40,6 +40,7 @@ export default {
       const result = {};
       const url =
         this.item.preview.large.url ||
+        this.activeTheme.schedule_preview.large.url;
 
       if (url) {
         result.backgroundImage = `url(${url})`;

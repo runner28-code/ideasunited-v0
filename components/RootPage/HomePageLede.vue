@@ -494,3 +494,5 @@ export default {
     opacity: 0;
   }
   &.fullscreen &__close-reel {
+    display: none;
+  }

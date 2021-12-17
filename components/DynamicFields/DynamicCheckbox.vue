@@ -23,6 +23,7 @@
 export default {
   props: {
     label: String,
+    value: [String, Object, Number, Boolean],
     rules: {
       type: Array,
       default: () => []
@@ -51,3 +52,4 @@ export default {
     .v-input--selection-controls__input {
       top: 1px;
     }
+  }

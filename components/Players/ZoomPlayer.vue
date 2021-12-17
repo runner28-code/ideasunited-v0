@@ -105,3 +105,4 @@ export default {
       font-size: 26px;
       line-height: 1.143;
       margin-bottom: 10px;
+    }

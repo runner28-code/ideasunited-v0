@@ -55,7 +55,6 @@ export default {
 .text-block {
   margin: -10px;
   display: flex;
-  flex-wrap: wrap;
 
   &__side {
     width: 50%;

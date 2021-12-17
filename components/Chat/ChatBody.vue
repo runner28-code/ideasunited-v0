@@ -38,7 +38,6 @@ export default {
             break;
         }
       }
-    }
   },
   methods: {
     newMessage(payload) {
@@ -99,3 +98,4 @@ export default {
   height: 100%;
   padding: 20px 15px;
   overflow: auto;
+  background: #f9f9f9;

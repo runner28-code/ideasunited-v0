@@ -92,3 +92,4 @@ export default {
     color: #181b23;
   }
   &__value:focus + &__placeholder {
+    opacity: 0.6;

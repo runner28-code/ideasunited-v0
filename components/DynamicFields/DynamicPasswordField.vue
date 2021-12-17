@@ -18,7 +18,6 @@ export default {
       type: Array,
       default: () => []
     },
-    required: Boolean,
     markRequired: Boolean
   },
   methods: {

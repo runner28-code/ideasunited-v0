@@ -10,7 +10,6 @@
     <AuthForm @disableAuth="$emit('disableAuth', $event)" />
   </div>
 </template>
-
 <script>
 export default {};
 </script>

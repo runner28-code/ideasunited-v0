@@ -93,6 +93,7 @@ export default {
     proxy: true,
     proxyHeaders: true,
   },
+  proxy: {
     "/api": {
       target: process.env.API_URL,
       changeOrigin: true,
@@ -127,7 +128,6 @@ export default {
         chevron_down: "mdi-chevron-down",
         arrow_left: "mdi-arrow-left",
         arrow_right: "mdi-arrow-right",
-        google: "mdi-google-plus",
         cas: "mdi-account-group",
         play: "mdi-play-circle",
         ticktok:
@@ -167,3 +167,5 @@ export default {
       },
     },
   },
+
+  // Build Configuration: https://go.nuxtjs.dev/config-build

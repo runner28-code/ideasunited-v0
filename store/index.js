@@ -9,6 +9,7 @@ export const mutations = {
     state.authUser = user;
   }
 };
+
 export const actions = {
   async nuxtServerInit({ commit }, opts) {
     const { req } = opts;
@@ -20,5 +21,4 @@ export const actions = {
 
     commit("project/set", projectData);
 
-    const { data: userData } = await this.$api.User.current();
     commit("user/set", userData);

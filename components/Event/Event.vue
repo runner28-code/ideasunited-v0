@@ -72,7 +72,6 @@
         :chat="currentPage.chats[0]"
       />
     </div>
-    <client-only>
       <Timeline v-if="currentPage.events.length" v-model="activeEvent" />
     </client-only>
     <div
@@ -187,6 +186,7 @@ export default {
       border-top: none;
     }
   }
+
   &__video {
     position: relative;
     min-height: calc(100vh - 200px);
@@ -287,3 +287,4 @@ export default {
         height: 500px;
         min-height: 400px;
       }
+

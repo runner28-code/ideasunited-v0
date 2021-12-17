@@ -8,6 +8,7 @@ const store = {
     setToken(state, token) {
       console.info('auth process.env.NODE_ENV', process.env.NODE_ENV);
       const cookieDomain =
+// Temp comment
         process.env.NODE_ENV === "development"
           ? "localhost"
           : "." + window.location.hostname;
@@ -44,6 +45,7 @@ const store = {
       return await this.$api.Auth.resetPassword(params);
     }
   },
+  getters: {
     token: state => state.token,
     isAuthenticated: state => !!state.token
   }
