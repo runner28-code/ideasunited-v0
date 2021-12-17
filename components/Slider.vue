@@ -45,6 +45,7 @@ export default {
         window.open(slide.url, slide.open_url || "_blank");
       }
     }
+  }
 };
 </script>
 
@@ -67,6 +68,5 @@ export default {
     background-size: cover;
 
     &.clickable {
-      cursor: pointer;
     }
   }

@@ -38,6 +38,7 @@ export default {
             break;
         }
       }
+    }
   },
   methods: {
     newMessage(payload) {

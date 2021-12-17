@@ -26,7 +26,6 @@ export default async function (req, res, next) {
       res.writeHead(302, { Location: project.production_redirect_url });
       return res.end();
     }
-// Temp comment
 
     if (req.url == "/k8s/health") {
       res.statusCode = 200;

@@ -128,6 +128,7 @@ export default {
         chevron_down: "mdi-chevron-down",
         arrow_left: "mdi-arrow-left",
         arrow_right: "mdi-arrow-right",
+        google: "mdi-google-plus",
         cas: "mdi-account-group",
         play: "mdi-play-circle",
         ticktok:

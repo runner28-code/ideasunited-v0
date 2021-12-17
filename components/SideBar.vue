@@ -268,7 +268,6 @@ export default {
   }
   
   &__item-small {
-    font-size: 14px;
     font-weight: 700;
     justify-content: center;
     min-height: 30px;
@@ -304,6 +303,7 @@ export default {
   &__separator {
     height: 3px;
     width: 100%;
+    background: black;
     margin: 20px 0;
   }
 }

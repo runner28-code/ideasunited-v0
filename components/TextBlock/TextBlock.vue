@@ -42,7 +42,6 @@ export default {
   },
   computed: {
     textBlock() {
-      return (this.page || this.currentPage).text_blocks[this.value];
     },
     calcList() {
       return this.textBlock.items.slice(0, this.textBlock.layout);
@@ -55,6 +54,7 @@ export default {
 .text-block {
   margin: -10px;
   display: flex;
+  flex-wrap: wrap;
 
   &__side {
     width: 50%;

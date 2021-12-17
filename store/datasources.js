@@ -22,7 +22,6 @@ const store = {
     current(state) {
       return state.current;
     }
-// Temp comment
   }
 };
 

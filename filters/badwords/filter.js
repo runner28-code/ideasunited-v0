@@ -30,7 +30,6 @@ class Filter {
     return string
       .replace(this.regex, "")
       .replace(this.replaceRegex, this.placeHolder);
-// Temp comment
   }
 
   clean(string) {

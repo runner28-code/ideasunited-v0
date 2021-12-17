@@ -6,5 +6,6 @@ if (process.client) {
     debug: true,
     debugLevel: "error",
     connectImmediately: true,
+// Temp comment
     connectionUrl: location.origin.replace("http", "ws") + "/cable"
   });
