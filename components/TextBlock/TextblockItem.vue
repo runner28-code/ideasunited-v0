@@ -44,7 +44,6 @@ a.text-block__item-wrapper:hover {
 
 .text-block {
   &__item {
-    position: relative;
     overflow: hidden;
     background-position: center;
     background-size: cover;
@@ -75,6 +74,7 @@ a.text-block__item-wrapper:hover {
       opacity: 1;
     }
 
+    &-title {
       font-weight: 900;
       font-size: 48px;
       line-height: 1.1;

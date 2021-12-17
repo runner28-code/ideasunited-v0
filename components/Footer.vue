@@ -37,6 +37,7 @@
           <a target="_blank" href="https://ideasunited.com/privacy">Privacy</a>
         </div>
       </div>
+    </div>
     <v-dialog width="800" v-model="supportDialog">
       <v-card class="support__dialog">
         <SupportForm :support-form="supportForm"/>
@@ -167,7 +168,6 @@ export default {
 .support__dialog {
   font-family: Source Sans Pro, sans-serif;
 }
-
 @media screen and (max-width: 944px) {
   .footer {
     position: static !important;

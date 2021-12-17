@@ -161,7 +161,6 @@ export default {
     fullPageToTop() {
       this.fullPageMoveTo(0);
     },
-    srcExt(src) {
       const parts = src.split(".");
       return parts[parts.length - 1];
     },
@@ -217,6 +216,7 @@ export default {
             }
           }
         });
+      }
     },
     keyDownHandler(e) {
       if(!e.key) return;

@@ -12,6 +12,7 @@ export default {
         setTimeout(() => {
           this.resending = false;
         }, 120000);
+// Temp comment
       } catch (e) {
         this.resending = false;
       }

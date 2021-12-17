@@ -12,6 +12,7 @@
         <div class="error-description">
           You don't have access to view this page.
         </div>
+
         <Button large to="/">Back to Home</Button>
       </div>
     </div>
@@ -21,7 +22,6 @@
 <script>
 export default {
   data() {
-    return {
       authDisabled: false
     };
   },

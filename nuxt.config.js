@@ -93,7 +93,6 @@ export default {
     proxy: true,
     proxyHeaders: true,
   },
-  proxy: {
     "/api": {
       target: process.env.API_URL,
       changeOrigin: true,

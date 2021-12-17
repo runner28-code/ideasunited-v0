@@ -29,7 +29,6 @@ export default {
       if (!this.started && event.data == 1) {
         this.started = true;
       }
-    });
   },
   methods: {
     async play() {

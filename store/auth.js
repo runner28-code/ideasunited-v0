@@ -35,7 +35,6 @@ const store = {
       commit("setToken", data.token);
 
       return await dispatch("user/fetch", null, { root: true });
-// Temp comment
     },
     async logout({ commit }) {
       commit("setToken", null);
@@ -45,7 +44,6 @@ const store = {
       return await this.$api.Auth.resetPassword(params);
     }
   },
-  getters: {
     token: state => state.token,
     isAuthenticated: state => !!state.token
   }

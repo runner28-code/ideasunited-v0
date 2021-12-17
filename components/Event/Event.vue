@@ -187,7 +187,6 @@ export default {
       border-top: none;
     }
   }
-
   &__video {
     position: relative;
     min-height: calc(100vh - 200px);

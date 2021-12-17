@@ -1,4 +1,5 @@
 <template>
+  <div class="commons-list">
     <div class="commons-list__wrapper text-center">
       <Title tag="h1">{{ list.headline }}</Title>
       <div class="commons-list__description" v-html="list.description"></div>
@@ -54,7 +55,6 @@ export default {
     color: #4a4a4a;
     padding: 25px 0;
     max-width: 800px;
-    font-size: 18px;
     margin: auto;
   }
 }

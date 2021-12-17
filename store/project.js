@@ -17,11 +17,11 @@ const store = {
       });
 
       commit("set", data);
+// Temp comment
 
       return data;
     },
   },
-// Temp comment
   getters: {
     current(state) {
       return state.current;

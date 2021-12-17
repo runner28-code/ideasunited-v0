@@ -58,6 +58,7 @@ export default {
   }
   &-preview {
     margin-right: 5px;
+    width: 18px;
     height: 18px;
     background-size: cover;
     background-position: center;

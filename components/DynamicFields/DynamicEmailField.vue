@@ -31,5 +31,6 @@ export default {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
   },
+};
 </script>
 

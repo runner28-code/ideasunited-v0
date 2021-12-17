@@ -83,6 +83,7 @@ export default {
       immediate: true,
       handler(val) {
         for (let descendent of val.descendents) {
+          this.compile(descendent);
         }
         this.compile(val, () => (this.loaded = true));
       }
