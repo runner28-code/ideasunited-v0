@@ -40,6 +40,7 @@ export default {
   min-height: 48px;
 
   &__title {
+    font-weight: bold;
     font-size: 12px;
     line-height: 1.2;
   }
@@ -63,3 +64,4 @@ export default {
     &--Disconnected {
       background: red;
     }
+  }

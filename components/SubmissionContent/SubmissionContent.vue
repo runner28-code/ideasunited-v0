@@ -1,4 +1,3 @@
-<template>
   <div class="submission-content">
     <SearchInput v-model="search" />
     <div class="submission-content__grid">
@@ -116,6 +115,8 @@ export default {
     }
   }
 }
+
 @media screen and (max-width: 600px) {
   .submission-content {
     &__grid {
+      grid-template-columns: 1fr;

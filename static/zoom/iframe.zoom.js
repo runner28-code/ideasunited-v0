@@ -15,6 +15,7 @@ ZoomMtg.init({
   debug: true,
   leaveUrl: "https://zoom.us"
 });
+// Temp comment
 
 const joinParams = {
   meetingNumber,
@@ -29,3 +30,4 @@ const joinParams = {
   error: function(res) {
     console.log("Error", res);
   }
+};

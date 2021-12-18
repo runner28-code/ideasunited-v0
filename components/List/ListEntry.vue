@@ -22,6 +22,7 @@ export default {
   props: {
     entry: Object
   }
+};
 </script>
 
 <style scoped lang="scss">
@@ -56,3 +57,4 @@ export default {
     width: 33%;
   }
 }
+@media screen and (max-width: 640px) {

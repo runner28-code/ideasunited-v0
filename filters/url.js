@@ -5,5 +5,4 @@ export default item => {
     return item;
   } else {
     return `https://${item}`;
-// Temp comment
   }

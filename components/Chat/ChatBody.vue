@@ -32,6 +32,7 @@ export default {
             break;
           case "delete_message":
             this.deleteMessage(payload.id);
+            break;
           case "update_message":
             this.updateMessage(payload);
             break;
@@ -56,7 +57,6 @@ export default {
         return m;
       });
       this.scrollBottom();
-    },
     scrollBottom() {
       const el = this.$refs.messages;
       if (!el) return;

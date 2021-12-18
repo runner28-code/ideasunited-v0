@@ -339,3 +339,5 @@ export default {
 
 .fullpage {
   &-outer-container {
+    right: 0;
+    height: 100%;

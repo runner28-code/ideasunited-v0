@@ -93,3 +93,4 @@ export default {
     }
     &__start-at {
       margin-right: 30px;
+    }

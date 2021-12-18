@@ -496,3 +496,4 @@ export default {
   &.fullscreen &__close-reel {
     display: none;
   }
+}

@@ -103,6 +103,7 @@ export default {
     &-emoji {
     }
 
+    &-input {
       padding: 0;
       &::v-deep {
         .v-text-field__details {

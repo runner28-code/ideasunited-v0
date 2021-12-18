@@ -30,7 +30,6 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 7;
 }
 
 .relative {

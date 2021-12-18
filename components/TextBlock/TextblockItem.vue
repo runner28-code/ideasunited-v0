@@ -27,6 +27,7 @@ export default {
   props: {
     item: Object
   },
+  computed: {
     styles() {
       return {
         color: this.item.text_color
@@ -109,3 +110,4 @@ a.text-block__item-wrapper:hover {
       &-wrapper {
         padding: 0;
       }
+

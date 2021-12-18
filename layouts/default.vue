@@ -32,6 +32,7 @@
     <AuthModal />
     <Alert />
     <Notification />
+    <div v-html="styles"></div>
   </v-app>
 </template>
 
@@ -297,3 +298,4 @@ export default {
 <style lang="scss">
 body {
   position: fixed;
+  width: 100%;

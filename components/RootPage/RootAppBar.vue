@@ -228,6 +228,7 @@ export default {
       border-radius: 0;
       border-width: 2px 0 0 0;
     }
+    &__content {
       padding: 10px;
       flex-grow: 1;
     }
@@ -382,3 +383,5 @@ export default {
     display: block;
     margin-left: 20px;
   }
+
+  .toolbar-title {

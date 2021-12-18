@@ -190,6 +190,7 @@ export default {
     },
     showSeparator() {
       return this.isMobile && this.menuPages.length;
+    }
   }
 };
 </script>
@@ -329,3 +330,4 @@ export default {
     background: #E12D1B;
     font-size: 14px;
     min-width: 21px;
+    height: 21px;

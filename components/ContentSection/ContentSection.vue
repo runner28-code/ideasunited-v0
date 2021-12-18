@@ -86,6 +86,7 @@ import _ from "lodash";
 export default {
   name: "ContentSection",
   props: {
+    resource_id: String,
     page: Object,
   },
   data() {
@@ -363,3 +364,5 @@ export default {
     padding: 40px 20px 10px 20px;
 
     &__title,
+    &__subtitle {
+      margin-left: 10px;

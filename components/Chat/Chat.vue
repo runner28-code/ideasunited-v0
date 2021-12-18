@@ -17,6 +17,7 @@ export default {
       status: "Connected",
       messages: []
     };
+  },
   created() {
     if (process.client) {
       console.info('Chat created this', this);
@@ -78,5 +79,4 @@ export default {
       height: 9px;
       width: 100%;
       background: #f7f7f7;
-      margin: 4px;
     }

@@ -115,7 +115,6 @@
         }}</v-icon>
       </v-btn>
     </div>
-  </v-app-bar>
 </template>
 
 <script>
@@ -329,6 +328,7 @@ export default {
         }
         &.nuxt-link-active {
           color: #e12d1b;
+        }
       }
 
       &--home_logo {
@@ -366,3 +366,5 @@ export default {
 
 @media screen and (max-width: 944px) {
   .menu-toggle {
+    display: block;
+    margin-left: 20px;

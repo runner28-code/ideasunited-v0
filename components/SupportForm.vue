@@ -76,4 +76,5 @@ export default {
     margin: 10px 0 20px 0;
   }
 
+  &__submitted {
     font-size: 24px;

@@ -55,6 +55,7 @@ export default {
       localType: this.type
     };
   },
+  computed: {
     calcTheme() {
       if(!this.activeTheme) return "light";
       else return getThemeByColor(this.activeTheme.body_background);

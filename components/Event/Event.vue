@@ -289,3 +289,4 @@ export default {
         min-height: 400px;
       }
 
+      &::v-deep {

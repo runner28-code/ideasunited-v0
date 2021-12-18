@@ -21,6 +21,7 @@
 export default {
   layout: 'simple',
   data() {
+    return {
       formModel: null,
       form: {},
       submitted: false
@@ -71,3 +72,4 @@ export default {
         width: 100%;
       }
     }
+  }

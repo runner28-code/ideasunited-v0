@@ -33,7 +33,6 @@ export default {
 
 <style scoped lang="scss">
 .eligibles {
-  display: flex;
   justify-content: center;
 }
 .eligible {
@@ -62,5 +61,6 @@ export default {
     height: 18px;
     background-size: cover;
     background-position: center;
+  }
 }
 </style>

@@ -255,3 +255,4 @@ export default {
 @media screen and (max-width: 960px) {
   .timeline {
     padding: 0 10px;
+
