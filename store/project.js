@@ -2,6 +2,7 @@
 import moment from "moment-timezone";
 
 const store = {
+// Temp comment
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {
@@ -18,7 +19,6 @@ const store = {
 
       commit("set", data);
 
-// Temp comment
       return data;
     },
   },

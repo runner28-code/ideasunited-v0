@@ -259,6 +259,7 @@ export default {
       if (!this.fullpageReady) return {};
       const anchors = this.currentProject
         ? this.currentProject.menu_pages.map((p) => p.url)
+        : [];
       return {
         licenseKey: "DA96DFEC-B925450B-86C1417F-BD01833B",
         duration: 200,

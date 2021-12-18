@@ -1,4 +1,5 @@
 <template>
+  <div class="eligibles">
     <a
       v-for="badge in value"
       :key="badge.id"
@@ -61,6 +62,5 @@ export default {
     height: 18px;
     background-size: cover;
     background-position: center;
-  }
 }
 </style>

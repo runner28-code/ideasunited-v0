@@ -1,4 +1,5 @@
 <template>
+  <div class="chat-header">
     <div
       class="chat-header__status"
       :class="`chat-header__status--${status}`"
@@ -39,7 +40,6 @@ export default {
   min-height: 48px;
 
   &__title {
-    font-weight: bold;
     font-size: 12px;
     line-height: 1.2;
   }

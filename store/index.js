@@ -2,6 +2,7 @@ import moment from "moment-timezone";
 
 export const state = () => ({
   authUser: null
+});
 
 export const mutations = {
   SET_USER: function(state, user) {
@@ -20,4 +21,3 @@ export const actions = {
 
     commit("project/set", projectData);
 
-    const { data: userData } = await this.$api.User.current();

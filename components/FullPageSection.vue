@@ -98,6 +98,7 @@ export default {
     min-height: 100%;
     &::after {
       content: "";
+      display: block;
       height: 84px;
       width: 100%;
     }

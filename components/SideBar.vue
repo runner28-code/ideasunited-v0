@@ -190,7 +190,6 @@ export default {
     },
     showSeparator() {
       return this.isMobile && this.menuPages.length;
-    }
   }
 };
 </script>
@@ -268,6 +267,7 @@ export default {
   }
   
   &__item-small {
+    font-size: 14px;
     font-weight: 700;
     justify-content: center;
     min-height: 30px;

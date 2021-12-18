@@ -62,7 +62,6 @@ export default {
     deleteMessage() {
       this.$api.Message.destroy(this.message.id);
     },
-    blockUser() {
       if (confirm("Are you sure?")) {
         this.$api.Message.blockUser({ message_id: this.message.id });
       }

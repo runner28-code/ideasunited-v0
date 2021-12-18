@@ -68,5 +68,6 @@ export default {
     background-size: cover;
 
     &.clickable {
+      cursor: pointer;
     }
   }

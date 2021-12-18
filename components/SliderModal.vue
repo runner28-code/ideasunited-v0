@@ -116,7 +116,6 @@ export default {
   .v-btn.slider-modal__arrow:not(.v-btn--text):not(.v-btn--outlined):focus:before {
     opacity: 0.72;
     color: #000;
-  }
 }
 .slider-modal {
   position: relative;
@@ -165,16 +164,3 @@ export default {
 
 @media screen and (max-width: 944px) {
   .slider-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-height: 100% !important;
-    max-width: 100vw !important;
-    &__wrapper {
-      padding: 0 !important;
-      position: fixed;
-      width: 100vw;
-    }
-
-    &__next,

@@ -86,7 +86,6 @@ import _ from "lodash";
 export default {
   name: "ContentSection",
   props: {
-    resource_id: String,
     page: Object,
   },
   data() {

@@ -125,7 +125,6 @@ export default {
 
 <style scoped lang="scss">
 .content-block-info {
-  max-height: 100vh;
   .slider-modal-content {
 
     &__content {

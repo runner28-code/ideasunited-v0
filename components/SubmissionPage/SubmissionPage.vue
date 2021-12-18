@@ -41,5 +41,6 @@ export default {
     margin: auto;
     width: 100%;
   }
+  &__description {
     font-size: 18px;
     margin: 25px 0;

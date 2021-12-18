@@ -329,7 +329,6 @@ export default {
         }
         &.nuxt-link-active {
           color: #e12d1b;
-        }
       }
 
       &--home_logo {
