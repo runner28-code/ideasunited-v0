@@ -30,7 +30,6 @@ export default {
     };
   },
   methods: {
-    evalInContext(string) {
       try {
         return eval("this." + string);
       } catch (error) {

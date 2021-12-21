@@ -93,7 +93,6 @@ export default {
       max-width: 150px;
       margin-bottom: 1em;
     }
-  }
 }
 
 @media screen and (max-width: 960px) {

@@ -1,3 +1,4 @@
+<template>
   <div class="submission-content">
     <SearchInput v-model="search" />
     <div class="submission-content__grid">
@@ -100,7 +101,6 @@ export default {
 <style scoped lang="scss">
 .submission-content {
   &__grid {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

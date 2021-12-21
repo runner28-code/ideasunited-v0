@@ -94,7 +94,6 @@ export default {
     height: 100%;
   }
 }
-@media screen and (max-width: 960px) {
   .zoom-player {
     padding-bottom: 15%;
     &__title {

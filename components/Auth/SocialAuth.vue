@@ -46,7 +46,6 @@ export default {
         }
       }
     };
-  },
   methods: {
     async oauth(provider) {
       // try {

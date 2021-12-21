@@ -115,6 +115,7 @@
         }}</v-icon>
       </v-btn>
     </div>
+  </v-app-bar>
 </template>
 
 <script>
@@ -215,7 +216,6 @@ export default {
   &.v-sheet.v-toolbar {
     box-shadow: none !important;
   }
-  &::v-deep {
     .v-toolbar__content {
       transition: 0.3s;
       height: auto !important;

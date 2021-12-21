@@ -109,7 +109,6 @@ export default {
     //   ws: true
     // }
   },
-// Temp comment
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {

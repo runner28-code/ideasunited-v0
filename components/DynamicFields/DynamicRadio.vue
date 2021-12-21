@@ -36,6 +36,7 @@ export default {
     required: Boolean,
     markRequired: Boolean
   },
+  methods: {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
@@ -45,7 +46,6 @@ export default {
 
 <style scoped lang="scss">
 .radio-group {
-  margin-bottom: 30px;
   &__required {
     color: red;
     margin-left: 3px;

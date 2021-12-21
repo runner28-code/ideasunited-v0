@@ -14,6 +14,5 @@ export default function (ctx, inject) {
     password: (v) =>
       (v && v.length >= 6) || "Password must be at least 6 characters long",
     passwordConfirmation: (password) => (v) =>
-      v == password || "Password and confirmation are different",
   });
 }

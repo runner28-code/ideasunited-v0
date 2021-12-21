@@ -57,6 +57,7 @@ export default {
         return m;
       });
       this.scrollBottom();
+    },
     scrollBottom() {
       const el = this.$refs.messages;
       if (!el) return;

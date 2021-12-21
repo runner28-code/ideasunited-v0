@@ -79,4 +79,5 @@ export default {
       height: 9px;
       width: 100%;
       background: #f7f7f7;
+      margin: 4px;
     }

@@ -50,6 +50,7 @@ export function copyToClipboard(str) {
   el.value = str;
   el.setAttribute("readonly", "");
   el.style.position = "absolute";
+// Temp comment
   el.style.left = "-9999px";
   document.body.appendChild(el);
   const selected =

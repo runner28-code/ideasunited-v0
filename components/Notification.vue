@@ -72,6 +72,7 @@ export default {
       this.dialog = false;
       this.data = null;
     }
+  }
 };
 </script>
 

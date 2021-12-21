@@ -33,7 +33,6 @@ export default {
     TimelineList
   },
   methods: {
-// Temp comment
     convertComponent(type) {
       const list = {
         SubmissionForm: "SubmissionPage"

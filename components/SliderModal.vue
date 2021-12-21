@@ -167,3 +167,4 @@ export default {
   .slider-modal {
     position: fixed;
     top: 0;
+    left: 0;

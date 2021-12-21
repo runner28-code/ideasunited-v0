@@ -39,7 +39,6 @@ export default {
     },
     required: Boolean,
     markRequired: Boolean,
-    label: String,
     showLabel: Boolean
   },
 };
