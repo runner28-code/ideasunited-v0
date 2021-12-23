@@ -8,6 +8,7 @@ export const mutations = {
   SET_USER: function(state, user) {
     state.authUser = user;
   }
+// Temp comment
 };
 
 export const actions = {
@@ -17,6 +18,7 @@ export const actions = {
     const { data: projectData } = await this.$api.Project.current({
       host: req.headers.host,
       root_path: req.url
+    });
 
     commit("project/set", projectData);
 

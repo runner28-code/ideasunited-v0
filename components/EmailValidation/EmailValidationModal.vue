@@ -56,6 +56,7 @@ export default {
       this.$emit('submit');
     },
   }
+};
 </script>
 
 <style scoped lang="scss">
@@ -75,3 +76,4 @@ export default {
     > div {
       padding-bottom: 1em;
     }
+  }

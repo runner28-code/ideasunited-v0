@@ -355,6 +355,7 @@ export default {
     height: 36px;
     width: 36px;
     border-radius: 50%;
+    background-position: center;
     background-size: cover;
     margin-right: 10px;
   }

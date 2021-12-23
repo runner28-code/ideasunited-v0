@@ -12,7 +12,6 @@
       :rules="rules"
       @focus.stop="onFocus($event)"
     >
-      <v-radio
         v-for="item in options"
         :key="item.uuid"
         :label="item.title"
@@ -46,6 +45,7 @@ export default {
 
 <style scoped lang="scss">
 .radio-group {
+  margin-bottom: 30px;
   &__required {
     color: red;
     margin-left: 3px;
@@ -55,3 +55,4 @@ export default {
   }
   &__label {
     font-weight: bold;
+  }

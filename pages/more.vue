@@ -16,7 +16,6 @@
       </nuxt-link>
     </v-responsive>
   </div>
-</template>
 
 <script>
 export default {

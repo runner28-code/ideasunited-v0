@@ -20,7 +20,6 @@
         class="alert__message"
         v-html="alert.message"
         @click="onclick"
-      ></div>
     </v-alert>
   </v-snackbar>
 </template>

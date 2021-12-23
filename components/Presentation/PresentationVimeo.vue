@@ -33,7 +33,6 @@ export default {
 
     this.play();
   },
-  methods: {
     async play() {
       this.player.setCurrentTime(this.newSlideSettings.time || 0);
       this.player.setVolume(0.6);

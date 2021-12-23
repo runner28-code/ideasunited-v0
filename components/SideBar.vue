@@ -72,6 +72,7 @@
         User Portal
       </v-list-item>
       <v-list-item
+        v-if="!currentUser"
         class="rightsidebar__item"
         @click.prevent="clickLogin()"
         v-ripple="false"
@@ -316,7 +317,6 @@ export default {
 
 <style lang="scss">
 .rightsidebar {
-  .v-navigation-drawer__content {
     padding: 4em 16px 20px 17px;
     display: flex;
     flex-direction: column;

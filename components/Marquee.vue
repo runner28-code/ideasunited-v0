@@ -46,7 +46,6 @@ export default {
   width: 100%;
   will-change: transform, margin-left;
   overflow-x: hidden;
-  overflow-y: hidden;
   &-text {
     width: max-content;
   }

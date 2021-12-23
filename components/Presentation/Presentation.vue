@@ -27,6 +27,7 @@ export default {
   props: {
     value: String,
     page: Object,
+  },
   computed: {
     presentation() {
       return (this.page || this.currentPage).presentations[this.value];

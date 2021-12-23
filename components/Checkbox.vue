@@ -36,7 +36,7 @@ export default {
 .checkbox {
   margin: 8px 0;
 
-  &::v-deep {
     .v-label {
+      display: block !important;
     }
   }

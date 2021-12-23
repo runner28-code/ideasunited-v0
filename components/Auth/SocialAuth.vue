@@ -1,5 +1,4 @@
 <template>
-  <div>
     <div
       @click="oauth('cas')"
       class="social-auth__cas"
@@ -46,6 +45,7 @@ export default {
         }
       }
     };
+  },
   methods: {
     async oauth(provider) {
       // try {

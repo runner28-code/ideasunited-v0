@@ -22,7 +22,6 @@
 <script>
 export default {
   props: {
-    supportForm: Object,
     page: Object,
   },
   data() {
@@ -78,3 +77,4 @@ export default {
 
   &__submitted {
     font-size: 24px;
+  }

@@ -13,6 +13,7 @@ export default {
           this.resending = false;
         }, 120000);
       } catch (e) {
+// Temp comment
         this.resending = false;
       }
     }

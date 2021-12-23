@@ -29,6 +29,7 @@ export default async function (req, res, next) {
 
     if (req.url == "/k8s/health") {
       res.statusCode = 200;
+      res.end("Live");
       return;
     }
 
@@ -40,7 +41,6 @@ export default async function (req, res, next) {
       }
       res.statusCode = 200;
       return res.end("OAUTH HUB");
-    }
 
     console.log("host: ", host);
 

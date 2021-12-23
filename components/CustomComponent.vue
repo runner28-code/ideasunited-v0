@@ -68,6 +68,7 @@ export default {
             sfc_name + "_" + component.updated_at + ".vue",
             options
           ).then(compiledComponent => {
+            Vue.component(sfc_name, compiledComponent);
 
             if (callback) callback();
             this.key = component.updated_at;

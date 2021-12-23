@@ -216,6 +216,7 @@ export default {
   &.v-sheet.v-toolbar {
     box-shadow: none !important;
   }
+  &::v-deep {
     .v-toolbar__content {
       transition: 0.3s;
       height: auto !important;
@@ -368,3 +369,4 @@ export default {
   .menu-toggle {
     display: block;
     margin-left: 20px;
+  }

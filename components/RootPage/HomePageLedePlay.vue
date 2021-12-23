@@ -83,7 +83,6 @@
     right: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   &__btn {

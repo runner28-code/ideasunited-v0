@@ -38,7 +38,6 @@ export default {
     Countdown,
     Event,
     TextBlock,
-    Schedule,
     List,
     SubmissionPage,
     HtmlBlock,

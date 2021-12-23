@@ -4,7 +4,6 @@ const urlRegexp =
   /^(?:|http(s)?:\/\/?)[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
 
 export default function (ctx, inject) {
-  inject("rules", {
     email: (v) => !v || emailRegexp.test(v) || "Incorrect email",
     url: (v) => !v || urlRegexp.test(v) || "Incorrect URL",
 
@@ -14,5 +13,6 @@ export default function (ctx, inject) {
     password: (v) =>
       (v && v.length >= 6) || "Password must be at least 6 characters long",
     passwordConfirmation: (password) => (v) =>
+      v == password || "Password and confirmation are different",
   });
 }
