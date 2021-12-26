@@ -4,6 +4,7 @@
       v-if="fullpageReady"
       class="opportunity-page"
       :class="`opportunity-${currentProject.id}`"
+    >
       <transition name="fade">
         <div
           class="background-lede"
@@ -340,3 +341,4 @@ export default {
   &-outer-container {
     right: 0;
     height: 100%;
+    @media screen and (max-width: 944px) {

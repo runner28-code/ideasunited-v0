@@ -38,7 +38,6 @@ export default {
         backgroundColor: this.color
       };
     },
-    initals() {
       return (this.name || "Anon")
         .split(" ")
         .map(n => n[0])
@@ -61,3 +60,4 @@ export default {
   height: 30px;
   border-radius: 50%;
   color: white;
+  display: flex;

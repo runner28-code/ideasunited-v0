@@ -30,7 +30,6 @@ export default {
         this.started = true;
       }
     });
-  },
   methods: {
     async play() {
       this.player.seekTo(this.newSlideSettings.time || 0);
@@ -75,3 +74,4 @@ export default {
     position: absolute;
     z-index: 1;
     background: transparent;
+  }

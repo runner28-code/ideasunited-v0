@@ -10,7 +10,6 @@
         </div>
       </li>
     </ul>
-  </div>
 </template>
 
 <script>
@@ -82,3 +81,4 @@ export default {
   &__text {
     padding-left: 21px;
     margin-bottom: 1em;
+  }

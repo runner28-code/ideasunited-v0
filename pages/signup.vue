@@ -8,6 +8,7 @@
       <v-btn
         @click.prevent="logout()"
       >
+        Logout
       </v-btn>
     </div>
   </div>

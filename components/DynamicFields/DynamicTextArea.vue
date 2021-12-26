@@ -14,6 +14,7 @@
 <script>
 export default {
   props: {
+    label: String,
     value: String,
     rules: {
       type: Array,
@@ -37,3 +38,4 @@ export default {
       line-height: 1.2;
     }
   }
+}

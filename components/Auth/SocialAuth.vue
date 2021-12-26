@@ -1,4 +1,5 @@
 <template>
+  <div>
     <div
       @click="oauth('cas')"
       class="social-auth__cas"
@@ -124,3 +125,4 @@ export default {
     &--cas {
       width: 100%;
       margin: 0;
+    }

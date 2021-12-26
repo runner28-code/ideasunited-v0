@@ -366,3 +366,4 @@ export default {
     &__title,
     &__subtitle {
       margin-left: 10px;
+      margin-right: 10px;

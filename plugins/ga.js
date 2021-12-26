@@ -1,5 +1,4 @@
 import Vue from "vue";
-// Temp comment
 import VueGtag from "vue-gtag";
 
 export default ctx => {
@@ -7,6 +6,7 @@ export default ctx => {
 
   if (isProduction) {
     Vue.use(
+// Temp comment
       VueGtag,
       {
         config: { id: 'G-3H7VEBMHL7' },

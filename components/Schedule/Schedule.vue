@@ -79,3 +79,4 @@ export default {
 @media screen and (max-width: 960px) {
   .schedule {
     padding: 40px 20px;
+  }

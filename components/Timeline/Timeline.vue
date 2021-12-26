@@ -256,3 +256,4 @@ export default {
   .timeline {
     padding: 0 10px;
 
+    &__control {

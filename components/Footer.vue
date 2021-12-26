@@ -201,3 +201,4 @@ export default {
     }
   }
 
+  .footer__logo {

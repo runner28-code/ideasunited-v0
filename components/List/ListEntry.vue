@@ -24,7 +24,6 @@ export default {
   }
 };
 </script>
-
 <style scoped lang="scss">
 .list-entry {
   width: 25%;
@@ -58,3 +57,4 @@ export default {
   }
 }
 @media screen and (max-width: 640px) {
+  .list-entry {

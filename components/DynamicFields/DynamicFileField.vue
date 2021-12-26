@@ -59,7 +59,6 @@ export default {
   text-align: center;
   position: relative;
   height: 100px;
-  margin-bottom: 30px;
 
   &-wrapper {
     position: relative;

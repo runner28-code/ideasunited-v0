@@ -317,6 +317,7 @@ export default {
 
 <style lang="scss">
 .rightsidebar {
+  .v-navigation-drawer__content {
     padding: 4em 16px 20px 17px;
     display: flex;
     flex-direction: column;
@@ -330,3 +331,4 @@ export default {
     font-size: 14px;
     min-width: 21px;
     height: 21px;
+    border-radius: 50%;

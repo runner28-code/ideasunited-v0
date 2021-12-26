@@ -118,3 +118,4 @@ export default {
       justify-content: space-between;
       font-size: 11px;
       margin: 0 -9px;
+    }

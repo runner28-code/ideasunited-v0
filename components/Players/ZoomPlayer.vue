@@ -58,7 +58,6 @@ export default {
         full_name,
         email
       });
-    }
   },
 };
 </script>

@@ -16,6 +16,7 @@
       </nuxt-link>
     </v-responsive>
   </div>
+</template>
 
 <script>
 export default {
@@ -84,3 +85,4 @@ export default {
     &__item {
       max-width: 100%;
     }
+  }

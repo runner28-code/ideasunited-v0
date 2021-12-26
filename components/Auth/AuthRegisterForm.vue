@@ -127,7 +127,6 @@ export default {
       this.chooseSignUp = false;
       this.updateDialogState();
     },
-    clickRegister() {
       this.loginFormRequest = true;
       this.chooseSignUp = true;
       this.updateDialogState();
@@ -174,6 +173,7 @@ export default {
 
 .register {
   &__title {
+    color: #262729;
     text-align: center;
     font-size: 28px;
     line-height: 1.2;
@@ -230,3 +230,4 @@ export default {
     margin-top: 40px;
     margin-bottom: 20px;
     .v-btn {
+      margin-bottom: 10px;

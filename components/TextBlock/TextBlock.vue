@@ -132,3 +132,4 @@ export default {
     position: absolute !important;
     top: 0;
     bottom: 0;
+    left: 0;

@@ -40,3 +40,4 @@ export default {
 
       return list[type] || type;
     },
+  },

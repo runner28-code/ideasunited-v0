@@ -165,3 +165,4 @@ export default {
       }
       &-square {
         align-items: center;
+      }

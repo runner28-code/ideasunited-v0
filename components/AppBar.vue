@@ -370,3 +370,5 @@ export default {
     display: block;
     margin-left: 20px;
   }
+  .app-bar__dropdown-title {
+    font-size: 14px;

@@ -25,7 +25,6 @@
       </div>
       <v-btn
         @click="remove"
-        color="red"
         v-if="value"
         fab
         small
@@ -171,3 +170,4 @@ export default {
     font-weight: bold;
   }
 
+  &__upload-btn {

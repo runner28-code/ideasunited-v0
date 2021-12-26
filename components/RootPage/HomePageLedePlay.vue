@@ -83,6 +83,7 @@
     right: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   &__btn {
@@ -137,3 +138,4 @@
     transform: rotate(360deg);
   }
 }
+.root-lede-play__ring-spinning-text {

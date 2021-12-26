@@ -16,6 +16,7 @@ const store = {
         cookies.set("authToken", token, null, null, cookieDomain);
       } else {
         cookies.remove("authToken", null, cookieDomain);
+      }
     }
   },
   actions: {
@@ -48,3 +49,5 @@ const store = {
     isAuthenticated: state => !!state.token
   }
 };
+
+export default store;

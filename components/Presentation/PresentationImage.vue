@@ -17,6 +17,7 @@ export default {
 
 <style lang="scss" scoped>
 .presentation-image {
+  width: 100%;
   height: 100%;
   background-position: center center;
   background-size: contain;

@@ -67,6 +67,7 @@ export default {
 <style scoped lang="scss">
 .submission-item-content {
   .slider-modal-content__content {
+    display: flex;
     align-items: center;
     overflow: auto;
     max-height: 100%;
