@@ -499,3 +499,4 @@ export default {
 }
 
 @supports (-webkit-text-stroke: 0.047619em) {
+  .root-lede__header {

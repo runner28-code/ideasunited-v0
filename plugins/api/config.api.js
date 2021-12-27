@@ -63,7 +63,6 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
         $nuxt.$alert(errors.join("\n"), "error");
       }
 
-      if (redirect_to && route.path != redirect_to) {
         redirect(redirect_to);
       }
 

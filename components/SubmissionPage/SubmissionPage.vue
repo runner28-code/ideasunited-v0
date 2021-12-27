@@ -29,6 +29,7 @@ export default {
   computed: {
     submissionForm() {
       return (this.page || this.currentPage).submission_forms[this.value];
+    },
   },
 };
 </script>
@@ -42,5 +43,4 @@ export default {
   }
   &__description {
     font-size: 18px;
-    margin: 25px 0;
     color: #4a4a4a;

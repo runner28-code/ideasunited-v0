@@ -30,6 +30,7 @@ export default {
         this.started = true;
       }
     });
+  },
   methods: {
     async play() {
       this.player.seekTo(this.newSlideSettings.time || 0);

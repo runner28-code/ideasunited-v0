@@ -386,3 +386,4 @@ export default {
 
   .toolbar-title {
     padding: 30px 10px 30px 10px;
+  }

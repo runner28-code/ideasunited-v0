@@ -100,3 +100,4 @@ export default {
   padding: 20px 15px;
   overflow: auto;
   background: #f9f9f9;
+  flex: 1;

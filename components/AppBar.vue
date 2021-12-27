@@ -372,3 +372,5 @@ export default {
   }
   .app-bar__dropdown-title {
     font-size: 14px;
+  }
+  .app-bar {

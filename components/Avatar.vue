@@ -38,6 +38,7 @@ export default {
         backgroundColor: this.color
       };
     },
+    initals() {
       return (this.name || "Anon")
         .split(" ")
         .map(n => n[0])

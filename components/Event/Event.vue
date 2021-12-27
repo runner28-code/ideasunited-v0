@@ -291,3 +291,4 @@ export default {
 
       &::v-deep {
         .chat {
+          width: 100%;

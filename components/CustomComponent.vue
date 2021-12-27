@@ -80,6 +80,7 @@ export default {
   watch: {
     customComponent: {
       deep: true,
+      immediate: true,
       handler(val) {
         for (let descendent of val.descendents) {
           this.compile(descendent);
@@ -89,3 +90,4 @@ export default {
     }
   }
 };
+</script>

@@ -1,5 +1,4 @@
 <template>
-  <client-only>
     <div class="spinner" :class="{ relative }">
       <HollowDotsSpinner
         :animation-duration="1000"
@@ -27,6 +26,7 @@ export default {
   top: 0;
   bottom: 0;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   z-index: 7;

@@ -32,7 +32,6 @@ export default {
     presentation() {
       return (this.page || this.currentPage).presentations[this.value];
     }
-  }
 };
 </script>
 

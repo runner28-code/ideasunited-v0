@@ -35,7 +35,6 @@ export default {
       this.checkPasswordToken();
     }
   },
-  methods: {
     async checkPasswordToken() {
       try {
         const { data } = await this.$api.Auth.checkPasswordToken({

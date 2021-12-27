@@ -16,7 +16,6 @@ export default {
     label: String,
     value: String,
     rules: {
-      type: Array,
       default: () => []
     },
     required: Boolean,
@@ -26,4 +25,5 @@ export default {
     onFocus($event) {
       this.$root.$emit("fullpageScrollFocus", $event.srcElement);
     }
+  },
 };

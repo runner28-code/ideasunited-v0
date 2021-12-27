@@ -112,3 +112,4 @@ a.text-block__item-wrapper:hover {
       }
 
       &-title {
+        font-size: 32px;

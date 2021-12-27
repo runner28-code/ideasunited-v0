@@ -332,3 +332,4 @@ export default {
     min-width: 21px;
     height: 21px;
     border-radius: 50%;
+    text-align: center;

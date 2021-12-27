@@ -24,6 +24,7 @@ export default {
   }
 };
 </script>
+
 <style scoped lang="scss">
 .list-entry {
   width: 25%;
@@ -47,7 +48,6 @@ export default {
   &__subtitle {
     font-size: 14px;
     color: black;
-    white-space: pre-line;
   }
 }
 

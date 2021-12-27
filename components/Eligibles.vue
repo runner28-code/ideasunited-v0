@@ -21,7 +21,6 @@
 import { frontendToProfile } from "@/utils";
 export default {
   props: {
-    value: Array,
   },
   data() {
     return {

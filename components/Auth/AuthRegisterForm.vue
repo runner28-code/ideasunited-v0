@@ -127,6 +127,7 @@ export default {
       this.chooseSignUp = false;
       this.updateDialogState();
     },
+    clickRegister() {
       this.loginFormRequest = true;
       this.chooseSignUp = true;
       this.updateDialogState();
@@ -231,3 +232,4 @@ export default {
     margin-bottom: 20px;
     .v-btn {
       margin-bottom: 10px;
+    }

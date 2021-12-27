@@ -25,6 +25,7 @@
       </div>
       <v-btn
         @click="remove"
+        color="red"
         v-if="value"
         fab
         small
@@ -171,3 +172,4 @@ export default {
   }
 
   &__upload-btn {
+    background: #f5f5f5e0 !important;

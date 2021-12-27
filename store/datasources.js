@@ -1,5 +1,4 @@
 /* eslint-disable */
-import Vue from "vue";
 
 const store = {
   namespaced: true,
@@ -7,7 +6,6 @@ const store = {
 
   mutations: {
     set(state, data) {
-// Temp comment
       state.data = data;
     }
   },

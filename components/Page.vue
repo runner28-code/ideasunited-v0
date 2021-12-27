@@ -342,3 +342,4 @@ export default {
     right: 0;
     height: 100%;
     @media screen and (max-width: 944px) {
+      height: auto;

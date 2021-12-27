@@ -44,7 +44,6 @@ export default {
     this.fetchSignature();
   },
   methods: {
-    openZoomLink() {
       window.open(this.event.zoom_url, "_blank");
     },
     async fetchSignature() {
@@ -58,6 +57,7 @@ export default {
         full_name,
         email
       });
+    }
   },
 };
 </script>
@@ -105,3 +105,4 @@ export default {
       line-height: 1.143;
       margin-bottom: 10px;
     }
+  }
