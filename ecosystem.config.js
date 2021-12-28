@@ -8,3 +8,4 @@ module.exports = {
       args: "start"
     }
   ]
+};

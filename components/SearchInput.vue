@@ -93,3 +93,4 @@ export default {
   }
   &__value:focus + &__placeholder {
     opacity: 0.6;
+  }

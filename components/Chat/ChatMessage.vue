@@ -35,6 +35,7 @@
       </template>
       <v-list>
         <v-list-item @click="deleteMessage">
+          <v-list-item-title>Delete message</v-list-item-title>
         </v-list-item>
         <v-list-item @click="deleteAllMessagesAndBlock">
           <v-list-item-title>Delete all messages from user</v-list-item-title>

@@ -31,7 +31,6 @@ export default {
     await store.dispatch("user/fetch");
     const page = await store.dispatch("page/fetch", {
       url: route.params.pathMatch
-    });
     return {
       page
     };

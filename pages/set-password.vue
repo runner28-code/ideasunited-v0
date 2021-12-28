@@ -35,6 +35,7 @@ export default {
       this.checkPasswordToken();
     }
   },
+  methods: {
     async checkPasswordToken() {
       try {
         const { data } = await this.$api.Auth.checkPasswordToken({
@@ -58,7 +59,6 @@ export default {
         this.$store.dispatch("user/fetch");
         this.$router.push("/").catch(() => {});
       } catch (e) {
-        console.error(e);
       }
     }
   }
@@ -99,3 +99,4 @@ export default {
         width: 100%;
       }
     }
+  }

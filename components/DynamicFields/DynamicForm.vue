@@ -210,3 +210,4 @@ export default {
 </script>
 <style lang="scss" scoped>
 .dynamic-form {
+  &__description {

@@ -62,3 +62,4 @@ export default {
   border-radius: 50%;
   color: white;
   display: flex;
+  align-items: center;

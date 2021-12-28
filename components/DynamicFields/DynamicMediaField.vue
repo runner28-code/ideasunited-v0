@@ -84,7 +84,6 @@ export default {
     showLabel: Boolean,
     fileInput: Boolean
   },
-  methods: {
     handleChange(event) {
       if(event.target.files.length == 0) return;
       const file = event.target.files[0];
@@ -173,3 +172,4 @@ export default {
 
   &__upload-btn {
     background: #f5f5f5e0 !important;
+  }

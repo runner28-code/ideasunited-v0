@@ -23,7 +23,6 @@ export default {
     };
   },
   created() {
-    this.fetchSignature();
   },
   methods: {
     async fetchSignature() {
@@ -51,3 +50,4 @@ export default {
     width: 100%;
     height: 100%;
   }
+}

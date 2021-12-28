@@ -21,7 +21,6 @@
     />
   </div>
 </template>
-
 <script>
 export default {
   props: {
@@ -32,6 +31,7 @@ export default {
     presentation() {
       return (this.page || this.currentPage).presentations[this.value];
     }
+  }
 };
 </script>
 

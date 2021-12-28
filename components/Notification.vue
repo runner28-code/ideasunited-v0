@@ -69,6 +69,7 @@ export default {
       this.data = null;
     },
     closeDialog() {
+      this.dialog = false;
       this.data = null;
     }
   }
@@ -91,3 +92,4 @@ export default {
     &-content {
       padding: 100px 35px 25px 35px;
     }
+  }

@@ -125,6 +125,7 @@ export default {
   display: flex;
   min-height: 80vh;
   margin: 0 !important;
+
   &__wrapper {
     padding: 0 40px !important;
     display: flex;
@@ -171,3 +172,4 @@ export default {
     max-height: 100% !important;
     max-width: 100vw !important;
     &__wrapper {
+      padding: 0 !important;

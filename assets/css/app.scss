@@ -42,9 +42,9 @@ html {
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
 }
-.fade-enter, .fade-leave-to {
   opacity: 0;
 }
+
 @media screen and (max-width: 944px) {
   .v-main {
     padding-bottom: 0 !important;

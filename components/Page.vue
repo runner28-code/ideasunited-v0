@@ -343,3 +343,4 @@ export default {
     height: 100%;
     @media screen and (max-width: 944px) {
       height: auto;
+      position: relative;

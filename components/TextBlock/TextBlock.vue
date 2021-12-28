@@ -102,6 +102,7 @@ export default {
     margin: 0;
 
     &__side {
+      min-height: 200px;
       width: 100%;
     }
   }
@@ -132,3 +133,4 @@ export default {
     top: 0;
     bottom: 0;
     left: 0;
+    right: 0;

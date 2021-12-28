@@ -25,7 +25,6 @@ export default {
       { hid: "description", name: "description", content: "" },
     ],
     link: [],
-  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["~/assets/css/app.scss"],
@@ -173,3 +172,4 @@ export default {
   build: {
     extend(config) {
       config.resolve.alias["vue"] = "vue/dist/vue.common";
+    },

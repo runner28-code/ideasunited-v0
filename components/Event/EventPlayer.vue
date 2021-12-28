@@ -31,6 +31,7 @@ export default {
   props: {
     event: Object
   },
+  computed: {
     styles() {
       const url =
         this.event.background?.large?.url ||
@@ -56,3 +57,4 @@ export default {
       height: 100%;
     }
   }
+}

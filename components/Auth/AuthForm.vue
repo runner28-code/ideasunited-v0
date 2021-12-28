@@ -112,7 +112,6 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
 .forgot-password-link {
   text-decoration: underline;
   cursor: pointer;
@@ -163,6 +162,7 @@ export default {
     background: rgba(0, 0, 0, 0.05);
 
     &:not(.active):hover {
+      background: rgba(0, 0, 0, 0.1);
     }
 
     &:not(.active) {

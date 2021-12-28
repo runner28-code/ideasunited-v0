@@ -81,3 +81,4 @@ export default {
       background: #f7f7f7;
       margin: 4px;
     }
+  }

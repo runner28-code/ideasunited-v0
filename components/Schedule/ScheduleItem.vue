@@ -50,6 +50,7 @@ export default {
 
       return result;
     },
+  }
 };
 </script>
 
@@ -94,3 +95,4 @@ export default {
       margin-right: 30px;
     }
     &__description {
+      margin-top: 0px;

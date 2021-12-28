@@ -161,7 +161,6 @@ export default {
     &-name {
       width: 100%;
     }
-  }
 
   &__now-playing {
     font-weight: bold;

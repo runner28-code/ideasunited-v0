@@ -202,3 +202,4 @@ export default {
   }
 
   .footer__logo {
+    width: 321px;

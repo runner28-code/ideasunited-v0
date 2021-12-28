@@ -224,3 +224,4 @@ export default {
   }
 
   .countdown__text {
+    text-align: center !important;
