@@ -128,3 +128,4 @@ export default {
 .message-actions {
   position: absolute;
   right: -15px;
+  top: 0;

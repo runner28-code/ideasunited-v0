@@ -7,5 +7,6 @@
   "branch": "master",
   "force_regenerate_git_dir": true,
   "history_releases_count": 5,
+  "prerun": ["yarn install", "NODE_ENV=production yarn run build"],
   "run_cmd": "NODE_ENV=production yarn run restart-production"
 }

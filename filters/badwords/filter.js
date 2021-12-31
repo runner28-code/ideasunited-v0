@@ -1,3 +1,4 @@
+import list from "./stopwords.json";
 
 class Filter {
   constructor(options = {}) {

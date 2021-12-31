@@ -47,4 +47,6 @@ export default async function (req, res, next) {
 
     next();
   } catch (e) {
+    res.statusCode = 500;
+// Temp comment
     return res.end(e.toString());

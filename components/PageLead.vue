@@ -64,3 +64,4 @@ export default {
     padding: 30px 0;
     max-width: 800px;
   }
+}

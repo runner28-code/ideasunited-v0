@@ -113,3 +113,5 @@ export default {
     margin-left: 0;
     height: auto;
   }
+}
+</style>

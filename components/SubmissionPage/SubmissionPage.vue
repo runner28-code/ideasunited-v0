@@ -11,6 +11,7 @@
         :btn-text="submissionForm.btn_text"
         :success-message="submissionForm.success_message"
       />
+    </div>
   </div>
 </template>
 
@@ -40,7 +41,6 @@ export default {
     margin: auto;
     width: 100%;
   }
-  &__description {
     font-size: 18px;
     margin: 25px 0;
     color: #4a4a4a;

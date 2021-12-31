@@ -19,7 +19,6 @@ const store = {
           commit("setLoaded", true);
           resolve();
         });
-      });
     }
   }
 };

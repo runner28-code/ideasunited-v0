@@ -207,6 +207,7 @@ export default {
       if(fpScrollable) {
         fpScrollable.scrollTo(0, 0);
 
+        this.$nextTick(() => {
           if(this.keyIsDown) {
 
             const viewportOffset = elem.getBoundingClientRect();
@@ -343,3 +344,4 @@ export default {
     @media screen and (max-width: 944px) {
       height: auto;
       position: relative;
+    }

@@ -48,7 +48,9 @@ export default function(ctx, inject) {
           return;
         }
 
+        if (w.closed) {
           reject();
         }
       }, 250);
     });
+  });

@@ -325,7 +325,6 @@ export default {
       return (1440 / 810);
     }
   }
-}
 </script>
 
 <style lang="scss" scoped>
@@ -502,3 +501,4 @@ export default {
   .root-lede__header {
     opacity: 1.0;
     -webkit-text-stroke: 0.047619em;
+    -webkit-text-fill-color: transparent;

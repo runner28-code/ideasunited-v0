@@ -162,3 +162,4 @@ export default {
   .component > div:not(.text-block) {
     display: flex;
     flex-direction: column;
+  }

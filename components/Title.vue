@@ -34,7 +34,6 @@ export default {
   line-height: 1.1;
 }
 
-@media screen and (max-width: 944px) {
   .h1 {
     font-size: 30px !important;
   }

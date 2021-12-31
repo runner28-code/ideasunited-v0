@@ -52,7 +52,6 @@ export default {
       hours: 0,
       minutes: 0,
       seconds: 0,
-      interval: null,
       visible: false
     };
   },
@@ -177,6 +176,7 @@ export default {
 @media screen and (max-width: 944px) {
   .countdown-wrapper {
     padding: 20px 50px;
+  }
   .countdown-timer {
     margin: 15px 0;
     height: 30px;

@@ -156,13 +156,13 @@ export default {
     async getOpportunityNotifications() {
       const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
-    },
   },
   computed: {
     logo() {
       if (!this.activeTheme) return false;
 
       return (
+        this.activeTheme.header_logo_mobile.large.url ||
         this.activeTheme.header_logo_mobile.url
       );
     },
@@ -333,3 +333,4 @@ export default {
     border-radius: 50%;
     text-align: center;
     margin-bottom: 0.1em;
+    margin-left: 0.25em;

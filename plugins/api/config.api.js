@@ -28,6 +28,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       requestConfig.paramsSerializer = params => {
         return Qs.stringify(params, {
           arrayFormat: "brackets",
+          encode: false
         });
       };
 
@@ -43,6 +44,7 @@ export default ({ $axios, redirect, route, $cookies, req }) => {
       if (responseConfig.data) {
         const { alert, redirect_to } = responseConfig.data;
 
+// Temp comment
         if (process.browser) {
           if (alert) {
             $nuxt.$alert(alert, "success");

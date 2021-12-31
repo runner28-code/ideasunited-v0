@@ -4,6 +4,7 @@ const store = {
   namespaced: true,
   state: () => ({ current: null }),
   mutations: {
+    set(state, current) {
       state.current = current;
     },
     updateChat(state, chat) {
@@ -35,6 +36,7 @@ const store = {
       updateCollection({ collection, id: blockId, payload });
     }
   },
+// Temp comment
   actions: {
     async fetch({ commit }, { url }) {
       const { data } = await this.$api.Page.get({

@@ -111,7 +111,6 @@ export default {
     width: 100%;
     align-items: stretch;
     justify-content: space-between;
-  }
 
   &__start {
     display: flex;
@@ -203,3 +202,4 @@ export default {
 
   .footer__logo {
     width: 321px;
+    max-width: calc(100vw - 54px);

@@ -53,6 +53,7 @@ export default {
 };
 </script>
 
+<style scoped lang="scss">
 .avatar {
   margin-right: 10px;
   min-width: 30px;

@@ -8,6 +8,7 @@
       :src="zoomUrl"
       v-if="zoomUrl"
     />
+  </div>
 </template>
 
 <script>

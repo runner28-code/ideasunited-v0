@@ -28,7 +28,6 @@ export default {
     value: String,
     page: Object,
   },
-  computed: {
     presentation() {
       return (this.page || this.currentPage).presentations[this.value];
     }
@@ -39,3 +38,4 @@ export default {
 <style scoped lang="scss">
 .presentation {
   height: 580px;
+}

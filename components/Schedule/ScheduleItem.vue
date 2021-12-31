@@ -96,3 +96,7 @@ export default {
     }
     &__description {
       margin-top: 0px;
+    }
+  }
+}
+</style>

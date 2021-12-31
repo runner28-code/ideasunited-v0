@@ -32,7 +32,6 @@ export default {
               ? this.$refs.marqueetext.offsetWidth / 50
               : 25
             this.animating =
-              this.$refs.marqueetext.offsetWidth > window.innerWidth
           }
         })
       }
@@ -63,3 +62,4 @@ export default {
     transform: translate(-100%, 0);
     margin-left: 100%;
   }
+}

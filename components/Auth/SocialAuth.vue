@@ -126,3 +126,4 @@ export default {
       width: 100%;
       margin: 0;
     }
+  }

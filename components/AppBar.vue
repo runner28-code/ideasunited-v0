@@ -376,3 +376,4 @@ export default {
   .app-bar {
     &__start {
       padding: 0 10px;
+    }

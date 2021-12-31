@@ -174,3 +174,4 @@ export default {
     &__wrapper {
       padding: 0 !important;
       position: fixed;
+      width: 100vw;

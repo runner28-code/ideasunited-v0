@@ -84,7 +84,6 @@ export default {
             )
           }
         });
-      }
 
       const fontkitIds = _.uniq(typekitFonts.map(font => font.typekit_id));
 
@@ -234,3 +233,4 @@ body {
     position: fixed;
     .v-navigation-drawer__content {
       padding-top: 83px;
+    }

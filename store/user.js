@@ -19,6 +19,7 @@ const store = {
         const cookieDomain =
           process.env.NODE_ENV === "development"
             ? "localhost"
+            : "." + window.location.hostname;
         var d = new Date();
         d.setDate(d.getDate() + 7);
         this.$cookies.set(
@@ -38,9 +39,9 @@ const store = {
     },
   },
   getters: {
-    current(state) {
       return state.current;
     },
   },
 };
 
+export default store;
