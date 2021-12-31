@@ -68,7 +68,6 @@ export default {
       } else {
         this.localType = "password";
       }
-    },
     validate() {
       this.$refs.input.validate(true);
     },

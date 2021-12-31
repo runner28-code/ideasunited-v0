@@ -21,7 +21,6 @@ if (!Vue.__map_state_mixin__) {
       },
       async $confirm({ title, description }) {
         return new Promise((resolve) => {
-// Temp comment
           this.$root.$emit("confirmDialog", {
             title,
             description,
@@ -55,6 +54,7 @@ if (!Vue.__map_state_mixin__) {
         },
       }),
       activeTheme() {
+// Temp comment
         return (
           this.currentPage?.active_theme || this.currentProject?.active_theme
         );

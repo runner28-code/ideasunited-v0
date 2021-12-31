@@ -11,7 +11,6 @@
       <div
         class="eligible-preview"
         :style="{ backgroundImage: `url(${badge.preview.url})` }"
-      ></div>
       <div class="eligible-label">{{ badge.title }}</div>
     </a>
   </div>
@@ -39,6 +38,7 @@ export default {
 .eligible {
   display: flex;
   align-items: center;
+  margin-right: 20px;
   text-decoration: none;
 
   &--bronze {

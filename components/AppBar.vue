@@ -211,7 +211,6 @@ export default {
   min-height: calc(100vh - 72px) !important;
   overflow: auto;
   width: 232px;
-  position: absolute;
 
   &.v-sheet.v-toolbar {
     box-shadow: none !important;

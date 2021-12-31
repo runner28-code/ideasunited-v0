@@ -4,7 +4,6 @@
       {{
         (value.display_time || value.start_at)
           | moment("timezone", currentTimezone, "dddd MMM Do")
-      }}
     </div>
     <v-responsive
       @click="setActive"
@@ -81,6 +80,7 @@ export default {
         borderColor: this.isActive
           ? this.activeTheme.primary_color
           : "rgba(16, 24, 32, 0.6)"
+      };
     },
     aspectRatio() {
       const aspectRatio = {

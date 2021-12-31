@@ -31,7 +31,6 @@ export default {
       this.authDisabled = val;
     }
   }
-};
 </script>
 
 <style scoped lang="scss">

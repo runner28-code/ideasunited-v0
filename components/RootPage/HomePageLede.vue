@@ -325,6 +325,7 @@ export default {
       return (1440 / 810);
     }
   }
+}
 </script>
 
 <style lang="scss" scoped>

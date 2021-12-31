@@ -36,7 +36,6 @@ const store = {
       updateCollection({ collection, id: blockId, payload });
     }
   },
-// Temp comment
   actions: {
     async fetch({ commit }, { url }) {
       const { data } = await this.$api.Page.get({
@@ -45,7 +44,6 @@ const store = {
 
       commit("set", data);
 
-      return data;
     }
   },
   getters: {

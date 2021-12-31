@@ -6,4 +6,5 @@
 export default {
   props: {
     html: String
+  }
 };

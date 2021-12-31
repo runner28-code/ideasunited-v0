@@ -12,7 +12,6 @@ export default {
     return {
       seconds: 25,
       animating: false
-    }
   },
   computed: {
     animStyle() {
@@ -32,6 +31,7 @@ export default {
               ? this.$refs.marqueetext.offsetWidth / 50
               : 25
             this.animating =
+              this.$refs.marqueetext.offsetWidth > window.innerWidth
           }
         })
       }

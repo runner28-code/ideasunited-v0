@@ -25,7 +25,6 @@
       </div>
       <Button large @click="openZoomLink">Click to Connect</Button>
     </div>
-  </div>
 </template>
 <script>
 import { buildZoomLink } from "@/utils";
