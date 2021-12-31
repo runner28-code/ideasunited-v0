@@ -211,6 +211,7 @@ export default {
   min-height: calc(100vh - 72px) !important;
   overflow: auto;
   width: 232px;
+  position: absolute;
 
   &.v-sheet.v-toolbar {
     box-shadow: none !important;
@@ -376,3 +377,14 @@ export default {
     &__start {
       padding: 0 10px;
     }
+
+    &__nav {
+      display: none;
+    }
+  }
+}
+
+.menu-item-hidden {
+  display: none;
+}
+</style>

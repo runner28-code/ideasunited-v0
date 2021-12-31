@@ -389,3 +389,9 @@ export default {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .app-bar .search {
+    display: none;
+  }
+}
+</style>

@@ -258,3 +258,7 @@ export default {
 
     &__control {
       display: none;
+    }
+  }
+}
+</style>

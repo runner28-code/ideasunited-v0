@@ -40,3 +40,4 @@ export default {
 .presentation {
   height: 580px;
 }
+</style>

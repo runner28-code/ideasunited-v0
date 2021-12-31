@@ -211,3 +211,7 @@ export default {
 <style lang="scss" scoped>
 .dynamic-form {
   &__description {
+    font-size: 14px;
+  }
+}
+</style>

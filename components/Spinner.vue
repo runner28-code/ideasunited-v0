@@ -37,3 +37,4 @@ export default {
   position: relative !important;
   min-height: 200px;
 }
+</style>

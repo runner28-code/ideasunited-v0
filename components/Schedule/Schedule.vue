@@ -80,3 +80,5 @@ export default {
   .schedule {
     padding: 40px 20px;
   }
+}
+</style>

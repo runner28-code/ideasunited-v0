@@ -234,3 +234,8 @@ export default {
       margin-bottom: 10px;
     }
     .btn_back-to-login {
+      margin-right: 1em;
+    }
+  }
+}
+</style>

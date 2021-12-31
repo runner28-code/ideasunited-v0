@@ -19,6 +19,7 @@ export default {
     value: String,
     page: Object,
   },
+  data() {
     return {
       search: ""
     };
@@ -64,3 +65,4 @@ export default {
     padding: 40px 20px;
   }
 }
+</style>

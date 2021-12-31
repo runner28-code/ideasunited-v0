@@ -370,3 +370,10 @@ export default {
     }
 
     &__blocks {
+      &::v-deep .content-section-item {
+        max-width: calc(50% - 10px);
+      }
+    }
+  }
+}
+</style>

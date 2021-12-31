@@ -64,6 +64,7 @@ export default {
         width: 100%;
       }
     }
+  }
 }
 </style>
 
@@ -72,3 +73,8 @@ export default {
   .register {
     max-width: 590px;
   }
+  .signup-btn.theme--light.v-btn.v-btn--has-bg {
+    background-color: white;
+  }
+}
+</style>

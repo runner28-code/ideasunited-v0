@@ -44,6 +44,7 @@ const store = {
 
       commit("set", data);
 
+      return data;
     }
   },
   getters: {
@@ -59,3 +60,6 @@ const updateCollection = ({ collection, id, payload }) => {
   if (item) {
     Object.assign(item, payload);
   }
+};
+
+export default store;

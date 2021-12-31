@@ -41,6 +41,7 @@ export default {
     layout: Object
   },
   computed: {
+    content() {
       return this.layout.content
         .map(t => ({
           ...this.formattedData[t.field_id],
@@ -75,3 +76,5 @@ export default {
       margin: auto;
     }
   }
+}
+</style>

@@ -69,3 +69,7 @@ export default {
 
     &.clickable {
       cursor: pointer;
+    }
+  }
+}
+</style>

@@ -13,3 +13,4 @@ ENV PORT=8000
 
 RUN NODE_ENV=production yarn build --dotenv=.env.prod
 
+CMD [ "yarn", "start", "--dotenv=.env.prod" ]

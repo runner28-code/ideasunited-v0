@@ -122,3 +122,6 @@ export default {
     &__grid {
       grid-template-columns: 1fr;
     }
+  }
+}
+</style>

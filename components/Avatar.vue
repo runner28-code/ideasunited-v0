@@ -2,6 +2,7 @@
   <div class="avatar" :style="styles" v-bind="$attrs">
     {{ initals }}
   </div>
+</template>
 
 <script>
 import { getHash } from "@/utils";
@@ -62,3 +63,7 @@ export default {
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+}
+</style>

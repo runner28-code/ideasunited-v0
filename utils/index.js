@@ -87,3 +87,15 @@ export function getThemeByColor(color) {
   } else {
     return "dark";
   }
+}
+
+export function frontendToProfile() {
+  const redirectTo = {};
+  redirectTo["http://localhost:8000"] = "http://localhost:8081";
+  redirectTo["https://community.ideasunited.com"] =
+    "https://profile.community.ideasunited.com";
+  redirectTo["https://staging-community.ideasunited.com"] =
+    "https://profile.staging-community.ideasunited.com";
+
+  return redirectTo;
+}

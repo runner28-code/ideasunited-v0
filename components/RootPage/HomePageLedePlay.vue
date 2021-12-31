@@ -140,3 +140,6 @@
 }
 .root-lede-play__ring-spinning-text {
   transform-origin: center;
+  animation: rotating 25s linear infinite;
+}
+</style>

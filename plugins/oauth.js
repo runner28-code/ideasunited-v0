@@ -19,6 +19,7 @@ const providers = {
 export default function(ctx, inject) {
   inject("oauth", provider => {
     return new Promise((resolve, reject) => {
+      console.log(process.env["ROOT_DOMAIN"]);
 
       let { authorizationEndpoint } = providers[provider];
       localStorage.removeItem("token");
@@ -53,3 +54,4 @@ export default function(ctx, inject) {
       }, 250);
     });
   });
+}

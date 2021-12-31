@@ -8,3 +8,4 @@ export default {
     html: String
   }
 };
+</script>

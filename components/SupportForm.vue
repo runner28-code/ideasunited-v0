@@ -79,3 +79,5 @@ export default {
   &__submitted {
     font-size: 24px;
   }
+}
+</style>

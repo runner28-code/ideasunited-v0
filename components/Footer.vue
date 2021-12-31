@@ -204,3 +204,6 @@ export default {
   .footer__logo {
     width: 321px;
     max-width: calc(100vw - 54px);
+  }
+}
+</style>

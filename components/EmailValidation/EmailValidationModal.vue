@@ -77,3 +77,5 @@ export default {
       padding-bottom: 1em;
     }
   }
+}
+</style>

@@ -72,3 +72,4 @@ export default {
 .btn::v-deep span {
   font-weight: bold;
 }
+</style>

@@ -42,6 +42,7 @@ export default {
     { src: "~/plugins/timeago.js" },
     { src: "~/plugins/vimeo.js", ssr: false },
     { src: "~/plugins/ga.js", ssr: false },
+    { src: "~/plugins/oauth.js", ssr: false },
     { src: "~/plugins/webfont.js", ssr: false },
     { src: "~/plugins/spinner.js", ssr: false },
     { src: "~/plugins/actioncable.js", ssr: false },
@@ -174,3 +175,9 @@ export default {
       config.resolve.alias["vue"] = "vue/dist/vue.common";
     },
   },
+  watchers: {
+    webpack: {
+      ignored: "/node_modules/",
+    },
+  },
+};

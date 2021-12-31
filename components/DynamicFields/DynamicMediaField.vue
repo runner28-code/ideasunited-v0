@@ -175,3 +175,8 @@ export default {
     background: #f5f5f5e0 !important;
   }
 
+  &__input {
+    display: none;
+  }
+}
+</style>

@@ -46,3 +46,5 @@ export default {
     margin: 25px 0;
     color: #4a4a4a;
   }
+}
+</style>

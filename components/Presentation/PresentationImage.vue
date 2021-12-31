@@ -11,6 +11,7 @@
 export default {
   props: {
     slide: Object
+  }
 };
 </script>
 
@@ -21,3 +22,4 @@ export default {
   background-position: center center;
   background-size: contain;
 }
+</style>

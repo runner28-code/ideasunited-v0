@@ -76,3 +76,5 @@ export default {
     z-index: 1;
     background: transparent;
   }
+}
+</style>

@@ -93,3 +93,5 @@ export default {
       padding: 100px 35px 25px 35px;
     }
   }
+}
+</style>

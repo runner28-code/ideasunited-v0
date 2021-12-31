@@ -120,3 +120,5 @@ export default {
       margin: 0 -9px;
     }
   }
+}
+</style>

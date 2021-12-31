@@ -503,3 +503,11 @@ export default {
     opacity: 1.0;
     -webkit-text-stroke: 0.047619em;
     -webkit-text-fill-color: transparent;
+  }
+}
+
+#irismask {
+  position: absolute;
+  z-index: 3;
+}
+</style>

@@ -235,3 +235,7 @@ body {
     .v-navigation-drawer__content {
       padding-top: 83px;
     }
+  }
+}
+
+</style>

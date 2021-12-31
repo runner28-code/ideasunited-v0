@@ -41,3 +41,6 @@ class Filter {
       })
       .join(join ? join[0] : "");
   }
+}
+
+export default new Filter();

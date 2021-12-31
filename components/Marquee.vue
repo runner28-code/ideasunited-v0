@@ -12,6 +12,7 @@ export default {
     return {
       seconds: 25,
       animating: false
+    }
   },
   computed: {
     animStyle() {
@@ -63,3 +64,4 @@ export default {
     margin-left: 100%;
   }
 }
+</style>

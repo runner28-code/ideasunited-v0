@@ -13,6 +13,7 @@
     <template #label>
       <slot>
         <span v-html="label"></span>
+      </slot>
     </template>
   </v-checkbox>
 </template>
@@ -41,3 +42,4 @@ export default {
     }
   }
 }
+</style>

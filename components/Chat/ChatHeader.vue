@@ -23,6 +23,7 @@ export default {
       },
       disconnected() {
         this.status = "Disconnected";
+      }
     }
   }
 };
@@ -64,3 +65,5 @@ export default {
       background: red;
     }
   }
+}
+</style>

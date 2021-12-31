@@ -129,3 +129,5 @@ export default {
   position: absolute;
   right: -15px;
   top: 0;
+}
+</style>

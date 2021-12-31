@@ -106,3 +106,5 @@ export default {
   &__input {
     display: none;
   }
+}
+</style>

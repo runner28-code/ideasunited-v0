@@ -101,3 +101,5 @@ export default {
   overflow: auto;
   background: #f9f9f9;
   flex: 1;
+}
+</style>

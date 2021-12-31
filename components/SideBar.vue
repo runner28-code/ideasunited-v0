@@ -154,6 +154,7 @@ export default {
       this.$emit('input', false);
     },
     async getOpportunityNotifications() {
+      const { data } = await this.$api.SubmissionForm.get();
       this.newOpps = data;
     },
   },
@@ -334,3 +335,8 @@ export default {
     text-align: center;
     margin-bottom: 0.1em;
     margin-left: 0.25em;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+}
+</style>

@@ -57,3 +57,5 @@ export default {
   &__label {
     font-weight: bold;
   }
+}
+</style>

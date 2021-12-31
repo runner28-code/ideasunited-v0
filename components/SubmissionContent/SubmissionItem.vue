@@ -140,3 +140,5 @@ export default {
   &:hover {
     filter: brightness(120%);
   }
+}
+</style>

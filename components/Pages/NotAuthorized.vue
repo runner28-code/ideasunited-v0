@@ -31,6 +31,7 @@ export default {
       this.authDisabled = val;
     }
   }
+};
 </script>
 
 <style scoped lang="scss">
@@ -42,3 +43,4 @@ export default {
   margin: auto;
   height: 100%;
 }
+</style>

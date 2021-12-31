@@ -4,6 +4,7 @@
       {{
         (value.display_time || value.start_at)
           | moment("timezone", currentTimezone, "dddd MMM Do")
+      }}
     </div>
     <v-responsive
       @click="setActive"
@@ -195,3 +196,6 @@ export default {
 
   &.active &__now-playing {
     display: inline-flex;
+  }
+}
+</style>

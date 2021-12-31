@@ -250,6 +250,7 @@ export default {
     min-width: 50%;
   }
   &__chat {
+    width: 100%;
     height: calc(100vh - 200px);
     min-height: 500px;
   }
@@ -292,3 +293,8 @@ export default {
         .chat {
           width: 100%;
         }
+      }
+    }
+  }
+}
+</style>

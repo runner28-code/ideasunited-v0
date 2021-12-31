@@ -83,3 +83,5 @@ export default {
     padding-left: 21px;
     margin-bottom: 1em;
   }
+}
+</style>

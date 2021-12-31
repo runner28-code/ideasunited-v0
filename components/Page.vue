@@ -345,3 +345,9 @@ export default {
       height: auto;
       position: relative;
     }
+  }
+  &-container {
+    overflow: unset;
+  }
+}
+</style>

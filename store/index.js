@@ -23,3 +23,5 @@ export const actions = {
 
     const { data: userData } = await this.$api.User.current();
     commit("user/set", userData);
+  }
+};
