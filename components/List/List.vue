@@ -14,6 +14,7 @@
 </template>
 
 <script>
+export default {
   props: {
     value: String,
     page: Object,
@@ -63,3 +64,4 @@
   .commons-list {
     padding: 40px 20px;
   }
+}

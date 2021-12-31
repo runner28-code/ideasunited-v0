@@ -207,7 +207,6 @@ export default {
       if(fpScrollable) {
         fpScrollable.scrollTo(0, 0);
 
-        this.$nextTick(() => {
           if(this.keyIsDown) {
 
             const viewportOffset = elem.getBoundingClientRect();

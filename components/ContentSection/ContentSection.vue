@@ -29,7 +29,6 @@
         v-for="(block, index) in filteredBlocks"
         :key="block.id"
         :nextId="getId(index + 1)"
-        :prevId="getId(index - 1)"
         :block="block"
         :hiding="hideBlock(index)"
       />
@@ -369,3 +368,4 @@ export default {
       margin-right: 10px;
     }
 
+    &__blocks {

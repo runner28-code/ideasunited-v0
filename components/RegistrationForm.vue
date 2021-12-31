@@ -182,3 +182,4 @@ export default {
   }
 
   &-hidden {
+    max-height: 0;

@@ -278,7 +278,6 @@ export default {
     text-transform: capitalize;
   }
   &__item {
-    padding: 0 30px !important;
     display: flex;
     align-items: center;
     color: white;

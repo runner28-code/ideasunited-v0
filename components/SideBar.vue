@@ -163,7 +163,6 @@ export default {
       if (!this.activeTheme) return false;
 
       return (
-        this.activeTheme.header_logo_mobile.large.url ||
         this.activeTheme.header_logo_mobile.url
       );
     },
@@ -333,3 +332,4 @@ export default {
     height: 21px;
     border-radius: 50%;
     text-align: center;
+    margin-bottom: 0.1em;

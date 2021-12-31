@@ -27,7 +27,6 @@ const store = {
     },
     async register({ commit, dispatch }, params) {
       const { data } = await this.$api.Auth.register(params);
-// Temp comment
       commit("setToken", data.token);
       return await dispatch("user/fetch", null, { root: true });
     },

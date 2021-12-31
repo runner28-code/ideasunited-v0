@@ -177,7 +177,6 @@ export default {
 @media screen and (max-width: 944px) {
   .countdown-wrapper {
     padding: 20px 50px;
-  }
   .countdown-timer {
     margin: 15px 0;
     height: 30px;
@@ -225,3 +224,7 @@ export default {
 
   .countdown__text {
     text-align: center !important;
+    font-size: 1em;
+  }
+}
+</style>

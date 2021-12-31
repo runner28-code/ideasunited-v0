@@ -174,6 +174,7 @@ export default {
           y: document.documentElement.clientWidth * .0556 + 100,
           x: document.documentElement.clientWidth * 0.5,
           width: document.documentElement.clientWidth * this.$size == 'xl' ? 0.38 : 0.41667,
+          height: document.documentElement.clientWidth * 0.3472,
           ease: Power1.easeOut,
           duration: 0.5,
         }, "irisrestored")
@@ -500,3 +501,4 @@ export default {
 @supports (-webkit-text-stroke: 0.047619em) {
   .root-lede__header {
     opacity: 1.0;
+    -webkit-text-stroke: 0.047619em;

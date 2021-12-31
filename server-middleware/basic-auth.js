@@ -47,5 +47,4 @@ export default async function (req, res, next) {
 
     next();
   } catch (e) {
-    res.statusCode = 500;
     return res.end(e.toString());

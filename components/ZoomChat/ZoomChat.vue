@@ -8,7 +8,6 @@
       :src="zoomUrl"
       v-if="zoomUrl"
     />
-  </div>
 </template>
 
 <script>
@@ -23,6 +22,7 @@ export default {
     };
   },
   created() {
+    this.fetchSignature();
   },
   methods: {
     async fetchSignature() {

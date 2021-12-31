@@ -50,7 +50,6 @@ export default {
     nextId: String,
     hiding: Boolean
   },
-  data() {
     return {
       dialog: false
     };

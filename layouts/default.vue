@@ -110,7 +110,6 @@ export default {
     }
   },
   mounted() {
-    this.$root.$on("toggleDrawer", () => {
       this.drawer = !this.drawer;
     });
     this.$root.$on("mobileScrollTo", (y) => {
@@ -299,3 +298,4 @@ export default {
 body {
   position: fixed;
   width: 100%;
+  overflow-anchor: none;

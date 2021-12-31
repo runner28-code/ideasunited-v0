@@ -97,6 +97,7 @@ export default {
 <style scoped lang="scss">
 .submission-item {
   cursor: pointer;
+  background-size: cover;
   display: flex;
   align-items: flex-end;
   padding: 20px;

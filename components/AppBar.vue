@@ -253,6 +253,7 @@ export default {
     &:hover {
       opacity: 0.8;
     }
+
     &-title {
       font-size: 20px;
       font-weight: bold;
@@ -374,3 +375,4 @@ export default {
   }
   .app-bar {
     &__start {
+      padding: 0 10px;

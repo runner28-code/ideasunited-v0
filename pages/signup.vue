@@ -58,6 +58,7 @@ export default {
     max-width: 400px;
     width: 100%;
 
+    &::v-deep {
       .text-field {
         margin-bottom: 20px;
         width: 100%;

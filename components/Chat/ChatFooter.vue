@@ -113,9 +113,9 @@ export default {
     }
 
     &-bottom {
-      display: flex;
       align-items: center;
       justify-content: space-between;
       font-size: 11px;
       margin: 0 -9px;
     }
+  }

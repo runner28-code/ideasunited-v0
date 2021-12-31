@@ -233,3 +233,4 @@ export default {
     .v-btn {
       margin-bottom: 10px;
     }
+    .btn_back-to-login {

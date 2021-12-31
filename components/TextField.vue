@@ -50,7 +50,6 @@ export default {
     block: Boolean,
     name: String
   },
-  data() {
     return {
       localType: this.type
     };

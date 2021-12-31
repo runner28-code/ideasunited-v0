@@ -257,3 +257,4 @@ export default {
     padding: 0 10px;
 
     &__control {
+      display: none;

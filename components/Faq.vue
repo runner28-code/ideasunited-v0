@@ -111,3 +111,4 @@ export default {
     .mdi-chevron-down::before {
       display: none;
     }
+  }

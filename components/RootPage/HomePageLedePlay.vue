@@ -139,3 +139,4 @@
   }
 }
 .root-lede-play__ring-spinning-text {
+  transform-origin: center;
